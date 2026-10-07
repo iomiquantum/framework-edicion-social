@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "version": "0.1.0",
+  "default": false,
+  "safety_floor_required": true,
+  "qa_passes": [
+    "visual_editorial",
+    "audio_rhythm",
+    "final_integration"
+  ],
+  "exact_export_qa_required": true,
+  "render_approval_required": true,
+  "specialized_voice_cleanup": "explicit_request_only",
+  "automatic_promotion": false,
+  "timing_helper": "scripts/medir_fases_edicion.py",
+  "process_timer": "scripts/medir_proceso.py",
+  "reuse_guard": "scripts/qa_reuse_context.py",
+  "evidence_report": "scripts/workflow_run.py",
+  "limits": "Execution profile selection does not approve media, authorize publication, or prove speed/quality. Existing skills and project rules remain applicable.",
+  "profile_id": "flujo-3",
+  "name": "Esencial",
+  "status": "experimental_ready_for_pilot",
+  "creative_scope": "simplified_approved_template_with_contextual_content",
+  "execution": [
+    "Flow2 organization and integrity guards",
+    "Prefer eligible approved template, stable phrase captions and proven motion",
+    "Use fitting existing resources; no decorative generation to fill a slot",
+    "Prefer one short support insert when needed; avoid custom diagrams/3D/new transition designs by default",
+    "Keep voice direction, hook SFX and minimum distinct identities, contextual music",
+    "Escalate incompatible scope with notice, preserve previous run and explicit user limits"
+  ],
+  "creative_reductions": [
+    "less custom motion",
+    "less resource exploration",
+    "less bespoke layout"
+  ],
+  "quality_reductions": []
+}

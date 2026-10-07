@@ -1,0 +1,2050 @@
+{
+  "engine": "Google YAMNet float32 / LiteRT2.2.0 CPU2threads",
+  "labels": [
+    "Speech",
+    "Child speech, kid speaking",
+    "Conversation",
+    "Narration, monologue",
+    "Babbling",
+    "Speech synthesizer",
+    "Shout",
+    "Bellow",
+    "Whoop",
+    "Yell",
+    "Children shouting",
+    "Screaming",
+    "Whispering",
+    "Laughter",
+    "Baby laughter",
+    "Giggle",
+    "Snicker",
+    "Belly laugh",
+    "Chuckle, chortle",
+    "Crying, sobbing",
+    "Baby cry, infant cry",
+    "Whimper",
+    "Wail, moan",
+    "Sigh",
+    "Singing",
+    "Choir",
+    "Yodeling",
+    "Chant",
+    "Mantra",
+    "Child singing",
+    "Synthetic singing",
+    "Rapping",
+    "Humming",
+    "Groan",
+    "Grunt",
+    "Whistling",
+    "Breathing",
+    "Wheeze",
+    "Snoring",
+    "Gasp",
+    "Pant",
+    "Snort",
+    "Cough",
+    "Throat clearing",
+    "Sneeze",
+    "Sniff",
+    "Run",
+    "Shuffle",
+    "Walk, footsteps",
+    "Chewing, mastication",
+    "Biting",
+    "Gargling",
+    "Stomach rumble",
+    "Burping, eructation",
+    "Hiccup",
+    "Fart",
+    "Hands",
+    "Finger snapping",
+    "Clapping",
+    "Heart sounds, heartbeat",
+    "Heart murmur",
+    "Cheering",
+    "Applause",
+    "Chatter",
+    "Crowd",
+    "Hubbub, speech noise, speech babble",
+    "Children playing",
+    "Animal",
+    "Domestic animals, pets",
+    "Dog",
+    "Bark",
+    "Yip",
+    "Howl",
+    "Bow-wow",
+    "Growling",
+    "Whimper (dog)",
+    "Cat",
+    "Purr",
+    "Meow",
+    "Hiss",
+    "Caterwaul",
+    "Livestock, farm animals, working animals",
+    "Horse",
+    "Clip-clop",
+    "Neigh, whinny",
+    "Cattle, bovinae",
+    "Moo",
+    "Cowbell",
+    "Pig",
+    "Oink",
+    "Goat",
+    "Bleat",
+    "Sheep",
+    "Fowl",
+    "Chicken, rooster",
+    "Cluck",
+    "Crowing, cock-a-doodle-doo",
+    "Turkey",
+    "Gobble",
+    "Duck",
+    "Quack",
+    "Goose",
+    "Honk",
+    "Wild animals",
+    "Roaring cats (lions, tigers)",
+    "Roar",
+    "Bird",
+    "Bird vocalization, bird call, bird song",
+    "Chirp, tweet",
+    "Squawk",
+    "Pigeon, dove",
+    "Coo",
+    "Crow",
+    "Caw",
+    "Owl",
+    "Hoot",
+    "Bird flight, flapping wings",
+    "Canidae, dogs, wolves",
+    "Rodents, rats, mice",
+    "Mouse",
+    "Patter",
+    "Insect",
+    "Cricket",
+    "Mosquito",
+    "Fly, housefly",
+    "Buzz",
+    "Bee, wasp, etc.",
+    "Frog",
+    "Croak",
+    "Snake",
+    "Rattle",
+    "Whale vocalization",
+    "Music",
+    "Musical instrument",
+    "Plucked string instrument",
+    "Guitar",
+    "Electric guitar",
+    "Bass guitar",
+    "Acoustic guitar",
+    "Steel guitar, slide guitar",
+    "Tapping (guitar technique)",
+    "Strum",
+    "Banjo",
+    "Sitar",
+    "Mandolin",
+    "Zither",
+    "Ukulele",
+    "Keyboard (musical)",
+    "Piano",
+    "Electric piano",
+    "Organ",
+    "Electronic organ",
+    "Hammond organ",
+    "Synthesizer",
+    "Sampler",
+    "Harpsichord",
+    "Percussion",
+    "Drum kit",
+    "Drum machine",
+    "Drum",
+    "Snare drum",
+    "Rimshot",
+    "Drum roll",
+    "Bass drum",
+    "Timpani",
+    "Tabla",
+    "Cymbal",
+    "Hi-hat",
+    "Wood block",
+    "Tambourine",
+    "Rattle (instrument)",
+    "Maraca",
+    "Gong",
+    "Tubular bells",
+    "Mallet percussion",
+    "Marimba, xylophone",
+    "Glockenspiel",
+    "Vibraphone",
+    "Steelpan",
+    "Orchestra",
+    "Brass instrument",
+    "French horn",
+    "Trumpet",
+    "Trombone",
+    "Bowed string instrument",
+    "String section",
+    "Violin, fiddle",
+    "Pizzicato",
+    "Cello",
+    "Double bass",
+    "Wind instrument, woodwind instrument",
+    "Flute",
+    "Saxophone",
+    "Clarinet",
+    "Harp",
+    "Bell",
+    "Church bell",
+    "Jingle bell",
+    "Bicycle bell",
+    "Tuning fork",
+    "Chime",
+    "Wind chime",
+    "Change ringing (campanology)",
+    "Harmonica",
+    "Accordion",
+    "Bagpipes",
+    "Didgeridoo",
+    "Shofar",
+    "Theremin",
+    "Singing bowl",
+    "Scratching (performance technique)",
+    "Pop music",
+    "Hip hop music",
+    "Beatboxing",
+    "Rock music",
+    "Heavy metal",
+    "Punk rock",
+    "Grunge",
+    "Progressive rock",
+    "Rock and roll",
+    "Psychedelic rock",
+    "Rhythm and blues",
+    "Soul music",
+    "Reggae",
+    "Country",
+    "Swing music",
+    "Bluegrass",
+    "Funk",
+    "Folk music",
+    "Middle Eastern music",
+    "Jazz",
+    "Disco",
+    "Classical music",
+    "Opera",
+    "Electronic music",
+    "House music",
+    "Techno",
+    "Dubstep",
+    "Drum and bass",
+    "Electronica",
+    "Electronic dance music",
+    "Ambient music",
+    "Trance music",
+    "Music of Latin America",
+    "Salsa music",
+    "Flamenco",
+    "Blues",
+    "Music for children",
+    "New-age music",
+    "Vocal music",
+    "A capella",
+    "Music of Africa",
+    "Afrobeat",
+    "Christian music",
+    "Gospel music",
+    "Music of Asia",
+    "Carnatic music",
+    "Music of Bollywood",
+    "Ska",
+    "Traditional music",
+    "Independent music",
+    "Song",
+    "Background music",
+    "Theme music",
+    "Jingle (music)",
+    "Soundtrack music",
+    "Lullaby",
+    "Video game music",
+    "Christmas music",
+    "Dance music",
+    "Wedding music",
+    "Happy music",
+    "Sad music",
+    "Tender music",
+    "Exciting music",
+    "Angry music",
+    "Scary music",
+    "Wind",
+    "Rustling leaves",
+    "Wind noise (microphone)",
+    "Thunderstorm",
+    "Thunder",
+    "Water",
+    "Rain",
+    "Raindrop",
+    "Rain on surface",
+    "Stream",
+    "Waterfall",
+    "Ocean",
+    "Waves, surf",
+    "Steam",
+    "Gurgling",
+    "Fire",
+    "Crackle",
+    "Vehicle",
+    "Boat, Water vehicle",
+    "Sailboat, sailing ship",
+    "Rowboat, canoe, kayak",
+    "Motorboat, speedboat",
+    "Ship",
+    "Motor vehicle (road)",
+    "Car",
+    "Vehicle horn, car horn, honking",
+    "Toot",
+    "Car alarm",
+    "Power windows, electric windows",
+    "Skidding",
+    "Tire squeal",
+    "Car passing by",
+    "Race car, auto racing",
+    "Truck",
+    "Air brake",
+    "Air horn, truck horn",
+    "Reversing beeps",
+    "Ice cream truck, ice cream van",
+    "Bus",
+    "Emergency vehicle",
+    "Police car (siren)",
+    "Ambulance (siren)",
+    "Fire engine, fire truck (siren)",
+    "Motorcycle",
+    "Traffic noise, roadway noise",
+    "Rail transport",
+    "Train",
+    "Train whistle",
+    "Train horn",
+    "Railroad car, train wagon",
+    "Train wheels squealing",
+    "Subway, metro, underground",
+    "Aircraft",
+    "Aircraft engine",
+    "Jet engine",
+    "Propeller, airscrew",
+    "Helicopter",
+    "Fixed-wing aircraft, airplane",
+    "Bicycle",
+    "Skateboard",
+    "Engine",
+    "Light engine (high frequency)",
+    "Dental drill, dentist's drill",
+    "Lawn mower",
+    "Chainsaw",
+    "Medium engine (mid frequency)",
+    "Heavy engine (low frequency)",
+    "Engine knocking",
+    "Engine starting",
+    "Idling",
+    "Accelerating, revving, vroom",
+    "Door",
+    "Doorbell",
+    "Ding-dong",
+    "Sliding door",
+    "Slam",
+    "Knock",
+    "Tap",
+    "Squeak",
+    "Cupboard open or close",
+    "Drawer open or close",
+    "Dishes, pots, and pans",
+    "Cutlery, silverware",
+    "Chopping (food)",
+    "Frying (food)",
+    "Microwave oven",
+    "Blender",
+    "Water tap, faucet",
+    "Sink (filling or washing)",
+    "Bathtub (filling or washing)",
+    "Hair dryer",
+    "Toilet flush",
+    "Toothbrush",
+    "Electric toothbrush",
+    "Vacuum cleaner",
+    "Zipper (clothing)",
+    "Keys jangling",
+    "Coin (dropping)",
+    "Scissors",
+    "Electric shaver, electric razor",
+    "Shuffling cards",
+    "Typing",
+    "Typewriter",
+    "Computer keyboard",
+    "Writing",
+    "Alarm",
+    "Telephone",
+    "Telephone bell ringing",
+    "Ringtone",
+    "Telephone dialing, DTMF",
+    "Dial tone",
+    "Busy signal",
+    "Alarm clock",
+    "Siren",
+    "Civil defense siren",
+    "Buzzer",
+    "Smoke detector, smoke alarm",
+    "Fire alarm",
+    "Foghorn",
+    "Whistle",
+    "Steam whistle",
+    "Mechanisms",
+    "Ratchet, pawl",
+    "Clock",
+    "Tick",
+    "Tick-tock",
+    "Gears",
+    "Pulleys",
+    "Sewing machine",
+    "Mechanical fan",
+    "Air conditioning",
+    "Cash register",
+    "Printer",
+    "Camera",
+    "Single-lens reflex camera",
+    "Tools",
+    "Hammer",
+    "Jackhammer",
+    "Sawing",
+    "Filing (rasp)",
+    "Sanding",
+    "Power tool",
+    "Drill",
+    "Explosion",
+    "Gunshot, gunfire",
+    "Machine gun",
+    "Fusillade",
+    "Artillery fire",
+    "Cap gun",
+    "Fireworks",
+    "Firecracker",
+    "Burst, pop",
+    "Eruption",
+    "Boom",
+    "Wood",
+    "Chop",
+    "Splinter",
+    "Crack",
+    "Glass",
+    "Chink, clink",
+    "Shatter",
+    "Liquid",
+    "Splash, splatter",
+    "Slosh",
+    "Squish",
+    "Drip",
+    "Pour",
+    "Trickle, dribble",
+    "Gush",
+    "Fill (with liquid)",
+    "Spray",
+    "Pump (liquid)",
+    "Stir",
+    "Boiling",
+    "Sonar",
+    "Arrow",
+    "Whoosh, swoosh, swish",
+    "Thump, thud",
+    "Thunk",
+    "Electronic tuner",
+    "Effects unit",
+    "Chorus effect",
+    "Basketball bounce",
+    "Bang",
+    "Slap, smack",
+    "Whack, thwack",
+    "Smash, crash",
+    "Breaking",
+    "Bouncing",
+    "Whip",
+    "Flap",
+    "Scratch",
+    "Scrape",
+    "Rub",
+    "Roll",
+    "Crushing",
+    "Crumpling, crinkling",
+    "Tearing",
+    "Beep, bleep",
+    "Ping",
+    "Ding",
+    "Clang",
+    "Squeal",
+    "Creak",
+    "Rustle",
+    "Whir",
+    "Clatter",
+    "Sizzle",
+    "Clicking",
+    "Clickety-clack",
+    "Rumble",
+    "Plop",
+    "Jingle, tinkle",
+    "Hum",
+    "Zing",
+    "Boing",
+    "Crunch",
+    "Silence",
+    "Sine wave",
+    "Harmonic",
+    "Chirp tone",
+    "Sound effect",
+    "Pulse",
+    "Inside, small room",
+    "Inside, large room or hall",
+    "Inside, public space",
+    "Outside, urban or manmade",
+    "Outside, rural or natural",
+    "Reverberation",
+    "Echo",
+    "Noise",
+    "Environmental noise",
+    "Static",
+    "Mains hum",
+    "Distortion",
+    "Sidetone",
+    "Cacophony",
+    "White noise",
+    "Pink noise",
+    "Throbbing",
+    "Vibration",
+    "Television",
+    "Radio",
+    "Field recording"
+  ],
+  "sample_rate": 16000,
+  "window_s": 0.975,
+  "hop_s": 0.48,
+  "model_sha256": "4d8b4a53282dc83ef04e3e7dbc4fbc98082e34e44ed798e16c3a0cdd4c584faf",
+  "human_listener": false,
+  "interpretation": "Model activations; neither calibrated human probabilities nor fader recommendations.",
+  "results": [
+    {
+      "id": "c989f3cbd6a7",
+      "group": "calibration",
+      "condition": "voice_only",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/calibracion/c989f3cbd6a7.wav",
+      "input_sha256": "69e8fd628b7add4644324239b45ba8c274b41cd0e7b161b0e5de4f3f4f73d00e",
+      "duration_s": 12.0,
+      "frame_count": 25,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/c989f3cbd6a7.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9865624904632568
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.034843750298023224
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.009999999776482582
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.002812500111758709
+        },
+        {
+          "label": "Conversation",
+          "mean_activation": 0.0015625000232830644
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.00015624999650754035
+        },
+        {
+          "label": "Radio",
+          "mean_activation": 0.00015624999650754035
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.00015624999650754035
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9865624904632568,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.0,
+          "max": 0.0
+        },
+        "Silence": {
+          "mean": 0.002812500111758709,
+          "max": 0.015625
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "e98fd8bb9297",
+      "group": "calibration",
+      "condition": "music_only",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/calibracion/e98fd8bb9297.wav",
+      "input_sha256": "1d1acd66bafef3f17c2c08b93d830d4eb2c9372f41a72268d13c29fde35081ae",
+      "duration_s": 12.0,
+      "frame_count": 25,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/e98fd8bb9297.npz",
+      "top_classes": [
+        {
+          "label": "Music",
+          "mean_activation": 0.9545312523841858
+        },
+        {
+          "label": "Speech",
+          "mean_activation": 0.009687500074505806
+        },
+        {
+          "label": "Musical instrument",
+          "mean_activation": 0.0018749999580904841
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0017187499906867743
+        },
+        {
+          "label": "Background music",
+          "mean_activation": 0.0007812500116415322
+        },
+        {
+          "label": "Violin, fiddle",
+          "mean_activation": 0.00046874998952262104
+        },
+        {
+          "label": "Electronic music",
+          "mean_activation": 0.00046874998952262104
+        },
+        {
+          "label": "Bowed string instrument",
+          "mean_activation": 0.00046874998952262104
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.009687500074505806,
+          "max": 0.04296875
+        },
+        "Music": {
+          "mean": 0.9545312523841858,
+          "max": 0.99609375
+        },
+        "Silence": {
+          "mean": 0.0017187499906867743,
+          "max": 0.04296875
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "25bbe34a1204",
+      "group": "calibration",
+      "condition": "silence",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/calibracion/25bbe34a1204.wav",
+      "input_sha256": "9ab80b6cbc6839bef500e91018c57b84219ceaea2d8233b5f6055b96976e8269",
+      "duration_s": 12.0,
+      "frame_count": 25,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/25bbe34a1204.npz",
+      "top_classes": [
+        {
+          "label": "Silence",
+          "mean_activation": 0.80078125
+        },
+        {
+          "label": "Sound effect",
+          "mean_activation": 0.0078125
+        },
+        {
+          "label": "Speech",
+          "mean_activation": 0.00390625
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.00390625
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.00390625
+        },
+        {
+          "label": "Mallet percussion",
+          "mean_activation": 0.0
+        },
+        {
+          "label": "Tubular bells",
+          "mean_activation": 0.0
+        },
+        {
+          "label": "Gong",
+          "mean_activation": 0.0
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.00390625,
+          "max": 0.00390625
+        },
+        "Music": {
+          "mean": 0.00390625,
+          "max": 0.00390625
+        },
+        "Silence": {
+          "mean": 0.80078125,
+          "max": 0.80078125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "3be91824dbd9",
+      "group": "calibration",
+      "condition": "balanced",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/calibracion/3be91824dbd9.wav",
+      "input_sha256": "c4aa755b2a084297de8051baffb2cccaf7483d522acc0549a3312f21c7760048",
+      "duration_s": 12.0,
+      "frame_count": 25,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/3be91824dbd9.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9573437571525574
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.07593750208616257
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.004843750037252903
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.004687500186264515
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0007812500116415322
+        },
+        {
+          "label": "Television",
+          "mean_activation": 0.0003124999930150807
+        },
+        {
+          "label": "Conversation",
+          "mean_activation": 0.0003124999930150807
+        },
+        {
+          "label": "Groan",
+          "mean_activation": 0.00015624999650754035
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9573437571525574,
+          "max": 0.98828125
+        },
+        "Music": {
+          "mean": 0.07593750208616257,
+          "max": 0.33203125
+        },
+        "Silence": {
+          "mean": 0.0007812500116415322,
+          "max": 0.01171875
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "0b16e9aa89a8",
+      "group": "calibration",
+      "condition": "music_masks",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/calibracion/0b16e9aa89a8.wav",
+      "input_sha256": "abe6094a88b02afbe6e70ac1f43255b1877a02244f395e4c2a6e1fda50ce153c",
+      "duration_s": 12.0,
+      "frame_count": 25,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/0b16e9aa89a8.npz",
+      "top_classes": [
+        {
+          "label": "Music",
+          "mean_activation": 0.9217187762260437
+        },
+        {
+          "label": "Speech",
+          "mean_activation": 0.2684375047683716
+        },
+        {
+          "label": "Hip hop music",
+          "mean_activation": 0.0026562500279396772
+        },
+        {
+          "label": "Exciting music",
+          "mean_activation": 0.0023437500931322575
+        },
+        {
+          "label": "Rhythm and blues",
+          "mean_activation": 0.0023437500931322575
+        },
+        {
+          "label": "Rapping",
+          "mean_activation": 0.0018749999580904841
+        },
+        {
+          "label": "Pop music",
+          "mean_activation": 0.0012499999720603228
+        },
+        {
+          "label": "Singing",
+          "mean_activation": 0.0010937500046566129
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.2684375047683716,
+          "max": 0.8515625
+        },
+        "Music": {
+          "mean": 0.9217187762260437,
+          "max": 0.984375
+        },
+        "Silence": {
+          "mean": 0.00015624999650754035,
+          "max": 0.00390625
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "d6a3a71bd4ef",
+      "group": "calibration",
+      "condition": "effects_masks",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/calibracion/d6a3a71bd4ef.wav",
+      "input_sha256": "956898500c904b01d21efc0935068145903fb3302eaf6d71571afa3e34bc2f85",
+      "duration_s": 12.0,
+      "frame_count": 25,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/d6a3a71bd4ef.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.8420312404632568
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.07312499731779099
+        },
+        {
+          "label": "Telephone bell ringing",
+          "mean_activation": 0.010781249962747097
+        },
+        {
+          "label": "Telephone",
+          "mean_activation": 0.008437500335276127
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.0062500000931322575
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.004218750167638063
+        },
+        {
+          "label": "Ringtone",
+          "mean_activation": 0.003281249897554517
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.002812500111758709
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.8420312404632568,
+          "max": 0.98828125
+        },
+        "Music": {
+          "mean": 0.07312499731779099,
+          "max": 0.33203125
+        },
+        "Silence": {
+          "mean": 0.0010937500046566129,
+          "max": 0.01171875
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "881128200de1",
+      "group": "calibration",
+      "condition": "no_voice",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/calibracion/881128200de1.wav",
+      "input_sha256": "98e2d5df807bd30bc6f96d66b001b4279f58b7a602751fcc99064d6a61957796",
+      "duration_s": 12.0,
+      "frame_count": 25,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/881128200de1.npz",
+      "top_classes": [
+        {
+          "label": "Silence",
+          "mean_activation": 0.46546876430511475
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.1303125023841858
+        },
+        {
+          "label": "Speech",
+          "mean_activation": 0.009687500074505806
+        },
+        {
+          "label": "Musical instrument",
+          "mean_activation": 0.00046874998952262104
+        },
+        {
+          "label": "Sound effect",
+          "mean_activation": 0.00015624999650754035
+        },
+        {
+          "label": "Rattle (instrument)",
+          "mean_activation": 0.0
+        },
+        {
+          "label": "Mallet percussion",
+          "mean_activation": 0.0
+        },
+        {
+          "label": "Tubular bells",
+          "mean_activation": 0.0
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.009687500074505806,
+          "max": 0.04296875
+        },
+        "Music": {
+          "mean": 0.1303125023841858,
+          "max": 0.5
+        },
+        "Silence": {
+          "mean": 0.46546876430511475,
+          "max": 0.8515625
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "d8ad1c4997c1",
+      "group": "calibration",
+      "condition": "clipped_voice",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/calibracion/d8ad1c4997c1.wav",
+      "input_sha256": "9dc7f27b1a3d7856e039947c52f6ab390425dba7d41a5bf0f6ffeb89990d8b60",
+      "duration_s": 12.0,
+      "frame_count": 25,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/d8ad1c4997c1.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.29765623807907104
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.054999999701976776
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.037812501192092896
+        },
+        {
+          "label": "Fly, housefly",
+          "mean_activation": 0.025156250223517418
+        },
+        {
+          "label": "Insect",
+          "mean_activation": 0.02109375037252903
+        },
+        {
+          "label": "Mosquito",
+          "mean_activation": 0.016875000670552254
+        },
+        {
+          "label": "Animal",
+          "mean_activation": 0.011406250298023224
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.008124999701976776
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.29765623807907104,
+          "max": 0.8515625
+        },
+        "Music": {
+          "mean": 0.037812501192092896,
+          "max": 0.26171875
+        },
+        "Silence": {
+          "mean": 0.054999999701976776,
+          "max": 0.33203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "01-primera",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-mezcla.m4a",
+      "input_sha256": "abde2a62b3a364fad96858e412b897c790f27807eb5b6bc264f26c1c07c326d2",
+      "duration_s": 21.375,
+      "frame_count": 45,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/01-primera.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9213541746139526
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.03750000149011612
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.007725694216787815
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.006076388992369175
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.00390625
+        },
+        {
+          "label": "Mallet percussion",
+          "mean_activation": 0.0019965278916060925
+        },
+        {
+          "label": "Musical instrument",
+          "mean_activation": 0.0017361111240461469
+        },
+        {
+          "label": "Marimba, xylophone",
+          "mean_activation": 0.0014756944729015231
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9213541746139526,
+          "max": 0.9921875
+        },
+        "Music": {
+          "mean": 0.03750000149011612,
+          "max": 0.33203125
+        },
+        "Silence": {
+          "mean": 0.0006076389108784497,
+          "max": 0.01171875
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "11-primera",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/11-mezcla.m4a",
+      "input_sha256": "e3c9a11df6df6ee8d47b429e1aee9d5639c89232162145959293f63c2d6189b3",
+      "duration_s": 29.1,
+      "frame_count": 61,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/11-primera.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9330814480781555
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.023885758593678474
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.0071721309795975685
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0037141393404453993
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.003329918021336198
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.0011526639573276043
+        },
+        {
+          "label": "Conversation",
+          "mean_activation": 0.0009605532977730036
+        },
+        {
+          "label": "Musical instrument",
+          "mean_activation": 0.0005122950533404946
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9330814480781555,
+          "max": 0.9921875
+        },
+        "Music": {
+          "mean": 0.023885758593678474,
+          "max": 0.33203125
+        },
+        "Silence": {
+          "mean": 0.0037141393404453993,
+          "max": 0.08203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "14-primera",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/14-mezcla.m4a",
+      "input_sha256": "aabe0d8435521928f3e05e8d553587335f03fff80d68efaf4e46f2defbee915f",
+      "duration_s": 23.26,
+      "frame_count": 49,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/14-primera.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9312818646430969
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.006218112073838711
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.00390625
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0031887756194919348
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.0026307397056370974
+        },
+        {
+          "label": "Sound effect",
+          "mean_activation": 0.0013552296441048384
+        },
+        {
+          "label": "Plucked string instrument",
+          "mean_activation": 0.001195790828205645
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.001195790828205645
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9312818646430969,
+          "max": 0.9921875
+        },
+        "Music": {
+          "mean": 0.0026307397056370974,
+          "max": 0.05859375
+        },
+        "Silence": {
+          "mean": 0.0031887756194919348,
+          "max": 0.08203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "largo-53-primera",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-mezcla.m4a",
+      "input_sha256": "516e9c93c3a0135b8322d942b3558a27c14b6147d0b9df6ca3e82fb7dd431a35",
+      "duration_s": 52.93,
+      "frame_count": 111,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/largo-53-primera.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9518581032752991
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.04838823154568672
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.028892172500491142
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.006228885147720575
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.005595439113676548
+        },
+        {
+          "label": "Music for children",
+          "mean_activation": 0.001266891835257411
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0010909347329288721
+        },
+        {
+          "label": "Boing",
+          "mean_activation": 0.0009501689346507192
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9518581032752991,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.028892172500491142,
+          "max": 0.5
+        },
+        "Silence": {
+          "mean": 0.0010909347329288721,
+          "max": 0.08203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "largo-159-primera",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-mezcla.m4a",
+      "input_sha256": "b8ad0b713998ce7d58c81b9b68982849094ef54e6783fb5e1030423ef6048ed1",
+      "duration_s": 158.798,
+      "frame_count": 331,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/largo-159-primera.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9606306552886963
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.020640578120946884
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.01581382192671299
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.009523697197437286
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0016993958270177245
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.0009913141839206219
+        },
+        {
+          "label": "Musical instrument",
+          "mean_activation": 0.0008496979135088623
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.0006608761614188552
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9606306552886963,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.020640578120946884,
+          "max": 0.5
+        },
+        "Silence": {
+          "mean": 0.0016993958270177245,
+          "max": 0.08203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "largo-53-A",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/A/mezcla.m4a",
+      "input_sha256": "671c5f23822be643bbbb48a483123d45bc27b8fe59c424c97b5bdadbf14f4de2",
+      "duration_s": 52.93,
+      "frame_count": 111,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/largo-53-A.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9371832609176636
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.08773226290941238
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.03635275736451149
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.005173142068088055
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.004891610238701105
+        },
+        {
+          "label": "Music for children",
+          "mean_activation": 0.0016891892300918698
+        },
+        {
+          "label": "Telephone",
+          "mean_activation": 0.0013020833721384406
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0011965089943259954
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9371832609176636,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.08773226290941238,
+          "max": 0.73828125
+        },
+        "Silence": {
+          "mean": 0.0011965089943259954,
+          "max": 0.08203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "largo-53-B",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/B/mezcla.m4a",
+      "input_sha256": "53a0b690214552bbc3672ba3093cb6c7ff0db8eeaf1e0bebf583f64b510cf8b4",
+      "duration_s": 52.93,
+      "frame_count": 111,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/largo-53-B.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.943306565284729
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.046382319182157516
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.033044762909412384
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.00556024769321084
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.004117398522794247
+        },
+        {
+          "label": "Synthesizer",
+          "mean_activation": 0.0016188062727451324
+        },
+        {
+          "label": "Telephone bell ringing",
+          "mean_activation": 0.0014780405908823013
+        },
+        {
+          "label": "Telephone",
+          "mean_activation": 0.0013724662130698562
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.943306565284729,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.033044762909412384,
+          "max": 0.4140625
+        },
+        "Silence": {
+          "mean": 0.0011261261533945799,
+          "max": 0.08203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "largo-53-C",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/C/mezcla.m4a",
+      "input_sha256": "a082c0fed9f913e194c6f58ada64d11743c9e3b5eb7f54789f7e8146a5cb799b",
+      "duration_s": 52.93,
+      "frame_count": 111,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/largo-53-C.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9366554021835327
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.0836852490901947
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.04138513654470444
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.0049971845000982285
+        },
+        {
+          "label": "Synthesizer",
+          "mean_activation": 0.0013724662130698562
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.0013020833721384406
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0010557431960478425
+        },
+        {
+          "label": "Sound effect",
+          "mean_activation": 0.0009501689346507192
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9366554021835327,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.0836852490901947,
+          "max": 0.8515625
+        },
+        "Silence": {
+          "mean": 0.0010557431960478425,
+          "max": 0.08203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "largo-159-A",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/A/mezcla.m4a",
+      "input_sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "duration_s": 158.798,
+      "frame_count": 331,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/largo-159-A.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9513666033744812
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.05884157866239548
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.01252124272286892
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.00760007556527853
+        },
+        {
+          "label": "Musical instrument",
+          "mean_activation": 0.001062122406437993
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0010031155543401837
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.0007434856379404664
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.0006608761614188552
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9513666033744812,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.05884157866239548,
+          "max": 0.80078125
+        },
+        "Silence": {
+          "mean": 0.0010031155543401837,
+          "max": 0.03125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "largo-159-B",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/B/mezcla.m4a",
+      "input_sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "duration_s": 158.798,
+      "frame_count": 331,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/largo-159-B.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9459143877029419
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.033020202070474625
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.016781533136963844
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.007906910963356495
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.0019708271138370037
+        },
+        {
+          "label": "Musical instrument",
+          "mean_activation": 0.0013925604289397597
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.001262745470739901
+        },
+        {
+          "label": "Plucked string instrument",
+          "mean_activation": 0.0008142938022501767
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9459143877029419,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.033020202070474625,
+          "max": 0.66796875
+        },
+        "Silence": {
+          "mean": 0.001262745470739901,
+          "max": 0.05859375
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "largo-159-C",
+      "group": "mix",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/C/mezcla.m4a",
+      "input_sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "duration_s": 158.798,
+      "frame_count": 331,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/largo-159-C.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9427987933158875
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.043228380382061005
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.015259157866239548
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.00783610250800848
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.0023956759832799435
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0015813821228221059
+        },
+        {
+          "label": "Telephone",
+          "mean_activation": 0.0014043617993593216
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.001368957688100636
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9427987933158875,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.043228380382061005,
+          "max": 0.66796875
+        },
+        "Silence": {
+          "mean": 0.0015813821228221059,
+          "max": 0.08203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "ref-1",
+      "group": "reference",
+      "input": "/Users/iomijhondavid/Downloads/65B73BD5-A22A-4DC4-A9C5-D132C7C03C04.MP4",
+      "input_sha256": "91782481c65c77dd7edab238317814b16d9f5260baf4939dcfc0c96ee44ef555",
+      "duration_s": 69.5,
+      "frame_count": 145,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/ref-1.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.563954770565033
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.5330549478530884
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.005657327361404896
+        },
+        {
+          "label": "Bowed string instrument",
+          "mean_activation": 0.0028017242439091206
+        },
+        {
+          "label": "Violin, fiddle",
+          "mean_activation": 0.0026400862261652946
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.0025053878780454397
+        },
+        {
+          "label": "Musical instrument",
+          "mean_activation": 0.0024245688691735268
+        },
+        {
+          "label": "Orchestra",
+          "mean_activation": 0.0018588361563161016
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.563954770565033,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.5330549478530884,
+          "max": 0.99609375
+        },
+        "Silence": {
+          "mean": 0.005657327361404896,
+          "max": 0.80078125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "ref-2",
+      "group": "reference",
+      "input": "/Users/iomijhondavid/Downloads/31DAFCE4-1F8C-452E-B66D-489909CDBF67.MP4",
+      "input_sha256": "f6569b1301e24be422ac41f359f083d9e60f7d8c4f27bb7935ad0947dac39420",
+      "duration_s": 66.3055,
+      "frame_count": 139,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/ref-2.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.6805305480957031
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.30820032954216003
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.051989659667015076
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.010622751899063587
+        },
+        {
+          "label": "Spray",
+          "mean_activation": 0.00907711312174797
+        },
+        {
+          "label": "Radio",
+          "mean_activation": 0.005985836498439312
+        },
+        {
+          "label": "Liquid",
+          "mean_activation": 0.005845323670655489
+        },
+        {
+          "label": "Outside, rural or natural",
+          "mean_activation": 0.003091277088969946
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.6805305480957031,
+          "max": 0.984375
+        },
+        "Music": {
+          "mean": 0.30820032954216003,
+          "max": 0.94140625
+        },
+        "Silence": {
+          "mean": 0.051989659667015076,
+          "max": 0.80078125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "01-voice",
+      "group": "voice",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-voz-sola.wav",
+      "input_sha256": "db677202633f2c8e3619e7e3bba9afe965a5d5ad5bb26a89e41ef98ae32ea31f",
+      "duration_s": 21.375,
+      "frame_count": 45,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/01-voice.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.967968761920929
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.010937499813735485
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.0061631943099200726
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.004687500186264515
+        },
+        {
+          "label": "Conversation",
+          "mean_activation": 0.0012152778217568994
+        },
+        {
+          "label": "Groan",
+          "mean_activation": 0.0006944444612599909
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0006944444612599909
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.0005208333604969084
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.967968761920929,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.0005208333604969084,
+          "max": 0.0078125
+        },
+        "Silence": {
+          "mean": 0.0006944444612599909,
+          "max": 0.01171875
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "11-voice",
+      "group": "voice",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/11-voz-sola.wav",
+      "input_sha256": "6ae69c44eb89bf67aeef962a9eb5624a5227e9a721397805a8704ab996267524",
+      "duration_s": 29.1,
+      "frame_count": 61,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/11-voice.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9495389461517334
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.007684426382184029
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.004674692638218403
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0037141393404453993
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.0008965163724496961
+        },
+        {
+          "label": "Conversation",
+          "mean_activation": 0.0007684426382184029
+        },
+        {
+          "label": "Plucked string instrument",
+          "mean_activation": 0.00044825818622484803
+        },
+        {
+          "label": "Guitar",
+          "mean_activation": 0.00038422131910920143
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9495389461517334,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.0003201844228897244,
+          "max": 0.00390625
+        },
+        "Silence": {
+          "mean": 0.0037141393404453993,
+          "max": 0.08203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "14-voice",
+      "group": "voice",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/14-voz-sola.wav",
+      "input_sha256": "28b0193e9360c77295e90e6a93fda020cfe5d79e130b349a31ff2e8abbd3f087",
+      "duration_s": 23.26,
+      "frame_count": 49,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/14-voice.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9444355964660645
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.0066964286379516125
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.0038265306502580643
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.003667091950774193
+        },
+        {
+          "label": "Sound effect",
+          "mean_activation": 0.0008769132546149194
+        },
+        {
+          "label": "Conversation",
+          "mean_activation": 0.0007971939048729837
+        },
+        {
+          "label": "Whoosh, swoosh, swish",
+          "mean_activation": 0.0006377550889737904
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.0006377550889737904
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9444355964660645,
+          "max": 0.9921875
+        },
+        "Music": {
+          "mean": 0.00047831633128225803,
+          "max": 0.0078125
+        },
+        "Silence": {
+          "mean": 0.003667091950774193,
+          "max": 0.08203125
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "largo-53-voice",
+      "group": "voice",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-voz-sola.wav",
+      "input_sha256": "845d7d20e233fa7dc724616ff6e561285f168976bf0b63cc6e7e9671b5dc9b4f",
+      "duration_s": 52.93,
+      "frame_count": 111,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/largo-53-voice.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9754011631011963
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.07203687727451324
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.007073479704558849
+        },
+        {
+          "label": "Music",
+          "mean_activation": 0.0014780405908823013
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.0011261261533945799
+        },
+        {
+          "label": "Conversation",
+          "mean_activation": 0.0010557431960478425
+        },
+        {
+          "label": "Radio",
+          "mean_activation": 0.0008094031363725662
+        },
+        {
+          "label": "Sound effect",
+          "mean_activation": 0.00045748872798867524
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9754011631011963,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.0014780405908823013,
+          "max": 0.03125
+        },
+        "Silence": {
+          "mean": 0.0011261261533945799,
+          "max": 0.109375
+        }
+      },
+      "final_window_zero_padded": true
+    },
+    {
+      "id": "largo-159-voice",
+      "group": "voice",
+      "input": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-voz-sola.wav",
+      "input_sha256": "29e7a580bc2d12a31ff284a10d502d6ae1fba3159df5bd1d9124e6adb59f9d1b",
+      "duration_s": 158.798,
+      "frame_count": 331,
+      "scores_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/evidencia/yamnet-scores/largo-159-voice.npz",
+      "top_classes": [
+        {
+          "label": "Speech",
+          "mean_activation": 0.9857321381568909
+        },
+        {
+          "label": "Speech synthesizer",
+          "mean_activation": 0.029432591050863266
+        },
+        {
+          "label": "Narration, monologue",
+          "mean_activation": 0.010349792428314686
+        },
+        {
+          "label": "Silence",
+          "mean_activation": 0.00195902562700212
+        },
+        {
+          "label": "Inside, small room",
+          "mean_activation": 0.0008142938022501767
+        },
+        {
+          "label": "Conversation",
+          "mean_activation": 0.0005546638858504593
+        },
+        {
+          "label": "Plop",
+          "mean_activation": 0.0004012462159153074
+        },
+        {
+          "label": "Groan",
+          "mean_activation": 0.00025962991639971733
+        }
+      ],
+      "headline": {
+        "Speech": {
+          "mean": 0.9857321381568909,
+          "max": 0.99609375
+        },
+        "Music": {
+          "mean": 0.00015341766993515193,
+          "max": 0.01171875
+        },
+        "Silence": {
+          "mean": 0.00195902562700212,
+          "max": 0.05859375
+        }
+      },
+      "final_window_zero_padded": true
+    }
+  ]
+}

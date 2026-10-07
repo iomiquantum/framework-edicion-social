@@ -1,0 +1,493 @@
+{
+  "resources": [
+    {
+      "file": "recursos-reutilizables/9f89e1b7dd6600288a83207c69c98710befa3f322c2d5ac05a2d95f28ae9690d.svg",
+      "sha256": "9f89e1b7dd6600288a83207c69c98710befa3f322c2d5ac05a2d95f28ae9690d",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/.media/images/image_002.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/c34eef7c9dc89e1be5534abec76fb33fd01d9b37a93fbd5ae6834e1c1b5c91a9.svg",
+      "sha256": "c34eef7c9dc89e1be5534abec76fb33fd01d9b37a93fbd5ae6834e1c1b5c91a9",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/.media/images/image_003.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/afc6807dab90bb1f5970b771b8f05eae26d823e173a0c87234ad927966a56109.svg",
+      "sha256": "afc6807dab90bb1f5970b771b8f05eae26d823e173a0c87234ad927966a56109",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/.media/images/course-stack.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/6a94b249c7ba43a011f9317acca851c1659dc2581c59b5010794bd768f817947.svg",
+      "sha256": "6a94b249c7ba43a011f9317acca851c1659dc2581c59b5010794bd768f817947",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/.media/images/action-bridge.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/62c071a0923c144f23549c0e53f9c5321b9d369e6174d7b6e025cf1d974ec387.svg",
+      "sha256": "62c071a0923c144f23549c0e53f9c5321b9d369e6174d7b6e025cf1d974ec387",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/assets/video-03_business_moat_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/bbcabbaf010bb3652a96d11890ff88eaf7b8004c8efaf072c07325f5ed0dde0e.svg",
+      "sha256": "bbcabbaf010bb3652a96d11890ff88eaf7b8004c8efaf072c07325f5ed0dde0e",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/assets/video-03_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/7b92bb8801a08442e1830d1f0f4ce40f051b4d01367c4147f532c0cae28aa59e.svg",
+      "sha256": "7b92bb8801a08442e1830d1f0f4ce40f051b4d01367c4147f532c0cae28aa59e",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/assets/video-03_commodity_nodes_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/7b95b1dff895c096af29b4710f4f2400ab890017def7c88655499885e62990cb.svg",
+      "sha256": "7b95b1dff895c096af29b4710f4f2400ab890017def7c88655499885e62990cb",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/assets/video-04_accelerated_chaos_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/8a09c75be28697cffd14a87b216510a645a497977f809f0b867bf0e4bce31da2.svg",
+      "sha256": "8a09c75be28697cffd14a87b216510a645a497977f809f0b867bf0e4bce31da2",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/assets/video-04_tangled_pipeline_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/10b144b0ba22f68b53185b89845bdb832a3d70a2a7efbc12a066cd2273e8809e.svg",
+      "sha256": "10b144b0ba22f68b53185b89845bdb832a3d70a2a7efbc12a066cd2273e8809e",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/assets/video-04_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/2d4d7481671be1182d1586a04faaa069c23a650f119ce5d7f16e231ea9f14200.svg",
+      "sha256": "2d4d7481671be1182d1586a04faaa069c23a650f119ce5d7f16e231ea9f14200",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/assets/video-05_human_ai_balance_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/ab255d9e170b99504de0d8c8a06924d53d157eb9e8c41d5d2ec36c66da2efad7.svg",
+      "sha256": "ab255d9e170b99504de0d8c8a06924d53d157eb9e8c41d5d2ec36c66da2efad7",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/assets/video-05_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/d04bb3760e0ac3a82ad8f7440bb336576b40926de20902c6485df65db9b97ee2.svg",
+      "sha256": "d04bb3760e0ac3a82ad8f7440bb336576b40926de20902c6485df65db9b97ee2",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/assets/video-05_judgment_split_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/be57d173d3a1a15a2b6250a711606a2b83e2e9fb29d02210e3d30f632bd11626.svg",
+      "sha256": "be57d173d3a1a15a2b6250a711606a2b83e2e9fb29d02210e3d30f632bd11626",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/assets/video-06_knowledge_vault_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/864a4ca8224d0d86e8aff640509d7a8fe8fb698db099c92480c07cc5e3ee40f0.svg",
+      "sha256": "864a4ca8224d0d86e8aff640509d7a8fe8fb698db099c92480c07cc5e3ee40f0",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/assets/video-06_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/916311e6dcdd7c456d66a9486069aaa4e6412f90397a92d9f2ba8895feacd46f.svg",
+      "sha256": "916311e6dcdd7c456d66a9486069aaa4e6412f90397a92d9f2ba8895feacd46f",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/assets/video-06_head_to_system_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/ce75e3518014350d883f40e3deb810d73e394117c327255c3fd4643497905d07.svg",
+      "sha256": "ce75e3518014350d883f40e3deb810d73e394117c327255c3fd4643497905d07",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/assets/video-07_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/adddcba783a2e28c6737875be7f9030be66f9de569ede82ad8d745d3206abe84.svg",
+      "sha256": "adddcba783a2e28c6737875be7f9030be66f9de569ede82ad8d745d3206abe84",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/assets/video-07_single_seed_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/ad03d22ea5d5fc5e0d15c9f4537773c09c0e8be9c17ceb725ccf510ba398341d.svg",
+      "sha256": "ad03d22ea5d5fc5e0d15c9f4537773c09c0e8be9c17ceb725ccf510ba398341d",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/assets/video-07_idea_funnel_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/49231b792021013b460f0088096d549d587453b8a5fa16777b96ab778f56cbdc.svg",
+      "sha256": "49231b792021013b460f0088096d549d587453b8a5fa16777b96ab778f56cbdc",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/assets/video-08_customer_target_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/0c4ec7af0770df889fdd91a49449968b986ff46cf8a2b0def7ac03314f6d5c53.svg",
+      "sha256": "0c4ec7af0770df889fdd91a49449968b986ff46cf8a2b0def7ac03314f6d5c53",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/assets/video-08_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/0e1ee04569a1fdd26eb8cd2f6e4f37a6d1fb26c5e169c93d70e035bb7b70d140.svg",
+      "sha256": "0e1ee04569a1fdd26eb8cd2f6e4f37a6d1fb26c5e169c93d70e035bb7b70d140",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/assets/video-08_tool_to_outcome_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/d114da4e2c2125793eabce8fee17046b619ebdb245b6dca40df0f1984d7a7fc2.svg",
+      "sha256": "d114da4e2c2125793eabce8fee17046b619ebdb245b6dca40df0f1984d7a7fc2",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/assets/video-09_content_flood_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/bae9a5ec600bfc2abae3ee30b269f03b123887c8d79adc272e331f5c4fc4cde3.svg",
+      "sha256": "bae9a5ec600bfc2abae3ee30b269f03b123887c8d79adc272e331f5c4fc4cde3",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/assets/video-09_signal_in_noise_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/a5a46bd771e59d304fc3899e8c23fca7fd7388d93197d118063bd8acbeb1dd1a.svg",
+      "sha256": "a5a46bd771e59d304fc3899e8c23fca7fd7388d93197d118063bd8acbeb1dd1a",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/assets/video-09_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/f71fe6bdcf78eb88bf7f6aa78acd9778867bfba206a0626d24e03352c0cdacff.svg",
+      "sha256": "f71fe6bdcf78eb88bf7f6aa78acd9778867bfba206a0626d24e03352c0cdacff",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/assets/video-10_problem_searchlight_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/fbe11bf002772fcb37c7ee527f2e3c3ce4eb5e052456866b5bc98ee332428fcd.svg",
+      "sha256": "fbe11bf002772fcb37c7ee527f2e3c3ce4eb5e052456866b5bc98ee332428fcd",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/assets/video-10_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/f1d1d93de57f4e30a4db5e03c0282e50a662f669f94d6f9749ff2e89679ac5d6.svg",
+      "sha256": "f1d1d93de57f4e30a4db5e03c0282e50a662f669f94d6f9749ff2e89679ac5d6",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/assets/video-10_selected_problem_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/8bd34983f1a6b5bd7ed0466a50ad079561dff04d1ebfda070275a8f87069c3b6.svg",
+      "sha256": "8bd34983f1a6b5bd7ed0466a50ad079561dff04d1ebfda070275a8f87069c3b6",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/assets/video-11_content_flood_collage_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/8d6bbc9c4fa2b597b73a40737d8a8d5e51b7b090240b2031b5de5e8894a8c71f.svg",
+      "sha256": "8d6bbc9c4fa2b597b73a40737d8a8d5e51b7b090240b2031b5de5e8894a8c71f",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/assets/video-11_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/deb8fc250bf64daaaccdb5a69f7a0f0d8240968b2ccdbc887a2277ce5d48c533.svg",
+      "sha256": "deb8fc250bf64daaaccdb5a69f7a0f0d8240968b2ccdbc887a2277ce5d48c533",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/assets/video-11_content_flood_collage_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/5f6821c53ba3d3c2c77e7d93b553ceebb0cee96bcf1e80dac67c3a51ccdb477b.svg",
+      "sha256": "5f6821c53ba3d3c2c77e7d93b553ceebb0cee96bcf1e80dac67c3a51ccdb477b",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/assets/video-12_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/45377a85ed3aa76ab952c56924749a13104b394273ab6d0afa6ead53d57d14f5.svg",
+      "sha256": "45377a85ed3aa76ab952c56924749a13104b394273ab6d0afa6ead53d57d14f5",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/assets/video-12_beautiful_campaign_wrong_offer_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/35fd9d98a5829a71dcc38b7272cae2d9f8cd6b1b8905d7cb2e725278dcfaabcb.svg",
+      "sha256": "35fd9d98a5829a71dcc38b7272cae2d9f8cd6b1b8905d7cb2e725278dcfaabcb",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/assets/video-12_beautiful_campaign_wrong_offer_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/c9afe0b34bc43922d560721c6b07ed937c61e2d81d5d4edd7a16bdac99d91547.svg",
+      "sha256": "c9afe0b34bc43922d560721c6b07ed937c61e2d81d5d4edd7a16bdac99d91547",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/assets/video-13_customer_calls_archive_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/d38c3095258887213a14aff1fb8a21a9ff52b0fd3a314511e1cd19c41fb974aa.svg",
+      "sha256": "d38c3095258887213a14aff1fb8a21a9ff52b0fd3a314511e1cd19c41fb974aa",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/assets/video-13_customer_calls_archive_background_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/6b363c078cfc85eb8dcc1bd622d724d2f16fe1c449ac391b9f7bc71619ef3433.svg",
+      "sha256": "6b363c078cfc85eb8dcc1bd622d724d2f16fe1c449ac391b9f7bc71619ef3433",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/assets/video-13_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/6d1991c04a349b9039193ac2b8876424b12e748e1b9f58fb5a4deba9cbb3f526.svg",
+      "sha256": "6d1991c04a349b9039193ac2b8876424b12e748e1b9f58fb5a4deba9cbb3f526",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/assets/video-14_conversation_as_prompt_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/c332d1af647c8fa2cac343c01ee2bad87c20704ae5ee387e355484828aa4a704.svg",
+      "sha256": "c332d1af647c8fa2cac343c01ee2bad87c20704ae5ee387e355484828aa4a704",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/assets/video-14_typographic_accent_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/bc58275128e39b1588fbd7f6d21c0cb130dcf53929d5f6082250fe2b4fb36bdf.svg",
+      "sha256": "bc58275128e39b1588fbd7f6d21c0cb130dcf53929d5f6082250fe2b4fb36bdf",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/assets/video-15_premature_automation_machine_overlay_v01.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491.woff2",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6/assets/fonts/Inter-700.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/assets/fonts/Inter-700.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/assets/fonts/Inter-700.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/assets/fonts/Inter-700.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/assets/fonts/Inter-700.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/assets/fonts/Inter-700.woff2"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/5d0f8a497a48fd2a3611d07acc844f65c9fbb35419eafa4e1295f5f0f95f86e4.woff2",
+      "sha256": "5d0f8a497a48fd2a3611d07acc844f65c9fbb35419eafa4e1295f5f0f95f86e4",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6/assets/fonts/EBGaramond-700.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/assets/fonts/EBGaramond-700.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/assets/fonts/EBGaramond-700.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/assets/fonts/EBGaramond-700.woff2"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/f9d9e65b15372cebcafc3acd1e664a564c5c4b23278de4d5760de9a13c530371.woff2",
+      "sha256": "f9d9e65b15372cebcafc3acd1e664a564c5c4b23278de4d5760de9a13c530371",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/assets/fonts/Montserrat-700.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/assets/fonts/Montserrat-700.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/assets/fonts/Montserrat-700.woff2"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/5b6958520638bb8609f9eacb17c4d189563efeae96d5da49f7c2043988697205.woff2",
+      "sha256": "5b6958520638bb8609f9eacb17c4d189563efeae96d5da49f7c2043988697205",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/assets/fonts/Montserrat-900.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/assets/fonts/Montserrat-900.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/assets/fonts/Montserrat-900.woff2"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22.woff2",
+      "sha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/assets/fonts/IBMPlexMono-500.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/assets/fonts/IBMPlexMono-500.woff2"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/ba826fb84c2e961578adf3a08b5778b87905d4443445d1d56d84f9f157d5ea4b.woff2",
+      "sha256": "ba826fb84c2e961578adf3a08b5778b87905d4443445d1d56d84f9f157d5ea4b",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/assets/fonts/Montserrat-800.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/assets/fonts/Montserrat-800.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/assets/fonts/Montserrat-800.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/fonts/Montserrat-800.woff2",
+        "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/assets/fonts/Montserrat-800.woff2"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/eabf8cb2c01d0345e2eb19a49d04e8f8d0d520b74959b173d5ea6c2dcb95e4cd.woff2",
+      "sha256": "eabf8cb2c01d0345e2eb19a49d04e8f8d0d520b74959b173d5ea6c2dcb95e4cd",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/assets/fonts/Outfit-800.woff2"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/5d5e3734089a74707292ce8a3e186def34cd63e33879f9ac3689a8d8da9d0706.woff2",
+      "sha256": "5d5e3734089a74707292ce8a3e186def34cd63e33879f9ac3689a8d8da9d0706",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/assets/fonts/Outfit-700.woff2"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/c40286ac7a73aad2b8e46740f6ee04cc13417e14c8e18a4b9f12d0aaacfd5645.svg",
+      "sha256": "c40286ac7a73aad2b8e46740f6ee04cc13417e14c8e18a4b9f12d0aaacfd5645",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/assets/onda-t27-v1.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/c5f315e51d0ed0e0b78af3f666a2c9ffa0a9e3072b464ae5832aa016cbebacf2.svg",
+      "sha256": "c5f315e51d0ed0e0b78af3f666a2c9ffa0a9e3072b464ae5832aa016cbebacf2",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/assets/icon-video-t27-dark-v3.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/971f3a191a4346839ae084aa18008ef0184124949cefd989453d324605ad735f.svg",
+      "sha256": "971f3a191a4346839ae084aa18008ef0184124949cefd989453d324605ad735f",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/assets/icon-target-t27-dark-v3.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/fcb50f8eb09b6c058ecfd54ed7c3c038ae7ee7b3facae192c3856a4b53b380a6.svg",
+      "sha256": "fcb50f8eb09b6c058ecfd54ed7c3c038ae7ee7b3facae192c3856a4b53b380a6",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/assets/icon-video-t27-v1.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/888b4766e1e025319e22674246fca5d7bd79e9e3da230a7e22501cabbefb8702.svg",
+      "sha256": "888b4766e1e025319e22674246fca5d7bd79e9e3da230a7e22501cabbefb8702",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/assets/icon-image-t27-v1.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/840e4b7fbb402c130b6496ea466d4f73be701080837a371156abdafc3c4b199b.svg",
+      "sha256": "840e4b7fbb402c130b6496ea466d4f73be701080837a371156abdafc3c4b199b",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/assets/icon-target-t27-v1.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/e78ca5dffd04428fd6534ed61fdf64597f6d2d05c92ead4e04c8d89c768a54f0.svg",
+      "sha256": "e78ca5dffd04428fd6534ed61fdf64597f6d2d05c92ead4e04c8d89c768a54f0",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/assets/icon-image-t27-dark-v3.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/0873f79443642daf6ba38bbc79299aab32e346140511ae07a9fbd4d78f6484bf.svg",
+      "sha256": "0873f79443642daf6ba38bbc79299aab32e346140511ae07a9fbd4d78f6484bf",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/assets/icon-type-t27-dark-v3.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/3713b09dbc56c609b2c5907df07122a0555803039eab1bb1b758ddf882ad7a93.svg",
+      "sha256": "3713b09dbc56c609b2c5907df07122a0555803039eab1bb1b758ddf882ad7a93",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/assets/icon-type-t27-v1.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/e23d5460f6cf23b30cb6d943b3cfe11d883a9ac210edac0f0a64081461db3d25.svg",
+      "sha256": "e23d5460f6cf23b30cb6d943b3cfe11d883a9ac210edac0f0a64081461db3d25",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/assets/foco-audio-v1.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    },
+    {
+      "file": "recursos-reutilizables/debe97a9a63eeed3ad16230162b5c0682be5ca399eaa1db6d07ec86ae10c2cbf.svg",
+      "sha256": "debe97a9a63eeed3ad16230162b5c0682be5ca399eaa1db6d07ec86ae10c2cbf",
+      "origins": [
+        "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/assets/onda-guia-v1.svg"
+      ],
+      "reuse": "Conserve source/licence and check semantic fit; not globally approved by extraction."
+    }
+  ]
+}

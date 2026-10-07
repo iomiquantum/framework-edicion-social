@@ -1,0 +1,135 @@
+load_backend: loaded BLAS backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-blas.so
+ggml_metal_device_init: tensor API disabled for pre-M5 and pre-A19 devices
+ggml_metal_library_init: using embedded metal library
+ggml_metal_library_compile_all: compiled 'fa' library in 0.009 sec
+ggml_metal_library_compile_all: compiled 'mul_mv' library in 0.002 sec
+ggml_metal_library_compile_all: compiled 'mul_mm' library in 0.010 sec
+ggml_metal_library_compile_all: compiled 'quantize' library in 0.001 sec
+ggml_metal_library_compile_all: compiled 'softmax' library in 0.001 sec
+ggml_metal_library_compile_all: compiled 'norm' library in 0.001 sec
+ggml_metal_library_compile_all: compiled 'unary' library in 0.001 sec
+ggml_metal_library_compile_all: compiled 'binbcast' library in 0.010 sec
+ggml_metal_library_compile_all: compiled 'reduce' library in 0.010 sec
+ggml_metal_library_compile_all: compiled 'tri' library in 0.001 sec
+ggml_metal_library_compile_all: compiled 'ssm' library in 0.009 sec
+ggml_metal_library_compile_all: compiled 'wkv' library in 0.002 sec
+ggml_metal_library_compile_all: compiled 'gated_delta_net' library in 0.009 sec
+ggml_metal_library_compile_all: compiled 'solve_tri' library in 0.009 sec
+ggml_metal_library_compile_all: compiled 'rope' library in 0.009 sec
+ggml_metal_library_compile_all: compiled 'conv' library in 0.009 sec
+ggml_metal_library_compile_all: compiled 'upscale' library in 0.001 sec
+ggml_metal_library_compile_all: compiled 'argsort' library in 0.002 sec
+ggml_metal_library_compile_all: compiled 'pool' library in 0.001 sec
+ggml_metal_library_compile_all: compiled 'misc' library in 0.001 sec
+ggml_metal_library_compile_all: loaded 20 libraries from embedded data in 0.010 sec (max single = 0.010 sec)
+ggml_metal_rsets_init: creating a residency set collection (keep_alive = 180 s)
+ggml_metal_device_init: GPU name:   MTL0 (Apple M4)
+ggml_metal_device_init: GPU family: MTLGPUFamilyApple9  (1009)
+ggml_metal_device_init: GPU family: MTLGPUFamilyCommon3 (3003)
+ggml_metal_device_init: GPU family: MTLGPUFamilyMetal4  (5002)
+ggml_metal_device_init: simdgroup reduction   = true
+ggml_metal_device_init: simdgroup matrix mul. = true
+ggml_metal_device_init: has unified memory    = true
+ggml_metal_device_init: has bfloat            = true
+ggml_metal_device_init: has tensor            = false
+ggml_metal_device_init: use residency sets    = true
+ggml_metal_device_init: use shared buffers    = true
+ggml_metal_device_init: recommendedMaxWorkingSetSize  = 12713.12 MB
+load_backend: loaded MTL backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-metal.so
+load_backend: loaded CPU backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-cpu-apple_m4.so
+whisper_init_from_file_with_params_no_state: loading model from '/Users/iomijhondavid/.cache/hyperframes/whisper/models/ggml-large-v3.bin'
+whisper_init_with_params_no_state: use gpu    = 1
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 0
+whisper_init_with_params_no_state: dtw        = 0
+whisper_init_with_params_no_state: devices    = 3
+whisper_init_with_params_no_state: backends   = 3
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 32
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  3094.36 MB
+whisper_model_load: model size    = 3094.36 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+ggml_metal_init: allocating
+ggml_metal_init: found device: Apple M4
+ggml_metal_init: picking default device: Apple M4
+ggml_metal_init: use fusion         = true
+ggml_metal_init: use concurrency    = true
+ggml_metal_init: use graph optimize = true
+whisper_backend_init: using BLAS backend
+whisper_init_state: kv self size  =   83.89 MB
+whisper_init_state: kv cross size =  251.66 MB
+whisper_init_state: kv pad  size  =    7.86 MB
+whisper_init_state: compute buffer (conv)   =   37.69 MB
+whisper_init_state: compute buffer (encode) =   67.49 MB
+whisper_init_state: compute buffer (cross)  =  132.15 MB
+whisper_init_state: compute buffer (decode) =  100.04 MB
+read_audio_data: reading audio data from 'Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/referencias-usuario/ref-01/asr-16k.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 4 / 10 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/referencias-usuario/ref-01/asr-16k.wav' (1111999 samples, 69.5 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = es, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:01.680]   dije esa mierda es para automatizar totalmente
+[00:00:01.680 --> 00:00:04.120]   vi al portero tocando el botón y yo dije
+[00:00:04.120 --> 00:00:05.640]   esa mierda es para automatizar totalmente
+[00:00:05.640 --> 00:00:08.220]   mi invitada soy el señor Hamilton Quintero
+[00:00:08.220 --> 00:00:09.280]   de la ciudad de Medellín
+[00:00:09.280 --> 00:00:11.960]   ¿Quién es Hamilton? Hamilton es
+[00:00:11.960 --> 00:00:13.600]   un loco visionario
+[00:00:13.600 --> 00:00:16.040]   soy ex-rapi, tendero
+[00:00:16.040 --> 00:00:17.520]   me gustó eso, me gustó
+[00:00:17.520 --> 00:00:19.600]   yo quiero saber por qué se llama
+[00:00:19.600 --> 00:00:21.120]   Brian, todo mi
+[00:00:21.120 --> 00:00:23.540]   círculo era de
+[00:00:23.540 --> 00:00:25.600]   hijuetantas para arriba, y no había otro más
+[00:00:25.600 --> 00:00:27.220]   otro nombre más, el Brian
+[00:00:27.220 --> 00:00:29.720]   ahorita mi cuenta de Amazon está 100%
+[00:00:29.720 --> 00:00:31.320]   desfalcada por muchos servos
+[00:00:31.320 --> 00:00:33.060]   Julio, te voy a ir a hacer el aseo gratis a tu casa
+[00:00:33.060 --> 00:00:35.380]   déjame solamente que va a entrar un robot y un humano
+[00:00:35.380 --> 00:00:36.980]   y el humano va a estar haciendo teleoperación
+[00:00:36.980 --> 00:00:40.060]   tengo a una persona que está viendo 24 7
+[00:00:40.060 --> 00:00:41.260]   lo que está sucediendo en mi casa
+[00:00:41.260 --> 00:00:42.640]   escuchando conversaciones privadas
+[00:00:42.640 --> 00:00:47.600]   yo creo que los robots estamos más para colaborar
+[00:00:47.600 --> 00:00:48.180]   con los humanos
+[00:00:48.180 --> 00:00:52.060]   entonces nos pasó
+[00:00:52.060 --> 00:00:52.880]   a mi hermano y a mí
+[00:00:52.880 --> 00:00:55.680]   la típica de se fue a comprar cigarrillos
+[00:00:55.680 --> 00:00:56.680]   y no volvió
+[00:00:56.680 --> 00:00:59.160]   es el robot que le quiero dar a mi hijo
+[00:00:59.440 --> 00:01:00.560]   no está concebido
+[00:01:00.560 --> 00:01:08.780]   y al portero toca
+output_txt: saving output to 'Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/referencias-usuario/ref-01/transcripcion.txt'
+output_srt: saving output to 'Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/referencias-usuario/ref-01/transcripcion.srt'
+output_json: saving output to 'Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/referencias-usuario/ref-01/transcripcion.json'
+
+whisper_print_timings:     load time =  1743.81 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    31.69 ms
+whisper_print_timings:   sample time =   641.26 ms /  1568 runs (     0.41 ms per run)
+whisper_print_timings:   encode time =  3621.98 ms /     3 runs (  1207.33 ms per run)
+whisper_print_timings:   decode time =    31.62 ms /     1 runs (    31.62 ms per run)
+whisper_print_timings:   batchd time = 11806.26 ms /  1555 runs (     7.59 ms per run)
+whisper_print_timings:   prompt time =  1333.73 ms /   380 runs (     3.51 ms per run)
+whisper_print_timings:    total time = 19502.40 ms
+ggml_metal_free: deallocating

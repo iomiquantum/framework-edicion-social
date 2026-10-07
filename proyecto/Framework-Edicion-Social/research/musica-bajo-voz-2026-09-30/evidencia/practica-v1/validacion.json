@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "date_local": "2026-09-30",
+  "exports": [
+    {
+      "id": "00-referencia-voz",
+      "hashes": "pass",
+      "aac_pcm_correlation": 0.9999966395522496
+    },
+    {
+      "id": "01-voz-efectos",
+      "hashes": "pass",
+      "aac_pcm_correlation": 0.9999967885514695
+    },
+    {
+      "id": "02-voz-efectos-pulso",
+      "hashes": "pass",
+      "aac_pcm_correlation": 0.999990346189739
+    }
+  ],
+  "pcm_voice_invariance": {
+    "max_sfx_difference_error": 1.1920928955078125e-07,
+    "max_music_difference_error": 1.1920928955078125e-07,
+    "limit": 4e-07,
+    "reason": "Solo cuantización PCM24, sin cambio de contribución vocal."
+  },
+  "sfx_in_mp4": [
+    {
+      "id": "apertura",
+      "aac_difference_sfx_correlation": 0.9999868268213424,
+      "human_audibility": "por confirmar"
+    },
+    {
+      "id": "evidencia",
+      "aac_difference_sfx_correlation": 0.9995539884300135,
+      "human_audibility": "por confirmar"
+    },
+    {
+      "id": "valor",
+      "aac_difference_sfx_correlation": 0.9999736847452968,
+      "human_audibility": "por confirmar"
+    }
+  ],
+  "music_in_mp4_correlation": 0.9987495934164823,
+  "local_links": [
+    {
+      "page": "practica.html",
+      "link": "referencias.html",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "link": "audiciones/practica-v1/02-voz-efectos-pulso.mp4",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "link": "audiciones/practica-v1/02-voz-efectos-pulso.wav",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "link": "evidencia/practica-v1/manifest.json",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "link": "APLICACION_PRACTICA.md",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "link": "../../library/music/candidates/2026-09-30-prueba-ritmica/CREDITOS.txt",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "link": "biblioteca.html",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "link": "voz.html",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "link": "banco.html",
+      "exists": true
+    },
+    {
+      "page": "voz.html",
+      "link": "ANALISIS_VOZ.md",
+      "exists": true
+    },
+    {
+      "page": "voz.html",
+      "link": "banco.html",
+      "exists": true
+    }
+  ],
+  "http_range": {
+    "status": 206,
+    "content_range": "bytes 1024-2047/12727769",
+    "bytes": 1024,
+    "byte_agreement": "pass"
+  },
+  "source_picture_voice_hashes": "pass",
+  "human_listening": "por confirmar",
+  "audience_effect": "por confirmar",
+  "ui": {
+    "method": "CUA: tres opciones cargadas, duración19.5s/errornull, salto13.39 y comparación pausada6.99s de A a B conservada; captura de layout inspeccionada.",
+    "playback_observed": true,
+    "human_listening_by_agent": false
+  }
+}

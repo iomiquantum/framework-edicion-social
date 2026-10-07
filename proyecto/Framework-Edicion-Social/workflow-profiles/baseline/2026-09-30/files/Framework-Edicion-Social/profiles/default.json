@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "profile_id": "default_latam_ai_education",
+  "country": "EC",
+  "region": "LATAM",
+  "language": "es",
+  "platforms": ["instagram_reels", "tiktok", "youtube_shorts"],
+  "audience": "unknown",
+  "goals": ["qualified_retention", "comprehension", "shares", "saves"],
+  "topics": ["ai_education", "technology"],
+  "formats": ["talking_head", "explainer"],
+  "brand_constraints": [],
+  "unknown_fields_are_not_matches": true
+}

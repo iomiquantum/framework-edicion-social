@@ -1,0 +1,203 @@
+{
+  "utc": "2026-10-01T07:13:46.366742+00:00",
+  "status": "HERRAMIENTAS_HEADLESS_LISTAS_EVALUACION_ASISTIDA_PARCIAL",
+  "request_completed_scope": "Local tools calibrated by capability, real existing audio audited, reusable code-only mix/review/prosody/catalog flow, two long candidates preserved and measured.",
+  "headless": true,
+  "ui_optional": true,
+  "human_hearing": false,
+  "human_approval": false,
+  "coverage": {
+    "previous_mixes": 11,
+    "previous_speech_windows": 444,
+    "new_candidates": 2,
+    "new_speech_windows": 103,
+    "yamnet_initial_signals": 26,
+    "yamnet_candidate_signals": 2,
+    "headless_acceptance_cases": 17
+  },
+  "capabilities": {
+    "stoi_estoi": "limited: speech/music, excludes global sparse SFX",
+    "yamnet": "basic speech/music/silence controls passed; not human probabilities",
+    "qwen_local": "experimental; rejected for fader/SFX authority",
+    "gemma_local": "discarded in tested configuration"
+  },
+  "validation": {
+    "all_json_parse": 76,
+    "python_ast": "PASS",
+    "javascript_node_check": "PASS",
+    "local_links": [
+      {
+        "source": "Framework-Edicion-Social/AUDIO_EVALUACION_PERCEPTUAL_ASISTIDA.md",
+        "target": "AUDIO_DIRECCION_Y_PROSODIA.md",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/AUDIO_EVALUACION_PERCEPTUAL_ASISTIDA.md",
+        "target": "AUDIO_MEZCLA_CONTEXTO_QA.md",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/AUDIO_EVALUACION_PERCEPTUAL_ASISTIDA.md",
+        "target": "research/escucha-perceptual-2026-10-01/headless/plan-piloto-01.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/AUDIO_EVALUACION_PERCEPTUAL_ASISTIDA.md",
+        "target": "research/escucha-perceptual-2026-10-01/headless/v2/aceptacion.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/AUDIO_EVALUACION_PERCEPTUAL_ASISTIDA.md",
+        "target": "research/escucha-perceptual-2026-10-01/INFORME.md",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "../../scripts/audio_multimedia",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "../../AUDIO_EVALUACION_PERCEPTUAL_ASISTIDA.md",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "evidencia/requirements-lock.txt",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "calibracion/manifest.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "calibracion/validacion-indices.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "antes/indices-calibracion-global-sfx/validacion-indices.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "calibracion/criterios-yamnet.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "calibracion/validacion-yamnet.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "modelo/calibracion.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "modelo/gemma-calibracion.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "modelo/gemma-inspeccion-pipeline.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "comparaciones/manifest.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "comparaciones/qa.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "index.html",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "headless/v2/aceptacion.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "antes/cli-v1/aceptacion.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "evidencia/incidencias.json",
+        "exists": true
+      },
+      {
+        "source": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/INFORME.md",
+        "target": "modelo/carga.json",
+        "exists": true
+      }
+    ],
+    "http": [
+      {
+        "relative": "index.html",
+        "status": 200,
+        "bytes": "3580"
+      },
+      {
+        "relative": "app.js",
+        "status": 200,
+        "bytes": "6695"
+      },
+      {
+        "relative": "styles.css",
+        "status": 200,
+        "bytes": "3409"
+      },
+      {
+        "relative": "INFORME.md",
+        "status": 200,
+        "bytes": "9234"
+      },
+      {
+        "relative": "comparaciones/manifest.json",
+        "status": 200,
+        "bytes": "25782"
+      },
+      {
+        "relative": "comparaciones/largo-53/mezcla.m4a",
+        "status": 200,
+        "bytes": "1636385"
+      },
+      {
+        "relative": "comparaciones/largo-159/mezcla.m4a",
+        "status": 200,
+        "bytes": "4938878"
+      }
+    ],
+    "native_ui_receipt": "evidencia/ui.json",
+    "sources_unchanged": true,
+    "candidate_written_media_hashes": "PASS",
+    "headless_acceptance": "headless/v2/aceptacion.json"
+  },
+  "remaining_perception": [
+    "Timbre/naturalness",
+    "Musical/emotional fit",
+    "SFX audibility",
+    "Fatigue and real device experience",
+    "Audience attention"
+  ],
+  "does_not_claim": "No absolute best mix, expert human hearing or exhaustion of every possible improvement.",
+  "important_files": [
+    "../../scripts/audio_multimedia",
+    "../../AUDIO_EVALUACION_PERCEPTUAL_ASISTIDA.md",
+    "INFORME.md",
+    "comparaciones/manifest.json",
+    "headless/plan-piloto-01.json"
+  ],
+  "original_video_modified_by_this_work": false
+}

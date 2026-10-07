@@ -1,0 +1,12 @@
+<!doctype html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;color:#17353A;font-family:Inter,Arial,sans-serif;pointer-events:none}
+  .question{position:absolute;left:42px;right:42px;top:34px;height:236px;background:#F3E7CF;border:5px solid #17353A;box-shadow:12px 12px 0 #E76F51;padding:24px 32px;font:900 68px/1.02 "Bebas Neue",Impact,sans-serif;text-transform:uppercase}.question .line{display:block}.question b{color:#17353A;background:#E9C46A;padding:0 8px}
+  .action{position:absolute;left:54px;right:54px;bottom:120px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}.action span{height:124px;display:flex;align-items:center;justify-content:center;background:#F3E7CF;border:5px solid #17353A;font:900 42px/.9 Inter,Arial,sans-serif;text-align:center;padding:12px}.action span:nth-child(2){background:#E9C46A}.action span:nth-child(3){background:#E76F51;color:#17353A}
+</style>
+<div data-hf-id="hf-v13-cta-root" id="root" data-composition-id="scene-cta" data-duration="3.13" data-width="1080" data-height="1920"><div class="question" id="question"><span class="line">¿REGISTRAS POR QUÉ</span><span class="line">TUS CLIENTES TE DICEN <b>NO?</b></span></div><div class="action"><span>ESCUCHA</span><span>REGISTRA</span><span>APRENDE</span></div></div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#question",{y:-52,opacity:0},{y:0,opacity:1,duration:.46,ease:"power3.out"},.05);gsap.utils.toArray(".action span").forEach((el,i)=>tl.fromTo(el,{scale:0,opacity:0,y:20},{scale:1,opacity:1,y:0,duration:.44,ease:"power3.out"},.34+i*.10));window.__timelines["scene-cta"]=tl;
+</script>
+</template></body></html>

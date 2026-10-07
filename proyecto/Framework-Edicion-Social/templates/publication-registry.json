@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "registry_id": "PUBLICATION-REGISTRY-MAIN",
+  "updated_at": "2026-09-25T00:00:00Z",
+  "records": [
+    {
+      "record_id": "PUBREC-CACFEAC6E46525C5",
+      "publication_id": "PUB-EXAMPLE-01",
+      "project_id": "PROJECT-EXAMPLE",
+      "video_id": "VIDEO-01",
+      "platform": "instagram",
+      "surface": "reels_organic",
+      "published_at": "2026-09-24T12:00:00Z",
+      "registered_at": "2026-09-24T12:05:00Z",
+      "package": {
+        "path": "VIDEO-01/publish-package/publish-package.json",
+        "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+        "package_id": "PUBLISH-VIDEO-01-TEMPLATE"
+      },
+      "delivery": {
+        "path": "VIDEO-01/publish-package/instagram/VIDEO-01-reels-organic.mp4",
+        "sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+        "size_bytes": 1
+      },
+      "delivery_check": {
+        "path": "VIDEO-01/publish-package/instagram/delivery-check.json",
+        "sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+        "profile_id": "PLATFORM-INSTAGRAM-REELS-ORGANIC-001",
+        "required_delivery_status": "ready"
+      },
+      "publication_evidence": {
+        "path": "VIDEO-01/publish-package/instagram/publication-evidence.png",
+        "sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+        "type": "screenshot",
+        "integrity_scope": "local_artifact_integrity_only"
+      },
+      "source_reference": "platform:replace-with/publication-url-or-export-reference"
+    }
+  ]
+}

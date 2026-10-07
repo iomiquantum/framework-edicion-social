@@ -1,0 +1,11 @@
+<!doctype html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;color:#17353A;font-family:Inter,Arial,sans-serif;pointer-events:none}.cue{position:absolute;left:54px;right:54px;bottom:505px;padding:26px 30px 28px;background:rgba(243,231,207,.98);border:5px solid #17353A;box-shadow:12px 12px 0 #E76F51;font-size:58px;font-weight:900;line-height:1.02;text-align:center;letter-spacing:-1.2px;opacity:0}.cue.long{font-size:54px}.cue b{color:#17353A;font-weight:900;text-decoration:underline;text-decoration-color:#E76F51;text-decoration-thickness:8px;text-underline-offset:6px}.cue .teal{color:#17353A;text-decoration:underline;text-decoration-color:#E9C46A;text-decoration-thickness:8px;text-underline-offset:6px}
+</style>
+<div data-hf-id="hf-v13-captions-root" id="root" data-composition-id="captions-es" data-duration="19.47" data-width="1080" data-height="1920" data-layout-allow-caption-zone>
+  <div id="c1" class="cue">La IA no conoce a <b>tu cliente.</b></div><div id="c2" class="cue">ChatGPT puede saber muchísimo de <b>marketing</b></div><div id="c3" class="cue">y no saber casi nada de <b>tu cliente.</b></div><div id="c4" class="cue">Porque no escuchó <span class="teal">sus llamadas</span></div><div id="c5" class="cue long">sus objeciones ni las razones<br>por las que decidió <b>no comprarte.</b></div><div id="c6" class="cue long">Esa información puede valer<br>más que <b>cien prompts.</b></div><div id="c7" class="cue long">Y tú, ¿registras por qué tus clientes<br>te dicen <b>no?</b></div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});const cues=[["#c1",.10,2.02],["#c2",2.12,5.02],["#c3",5.02,6.92],["#c4",7.08,10.48],["#c5",10.48,13.34],["#c6",13.46,16.30],["#c7",16.42,19.42]];cues.forEach(([id,a,b])=>{tl.fromTo(id,{opacity:0,y:18},{opacity:1,y:0,duration:.10,ease:"power1.out"},a).to(id,{opacity:0,y:-8,duration:.10,ease:"power1.in"},Math.max(a,b-.10))});window.__timelines["captions-es"]=tl;
+</script>
+</template></body></html>

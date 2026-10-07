@@ -1,0 +1,10 @@
+test_failure_logs_and_unique_attempts (test_medir_proceso.ProcessMeasurements.test_failure_logs_and_unique_attempts) ... ok
+test_launch_failure_is_recorded (test_medir_proceso.ProcessMeasurements.test_launch_failure_is_recorded) ... ok
+test_literal_argument_no_shell_and_scope_filter (test_medir_proceso.ProcessMeasurements.test_literal_argument_no_shell_and_scope_filter) ... ok
+test_modified_log_rejected (test_medir_proceso.ProcessMeasurements.test_modified_log_rejected) ... ok
+test_overlapping_intervals_do_not_double_count (test_medir_proceso.ProcessMeasurements.test_overlapping_intervals_do_not_double_count) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.124s
+
+OK

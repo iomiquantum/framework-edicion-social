@@ -1,0 +1,47 @@
+..........................................................................................................................................................................................................................................................................................................E.EE...........................
+======================================================================
+ERROR: test_declared_style_hashes_match_portable_packages (test_validate_framework.FrameworkStyleValidationTests.test_declared_style_hashes_match_portable_packages)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 29, in test_declared_style_hashes_match_portable_packages
+    MODULE.validate_styles(self.catalog, self.style_schema, self.motion_schema),
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/validate_framework.py", line 343, in validate_styles
+    portable_style_reference(style_id, field, style.get(field))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/validate_framework.py", line 321, in portable_style_reference
+    raise FileNotFoundError(f"Style {style_id} {field} does not exist: {raw}")
+FileNotFoundError: Style STYLE_002_TECH_EDITORIAL_COLOR validated_preview does not exist: ../../Miguel-Reel-Piloto/outputs/MIGUEL_REEL_COMPLETO_PRO_V2.mp4
+
+======================================================================
+ERROR: test_malformed_catalog_and_nonfinite_weights_are_rejected (test_validate_framework.FrameworkStyleValidationTests.test_malformed_catalog_and_nonfinite_weights_are_rejected) (name='nan')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 60, in test_malformed_catalog_and_nonfinite_weights_are_rejected
+    MODULE.validate_styles(catalog, self.style_schema, self.motion_schema)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/validate_framework.py", line 343, in validate_styles
+    portable_style_reference(style_id, field, style.get(field))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/validate_framework.py", line 321, in portable_style_reference
+    raise FileNotFoundError(f"Style {style_id} {field} does not exist: {raw}")
+FileNotFoundError: Style STYLE_002_TECH_EDITORIAL_COLOR validated_preview does not exist: ../../Miguel-Reel-Piloto/outputs/MIGUEL_REEL_COMPLETO_PRO_V2.mp4
+
+======================================================================
+ERROR: test_malformed_catalog_and_nonfinite_weights_are_rejected (test_validate_framework.FrameworkStyleValidationTests.test_malformed_catalog_and_nonfinite_weights_are_rejected) (name='huge')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 60, in test_malformed_catalog_and_nonfinite_weights_are_rejected
+    MODULE.validate_styles(catalog, self.style_schema, self.motion_schema)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/validate_framework.py", line 343, in validate_styles
+    portable_style_reference(style_id, field, style.get(field))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/validate_framework.py", line 321, in portable_style_reference
+    raise FileNotFoundError(f"Style {style_id} {field} does not exist: {raw}")
+FileNotFoundError: Style STYLE_002_TECH_EDITORIAL_COLOR validated_preview does not exist: ../../Miguel-Reel-Piloto/outputs/MIGUEL_REEL_COMPLETO_PRO_V2.mp4
+
+----------------------------------------------------------------------
+Ran 328 tests in 6.097s
+
+FAILED (errors=3)

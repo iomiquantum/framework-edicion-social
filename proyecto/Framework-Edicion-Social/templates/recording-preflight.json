@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "",
+  "recording_id": "",
+  "source_path": "",
+  "policy": {
+    "require_audio": true,
+    "allowed_video_codecs": ["h264", "hevc", "prores", "av1"],
+    "allowed_audio_codecs": ["aac", "alac", "pcm_s16le", "pcm_s24le", "pcm_s32le"],
+    "min_short_edge_px": 720,
+    "min_long_edge_px": 1280,
+    "min_duration_s": 0.5,
+    "min_fps": 23.0,
+    "max_fps": 61.0,
+    "min_audio_sample_rate_hz": 44100,
+    "min_audio_channels": 1,
+    "allowed_orientations": ["portrait", "landscape", "square"],
+    "vfr_warn_delta_fps": 0.5,
+    "warn_on_missing_color_metadata": true
+  },
+  "probe": null,
+  "checks": [],
+  "summary": {
+    "status": "pending",
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "not_run": 0,
+    "delivery_ready": false
+  },
+  "checked_at": ""
+}

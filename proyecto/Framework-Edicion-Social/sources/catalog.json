@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0.0",
+  "verified_at": "2026-10-03",
+  "sources": [
+    {
+      "id": "TIKTOK_TRENDS_HELP",
+      "publisher": "TikTok for Business",
+      "url": "https://ads.us.tiktok.com/resources/help/article/how-to-use-trends?lang=en&redirected=2",
+      "type": "official_platform_analytics_guide",
+      "use": "Tendencias con filtros y curvas cuando estén disponibles.",
+      "limitations": "Popularidad y demanda no demuestran que una técnica cause retención orgánica."
+    },
+    {
+      "id": "TIKTOK_SEARCH_INSIGHTS",
+      "publisher": "TikTok Newsroom",
+      "url": "https://newsroom.tiktok.com/creator-search-insights?lang=en",
+      "type": "official_platform_feature",
+      "use": "Demanda de búsqueda y oportunidades de contenido.",
+      "limitations": "La disponibilidad depende de la región."
+    },
+    {
+      "id": "YOUTUBE_TRENDS_TAB",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/11962757?hl=en-SE",
+      "type": "official_platform_feature",
+      "use": "Búsquedas, breakout videos y content gaps de Shorts.",
+      "limitations": "Funciones limitadas por país, idioma o dispositivo."
+    },
+    {
+      "id": "YOUTUBE_SHORTS_DISCOVERY",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en-GB",
+      "type": "official_platform_recommendation",
+      "use": "Evitar suponer que YouTube favorece un formato o cadencia universal.",
+      "limitations": "No predice resultados de una cuenta concreta."
+    },
+    {
+      "id": "YOUTUBE_SHORTS_ORIGINAL_CONTENT_2026",
+      "publisher": "YouTube Community",
+      "url": "https://support.google.com/youtube/blog/470890423/prioritizing-original-content-on-shorts?hl=en",
+      "type": "official_recommendation_system_change",
+      "use": "Verificar la actualización anunciada el 1 de octubre de 2026 que prioriza contenido original en Shorts y reduce distribución de reuploads o agregaciones sin aporte significativo.",
+      "limitations": "No publica umbrales de cambios significativos, no garantiza alcance y no demuestra que una plantilla, técnica visual o frecuencia concreta mejore la retención."
+    },
+    {
+      "id": "YOUTUBE_SHORTS_METRICS_2025",
+      "publisher": "YouTube Help Community",
+      "url": "https://support.google.com/youtube/thread/333869549?hl=en&msgid=355736999",
+      "type": "official_metric_change",
+      "use": "Distinguir views de engaged views al comparar piezas.",
+      "limitations": "Las definiciones deben volver a verificarse antes del análisis."
+    },
+    {
+      "id": "YOUTUBE_3MIN_SHORTS_CONTENT_ID_2026",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/15424877?hl=en",
+      "type": "official_platform_policy_change",
+      "use": "Verificar tratamiento de reclamaciones Content ID para Shorts nuevos de 61 a 179 segundos desde el 24 de septiembre de 2026.",
+      "limitations": "Que una pieza pueda seguir reproducible no equivale a licencia, ausencia de reclamación ni monetización garantizada. No aplica a Shorts de hasta 60 segundos."
+    },
+    {
+      "id": "YOUTUBE_MADE_ON_2026_CREATOR_TOOLS",
+      "publisher": "YouTube Blog ES-LATAM",
+      "url": "https://blog.youtube/intl/es-419/news-and-events/made-on-youtube-overview/",
+      "type": "official_platform_feature_announcement",
+      "use": "Seguir edición conversacional para Shorts/Create y futuras pruebas A/B de hasta tres cortes de video.",
+      "limitations": "El anuncio no especifica fecha o disponibilidad para Ecuador; los resultados de una cuenta no prueban eficacia universal."
+    },
+    {
+      "id": "YOUTUBE_SHORTS_SERIES_2026",
+      "publisher": "YouTube Blog",
+      "url": "https://blog.youtube/news-and-events/made-on-youtube-creators-shorts-series-tv-features/",
+      "type": "official_platform_feature_announcement",
+      "use": "Seguir la organización de Shorts por temporadas y episodios, miniaturas personalizadas y reproducción secuencial para series.",
+      "limitations": "El despliegue es gradual y no confirma disponibilidad en Ecuador o en una cuenta concreta; las métricas generales de microdramas no prueban rendimiento para educación sobre IA."
+    },
+    {
+      "id": "INSTAGRAM_BEST_PRACTICES",
+      "publisher": "Meta",
+      "url": "https://about.fb.com/news/2024/10/best-practices-education-hub-creators-instagram/",
+      "type": "official_platform_feature",
+      "use": "Recomendaciones personalizadas dentro del panel profesional.",
+      "limitations": "El radar público no sustituye los datos de la cuenta."
+    },
+    {
+      "id": "INSTAGRAM_TRIAL_REELS",
+      "publisher": "Meta",
+      "url": "https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/",
+      "type": "official_platform_feature",
+      "use": "Explorar contenido con no seguidores cuando la cuenta sea elegible.",
+      "limitations": "No equivale automáticamente a una prueba A/B aleatoria."
+    },
+    {
+      "id": "META_REELS_ADS_CREATIVE",
+      "publisher": "Meta for Business",
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "type": "official_platform_creative_guide",
+      "use": "Respaldar la recomendación 9:16, uso de audio y ubicación de elementos importantes dentro de zonas seguras para creatividad de Reels.",
+      "limitations": "La página se refiere a creatividad publicitaria; no publica coordenadas universales ni demuestra límites técnicos para Reels orgánicos."
+    },
+    {
+      "id": "TIKTOK_AUCTION_INFEED_SPECS",
+      "publisher": "TikTok for Business",
+      "url": "https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads?lang=en-GB",
+      "type": "official_platform_ad_specification",
+      "use": "Respaldar orientación 9:16 y mínimos técnicos declarados para anuncios Non-Spark verticales.",
+      "limitations": "Especificación de anuncios, no un límite universal de carga orgánica; la zona segura depende del formato y la interfaz."
+    },
+    {
+      "id": "TIKTOK_CREATIVE_QUALITY_CHECKLIST",
+      "publisher": "TikTok for Business",
+      "url": "https://ads.tiktok.com/business/library/Top_Tips_One_Pager_SMB.pdf",
+      "type": "official_platform_creative_guide",
+      "use": "Respaldar pantalla completa 9:16, al menos 720p, respeto de zonas seguras y voz legible como guía creativa.",
+      "limitations": "Es una lista publicitaria general; no aporta coordenadas fijas para todas las interfaces o dispositivos."
+    },
+    {
+      "id": "YOUTUBE_SHORTS_ELIGIBILITY",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/15424877?hl=en",
+      "type": "official_platform_requirement",
+      "use": "Validar la elegibilidad actual de videos cuadrados o verticales de hasta tres minutos como Shorts.",
+      "limitations": "La clasificación no garantiza distribución, monetización ni ausencia de reclamaciones de derechos."
+    },
+    {
+      "id": "YOUTUBE_UPLOAD_ENCODING",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/1722171?hl=en-GB",
+      "type": "official_platform_encoding_guide",
+      "use": "Respaldar MP4/H.264, AAC-LC u Opus a 48 kHz, frame rate nativo, BT.709 SDR y bitrate orientativo de 1080p.",
+      "limitations": "Son recomendaciones de codificación para YouTube general; no sustituyen la previsualización de interfaz de Shorts."
+    },
+    {
+      "id": "CAP_TIKTOK_SAFE_ZONE_2026",
+      "publisher": "TikTok for Business",
+      "url": "https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads",
+      "type": "official_platform_specification",
+      "published_or_updated": "June 2026",
+      "use": "Zona segura variable según dimensiones, descripción y formatos adicionales.",
+      "limitations": "Guía de anuncios; no fija un y universal para subtítulos orgánicos. Preview no específico del dispositivo.",
+      "access": "primary_page_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_META_REELS_ADS_GUIDE",
+      "publisher": "Meta, documento de autor alojado por organizador de evento",
+      "url": "https://d3m889aznlr23d.cloudfront.net/img/events/458925814/assets/e042d2be.reels_ads_guide1.pdf",
+      "type": "primary_platform_authored_pdf",
+      "published_or_updated": "Fecha de edición no declarada; estudios citados 2021–2023",
+      "use": "Referencia de reservar el 35 % inferior en anuncios; página 4 del PDF.",
+      "limitations": "No certifica interfaz orgánica de 2026. Ads Guide actual bloqueada por login. No trasladar CTR/CPA a efecto causal de captions.",
+      "access": "primary_pdf_opened_7_pages",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_SOUND_OFF_PLOS2024",
+      "publisher": "Autores / University of East Anglia / PLOS ONE",
+      "url": "https://ueaeprints.uea.ac.uk/id/eprint/96946/",
+      "type": "peer_reviewed_primary_study",
+      "published_or_updated": "2024-10-07",
+      "use": "Mayor esfuerzo lector sin audio; n=168, contenido inglés con subtítulos ingleses.",
+      "limitations": "No compara nuestros tamaños, posición ni Reels españoles; no estima porcentaje de usuarios actuales sin sonido.",
+      "access": "primary_repository_abstract_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_TIKTOK_ACCESSIBILITY_CHI2024",
+      "publisher": "McDonnell y coautores / ACM CHI / Makeability Lab",
+      "url": "https://makeabilitylab.cs.washington.edu/media/publications/McDonnell_CaptionItInAnAccessibleWayThatIsAlsoEnjoyableCharacterizingUserDrivenCaptioningPracticesOnTiktok_CHI2024.pdf",
+      "type": "peer_reviewed_primary_study",
+      "published_or_updated": "CHI 2024, May 11–16; TikToks collected April 2023",
+      "use": "Consistencia, legibilidad y prácticas de captions: 300 videos y nueve entrevistas.",
+      "limitations": "Muestra situada; no tendencia de frecuencia en 2026 ni prueba causal de retención.",
+      "access": "primary_author_pdf_downloaded_and_text_extracted",
+      "local_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/CHI2024-caption-practices.pdf",
+      "local_sha256": "f7f2bcf6c6d1d7e189aaa52d1587dd4bea2e5ea66ae1515adcd89cff155c8a79",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_SOCIAL_REVIEW_CHI2026",
+      "publisher": "Nguyen y coautores / ACM CHI / SInC Lab",
+      "url": "https://sinc-lab.com/publications/2026-04-13-nguyen2026like",
+      "type": "peer_reviewed_systematic_review_primary_abstract",
+      "published_or_updated": "2026-04-13",
+      "use": "Revisión de 36 trabajos 2015–2025 sobre captions sociales y accesibilidad.",
+      "limitations": "Se verificó resumen primario; no atribuir al artículo una posición o tipografía ganadora.",
+      "access": "primary_author_abstract_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_NETFLIX_SPANISH_READING",
+      "publisher": "Netflix Partner Help Center",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/217349997-Spanish-Latin-America-Spain-Timed-Text-Style-Guide",
+      "type": "official_delivery_style_guide",
+      "published_or_updated": "Fecha de edición no verificada",
+      "use": "Referencia de 17 CPS adultos en español y dos líneas.",
+      "limitations": "Especificación Netflix, no requisito de redes ni permiso para omitir palabras de nuestra voz.",
+      "access": "primary_guide_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_W3C_SEMANTIC_COVERAGE",
+      "publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/media/av/captions/",
+      "type": "primary_accessibility_guidance",
+      "published_or_updated": "Fecha de edición no verificada",
+      "use": "Voz fiel, sincronía, sonidos significativos y corrección de captions automáticos.",
+      "limitations": "Aplicar principios no acredita conformidad integral WCAG del video.",
+      "access": "primary_page_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_W3C_CONTRAST",
+      "publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "type": "primary_accessibility_guidance",
+      "published_or_updated": "WCAG 2.2, página consultada en 2026",
+      "use": "Objetivo interno de contraste 4,5:1 para todo caption.",
+      "limitations": "Escala física del teléfono y fondo variable deben revisarse; px fuente no implica texto grande WCAG.",
+      "access": "primary_page_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_TIKTOK_CREATIVE_GUIDE",
+      "publisher": "TikTok for Business",
+      "url": "https://ads.tiktok.com/resources/help/article/creative-best-practices?lang=en",
+      "type": "official_ad_creative_guidance",
+      "published_or_updated": "June 2025",
+      "use": "Texto para contexto, zona UI y experimentación creativa.",
+      "limitations": "Los 5–10 words/sec del texto publicitario no se adoptan como velocidad de lectura de subtítulos de voz.",
+      "access": "primary_page_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_CAPCUT_AVAILABLE_FORMATS",
+      "publisher": "CapCut",
+      "url": "https://www.capcut.com/resource/types-of-captions",
+      "type": "primary_tool_vendor_description",
+      "published_or_updated": "Fecha de edición no verificada",
+      "use": "Disponibilidad actual de estilos de frase, énfasis y captions dinámicos.",
+      "limitations": "La oferta de una herramienta no mide moda, preferencia ni eficacia independiente.",
+      "access": "primary_vendor_page_search_index_checked",
+      "checked_at": "2026-09-30"
+    }
+  ],
+  "last_addition_at": "2026-09-30"
+}

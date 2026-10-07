@@ -1,0 +1,260 @@
+{
+  "status": "pass",
+  "errors": [],
+  "active_html_sha256": {
+    "index.html": "e1181a83c28076f0237cf6bdeeba3e249b4047730112289b76ee87ba98eaabe3",
+    "compositions/recap.html": "6e6be7fc2fd84f8cb58937a18807d5b2f3fd3115d1722f43dcaf84042597ec6f",
+    "compositions/simbolo.html": "ceb369afa6ea7f419b028f8ced2bbfe5ce7f86c6caca17d7115bab081f49dbd8",
+    "compositions/sonora.html": "5e4f403938ca75a24ad61aef86266be5d8a9e28414e8f3138b36a1ba8ebe374c",
+    "compositions/textual.html": "87f2bb2800534104db50c404b4548c8fcb414fb857ce813f74ced9687e1c8619",
+    "compositions/central.html": "41dc50ef0463e946e2405e055d781d9f372513876d6a3b6b128984f813fb1108"
+  },
+  "text_inventory": [
+    {
+      "text": "UNA PREGUNTAINCÓMODA",
+      "line": 1,
+      "file": "compositions/recap.html"
+    },
+    {
+      "text": "¿POR QUÉESCOGERTE?",
+      "line": 1,
+      "file": "compositions/recap.html"
+    },
+    {
+      "text": "UNA PREGUNTAINCÓMODA¿POR QUÉESCOGERTE?",
+      "line": 1,
+      "file": "compositions/recap.html"
+    },
+    {
+      "text": "UNA PREGUNTAINCÓMODA¿POR QUÉESCOGERTE?",
+      "line": 1,
+      "file": "compositions/recap.html"
+    },
+    {
+      "text": "UNA PREGUNTAINCÓMODA¿POR QUÉESCOGERTE?",
+      "line": 1,
+      "file": "compositions/recap.html"
+    },
+    {
+      "text": "UNA PREGUNTAINCÓMODA¿POR QUÉESCOGERTE?",
+      "line": 1,
+      "file": "compositions/recap.html"
+    },
+    {
+      "text": "UNA PREGUNTAINCÓMODA¿POR QUÉESCOGERTE?",
+      "line": 1,
+      "file": "compositions/recap.html"
+    },
+    {
+      "text": "MISMASHERRAMIENTAS",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "MISMASHERRAMIENTAS",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "TÚ",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "TÚ",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "CUALQUIERA",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "CUALQUIERA",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "=",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "TÚCUALQUIERA=",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "¿QUÉ TEDIFERENCIA?",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "MISMASHERRAMIENTASTÚCUALQUIERA=¿QUÉ TEDIFERENCIA?",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "MISMASHERRAMIENTASTÚCUALQUIERA=¿QUÉ TEDIFERENCIA?",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "MISMASHERRAMIENTASTÚCUALQUIERA=¿QUÉ TEDIFERENCIA?",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "MISMASHERRAMIENTASTÚCUALQUIERA=¿QUÉ TEDIFERENCIA?",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "MISMASHERRAMIENTASTÚCUALQUIERA=¿QUÉ TEDIFERENCIA?",
+      "line": 1,
+      "file": "compositions/simbolo.html"
+    },
+    {
+      "text": "LAS MISMASHERRAMIENTAS",
+      "line": 1,
+      "file": "compositions/sonora.html"
+    },
+    {
+      "text": "LAS MISMASHERRAMIENTAS",
+      "line": 1,
+      "file": "compositions/sonora.html"
+    },
+    {
+      "text": "LAS MISMASHERRAMIENTAS",
+      "line": 1,
+      "file": "compositions/sonora.html"
+    },
+    {
+      "text": "LAS MISMASHERRAMIENTAS",
+      "line": 1,
+      "file": "compositions/sonora.html"
+    },
+    {
+      "text": "LAS MISMASHERRAMIENTAS",
+      "line": 1,
+      "file": "compositions/sonora.html"
+    },
+    {
+      "text": "LAS MISMASHERRAMIENTAS",
+      "line": 1,
+      "file": "compositions/sonora.html"
+    },
+    {
+      "text": "LAS MISMASHERRAMIENTAS",
+      "line": 1,
+      "file": "compositions/sonora.html"
+    },
+    {
+      "text": "CREAR ESTÁAL ALCANCE",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "CREAR ESTÁAL ALCANCE",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "CONTENIDO",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "CONTENIDO",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "ANUNCIOS",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "ANUNCIOS",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "PÁGINAS",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "PÁGINAS",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "CREAR ESTÁAL ALCANCECONTENIDOANUNCIOSPÁGINAS",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "CREAR ESTÁAL ALCANCECONTENIDOANUNCIOSPÁGINAS",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "CREAR ESTÁAL ALCANCECONTENIDOANUNCIOSPÁGINAS",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "CREAR ESTÁAL ALCANCECONTENIDOANUNCIOSPÁGINAS",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "CREAR ESTÁAL ALCANCECONTENIDOANUNCIOSPÁGINAS",
+      "line": 1,
+      "file": "compositions/textual.html"
+    },
+    {
+      "text": "UNA PREGUNTAMÁS VALIOSA",
+      "line": 1,
+      "file": "compositions/central.html"
+    },
+    {
+      "text": "UNA PREGUNTAMÁS VALIOSA",
+      "line": 1,
+      "file": "compositions/central.html"
+    },
+    {
+      "text": "?",
+      "line": 1,
+      "file": "compositions/central.html"
+    },
+    {
+      "text": "UNA PREGUNTAMÁS VALIOSA?",
+      "line": 1,
+      "file": "compositions/central.html"
+    },
+    {
+      "text": "UNA PREGUNTAMÁS VALIOSA?",
+      "line": 1,
+      "file": "compositions/central.html"
+    },
+    {
+      "text": "UNA PREGUNTAMÁS VALIOSA?",
+      "line": 1,
+      "file": "compositions/central.html"
+    },
+    {
+      "text": "UNA PREGUNTAMÁS VALIOSA?",
+      "line": 1,
+      "file": "compositions/central.html"
+    },
+    {
+      "text": "UNA PREGUNTAMÁS VALIOSA?",
+      "line": 1,
+      "file": "compositions/central.html"
+    }
+  ],
+  "limits": "Known labels only; semantic and visual review of all audience text remains mandatory. Captions/technical IDs are excluded."
+}

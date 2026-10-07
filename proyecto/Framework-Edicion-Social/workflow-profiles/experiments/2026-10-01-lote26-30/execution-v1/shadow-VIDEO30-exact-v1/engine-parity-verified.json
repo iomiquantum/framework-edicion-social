@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "engine_version": "0.8.100",
+  "export_sha256": "91b60c310a204be58a2b739944dc5676edf57521403257ebd31ccee7fa506cbd",
+  "reference_sha256": "808fce4613218a764a365b69f634daa28c514d6b75c4ac1b4a8902f933e80369",
+  "decoded_samples_exact": true,
+  "sample_count_per_channel": 763904,
+  "full_correlation": 1.0,
+  "reference_measurements": [
+    {
+      "true_peak_dbfs": -2.1,
+      "integrated_lufs": -16.0
+    }
+  ],
+  "global_attenuation_db": 0.0,
+  "export_loudness": {
+    "true_peak_dbfs": -2.1,
+    "integrated_lufs": -16.0
+  },
+  "events": [
+    {
+      "id": "sfx-pregunta",
+      "start_s": 0.12,
+      "duration_s": 0.44,
+      "decoded_samples_exact": true,
+      "correlation": 0.9999999999999999
+    },
+    {
+      "id": "sfx-diferencia",
+      "start_s": 10.0,
+      "duration_s": 0.16,
+      "decoded_samples_exact": true,
+      "correlation": 1.0
+    },
+    {
+      "id": "sfx-escogerte",
+      "start_s": 13.72,
+      "duration_s": 0.48,
+      "decoded_samples_exact": true,
+      "correlation": 0.9999999999999998
+    }
+  ],
+  "human_listened": false,
+  "wall_seconds": 0.8967513329698704,
+  "limits": "Technical identity of complete mix and each event; does not establish subjective audibility, naturalness or mobile playback."
+}

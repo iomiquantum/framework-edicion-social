@@ -1,0 +1,24 @@
+{
+  "speech_only": {
+    "Speech_mean_min": 0.5,
+    "Music_mean_max": 0.2
+  },
+  "music_only": {
+    "Music_mean_min": 0.5,
+    "Speech_mean_max": 0.2
+  },
+  "silence": {
+    "Speech_mean_max": 0.2,
+    "Music_mean_max": 0.2
+  },
+  "no_voice": {
+    "Speech_mean_max": 0.2
+  },
+  "music_excess": "Music mean must increase by at least .15 over balanced control.",
+  "excluded_predeclared": [
+    "Audibility of sparse original SFX",
+    "Emotional suitability",
+    "Human intelligibility/MOS",
+    "Exact fader dB or genre identity"
+  ]
+}

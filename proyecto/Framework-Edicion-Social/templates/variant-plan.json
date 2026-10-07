@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "plan_id": "VARIANT-PLAN-VIDEO-00-V1",
+  "project_id": "PROJECT-ID",
+  "video_id": "VIDEO-00",
+  "blueprint_id": "CBP-VIDEO-00-V1",
+  "shared_body": {
+    "beat_ids": [
+      "BEAT-02"
+    ],
+    "content_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "edit_points_locked": true,
+    "voice_locked": true,
+    "caption_timing_locked": true,
+    "semantic_plan_locked": true,
+    "approved_assets_locked": true,
+    "face_safe_zones_locked": true
+  },
+  "variants": [
+    {
+      "id": "VAR-A",
+      "label": "Contrarian directo",
+      "status": "candidate",
+      "body_reference": "shared_body",
+      "hook": {
+        "text": "TU PROBLEMA NO ES FALTA DE HERRAMIENTAS",
+        "editorial_copy": true,
+        "duration_target_s": 2.5,
+        "visual_treatment": "Texto editorial directo con punch-in semántico.",
+        "sfx_intent": "Acento grave discreto.",
+        "source_trace_ids": [
+          "DEC-HOOK-A"
+        ]
+      },
+      "cta": {
+        "text": "¿QUÉ PROBLEMA RESOLVERÍAS PRIMERO?",
+        "editorial_copy": true,
+        "duration_target_s": 4,
+        "visual_treatment": "Pregunta estable con espacio de respuesta.",
+        "sfx_intent": null,
+        "source_trace_ids": [
+          "DEC-CTA-A"
+        ]
+      },
+      "allowed_overrides": [
+        "hook",
+        "cta"
+      ],
+      "forbidden_overrides": [
+        "body",
+        "voice",
+        "caption_timing",
+        "semantic_plan",
+        "approved_assets",
+        "face_safe_zones"
+      ],
+      "hypothesis": "Una apertura contrarian mejorará la retención inicial sin cambiar la comprensión del cuerpo.",
+      "metrics": {
+        "primary": "retention_3s",
+        "guardrails": [
+          "completion_rate",
+          "negative_feedback_rate"
+        ]
+      }
+    },
+    {
+      "id": "VAR-B",
+      "label": "Pregunta de diagnóstico",
+      "status": "candidate",
+      "body_reference": "shared_body",
+      "hook": {
+        "text": "¿ESTÁS ELIGIENDO HERRAMIENTAS ANTES DEL PROBLEMA?",
+        "editorial_copy": true,
+        "duration_target_s": 2.5,
+        "visual_treatment": "Pregunta cinética con diagrama parcial como promesa visual.",
+        "sfx_intent": null,
+        "source_trace_ids": [
+          "DEC-HOOK-B"
+        ]
+      },
+      "cta": {
+        "text": "ESCRIBE EL PROBLEMA, NO LA HERRAMIENTA",
+        "editorial_copy": true,
+        "duration_target_s": 4,
+        "visual_treatment": "Instrucción breve con cierre de diagrama.",
+        "sfx_intent": "Resolución cálida opcional.",
+        "source_trace_ids": [
+          "DEC-CTA-B"
+        ]
+      },
+      "allowed_overrides": [
+        "hook",
+        "cta"
+      ],
+      "forbidden_overrides": [
+        "body",
+        "voice",
+        "caption_timing",
+        "semantic_plan",
+        "approved_assets",
+        "face_safe_zones"
+      ],
+      "hypothesis": "Una pregunta de autodiagnóstico atraerá menos curiosidad vacía y mantendrá la calidad de interacción.",
+      "metrics": {
+        "primary": "retention_3s",
+        "guardrails": [
+          "completion_rate",
+          "comment_quality"
+        ]
+      }
+    }
+  ],
+  "experiment": {
+    "unit": "publication",
+    "allocation": "equal",
+    "primary_metric": "retention_3s",
+    "guardrail_metrics": [
+      "completion_rate",
+      "negative_feedback_rate"
+    ],
+    "minimum_sample_note": "Comparar únicamente publicaciones con distribución, horario y audiencia razonablemente equivalentes.",
+    "change_family": "hook_and_cta_only"
+  },
+  "traceability": {
+    "source_blueprint_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "variant_decision_ids": [
+      "DEC-HOOK-A",
+      "DEC-HOOK-B",
+      "DEC-CTA-A",
+      "DEC-CTA-B"
+    ],
+    "notes": [
+      "El cuerpo compartido no se vuelve a editar entre variantes.",
+      "Una diferencia de rendimiento no debe atribuirse al estilo si cambió la distribución."
+    ]
+  }
+}

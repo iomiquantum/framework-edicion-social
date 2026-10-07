@@ -1,0 +1,79 @@
+{
+  "signature": "fae7b137a3fa2309210bd83ad3a8a10ceafeccaf4bfbc976e8e3a4222e9e744e",
+  "id": "piloto-headless-01",
+  "sources": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-voz-sola.wav",
+      "sha256": "db677202633f2c8e3619e7e3bba9afe965a5d5ad5bb26a89e41ef98ae32ea31f"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/library/music/candidates/2026-09-30-prueba-ritmica/neon-no-melody.mp3",
+      "sha256": "af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/aire_breve.wav",
+      "sha256": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/clic_calido.wav",
+      "sha256": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88"
+    }
+  ],
+  "status": "MEZCLA_TECNICA_CANDIDATA",
+  "voice_constant_gain_db": 0,
+  "voice_cleanup": false,
+  "human_listener": false,
+  "loudness_aac": {
+    "input_i": -18.03,
+    "input_tp": -3.11,
+    "input_lra": 2.2
+  },
+  "aac_pcm_correlation": 0.9997468511679574,
+  "written_stem_error": 3.026798367500305e-08,
+  "events": [
+    {
+      "start_s": 0.04,
+      "duration_s": 0.34,
+      "source_sha256": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+      "reason": "Apertura: señalar el problema sin alargar una cola sobre palabras.",
+      "hook": true,
+      "rms_relative_voice_db": -13.344463839092418,
+      "peak_dbfs": -17.62607671470303,
+      "audibility": "por confirmar"
+    },
+    {
+      "start_s": 11.7,
+      "duration_s": 0.105,
+      "source_sha256": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+      "reason": "Puntuar la idea clave existente, sin llenar cada palabra.",
+      "hook": false,
+      "rms_relative_voice_db": -13.703575962190541,
+      "peak_dbfs": -21.25558543322155,
+      "audibility": "por confirmar"
+    }
+  ],
+  "music_bus": {
+    "highpass_hz": 80,
+    "lowpass_hz": 9500,
+    "carve_fraction": 0.35,
+    "carve_band_hz": [
+      400,
+      4000
+    ],
+    "duck_max_db": 4.5,
+    "duck_lookahead_s": 0.15,
+    "duck_release_s": 0.35,
+    "speech_margin_db": 10.5,
+    "cap_max_db": 8
+  },
+  "elapsed_seconds": 1.8398870410164818,
+  "files": {
+    "voz.wav": "f1387a4cbcc1192f8ea1e590ed3f88c32b3097509c02251797d0c110c38a1225",
+    "mezcla.m4a": "99a4b77403c3c252596ae57eba46a54cfba403fabcf6c807ddb5d36c408a9817",
+    "plan.json": "eb8daee0014d869939d38788368712734781d0ca6da157468937a594dd6a0004",
+    "mezcla.wav": "1d599b97a4935dabb28aa2f5f7a51f38c607f50ec0f6487e253894491828bc34",
+    "musica.wav": "edd7c3d451de002c9b88d19d1c8889085b271566443da0a3c1402ac2c9c5e9cd",
+    "efectos.wav": "b6d553df746342f4a2c33b2ebe8395eef149a6309fb1150ca8d35b075e77cafa",
+    "automation.json": "797a40773bf1f7a06ecf7e908e5fb8fce07d351f6f6009c2e1bbdd55e198957d"
+  }
+}

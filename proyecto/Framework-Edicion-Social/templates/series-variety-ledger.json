@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "series_id": "example-series",
+  "policy": {
+    "comparison_window": 3,
+    "notice_similarity": 0.72,
+    "warning_similarity": 0.88,
+    "similarity_is_quality_score": false,
+    "comparison_scope": "within_and_across_template_families"
+  },
+  "entries": [],
+  "reviews": []
+}

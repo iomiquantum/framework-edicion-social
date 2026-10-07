@@ -1,0 +1,13 @@
+<!doctype html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;color:#17353A;font-family:Inter,Arial,sans-serif;pointer-events:none}
+  .card{position:absolute;left:42px;right:42px;top:34px;height:302px;background:#F3E7CF;border:5px solid #17353A;box-shadow:12px 12px 0 #E9C46A;padding:24px 34px}.eyebrow{font:900 50px/.92 Inter,Arial,sans-serif}.hero{font:900 86px/.82 "Bebas Neue",Impact,sans-serif;text-transform:uppercase;margin-top:8px}.hero b{display:block;width:max-content;color:#17353A;background:#E76F51;font-size:104px;padding:4px 12px 0}
+  .stamp{position:absolute;left:54px;right:54px;bottom:118px;height:190px;display:flex;align-items:center;justify-content:center;background:#17353A;border:5px solid #F3E7CF;box-shadow:12px 12px 0 #E76F51;color:#F3E7CF;font:900 74px/.9 "Bebas Neue",Impact,sans-serif;letter-spacing:2px;text-align:center}.stamp em{font-family:Georgia,serif;color:#E9C46A;font-style:italic;margin-left:18px}
+</style>
+<div data-hf-id="hf-v13-value-root" id="root" data-composition-id="scene-value" data-duration="2.95" data-width="1080" data-height="1920"><div class="card" id="card"><div class="eyebrow">ESA INFORMACIÓN PUEDE VALER</div><div class="hero">MÁS QUE <b>100 PROMPTS</b></div></div><div class="stamp" id="stamp">ESCUCHA <em>EL NO</em></div></div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#card",{scale:0,opacity:0,y:20},{scale:1,opacity:1,y:0,duration:.50,ease:"power3.out"},.05).fromTo("#stamp",{x:-80,opacity:0},{x:0,opacity:1,duration:.46,ease:"power3.out"},.32);
+  window.__timelines["scene-value"]=tl;
+</script>
+</template></body></html>

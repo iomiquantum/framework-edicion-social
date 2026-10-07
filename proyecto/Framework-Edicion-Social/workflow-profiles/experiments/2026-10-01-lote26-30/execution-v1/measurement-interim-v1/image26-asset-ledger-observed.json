@@ -1,0 +1,65 @@
+{
+  "observed_at_utc": "2026-10-01T04:45:36.680955+00:00",
+  "evidence": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/asset-ledger.json",
+    "sha256": "064d92f72f2acd50e7868002d7862479e2e3b8dc4784433b637c024f57540ec7"
+  },
+  "ledger": {
+    "assets": [
+      {
+        "path": "assets/reputacion-contexto-v2.png",
+        "sha256": "814dc9e8e6ac2cf9e640d43e0858701184751019dbe07b38501612953c3e74a9",
+        "provenance": "image_gen builtin; new contextual fictional photograph",
+        "generation_wall_seconds": 25.957,
+        "previous_asset_preserved": true,
+        "source_generation_file": "/Users/iomijhondavid/.codex/generated_images/01a0f3eb-6498-7c92-8b5f-ab21aa94eabc/exec-604dd89e-4fe3-4465-b81d-7cd855550a51.png"
+      }
+    ],
+    "sfx": [
+      {
+        "event": "descubrimiento",
+        "asset_id": "SFX-ENTRY-0002",
+        "source_file": "assets/sfx-descubrimiento-source.wav",
+        "source_sha256": "88bf8c25e0c54160c79512fa4188ae25f990224d8ff4f01833be18b33fbf2c34",
+        "file": "assets/sfx-descubrimiento-mix-v1.wav",
+        "sha256": "f5a874b431c987c88466d854429e2a3e6b2caa912aa7e412098154f076bcaa9e",
+        "start_s": 0.15,
+        "duration_s": 0.58,
+        "volume": 1,
+        "baked_gain": 1.7788816027381251,
+        "purpose": "descubrimiento",
+        "human_listened": false
+      },
+      {
+        "event": "investigacion",
+        "asset_id": "SFX-UI-0001",
+        "source_file": "assets/sfx-investigacion-source.wav",
+        "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+        "file": "assets/sfx-investigacion-mix-v1.wav",
+        "sha256": "775adafdbe2ca4c5cbab87665b59b2dded35dcc94d8e9770a72bab17e1da0e83",
+        "start_s": 10.5,
+        "duration_s": 0.09,
+        "volume": 1,
+        "baked_gain": 0.23337033048271416,
+        "purpose": "investigacion",
+        "human_listened": false
+      },
+      {
+        "event": "reputacion",
+        "asset_id": "SFX-MOTION-0003",
+        "source_file": "assets/sfx-reputacion-source.wav",
+        "source_sha256": "b05f51bb03a4b39f070a03a1c841d196b860c8fcdf76ac788fd36f36485b7fb4",
+        "file": "assets/sfx-reputacion-mix-v1.wav",
+        "sha256": "ec5f5f20f59903c524829857418818ee30ce4491eb997bcdb9099263f300531a",
+        "start_s": 21.45,
+        "duration_s": 0.44,
+        "volume": 1,
+        "baked_gain": 2.2473740979564236,
+        "purpose": "reputacion",
+        "human_listened": false
+      }
+    ],
+    "voice_restoration": false
+  },
+  "wall25_957_parentreported_now_assetreceipt_linked": true
+}

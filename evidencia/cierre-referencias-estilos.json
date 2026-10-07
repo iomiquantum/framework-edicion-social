@@ -1,0 +1,1643 @@
+{
+  "reason": "Initial copy tests revealed missing preview/implementation references; include both original style projects without changing the catalog.",
+  "added": [
+    {
+      "path": "Miguel-Reel-Piloto/FASE2_RESULTADO.md",
+      "source_sha256": "1eb0fd50e68a61dae3c570316779ccf3ee6b49da7dff93d490fefcdf4a2730a8",
+      "snapshot_sha256": "1eb0fd50e68a61dae3c570316779ccf3ee6b49da7dff93d490fefcdf4a2730a8",
+      "bytes": 1481
+    },
+    {
+      "path": "Miguel-Reel-Piloto/REVISIONES.md",
+      "source_sha256": "d3911ea02e0b98887eb99b5786480f9bdae2b837677684f0dd164c0076fb439e",
+      "snapshot_sha256": "d3911ea02e0b98887eb99b5786480f9bdae2b837677684f0dd164c0076fb439e",
+      "bytes": 4319
+    },
+    {
+      "path": "Miguel-Reel-Piloto/CAMBIOS.md",
+      "source_sha256": "046d3a534914b27012e8c8a74eaeb83eea21d895311a4a8df5963835e8b6dc71",
+      "snapshot_sha256": "046d3a534914b27012e8c8a74eaeb83eea21d895311a4a8df5963835e8b6dc71",
+      "bytes": 6646
+    },
+    {
+      "path": "Miguel-Reel-Piloto/FRAMEWORK_EDICION_VISUAL.md",
+      "source_sha256": "9926549e37f4bcc49c86c5aad306e25e8d44f0d3b7418e9020476b0a464d34f5",
+      "snapshot_sha256": "9926549e37f4bcc49c86c5aad306e25e8d44f0d3b7418e9020476b0a464d34f5",
+      "bytes": 9498
+    },
+    {
+      "path": "Miguel-Reel-Piloto/PROMPT_ARRANQUE.txt",
+      "source_sha256": "6ef8fa57fb6b78313ff8c22e9869a33ba894ceecf381999a3bc57a9b33eb1e6f",
+      "snapshot_sha256": "6ef8fa57fb6b78313ff8c22e9869a33ba894ceecf381999a3bc57a9b33eb1e6f",
+      "bytes": 297
+    },
+    {
+      "path": "Miguel-Reel-Piloto/RESUMEN_PARA_CHATGPT.md",
+      "source_sha256": "0c574cfc97b8d3f0381cb744b925233d8564981dcbae71f81f918bea09f53ed6",
+      "snapshot_sha256": "0c574cfc97b8d3f0381cb744b925233d8564981dcbae71f81f918bea09f53ed6",
+      "bytes": 9674
+    },
+    {
+      "path": "Miguel-Reel-Piloto/LEEME_CODEX.md",
+      "source_sha256": "2e57c171170532fcf74b89ed4758d4451d30a9e47554b4eb6e63583b06c49a16",
+      "snapshot_sha256": "2e57c171170532fcf74b89ed4758d4451d30a9e47554b4eb6e63583b06c49a16",
+      "bytes": 7945
+    },
+    {
+      "path": "Miguel-Reel-Piloto/transcripts/RAW_001.srt",
+      "source_sha256": "87ccce7e68d2108d8d96d7fb4f6a69c7ed7130bc6d7ee625dc11878636f12610",
+      "snapshot_sha256": "87ccce7e68d2108d8d96d7fb4f6a69c7ed7130bc6d7ee625dc11878636f12610",
+      "bytes": 1228
+    },
+    {
+      "path": "Miguel-Reel-Piloto/transcripts/RAW_001.txt",
+      "source_sha256": "75a4f8512f92d901247f984f914b378de2e51c4eee95b88b2ad5c65026924c31",
+      "snapshot_sha256": "75a4f8512f92d901247f984f914b378de2e51c4eee95b88b2ad5c65026924c31",
+      "bytes": 747
+    },
+    {
+      "path": "Miguel-Reel-Piloto/transcripts/RAW_001.json",
+      "source_sha256": "c40207f3c3e9ae79bb02181a0bfb4ae1756df3337ac616470e3b0b4378a53b1a",
+      "snapshot_sha256": "c40207f3c3e9ae79bb02181a0bfb4ae1756df3337ac616470e3b0b4378a53b1a",
+      "bytes": 52316
+    },
+    {
+      "path": "Miguel-Reel-Piloto/transcripts/TRANSCRIPCION_REVISADA.md",
+      "source_sha256": "8b46bf071e9534b223fa915dcfc6170b83f31fd3c63050a226d23eee93671ae1",
+      "snapshot_sha256": "8b46bf071e9534b223fa915dcfc6170b83f31fd3c63050a226d23eee93671ae1",
+      "bytes": 3252
+    },
+    {
+      "path": "Miguel-Reel-Piloto/renders/manifests/MIGUEL_REEL_COMPLETO_PRO_V1.json",
+      "source_sha256": "fae9b5e4a7fccfe7f5476794a1775ac69cb215a080098b16b0d1c42524afd1d3",
+      "snapshot_sha256": "fae9b5e4a7fccfe7f5476794a1775ac69cb215a080098b16b0d1c42524afd1d3",
+      "bytes": 3153
+    },
+    {
+      "path": "Miguel-Reel-Piloto/renders/manifests/MIGUEL_REEL_PILOTO_VISUAL_V2.json",
+      "source_sha256": "115076998c4f037cdebe6271bf0363fb16ef8505a77f785cc5409dd1a0d96542",
+      "snapshot_sha256": "115076998c4f037cdebe6271bf0363fb16ef8505a77f785cc5409dd1a0d96542",
+      "bytes": 1372
+    },
+    {
+      "path": "Miguel-Reel-Piloto/renders/manifests/MIGUEL_REEL_COMPLETO_PRO_V2.json",
+      "source_sha256": "b82e71adb70d921a3884c311f60487fcb6200769e1f4ed546100da9281cbde9f",
+      "snapshot_sha256": "b82e71adb70d921a3884c311f60487fcb6200769e1f4ed546100da9281cbde9f",
+      "bytes": 2842
+    },
+    {
+      "path": "Miguel-Reel-Piloto/plans/plan_piloto.json",
+      "source_sha256": "76335cbc69ccf28286c7385eef30a2d0183cd8f452e13777d15aa7078e30875b",
+      "snapshot_sha256": "76335cbc69ccf28286c7385eef30a2d0183cd8f452e13777d15aa7078e30875b",
+      "bytes": 4835
+    },
+    {
+      "path": "Miguel-Reel-Piloto/plans/visual_plan_v2.json",
+      "source_sha256": "e9f9cd0a8870121a8af05410d627b24ecba200e6715195b969f267c4d78221e3",
+      "snapshot_sha256": "e9f9cd0a8870121a8af05410d627b24ecba200e6715195b969f267c4d78221e3",
+      "bytes": 1412
+    },
+    {
+      "path": "Miguel-Reel-Piloto/plans/content_map_pilot.json",
+      "source_sha256": "9cc6bd05802d454556143773fd371db5380fd7d2b7ed0ec3de83e9139392215f",
+      "snapshot_sha256": "9cc6bd05802d454556143773fd371db5380fd7d2b7ed0ec3de83e9139392215f",
+      "bytes": 1273
+    },
+    {
+      "path": "Miguel-Reel-Piloto/framework/INVESTIGACION_RETENCION.md",
+      "source_sha256": "1d21000783748148de6b9fe0c5843399ba778dded7bd474ad3c5de5e1d33483d",
+      "snapshot_sha256": "1d21000783748148de6b9fe0c5843399ba778dded7bd474ad3c5de5e1d33483d",
+      "bytes": 3550
+    },
+    {
+      "path": "Miguel-Reel-Piloto/framework/README.md",
+      "source_sha256": "03be161102e09aed7d0d632c14fe0b89e9726187157bd4b4595b7c1999a10dda",
+      "snapshot_sha256": "03be161102e09aed7d0d632c14fe0b89e9726187157bd4b4595b7c1999a10dda",
+      "bytes": 2881
+    },
+    {
+      "path": "Miguel-Reel-Piloto/input/RAW_001.mp4",
+      "source_sha256": "71cc30e86d752892abb23a806410fbc391d3f55b7a3e6dd53363f4ea8485cb64",
+      "snapshot_sha256": "71cc30e86d752892abb23a806410fbc391d3f55b7a3e6dd53363f4ea8485cb64",
+      "bytes": 22975058
+    },
+    {
+      "path": "Miguel-Reel-Piloto/reference_grammars/gramaticas_recuperadas_v0.json",
+      "source_sha256": "c6a1eed746e6d70a2979b509a5bd4a963a5581029e5fdfe4db9b73c557eae1e4",
+      "snapshot_sha256": "c6a1eed746e6d70a2979b509a5bd4a963a5581029e5fdfe4db9b73c557eae1e4",
+      "bytes": 7842
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/render_piloto.sh",
+      "source_sha256": "d5c17c762f44fd1c61432dd891a3bc65b9fed59705aac1d77209cf1490264bce",
+      "snapshot_sha256": "d5c17c762f44fd1c61432dd891a3bc65b9fed59705aac1d77209cf1490264bce",
+      "bytes": 1940
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/render_full60.sh",
+      "source_sha256": "49ab843bb5529b672e451d1ca2408faf70f4eaeac404f38ecc16a7da5bf987a7",
+      "snapshot_sha256": "49ab843bb5529b672e451d1ca2408faf70f4eaeac404f38ecc16a7da5bf987a7",
+      "bytes": 3489
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/captions_piloto.ass",
+      "source_sha256": "285b037eb3679f6d2573b37dee028bc1d4034f3e52c5163e3790dc18ff531f5f",
+      "snapshot_sha256": "285b037eb3679f6d2573b37dee028bc1d4034f3e52c5163e3790dc18ff531f5f",
+      "bytes": 1518
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/hyperframes.json",
+      "source_sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "snapshot_sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "bytes": 318
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/index.html",
+      "source_sha256": "9d2580d7cad7a8b1d3571ceccc8e396c0ad241b7cbd89bdc698c46dbf97e8d44",
+      "snapshot_sha256": "9d2580d7cad7a8b1d3571ceccc8e396c0ad241b7cbd89bdc698c46dbf97e8d44",
+      "bytes": 28092
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/package.json",
+      "source_sha256": "44aca0ff19c2236cc3fc9ae49da7f7f32d1324eae9685f16864f906a81c5bcf2",
+      "snapshot_sha256": "44aca0ff19c2236cc3fc9ae49da7f7f32d1324eae9685f16864f906a81c5bcf2",
+      "bytes": 314
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/transcript.json",
+      "source_sha256": "c43a0254b1e1cebb7972dbb987a8d3dda2fb0a32a4e680885e460e1b41a443b5",
+      "snapshot_sha256": "c43a0254b1e1cebb7972dbb987a8d3dda2fb0a32a4e680885e460e1b41a443b5",
+      "bytes": 1818
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/AGENTS.md",
+      "source_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "snapshot_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "bytes": 8002
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/CLAUDE.md",
+      "source_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "snapshot_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "bytes": 8002
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/meta.json",
+      "source_sha256": "a13ee3aca0af371348084e0f7b849ad35a9d776f0b346cb137e8243e04022cd5",
+      "snapshot_sha256": "a13ee3aca0af371348084e0f7b849ad35a9d776f0b346cb137e8243e04022cd5",
+      "bytes": 119
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/pilot_base.mp4",
+      "source_sha256": "da792a235313ccc21edbab4c27eeb4492410738468bcfc996999739ebf723521",
+      "snapshot_sha256": "da792a235313ccc21edbab4c27eeb4492410738468bcfc996999739ebf723521",
+      "bytes": 8153796
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/full_base.mp4",
+      "source_sha256": "44d1104b3f4a08c871f644335dd30241af8e4215ac4d20f914afbb65e5c92926",
+      "snapshot_sha256": "44d1104b3f4a08c871f644335dd30241af8e4215ac4d20f914afbb65e5c92926",
+      "bytes": 32787261
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/RAW_001.mp4",
+      "source_sha256": "71cc30e86d752892abb23a806410fbc391d3f55b7a3e6dd53363f4ea8485cb64",
+      "snapshot_sha256": "71cc30e86d752892abb23a806410fbc391d3f55b7a3e6dd53363f4ea8485cb64",
+      "bytes": 22975058
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/cutaways/ai-agent-network-color-v1.png",
+      "source_sha256": "0c4e1a6321057146936f431e1a27da9e0deccea86aa66f5416ab58404dd90132",
+      "snapshot_sha256": "0c4e1a6321057146936f431e1a27da9e0deccea86aa66f5416ab58404dd90132",
+      "bytes": 1625423
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/cutaways/autonomous-workflow-color-v1.png",
+      "source_sha256": "3f16d94f585c684d28a1df07d6fd450ed214fef3aab524c396ff432089ee9b5c",
+      "snapshot_sha256": "3f16d94f585c684d28a1df07d6fd450ed214fef3aab524c396ff432089ee9b5c",
+      "bytes": 1850140
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/cutaways/music-sequencer-color-v1.png",
+      "source_sha256": "6cbe5393d10bf403677ced2146828007a0c744cfa7f5141023f0ab3d363f0a4b",
+      "snapshot_sha256": "6cbe5393d10bf403677ced2146828007a0c744cfa7f5141023f0ab3d363f0a4b",
+      "bytes": 1739258
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/brands/claude-official.png",
+      "source_sha256": "4004381309500f25e49a1ae639912ce307ea81da74cc383954a1ac8b9d343fe6",
+      "snapshot_sha256": "4004381309500f25e49a1ae639912ce307ea81da74cc383954a1ac8b9d343fe6",
+      "bytes": 1198
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/audio/music/tech_pulse_114bpm_8bars.wav",
+      "source_sha256": "da843fadc286facd564f4ee1bb50e70e343adab66d4a4742ba87f9b3d0766cf4",
+      "snapshot_sha256": "da843fadc286facd564f4ee1bb50e70e343adab66d4a4742ba87f9b3d0766cf4",
+      "bytes": 4850570
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/audio/sfx/03_ui_tick.wav",
+      "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+      "snapshot_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+      "bytes": 12284
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/audio/sfx/02_soft_whoosh.wav",
+      "source_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+      "snapshot_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+      "bytes": 43244
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/audio/sfx/05_low_accent.wav",
+      "source_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+      "snapshot_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+      "bytes": 49004
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/audio/sfx/06_sequence.wav",
+      "source_sha256": "d63dc815a4724ad5175289db358f7a7e55c5eb84079c03d8d1be388d1b41c76b",
+      "snapshot_sha256": "d63dc815a4724ad5175289db358f7a7e55c5eb84079c03d8d1be388d1b41c76b",
+      "bytes": 72044
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/audio/sfx/04_soft_pop.wav",
+      "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+      "snapshot_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+      "bytes": 23084
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/audio/sfx/01_airy_in.wav",
+      "source_sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+      "snapshot_sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+      "bytes": 63404
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/audio/sfx/08_resolve.wav",
+      "source_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+      "snapshot_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+      "bytes": 121004
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/audio/sfx/07_loop_return.wav",
+      "source_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+      "snapshot_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+      "bytes": 69164
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/repeat.svg",
+      "source_sha256": "0f076e0cd3144c922925e12b992ed43c3df2cbd3fd3e24e23ab68a871405537a",
+      "snapshot_sha256": "0f076e0cd3144c922925e12b992ed43c3df2cbd3fd3e24e23ab68a871405537a",
+      "bytes": 306
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/result.svg",
+      "source_sha256": "787588d6167f5bf565a68fdc19e16128d438d3bd9f1fc94c4b1854659984b1fd",
+      "snapshot_sha256": "787588d6167f5bf565a68fdc19e16128d438d3bd9f1fc94c4b1854659984b1fd",
+      "bytes": 281
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/music.svg",
+      "source_sha256": "c27cd2bcec7f657d5b441eecfd0da6e54b36774763114e924aa1a95240d4b7f6",
+      "snapshot_sha256": "c27cd2bcec7f657d5b441eecfd0da6e54b36774763114e924aa1a95240d4b7f6",
+      "bytes": 356
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/sequence.svg",
+      "source_sha256": "fde5bb7c368423f18261561dd40cf3f80c24878db664119a612751f3f5436502",
+      "snapshot_sha256": "fde5bb7c368423f18261561dd40cf3f80c24878db664119a612751f3f5436502",
+      "bytes": 443
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/review.svg",
+      "source_sha256": "3b422ed9c412d6d178a353d0955f8d412e2c527aa71a267156a6a42ab2cef047",
+      "snapshot_sha256": "3b422ed9c412d6d178a353d0955f8d412e2c527aa71a267156a6a42ab2cef047",
+      "bytes": 288
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/prompt.svg",
+      "source_sha256": "d41010faf60de7f59504751565886a60b082b5f471b32c33375f10351af8802e",
+      "snapshot_sha256": "d41010faf60de7f59504751565886a60b082b5f471b32c33375f10351af8802e",
+      "bytes": 351
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/team.svg",
+      "source_sha256": "5f85d9fb2ee86c3b716c25ffe3a99a1142d2dba731b2419b71075f6a076a524c",
+      "snapshot_sha256": "5f85d9fb2ee86c3b716c25ffe3a99a1142d2dba731b2419b71075f6a076a524c",
+      "bytes": 396
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/workflow.svg",
+      "source_sha256": "45bc041015fa364cf1208a8227f9d617dd11fe15d231c7be0c3c967bb911de45",
+      "snapshot_sha256": "45bc041015fa364cf1208a8227f9d617dd11fe15d231c7be0c3c967bb911de45",
+      "bytes": 481
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/loop.svg",
+      "source_sha256": "28c20eb87c7f9afb3bbeca02edf213dfedaf134c8d0b2279fd93614ad8254578",
+      "snapshot_sha256": "28c20eb87c7f9afb3bbeca02edf213dfedaf134c8d0b2279fd93614ad8254578",
+      "bytes": 271
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/quota.svg",
+      "source_sha256": "e305d3e448fa20e1952009d348ac238e653a8dc3e585a7cd4c2a6025dd5a8063",
+      "snapshot_sha256": "e305d3e448fa20e1952009d348ac238e653a8dc3e585a7cd4c2a6025dd5a8063",
+      "bytes": 384
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/ai-agent.svg",
+      "source_sha256": "3c9f5af38ee8bb8e06ba681ec4152b194d3486defc90c9d59f1f696e97120284",
+      "snapshot_sha256": "3c9f5af38ee8bb8e06ba681ec4152b194d3486defc90c9d59f1f696e97120284",
+      "bytes": 460
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/icons/company.svg",
+      "source_sha256": "88c770597aac247fd0d7d84fbe07283bc0028d0bc38b7c4610466abb8dc75f04",
+      "snapshot_sha256": "88c770597aac247fd0d7d84fbe07283bc0028d0bc38b7c4610466abb8dc75f04",
+      "bytes": 303
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/visuals/loop-ai-gold-v1.png",
+      "source_sha256": "551de9442fff4d5c0b3ca41f858f84cfeb57dc715ac6947229fa6eac04caa8c5",
+      "snapshot_sha256": "551de9442fff4d5c0b3ca41f858f84cfeb57dc715ac6947229fa6eac04caa8c5",
+      "bytes": 1263997
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v1/assets/visuals/music-loop-gold-v1.png",
+      "source_sha256": "9015fd321cb7d89381312ccd82a22dce38fa36d7d98f2373f9214f200fb375ce",
+      "snapshot_sha256": "9015fd321cb7d89381312ccd82a22dce38fa36d7d98f2373f9214f200fb375ce",
+      "bytes": 1177443
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/hyperframes.json",
+      "source_sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "snapshot_sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "bytes": 318
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/index.html",
+      "source_sha256": "4facf9c8c9c428d8f1142f84dff83ba3a521cb3a96fa69cca719d054d355e696",
+      "snapshot_sha256": "4facf9c8c9c428d8f1142f84dff83ba3a521cb3a96fa69cca719d054d355e696",
+      "bytes": 9543
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/package.json",
+      "source_sha256": "62c61c5cb77acd77730cd524ef7d98e5800d28a08e55766fa792cc1d9142fcf0",
+      "snapshot_sha256": "62c61c5cb77acd77730cd524ef7d98e5800d28a08e55766fa792cc1d9142fcf0",
+      "bytes": 303
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/transcript.json",
+      "source_sha256": "c43a0254b1e1cebb7972dbb987a8d3dda2fb0a32a4e680885e460e1b41a443b5",
+      "snapshot_sha256": "c43a0254b1e1cebb7972dbb987a8d3dda2fb0a32a4e680885e460e1b41a443b5",
+      "bytes": 1818
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/AGENTS.md",
+      "source_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "snapshot_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "bytes": 8002
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/CLAUDE.md",
+      "source_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "snapshot_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "bytes": 8002
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/meta.json",
+      "source_sha256": "a988d16b8cfd6df264ee4099e2745e671e947736c2017bf25219c4fffef16fa2",
+      "snapshot_sha256": "a988d16b8cfd6df264ee4099e2745e671e947736c2017bf25219c4fffef16fa2",
+      "bytes": 107
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/pilot_base.mp4",
+      "source_sha256": "da792a235313ccc21edbab4c27eeb4492410738468bcfc996999739ebf723521",
+      "snapshot_sha256": "da792a235313ccc21edbab4c27eeb4492410738468bcfc996999739ebf723521",
+      "bytes": 8153796
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/RAW_001.mp4",
+      "source_sha256": "71cc30e86d752892abb23a806410fbc391d3f55b7a3e6dd53363f4ea8485cb64",
+      "snapshot_sha256": "71cc30e86d752892abb23a806410fbc391d3f55b7a3e6dd53363f4ea8485cb64",
+      "bytes": 22975058
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/icons/repeat.svg",
+      "source_sha256": "0f076e0cd3144c922925e12b992ed43c3df2cbd3fd3e24e23ab68a871405537a",
+      "snapshot_sha256": "0f076e0cd3144c922925e12b992ed43c3df2cbd3fd3e24e23ab68a871405537a",
+      "bytes": 306
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/icons/music.svg",
+      "source_sha256": "c27cd2bcec7f657d5b441eecfd0da6e54b36774763114e924aa1a95240d4b7f6",
+      "snapshot_sha256": "c27cd2bcec7f657d5b441eecfd0da6e54b36774763114e924aa1a95240d4b7f6",
+      "bytes": 356
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/icons/sequence.svg",
+      "source_sha256": "fde5bb7c368423f18261561dd40cf3f80c24878db664119a612751f3f5436502",
+      "snapshot_sha256": "fde5bb7c368423f18261561dd40cf3f80c24878db664119a612751f3f5436502",
+      "bytes": 443
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/icons/prompt.svg",
+      "source_sha256": "d41010faf60de7f59504751565886a60b082b5f471b32c33375f10351af8802e",
+      "snapshot_sha256": "d41010faf60de7f59504751565886a60b082b5f471b32c33375f10351af8802e",
+      "bytes": 351
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/icons/workflow.svg",
+      "source_sha256": "45bc041015fa364cf1208a8227f9d617dd11fe15d231c7be0c3c967bb911de45",
+      "snapshot_sha256": "45bc041015fa364cf1208a8227f9d617dd11fe15d231c7be0c3c967bb911de45",
+      "bytes": 481
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/icons/loop.svg",
+      "source_sha256": "28c20eb87c7f9afb3bbeca02edf213dfedaf134c8d0b2279fd93614ad8254578",
+      "snapshot_sha256": "28c20eb87c7f9afb3bbeca02edf213dfedaf134c8d0b2279fd93614ad8254578",
+      "bytes": 271
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/icons/quota.svg",
+      "source_sha256": "e305d3e448fa20e1952009d348ac238e653a8dc3e585a7cd4c2a6025dd5a8063",
+      "snapshot_sha256": "e305d3e448fa20e1952009d348ac238e653a8dc3e585a7cd4c2a6025dd5a8063",
+      "bytes": 384
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/icons/ai-agent.svg",
+      "source_sha256": "3c9f5af38ee8bb8e06ba681ec4152b194d3486defc90c9d59f1f696e97120284",
+      "snapshot_sha256": "3c9f5af38ee8bb8e06ba681ec4152b194d3486defc90c9d59f1f696e97120284",
+      "bytes": 460
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/visuals/loop-ai-gold-v1.png",
+      "source_sha256": "551de9442fff4d5c0b3ca41f858f84cfeb57dc715ac6947229fa6eac04caa8c5",
+      "snapshot_sha256": "551de9442fff4d5c0b3ca41f858f84cfeb57dc715ac6947229fa6eac04caa8c5",
+      "bytes": 1263997
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-piloto/assets/visuals/music-loop-gold-v1.png",
+      "source_sha256": "9015fd321cb7d89381312ccd82a22dce38fa36d7d98f2373f9214f200fb375ce",
+      "snapshot_sha256": "9015fd321cb7d89381312ccd82a22dce38fa36d7d98f2373f9214f200fb375ce",
+      "bytes": 1177443
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/hyperframes.json",
+      "source_sha256": "b75e7a3929094952ec116c6c257341cf30322329d4ac60b6e60c3275e97123ca",
+      "snapshot_sha256": "b75e7a3929094952ec116c6c257341cf30322329d4ac60b6e60c3275e97123ca",
+      "bytes": 639
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/index.html",
+      "source_sha256": "1a3aee55355961062b7e809460cfb94b369ed8066864ebd41a7efc5e93178dfe",
+      "snapshot_sha256": "1a3aee55355961062b7e809460cfb94b369ed8066864ebd41a7efc5e93178dfe",
+      "bytes": 309128
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/package-lock.json",
+      "source_sha256": "66cee80cc5324c60cdc76168c0b94c3c369a3aa378ae5108a18ecac138f5447c",
+      "snapshot_sha256": "66cee80cc5324c60cdc76168c0b94c3c369a3aa378ae5108a18ecac138f5447c",
+      "bytes": 58036
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/package.json",
+      "source_sha256": "08185c195471c09b2fa7d7c2ca2486a778e689436a028e6d4d015d0fdff2ebe3",
+      "snapshot_sha256": "08185c195471c09b2fa7d7c2ca2486a778e689436a028e6d4d015d0fdff2ebe3",
+      "bytes": 420
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/transcript.json",
+      "source_sha256": "c43a0254b1e1cebb7972dbb987a8d3dda2fb0a32a4e680885e460e1b41a443b5",
+      "snapshot_sha256": "c43a0254b1e1cebb7972dbb987a8d3dda2fb0a32a4e680885e460e1b41a443b5",
+      "bytes": 1818
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/index.motion.json",
+      "source_sha256": "8c676ad1a464bf1ec7b4fa70c75913faaa8a402a5881ca8452e55539788b4b62",
+      "snapshot_sha256": "8c676ad1a464bf1ec7b4fa70c75913faaa8a402a5881ca8452e55539788b4b62",
+      "bytes": 825
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/AGENTS.md",
+      "source_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "snapshot_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "bytes": 8002
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/hyperframes.lock.json",
+      "source_sha256": "b167eef8ed782b3ee420a103776aa867db063bf59012da935d1eff52b33ae554",
+      "snapshot_sha256": "b167eef8ed782b3ee420a103776aa867db063bf59012da935d1eff52b33ae554",
+      "bytes": 239
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/CLAUDE.md",
+      "source_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "snapshot_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "bytes": 8002
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/meta.json",
+      "source_sha256": "b769425099f617434ec62d6848a6882c101d26eb1cb7335028543a408832c8fa",
+      "snapshot_sha256": "b769425099f617434ec62d6848a6882c101d26eb1cb7335028543a408832c8fa",
+      "bytes": 126
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-08-text_occluded.png",
+      "source_sha256": "691d90e6a57474bb8aeacfb5ea13299bf66643c6d9ec2106806d813afb35ee0d",
+      "snapshot_sha256": "691d90e6a57474bb8aeacfb5ea13299bf66643c6d9ec2106806d813afb35ee0d",
+      "bytes": 143352
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-09-text_occluded.png",
+      "source_sha256": "e952c09edc97ebd3d22db61cbfa79dad8cf8c76a71db8f42be976d2164cb2120",
+      "snapshot_sha256": "e952c09edc97ebd3d22db61cbfa79dad8cf8c76a71db8f42be976d2164cb2120",
+      "bytes": 227942
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-10-text_occluded.png",
+      "source_sha256": "fde80a33b5301098806014d78f5d0d3dcbe91959ab7c56f602ad65179bc2fcf7",
+      "snapshot_sha256": "fde80a33b5301098806014d78f5d0d3dcbe91959ab7c56f602ad65179bc2fcf7",
+      "bytes": 34306
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-07-text_occluded.png",
+      "source_sha256": "68af88828e5c362ca6480337a868af9671824d0948e460de37d9084d84362906",
+      "snapshot_sha256": "68af88828e5c362ca6480337a868af9671824d0948e460de37d9084d84362906",
+      "bytes": 135002
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-02-text_occluded.png",
+      "source_sha256": "1a52c1ee478df744c508258c359e030201844e2adbae707f6bd3471e4df0141e",
+      "snapshot_sha256": "1a52c1ee478df744c508258c359e030201844e2adbae707f6bd3471e4df0141e",
+      "bytes": 57331
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-06-text_occluded.png",
+      "source_sha256": "cc6c0a82485935064960eb200fdb8dfdf0ea5444ddc29b3a3b26f520388b4f0f",
+      "snapshot_sha256": "cc6c0a82485935064960eb200fdb8dfdf0ea5444ddc29b3a3b26f520388b4f0f",
+      "bytes": 116218
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-03-text_occluded.png",
+      "source_sha256": "6c2085f1b4d98e553a2ae1e60c064c9c28a306e8cab131710553d53e92eb3032",
+      "snapshot_sha256": "6c2085f1b4d98e553a2ae1e60c064c9c28a306e8cab131710553d53e92eb3032",
+      "bytes": 169437
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-05-text_occluded.png",
+      "source_sha256": "603a0983a122da2428455dda720c822966011a6eadd088867c317a847f10ba56",
+      "snapshot_sha256": "603a0983a122da2428455dda720c822966011a6eadd088867c317a847f10ba56",
+      "bytes": 49717
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/frame-02-at-32.2s.png",
+      "source_sha256": "cc6c570005ebe5356bd3840884c814c6334f9027af86a2ffc428dcdd3317428a",
+      "snapshot_sha256": "cc6c570005ebe5356bd3840884c814c6334f9027af86a2ffc428dcdd3317428a",
+      "bytes": 819666
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-00-text_occluded.png",
+      "source_sha256": "b9da0d3d054986d94c60778012bb8ccb8e6ea5563dad1917f73da64d1979e828",
+      "snapshot_sha256": "b9da0d3d054986d94c60778012bb8ccb8e6ea5563dad1917f73da64d1979e828",
+      "bytes": 355163
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/frame-00-at-0.0s.png",
+      "source_sha256": "90cd3a8bb7283bfb63c525155b2ed0292c543ea851b1794ea4ccdf37be7192e9",
+      "snapshot_sha256": "90cd3a8bb7283bfb63c525155b2ed0292c543ea851b1794ea4ccdf37be7192e9",
+      "bytes": 411059
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-04-text_occluded.png",
+      "source_sha256": "ccfaaac5178203c8aea5816c13d569a96bcd2b6f4fe8491e4f4b09b022221a53",
+      "snapshot_sha256": "ccfaaac5178203c8aea5816c13d569a96bcd2b6f4fe8491e4f4b09b022221a53",
+      "bytes": 84304
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/frame-03-at-47.5s.png",
+      "source_sha256": "e74bd3a45c51b01e881470b98f991bd81a0a39e90ca8d280d10d6f72f44a872e",
+      "snapshot_sha256": "e74bd3a45c51b01e881470b98f991bd81a0a39e90ca8d280d10d6f72f44a872e",
+      "bytes": 526851
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/frame-04-at-60.0s.png",
+      "source_sha256": "ae97301fb6a9cc1ae12d67e8684cb265d2bbe8c37b37a809a95551b197e58002",
+      "snapshot_sha256": "ae97301fb6a9cc1ae12d67e8684cb265d2bbe8c37b37a809a95551b197e58002",
+      "bytes": 369203
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/frame-01-at-15.8s.png",
+      "source_sha256": "5b5a496295d0891ec57155f0a96962a45bb22312662f82d1fcf85c8da823e6c1",
+      "snapshot_sha256": "5b5a496295d0891ec57155f0a96962a45bb22312662f82d1fcf85c8da823e6c1",
+      "bytes": 444052
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/snapshots/finding-01-text_occluded.png",
+      "source_sha256": "c222f7df5d4175d58e900a34aafb875ecd938fb47975399a2612cb1d9d301e46",
+      "snapshot_sha256": "c222f7df5d4175d58e900a34aafb875ecd938fb47975399a2612cb1d9d301e46",
+      "bytes": 213815
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/compositions/components/yt-camera-move.html",
+      "source_sha256": "f58d4c2fc7165cf49a701f55f80fcd88eccab5c582cf8c2ae00259523810d58a",
+      "snapshot_sha256": "f58d4c2fc7165cf49a701f55f80fcd88eccab5c582cf8c2ae00259523810d58a",
+      "bytes": 6334
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/compositions/components/directional-wipe.html",
+      "source_sha256": "1630a4c974ba6d9ea9a23fdb84627ee464c1447cd7b6b963defe4c5bf9867a48",
+      "snapshot_sha256": "1630a4c974ba6d9ea9a23fdb84627ee464c1447cd7b6b963defe4c5bf9867a48",
+      "bytes": 6148
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/pilot_base.mp4",
+      "source_sha256": "da792a235313ccc21edbab4c27eeb4492410738468bcfc996999739ebf723521",
+      "snapshot_sha256": "da792a235313ccc21edbab4c27eeb4492410738468bcfc996999739ebf723521",
+      "bytes": 8153796
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/full_base.mp4",
+      "source_sha256": "44d1104b3f4a08c871f644335dd30241af8e4215ac4d20f914afbb65e5c92926",
+      "snapshot_sha256": "44d1104b3f4a08c871f644335dd30241af8e4215ac4d20f914afbb65e5c92926",
+      "bytes": 32787261
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/RAW_001.mp4",
+      "source_sha256": "71cc30e86d752892abb23a806410fbc391d3f55b7a3e6dd53363f4ea8485cb64",
+      "snapshot_sha256": "71cc30e86d752892abb23a806410fbc391d3f55b7a3e6dd53363f4ea8485cb64",
+      "bytes": 22975058
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/cutaways/ai-agent-network-color-v1.png",
+      "source_sha256": "0c4e1a6321057146936f431e1a27da9e0deccea86aa66f5416ab58404dd90132",
+      "snapshot_sha256": "0c4e1a6321057146936f431e1a27da9e0deccea86aa66f5416ab58404dd90132",
+      "bytes": 1625423
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/cutaways/autonomous-workflow-color-v1.png",
+      "source_sha256": "3f16d94f585c684d28a1df07d6fd450ed214fef3aab524c396ff432089ee9b5c",
+      "snapshot_sha256": "3f16d94f585c684d28a1df07d6fd450ed214fef3aab524c396ff432089ee9b5c",
+      "bytes": 1850140
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/cutaways/music-sequencer-color-v1.png",
+      "source_sha256": "6cbe5393d10bf403677ced2146828007a0c744cfa7f5141023f0ab3d363f0a4b",
+      "snapshot_sha256": "6cbe5393d10bf403677ced2146828007a0c744cfa7f5141023f0ab3d363f0a4b",
+      "bytes": 1739258
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/brands/OpenAI-white-wordmark.svg",
+      "source_sha256": "169b683855ef7a431e5a996d01406da76bb206eb777546d29e53613a8d08fb3a",
+      "snapshot_sha256": "169b683855ef7a431e5a996d01406da76bb206eb777546d29e53613a8d08fb3a",
+      "bytes": 2189
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/brands/claude-official.png",
+      "source_sha256": "4004381309500f25e49a1ae639912ce307ea81da74cc383954a1ac8b9d343fe6",
+      "snapshot_sha256": "4004381309500f25e49a1ae639912ce307ea81da74cc383954a1ac8b9d343fe6",
+      "bytes": 1198
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/audio/music/tech_pulse_114bpm_8bars.wav",
+      "source_sha256": "da843fadc286facd564f4ee1bb50e70e343adab66d4a4742ba87f9b3d0766cf4",
+      "snapshot_sha256": "da843fadc286facd564f4ee1bb50e70e343adab66d4a4742ba87f9b3d0766cf4",
+      "bytes": 4850570
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/audio/sfx/03_ui_tick.wav",
+      "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+      "snapshot_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+      "bytes": 12284
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/audio/sfx/02_soft_whoosh.wav",
+      "source_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+      "snapshot_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+      "bytes": 43244
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/audio/sfx/05_low_accent.wav",
+      "source_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+      "snapshot_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+      "bytes": 49004
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/audio/sfx/06_sequence.wav",
+      "source_sha256": "d63dc815a4724ad5175289db358f7a7e55c5eb84079c03d8d1be388d1b41c76b",
+      "snapshot_sha256": "d63dc815a4724ad5175289db358f7a7e55c5eb84079c03d8d1be388d1b41c76b",
+      "bytes": 72044
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/audio/sfx/04_soft_pop.wav",
+      "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+      "snapshot_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+      "bytes": 23084
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/audio/sfx/01_airy_in.wav",
+      "source_sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+      "snapshot_sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+      "bytes": 63404
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/audio/sfx/08_resolve.wav",
+      "source_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+      "snapshot_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+      "bytes": 121004
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/audio/sfx/07_loop_return.wav",
+      "source_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+      "snapshot_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+      "bytes": 69164
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/repeat.svg",
+      "source_sha256": "0f076e0cd3144c922925e12b992ed43c3df2cbd3fd3e24e23ab68a871405537a",
+      "snapshot_sha256": "0f076e0cd3144c922925e12b992ed43c3df2cbd3fd3e24e23ab68a871405537a",
+      "bytes": 306
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/result.svg",
+      "source_sha256": "787588d6167f5bf565a68fdc19e16128d438d3bd9f1fc94c4b1854659984b1fd",
+      "snapshot_sha256": "787588d6167f5bf565a68fdc19e16128d438d3bd9f1fc94c4b1854659984b1fd",
+      "bytes": 281
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/music.svg",
+      "source_sha256": "c27cd2bcec7f657d5b441eecfd0da6e54b36774763114e924aa1a95240d4b7f6",
+      "snapshot_sha256": "c27cd2bcec7f657d5b441eecfd0da6e54b36774763114e924aa1a95240d4b7f6",
+      "bytes": 356
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/sequence.svg",
+      "source_sha256": "fde5bb7c368423f18261561dd40cf3f80c24878db664119a612751f3f5436502",
+      "snapshot_sha256": "fde5bb7c368423f18261561dd40cf3f80c24878db664119a612751f3f5436502",
+      "bytes": 443
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/review.svg",
+      "source_sha256": "3b422ed9c412d6d178a353d0955f8d412e2c527aa71a267156a6a42ab2cef047",
+      "snapshot_sha256": "3b422ed9c412d6d178a353d0955f8d412e2c527aa71a267156a6a42ab2cef047",
+      "bytes": 288
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/prompt.svg",
+      "source_sha256": "d41010faf60de7f59504751565886a60b082b5f471b32c33375f10351af8802e",
+      "snapshot_sha256": "d41010faf60de7f59504751565886a60b082b5f471b32c33375f10351af8802e",
+      "bytes": 351
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/team.svg",
+      "source_sha256": "5f85d9fb2ee86c3b716c25ffe3a99a1142d2dba731b2419b71075f6a076a524c",
+      "snapshot_sha256": "5f85d9fb2ee86c3b716c25ffe3a99a1142d2dba731b2419b71075f6a076a524c",
+      "bytes": 396
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/workflow.svg",
+      "source_sha256": "45bc041015fa364cf1208a8227f9d617dd11fe15d231c7be0c3c967bb911de45",
+      "snapshot_sha256": "45bc041015fa364cf1208a8227f9d617dd11fe15d231c7be0c3c967bb911de45",
+      "bytes": 481
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/loop.svg",
+      "source_sha256": "28c20eb87c7f9afb3bbeca02edf213dfedaf134c8d0b2279fd93614ad8254578",
+      "snapshot_sha256": "28c20eb87c7f9afb3bbeca02edf213dfedaf134c8d0b2279fd93614ad8254578",
+      "bytes": 271
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/quota.svg",
+      "source_sha256": "e305d3e448fa20e1952009d348ac238e653a8dc3e585a7cd4c2a6025dd5a8063",
+      "snapshot_sha256": "e305d3e448fa20e1952009d348ac238e653a8dc3e585a7cd4c2a6025dd5a8063",
+      "bytes": 384
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/ai-agent.svg",
+      "source_sha256": "3c9f5af38ee8bb8e06ba681ec4152b194d3486defc90c9d59f1f696e97120284",
+      "snapshot_sha256": "3c9f5af38ee8bb8e06ba681ec4152b194d3486defc90c9d59f1f696e97120284",
+      "bytes": 460
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/icons/company.svg",
+      "source_sha256": "88c770597aac247fd0d7d84fbe07283bc0028d0bc38b7c4610466abb8dc75f04",
+      "snapshot_sha256": "88c770597aac247fd0d7d84fbe07283bc0028d0bc38b7c4610466abb8dc75f04",
+      "bytes": 303
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/visuals/loop-ai-gold-v1.png",
+      "source_sha256": "551de9442fff4d5c0b3ca41f858f84cfeb57dc715ac6947229fa6eac04caa8c5",
+      "snapshot_sha256": "551de9442fff4d5c0b3ca41f858f84cfeb57dc715ac6947229fa6eac04caa8c5",
+      "bytes": 1263997
+    },
+    {
+      "path": "Miguel-Reel-Piloto/editables/hyperframes-full-v2/assets/visuals/music-loop-gold-v1.png",
+      "source_sha256": "9015fd321cb7d89381312ccd82a22dce38fa36d7d98f2373f9214f200fb375ce",
+      "snapshot_sha256": "9015fd321cb7d89381312ccd82a22dce38fa36d7d98f2373f9214f200fb375ce",
+      "bytes": 1177443
+    },
+    {
+      "path": "Miguel-Reel-Piloto/styles/catalog.json",
+      "source_sha256": "472eb8baa63c8280ba0427aad96ccf5fd1df36b053348fc74f88523a3406d5d6",
+      "snapshot_sha256": "472eb8baa63c8280ba0427aad96ccf5fd1df36b053348fc74f88523a3406d5d6",
+      "bytes": 1594
+    },
+    {
+      "path": "Miguel-Reel-Piloto/styles/_TEMPLATE/README.md",
+      "source_sha256": "c9bd414f35dbb68a0d641936f3b10216de2777e3ca849ca42f47d5c9e2e6363c",
+      "snapshot_sha256": "c9bd414f35dbb68a0d641936f3b10216de2777e3ca849ca42f47d5c9e2e6363c",
+      "bytes": 564
+    },
+    {
+      "path": "Miguel-Reel-Piloto/styles/STYLE_001_TECH_EDITORIAL_GOLD/motion.json",
+      "source_sha256": "8b50a741ee7ed4954a7e0e016abef89011455b7d3ac7d04f48ce675483cb6166",
+      "snapshot_sha256": "8b50a741ee7ed4954a7e0e016abef89011455b7d3ac7d04f48ce675483cb6166",
+      "bytes": 1481
+    },
+    {
+      "path": "Miguel-Reel-Piloto/styles/STYLE_001_TECH_EDITORIAL_GOLD/style.json",
+      "source_sha256": "9918c36bc64199e74447e315f96df4fdf95cb512827325caac4c0485b213d17d",
+      "snapshot_sha256": "9918c36bc64199e74447e315f96df4fdf95cb512827325caac4c0485b213d17d",
+      "bytes": 1129
+    },
+    {
+      "path": "Miguel-Reel-Piloto/styles/STYLE_001_TECH_EDITORIAL_GOLD/README.md",
+      "source_sha256": "255cdaf8d4fe4c8c18b940edbe592508aa08c46d70e87bf9c22263c70308ce9c",
+      "snapshot_sha256": "255cdaf8d4fe4c8c18b940edbe592508aa08c46d70e87bf9c22263c70308ce9c",
+      "bytes": 1159
+    },
+    {
+      "path": "Miguel-Reel-Piloto/styles/STYLE_002_TECH_EDITORIAL_COLOR/motion.json",
+      "source_sha256": "280c14cfdd12aae11af44aa977abcad7834e3672585e1b99a15a26f9d5882f77",
+      "snapshot_sha256": "280c14cfdd12aae11af44aa977abcad7834e3672585e1b99a15a26f9d5882f77",
+      "bytes": 733
+    },
+    {
+      "path": "Miguel-Reel-Piloto/styles/STYLE_002_TECH_EDITORIAL_COLOR/style.json",
+      "source_sha256": "1490cf353f6f29203ceea7241511a998765ea430c8ac744f24dcd92ab1e9e017",
+      "snapshot_sha256": "1490cf353f6f29203ceea7241511a998765ea430c8ac744f24dcd92ab1e9e017",
+      "bytes": 1041
+    },
+    {
+      "path": "Miguel-Reel-Piloto/styles/STYLE_002_TECH_EDITORIAL_COLOR/README.md",
+      "source_sha256": "f10beb52245057c7f4fc1fff96a67d37b49df69ec894f0a54ebb33a7a52a9263",
+      "snapshot_sha256": "f10beb52245057c7f4fc1fff96a67d37b49df69ec894f0a54ebb33a7a52a9263",
+      "bytes": 1804
+    },
+    {
+      "path": "Miguel-Reel-Piloto/audio/RAW_001.wav",
+      "source_sha256": "7c07de267a473a76fefe04912c3039896407ac02e0881696b303315dedfa5366",
+      "snapshot_sha256": "7c07de267a473a76fefe04912c3039896407ac02e0881696b303315dedfa5366",
+      "bytes": 1920786
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/audio_analysis.log",
+      "source_sha256": "7ce919ff1ed0b76f18217d005d8a689e4fcedce4e8517b74a62d5602f30f0f5a",
+      "snapshot_sha256": "7ce919ff1ed0b76f18217d005d8a689e4fcedce4e8517b74a62d5602f30f0f5a",
+      "bytes": 3216
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/fase2_output_probe.json",
+      "source_sha256": "e7084ceb535c9540c537ba95f7b71881c77c4412e09160b88677830a280b016c",
+      "snapshot_sha256": "e7084ceb535c9540c537ba95f7b71881c77c4412e09160b88677830a280b016c",
+      "bytes": 614
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/ffmpeg_extract_audio.log",
+      "source_sha256": "d460e0695c875ffc60b6d529d072b3e07e95ccc9a0aedffc39b2c2902306e154",
+      "snapshot_sha256": "d460e0695c875ffc60b6d529d072b3e07e95ccc9a0aedffc39b2c2902306e154",
+      "bytes": 1178
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/full60_render.log",
+      "source_sha256": "92775ce2b95c3e9d36c87d8b81c8fb565e02b35e181ef53c2683743a3812fa96",
+      "snapshot_sha256": "92775ce2b95c3e9d36c87d8b81c8fb565e02b35e181ef53c2683743a3812fa96",
+      "bytes": 12010
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/fase2_render.log",
+      "source_sha256": "ace09b9cbaad04fc14beab6fce9707fd1d3719b49b9e040fcc1f019bbcb047b9",
+      "snapshot_sha256": "ace09b9cbaad04fc14beab6fce9707fd1d3719b49b9e040fcc1f019bbcb047b9",
+      "bytes": 22916
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/whisper_RAW_001.log",
+      "source_sha256": "d4dff5ae92d30ed6fed93a23c978b1197f233870066ecec928f5cc48c77e2ac9",
+      "snapshot_sha256": "d4dff5ae92d30ed6fed93a23c978b1197f233870066ecec928f5cc48c77e2ac9",
+      "bytes": 7365
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/FASE1_EJECUCION.md",
+      "source_sha256": "60ed7976bb5bcbe00d3f570d36408d87f33f6aef646d0a18a7a8b8517f5d8a80",
+      "snapshot_sha256": "60ed7976bb5bcbe00d3f570d36408d87f33f6aef646d0a18a7a8b8517f5d8a80",
+      "bytes": 2209
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/whisper_cli_help.log",
+      "source_sha256": "209e57955635fcb07a84844c279a304c4aa0ccb5f654f97b9c651f391806cb76",
+      "snapshot_sha256": "209e57955635fcb07a84844c279a304c4aa0ccb5f654f97b9c651f391806cb76",
+      "bytes": 8226
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/fase2_contact_sheet.log",
+      "source_sha256": "5455a0a2f5a57c321b932f7de2e615deeea7504bb3556aad77fc410af8c6868e",
+      "snapshot_sha256": "5455a0a2f5a57c321b932f7de2e615deeea7504bb3556aad77fc410af8c6868e",
+      "bytes": 1590
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/fase2_hyperframes_final.log",
+      "source_sha256": "c38ba0c6247b316ca9df3211c6023eabb5dfcffd20cff87e835cf49c0b66a3ab",
+      "snapshot_sha256": "c38ba0c6247b316ca9df3211c6023eabb5dfcffd20cff87e835cf49c0b66a3ab",
+      "bytes": 16349
+    },
+    {
+      "path": "Miguel-Reel-Piloto/logs/tool_versions_and_hashes.log",
+      "source_sha256": "f0d15d84f097f3e6f6e7d8eca4f86ee6c9afb907ce1f884aa97c95c64756ba83",
+      "snapshot_sha256": "f0d15d84f097f3e6f6e7d8eca4f86ee6c9afb907ce1f884aa97c95c64756ba83",
+      "bytes": 3065
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/manifest.json",
+      "source_sha256": "3950fbf4a3c2c15574498d76ada645055c8febc7be718b80aceaa5ab6dcf2e78",
+      "snapshot_sha256": "3950fbf4a3c2c15574498d76ada645055c8febc7be718b80aceaa5ab6dcf2e78",
+      "bytes": 2338
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/generated/loop-ai-gold-v1.png",
+      "source_sha256": "551de9442fff4d5c0b3ca41f858f84cfeb57dc715ac6947229fa6eac04caa8c5",
+      "snapshot_sha256": "551de9442fff4d5c0b3ca41f858f84cfeb57dc715ac6947229fa6eac04caa8c5",
+      "bytes": 1263997
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/generated/README.md",
+      "source_sha256": "b2911a052c42198553c9cac495852b0a2e8e1396c95e6c636556e91ab7ac4c61",
+      "snapshot_sha256": "b2911a052c42198553c9cac495852b0a2e8e1396c95e6c636556e91ab7ac4c61",
+      "bytes": 844
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/generated/music-loop-gold-v1.png",
+      "source_sha256": "9015fd321cb7d89381312ccd82a22dce38fa36d7d98f2373f9214f200fb375ce",
+      "snapshot_sha256": "9015fd321cb7d89381312ccd82a22dce38fa36d7d98f2373f9214f200fb375ce",
+      "bytes": 1177443
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/generated/full60/ai-agent-network-color-v1.png",
+      "source_sha256": "0c4e1a6321057146936f431e1a27da9e0deccea86aa66f5416ab58404dd90132",
+      "snapshot_sha256": "0c4e1a6321057146936f431e1a27da9e0deccea86aa66f5416ab58404dd90132",
+      "bytes": 1625423
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/generated/full60/autonomous-workflow-color-v1.png",
+      "source_sha256": "3f16d94f585c684d28a1df07d6fd450ed214fef3aab524c396ff432089ee9b5c",
+      "snapshot_sha256": "3f16d94f585c684d28a1df07d6fd450ed214fef3aab524c396ff432089ee9b5c",
+      "bytes": 1850140
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/generated/full60/music-sequencer-color-v1.png",
+      "source_sha256": "6cbe5393d10bf403677ced2146828007a0c744cfa7f5141023f0ab3d363f0a4b",
+      "snapshot_sha256": "6cbe5393d10bf403677ced2146828007a0c744cfa7f5141023f0ab3d363f0a4b",
+      "bytes": 1739258
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/brands/OpenAI-white-wordmark.svg",
+      "source_sha256": "169b683855ef7a431e5a996d01406da76bb206eb777546d29e53613a8d08fb3a",
+      "snapshot_sha256": "169b683855ef7a431e5a996d01406da76bb206eb777546d29e53613a8d08fb3a",
+      "bytes": 2189
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/brands/claude-official.png",
+      "source_sha256": "4004381309500f25e49a1ae639912ce307ea81da74cc383954a1ac8b9d343fe6",
+      "snapshot_sha256": "4004381309500f25e49a1ae639912ce307ea81da74cc383954a1ac8b9d343fe6",
+      "bytes": 1198
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/repeat.svg",
+      "source_sha256": "0f076e0cd3144c922925e12b992ed43c3df2cbd3fd3e24e23ab68a871405537a",
+      "snapshot_sha256": "0f076e0cd3144c922925e12b992ed43c3df2cbd3fd3e24e23ab68a871405537a",
+      "bytes": 306
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/result.svg",
+      "source_sha256": "787588d6167f5bf565a68fdc19e16128d438d3bd9f1fc94c4b1854659984b1fd",
+      "snapshot_sha256": "787588d6167f5bf565a68fdc19e16128d438d3bd9f1fc94c4b1854659984b1fd",
+      "bytes": 281
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/music.svg",
+      "source_sha256": "c27cd2bcec7f657d5b441eecfd0da6e54b36774763114e924aa1a95240d4b7f6",
+      "snapshot_sha256": "c27cd2bcec7f657d5b441eecfd0da6e54b36774763114e924aa1a95240d4b7f6",
+      "bytes": 356
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/sequence.svg",
+      "source_sha256": "fde5bb7c368423f18261561dd40cf3f80c24878db664119a612751f3f5436502",
+      "snapshot_sha256": "fde5bb7c368423f18261561dd40cf3f80c24878db664119a612751f3f5436502",
+      "bytes": 443
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/review.svg",
+      "source_sha256": "3b422ed9c412d6d178a353d0955f8d412e2c527aa71a267156a6a42ab2cef047",
+      "snapshot_sha256": "3b422ed9c412d6d178a353d0955f8d412e2c527aa71a267156a6a42ab2cef047",
+      "bytes": 288
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/prompt.svg",
+      "source_sha256": "d41010faf60de7f59504751565886a60b082b5f471b32c33375f10351af8802e",
+      "snapshot_sha256": "d41010faf60de7f59504751565886a60b082b5f471b32c33375f10351af8802e",
+      "bytes": 351
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/team.svg",
+      "source_sha256": "5f85d9fb2ee86c3b716c25ffe3a99a1142d2dba731b2419b71075f6a076a524c",
+      "snapshot_sha256": "5f85d9fb2ee86c3b716c25ffe3a99a1142d2dba731b2419b71075f6a076a524c",
+      "bytes": 396
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/README.md",
+      "source_sha256": "428ae06682e6b32aaa0684f3cd1cd8948e7ffa0b73fbff7d55e73e4d36c31046",
+      "snapshot_sha256": "428ae06682e6b32aaa0684f3cd1cd8948e7ffa0b73fbff7d55e73e4d36c31046",
+      "bytes": 2154
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/workflow.svg",
+      "source_sha256": "45bc041015fa364cf1208a8227f9d617dd11fe15d231c7be0c3c967bb911de45",
+      "snapshot_sha256": "45bc041015fa364cf1208a8227f9d617dd11fe15d231c7be0c3c967bb911de45",
+      "bytes": 481
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/loop.svg",
+      "source_sha256": "28c20eb87c7f9afb3bbeca02edf213dfedaf134c8d0b2279fd93614ad8254578",
+      "snapshot_sha256": "28c20eb87c7f9afb3bbeca02edf213dfedaf134c8d0b2279fd93614ad8254578",
+      "bytes": 271
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/quota.svg",
+      "source_sha256": "e305d3e448fa20e1952009d348ac238e653a8dc3e585a7cd4c2a6025dd5a8063",
+      "snapshot_sha256": "e305d3e448fa20e1952009d348ac238e653a8dc3e585a7cd4c2a6025dd5a8063",
+      "bytes": 384
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/ai-agent.svg",
+      "source_sha256": "3c9f5af38ee8bb8e06ba681ec4152b194d3486defc90c9d59f1f696e97120284",
+      "snapshot_sha256": "3c9f5af38ee8bb8e06ba681ec4152b194d3486defc90c9d59f1f696e97120284",
+      "bytes": 460
+    },
+    {
+      "path": "Miguel-Reel-Piloto/assets/icons/company.svg",
+      "source_sha256": "88c770597aac247fd0d7d84fbe07283bc0028d0bc38b7c4610466abb8dc75f04",
+      "snapshot_sha256": "88c770597aac247fd0d7d84fbe07283bc0028d0bc38b7c4610466abb8dc75f04",
+      "bytes": 303
+    },
+    {
+      "path": "Miguel-Reel-Piloto/outputs/MIGUEL_REEL_PILOTO_VISUAL_V2.mp4",
+      "source_sha256": "4bc9413b59d16c24414902107e8149fee00c58e077b6f7b4db5dcf1fcb56d281",
+      "snapshot_sha256": "4bc9413b59d16c24414902107e8149fee00c58e077b6f7b4db5dcf1fcb56d281",
+      "bytes": 12516469
+    },
+    {
+      "path": "Miguel-Reel-Piloto/outputs/MIGUEL_REEL_COMPLETO_PRO_V2.mp4",
+      "source_sha256": "978a9d73ff8cfc4cd953367c70a49c11d7b8291eb2288cb0ff0294365c41aedf",
+      "snapshot_sha256": "978a9d73ff8cfc4cd953367c70a49c11d7b8291eb2288cb0ff0294365c41aedf",
+      "bytes": 51279975
+    },
+    {
+      "path": "Miguel-Reel-Piloto/outputs/MIGUEL_REEL_COMPLETO_PRO_V1.mp4",
+      "source_sha256": "0648a17974e497efc6ddea243ed7df222be9c0273e3b11ff8c5b8ffcbc2f70d3",
+      "snapshot_sha256": "0648a17974e497efc6ddea243ed7df222be9c0273e3b11ff8c5b8ffcbc2f70d3",
+      "bytes": 50616597
+    },
+    {
+      "path": "Miguel-Reel-Piloto/outputs/MIGUEL_REEL_PILOTO_FASE2.mp4",
+      "source_sha256": "fa7518f698778b88cc23f5cbea8c22fe590538f1dfdd1814aa58e52972999bb7",
+      "snapshot_sha256": "fa7518f698778b88cc23f5cbea8c22fe590538f1dfdd1814aa58e52972999bb7",
+      "bytes": 12458998
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/PROVENIENCIA.json",
+      "source_sha256": "563bdace3c1fb041622a23a26340f30b6abb83abac4add5684274ce387a94d63",
+      "snapshot_sha256": "563bdace3c1fb041622a23a26340f30b6abb83abac4add5684274ce387a94d63",
+      "bytes": 683
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/ffprobe_RAW_001.json",
+      "source_sha256": "d0fa4c6a177bcbe7b9a9508acb63094998c88e3b604cc12abd3a2dfe892ecd27",
+      "snapshot_sha256": "d0fa4c6a177bcbe7b9a9508acb63094998c88e3b604cc12abd3a2dfe892ecd27",
+      "bytes": 3486
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/REVISION_INICIAL.md",
+      "source_sha256": "00e72131e6a63a4cf659de1484bda0e99bca21bb069b1b5e337e755dabae3fa2",
+      "snapshot_sha256": "00e72131e6a63a4cf659de1484bda0e99bca21bb069b1b5e337e755dabae3fa2",
+      "bytes": 2172
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/fotogramas_muestreados.jpg",
+      "source_sha256": "4c2dd7370e2253b22fbd51e5f2d07e86530d1b07e6e66e1ee28461a51fd4c9cc",
+      "snapshot_sha256": "4c2dd7370e2253b22fbd51e5f2d07e86530d1b07e6e66e1ee28461a51fd4c9cc",
+      "bytes": 81517
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60-v2/rendered/transition-zoom-sheet-v2.jpg",
+      "source_sha256": "e78289925d6c3d55d2ed9f16a7314ddebc1eda7556f2b76cd8bce064f8b604d0",
+      "snapshot_sha256": "e78289925d6c3d55d2ed9f16a7314ddebc1eda7556f2b76cd8bce064f8b604d0",
+      "bytes": 95891
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60-v2/rendered/contact-sheet-v2.jpg",
+      "source_sha256": "279da86a1a6d9ccd92dad60e03b103863a8f084f150eb5f26956930936fd1c6e",
+      "snapshot_sha256": "279da86a1a6d9ccd92dad60e03b103863a8f084f150eb5f26956930936fd1c6e",
+      "bytes": 154800
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60-v2/keyframes/camera-7-14.png",
+      "source_sha256": "0d6fe090a1bf3528bb395fa8df37cc527868ed1c3e4ee32320a0bfd0feb17b57",
+      "snapshot_sha256": "0d6fe090a1bf3528bb395fa8df37cc527868ed1c3e4ee32320a0bfd0feb17b57",
+      "bytes": 826772
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/fase2/contacto_final.jpg",
+      "source_sha256": "e181f5016c8a9d8ec78e5283e10a36da3c74ac5239dd10359730671ab8b966c1",
+      "snapshot_sha256": "e181f5016c8a9d8ec78e5283e10a36da3c74ac5239dd10359730671ab8b966c1",
+      "bytes": 54744
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/fase2/contacto_piloto.jpg",
+      "source_sha256": "f5eff463f442417d6ac5e05d4ceabd6dc36e8b57af194b99c8a601b63dbf2857",
+      "snapshot_sha256": "f5eff463f442417d6ac5e05d4ceabd6dc36e8b57af194b99c8a601b63dbf2857",
+      "bytes": 53435
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/fase2/final_frames/dos.jpg",
+      "source_sha256": "d83c9b27a18dc5cd495e6c00bad3cbff60acdd2f4254f8a4f4933fefdc658fec",
+      "snapshot_sha256": "d83c9b27a18dc5cd495e6c00bad3cbff60acdd2f4254f8a4f4933fefdc658fec",
+      "bytes": 31011
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/fase2/final_frames/uno.jpg",
+      "source_sha256": "fe0334bfea5fef3d785bcf9d2e49cf7a036cacae09c569a1e1531c4491dde919",
+      "snapshot_sha256": "fe0334bfea5fef3d785bcf9d2e49cf7a036cacae09c569a1e1531c4491dde919",
+      "bytes": 47115
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/fase2/final_frames/tres.jpg",
+      "source_sha256": "03e9c42d33853c65c3e5c0adaa63abb4d8634b5564bfb01f090342b07eb34a51",
+      "snapshot_sha256": "03e9c42d33853c65c3e5c0adaa63abb4d8634b5564bfb01f090342b07eb34a51",
+      "bytes": 41666
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/fase2/final_frames/cuatro.jpg",
+      "source_sha256": "dbfa7f626d59992ecf6ecf3cbe8e2a95057321477ed21f445066a1514d50c132",
+      "snapshot_sha256": "dbfa7f626d59992ecf6ecf3cbe8e2a95057321477ed21f445066a1514d50c132",
+      "bytes": 46037
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/fase2/v2_qc/contact_sheet_v2.png",
+      "source_sha256": "88e09c9ba73cfa856fffc8b0165c92fcc88f42fbb3bdd5852297d2d5a18c7f71",
+      "snapshot_sha256": "88e09c9ba73cfa856fffc8b0165c92fcc88f42fbb3bdd5852297d2d5a18c7f71",
+      "bytes": 1729505
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/source_contact.png",
+      "source_sha256": "3368976af339d83ccfe9bb47d8efa2cf7543ab810b029f94ce1f0fddc3aaf4c6",
+      "snapshot_sha256": "3368976af339d83ccfe9bb47d8efa2cf7543ab810b029f94ce1f0fddc3aaf4c6",
+      "bytes": 1411950
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/contact_sheet_final.png",
+      "source_sha256": "0eb107ca4d3f11ba2f99032b194bf3a766bc330a7d9ccc6f8f2d71a1d18317d3",
+      "snapshot_sha256": "0eb107ca4d3f11ba2f99032b194bf3a766bc330a7d9ccc6f8f2d71a1d18317d3",
+      "bytes": 1966620
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/postfix_snapshots/frame-00-at-8s.png",
+      "source_sha256": "f585ec28252c217633811ecd55eaa53604be30e6de2f642b73310827830d5072",
+      "snapshot_sha256": "f585ec28252c217633811ecd55eaa53604be30e6de2f642b73310827830d5072",
+      "bytes": 801145
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/postfix_snapshots/frame-05-at-50.4s.png",
+      "source_sha256": "40e18bc3b49cb9eded1a9262d7de9895f17dbb80d61bc798501c0fd15dcdddaf",
+      "snapshot_sha256": "40e18bc3b49cb9eded1a9262d7de9895f17dbb80d61bc798501c0fd15dcdddaf",
+      "bytes": 661896
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/postfix_snapshots/frame-02-at-29.5s.png",
+      "source_sha256": "c6b67f706f418da3c71f63b25a9f8d3c708e3c091f62215f80f316f2f5de260d",
+      "snapshot_sha256": "c6b67f706f418da3c71f63b25a9f8d3c708e3c091f62215f80f316f2f5de260d",
+      "bytes": 726662
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/postfix_snapshots/frame-06-at-53.5s.png",
+      "source_sha256": "c0ab8ae874663ad67a0d15c7186a0021a461673bcc10af205b134997a91277e3",
+      "snapshot_sha256": "c0ab8ae874663ad67a0d15c7186a0021a461673bcc10af205b134997a91277e3",
+      "bytes": 691410
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/postfix_snapshots/frame-04-at-48s.png",
+      "source_sha256": "75a79a62e6e7a3f70c8b45e0a0b778f9cfe781b492d4966758e0bd95c949b9e9",
+      "snapshot_sha256": "75a79a62e6e7a3f70c8b45e0a0b778f9cfe781b492d4966758e0bd95c949b9e9",
+      "bytes": 511261
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/postfix_snapshots/frame-07-at-56.5s.png",
+      "source_sha256": "d0c3bcd1cf1df834652f13dc2632410841c81024114c662b46ead10230c12620",
+      "snapshot_sha256": "d0c3bcd1cf1df834652f13dc2632410841c81024114c662b46ead10230c12620",
+      "bytes": 823140
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/postfix_snapshots/contact-sheet.jpg",
+      "source_sha256": "6d5029d0053c75b42ca78fbf2633c81695284d578d34cee00c65014143110700",
+      "snapshot_sha256": "6d5029d0053c75b42ca78fbf2633c81695284d578d34cee00c65014143110700",
+      "bytes": 634076
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/postfix_snapshots/frame-01-at-17.5s.png",
+      "source_sha256": "43e2313de476f7c9189d0ba96baa1f8c7701545d4e997a2e361a4433dca114c1",
+      "snapshot_sha256": "43e2313de476f7c9189d0ba96baa1f8c7701545d4e997a2e361a4433dca114c1",
+      "bytes": 917520
+    },
+    {
+      "path": "Miguel-Reel-Piloto/revision/full60/postfix_snapshots/frame-03-at-36.5s.png",
+      "source_sha256": "695ff53572a1aba6e272fcdbc762d9176a56ae8fdf24fd28418ef87148f52d68",
+      "snapshot_sha256": "695ff53572a1aba6e272fcdbc762d9176a56ae8fdf24fd28418ef87148f52d68",
+      "bytes": 841747
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/REVISIONES.md",
+      "source_sha256": "2b5b458ded43a96580e73ba357e1137fe6392cac3a93436bf28dfee7010d28af",
+      "snapshot_sha256": "2b5b458ded43a96580e73ba357e1137fe6392cac3a93436bf28dfee7010d28af",
+      "bytes": 1962
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/CAMBIOS.md",
+      "source_sha256": "2e15976349bce24df4e39293fc90be9eb3082976039165a25fb5cb47fc682625",
+      "snapshot_sha256": "2e15976349bce24df4e39293fc90be9eb3082976039165a25fb5cb47fc682625",
+      "bytes": 2035
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/README.md",
+      "source_sha256": "50b7a2bf9c211d1cd66015c1898c4f25a58a4953c5a8c4904a14b59fa5a3a141",
+      "snapshot_sha256": "50b7a2bf9c211d1cd66015c1898c4f25a58a4953c5a8c4904a14b59fa5a3a141",
+      "bytes": 3592
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/renders/manifests/PRUEBA_FUEGO_IMMERSIVE_WELLNESS_V1.json",
+      "source_sha256": "58883fc132ad2aa03bb452ff284a61d7960b0dc2cfae1701c14f0d474dda4d41",
+      "snapshot_sha256": "58883fc132ad2aa03bb452ff284a61d7960b0dc2cfae1701c14f0d474dda4d41",
+      "bytes": 1328
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/source/ORIGINAL_WHATSAPP_2026-09-23_031017.mp4",
+      "source_sha256": "2b2ba921c187d2803b68b075d9e18d332f58201e8b4070f6033ee00e7bfebebc",
+      "snapshot_sha256": "2b2ba921c187d2803b68b075d9e18d332f58201e8b4070f6033ee00e7bfebebc",
+      "bytes": 8576085
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/docs/transcript-audio.wav",
+      "source_sha256": "9d2280e21855e2c0be299ef580d13ce3dd3f792c81f27acedf4ee9df9b55f018",
+      "snapshot_sha256": "9d2280e21855e2c0be299ef580d13ce3dd3f792c81f27acedf4ee9df9b55f018",
+      "bytes": 1060942
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/hyperframes.json",
+      "source_sha256": "ad5dadeef78a520800a9e5cdd27a92ff5ac37f11b6a07f611b6b52b9f8c79a17",
+      "snapshot_sha256": "ad5dadeef78a520800a9e5cdd27a92ff5ac37f11b6a07f611b6b52b9f8c79a17",
+      "bytes": 355
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/index.html",
+      "source_sha256": "94b59bb0867a1860f06913fd7162ba73cb104918c912331501f60c474ba44a6c",
+      "snapshot_sha256": "94b59bb0867a1860f06913fd7162ba73cb104918c912331501f60c474ba44a6c",
+      "bytes": 106324
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/package.json",
+      "source_sha256": "b99aad6fd2a5461adde0cc021c4793aad16eddbce71397647794e4182299554c",
+      "snapshot_sha256": "b99aad6fd2a5461adde0cc021c4793aad16eddbce71397647794e4182299554c",
+      "bytes": 308
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/index.motion.json",
+      "source_sha256": "e0c1e2e430fe70523a840f2037383374c0de2d9a05ed1cc823d41e60e7611dc5",
+      "snapshot_sha256": "e0c1e2e430fe70523a840f2037383374c0de2d9a05ed1cc823d41e60e7611dc5",
+      "bytes": 853
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/AGENTS.md",
+      "source_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "snapshot_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "bytes": 8002
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/CLAUDE.md",
+      "source_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "snapshot_sha256": "6361e5d1b78020e6a17a9c31685104d78cb538a080907ca21fd6f88ec21b7fd3",
+      "bytes": 8002
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/meta.json",
+      "source_sha256": "60e68657b6bb70a2be23e3fc1d66561159bc6419452cbea7cc3c3d637c1fc6b5",
+      "snapshot_sha256": "60e68657b6bb70a2be23e3fc1d66561159bc6419452cbea7cc3c3d637c1fc6b5",
+      "bytes": 117
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/snapshots/frame-01-at-5.5s.png",
+      "source_sha256": "3fd2e51dcdbc29f7e09ea6e841ff6aa2faf296880773549f46909883465e039d",
+      "snapshot_sha256": "3fd2e51dcdbc29f7e09ea6e841ff6aa2faf296880773549f46909883465e039d",
+      "bytes": 1046813
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/snapshots/frame-03-at-24.0s.png",
+      "source_sha256": "7fdef7e92e15df1b1330beaa5ea7640ada764964dd39835eacb3581e6c8562ab",
+      "snapshot_sha256": "7fdef7e92e15df1b1330beaa5ea7640ada764964dd39835eacb3581e6c8562ab",
+      "bytes": 981429
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/snapshots/frame-02-at-14.5s.png",
+      "source_sha256": "93b6f7cbae563e252d270971ea4769778aaa3cbc8d09a51ac00aa04b9e9d7d86",
+      "snapshot_sha256": "93b6f7cbae563e252d270971ea4769778aaa3cbc8d09a51ac00aa04b9e9d7d86",
+      "bytes": 1046771
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/snapshots/frame-04-at-32.8s.png",
+      "source_sha256": "95a45dfd986966ac0e021a5c935fae02ccb57ccaf2059d60c8db2229540e7bb1",
+      "snapshot_sha256": "95a45dfd986966ac0e021a5c935fae02ccb57ccaf2059d60c8db2229540e7bb1",
+      "bytes": 967191
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/snapshots/frame-00-at-0.0s.png",
+      "source_sha256": "1ba4000e3750353aab94b5ffc3832eb4bc3ceab058b4fbfe96a41ff2cbc9b05a",
+      "snapshot_sha256": "1ba4000e3750353aab94b5ffc3832eb4bc3ceab058b4fbfe96a41ff2cbc9b05a",
+      "bytes": 909867
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/video/master.mp4",
+      "source_sha256": "8721a0f9e61513dac1d760eff41b6ccf40f05b96e799efc8e190fb9ca397506e",
+      "snapshot_sha256": "8721a0f9e61513dac1d760eff41b6ccf40f05b96e799efc8e190fb9ca397506e",
+      "bytes": 10297206
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/cutaways/breath-ribbon-v1.png",
+      "source_sha256": "d26d931ae5867b767fccca273ad2ed06e0777e514268b56bf54019da45db6f46",
+      "snapshot_sha256": "d26d931ae5867b767fccca273ad2ed06e0777e514268b56bf54019da45db6f46",
+      "bytes": 1709835
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/cutaways/breath-interior-v1.png",
+      "source_sha256": "1f55186cb1237d8f2a489582bc45946440d80df6d280d23db53d3aae1bca17fb",
+      "snapshot_sha256": "1f55186cb1237d8f2a489582bc45946440d80df6d280d23db53d3aae1bca17fb",
+      "bytes": 1920081
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/cutaways/inner-space-v1.png",
+      "source_sha256": "e820c5678a93b3a028179bdff545dec4c4c24dad4351639918bc175ba087945c",
+      "snapshot_sha256": "e820c5678a93b3a028179bdff545dec4c4c24dad4351639918bc175ba087945c",
+      "bytes": 2118966
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/cutaways/inner-waves-v1.png",
+      "source_sha256": "171c38d55259d9e0aef4a0e253ca549744ab09027ac59dc81c4fb3958422ec48",
+      "snapshot_sha256": "171c38d55259d9e0aef4a0e253ca549744ab09027ac59dc81c4fb3958422ec48",
+      "bytes": 1791659
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/audio/music/ambient_breathing_pad_34s.wav",
+      "source_sha256": "98322daa65dc0069db86832763c1a9cee61834ea9ea0324ac0fe9b4afef2cfe4",
+      "snapshot_sha256": "98322daa65dc0069db86832763c1a9cee61834ea9ea0324ac0fe9b4afef2cfe4",
+      "bytes": 9895782
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/audio/sfx/03_ui_tick.wav",
+      "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+      "snapshot_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+      "bytes": 12284
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/audio/sfx/02_soft_whoosh.wav",
+      "source_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+      "snapshot_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+      "bytes": 43244
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/audio/sfx/05_low_accent.wav",
+      "source_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+      "snapshot_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+      "bytes": 49004
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/audio/sfx/06_sequence.wav",
+      "source_sha256": "d63dc815a4724ad5175289db358f7a7e55c5eb84079c03d8d1be388d1b41c76b",
+      "snapshot_sha256": "d63dc815a4724ad5175289db358f7a7e55c5eb84079c03d8d1be388d1b41c76b",
+      "bytes": 72044
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/audio/sfx/04_soft_pop.wav",
+      "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+      "snapshot_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+      "bytes": 23084
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/audio/sfx/01_airy_in.wav",
+      "source_sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+      "snapshot_sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+      "bytes": 63404
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/audio/sfx/08_resolve.wav",
+      "source_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+      "snapshot_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+      "bytes": 121004
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/audio/sfx/07_loop_return.wav",
+      "source_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+      "snapshot_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+      "bytes": 69164
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/icons/headphones.svg",
+      "source_sha256": "0bf131516aec257abb47e49ba62ff3110e10ef9156ea4ee4e4166f9f0d1fb7ea",
+      "snapshot_sha256": "0bf131516aec257abb47e49ba62ff3110e10ef9156ea4ee4e4166f9f0d1fb7ea",
+      "bytes": 490
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/icons/waves.svg",
+      "source_sha256": "4ae269f63ac3bd4bee70e5aefdba83c864f6e52b4e62bd696ac68ed37725a1f7",
+      "snapshot_sha256": "4ae269f63ac3bd4bee70e5aefdba83c864f6e52b4e62bd696ac68ed37725a1f7",
+      "bytes": 413
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/icons/eye.svg",
+      "source_sha256": "72096cbdf58f87b5de4ffd125e44343434fbcd73b43e499b1b3355c7e5da7e75",
+      "snapshot_sha256": "72096cbdf58f87b5de4ffd125e44343434fbcd73b43e499b1b3355c7e5da7e75",
+      "bytes": 373
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1/assets/icons/breath.svg",
+      "source_sha256": "92b25e744cf061e17e914ae41eba8a2b1267f210d735472380008b04f5552805",
+      "snapshot_sha256": "92b25e744cf061e17e914ae41eba8a2b1267f210d735472380008b04f5552805",
+      "bytes": 505
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/styles/STYLE_003_IMMERSIVE_WELLNESS/README.md",
+      "source_sha256": "049d8f00965e850dad57b41b5a443779da77b53b6aeb5381c018f77a5e8379c9",
+      "snapshot_sha256": "049d8f00965e850dad57b41b5a443779da77b53b6aeb5381c018f77a5e8379c9",
+      "bytes": 5200
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/manifest.json",
+      "source_sha256": "652b65e6756e5cc2fac3312b7445d4e0ecc2c70b6627ff12a12a950310246f32",
+      "snapshot_sha256": "652b65e6756e5cc2fac3312b7445d4e0ecc2c70b6627ff12a12a950310246f32",
+      "bytes": 6787
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/MASTER_NORMALIZED_CFR30_720x1280.mp4",
+      "source_sha256": "8721a0f9e61513dac1d760eff41b6ccf40f05b96e799efc8e190fb9ca397506e",
+      "snapshot_sha256": "8721a0f9e61513dac1d760eff41b6ccf40f05b96e799efc8e190fb9ca397506e",
+      "bytes": 10297206
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/cutaways/breath-ribbon-v1.png",
+      "source_sha256": "d26d931ae5867b767fccca273ad2ed06e0777e514268b56bf54019da45db6f46",
+      "snapshot_sha256": "d26d931ae5867b767fccca273ad2ed06e0777e514268b56bf54019da45db6f46",
+      "bytes": 1709835
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/cutaways/breath-interior-v1.png",
+      "source_sha256": "1f55186cb1237d8f2a489582bc45946440d80df6d280d23db53d3aae1bca17fb",
+      "snapshot_sha256": "1f55186cb1237d8f2a489582bc45946440d80df6d280d23db53d3aae1bca17fb",
+      "bytes": 1920081
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/cutaways/inner-space-v1.png",
+      "source_sha256": "e820c5678a93b3a028179bdff545dec4c4c24dad4351639918bc175ba087945c",
+      "snapshot_sha256": "e820c5678a93b3a028179bdff545dec4c4c24dad4351639918bc175ba087945c",
+      "bytes": 2118966
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/cutaways/inner-waves-v1.png",
+      "source_sha256": "171c38d55259d9e0aef4a0e253ca549744ab09027ac59dc81c4fb3958422ec48",
+      "snapshot_sha256": "171c38d55259d9e0aef4a0e253ca549744ab09027ac59dc81c4fb3958422ec48",
+      "bytes": 1791659
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/audio/music/ambient_breathing_pad_34s.wav",
+      "source_sha256": "98322daa65dc0069db86832763c1a9cee61834ea9ea0324ac0fe9b4afef2cfe4",
+      "snapshot_sha256": "98322daa65dc0069db86832763c1a9cee61834ea9ea0324ac0fe9b4afef2cfe4",
+      "bytes": 9895782
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/audio/sfx/03_ui_tick.wav",
+      "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+      "snapshot_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+      "bytes": 12284
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/audio/sfx/02_soft_whoosh.wav",
+      "source_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+      "snapshot_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+      "bytes": 43244
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/audio/sfx/05_low_accent.wav",
+      "source_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+      "snapshot_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+      "bytes": 49004
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/audio/sfx/06_sequence.wav",
+      "source_sha256": "d63dc815a4724ad5175289db358f7a7e55c5eb84079c03d8d1be388d1b41c76b",
+      "snapshot_sha256": "d63dc815a4724ad5175289db358f7a7e55c5eb84079c03d8d1be388d1b41c76b",
+      "bytes": 72044
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/audio/sfx/04_soft_pop.wav",
+      "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+      "snapshot_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+      "bytes": 23084
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/audio/sfx/01_airy_in.wav",
+      "source_sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+      "snapshot_sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+      "bytes": 63404
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/audio/sfx/08_resolve.wav",
+      "source_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+      "snapshot_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+      "bytes": 121004
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/audio/sfx/07_loop_return.wav",
+      "source_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+      "snapshot_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+      "bytes": 69164
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/icons/headphones.svg",
+      "source_sha256": "0bf131516aec257abb47e49ba62ff3110e10ef9156ea4ee4e4166f9f0d1fb7ea",
+      "snapshot_sha256": "0bf131516aec257abb47e49ba62ff3110e10ef9156ea4ee4e4166f9f0d1fb7ea",
+      "bytes": 490
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/icons/waves.svg",
+      "source_sha256": "4ae269f63ac3bd4bee70e5aefdba83c864f6e52b4e62bd696ac68ed37725a1f7",
+      "snapshot_sha256": "4ae269f63ac3bd4bee70e5aefdba83c864f6e52b4e62bd696ac68ed37725a1f7",
+      "bytes": 413
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/icons/eye.svg",
+      "source_sha256": "72096cbdf58f87b5de4ffd125e44343434fbcd73b43e499b1b3355c7e5da7e75",
+      "snapshot_sha256": "72096cbdf58f87b5de4ffd125e44343434fbcd73b43e499b1b3355c7e5da7e75",
+      "bytes": 373
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/assets/icons/breath.svg",
+      "source_sha256": "92b25e744cf061e17e914ae41eba8a2b1267f210d735472380008b04f5552805",
+      "snapshot_sha256": "92b25e744cf061e17e914ae41eba8a2b1267f210d735472380008b04f5552805",
+      "bytes": 505
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/outputs/PRUEBA_FUEGO_IMMERSIVE_WELLNESS_V1.mp4",
+      "source_sha256": "dea24b41739cffc91993d756913fa3fd1530acd5b4fb0906bbdb9ebb0470dcae",
+      "snapshot_sha256": "dea24b41739cffc91993d756913fa3fd1530acd5b4fb0906bbdb9ebb0470dcae",
+      "bytes": 24811936
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/revision/source-contact-sheet.png",
+      "source_sha256": "10eb6ad9d03432f535339f3820e00132b49194305270564f9c230a35e4c977ad",
+      "snapshot_sha256": "10eb6ad9d03432f535339f3820e00132b49194305270564f9c230a35e4c977ad",
+      "bytes": 1366707
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/revision/source-analysis/contact-sheet-master.jpg",
+      "source_sha256": "9e3470f79394e6eb5c2ea5e372bdd5959381f89dd61e3e21f913d43af621491e",
+      "snapshot_sha256": "9e3470f79394e6eb5c2ea5e372bdd5959381f89dd61e3e21f913d43af621491e",
+      "bytes": 97813
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/revision/wellness-v1/rendered/check-snapshots-contact-sheet.png",
+      "source_sha256": "f69807d44cc81fce6fb684a9799301473ea9afc2eefdb4388861df8707b3e1e6",
+      "snapshot_sha256": "f69807d44cc81fce6fb684a9799301473ea9afc2eefdb4388861df8707b3e1e6",
+      "bytes": 763913
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/revision/wellness-v1/rendered/final-contact-sheet.jpg",
+      "source_sha256": "f5a6274791f1c90b29ccc512ea4d8229a336e9046032958cdd99924e46250a5a",
+      "snapshot_sha256": "f5a6274791f1c90b29ccc512ea4d8229a336e9046032958cdd99924e46250a5a",
+      "bytes": 102992
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/revision/wellness-v1/rendered/transition-zoom-sheet.jpg",
+      "source_sha256": "df4d74cf14274c1e9f152a10815be65b525ffb758aa7dad07831cf2594b42933",
+      "snapshot_sha256": "df4d74cf14274c1e9f152a10815be65b525ffb758aa7dad07831cf2594b42933",
+      "bytes": 86188
+    },
+    {
+      "path": "WhatsApp-Reel-Prueba-Fuego/revision/wellness-v1/keyframes/camera-motion.png",
+      "source_sha256": "3184bb9690f2516ae59cc36b62ba48ca8d3506fc8dc84f4356f66bb741ba6801",
+      "snapshot_sha256": "3184bb9690f2516ae59cc36b62ba48ca8d3506fc8dc84f4356f66bb741ba6801",
+      "bytes": 924674
+    }
+  ]
+}

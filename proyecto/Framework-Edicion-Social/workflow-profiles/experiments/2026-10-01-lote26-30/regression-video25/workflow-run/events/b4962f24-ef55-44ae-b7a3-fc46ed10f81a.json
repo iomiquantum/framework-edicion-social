@@ -1,0 +1,13 @@
+{
+  "event_id": "b4962f24-ef55-44ae-b7a3-fc46ed10f81a",
+  "run_id": "0600d9ab-2de2-49b3-b78c-ba1b2793962a",
+  "at": "2026-10-01T03:45:02.733057+00:00",
+  "kind": "targeted_check",
+  "note": "Tooling context check only; original25 retained",
+  "evidence": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/result.json",
+    "sha256": "52e6554897b0f6b723da9a822a3cd0f77bddb86357de72dd4100501a8824d5e0",
+    "size_bytes": 728
+  },
+  "measurement_method": "explicit_logged_event_not_automatic_detection"
+}

@@ -1,0 +1,1354 @@
+{
+  "schemaVersion": "pilot-result-receipt-v3",
+  "capturedAt": "2026-10-03T21:21:48.000-05:00",
+  "brand": {
+    "brandId": "6177067",
+    "label": "Silent Run Ecuador",
+    "timezone": "America/Guayaquil"
+  },
+  "sourceReceipts": [
+    "RECIBO_PROGRAMACION_v1.json",
+    "RECIBO_VERIFICACION_HORA_v2.json"
+  ],
+  "request": {
+    "brandId": "6177067",
+    "fromDate": "2026-10-02T00:00:00-05:00",
+    "toDate": "2026-10-02T23:59:59-05:00",
+    "timezone": "America/Guayaquil",
+    "extendedRange": false
+  },
+  "response": {
+    "data": [
+      {
+        "id": 385565278,
+        "publicationDate": {
+          "dateTime": "2026-10-02T09:00:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:04:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "PRUEBA MCP — BORRADOR PRIVADO. No publicar.\n\nLa IA puede acelerar un sistema bien diseñado, pero también puede hacer circular más rápido información incompleta, decisiones confusas y tareas innecesarias. Por eso la pregunta no es solamente “¿qué herramienta uso?”, sino “¿qué proceso quiero mejorar y cómo sabré que mejoró?”.\n\nPrimero entender. Después ordenar. Finalmente automatizar.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "facebook",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-12831093368327686986.png"
+        ],
+        "autoPublish": false,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null
+        ],
+        "shortener": false,
+        "draft": true,
+        "twitterData": {
+          "type": "POST"
+        },
+        "facebookData": {
+          "type": "POST"
+        },
+        "instagramData": {
+          "autoPublish": false,
+          "isAiGenerated": false
+        },
+        "hasNotReadNotes": false,
+        "uuid": "3758769130611950882"
+      },
+      {
+        "id": 385566319,
+        "publicationDate": {
+          "dateTime": "2026-10-02T09:00:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P01. Imagen cuadrada 1:1 (1080 × 1080) en el feed. Objetivo: 2 de octubre de 2026, 09:00, hora de Ecuador. Verificamos imagen, copy, fecha y hora.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "facebook",
+            "id": "122118595305300551",
+            "status": "PUBLISHED",
+            "publicUrl": "https://facebook.com/122095346541300551/posts/122118595305300551",
+            "detailedStatus": "Published"
+          },
+          {
+            "network": "instagram",
+            "id": "https://www.instagram.com/p/Dd_qDAxleTH/",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.instagram.com/p/Dd_qDAxleTH/",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-13635919805122084508.jpeg"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "facebookData": {
+          "type": "POST"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "type": "POST",
+          "showReelOnFeed": true,
+          "isAiGenerated": false
+        },
+        "hasNotReadNotes": false,
+        "uuid": "572359031725834830"
+      },
+      {
+        "id": 385566411,
+        "publicationDate": {
+          "dateTime": "2026-10-02T09:10:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P02. Imagen vertical 4:5 (1080 × 1350) en el feed. Objetivo: 2 de octubre de 2026, 09:10, hora de Ecuador. Verificamos encuadre y copy.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "facebook",
+            "id": "122118595593300551",
+            "status": "PUBLISHED",
+            "publicUrl": "https://facebook.com/122095346541300551/posts/122118595593300551",
+            "detailedStatus": "Published"
+          },
+          {
+            "network": "instagram",
+            "id": "https://www.instagram.com/p/Dd_queOFY_V/",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.instagram.com/p/Dd_queOFY_V/",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-5455502262107799823.jpeg"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "facebookData": {
+          "type": "POST"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "type": "POST",
+          "showReelOnFeed": true,
+          "isAiGenerated": false
+        },
+        "hasNotReadNotes": false,
+        "uuid": "2243109020537736501"
+      },
+      {
+        "id": 385566418,
+        "publicationDate": {
+          "dateTime": "2026-10-02T09:20:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P03. Tres imágenes en orden 1/3, 2/3 y 3/3: carrusel en Instagram y publicación de varias fotos en Facebook. Objetivo: 2 de octubre de 2026, 09:20, hora de Ecuador.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "facebook",
+            "id": "1114534835070591_122118596367300551",
+            "status": "PUBLISHED",
+            "publicUrl": "https://facebook.com/122095346541300551/posts/122118596367300551",
+            "detailedStatus": "Published"
+          },
+          {
+            "network": "instagram",
+            "id": "https://www.instagram.com/p/Dd_r5N-FVlq/",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.instagram.com/p/Dd_r5N-FVlq/",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-2852534550594067332.jpeg",
+          "https://static.metricool.com/planner/202610/6177067-file-17030402157382055406.jpeg",
+          "https://static.metricool.com/planner/202610/6177067-file-1011218605572206893.jpeg"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null,
+          null,
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "facebookData": {
+          "type": "POST"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "type": "POST",
+          "showReelOnFeed": true,
+          "isAiGenerated": false
+        },
+        "hasNotReadNotes": false,
+        "uuid": "5060693824076268020"
+      },
+      {
+        "id": 385566427,
+        "publicationDate": {
+          "dateTime": "2026-10-02T09:30:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P04. Historia con imagen 9:16. Objetivo: 2 de octubre de 2026, 09:30, hora de Ecuador. El texto visible está integrado en la imagen; este copy sirve como registro.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "facebook",
+            "id": "1797674527956860",
+            "status": "PUBLISHED",
+            "publicUrl": "https://facebook.com/122095346541300551/posts/1797674527956860",
+            "detailedStatus": "Published"
+          },
+          {
+            "network": "instagram",
+            "id": "https://www.instagram.com/stories/silentrunecuador/3999113065052573428",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.instagram.com/stories/silentrunecuador/3999113065052573428",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-15183672880782429946.jpeg"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "facebookData": {
+          "type": "STORY"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "type": "STORY",
+          "showReelOnFeed": true,
+          "isAiGenerated": false
+        },
+        "hasNotReadNotes": false,
+        "uuid": "6018955738659899342"
+      },
+      {
+        "id": 385566430,
+        "publicationDate": {
+          "dateTime": "2026-10-02T09:40:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P05. Historia con el VIDEO-18: «El cliente no quiere tu producto». Master vertical aprobado, 21,87 segundos. Objetivo: 2 de octubre de 2026, 09:40, hora de Ecuador.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "facebook",
+            "id": "1439218584822448",
+            "status": "PUBLISHED",
+            "publicUrl": "https://facebook.com/122095346541300551/posts/1439218584822448",
+            "detailedStatus": "Published"
+          },
+          {
+            "network": "instagram",
+            "id": "https://www.instagram.com/stories/silentrunecuador/3999118028699712010",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.instagram.com/stories/silentrunecuador/3999118028699712010",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-9235012282976754115.mp4"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "facebookData": {
+          "type": "STORY"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "type": "STORY",
+          "showReelOnFeed": true,
+          "isAiGenerated": false
+        },
+        "hasNotReadNotes": false,
+        "uuid": "5229785277899230436"
+      },
+      {
+        "id": 385566438,
+        "publicationDate": {
+          "dateTime": "2026-10-02T09:50:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P06. El cliente no quiere tu producto: quiere resolver un problema. Este video del proyecto se reutiliza como Reel, visible también en el feed de Instagram. Objetivo: 2 de octubre de 2026, 09:50, hora de Ecuador.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "facebook",
+            "id": "2182130825850941",
+            "status": "PUBLISHED",
+            "publicUrl": "https://facebook.com/reel/2182130825850941",
+            "detailedStatus": "Published"
+          },
+          {
+            "network": "instagram",
+            "id": "https://www.instagram.com/reel/Dd_vYTlgXgh/",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.instagram.com/reel/Dd_vYTlgXgh/",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-9235012282976754115.mp4"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "facebookData": {
+          "type": "REEL",
+          "title": "El cliente no quiere tu producto"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "type": "REEL",
+          "showReelOnFeed": true,
+          "isAiGenerated": false
+        },
+        "hasNotReadNotes": false,
+        "uuid": "1918079464526728961"
+      },
+      {
+        "id": 385566443,
+        "publicationDate": {
+          "dateTime": "2026-10-02T10:00:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P07. Video como publicación en Facebook. El cliente no quiere tu producto: quiere resolver un problema. Objetivo: 2 de octubre de 2026, 10:00, hora de Ecuador.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "facebook",
+            "id": "967584002380759",
+            "status": "PUBLISHED",
+            "publicUrl": "https://facebook.com/122095346541300551/posts/967584002380759",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-9235012282976754115.mp4"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "facebookData": {
+          "type": "POST",
+          "title": "El cliente no quiere tu producto"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "isAiGenerated": false
+        },
+        "hasNotReadNotes": false,
+        "uuid": "-2373599650573762156"
+      },
+      {
+        "id": 385566456,
+        "publicationDate": {
+          "dateTime": "2026-10-02T10:10:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P08. Imagen única 4:5. Objetivo: 2 de octubre de 2026 a las 10:10, hora de Ecuador. Verificamos imagen, título y copy.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "tiktok",
+            "id": "7692088113602006293",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.tiktok.com/@silentrunecuador/video/7692088113602006293",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-5455502262107799823.jpeg"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "isAiGenerated": false
+        },
+        "tiktokData": {
+          "privacyOption": "PUBLIC_TO_EVERYONE",
+          "title": "Prueba MCP · imagen única",
+          "photoCoverIndex": 0
+        },
+        "hasNotReadNotes": false,
+        "uuid": "4281328617706638093"
+      },
+      {
+        "id": 385566462,
+        "publicationDate": {
+          "dateTime": "2026-10-02T10:20:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P09. Tres imágenes ordenadas: 1/3, 2/3 y 3/3. Objetivo: 2 de octubre de 2026 a las 10:20, hora de Ecuador.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "tiktok",
+            "id": "7692090711252094229",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.tiktok.com/@silentrunecuador/video/7692090711252094229",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-2852534550594067332.jpeg",
+          "https://static.metricool.com/planner/202610/6177067-file-17030402157382055406.jpeg",
+          "https://static.metricool.com/planner/202610/6177067-file-1011218605572206893.jpeg"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null,
+          null,
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "isAiGenerated": false
+        },
+        "tiktokData": {
+          "privacyOption": "PUBLIC_TO_EVERYONE",
+          "title": "Prueba MCP · tres imágenes",
+          "photoCoverIndex": 0
+        },
+        "hasNotReadNotes": false,
+        "uuid": "-1208518555454452734"
+      },
+      {
+        "id": 385566471,
+        "publicationDate": {
+          "dateTime": "2026-10-02T10:30:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P10. El cliente no quiere tu producto: quiere resolver un problema. Video vertical del proyecto. Objetivo: 2 de octubre de 2026 a las 10:30, hora de Ecuador.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "tiktok",
+            "id": "7692093522563845397",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.tiktok.com/@silentrunecuador/video/7692093522563845397",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-9235012282976754115.mp4"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "isAiGenerated": false
+        },
+        "tiktokData": {
+          "privacyOption": "PUBLIC_TO_EVERYONE",
+          "title": "El cliente no quiere tu producto",
+          "photoCoverIndex": 0
+        },
+        "hasNotReadNotes": false,
+        "uuid": "1836079371515742936"
+      },
+      {
+        "id": 385566477,
+        "publicationDate": {
+          "dateTime": "2026-10-02T10:40:00",
+          "timezone": "America/Guayaquil"
+        },
+        "creationDate": {
+          "dateTime": "2026-10-01T01:07:00",
+          "timezone": "America/Guayaquil"
+        },
+        "text": "Prueba de publicación automática · P11.\n\nEl cliente no quiere tu producto: quiere resolver un problema.\n\nVIDEO-18 del proyecto, formato vertical 9:16. Objetivo de la prueba: 2 de octubre de 2026, 10:40, hora de Ecuador. Verificamos la carga como YouTube Short y su programación.",
+        "firstCommentText": "",
+        "providers": [
+          {
+            "network": "youtube",
+            "id": "mLKkaR2Eiyc",
+            "status": "PUBLISHED",
+            "publicUrl": "https://www.youtube.com/shorts/mLKkaR2Eiyc",
+            "detailedStatus": "Published"
+          }
+        ],
+        "media": [
+          "https://static.metricool.com/planner/202610/6177067-file-9235012282976754115.mp4"
+        ],
+        "autoPublish": true,
+        "saveExternalMediaFiles": false,
+        "mediaAltText": [
+          null
+        ],
+        "shortener": false,
+        "draft": false,
+        "twitterData": {
+          "type": "POST"
+        },
+        "instagramData": {
+          "autoPublish": true,
+          "isAiGenerated": false
+        },
+        "youtubeData": {
+          "title": "El cliente no quiere tu producto | Prueba de programación",
+          "type": "short",
+          "privacy": "public",
+          "category": "EDUCATION",
+          "madeForKids": false,
+          "isAiGeneratedContent": false,
+          "notifySubscribers": false
+        },
+        "hasNotReadNotes": false,
+        "uuid": "3782030177655343356"
+      }
+    ]
+  },
+  "results": [
+    {
+      "testId": "P01",
+      "label": "Imagen cuadrada · IG + FB",
+      "publicationKey": "pilot:572359031725834830:facebook",
+      "metricoolId": 385566319,
+      "uuid": "572359031725834830",
+      "network": "facebook",
+      "providerResult": {
+        "network": "facebook",
+        "id": "122118595305300551",
+        "status": "PUBLISHED",
+        "publicUrl": "https://facebook.com/122095346541300551/posts/122118595305300551",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:00:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P01",
+      "label": "Imagen cuadrada · IG + FB",
+      "publicationKey": "pilot:572359031725834830:instagram",
+      "metricoolId": 385566319,
+      "uuid": "572359031725834830",
+      "network": "instagram",
+      "providerResult": {
+        "network": "instagram",
+        "id": "https://www.instagram.com/p/Dd_qDAxleTH/",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.instagram.com/p/Dd_qDAxleTH/",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:00:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P02",
+      "label": "Imagen vertical · IG + FB",
+      "publicationKey": "pilot:2243109020537736501:facebook",
+      "metricoolId": 385566411,
+      "uuid": "2243109020537736501",
+      "network": "facebook",
+      "providerResult": {
+        "network": "facebook",
+        "id": "122118595593300551",
+        "status": "PUBLISHED",
+        "publicUrl": "https://facebook.com/122095346541300551/posts/122118595593300551",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:10:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P02",
+      "label": "Imagen vertical · IG + FB",
+      "publicationKey": "pilot:2243109020537736501:instagram",
+      "metricoolId": 385566411,
+      "uuid": "2243109020537736501",
+      "network": "instagram",
+      "providerResult": {
+        "network": "instagram",
+        "id": "https://www.instagram.com/p/Dd_queOFY_V/",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.instagram.com/p/Dd_queOFY_V/",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:10:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P03",
+      "label": "Carrusel / varias fotos · IG + FB",
+      "publicationKey": "pilot:5060693824076268020:facebook",
+      "metricoolId": 385566418,
+      "uuid": "5060693824076268020",
+      "network": "facebook",
+      "providerResult": {
+        "network": "facebook",
+        "id": "1114534835070591_122118596367300551",
+        "status": "PUBLISHED",
+        "publicUrl": "https://facebook.com/122095346541300551/posts/122118596367300551",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:20:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P03",
+      "label": "Carrusel / varias fotos · IG + FB",
+      "publicationKey": "pilot:5060693824076268020:instagram",
+      "metricoolId": 385566418,
+      "uuid": "5060693824076268020",
+      "network": "instagram",
+      "providerResult": {
+        "network": "instagram",
+        "id": "https://www.instagram.com/p/Dd_r5N-FVlq/",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.instagram.com/p/Dd_r5N-FVlq/",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:20:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P04",
+      "label": "Historia con imagen · IG + FB",
+      "publicationKey": "pilot:6018955738659899342:facebook",
+      "metricoolId": 385566427,
+      "uuid": "6018955738659899342",
+      "network": "facebook",
+      "providerResult": {
+        "network": "facebook",
+        "id": "1797674527956860",
+        "status": "PUBLISHED",
+        "publicUrl": "https://facebook.com/122095346541300551/posts/1797674527956860",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:30:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": "La historia usa texto integrado en el medio; el text de planificación no acredita overlay nativo.",
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P04",
+      "label": "Historia con imagen · IG + FB",
+      "publicationKey": "pilot:6018955738659899342:instagram",
+      "metricoolId": 385566427,
+      "uuid": "6018955738659899342",
+      "network": "instagram",
+      "providerResult": {
+        "network": "instagram",
+        "id": "https://www.instagram.com/stories/silentrunecuador/3999113065052573428",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.instagram.com/stories/silentrunecuador/3999113065052573428",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:30:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": "La historia usa texto integrado en el medio; el text de planificación no acredita overlay nativo.",
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P05",
+      "label": "Historia con video · IG + FB",
+      "publicationKey": "pilot:5229785277899230436:facebook",
+      "metricoolId": 385566430,
+      "uuid": "5229785277899230436",
+      "network": "facebook",
+      "providerResult": {
+        "network": "facebook",
+        "id": "1439218584822448",
+        "status": "PUBLISHED",
+        "publicUrl": "https://facebook.com/122095346541300551/posts/1439218584822448",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:40:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": "La historia usa texto integrado en el medio; el text de planificación no acredita overlay nativo.",
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P05",
+      "label": "Historia con video · IG + FB",
+      "publicationKey": "pilot:5229785277899230436:instagram",
+      "metricoolId": 385566430,
+      "uuid": "5229785277899230436",
+      "network": "instagram",
+      "providerResult": {
+        "network": "instagram",
+        "id": "https://www.instagram.com/stories/silentrunecuador/3999118028699712010",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.instagram.com/stories/silentrunecuador/3999118028699712010",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:40:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": "La historia usa texto integrado en el medio; el text de planificación no acredita overlay nativo.",
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P06",
+      "label": "Reel en feed · IG + Reel FB",
+      "publicationKey": "pilot:1918079464526728961:facebook",
+      "metricoolId": 385566438,
+      "uuid": "1918079464526728961",
+      "network": "facebook",
+      "providerResult": {
+        "network": "facebook",
+        "id": "2182130825850941",
+        "status": "PUBLISHED",
+        "publicUrl": "https://facebook.com/reel/2182130825850941",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:50:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P06",
+      "label": "Reel en feed · IG + Reel FB",
+      "publicationKey": "pilot:1918079464526728961:instagram",
+      "metricoolId": 385566438,
+      "uuid": "1918079464526728961",
+      "network": "instagram",
+      "providerResult": {
+        "network": "instagram",
+        "id": "https://www.instagram.com/reel/Dd_vYTlgXgh/",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.instagram.com/reel/Dd_vYTlgXgh/",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T09:50:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P07",
+      "label": "Video como post · Facebook",
+      "publicationKey": "pilot:-2373599650573762156:facebook",
+      "metricoolId": 385566443,
+      "uuid": "-2373599650573762156",
+      "network": "facebook",
+      "providerResult": {
+        "network": "facebook",
+        "id": "967584002380759",
+        "status": "PUBLISHED",
+        "publicUrl": "https://facebook.com/122095346541300551/posts/967584002380759",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T10:00:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P08",
+      "label": "Imagen única · TikTok",
+      "publicationKey": "pilot:4281328617706638093:tiktok",
+      "metricoolId": 385566456,
+      "uuid": "4281328617706638093",
+      "network": "tiktok",
+      "providerResult": {
+        "network": "tiktok",
+        "id": "7692088113602006293",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.tiktok.com/@silentrunecuador/video/7692088113602006293",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T10:10:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P09",
+      "label": "Carrusel de fotos · TikTok",
+      "publicationKey": "pilot:-1208518555454452734:tiktok",
+      "metricoolId": 385566462,
+      "uuid": "-1208518555454452734",
+      "network": "tiktok",
+      "providerResult": {
+        "network": "tiktok",
+        "id": "7692090711252094229",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.tiktok.com/@silentrunecuador/video/7692090711252094229",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T10:20:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P10",
+      "label": "Video · TikTok",
+      "publicationKey": "pilot:1836079371515742936:tiktok",
+      "metricoolId": 385566471,
+      "uuid": "1836079371515742936",
+      "network": "tiktok",
+      "providerResult": {
+        "network": "tiktok",
+        "id": "7692093522563845397",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.tiktok.com/@silentrunecuador/video/7692093522563845397",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T10:30:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    },
+    {
+      "testId": "P11",
+      "label": "Short · YouTube",
+      "publicationKey": "pilot:3782030177655343356:youtube",
+      "metricoolId": 385566477,
+      "uuid": "3782030177655343356",
+      "network": "youtube",
+      "providerResult": {
+        "network": "youtube",
+        "id": "mLKkaR2Eiyc",
+        "status": "PUBLISHED",
+        "publicUrl": "https://www.youtube.com/shorts/mLKkaR2Eiyc",
+        "detailedStatus": "Published"
+      },
+      "status": "published_confirmed_by_provider",
+      "plannedDate": {
+        "dateTime": "2026-10-02T10:40:00",
+        "timezone": "America/Guayaquil"
+      },
+      "plannedDateMatches": true,
+      "actualPublishedAt": null,
+      "actualPublicationTimeStatus": "por_confirmar; publicationDate es fecha planificada y analytics sigue sin contrato de columnas/zona.",
+      "plannerCopyMatches": true,
+      "plannerMediaAndOrderMatches": true,
+      "nativeCopyRendering": "por_confirmar",
+      "storyCopyBehavior": null,
+      "nativeMediaVisualOrderCheck": "por_confirmar; la comparación acreditada corresponde a los medios ordenados del planner.",
+      "evidence": {
+        "tool": "getScheduledPosts",
+        "request": {
+          "brandId": "6177067",
+          "fromDate": "2026-10-02T00:00:00-05:00",
+          "toDate": "2026-10-02T23:59:59-05:00",
+          "timezone": "America/Guayaquil",
+          "extendedRange": false
+        },
+        "receipt": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_RESULTADOS_20261004T022148000Z_v3.json",
+        "method": "UUID e ID exactos del recibo original + proveedor y estado PUBLISHED con ID/enlace explícito."
+      }
+    }
+  ],
+  "summary": {
+    "cases": 11,
+    "destinations": 17,
+    "publishedConfirmed": 17,
+    "failed": 0,
+    "actualPublicationTimesVerified": 0,
+    "copyAndOrderedMediaMatchPlanner": 17
+  },
+  "limitations": [
+    "PUBLISHED e IDs/URLs confirman publicación según el proveedor; no se deduce éxito por desaparición de cola.",
+    "publicationDate es el horario planificado; no se presenta como hora real.",
+    "Las respuestas analytics de publicación son posicionales sin columnas verificadas; sus 17 filas se conservan pendientes.",
+    "Los enlaces de historias pueden haber expirado para revisión nativa. No se promete recuperar datos expirados.",
+    "La web de Metricool mostró inicio de sesión; no se hicieron cambios de cuenta ni credenciales.",
+    "Esta comprobación es tardía respecto al control previsto para 2026-10-02T18:15:00-05:00; no se inventa una ejecución anterior."
+  ],
+  "remoteMutations": false,
+  "sanitization": {
+    "nonNecessaryPersonalOrCredentialFieldsRemoved": [
+      ".data[0].creatorUserMail",
+      ".data[0].creatorUserId",
+      ".data[1].creatorUserMail",
+      ".data[1].creatorUserId",
+      ".data[2].creatorUserMail",
+      ".data[2].creatorUserId",
+      ".data[3].creatorUserMail",
+      ".data[3].creatorUserId",
+      ".data[4].creatorUserMail",
+      ".data[4].creatorUserId",
+      ".data[5].creatorUserMail",
+      ".data[5].creatorUserId",
+      ".data[6].creatorUserMail",
+      ".data[6].creatorUserId",
+      ".data[7].creatorUserMail",
+      ".data[7].creatorUserId",
+      ".data[8].creatorUserMail",
+      ".data[8].creatorUserId",
+      ".data[9].creatorUserMail",
+      ".data[9].creatorUserId",
+      ".data[10].creatorUserMail",
+      ".data[10].creatorUserId",
+      ".data[11].creatorUserMail",
+      ".data[11].creatorUserId"
+    ]
+  }
+}
+

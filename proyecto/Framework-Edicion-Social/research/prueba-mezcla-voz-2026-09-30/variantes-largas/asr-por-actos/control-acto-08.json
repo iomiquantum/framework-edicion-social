@@ -1,0 +1,687 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/iomijhondavid/.cache/hyperframes/whisper/models/ggml-large-v3.bin",
+		"language": "es",
+		"translate": false
+	},
+	"result": {
+		"language": "es"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,920"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2920
+			},
+			"text": " Ahora sí, vuelve a la pregunta correcta.",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50365,
+					"p": 0.797845,
+					"t_dtw": -1
+				},
+				{
+					"text": " Ahora",
+					"timestamps": {
+						"from": "00:00:00,370",
+						"to": "00:00:00,390"
+					},
+					"offsets": {
+						"from": 370,
+						"to": 390
+					},
+					"id": 18840,
+					"p": 0.992731,
+					"t_dtw": -1
+				},
+				{
+					"text": " sí",
+					"timestamps": {
+						"from": "00:00:00,390",
+						"to": "00:00:00,540"
+					},
+					"offsets": {
+						"from": 390,
+						"to": 540
+					},
+					"id": 8600,
+					"p": 0.997291,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"timestamps": {
+						"from": "00:00:00,540",
+						"to": "00:00:00,650"
+					},
+					"offsets": {
+						"from": 540,
+						"to": 650
+					},
+					"id": 11,
+					"p": 0.997329,
+					"t_dtw": -1
+				},
+				{
+					"text": " vuel",
+					"timestamps": {
+						"from": "00:00:00,650",
+						"to": "00:00:00,930"
+					},
+					"offsets": {
+						"from": 650,
+						"to": 930
+					},
+					"id": 20126,
+					"p": 0.996067,
+					"t_dtw": -1
+				},
+				{
+					"text": "ve",
+					"timestamps": {
+						"from": "00:00:01,150",
+						"to": "00:00:01,150"
+					},
+					"offsets": {
+						"from": 1150,
+						"to": 1150
+					},
+					"id": 303,
+					"p": 0.999561,
+					"t_dtw": -1
+				},
+				{
+					"text": " a",
+					"timestamps": {
+						"from": "00:00:01,180",
+						"to": "00:00:01,220"
+					},
+					"offsets": {
+						"from": 1180,
+						"to": 1220
+					},
+					"id": 257,
+					"p": 0.998742,
+					"t_dtw": -1
+				},
+				{
+					"text": " la",
+					"timestamps": {
+						"from": "00:00:01,320",
+						"to": "00:00:01,320"
+					},
+					"offsets": {
+						"from": 1320,
+						"to": 1320
+					},
+					"id": 635,
+					"p": 0.99968,
+					"t_dtw": -1
+				},
+				{
+					"text": " pregunta",
+					"timestamps": {
+						"from": "00:00:01,450",
+						"to": "00:00:02,000"
+					},
+					"offsets": {
+						"from": 1450,
+						"to": 2000
+					},
+					"id": 24252,
+					"p": 0.997388,
+					"t_dtw": -1
+				},
+				{
+					"text": " correct",
+					"timestamps": {
+						"from": "00:00:02,000",
+						"to": "00:00:02,550"
+					},
+					"offsets": {
+						"from": 2000,
+						"to": 2550
+					},
+					"id": 3006,
+					"p": 0.99158,
+					"t_dtw": -1
+				},
+				{
+					"text": "a",
+					"timestamps": {
+						"from": "00:00:02,550",
+						"to": "00:00:02,620"
+					},
+					"offsets": {
+						"from": 2550,
+						"to": 2620
+					},
+					"id": 64,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"timestamps": {
+						"from": "00:00:02,620",
+						"to": "00:00:02,860"
+					},
+					"offsets": {
+						"from": 2620,
+						"to": 2860
+					},
+					"id": 13,
+					"p": 0.980129,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_146]",
+					"timestamps": {
+						"from": "00:00:02,920",
+						"to": "00:00:02,920"
+					},
+					"offsets": {
+						"from": 2920,
+						"to": 2920
+					},
+					"id": 50511,
+					"p": 0.258906,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,960",
+				"to": "00:00:07,380"
+			},
+			"offsets": {
+				"from": 3960,
+				"to": 7380
+			},
+			"text": " Si mañana tuvieras una inteligencia artificial perfecta,",
+			"tokens": [
+				{
+					"text": " Si",
+					"timestamps": {
+						"from": "00:00:03,960",
+						"to": "00:00:03,090"
+					},
+					"offsets": {
+						"from": 3960,
+						"to": 3090
+					},
+					"id": 4909,
+					"p": 0.998828,
+					"t_dtw": -1
+				},
+				{
+					"text": " mañana",
+					"timestamps": {
+						"from": "00:00:03,960",
+						"to": "00:00:03,600"
+					},
+					"offsets": {
+						"from": 3960,
+						"to": 3600
+					},
+					"id": 33573,
+					"p": 0.999933,
+					"t_dtw": -1
+				},
+				{
+					"text": " tuv",
+					"timestamps": {
+						"from": "00:00:03,960",
+						"to": "00:00:03,850"
+					},
+					"offsets": {
+						"from": 3960,
+						"to": 3850
+					},
+					"id": 38177,
+					"p": 0.996364,
+					"t_dtw": -1
+				},
+				{
+					"text": "ier",
+					"timestamps": {
+						"from": "00:00:03,960",
+						"to": "00:00:04,100"
+					},
+					"offsets": {
+						"from": 3960,
+						"to": 4100
+					},
+					"id": 811,
+					"p": 0.999969,
+					"t_dtw": -1
+				},
+				{
+					"text": "as",
+					"timestamps": {
+						"from": "00:00:04,270",
+						"to": "00:00:04,270"
+					},
+					"offsets": {
+						"from": 4270,
+						"to": 4270
+					},
+					"id": 296,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " una",
+					"timestamps": {
+						"from": "00:00:04,330",
+						"to": "00:00:04,520"
+					},
+					"offsets": {
+						"from": 4330,
+						"to": 4520
+					},
+					"id": 2002,
+					"p": 0.991238,
+					"t_dtw": -1
+				},
+				{
+					"text": " intel",
+					"timestamps": {
+						"from": "00:00:04,520",
+						"to": "00:00:04,890"
+					},
+					"offsets": {
+						"from": 4520,
+						"to": 4890
+					},
+					"id": 24777,
+					"p": 0.989279,
+					"t_dtw": -1
+				},
+				{
+					"text": "igen",
+					"timestamps": {
+						"from": "00:00:05,290",
+						"to": "00:00:05,290"
+					},
+					"offsets": {
+						"from": 5290,
+						"to": 5290
+					},
+					"id": 3213,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": "cia",
+					"timestamps": {
+						"from": "00:00:05,410",
+						"to": "00:00:05,540"
+					},
+					"offsets": {
+						"from": 5410,
+						"to": 5540
+					},
+					"id": 2755,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " artificial",
+					"timestamps": {
+						"from": "00:00:05,540",
+						"to": "00:00:06,440"
+					},
+					"offsets": {
+						"from": 5540,
+						"to": 6440
+					},
+					"id": 11677,
+					"p": 0.992564,
+					"t_dtw": -1
+				},
+				{
+					"text": " perfect",
+					"timestamps": {
+						"from": "00:00:06,440",
+						"to": "00:00:06,830"
+					},
+					"offsets": {
+						"from": 6440,
+						"to": 6830
+					},
+					"id": 2176,
+					"p": 0.959754,
+					"t_dtw": -1
+				},
+				{
+					"text": "a",
+					"timestamps": {
+						"from": "00:00:06,830",
+						"to": "00:00:07,190"
+					},
+					"offsets": {
+						"from": 6830,
+						"to": 7190
+					},
+					"id": 64,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"timestamps": {
+						"from": "00:00:07,190",
+						"to": "00:00:07,380"
+					},
+					"offsets": {
+						"from": 7190,
+						"to": 7380
+					},
+					"id": 11,
+					"p": 0.998614,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_369]",
+					"timestamps": {
+						"from": "00:00:07,380",
+						"to": "00:00:07,380"
+					},
+					"offsets": {
+						"from": 7380,
+						"to": 7380
+					},
+					"id": 50734,
+					"p": 0.253891,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,000",
+				"to": "00:00:12,400"
+			},
+			"offsets": {
+				"from": 8000,
+				"to": 12400
+			},
+			"text": " ¿qué problema de tu cliente o de tu proceso comercial resolverías primero?",
+			"tokens": [
+				{
+					"text": " ¿",
+					"timestamps": {
+						"from": "00:00:08,000",
+						"to": "00:00:07,470"
+					},
+					"offsets": {
+						"from": 8000,
+						"to": 7470
+					},
+					"id": 3841,
+					"p": 0.999325,
+					"t_dtw": -1
+				},
+				{
+					"text": "qué",
+					"timestamps": {
+						"from": "00:00:08,000",
+						"to": "00:00:07,750"
+					},
+					"offsets": {
+						"from": 8000,
+						"to": 7750
+					},
+					"id": 16412,
+					"p": 0.999053,
+					"t_dtw": -1
+				},
+				{
+					"text": " problema",
+					"timestamps": {
+						"from": "00:00:08,370",
+						"to": "00:00:08,510"
+					},
+					"offsets": {
+						"from": 8370,
+						"to": 8510
+					},
+					"id": 12395,
+					"p": 0.999914,
+					"t_dtw": -1
+				},
+				{
+					"text": " de",
+					"timestamps": {
+						"from": "00:00:08,510",
+						"to": "00:00:08,640"
+					},
+					"offsets": {
+						"from": 8510,
+						"to": 8640
+					},
+					"id": 368,
+					"p": 0.999962,
+					"t_dtw": -1
+				},
+				{
+					"text": " tu",
+					"timestamps": {
+						"from": "00:00:08,680",
+						"to": "00:00:08,890"
+					},
+					"offsets": {
+						"from": 8680,
+						"to": 8890
+					},
+					"id": 2604,
+					"p": 0.999973,
+					"t_dtw": -1
+				},
+				{
+					"text": " client",
+					"timestamps": {
+						"from": "00:00:08,890",
+						"to": "00:00:09,460"
+					},
+					"offsets": {
+						"from": 8890,
+						"to": 9460
+					},
+					"id": 6423,
+					"p": 0.999765,
+					"t_dtw": -1
+				},
+				{
+					"text": "e",
+					"timestamps": {
+						"from": "00:00:09,460",
+						"to": "00:00:09,580"
+					},
+					"offsets": {
+						"from": 9460,
+						"to": 9580
+					},
+					"id": 68,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " o",
+					"timestamps": {
+						"from": "00:00:09,580",
+						"to": "00:00:09,650"
+					},
+					"offsets": {
+						"from": 9580,
+						"to": 9650
+					},
+					"id": 277,
+					"p": 0.915276,
+					"t_dtw": -1
+				},
+				{
+					"text": " de",
+					"timestamps": {
+						"from": "00:00:09,650",
+						"to": "00:00:09,800"
+					},
+					"offsets": {
+						"from": 9650,
+						"to": 9800
+					},
+					"id": 368,
+					"p": 0.999903,
+					"t_dtw": -1
+				},
+				{
+					"text": " tu",
+					"timestamps": {
+						"from": "00:00:09,800",
+						"to": "00:00:09,880"
+					},
+					"offsets": {
+						"from": 9800,
+						"to": 9880
+					},
+					"id": 2604,
+					"p": 0.999847,
+					"t_dtw": -1
+				},
+				{
+					"text": " proceso",
+					"timestamps": {
+						"from": "00:00:09,960",
+						"to": "00:00:10,470"
+					},
+					"offsets": {
+						"from": 9960,
+						"to": 10470
+					},
+					"id": 29314,
+					"p": 0.999502,
+					"t_dtw": -1
+				},
+				{
+					"text": " comercial",
+					"timestamps": {
+						"from": "00:00:10,470",
+						"to": "00:00:10,870"
+					},
+					"offsets": {
+						"from": 10470,
+						"to": 10870
+					},
+					"id": 43163,
+					"p": 0.999777,
+					"t_dtw": -1
+				},
+				{
+					"text": " resolver",
+					"timestamps": {
+						"from": "00:00:10,870",
+						"to": "00:00:11,740"
+					},
+					"offsets": {
+						"from": 10870,
+						"to": 11740
+					},
+					"id": 34480,
+					"p": 0.72671,
+					"t_dtw": -1
+				},
+				{
+					"text": "ías",
+					"timestamps": {
+						"from": "00:00:11,960",
+						"to": "00:00:11,960"
+					},
+					"offsets": {
+						"from": 11960,
+						"to": 11960
+					},
+					"id": 10025,
+					"p": 0.99988,
+					"t_dtw": -1
+				},
+				{
+					"text": " primero",
+					"timestamps": {
+						"from": "00:00:12,040",
+						"to": "00:00:12,260"
+					},
+					"offsets": {
+						"from": 12040,
+						"to": 12260
+					},
+					"id": 21289,
+					"p": 0.920074,
+					"t_dtw": -1
+				},
+				{
+					"text": "?",
+					"timestamps": {
+						"from": "00:00:12,260",
+						"to": "00:00:12,400"
+					},
+					"offsets": {
+						"from": 12260,
+						"to": 12400
+					},
+					"id": 30,
+					"p": 0.999977,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_620]",
+					"timestamps": {
+						"from": "00:00:12,400",
+						"to": "00:00:12,400"
+					},
+					"offsets": {
+						"from": 12400,
+						"to": 12400
+					},
+					"id": 50985,
+					"p": 0.602604,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

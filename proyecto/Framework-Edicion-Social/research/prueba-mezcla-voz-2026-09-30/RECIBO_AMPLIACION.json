@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-01T04:16:28.384971+00:00",
+  "request": "Ampliación de revisión técnica y versiones largas, varias canciones/más efectos/automatización.",
+  "initial_receipt": "RECIBO_INICIO.json",
+  "documents_updated": [
+    {
+      "path": "Framework-Edicion-Social/AUDIO_MEZCLA_CONTEXTO_QA.md",
+      "sha256": "a78523c36a0f121e954e595231678e5d335d6f1795aaf39ef05e315b46f7813a"
+    },
+    {
+      "path": "Framework-Edicion-Social/AUDIO_DIRECCION_Y_PROSODIA.md",
+      "sha256": "e5c5db6dd413ccf7c32d8b484798b9196de3b5735ea839f72849e9024fefc43b"
+    },
+    {
+      "path": "Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/PROCESO_VARIANTES.md",
+      "sha256": "d5d49c95982403bfefc42c3f83fbf786a25d85f3e053642b6f1eb5688714b50c"
+    }
+  ],
+  "technical_state": "LISTA_PARA_ESCUCHA",
+  "human_review": "por confirmar"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "attempt": 1,
+    "result": "failed_before_checks",
+    "reason": "ModuleNotFoundError: jsonschema",
+    "action": "Use explicit required-field/enum/ID/version/date checks with installed standard library; no general JSON Schema engine claimed."
+  },
+  {
+    "attempt": 2,
+    "result": "pass",
+    "evidence": "validation.json",
+    "checked_at_utc": "2026-10-01T00:20:04.722829+00:00"
+  }
+]

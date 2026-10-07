@@ -1,0 +1,88 @@
+{
+  "at_utc": "2026-10-01T05:10:45.109684+00:00",
+  "rows": [
+    {
+      "video_id": "VIDEO-26",
+      "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/workflow-runs/lote26-30-flujo1-v1",
+      "events_count": 10,
+      "event_kind_counts": {
+        "targeted_check": 2,
+        "full_render": 1,
+        "full_check": 3,
+        "image_generated": 1,
+        "correction": 2,
+        "local_delivery_completed": 1
+      },
+      "current_evidence_mismatches": [],
+      "automated_report_integrity": "event_hashes_currently_match_not_full_report_check",
+      "events_unchanged": true
+    },
+    {
+      "video_id": "VIDEO-27",
+      "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/workflow-runs/lote26-30-flujo1-v1",
+      "events_count": 1,
+      "event_kind_counts": {
+        "targeted_check": 1
+      },
+      "current_evidence_mismatches": [],
+      "automated_report_integrity": "event_hashes_currently_match_not_full_report_check",
+      "events_unchanged": true
+    },
+    {
+      "video_id": "VIDEO-28",
+      "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/workflow-runs/lote26-30-flujo2-v1",
+      "events_count": 9,
+      "event_kind_counts": {
+        "correction": 4,
+        "targeted_check": 2,
+        "local_delivery_completed": 1,
+        "candidate_ready": 1,
+        "full_render": 1
+      },
+      "current_evidence_mismatches": [
+        {
+          "event_id": "89811618-e000-4d99-b998-4a8b5e61cf63",
+          "kind": "targeted_check",
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/QA_FIDELIDAD_PLANTILLA.md",
+          "recorded": "74de11e22d69d8dac9bbd1e872b4f57796f52e2568924662bf4248a89acf6ef1",
+          "current": "3773d50b3e35d62154530efe25dce783317a84ea43d12510eb5bc0d12a5bf6b0"
+        },
+        {
+          "event_id": "7eed5e74-c865-4b50-bf08-06ca8d760bbd",
+          "kind": "correction",
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/index.html",
+          "recorded": "3abe0b6edaaae5e494dec284f08e7d03a6a3ac3ef2a845e68dbd70f23a3bcefd",
+          "current": "be50e1ef1b0fdb5e6d680de2260d9b5812e0952e07c15bed706a017fd04a1914"
+        }
+      ],
+      "automated_report_integrity": "cannot_certify",
+      "events_unchanged": true
+    },
+    {
+      "video_id": "VIDEO-29",
+      "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/workflow-runs/lote26-30-flujo2-v1",
+      "events_count": 0,
+      "event_kind_counts": {},
+      "current_evidence_mismatches": [],
+      "automated_report_integrity": "event_hashes_currently_match_not_full_report_check",
+      "events_unchanged": true
+    },
+    {
+      "video_id": "VIDEO-30",
+      "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/workflow-runs/lote26-30-flujo3-v1",
+      "events_count": 16,
+      "event_kind_counts": {
+        "full_check": 9,
+        "correction": 2,
+        "targeted_check": 2,
+        "full_render": 1,
+        "candidate_ready": 1,
+        "local_delivery_completed": 1
+      },
+      "current_evidence_mismatches": [],
+      "automated_report_integrity": "event_hashes_currently_match_not_full_report_check",
+      "events_unchanged": true
+    }
+  ],
+  "policy": "Originaleventfiles/hashes unchanged. Separate indexvalidation from artifactmediaQA; final stable evidence manuallyindexed here, not reportautoPASS. Currentfiles inspected independently; no reconstructionofold approvals."
+}

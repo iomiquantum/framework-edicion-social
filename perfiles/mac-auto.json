@@ -1,0 +1,6 @@
+{
+ "id":"mac-auto","description":"Mac detectada al iniciar; sin benchmark supuesto",
+ "role":"Edición en la entrega aislada, con los mismos controles creativos",
+ "render_workers":1,"low_memory":true,"max_heavy_jobs":1,"gpu_encode_default":false,
+ "browser_gpu":"auto","quality_policy":"Mismas reglas editoriales y QA; no modifica el proyecto original","benchmark_verified":false
+}

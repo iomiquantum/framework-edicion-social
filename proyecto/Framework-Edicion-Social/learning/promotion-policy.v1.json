@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0.0",
+  "policy_id": "LEARNING-PROMOTION-CONSERVATIVE-V1",
+  "updated_at": "2026-09-25",
+  "governance": {
+    "automatic_promotion": false,
+    "registry_write_permitted": false,
+    "human_review_required": true,
+    "scope_escalation_allowed": false,
+    "single_template_winner": false,
+    "recommendations_non_binding": true
+  },
+  "safeguards": {
+    "performance_alone_may_promote": false,
+    "exploratory_variants_may_promote": false,
+    "require_exact_context_match": true,
+    "min_directional_performance_sample_size": 30,
+    "controlled_variation_axes": [
+      "structure",
+      "format",
+      "style",
+      "rhythm",
+      "transitions",
+      "audio"
+    ],
+    "require_template_family_for_axes": [
+      "structure",
+      "format",
+      "style",
+      "rhythm",
+      "transitions",
+      "audio"
+    ],
+    "evidence_type_weights": {
+      "technical": 1.0,
+      "creative": 0.85,
+      "preference": 1.0,
+      "performance": 0.65
+    }
+  },
+  "scope_thresholds": {
+    "asset": {
+      "min_support_contexts": 2,
+      "min_unique_videos": 1,
+      "min_unique_projects": 1,
+      "min_unique_series": 0,
+      "min_evidence_types": 1,
+      "min_explicit_human_supports": 1,
+      "min_positive_ratio": 0.75,
+      "min_alternative_margin": 0.10
+    },
+    "video": {
+      "min_support_contexts": 1,
+      "min_unique_videos": 1,
+      "min_unique_projects": 1,
+      "min_unique_series": 0,
+      "min_evidence_types": 1,
+      "min_explicit_human_supports": 0,
+      "min_positive_ratio": 0.60,
+      "min_alternative_margin": 0.00
+    },
+    "series": {
+      "min_support_contexts": 3,
+      "min_unique_videos": 3,
+      "min_unique_projects": 1,
+      "min_unique_series": 1,
+      "min_evidence_types": 2,
+      "min_explicit_human_supports": 1,
+      "min_positive_ratio": 0.75,
+      "min_alternative_margin": 0.15
+    },
+    "style": {
+      "min_support_contexts": 5,
+      "min_unique_videos": 4,
+      "min_unique_projects": 2,
+      "min_unique_series": 2,
+      "min_evidence_types": 2,
+      "min_explicit_human_supports": 1,
+      "min_positive_ratio": 0.75,
+      "min_alternative_margin": 0.15
+    },
+    "creator": {
+      "min_support_contexts": 6,
+      "min_unique_videos": 4,
+      "min_unique_projects": 2,
+      "min_unique_series": 2,
+      "min_evidence_types": 2,
+      "min_explicit_human_supports": 2,
+      "min_positive_ratio": 0.78,
+      "min_alternative_margin": 0.15
+    },
+    "account": {
+      "min_support_contexts": 6,
+      "min_unique_videos": 4,
+      "min_unique_projects": 2,
+      "min_unique_series": 2,
+      "min_evidence_types": 2,
+      "min_explicit_human_supports": 2,
+      "min_positive_ratio": 0.78,
+      "min_alternative_margin": 0.15
+    },
+    "global": {
+      "min_support_contexts": 8,
+      "min_unique_videos": 5,
+      "min_unique_projects": 2,
+      "min_unique_series": 2,
+      "min_evidence_types": 1,
+      "min_explicit_human_supports": 0,
+      "min_positive_ratio": 0.80,
+      "min_alternative_margin": 0.20
+    }
+  }
+}

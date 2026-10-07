@@ -1,0 +1,13 @@
+test_default_and_explicit_selection_keep_safety_floor (test_workflow_run.WorkflowRunTests.test_default_and_explicit_selection_keep_safety_floor) ... ok
+test_events_are_unique_and_changed_evidence_rejected (test_workflow_run.WorkflowRunTests.test_events_are_unique_and_changed_evidence_rejected) ... ok
+test_existing_run_not_overwritten (test_workflow_run.WorkflowRunTests.test_existing_run_not_overwritten) ... ok
+test_frozen_rules_tampering_rejects_report (test_workflow_run.WorkflowRunTests.test_frozen_rules_tampering_rejects_report) ... ok
+test_incomplete_timing_not_filled_with_zero (test_workflow_run.WorkflowRunTests.test_incomplete_timing_not_filled_with_zero) ... ok
+test_invalid_video_or_unknown_event_rejected (test_workflow_run.WorkflowRunTests.test_invalid_video_or_unknown_event_rejected) ... ok
+test_live_version_change_does_not_destroy_historical_report (test_workflow_run.WorkflowRunTests.test_live_version_change_does_not_destroy_historical_report) ... ok
+test_unknown_flow_and_no_clobber_report (test_workflow_run.WorkflowRunTests.test_unknown_flow_and_no_clobber_report) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.019s
+
+OK

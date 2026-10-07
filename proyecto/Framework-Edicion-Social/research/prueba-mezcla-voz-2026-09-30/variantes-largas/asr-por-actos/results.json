@@ -1,0 +1,661 @@
+{
+  "status": "COMPLETE",
+  "records": [
+    {
+      "variant": "control",
+      "act": 1,
+      "start_s": 0,
+      "end_s": 24.33,
+      "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+      "text": "¿Qué te cuesta más en tu negocio?\n¿Conseguir atención o convertirla en ventas?\nUna campaña bonita no corrige una oferta que nadie quiere.\nY publicar más por sí solo tampoco garantiza resolverlo.\nLa inteligencia artificial está llenando Internet de contenido genérico.\nCuando producir contenido se vuelve fácil,\nel volumen deja de ser suficiente para diferenciarte.\n",
+      "reference_text": "¿Qué te cuesta más en tu negocio: conseguir atención o convertirla en ventas? Una campaña bonita no corrige una oferta que nadie quiere. Y publicar más, por sí solo, tampoco garantiza resolverlo. La inteligencia artificial está llenando internet de contenido genérico. Cuando producir contenido se vuelve fácil, el volumen deja de ser suficiente para diferenciarte.",
+      "against_script": {
+        "reference_words": 55,
+        "recognized_words": 55,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "control",
+      "act": 2,
+      "start_s": 24.33,
+      "end_s": 37.236,
+      "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+      "text": "Pero tu cliente no compra la herramienta que utilizas.\nLe importa que respondas rápido, que cumplas lo prometido y que\nsoluciones su problema.\nEsa es la diferencia que cambia donde tienes que empezar.\n",
+      "reference_text": "Pero tu cliente no compra la herramienta que utilizas. Le importa que respondas rápido, que cumplas lo prometido y que soluciones su problema. Esa es la diferencia que cambia dónde tienes que empezar.",
+      "against_script": {
+        "reference_words": 33,
+        "recognized_words": 33,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "control",
+      "act": 3,
+      "start_s": 37.236,
+      "end_s": 59.005,
+      "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+      "text": "Chat GPT puede saber muchísimo de marketing y casi nada de tu cliente. No escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte. Antes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto. A veces, tu mejor prompt empieza en una conversación real con un cliente.\n",
+      "reference_text": "ChatGPT puede saber muchísimo de marketing y casi nada de tu cliente. No escuchó sus llamadas, sus objeciones ni por qué decidió no comprarte. Antes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto. A veces, tu mejor prompt empieza en una conversación real con un cliente.",
+      "against_script": {
+        "reference_words": 51,
+        "recognized_words": 52,
+        "edits": 2,
+        "wer": 0.0392156862745098
+      }
+    },
+    {
+      "variant": "control",
+      "act": 4,
+      "start_s": 59.005,
+      "end_s": 83.449,
+      "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+      "text": "Ahí empieza tu verdadera ventaja. No en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió. Si ese conocimiento vive solamente en tu cabeza, tienes un problema. No porque debas regalárselo a una inteligencia artificial, sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.\n",
+      "reference_text": "Ahí empieza tu verdadera ventaja. No en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió. Si ese conocimiento vive solamente en tu cabeza, tienes un problema. No porque debas regalárselo a una inteligencia artificial, sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.",
+      "against_script": {
+        "reference_words": 63,
+        "recognized_words": 63,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "control",
+      "act": 5,
+      "start_s": 83.449,
+      "end_s": 93.365,
+      "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+      "text": "Convertir esa experiencia en un sistema no significa dejar de pensar. La inteligencia artificial debería aumentar tu criterio, no reemplazarlo.\n",
+      "reference_text": "Convertir esa experiencia en un sistema no significa dejar de pensar. La inteligencia artificial debería aumentar tu criterio, no reemplazarlo.",
+      "against_script": {
+        "reference_words": 20,
+        "recognized_words": 20,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "control",
+      "act": 6,
+      "start_s": 93.365,
+      "end_s": 120.909,
+      "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+      "text": "Y antes de automatizar, revisa tus procesos.\nSi son malos, la información está desordenada y nadie mide resultados.\nLa inteligencia artificial puede hacer el desorden mucho más rápido.\nAutomatizar algo que todavía no entiendes puede significar repetir a mayor velocidad algo que ya estaba mal.\nY si la herramienta te da más trabajo del que te quita, todavía no tienes un sistema.\n",
+      "reference_text": "Y antes de automatizar, revisa tus procesos. Si son malos, la información está desordenada y nadie mide resultados, la inteligencia artificial puede hacer el desorden mucho más rápido. Automatizar algo que todavía no entiendes puede significar repetir, a mayor velocidad, algo que ya estaba mal. Y si la herramienta te da más trabajo del que te quita, todavía no tienes un sistema.",
+      "against_script": {
+        "reference_words": 62,
+        "recognized_words": 62,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "control",
+      "act": 7,
+      "start_s": 120.909,
+      "end_s": 146.047,
+      "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+      "text": "Entonces, quizá no necesitas comprar otro curso ni guardar otras 10 ideas.\nSi ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.\nElige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.\nUna sola. Mídela antes de automatizarla.\n",
+      "reference_text": "Entonces quizá no necesitas comprar otro curso ni guardar otras diez ideas. Si ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción. Elige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta. Una sola. Mídela antes de automatizarla.",
+      "against_script": {
+        "reference_words": 56,
+        "recognized_words": 56,
+        "edits": 1,
+        "wer": 0.017857142857142856
+      }
+    },
+    {
+      "variant": "control",
+      "act": 8,
+      "start_s": 146.047,
+      "end_s": 158.798,
+      "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+      "text": "Ahora sí, vuelve a la pregunta correcta.\nSi mañana tuvieras una inteligencia artificial perfecta,\n¿qué problema de tu cliente o de tu proceso comercial resolverías primero?\n",
+      "reference_text": "Ahora sí, vuelve a la pregunta correcta: si mañana tuvieras una inteligencia artificial perfecta, ¿qué problema de tu cliente o de tu proceso comercial resolverías primero?",
+      "against_script": {
+        "reference_words": 26,
+        "recognized_words": 26,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "A",
+      "act": 1,
+      "start_s": 0,
+      "end_s": 24.33,
+      "source_sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "text": "¿Qué te cuesta más en tu negocio?\nConseguir atención o convertirla en ventas.\nUna campaña bonita no corrige una oferta que nadie quiere.\nY publicar más por sí solo tampoco garantiza resolverlo.\nLa inteligencia artificial está llenando internet de contenido genérico.\nCuando producir contenido se vuelve fácil,\nel volumen deja de ser suficiente para diferenciarte.\n",
+      "reference_text": "¿Qué te cuesta más en tu negocio: conseguir atención o convertirla en ventas? Una campaña bonita no corrige una oferta que nadie quiere. Y publicar más, por sí solo, tampoco garantiza resolverlo. La inteligencia artificial está llenando internet de contenido genérico. Cuando producir contenido se vuelve fácil, el volumen deja de ser suficiente para diferenciarte.",
+      "against_script": {
+        "reference_words": 55,
+        "recognized_words": 55,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 55,
+        "recognized_words": 55,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "A",
+      "act": 2,
+      "start_s": 24.33,
+      "end_s": 37.236,
+      "source_sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "text": "Pero tu cliente no compra la herramienta que utilizas.\nLe importa que respondas rápido, que cumplas lo prometido y que soluciones su problema.\nEsa es la diferencia que cambia donde tienes que empezar.\n",
+      "reference_text": "Pero tu cliente no compra la herramienta que utilizas. Le importa que respondas rápido, que cumplas lo prometido y que soluciones su problema. Esa es la diferencia que cambia dónde tienes que empezar.",
+      "against_script": {
+        "reference_words": 33,
+        "recognized_words": 33,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 33,
+        "recognized_words": 33,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "A",
+      "act": 3,
+      "start_s": 37.236,
+      "end_s": 59.005,
+      "source_sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "text": "Chat GPT puede saber muchísimo de marketing y casi nada de tu cliente.\nNo escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte.\nAntes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.\nA veces, tu mejor prompt empieza en una conversación real con un cliente.\n",
+      "reference_text": "ChatGPT puede saber muchísimo de marketing y casi nada de tu cliente. No escuchó sus llamadas, sus objeciones ni por qué decidió no comprarte. Antes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto. A veces, tu mejor prompt empieza en una conversación real con un cliente.",
+      "against_script": {
+        "reference_words": 51,
+        "recognized_words": 52,
+        "edits": 2,
+        "wer": 0.0392156862745098
+      },
+      "against_control_recognition": {
+        "reference_words": 52,
+        "recognized_words": 52,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "A",
+      "act": 4,
+      "start_s": 59.005,
+      "end_s": 83.449,
+      "source_sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "text": "Ahí empieza tu verdadera ventaja, no en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió.\nSi ese conocimiento vive solamente en tu cabeza, tienes un problema, no porque debas regalárselo a una inteligencia artificial, sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.\n",
+      "reference_text": "Ahí empieza tu verdadera ventaja. No en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió. Si ese conocimiento vive solamente en tu cabeza, tienes un problema. No porque debas regalárselo a una inteligencia artificial, sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.",
+      "against_script": {
+        "reference_words": 63,
+        "recognized_words": 63,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 63,
+        "recognized_words": 63,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "A",
+      "act": 5,
+      "start_s": 83.449,
+      "end_s": 93.365,
+      "source_sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "text": "Convertir esa experiencia en un sistema no significa dejar de pensar.\nLa inteligencia artificial debería aumentar tu criterio, no reemplazarlo.\n",
+      "reference_text": "Convertir esa experiencia en un sistema no significa dejar de pensar. La inteligencia artificial debería aumentar tu criterio, no reemplazarlo.",
+      "against_script": {
+        "reference_words": 20,
+        "recognized_words": 20,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 20,
+        "recognized_words": 20,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "A",
+      "act": 6,
+      "start_s": 93.365,
+      "end_s": 120.909,
+      "source_sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "text": "Y antes de automatizar, revisa tus procesos.\nSi son malos, la información está desordenada y nadie mide resultados.\nLa inteligencia artificial puede hacer el desorden mucho más rápido.\nAutomatizar algo que todavía no entiendes puede significar repetir a mayor velocidad algo que ya estaba mal.\nY si la herramienta te da más trabajo del que te quita, todavía no tienes un sistema.\n",
+      "reference_text": "Y antes de automatizar, revisa tus procesos. Si son malos, la información está desordenada y nadie mide resultados, la inteligencia artificial puede hacer el desorden mucho más rápido. Automatizar algo que todavía no entiendes puede significar repetir, a mayor velocidad, algo que ya estaba mal. Y si la herramienta te da más trabajo del que te quita, todavía no tienes un sistema.",
+      "against_script": {
+        "reference_words": 62,
+        "recognized_words": 62,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 62,
+        "recognized_words": 62,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "A",
+      "act": 7,
+      "start_s": 120.909,
+      "end_s": 146.047,
+      "source_sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "text": "Entonces, quizá no necesitas comprar otro curso ni guardar otras 10 ideas.\nSi ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.\nElige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.\nUna sola. Mídela antes de automatizarla.\n",
+      "reference_text": "Entonces quizá no necesitas comprar otro curso ni guardar otras diez ideas. Si ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción. Elige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta. Una sola. Mídela antes de automatizarla.",
+      "against_script": {
+        "reference_words": 56,
+        "recognized_words": 56,
+        "edits": 1,
+        "wer": 0.017857142857142856
+      },
+      "against_control_recognition": {
+        "reference_words": 56,
+        "recognized_words": 56,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "A",
+      "act": 8,
+      "start_s": 146.047,
+      "end_s": 158.798,
+      "source_sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "text": "Ahora sí, vuelve a la pregunta correcta.\nSi mañana tuvieras una inteligencia artificial perfecta,\n¿qué problema de tu cliente o de tu proceso comercial resolverías primero?\n",
+      "reference_text": "Ahora sí, vuelve a la pregunta correcta: si mañana tuvieras una inteligencia artificial perfecta, ¿qué problema de tu cliente o de tu proceso comercial resolverías primero?",
+      "against_script": {
+        "reference_words": 26,
+        "recognized_words": 26,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 26,
+        "recognized_words": 26,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "B",
+      "act": 1,
+      "start_s": 0,
+      "end_s": 24.33,
+      "source_sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "text": "¿Qué te cuesta más en tu negocio?\n¿Conseguir atención o convertirla en ventas?\nUna campaña bonita no corrige una oferta que nadie quiere.\nY publicar más por sí solo tampoco garantiza resolverlo.\nLa inteligencia artificial está llenando Internet de contenido genérico.\nCuando producir contenido se vuelve fácil,\nel volumen deja de ser suficiente para diferenciarte.\n",
+      "reference_text": "¿Qué te cuesta más en tu negocio: conseguir atención o convertirla en ventas? Una campaña bonita no corrige una oferta que nadie quiere. Y publicar más, por sí solo, tampoco garantiza resolverlo. La inteligencia artificial está llenando internet de contenido genérico. Cuando producir contenido se vuelve fácil, el volumen deja de ser suficiente para diferenciarte.",
+      "against_script": {
+        "reference_words": 55,
+        "recognized_words": 55,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 55,
+        "recognized_words": 55,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "B",
+      "act": 2,
+      "start_s": 24.33,
+      "end_s": 37.236,
+      "source_sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "text": "Pero tu cliente no compra la herramienta que utilizas.\nLe importa que respondas rápido, que cumplas lo prometido y que soluciones su problema.\nEsa es la diferencia que cambia donde tienes que empezar.\n",
+      "reference_text": "Pero tu cliente no compra la herramienta que utilizas. Le importa que respondas rápido, que cumplas lo prometido y que soluciones su problema. Esa es la diferencia que cambia dónde tienes que empezar.",
+      "against_script": {
+        "reference_words": 33,
+        "recognized_words": 33,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 33,
+        "recognized_words": 33,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "B",
+      "act": 3,
+      "start_s": 37.236,
+      "end_s": 59.005,
+      "source_sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "text": "ChatGPT puede saber muchísimo de marketing y casi nada de tu cliente.\nNo escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte.\nAntes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.\nA veces, tu mejor prompt empieza en una conversación real con un cliente.\n",
+      "reference_text": "ChatGPT puede saber muchísimo de marketing y casi nada de tu cliente. No escuchó sus llamadas, sus objeciones ni por qué decidió no comprarte. Antes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto. A veces, tu mejor prompt empieza en una conversación real con un cliente.",
+      "against_script": {
+        "reference_words": 51,
+        "recognized_words": 51,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 52,
+        "recognized_words": 51,
+        "edits": 2,
+        "wer": 0.038461538461538464
+      }
+    },
+    {
+      "variant": "B",
+      "act": 4,
+      "start_s": 59.005,
+      "end_s": 83.449,
+      "source_sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "text": "Ahí empieza tu verdadera ventaja. No en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió.\nSi ese conocimiento vive solamente en tu cabeza, tienes un problema.\nNo porque debas regalárselo a una inteligencia artificial, sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.\n",
+      "reference_text": "Ahí empieza tu verdadera ventaja. No en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió. Si ese conocimiento vive solamente en tu cabeza, tienes un problema. No porque debas regalárselo a una inteligencia artificial, sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.",
+      "against_script": {
+        "reference_words": 63,
+        "recognized_words": 63,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 63,
+        "recognized_words": 63,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "B",
+      "act": 5,
+      "start_s": 83.449,
+      "end_s": 93.365,
+      "source_sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "text": "Convertir esa experiencia en un sistema no significa dejar de pensar.\nLa inteligencia artificial debería aumentar tu criterio, no reemplazarlo.\n",
+      "reference_text": "Convertir esa experiencia en un sistema no significa dejar de pensar. La inteligencia artificial debería aumentar tu criterio, no reemplazarlo.",
+      "against_script": {
+        "reference_words": 20,
+        "recognized_words": 20,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 20,
+        "recognized_words": 20,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "B",
+      "act": 6,
+      "start_s": 93.365,
+      "end_s": 120.909,
+      "source_sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "text": "Y antes de automatizar, revisa tus procesos.\nSi son malos, la información está desordenada y nadie mide resultados.\nLa inteligencia artificial puede hacer el desorden mucho más rápido.\nAutomatizar algo que todavía no entiendes puede significar repetir a mayor velocidad\nalgo que ya estaba mal.\nY si la herramienta te da más trabajo del que te quita, todavía no tienes un sistema.\n",
+      "reference_text": "Y antes de automatizar, revisa tus procesos. Si son malos, la información está desordenada y nadie mide resultados, la inteligencia artificial puede hacer el desorden mucho más rápido. Automatizar algo que todavía no entiendes puede significar repetir, a mayor velocidad, algo que ya estaba mal. Y si la herramienta te da más trabajo del que te quita, todavía no tienes un sistema.",
+      "against_script": {
+        "reference_words": 62,
+        "recognized_words": 62,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 62,
+        "recognized_words": 62,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "B",
+      "act": 7,
+      "start_s": 120.909,
+      "end_s": 146.047,
+      "source_sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "text": "Entonces, quizá no necesitas comprar otro curso ni guardar otras 10 ideas.\nSi ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.\nElige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.\nUna sola. Mídela antes de automatizarla.\n",
+      "reference_text": "Entonces quizá no necesitas comprar otro curso ni guardar otras diez ideas. Si ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción. Elige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta. Una sola. Mídela antes de automatizarla.",
+      "against_script": {
+        "reference_words": 56,
+        "recognized_words": 56,
+        "edits": 1,
+        "wer": 0.017857142857142856
+      },
+      "against_control_recognition": {
+        "reference_words": 56,
+        "recognized_words": 56,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "B",
+      "act": 8,
+      "start_s": 146.047,
+      "end_s": 158.798,
+      "source_sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "text": "Ahora sí, vuelve a la pregunta correcta.\nSi mañana tuvieras una inteligencia artificial perfecta,\n¿qué problema de tu cliente o de tu proceso comercial resolverías primero?\n",
+      "reference_text": "Ahora sí, vuelve a la pregunta correcta: si mañana tuvieras una inteligencia artificial perfecta, ¿qué problema de tu cliente o de tu proceso comercial resolverías primero?",
+      "against_script": {
+        "reference_words": 26,
+        "recognized_words": 26,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 26,
+        "recognized_words": 26,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "C",
+      "act": 1,
+      "start_s": 0,
+      "end_s": 24.33,
+      "source_sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "text": "¿Qué te cuesta más en tu negocio?\nConseguir atención o convertirla en ventas.\nUna campaña bonita no corrige una oferta que nadie quiere.\nY publicar más por sí solo tampoco garantiza resolverlo.\nLa inteligencia artificial está llenando internet de contenido genérico.\nCuando producir contenido se vuelve fácil,\nel volumen deja de ser suficiente para diferenciarte.\n",
+      "reference_text": "¿Qué te cuesta más en tu negocio: conseguir atención o convertirla en ventas? Una campaña bonita no corrige una oferta que nadie quiere. Y publicar más, por sí solo, tampoco garantiza resolverlo. La inteligencia artificial está llenando internet de contenido genérico. Cuando producir contenido se vuelve fácil, el volumen deja de ser suficiente para diferenciarte.",
+      "against_script": {
+        "reference_words": 55,
+        "recognized_words": 55,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 55,
+        "recognized_words": 55,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "C",
+      "act": 2,
+      "start_s": 24.33,
+      "end_s": 37.236,
+      "source_sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "text": "Pero tu cliente no compra la herramienta que utilizas.\nLe importa que respondas rápido, que cumplas lo prometido y que soluciones su problema.\nEsa es la diferencia que cambia donde tienes que empezar.\n",
+      "reference_text": "Pero tu cliente no compra la herramienta que utilizas. Le importa que respondas rápido, que cumplas lo prometido y que soluciones su problema. Esa es la diferencia que cambia dónde tienes que empezar.",
+      "against_script": {
+        "reference_words": 33,
+        "recognized_words": 33,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 33,
+        "recognized_words": 33,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "C",
+      "act": 3,
+      "start_s": 37.236,
+      "end_s": 59.005,
+      "source_sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "text": "Chat GPT puede saber muchísimo de marketing y casi nada de tu cliente.\nNo escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte.\nAntes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.\nA veces, tu mejor prompt empieza en una conversación real con un cliente.\n",
+      "reference_text": "ChatGPT puede saber muchísimo de marketing y casi nada de tu cliente. No escuchó sus llamadas, sus objeciones ni por qué decidió no comprarte. Antes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto. A veces, tu mejor prompt empieza en una conversación real con un cliente.",
+      "against_script": {
+        "reference_words": 51,
+        "recognized_words": 52,
+        "edits": 2,
+        "wer": 0.0392156862745098
+      },
+      "against_control_recognition": {
+        "reference_words": 52,
+        "recognized_words": 52,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "C",
+      "act": 4,
+      "start_s": 59.005,
+      "end_s": 83.449,
+      "source_sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "text": "Ahí empieza tu verdadera ventaja, no en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió.\nSi ese conocimiento vive solamente en tu cabeza, tienes un problema, no porque debas regalárselo a una inteligencia artificial, sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.\n",
+      "reference_text": "Ahí empieza tu verdadera ventaja. No en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió. Si ese conocimiento vive solamente en tu cabeza, tienes un problema. No porque debas regalárselo a una inteligencia artificial, sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.",
+      "against_script": {
+        "reference_words": 63,
+        "recognized_words": 63,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 63,
+        "recognized_words": 63,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "C",
+      "act": 5,
+      "start_s": 83.449,
+      "end_s": 93.365,
+      "source_sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "text": "Convertir esa experiencia en un sistema no significa dejar de pensar.\nLa inteligencia artificial debería aumentar tu criterio, no reemplazarlo.\n",
+      "reference_text": "Convertir esa experiencia en un sistema no significa dejar de pensar. La inteligencia artificial debería aumentar tu criterio, no reemplazarlo.",
+      "against_script": {
+        "reference_words": 20,
+        "recognized_words": 20,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 20,
+        "recognized_words": 20,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "C",
+      "act": 6,
+      "start_s": 93.365,
+      "end_s": 120.909,
+      "source_sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "text": "Y antes de automatizar, revisa tus procesos.\nSi son malos, la información está desordenada y nadie mide resultados.\nLa inteligencia artificial puede hacer el desorden mucho más rápido.\nAutomatizar algo que todavía no entiendes puede significar repetir a mayor velocidad algo que ya estaba mal.\nY si la herramienta te da más trabajo del que te quita, todavía no tienes un sistema.\n",
+      "reference_text": "Y antes de automatizar, revisa tus procesos. Si son malos, la información está desordenada y nadie mide resultados, la inteligencia artificial puede hacer el desorden mucho más rápido. Automatizar algo que todavía no entiendes puede significar repetir, a mayor velocidad, algo que ya estaba mal. Y si la herramienta te da más trabajo del que te quita, todavía no tienes un sistema.",
+      "against_script": {
+        "reference_words": 62,
+        "recognized_words": 62,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 62,
+        "recognized_words": 62,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "C",
+      "act": 7,
+      "start_s": 120.909,
+      "end_s": 146.047,
+      "source_sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "text": "Entonces, quizá no necesitas comprar otro curso ni guardar otras 10 ideas.\nSi ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.\nElige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.\nUna sola. Mídela antes de automatizarla.\n",
+      "reference_text": "Entonces quizá no necesitas comprar otro curso ni guardar otras diez ideas. Si ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción. Elige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta. Una sola. Mídela antes de automatizarla.",
+      "against_script": {
+        "reference_words": 56,
+        "recognized_words": 56,
+        "edits": 1,
+        "wer": 0.017857142857142856
+      },
+      "against_control_recognition": {
+        "reference_words": 56,
+        "recognized_words": 56,
+        "edits": 0,
+        "wer": 0.0
+      }
+    },
+    {
+      "variant": "C",
+      "act": 8,
+      "start_s": 146.047,
+      "end_s": 158.798,
+      "source_sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "text": "Ahora sí, vuelve a la pregunta correcta.\nSi mañana tuvieras una inteligencia artificial perfecta, ¿qué problema de tu cliente o de tu proceso comercial resolverías primero?\n",
+      "reference_text": "Ahora sí, vuelve a la pregunta correcta: si mañana tuvieras una inteligencia artificial perfecta, ¿qué problema de tu cliente o de tu proceso comercial resolverías primero?",
+      "against_script": {
+        "reference_words": 26,
+        "recognized_words": 26,
+        "edits": 0,
+        "wer": 0.0
+      },
+      "against_control_recognition": {
+        "reference_words": 26,
+        "recognized_words": 26,
+        "edits": 0,
+        "wer": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "control": {
+      "script_word_errors": 3,
+      "script_words": 366,
+      "script_wer": 0.00819672131147541
+    },
+    "A": {
+      "script_word_errors": 3,
+      "script_words": 366,
+      "script_wer": 0.00819672131147541,
+      "control_word_errors": 0,
+      "control_words": 367,
+      "control_wer": 0.0
+    },
+    "B": {
+      "script_word_errors": 1,
+      "script_words": 366,
+      "script_wer": 0.00273224043715847,
+      "control_word_errors": 2,
+      "control_words": 367,
+      "control_wer": 0.005449591280653951
+    },
+    "C": {
+      "script_word_errors": 3,
+      "script_words": 366,
+      "script_wer": 0.00819672131147541,
+      "control_word_errors": 0,
+      "control_words": 367,
+      "control_wer": 0.0
+    }
+  },
+  "limits": "Reconocimiento por actos delimita contexto; no sustituye prueba auditiva. Se conserva también ASR completo fallido. Mismas fronteras originales/control/mezclas, ninguna versión textual de guion se entrega al reconocedor."
+}

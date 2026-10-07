@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;color:#F8F3E8;font-family:Inter,Arial,sans-serif;pointer-events:none}
+  .panel{position:absolute;left:42px;right:42px;top:24px;height:224px;background:#0E1B2B;border:4px solid #2F66FF;border-radius:30px;padding:22px 300px 20px 28px;overflow:hidden;opacity:0}.small{font:900 38px/.95 Inter,Arial,sans-serif;color:#FF7A45;text-transform:uppercase}.hero{font:900 66px/.92 "Archivo Black","Arial Black",Inter,sans-serif;text-transform:uppercase;margin-top:8px}.hero strong{color:#2F66FF}
+  .wave{position:absolute;right:28px;top:22px;width:240px;height:174px;display:flex;align-items:center;justify-content:center;gap:12px}.wave i{display:block;width:14px;border-radius:10px;background:#F8F3E8;transform-origin:center}.wave i:nth-child(1),.wave i:nth-child(7){height:34px}.wave i:nth-child(2),.wave i:nth-child(6){height:72px}.wave i:nth-child(3),.wave i:nth-child(5){height:118px}.wave i:nth-child(4){height:152px;background:#FF7A45}
+</style>
+<div data-hf-id="hf-rzxl" id="root" data-composition-id="scene-listen" data-duration="4.55" data-width="1080" data-height="1920">
+  <div data-hf-id="hf-v14-listen-panel" class="panel" id="v14-listen-panel"><div class="small">EL BUEN MARKETING</div><div class="hero">EMPIEZA <strong>ESCUCHANDO</strong></div><div data-hf-id="hf-v14-listen-wave" class="wave" id="v14-listen-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#v14-listen-panel",{y:-36,scale:.96,opacity:0},{y:0,scale:1,opacity:1,duration:.48,ease:"power3.out"},.04);
+  gsap.utils.toArray("#v14-listen-wave i").forEach((bar,i)=>tl.fromTo(bar,{scaleY:.18},{scaleY:1,duration:.22,ease:"power2.out"},.34+i*.05).to(bar,{scaleY:.48,duration:.28,ease:"power2.inOut"},1.12+i*.04));
+  window.__timelines["scene-listen"]=tl;
+</script>
+</template></body></html>

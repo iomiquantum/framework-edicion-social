@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/creative-recipe-catalog.schema.json",
+  "title": "Modular catalog for contextual creative recipes",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "catalog_id",
+    "scoring_version",
+    "policy",
+    "kind_weights",
+    "modules"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "catalog_id": {"type": "string", "pattern": "^CREATIVE-RECIPE-CATALOG-[A-Z0-9_-]+$"},
+    "scoring_version": {"const": "creative-recipe-compose-v1"},
+    "policy": {
+      "type": "object",
+      "required": [
+        "max_proposals",
+        "minimum_fit_score",
+        "minimum_confidence_score",
+        "variety_window",
+        "fatigue_notice_occurrences",
+        "fatigue_warning_occurrences",
+        "fatigue_penalty_per_occurrence",
+        "maximum_fatigue_penalty",
+        "minimum_module_differences_between_options",
+        "single_global_winner",
+        "automatic_promotion",
+        "human_choice_required"
+      ],
+      "properties": {
+        "max_proposals": {"const": 3},
+        "minimum_fit_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "minimum_confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "variety_window": {"type": "integer", "minimum": 1},
+        "fatigue_notice_occurrences": {"type": "integer", "minimum": 1},
+        "fatigue_warning_occurrences": {"type": "integer", "minimum": 1},
+        "fatigue_penalty_per_occurrence": {"type": "number", "minimum": 0, "maximum": 1},
+        "maximum_fatigue_penalty": {"type": "number", "minimum": 0, "maximum": 1},
+        "minimum_module_differences_between_options": {"type": "integer", "minimum": 1, "maximum": 6},
+        "single_global_winner": {"const": false},
+        "automatic_promotion": {"const": false},
+        "human_choice_required": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "kind_weights": {
+      "type": "object",
+      "required": ["hook", "structure", "visual_system", "motion", "sound", "cta"],
+      "properties": {
+        "hook": {"type": "number", "minimum": 0, "maximum": 1},
+        "structure": {"type": "number", "minimum": 0, "maximum": 1},
+        "visual_system": {"type": "number", "minimum": 0, "maximum": 1},
+        "motion": {"type": "number", "minimum": 0, "maximum": 1},
+        "sound": {"type": "number", "minimum": 0, "maximum": 1},
+        "cta": {"type": "number", "minimum": 0, "maximum": 1}
+      },
+      "additionalProperties": false
+    },
+    "modules": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "label",
+          "description",
+          "status",
+          "best_for",
+          "avoid_for",
+          "hook_patterns",
+          "narrative_roles",
+          "source_geometries",
+          "platform_fit",
+          "duration_min_s",
+          "duration_max_s",
+          "energy_target",
+          "required_asset_types",
+          "preferred_asset_types",
+          "requires_any_modules",
+          "incompatible_with",
+          "variety_keys",
+          "archetype_id",
+          "family_ids",
+          "effort",
+          "design_contract",
+          "directives"
+        ],
+        "properties": {
+          "id": {"type": "string", "pattern": "^(HOOK|STRUCT|VIS|MOTION|SOUND|CTA)-[A-Z0-9-]+$"},
+          "kind": {"enum": ["hook", "structure", "visual_system", "motion", "sound", "cta"]},
+          "label": {"type": "string", "minLength": 1},
+          "description": {"type": "string", "minLength": 1},
+          "status": {"enum": ["candidate", "testing", "approved", "deprecated"]},
+          "best_for": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "avoid_for": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "hook_patterns": {
+            "type": "array",
+            "items": {"enum": ["outcome", "question", "contrarian", "pain", "curiosity", "demonstration"]},
+            "uniqueItems": true
+          },
+          "narrative_roles": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "source_geometries": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "platform_fit": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "duration_min_s": {"type": "number", "exclusiveMinimum": 0},
+          "duration_max_s": {"type": "number", "exclusiveMinimum": 0},
+          "energy_target": {"type": "number", "minimum": 0, "maximum": 1},
+          "required_asset_types": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "preferred_asset_types": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "requires_any_modules": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^(HOOK|STRUCT|VIS|MOTION|SOUND|CTA)-[A-Z0-9-]+$"},
+            "uniqueItems": true
+          },
+          "incompatible_with": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^(HOOK|STRUCT|VIS|MOTION|SOUND|CTA)-[A-Z0-9-]+$"},
+            "uniqueItems": true
+          },
+          "variety_keys": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "archetype_id": {"type": ["string", "null"]},
+          "family_ids": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "effort": {
+            "type": "object",
+            "required": ["points", "level", "minutes_min", "minutes_max"],
+            "properties": {
+              "points": {"type": "integer", "minimum": 1, "maximum": 10},
+              "level": {"enum": ["low", "medium", "high"]},
+              "minutes_min": {"type": "integer", "minimum": 0},
+              "minutes_max": {"type": "integer", "minimum": 0}
+            },
+            "additionalProperties": false
+          },
+          "design_contract": {
+            "type": "object",
+            "required": ["face_safe", "voice_priority", "build_breathe_resolve", "notes"],
+            "properties": {
+              "face_safe": {"type": "boolean"},
+              "voice_priority": {"type": "boolean"},
+              "build_breathe_resolve": {"type": "boolean"},
+              "notes": {
+                "type": "array",
+                "items": {"type": "string", "minLength": 1},
+                "uniqueItems": true
+              }
+            },
+            "additionalProperties": false
+          },
+          "directives": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,18 @@
+{
+  "recorded_at_utc": "2026-10-01T04:13:46.960733+00:00",
+  "errors": [
+    {
+      "command": "medir_fases_edicion.py start --phase experiment_audit --kind work",
+      "result": "argparse invalid phase; no interval started",
+      "resolution": "--phase coordination --kind experiment_audit",
+      "duration_seconds": null
+    },
+    {
+      "command": "medir_fases_edicion.py summary --out PATH",
+      "result": "argparse unsupported --out; no evidence written",
+      "resolution": "stdout redirected to JSON file",
+      "duration_seconds": null
+    }
+  ],
+  "cost_classification": "experimental preparation; not attributable to a single creative profile; no duration guessed"
+}

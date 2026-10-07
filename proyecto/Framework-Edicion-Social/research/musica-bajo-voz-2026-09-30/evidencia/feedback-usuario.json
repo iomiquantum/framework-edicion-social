@@ -1,0 +1,12 @@
+{
+  "date_local": "2026-09-30",
+  "source": "Mensajes explícitos del usuario en este chat",
+  "presented_music_samples": "rejected_by_user",
+  "music_feedback": "No le gustó ninguna muestra; las siente muy calmadas y percibe menor atención. Plantea si las frecuencias o la relación con la voz pueden influir.",
+  "voice_only_feedback_verbatim": "También se siente plana sin música",
+  "scope": "Tanda de muestras de investigación; fragmento de 12 s de VIDEO-13. No es aprobación ni rechazo global de las pistas completas o de todos los videos.",
+  "full_track_listening": "por confirmar",
+  "audience_results": "awaiting_data",
+  "diagnosis_status": "Hipótesis: contraste de interpretación/montaje y ajuste emocional. Causa técnica exacta por confirmar.",
+  "next_comparison": "Mismo fragmento dentro del video; voz de origen frente a procesada a nivel percibido comparable, antes de elegir otra cama."
+}

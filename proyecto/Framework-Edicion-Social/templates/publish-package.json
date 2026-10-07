@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.2.0",
+  "package_id": "PUBLISH-VIDEO-01-TEMPLATE",
+  "project_id": "PROJECT-EXAMPLE",
+  "video_id": "VIDEO-01",
+  "generated_at": "2026-09-25T00:00:00Z",
+  "status": "blocked",
+  "blocking_reasons": [
+    "Plantilla: vincular artefactos reales y aprobados antes de crear derivados."
+  ],
+  "source": {
+    "path": "VIDEO-01/social-master.mp4",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "size_bytes": 1,
+    "media_role": "social_delivery_master",
+    "master_profile_id": "MASTER-PROFILE-SOCIAL-SDR-001",
+    "platform_manifest_path": "VIDEO-01/platform-master.json",
+    "platform_manifest_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+    "approval_receipt_path": "VIDEO-01/social-master-approval.json",
+    "approval_receipt_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+    "approval_receipt_id": "APPROVAL-VIDEO-01-SDR-TEMPLATE",
+    "master_profile_report_path": "VIDEO-01/social-master-profile-report.json",
+    "master_profile_report_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+    "source_media_path": "VIDEO-01/editorial-master.mov",
+    "source_media_sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+    "source_approval_receipt_path": "VIDEO-01/editorial-master-approval.json",
+    "source_approval_receipt_sha256": "5555555555555555555555555555555555555555555555555555555555555555",
+    "source_approval_receipt_id": "APPROVAL-VIDEO-01-HDR-TEMPLATE",
+    "content_lock_evidence_path": "VIDEO-01/content-lock-evidence.json",
+    "content_lock_evidence_sha256": "6666666666666666666666666666666666666666666666666666666666666666",
+    "content_lock_id": "CONTENT-LOCK-VIDEO-01-TEMPLATE"
+  },
+  "adaptation": {
+    "status": "blocked_until_master_approved",
+    "strategy": "instagram_master_reuse_unless_material_delta",
+    "catalog_version": "1.0.0",
+    "catalog_path": "platforms/catalog.json",
+    "catalog_sha256": "7777777777777777777777777777777777777777777777777777777777777777",
+    "target_count": 1,
+    "plan_output": "platform-adaptation.json"
+  },
+  "targets": [
+    {
+      "profile_id": "PLATFORM-INSTAGRAM-REELS-ORGANIC-001",
+      "platform": "instagram",
+      "surface": "reels_organic",
+      "status": "blocked",
+      "delivery_output": "instagram/VIDEO-01-reels-organic.mp4",
+      "brief_output": "instagram/reels_organic-package-brief.json",
+      "provenance": {
+        "catalog_path": "platforms/catalog.json",
+        "catalog_sha256": "7777777777777777777777777777777777777777777777777777777777777777",
+        "profile_version": "1.0.0",
+        "evidence_reviewed_at": "2026-09-25"
+      },
+      "cover": {
+        "status": "draft_required",
+        "aspect_ratio": "9:16",
+        "safe_zone_profile": "PLATFORM-INSTAGRAM-REELS-ORGANIC-001",
+        "creative_direction": "Extraer una promesa fiel al hook, con rostro despejado y lectura movil."
+      },
+      "copy": {
+        "status": "draft_required",
+        "title": null,
+        "caption": null,
+        "cta": null,
+        "semantic_guard": "No introducir afirmaciones ni promesas ausentes del master aprobado."
+      },
+      "required_gates": [
+        "explicit_master_approval",
+        "content_lock",
+        "live_platform_preview",
+        "semantic_match",
+        "derivative_render",
+        "technical_delivery_check",
+        "human_publication_approval"
+      ],
+      "gates": [
+        {
+          "id": "explicit_master_approval",
+          "status": "pending",
+          "evidence": null,
+          "note": "Debe existir aprobación humana explícita del master."
+        },
+        {
+          "id": "content_lock",
+          "status": "pending",
+          "evidence": null,
+          "note": "Los artefactos del montaje deben coincidir con el inventario sellado."
+        },
+        {
+          "id": "live_platform_preview",
+          "status": "pending",
+          "evidence": null,
+          "note": "Comprobar la interfaz real de la plataforma."
+        },
+        {
+          "id": "semantic_match",
+          "status": "pending",
+          "evidence": null,
+          "note": "Confirmar que el derivado conserva el mensaje aprobado."
+        },
+        {
+          "id": "derivative_render",
+          "status": "pending",
+          "evidence": null,
+          "note": "Renderizar el derivado permitido."
+        },
+        {
+          "id": "technical_delivery_check",
+          "status": "pending",
+          "evidence": null,
+          "note": "Validar técnicamente el archivo derivado."
+        },
+        {
+          "id": "human_publication_approval",
+          "status": "pending",
+          "evidence": null,
+          "note": "Una persona debe aprobar el archivo exacto antes de publicar."
+        }
+      ]
+    }
+  ],
+  "governance": {
+    "auto_publish": false,
+    "reedit_master": false,
+    "derivative_must_preserve_semantics": true,
+    "live_platform_preview_required": true,
+    "human_publication_approval_required": true,
+    "cryptographic_identity_established": false,
+    "ready_scope": "derivative_build_only",
+    "publication_ready": false,
+    "integrity_notice": "SHA-256 verifica integridad y linaje declarado, no la identidad criptográfica de una persona. La plantilla solo puede autorizar construir derivados, nunca publicar."
+  },
+  "bundle": {
+    "adaptation_payload_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+    "briefs": [
+      {
+        "path": "instagram/reels_organic-package-brief.json",
+        "payload_sha256": "2222222222222222222222222222222222222222222222222222222222222222"
+      }
+    ]
+  },
+  "binding": {
+    "algorithm": "sha256",
+    "canonicalization": "json-sort-keys-utf8-v1",
+    "payload_sha256": "daf6c170c70161fff4a7f4a0706a3c32e37ee75c315ed3e55c81feb39539387d"
+  }
+}

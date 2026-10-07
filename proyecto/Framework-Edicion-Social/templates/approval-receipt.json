@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "receipt_id": "APPROVAL-VIDEO-00-DRAFT",
+  "project_id": "PENDING",
+  "video_id": "VIDEO-00",
+  "artifact": {
+    "binding_status": "unbound",
+    "path": "",
+    "sha256": null,
+    "size_bytes": null,
+    "media_role": "editorial_mezzanine",
+    "profile_id": null
+  },
+  "decision": {
+    "status": "pending",
+    "explicit_user_approval": false,
+    "approver": null,
+    "decided_at": null,
+    "recorded_at": null,
+    "recorded_by": null,
+    "evidence": {
+      "kind": "none",
+      "reference": "",
+      "excerpt": ""
+    },
+    "scope": {
+      "whole_artifact": false,
+      "approved_layers": []
+    }
+  },
+  "binding": {
+    "algorithm": "sha256",
+    "canonicalization": "json-sort-keys-utf8-v1",
+    "payload_sha256": null
+  },
+  "created_at": null,
+  "notes": "Plantilla sin evidencia. Preparar contra el archivo exacto antes de registrar cualquier decisión."
+}

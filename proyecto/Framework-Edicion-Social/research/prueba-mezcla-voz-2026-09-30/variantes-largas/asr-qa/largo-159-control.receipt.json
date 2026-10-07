@@ -1,0 +1,9 @@
+{
+  "source": "renders/v2/largo-159-voz-sola.m4a",
+  "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+  "model": "Whisper.cpp large-v3 local, es,4threads, defaults, no prompt",
+  "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+  "conversion": "AAC final→mono16kPCM16 SOLO para comprobación, no fuente de mezcla",
+  "elapsed_seconds": 35.867,
+  "asr_input_sha256": "576623a5bbfd7b498c88d8e63772defc846595a729a7b7b586c7b1707cba87cc"
+}

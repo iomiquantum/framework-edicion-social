@@ -1,0 +1,18 @@
+<!DOCTYPE html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;color:#17323B;font-family:Inter,Arial,sans-serif;pointer-events:none}
+  .card{position:absolute;left:42px;right:42px;top:50px;height:216px;background:#F2E7D5;border:5px solid #17323B;box-shadow:12px 12px 0 #3B8C91;padding:20px 30px;overflow:hidden}
+  .kicker{font:900 42px/.95 Inter,Arial,sans-serif;color:#C84A3D;text-transform:uppercase;letter-spacing:.5px}.headline{margin-top:4px;font:900 74px/.88 "Bebas Neue",Impact,sans-serif;letter-spacing:-.5px;text-transform:uppercase;max-width:760px}
+  .stamp{position:absolute;right:28px;top:26px;width:152px;height:152px;border:5px solid #C84A3D;background:#F2E7D5;display:grid;place-items:center;transform-origin:50% 50%}.stamp img{width:136px;height:136px;object-fit:contain}
+  .chip{position:absolute;right:54px;top:322px;width:262px;padding:18px 18px 16px;background:#C84A3D;color:#F2E7D5;border:5px solid #17323B;box-shadow:10px 10px 0 #C89B4B;font:900 48px/.9 "Bebas Neue",Impact,sans-serif;text-align:center;text-transform:uppercase;opacity:0}
+</style>
+<div data-hf-id="hf-v15-error-root" id="root" data-composition-id="scene-error" data-duration="6.188" data-width="1080" data-height="1920">
+  <div data-hf-id="hf-mpdd" class="card" id="error-card"><div data-hf-id="hf-jsi6" class="kicker" data-layout-allow-overlap="">Uno de los peores errores</div><div data-hf-id="hf-gtu2" class="headline" data-layout-allow-overlap="">AUTOMATIZAR DEMASIADO PRONTO</div><div data-hf-id="hf-0ui9" class="stamp" id="error-stamp"><img data-hf-id="hf-bfdx" src="assets/video-15_premature_automation_machine_overlay_v01.svg" alt=""></div></div>
+  <div data-hf-id="hf-rv4i" class="chip" id="error-chip">ANTES DE ENTENDER</div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#error-card",{y:-30,opacity:0},{y:0,opacity:1,duration:.42,ease:"power3.out"},.04).fromTo("#error-stamp",{scale:0,opacity:0},{scale:1,opacity:1,duration:.52,ease:"power3.out"},.20).fromTo("#error-chip",{scale:0,opacity:0,y:24},{scale:1,opacity:1,y:0,duration:.48,ease:"power3.out"},2.90).to("#error-chip",{y:-3,duration:1.9,ease:"sine.inOut",yoyo:true,repeat:1},3.55);
+  window.__timelines["scene-error"]=tl;
+</script>
+</template></body></html>

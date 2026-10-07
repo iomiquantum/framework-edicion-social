@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "34fca8a3-f14f-41f3-b053-017f83844070",
+  "sequence": 2,
+  "action": "stop",
+  "interval_id": "0caaee7c-d8d7-4176-ae43-14b6e9caf8a8",
+  "phase": "intake",
+  "kind": "work",
+  "at_epoch_seconds": 1790828527.444969,
+  "at_utc": "2026-10-01T04:22:07.444969+00:00",
+  "note": "Ingesta compartida cerrada: cinco proxies/rangos/transcripciones; excepción provisional honesta",
+  "measurement_method": "utc_wall_clock_time_time_cross_process"
+}

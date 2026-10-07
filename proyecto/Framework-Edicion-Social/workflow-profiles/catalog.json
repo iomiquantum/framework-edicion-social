@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "default_profile": "flujo-1",
+  "selection": "Explicit user flow1/2/3 or trial assignment frozen before assembly; otherwise flow1",
+  "profiles": [
+    "flujo-1.json",
+    "flujo-2.json",
+    "flujo-3.json"
+  ],
+  "shared_safety_floor": "QA_COMUN.md",
+  "trial": "experiments/2026-10-01-lote26-30/plan.json",
+  "speed_claim": "unmeasured; no promised speed ranking"
+}

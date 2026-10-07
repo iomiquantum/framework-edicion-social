@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3200" height="3200" viewBox="0 0 3200 3200">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#1d1818" flood-opacity="0.28"/></filter>
+    <pattern id="paper" width="28" height="28" patternUnits="userSpaceOnUse"><rect width="28" height="28" fill="#f0e1d0"/><circle cx="4" cy="7" r="1" fill="#7a263a" opacity="0.08"/><circle cx="21" cy="18" r="0.8" fill="#1d1818" opacity="0.07"/></pattern>
+    <pattern id="lines" width="100" height="54" patternUnits="userSpaceOnUse"><path d="M0 53H100" stroke="#7a263a" stroke-width="1" opacity="0.16"/></pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.45" stop-color="#1d1818" stop-opacity="0"/><stop offset="1" stop-color="#1d1818" stop-opacity="0.93"/></linearGradient>
+    <clipPath id="a1"><rect x="301" y="270" width="486" height="864"/></clipPath><clipPath id="a2"><rect x="829" y="270" width="486" height="864"/></clipPath><clipPath id="a3"><rect x="1357" y="270" width="486" height="864"/></clipPath><clipPath id="a4"><rect x="1885" y="270" width="486" height="864"/></clipPath><clipPath id="a5"><rect x="2413" y="270" width="486" height="864"/></clipPath>
+    <clipPath id="portrait"><circle cx="2656" cy="912" r="132"/></clipPath>
+  </defs>
+  <rect width="3200" height="3200" fill="url(#paper)"/><rect x="0" y="0" width="44" height="1400" fill="#7a263a"/>
+  <text x="150" y="89" font-family="Georgia, serif" font-size="34" font-style="italic" fill="#7a263a">Propuesta 06 · Video 11</text>
+  <text x="150" y="170" font-family="Arial, sans-serif" font-size="66" font-weight="900" letter-spacing="-3" fill="#1d1818">CONFESIÓN CRUDA / DIARIO REAL</text>
+  <text x="3030" y="98" text-anchor="end" font-family="Courier New, monospace" font-size="23" font-weight="700" fill="#1d1818">5 MOMENTOS · 9:16</text>
+  <text x="3030" y="145" text-anchor="end" font-family="Courier New, monospace" font-size="18" fill="#7a263a">HONESTIDAD · IDENTIFICACIÓN · APRENDIZAJE</text><line x1="150" y1="223" x2="3030" y2="223" stroke="#7a263a" stroke-width="3"/>
+
+  <g filter="url(#shadow)"><rect x="301" y="270" width="486" height="864" fill="#1d1818"/></g><g clip-path="url(#a1)">
+    <image x="301" y="270" width="486" height="864" xlink:href="../assets-compartidos/presentador-01.jpg" preserveAspectRatio="xMidYMid slice"/><rect x="301" y="270" width="486" height="864" fill="url(#fade)"/>
+    <rect x="327" y="296" width="202" height="47" fill="#f0e1d0" transform="rotate(-2 327 296)"/><text x="348" y="328" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#7a263a">TE CUENTO ALGO</text>
+    <text x="329" y="862" font-family="Georgia, serif" font-size="30" font-style="italic" fill="#f0e1d0">Yo también pensé que</text><text x="329" y="930" font-family="Arial, sans-serif" font-size="51" font-weight="900" fill="#f0e1d0">PUBLICAR MÁS</text><text x="329" y="987" font-family="Arial, sans-serif" font-size="51" font-weight="900" fill="#f0e1d0">ERA AVANZAR.</text><line x1="329" y1="1017" x2="577" y2="1017" stroke="#7a263a" stroke-width="10"/><text x="329" y="1071" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#f0e1d0">No siempre lo era.</text>
+  </g>
+
+  <g filter="url(#shadow)"><rect x="829" y="270" width="486" height="864" fill="#f0e1d0"/></g><g clip-path="url(#a2)"><rect x="829" y="270" width="486" height="864" fill="#f0e1d0"/><rect x="829" y="270" width="486" height="864" fill="url(#lines)"/>
+    <text x="871" y="370" font-family="Georgia, serif" font-size="30" font-style="italic" fill="#7a263a">Mi regla era:</text><text x="871" y="475" font-family="Arial, sans-serif" font-size="53" font-weight="900" fill="#1d1818">MÁS POSTS</text><text x="871" y="543" font-family="Arial, sans-serif" font-size="53" font-weight="900" fill="#1d1818">= MÁS VALOR</text><line x1="860" y1="445" x2="1272" y2="570" stroke="#7a263a" stroke-width="13"/><line x1="1272" y1="445" x2="860" y2="570" stroke="#7a263a" stroke-width="13"/>
+    <rect x="865" y="660" width="414" height="180" fill="#7a263a" transform="rotate(-1 865 660)"/><text x="1072" y="739" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="900" fill="#f0e1d0">ME</text><text x="1072" y="802" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="900" fill="#f0e1d0">EQUIVOQUÉ.</text>
+    <text x="871" y="930" font-family="Georgia, serif" font-size="28" font-style="italic" fill="#1d1818">La cantidad creció.</text><text x="871" y="980" font-family="Georgia, serif" font-size="28" font-style="italic" fill="#7a263a">Mi voz se estaba perdiendo.</text>
+  </g>
+
+  <g filter="url(#shadow)"><rect x="1357" y="270" width="486" height="864" fill="#1d1818"/></g><g clip-path="url(#a3)"><image x="1357" y="270" width="486" height="864" xlink:href="../assets-compartidos/video-11-collage.png" preserveAspectRatio="xMidYMid slice"/>
+    <g font-family="Courier New, monospace" font-size="18" font-weight="700" fill="#1d1818"><rect x="1390" y="358" width="132" height="52" fill="#f0e1d0" transform="rotate(-5 1390 358)"/><text x="1411" y="392" transform="rotate(-5 1411 392)">RÁPIDO</text><rect x="1655" y="510" width="142" height="52" fill="#f0e1d0" transform="rotate(5 1655 510)"/><text x="1675" y="545" transform="rotate(5 1675 545)">BONITO</text><rect x="1412" y="672" width="126" height="52" fill="#7a263a" transform="rotate(3 1412 672)"/><text x="1434" y="707" fill="#f0e1d0" transform="rotate(3 1434 707)">VACÍO</text></g>
+    <rect x="1379" y="888" width="442" height="220" fill="#1d1818" opacity="0.95"/><text x="1408" y="951" font-family="Georgia, serif" font-size="29" font-style="italic" fill="#f0e1d0">Produje más.</text><text x="1408" y="1017" font-family="Arial, sans-serif" font-size="46" font-weight="900" fill="#f0e1d0">DIJE MENOS.</text><line x1="1408" y1="1051" x2="1617" y2="1051" stroke="#7a263a" stroke-width="9"/>
+  </g>
+
+  <g filter="url(#shadow)"><rect x="1885" y="270" width="486" height="864" fill="#f0e1d0"/></g><g clip-path="url(#a4)"><image x="1885" y="270" width="486" height="610" xlink:href="../assets-compartidos/presentador-02.jpg" preserveAspectRatio="xMidYMid slice"/><rect x="1885" y="880" width="486" height="254" fill="#f0e1d0"/>
+    <text x="1919" y="930" font-family="Georgia, serif" font-size="28" font-style="italic" fill="#7a263a">Hasta que entendí:</text><text x="1919" y="993" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#1d1818">LA VENTAJA ERA</text><text x="1919" y="1047" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#1d1818">MI EXPERIENCIA.</text><line x1="1919" y1="1080" x2="2278" y2="1080" stroke="#7a263a" stroke-width="7"/>
+  </g>
+
+  <g filter="url(#shadow)"><rect x="2413" y="270" width="486" height="864" fill="#f0e1d0"/></g><g clip-path="url(#a5)"><rect x="2413" y="270" width="486" height="864" fill="#f0e1d0"/><rect x="2413" y="270" width="486" height="864" fill="url(#lines)"/>
+    <text x="2448" y="377" font-family="Arial, sans-serif" font-size="45" font-weight="900" fill="#1d1818">¿QUÉ ESTÁS</text><text x="2448" y="433" font-family="Arial, sans-serif" font-size="45" font-weight="900" fill="#1d1818">PUBLICANDO</text><text x="2448" y="489" font-family="Arial, sans-serif" font-size="45" font-weight="900" fill="#7a263a">SOLO POR CUMPLIR?</text>
+    <rect x="2448" y="550" width="414" height="142" fill="#1d1818"/><text x="2655" y="609" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-style="italic" fill="#f0e1d0">Tal vez no necesitas más ideas.</text><text x="2655" y="654" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="900" fill="#f0e1d0">NECESITAS MÁS DE TI.</text>
+    <circle cx="2656" cy="912" r="142" fill="#7a263a"/><image x="2524" y="780" width="264" height="264" xlink:href="../assets-compartidos/presentador-03.jpg" preserveAspectRatio="xMidYMid slice" clip-path="url(#portrait)"/><circle cx="2656" cy="912" r="137" fill="none" stroke="#1d1818" stroke-width="7"/>
+    <text x="2656" y="1090" text-anchor="middle" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#7a263a">CUÉNTAME QUÉ CAMBIARÍAS</text>
+  </g>
+  <g font-family="Courier New, monospace" font-size="21" font-weight="700" fill="#1d1818"><text x="301" y="1200">01 — ADMISIÓN</text><text x="829" y="1200">02 — ERROR</text><text x="1357" y="1200">03 — CONSECUENCIA</text><text x="1885" y="1200">04 — APRENDIZAJE</text><text x="2413" y="1200">05 — CONVERSACIÓN</text></g>
+  <text x="301" y="1264" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1d1818">Vulnerabilidad concreta: admitir, mostrar la consecuencia, entregar el aprendizaje e invitar una respuesta personal.</text><text x="2899" y="1322" text-anchor="end" font-family="Courier New, monospace" font-size="19" fill="#7a263a">PROPUESTA PARA APROBACIÓN · NO ES UN FRAME FINAL DE PRODUCCIÓN</text>
+</svg>

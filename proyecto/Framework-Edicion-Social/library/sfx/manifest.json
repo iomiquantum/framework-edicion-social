@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "created": "2026-09-23",
+  "pack": "Social Essentials Original",
+  "mix_guidance": {
+    "hyperframes_data_volume_start_range": [0.35, 0.5],
+    "hard_max_without_specific_review": 1.0,
+    "groups": ["voiceover", "music", "sfx"],
+    "music_voice_carve_strength_reference": 0.8,
+    "required_audits": ["headphones_or_monitors", "phone_speaker"],
+    "note": "Starting values only. The historical 1.05-1.75 range is retired after explicit feedback that bright transition cues felt too strong. Final levels require voice intelligibility, clipping, tonal-balance and true-peak checks."
+  },
+  "files": [
+    {
+      "file": "01_airy_in.wav",
+      "duration_seconds": 0.44,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -12,
+      "rms_dbfs": -25.89,
+      "purpose": "Aparición de un diagrama o concepto",
+      "provenance": "Original procedural synthesis; generate_sfx.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    },
+    {
+      "file": "02_soft_whoosh.wav",
+      "duration_seconds": 0.3,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -12,
+      "rms_dbfs": -25.46,
+      "purpose": "Cambio narrativo o desplazamiento gráfico",
+      "provenance": "Original procedural synthesis; generate_sfx.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    },
+    {
+      "file": "03_ui_tick.wav",
+      "duration_seconds": 0.085,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -10,
+      "rms_dbfs": -29.31,
+      "purpose": "Un nodo o marca puntual",
+      "provenance": "Original procedural synthesis; generate_sfx.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    },
+    {
+      "file": "04_soft_pop.wav",
+      "duration_seconds": 0.16,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -10,
+      "rms_dbfs": -23.32,
+      "purpose": "Una palabra o elemento clave",
+      "provenance": "Original procedural synthesis; generate_sfx.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    },
+    {
+      "file": "05_low_accent.wav",
+      "duration_seconds": 0.34,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -12,
+      "rms_dbfs": -26.69,
+      "purpose": "Un único énfasis de mayor peso",
+      "provenance": "Original procedural synthesis; generate_sfx.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    },
+    {
+      "file": "06_sequence.wav",
+      "duration_seconds": 0.5,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -14,
+      "rms_dbfs": -25.35,
+      "purpose": "Diagrama de secuencia de tres pasos",
+      "provenance": "Original procedural synthesis; generate_sfx.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    },
+    {
+      "file": "07_loop_return.wav",
+      "duration_seconds": 0.48,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -14,
+      "rms_dbfs": -25.17,
+      "purpose": "Retorno o repetición visual",
+      "provenance": "Original procedural synthesis; generate_sfx.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    },
+    {
+      "file": "08_resolve.wav",
+      "duration_seconds": 0.84,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -15,
+      "rms_dbfs": -29.75,
+      "purpose": "Cierre de idea con respiración",
+      "provenance": "Original procedural synthesis; generate_sfx.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    }
+  ]
+}

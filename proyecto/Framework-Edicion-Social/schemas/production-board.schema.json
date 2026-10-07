@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/production-board.schema.json",
+  "title": "Concurrent production board",
+  "type": "object",
+  "required": ["schema_version", "project_id", "max_heavy_jobs", "generation", "claims", "updated_at"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "project_id": {"type": "string"},
+    "max_heavy_jobs": {"type": "integer", "minimum": 1, "maximum": 64},
+    "generation": {"type": "integer", "minimum": 0},
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["video_id", "owner", "workload", "claimed_at", "note"],
+        "properties": {
+          "video_id": {"type": "string", "pattern": "^VIDEO-[0-9]{2,}$"},
+          "owner": {"type": "string", "minLength": 1},
+          "workload": {"enum": ["light", "heavy"]},
+          "claimed_at": {"type": "string", "format": "date-time"},
+          "note": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "updated_at": {"type": "string"}
+  },
+  "additionalProperties": false
+}

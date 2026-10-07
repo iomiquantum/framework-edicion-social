@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-01T05:34:49.673880+00:00",
+  "status": "provisional_waiting_26_and_27_v2",
+  "method": "Sumar únicamente el tiempo de motor observado de los segundos renders correctivos. No sumar sus fases otra vez, ni tratar esta suma como tiempo de lote o ahorro posible.",
+  "corrective_engine_seconds": {
+    "VIDEO26_v2": null,
+    "VIDEO27_v2": null,
+    "VIDEO29_v2": 161.9,
+    "VIDEO30_v2": 130.619
+  },
+  "known_subtotal_seconds": 292.519,
+  "cause": "Defectos de autoría o diferencias de preview/export HDR; separar del costo inherente al perfil.",
+  "operational_decision": "Estabilizar fondo en child, bed persistente, body delay y smoke que incluya escenas futuras antes de volver a comparar tiempos. F1 permanece predeterminado; F2/F3 ofrecen organización viable sin rapidez demostrada.",
+  "next_trial_proposal": "Subprueba con misma fuente y plantilla en condiciones equivalentes después de corregir la receta, acompañada de otro lote nuevo para observar aplicación práctica. No se cambia el default ni se crea esa prueba ahora."
+}

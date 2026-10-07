@@ -1,0 +1,693 @@
+{
+  "created_date": "2026-10-01",
+  "purpose": "Tarjetas originales para prueba de publicación real autorizada por usuario, con fecha objetivo 02/10/2026. La generación de los medios no ejecuta ninguna programación o publicación.",
+  "format": "SVG editable + PNG RGB 8 bits + JPEG RGB calidad95 y submuestreo4:4:4",
+  "render_engine": "Pillow 12.3.0 bundled, Arial local; geometría y texto originales sin generación IA",
+  "count_cards": 6,
+  "expected_images": 6,
+  "carousel_order": [
+    "carrusel_01_1080x1350",
+    "carrusel_02_1080x1350",
+    "carrusel_03_1080x1350"
+  ],
+  "story_guides": {
+    "upper_px": 250,
+    "lower_px": 350,
+    "safe_rectangle": [
+      80,
+      250,
+      1000,
+      1570
+    ],
+    "meaning": "Guías de composición; no representan un límite garantizado del API o de interfaces."
+  },
+  "assets": [
+    {
+      "id": "feed_cuadrado_1080x1080",
+      "kind": "feed_image",
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": "1:1",
+      "sequence": null,
+      "label": "PRUEBA DE PUBLICACIÓN",
+      "target_date": "2026-10-02",
+      "timezone": "America/Guayaquil",
+      "files": {
+        "svg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_cuadrado_1080x1080.svg",
+          "bytes": 1507,
+          "sha256": "1755cdabd6a2a9fcf2f53c249cfd26db4062f8c5f7ed3fd69e9376f05f3c4303"
+        },
+        "png": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_cuadrado_1080x1080.png",
+          "bytes": 36082,
+          "sha256": "132e0ab6235856eed16520f7ffbfbd2f28601bbefded8bcf04be443f0e4f8dd5"
+        },
+        "jpeg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_cuadrado_1080x1080.jpg",
+          "bytes": 76973,
+          "sha256": "93d23e69cf05928bc929f66c3741d2f6364c2f6185ab6abdcd9325a2e250b5d4"
+        }
+      },
+      "text_layout": [
+        {
+          "text": "PRUEBA DE PUBLICACIÓN",
+          "left": 315.0,
+          "top": 76.0,
+          "right": 765.0,
+          "bottom": 108.0,
+          "size": 34,
+          "bold": true
+        },
+        {
+          "text": "PRUEBA MCP · FEED",
+          "left": 232.0,
+          "top": 285.0,
+          "right": 848.0,
+          "bottom": 330.0,
+          "size": 60,
+          "bold": true
+        },
+        {
+          "text": "1:1",
+          "left": 415.5,
+          "top": 402.0,
+          "right": 664.5,
+          "bottom": 525.0,
+          "size": 172,
+          "bold": true
+        },
+        {
+          "text": "1080 × 1080 px",
+          "left": 370.5,
+          "top": 715.0,
+          "right": 709.5,
+          "bottom": 760.0,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "text": "Ubicación: Feed",
+          "left": 410.0,
+          "top": 790.0,
+          "right": 670.0,
+          "bottom": 816.0,
+          "size": 36,
+          "bold": false
+        },
+        {
+          "text": "Imagen cuadrada",
+          "left": 414.0,
+          "top": 850.0,
+          "right": 666.0,
+          "bottom": 879.0,
+          "size": 32,
+          "bold": false
+        },
+        {
+          "text": "PROGRAMACIÓN AUTOMÁTICA",
+          "left": 312.5,
+          "top": 932.0,
+          "right": 767.5,
+          "bottom": 960.0,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "text": "02 OCT 2026 · GUAYAQUIL",
+          "left": 359.5,
+          "top": 992.0,
+          "right": 720.5,
+          "bottom": 1014.0,
+          "size": 28,
+          "bold": false
+        }
+      ],
+      "secondary_label": "PROGRAMACIÓN AUTOMÁTICA"
+    },
+    {
+      "id": "feed_vertical_1080x1350",
+      "kind": "feed_image",
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": "4:5",
+      "sequence": null,
+      "label": "PRUEBA DE PUBLICACIÓN",
+      "target_date": "2026-10-02",
+      "timezone": "America/Guayaquil",
+      "files": {
+        "svg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_vertical_1080x1350.svg",
+          "bytes": 1508,
+          "sha256": "d2fcd12f0356b66281044d6e21e6c87ca1e8a64ebdf14e165953d4d90caf7521"
+        },
+        "png": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_vertical_1080x1350.png",
+          "bytes": 41080,
+          "sha256": "3e5258bb87572cd6dc4796acf23a732937a81b5c8eb88789e037f0c34328a922"
+        },
+        "jpeg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_vertical_1080x1350.jpg",
+          "bytes": 84786,
+          "sha256": "dbf3c6320dffe55d6bc59227c8d05475703dab72305c478298555f4f8f6afc55"
+        }
+      },
+      "text_layout": [
+        {
+          "text": "PRUEBA DE PUBLICACIÓN",
+          "left": 315.0,
+          "top": 76.0,
+          "right": 765.0,
+          "bottom": 108.0,
+          "size": 34,
+          "bold": true
+        },
+        {
+          "text": "PRUEBA MCP · FEED",
+          "left": 232.0,
+          "top": 355.0,
+          "right": 848.0,
+          "bottom": 400.0,
+          "size": 60,
+          "bold": true
+        },
+        {
+          "text": "4:5",
+          "left": 415.5,
+          "top": 500.0,
+          "right": 664.5,
+          "bottom": 626.0,
+          "size": 172,
+          "bold": true
+        },
+        {
+          "text": "1080 × 1350 px",
+          "left": 370.5,
+          "top": 840.0,
+          "right": 709.5,
+          "bottom": 885.0,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "text": "Ubicación: Feed",
+          "left": 410.0,
+          "top": 915.0,
+          "right": 670.0,
+          "bottom": 941.0,
+          "size": 36,
+          "bold": false
+        },
+        {
+          "text": "Imagen vertical",
+          "left": 430.5,
+          "top": 975.0,
+          "right": 649.5,
+          "bottom": 1004.0,
+          "size": 32,
+          "bold": false
+        },
+        {
+          "text": "PROGRAMACIÓN AUTOMÁTICA",
+          "left": 312.5,
+          "top": 1202.0,
+          "right": 767.5,
+          "bottom": 1230.0,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "text": "02 OCT 2026 · GUAYAQUIL",
+          "left": 359.5,
+          "top": 1262.0,
+          "right": 720.5,
+          "bottom": 1284.0,
+          "size": 28,
+          "bold": false
+        }
+      ],
+      "secondary_label": "PROGRAMACIÓN AUTOMÁTICA"
+    },
+    {
+      "id": "carrusel_01_1080x1350",
+      "kind": "carousel",
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": "4:5",
+      "sequence": 1,
+      "label": "PRUEBA DE PUBLICACIÓN",
+      "target_date": "2026-10-02",
+      "timezone": "America/Guayaquil",
+      "files": {
+        "svg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_01_1080x1350.svg",
+          "bytes": 1534,
+          "sha256": "672c6fc07d2f1f3f533df61774d5418c981aa3a44ae33f241b8a2ce264400a50"
+        },
+        "png": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_01_1080x1350.png",
+          "bytes": 45503,
+          "sha256": "c82b80ac031acd7c51a9b663263bf7409b5c3ab2ec47753f1aea42da4e10c194"
+        },
+        "jpeg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_01_1080x1350.jpg",
+          "bytes": 96007,
+          "sha256": "947cfa6c42f8fb90c3b281c198d2a9266a6bfe1e7716dba262969a70f143f001"
+        }
+      },
+      "text_layout": [
+        {
+          "text": "PRUEBA DE PUBLICACIÓN",
+          "left": 315.0,
+          "top": 76.0,
+          "right": 765.0,
+          "bottom": 108.0,
+          "size": 34,
+          "bold": true
+        },
+        {
+          "text": "PRUEBA MCP · CARRUSEL",
+          "left": 146.0,
+          "top": 355.0,
+          "right": 934.0,
+          "bottom": 400.0,
+          "size": 60,
+          "bold": true
+        },
+        {
+          "text": "1/3",
+          "left": 420.0,
+          "top": 500.0,
+          "right": 660.0,
+          "bottom": 627.0,
+          "size": 172,
+          "bold": true
+        },
+        {
+          "text": "1080 × 1350 px",
+          "left": 370.5,
+          "top": 840.0,
+          "right": 709.5,
+          "bottom": 885.0,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "text": "Ubicación: Feed",
+          "left": 410.0,
+          "top": 915.0,
+          "right": 670.0,
+          "bottom": 941.0,
+          "size": 36,
+          "bold": false
+        },
+        {
+          "text": "Lámina 1 de 3 · Mantener este orden",
+          "left": 273.5,
+          "top": 975.0,
+          "right": 806.5,
+          "bottom": 998.0,
+          "size": 32,
+          "bold": false
+        },
+        {
+          "text": "PROGRAMACIÓN AUTOMÁTICA",
+          "left": 312.5,
+          "top": 1202.0,
+          "right": 767.5,
+          "bottom": 1230.0,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "text": "02 OCT 2026 · GUAYAQUIL",
+          "left": 359.5,
+          "top": 1262.0,
+          "right": 720.5,
+          "bottom": 1284.0,
+          "size": 28,
+          "bold": false
+        }
+      ],
+      "secondary_label": "PROGRAMACIÓN AUTOMÁTICA"
+    },
+    {
+      "id": "carrusel_02_1080x1350",
+      "kind": "carousel",
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": "4:5",
+      "sequence": 2,
+      "label": "PRUEBA DE PUBLICACIÓN",
+      "target_date": "2026-10-02",
+      "timezone": "America/Guayaquil",
+      "files": {
+        "svg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_02_1080x1350.svg",
+          "bytes": 1534,
+          "sha256": "eb4a7cc0d8d11e1c12bbb3cdf02af7f3444c20697cac1d977b5c3d9f3bbfe627"
+        },
+        "png": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_02_1080x1350.png",
+          "bytes": 47015,
+          "sha256": "f8c59b2e857873557e43a9d4393f77c11521dc7b03bd995b0795aec811d58e3d"
+        },
+        "jpeg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_02_1080x1350.jpg",
+          "bytes": 98041,
+          "sha256": "c0147e04ef8896e2d4903f38a18873c99b315a5856ed8a34425810fdd42fc5f0"
+        }
+      },
+      "text_layout": [
+        {
+          "text": "PRUEBA DE PUBLICACIÓN",
+          "left": 315.0,
+          "top": 76.0,
+          "right": 765.0,
+          "bottom": 108.0,
+          "size": 34,
+          "bold": true
+        },
+        {
+          "text": "PRUEBA MCP · CARRUSEL",
+          "left": 146.0,
+          "top": 355.0,
+          "right": 934.0,
+          "bottom": 400.0,
+          "size": 60,
+          "bold": true
+        },
+        {
+          "text": "2/3",
+          "left": 420.0,
+          "top": 500.0,
+          "right": 660.0,
+          "bottom": 627.0,
+          "size": 172,
+          "bold": true
+        },
+        {
+          "text": "1080 × 1350 px",
+          "left": 370.5,
+          "top": 840.0,
+          "right": 709.5,
+          "bottom": 885.0,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "text": "Ubicación: Feed",
+          "left": 410.0,
+          "top": 915.0,
+          "right": 670.0,
+          "bottom": 941.0,
+          "size": 36,
+          "bold": false
+        },
+        {
+          "text": "Lámina 2 de 3 · Mantener este orden",
+          "left": 273.5,
+          "top": 975.0,
+          "right": 806.5,
+          "bottom": 998.0,
+          "size": 32,
+          "bold": false
+        },
+        {
+          "text": "PROGRAMACIÓN AUTOMÁTICA",
+          "left": 312.5,
+          "top": 1202.0,
+          "right": 767.5,
+          "bottom": 1230.0,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "text": "02 OCT 2026 · GUAYAQUIL",
+          "left": 359.5,
+          "top": 1262.0,
+          "right": 720.5,
+          "bottom": 1284.0,
+          "size": 28,
+          "bold": false
+        }
+      ],
+      "secondary_label": "PROGRAMACIÓN AUTOMÁTICA"
+    },
+    {
+      "id": "carrusel_03_1080x1350",
+      "kind": "carousel",
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": "4:5",
+      "sequence": 3,
+      "label": "PRUEBA DE PUBLICACIÓN",
+      "target_date": "2026-10-02",
+      "timezone": "America/Guayaquil",
+      "files": {
+        "svg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_03_1080x1350.svg",
+          "bytes": 1534,
+          "sha256": "3949cbadfa315d4e86046bb95b06ec915214eab68c75150cd4fe49c089e742bd"
+        },
+        "png": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_03_1080x1350.png",
+          "bytes": 44782,
+          "sha256": "0a2036959f4bd16bc804c8d0aba06f4e64edcd1b0f9857da646c6ea0fde53bdf"
+        },
+        "jpeg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_03_1080x1350.jpg",
+          "bytes": 98466,
+          "sha256": "b8e59dd12df98bda454d1af32cb88f013731c8c7649f61a572d2c8ac53de3d92"
+        }
+      },
+      "text_layout": [
+        {
+          "text": "PRUEBA DE PUBLICACIÓN",
+          "left": 315.0,
+          "top": 76.0,
+          "right": 765.0,
+          "bottom": 108.0,
+          "size": 34,
+          "bold": true
+        },
+        {
+          "text": "PRUEBA MCP · CARRUSEL",
+          "left": 146.0,
+          "top": 355.0,
+          "right": 934.0,
+          "bottom": 400.0,
+          "size": 60,
+          "bold": true
+        },
+        {
+          "text": "3/3",
+          "left": 420.0,
+          "top": 500.0,
+          "right": 660.0,
+          "bottom": 627.0,
+          "size": 172,
+          "bold": true
+        },
+        {
+          "text": "1080 × 1350 px",
+          "left": 370.5,
+          "top": 840.0,
+          "right": 709.5,
+          "bottom": 885.0,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "text": "Ubicación: Feed",
+          "left": 410.0,
+          "top": 915.0,
+          "right": 670.0,
+          "bottom": 941.0,
+          "size": 36,
+          "bold": false
+        },
+        {
+          "text": "Lámina 3 de 3 · Mantener este orden",
+          "left": 273.5,
+          "top": 975.0,
+          "right": 806.5,
+          "bottom": 998.0,
+          "size": 32,
+          "bold": false
+        },
+        {
+          "text": "PROGRAMACIÓN AUTOMÁTICA",
+          "left": 312.5,
+          "top": 1202.0,
+          "right": 767.5,
+          "bottom": 1230.0,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "text": "02 OCT 2026 · GUAYAQUIL",
+          "left": 359.5,
+          "top": 1262.0,
+          "right": 720.5,
+          "bottom": 1284.0,
+          "size": 28,
+          "bold": false
+        }
+      ],
+      "secondary_label": "PROGRAMACIÓN AUTOMÁTICA"
+    },
+    {
+      "id": "historia_1080x1920",
+      "kind": "story",
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "sequence": null,
+      "label": "PRUEBA DE PUBLICACIÓN",
+      "target_date": "2026-10-02",
+      "timezone": "America/Guayaquil",
+      "files": {
+        "svg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/historia_1080x1920.svg",
+          "bytes": 2396,
+          "sha256": "17f22c33d39ed32f7fe251213d240f523a2bca3f053bc6a2ee18781b610b1cce"
+        },
+        "png": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/historia_1080x1920.png",
+          "bytes": 70107,
+          "sha256": "3faddb23cf8629a2e9f61905dc88f6e25dc538df6649137df62a236b4e154109"
+        },
+        "jpeg": {
+          "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/historia_1080x1920.jpg",
+          "bytes": 135837,
+          "sha256": "44a2179b5885fb936f918a0f21f95171ee017d59df3a260494c32552ebda5f11"
+        }
+      },
+      "text_layout": [
+        {
+          "text": "PRUEBA DE PUBLICACIÓN",
+          "left": 315.0,
+          "top": 76.0,
+          "right": 765.0,
+          "bottom": 108.0,
+          "size": 34,
+          "bold": true
+        },
+        {
+          "text": "Guía superior: 250 px",
+          "left": 403.0,
+          "top": 203.0,
+          "right": 677.0,
+          "bottom": 229.0,
+          "size": 28,
+          "bold": false
+        },
+        {
+          "text": "Guía inferior: 350 px",
+          "left": 411.0,
+          "top": 1597.0,
+          "right": 669.0,
+          "bottom": 1623.0,
+          "size": 28,
+          "bold": false
+        },
+        {
+          "text": "PRUEBA MCP · HISTORIA",
+          "left": 156.0,
+          "top": 566.0,
+          "right": 924.0,
+          "bottom": 613.0,
+          "size": 62,
+          "bold": true
+        },
+        {
+          "text": "9:16",
+          "left": 363.5,
+          "top": 707.0,
+          "right": 716.5,
+          "bottom": 835.0,
+          "size": 176,
+          "bold": true
+        },
+        {
+          "text": "1080 × 1920 px",
+          "left": 350.0,
+          "top": 990.0,
+          "right": 730.0,
+          "bottom": 1040.0,
+          "size": 54,
+          "bold": true
+        },
+        {
+          "text": "Ubicación: Historia",
+          "left": 374.0,
+          "top": 1080.0,
+          "right": 706.0,
+          "bottom": 1109.0,
+          "size": 40,
+          "bold": false
+        },
+        {
+          "text": "PROGRAMACIÓN AUTOMÁTICA",
+          "left": 266.5,
+          "top": 1263.0,
+          "right": 813.5,
+          "bottom": 1296.0,
+          "size": 36,
+          "bold": false
+        },
+        {
+          "text": "02 OCT 2026 · GUAYAQUIL",
+          "left": 335.5,
+          "top": 1330.0,
+          "right": 744.5,
+          "bottom": 1355.0,
+          "size": 32,
+          "bold": false
+        },
+        {
+          "text": "GUÍAS DE COMPOSICIÓN",
+          "left": 366.5,
+          "top": 1768.0,
+          "right": 713.5,
+          "bottom": 1794.0,
+          "size": 28,
+          "bold": true
+        },
+        {
+          "text": "Guayaquil · Ecuador",
+          "left": 410.0,
+          "top": 1826.0,
+          "right": 670.0,
+          "bottom": 1852.0,
+          "size": 28,
+          "bold": false
+        }
+      ],
+      "secondary_label": "PROGRAMACIÓN AUTOMÁTICA"
+    }
+  ],
+  "contact_sheet": {
+    "path": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/contacto_tarjetas_prueba.png",
+    "width": 1260,
+    "height": 1500,
+    "bytes": 146715,
+    "sha256": "44017bc3b8f54d873ee6eb14985aac55483c722650c62dcb2079186763599058"
+  },
+  "qa": {
+    "image_dimensions_verified": true,
+    "text_within_bounds": true,
+    "svg_xml_valid": true,
+    "jpeg_dimensions_and_mode_verified": true,
+    "no_draft_or_do_not_publish_labels": true,
+    "visual_review": "Revisión 2: contacto de seis tarjetas inspeccionado visualmente; JPEG de historia y primera lámina de carrusel inspeccionados en detalle. Texto legible, sin recortes o solapamientos observados. Se verificaron dimensiones y modo RGB de los 12 rasters PNG/JPEG, XML de seis SVG y límites de texto."
+  },
+  "revision": 2,
+  "jpeg_encoding": {
+    "quality": 95,
+    "subsampling": 0,
+    "meaning": "JPEG generado para endpoints de imagen que requieren ese formato; la compatibilidad de la publicación real depende del endpoint y su validación."
+  },
+  "previous_draft_version": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/borradores_v1"
+}

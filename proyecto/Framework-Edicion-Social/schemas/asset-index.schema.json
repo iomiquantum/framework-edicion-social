@@ -1,0 +1,279 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/asset-index.schema.json",
+  "title": "Semantic media asset index",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "scope",
+    "capabilities",
+    "fatigue_policy",
+    "summary",
+    "assets",
+    "exact_duplicate_groups"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "scope": {
+      "type": "object",
+      "required": ["project_root", "catalogs", "manifests", "explicit_roots", "usage_history"],
+      "properties": {
+        "project_root": {"type": "string", "minLength": 1},
+        "catalogs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "manifests": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "explicit_roots": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "usage_history": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "capabilities": {
+      "type": "object",
+      "required": [
+        "exact_content_deduplication",
+        "semantic_metadata_ranking",
+        "perceptual_visual_similarity",
+        "similarity_notice"
+      ],
+      "properties": {
+        "exact_content_deduplication": {"const": true},
+        "semantic_metadata_ranking": {"const": true},
+        "perceptual_visual_similarity": {"const": false},
+        "similarity_notice": {"type": "string", "minLength": 30}
+      },
+      "additionalProperties": false
+    },
+    "fatigue_policy": {
+      "type": "object",
+      "required": ["mode", "unit", "unknown_recency_behavior", "default_cooldowns"],
+      "properties": {
+        "mode": {"const": "advisory_non_blocking"},
+        "unit": {"const": "videos_since_last_use"},
+        "unknown_recency_behavior": {"const": "warn_without_excluding"},
+        "default_cooldowns": {
+          "type": "object",
+          "additionalProperties": {"type": "integer", "minimum": 0}
+        }
+      },
+      "additionalProperties": false
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "asset_count",
+        "source_record_count",
+        "exact_duplicate_group_count",
+        "status_counts",
+        "type_counts"
+      ],
+      "properties": {
+        "asset_count": {"type": "integer", "minimum": 0},
+        "source_record_count": {"type": "integer", "minimum": 0},
+        "exact_duplicate_group_count": {"type": "integer", "minimum": 0},
+        "status_counts": {
+          "type": "object",
+          "additionalProperties": {"type": "integer", "minimum": 0}
+        },
+        "type_counts": {
+          "type": "object",
+          "additionalProperties": {"type": "integer", "minimum": 0}
+        }
+      },
+      "additionalProperties": false
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "asset_id",
+          "source_asset_ids",
+          "name",
+          "type",
+          "format",
+          "sha256",
+          "bytes",
+          "status",
+          "description",
+          "semantic_tags",
+          "intent_phrases",
+          "avoid_for",
+          "locations",
+          "metadata",
+          "provenance_records",
+          "reuse",
+          "usage"
+        ],
+        "properties": {
+          "asset_id": {"type": "string", "minLength": 2},
+          "source_asset_ids": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "name": {"type": "string", "minLength": 1},
+          "type": {
+            "enum": [
+              "bgm",
+              "icon",
+              "image",
+              "logo",
+              "lut",
+              "motion_preset",
+              "sfx",
+              "transition",
+              "typographic_overlay",
+              "video",
+              "voice",
+              "unknown"
+            ]
+          },
+          "format": {"type": "string", "minLength": 1},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "bytes": {"type": "integer", "minimum": 0},
+          "status": {"enum": ["approved", "provisional", "deprecated", "rejected", "unknown"]},
+          "description": {"type": "string", "minLength": 1},
+          "semantic_tags": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "intent_phrases": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "avoid_for": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "locations": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "metadata": {
+            "type": "object",
+            "required": ["technical", "approval"],
+            "properties": {
+              "technical": {"type": "object", "additionalProperties": true},
+              "approval": {"type": "object", "additionalProperties": true}
+            },
+            "additionalProperties": false
+          },
+          "provenance_records": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["source_kind", "source_ref", "source_asset_id", "path", "details"],
+              "properties": {
+                "source_kind": {
+                  "enum": [
+                    "framework_catalog",
+                    "project_manifest",
+                    "asset_lock",
+                    "media_use_manifest",
+                    "explicit_folder"
+                  ]
+                },
+                "source_ref": {"type": "string", "minLength": 1},
+                "source_asset_id": {"type": ["string", "null"]},
+                "path": {"type": "string", "minLength": 1},
+                "details": {"type": "object", "additionalProperties": true}
+              },
+              "additionalProperties": false
+            }
+          },
+          "reuse": {
+            "type": "object",
+            "required": ["policy", "cooldown_videos", "cooldown_enforcement"],
+            "properties": {
+              "policy": {
+                "enum": [
+                  "unlimited",
+                  "rotate",
+                  "limited",
+                  "exact_match_only",
+                  "do_not_reuse",
+                  "unclassified"
+                ]
+              },
+              "cooldown_videos": {"type": "integer", "minimum": 0},
+              "cooldown_enforcement": {"const": "advisory_non_blocking"}
+            },
+            "additionalProperties": false
+          },
+          "usage": {
+            "type": "object",
+            "required": [
+              "usage_count",
+              "used_in",
+              "last_used_at",
+              "last_used_sequence",
+              "events"
+            ],
+            "properties": {
+              "usage_count": {"type": "integer", "minimum": 0},
+              "used_in": {
+                "type": "array",
+                "items": {"type": "string", "minLength": 1},
+                "uniqueItems": true
+              },
+              "last_used_at": {"type": ["string", "null"], "format": "date-time"},
+              "last_used_sequence": {"type": ["integer", "null"], "minimum": 1},
+              "events": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "event_id",
+                    "video_id",
+                    "video_sequence",
+                    "used_at",
+                    "role",
+                    "family"
+                  ],
+                  "properties": {
+                    "event_id": {"type": "string", "minLength": 1},
+                    "video_id": {"type": ["string", "null"]},
+                    "video_sequence": {"type": ["integer", "null"], "minimum": 1},
+                    "used_at": {"type": ["string", "null"], "format": "date-time"},
+                    "role": {"type": "string", "minLength": 1},
+                    "family": {"type": ["string", "null"]}
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "exact_duplicate_groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sha256", "canonical_asset_id", "locations", "proof"],
+        "properties": {
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "canonical_asset_id": {"type": "string", "minLength": 1},
+          "locations": {
+            "type": "array",
+            "minItems": 2,
+            "items": {"type": "string", "minLength": 1},
+            "uniqueItems": true
+          },
+          "proof": {"const": "exact_sha256"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

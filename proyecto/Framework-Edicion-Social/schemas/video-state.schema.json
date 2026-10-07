@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/video-state.schema.json",
+  "title": "Video production state",
+  "type": "object",
+  "required": ["schema_version", "project_id", "video_id", "locks", "qa_status", "editorial_status", "user_approval_status", "reuse_status", "performance_status"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "project_id": {"type": "string"},
+    "video_id": {"type": "string"},
+    "active_take_id": {"type": "string"},
+    "source_sha256": {"type": "string"},
+    "transcript_sha256": {"type": "string"},
+    "cut_plan_path": {"type": ["string", "null"]},
+    "cut_plan_sha256": {"type": "string"},
+    "locks": {"type": "object"},
+    "qa_status": {"enum": ["not_run", "passed", "failed"]},
+    "editorial_status": {"enum": ["pending", "approved", "rejected"]},
+    "user_approval_status": {"enum": ["not_reviewed", "approved", "changes_requested", "rejected"]},
+    "reuse_status": {"enum": ["not_evaluated", "eligible", "restricted", "ineligible"]},
+    "performance_status": {"enum": ["no_data", "awaiting_data", "promising", "validated", "underperforming"]},
+    "last_review_id": {"type": ["string", "null"]},
+    "last_render_manifest": {"type": ["string", "null"]},
+    "updated_at": {"type": "string"}
+  },
+  "additionalProperties": false
+}

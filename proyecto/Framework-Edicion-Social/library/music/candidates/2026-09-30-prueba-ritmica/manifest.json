@@ -1,0 +1,20 @@
+{
+  "id": "BGM-CAND-SB-NEON-NOMELODY",
+  "title": "Neon",
+  "mix": "No Melody",
+  "author": "Scott Buckley",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_page": "https://www.scottbuckley.com.au/library/neon/",
+  "download_url": "https://www.scottbuckley.com.au/library/wp-content/uploads/2019/09/sb_neon_nomelody.mp3",
+  "retrieved_local": "2026-09-30",
+  "sha256": "af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d",
+  "bytes": 10377101,
+  "source_html_sha256": "71bafc08328aa92ab7f9ad97f87ac2002b2eeb207e638f545fdea937134eeabc",
+  "decode_full": "pass",
+  "status": "candidate_not_approved",
+  "human_listening": "por confirmar",
+  "credit": "'Neon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/neon/ · https://creativecommons.org/licenses/by/4.0/.",
+  "reason": "Comparar un arpegio/pulso electrónico con las camas calmadas rechazadas. El carácter retro puede no encajar.",
+  "changes": "Extracto45.00–56.30s, ganancia constante, fade-in0.30s/fade-out0.70s; sin cambiar la voz."
+}

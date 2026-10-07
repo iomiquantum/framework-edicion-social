@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/asset-usage-history.schema.json",
+  "title": "Asset usage history for fatigue analysis",
+  "description": "Each event must provide exactly one locator (asset_id, sha256 or path); asset_intelligence.py enforces that semantic invariant.",
+  "type": "object",
+  "required": ["schema_version", "updated_at", "events"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "video_id", "video_sequence", "used_at", "role"],
+        "properties": {
+          "event_id": {"type": "string", "minLength": 1},
+          "asset_id": {"type": "string", "minLength": 1},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "path": {"type": "string", "minLength": 1},
+          "video_id": {"type": "string", "pattern": "^VIDEO-[0-9]{2,4}$"},
+          "video_sequence": {"type": "integer", "minimum": 1},
+          "used_at": {"type": "string", "format": "date-time"},
+          "role": {"type": "string", "minLength": 1},
+          "family": {"type": ["string", "null"]}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

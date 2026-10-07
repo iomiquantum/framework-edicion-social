@@ -1,0 +1,88 @@
+{
+  "date_local": "2026-09-30",
+  "tracks": [
+    {
+      "id": "BGM-CAND-SB-RESONANCE-ALT",
+      "title": "Resonance",
+      "mix": "No Melody in Backend",
+      "slug": "resonance",
+      "url": "https://www.scottbuckley.com.au/library/wp-content/uploads/2018/04/sb_resonance_altmix.mp3",
+      "file": "library/music/candidates/2026-09-30-funciones/resonance-no-backend-melody.mp3",
+      "roles": [
+        "curiosidad",
+        "tension",
+        "contraste"
+      ],
+      "description": "El compositor describe pulso electrónico, guitarras ambientales y desarrollo de sintetizadores más intenso.",
+      "caution": "Carácter oscuro/industrial. No usar como fondo genérico; revisar actividad y palabras suaves.",
+      "start": 20,
+      "author": "Scott Buckley",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_page": "https://www.scottbuckley.com.au/library/resonance/",
+      "retrieved_local": "2026-09-30",
+      "sha256": "a09c0ea14aa6942ed4023dcc95a754108fdba9bca7087853d36ffe0a264c16cb",
+      "bytes": 11882805,
+      "source_html_sha256": "dc4cb0dbe1b7cadf908ab02b3aa40217617c1dbcc93c2c0b992b0a89d2deaf73",
+      "source_html": "library/music/candidates/2026-09-30-funciones/licencias/resonance-fuente.html",
+      "duration_s": 296.980567,
+      "decode_full": "PASS",
+      "status": "candidate_not_listened",
+      "human_listening": "por confirmar",
+      "credit": "'Resonance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/resonance/ · https://creativecommons.org/licenses/by/4.0/.",
+      "preview": "research/musica-bajo-voz-2026-09-30/audiciones/biblioteca-funciones/resonance-20s.wav",
+      "preview_sha256": "50386d6ae1aa21d4bca4e378fc48503cfb1e00ef34e28d866b193e250e75c035",
+      "preview_changes": {
+        "source_start_s": 20,
+        "duration_s": 20,
+        "constant_gain_db": 1.3500000000000014,
+        "fade_in_s": 0.1,
+        "fade_out_s": 0.5,
+        "compression": false
+      }
+    },
+    {
+      "id": "BGM-CAND-SB-SARSAPARILLA",
+      "title": "Sarsaparilla",
+      "mix": "Full Mix",
+      "slug": "sarsaparilla",
+      "url": "https://www.scottbuckley.com.au/wp-content/audio/sb_sarsaparilla.mp3",
+      "file": "library/music/candidates/2026-09-30-funciones/sarsaparilla.mp3",
+      "roles": [
+        "impulso",
+        "ejemplo",
+        "solucion"
+      ],
+      "description": "El compositor describe pop luminoso con percusión, guitarra y sintetizadores.",
+      "caution": "Arreglo denso y sin mezcla alternativa. Puede competir con la voz; candidato para probar, no elección final.",
+      "start": 40,
+      "author": "Scott Buckley",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_page": "https://www.scottbuckley.com.au/library/sarsaparilla/",
+      "retrieved_local": "2026-09-30",
+      "sha256": "23729fc534e6a350d158e8df86bf16fe9e611da85ab0b11b3e82666ab588deb6",
+      "bytes": 6007973,
+      "source_html_sha256": "a6d835ccab36195cd4c5163ebfb499f8a353fe028712b79e1a0d15d3ef01fa20",
+      "source_html": "library/music/candidates/2026-09-30-funciones/licencias/sarsaparilla-fuente.html",
+      "duration_s": 255.615896,
+      "decode_full": "PASS",
+      "status": "candidate_not_listened",
+      "human_listening": "por confirmar",
+      "credit": "'Sarsaparilla' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/sarsaparilla/ · https://creativecommons.org/licenses/by/4.0/.",
+      "preview": "research/musica-bajo-voz-2026-09-30/audiciones/biblioteca-funciones/sarsaparilla-20s.wav",
+      "preview_sha256": "02b94d5c1258ff5f38d08af7ca7fd23921de067077c60cb78679bf57ab743c1b",
+      "preview_changes": {
+        "source_start_s": 40,
+        "duration_s": 20,
+        "constant_gain_db": -6.27,
+        "fade_in_s": 0.1,
+        "fade_out_s": 0.5,
+        "compression": false
+      }
+    }
+  ],
+  "selection_basis": "Descripciones primarias y función editorial propuesta; encaje auditivo por confirmar.",
+  "fallback": "Inventario local revisado. HeyGen CLI no disponible en investigación previa; fuentes oficiales con licencia verificable.",
+  "recovery": "urllib Python del sistema carecía de CA local; curl con validación TLS permitió descargas, sin desactivar SSL."
+}

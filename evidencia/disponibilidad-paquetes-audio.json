@@ -1,0 +1,51 @@
+[
+  {
+    "package": "ai-edge-litert/2.2.0",
+    "windows": true,
+    "mac_arm64": true,
+    "files": [
+      "ai_edge_litert-2.2.0-cp312-cp312-macosx_12_0_arm64.whl",
+      "ai_edge_litert-2.2.0-cp312-cp312-win_amd64.whl"
+    ]
+  },
+  {
+    "package": "numpy/2.4.6",
+    "windows": true,
+    "mac_arm64": true,
+    "files": [
+      "numpy-2.4.6-cp312-cp312-macosx_10_13_x86_64.whl",
+      "numpy-2.4.6-cp312-cp312-macosx_11_0_arm64.whl",
+      "numpy-2.4.6-cp312-cp312-macosx_14_0_arm64.whl",
+      "numpy-2.4.6-cp312-cp312-macosx_14_0_x86_64.whl",
+      "numpy-2.4.6-cp312-cp312-win_amd64.whl"
+    ]
+  },
+  {
+    "package": "scipy/1.17.1",
+    "windows": true,
+    "mac_arm64": true,
+    "files": [
+      "scipy-1.17.1-cp312-cp312-macosx_10_14_x86_64.whl",
+      "scipy-1.17.1-cp312-cp312-macosx_12_0_arm64.whl",
+      "scipy-1.17.1-cp312-cp312-macosx_14_0_arm64.whl",
+      "scipy-1.17.1-cp312-cp312-macosx_14_0_x86_64.whl",
+      "scipy-1.17.1-cp312-cp312-win_amd64.whl"
+    ]
+  },
+  {
+    "package": "soundfile/0.14.0",
+    "windows": true,
+    "mac_arm64": true,
+    "files": [
+      "soundfile-0.14.0-py2.py3-none-any.whl"
+    ]
+  },
+  {
+    "package": "pystoi/0.4.1",
+    "windows": true,
+    "mac_arm64": true,
+    "files": [
+      "pystoi-0.4.1-py2.py3-none-any.whl"
+    ]
+  }
+]

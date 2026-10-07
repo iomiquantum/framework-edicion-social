@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-24",
+  "consulted_at": "2026-09-24T09:07:51-05:00",
+  "scope": {
+    "country": "EC",
+    "region_fallback": "LATAM",
+    "language": "es",
+    "niche": "ai_education",
+    "platforms": ["instagram_reels", "tiktok", "youtube_shorts"],
+    "distribution": "organic"
+  },
+  "status": "material_platform_change",
+  "platform_changes": [
+    {
+      "id": "OBS-2026-09-24-YT-CONTENT-ID-1-3M",
+      "kind": "platform_change",
+      "claim": "Desde el 24 de septiembre de 2026, YouTube indica que los Shorts nuevos de más de un minuto y menos de tres minutos con una reclamación activa de Content ID ya no se bloquean automáticamente y pueden permanecer reproducibles.",
+      "source_id": "YOUTUBE_3MIN_SHORTS_CONTENT_ID_2026",
+      "source_url": "https://support.google.com/youtube/answer/15424877?hl=en",
+      "published_or_effective_at": "2026-09-24",
+      "observed_at": "2026-09-24",
+      "evidence_level": "A",
+      "scope_fit": "Aplicable a futuros Shorts verticales de 61 a 179 segundos. No cambia las limitaciones de piezas de hasta 60 segundos.",
+      "action": "Mantener verificación de licencia y Content ID antes de publicar; no interpretar 'puede permanecer reproducible' como permiso, ausencia de reclamación o monetización garantizada.",
+      "limitations": [
+        "La ayuda oficial no confirma disponibilidad diferenciada por Ecuador porque describe la regla general de YouTube.",
+        "Una reclamación puede seguir afectando visibilidad o monetización según su resolución.",
+        "No demuestra ninguna ventaja de retención ni recomienda alargar videos."
+      ]
+    },
+    {
+      "id": "OBS-2026-09-24-YT-CREATOR-TOOLS-2026",
+      "kind": "platform_change",
+      "claim": "YouTube anunció edición conversacional para Shorts y YouTube Create, orientación personalizada sobre borradores y pruebas A/B de hasta tres cortes de video para comparar cuál capta mejor la atención.",
+      "source_id": "YOUTUBE_MADE_ON_2026_CREATOR_TOOLS",
+      "source_url": "https://blog.youtube/intl/es-419/news-and-events/made-on-youtube-overview/",
+      "published_or_effective_at": "2026-09-23",
+      "observed_at": "2026-09-24",
+      "evidence_level": "A",
+      "scope_fit": "La publicación oficial en español LATAM es un proxy regional; puede complementar el sistema de variantes del framework cuando la función aparezca en la cuenta.",
+      "action": "No cambiar el proceso actual. Cuando la cuenta tenga acceso, probar hasta tres hooks manteniendo cuerpo, distribución y objetivo estables, y conservar las métricas propias como evidencia local.",
+      "limitations": [
+        "El anuncio no especifica fecha ni disponibilidad por Ecuador o por cuenta.",
+        "La plataforma no afirma que la edición automática mejore siempre la retención.",
+        "Una prueba A/B de plataforma no convierte por sí sola un resultado en regla universal."
+      ]
+    }
+  ],
+  "observed_patterns": [],
+  "deduplication": {
+    "against": "research/observations/2026-09-23.json",
+    "duplicates_removed": ["Disponibilidad general de Trends para Shorts ya registrada el 2026-09-23."],
+    "material_items_kept": 2
+  },
+  "coverage": {
+    "ecuador_specific_sample": "not_available",
+    "regional_proxy": "Official YouTube Spanish LATAM publication",
+    "official_sources_checked": ["YouTube Help", "YouTube Blog ES-LATAM", "TikTok Newsroom ES/LATAM", "Meta Newsroom LATAM"],
+    "recent_external_sample": "insufficient_evidence"
+  },
+  "notes": [
+    "No se encontró una muestra reciente y reproducible de videos verticales de tecnología o IA en español/Ecuador suficiente para declarar un patrón viral.",
+    "No se modificaron renders ni se promovieron hipótesis creativas a reglas."
+  ]
+}

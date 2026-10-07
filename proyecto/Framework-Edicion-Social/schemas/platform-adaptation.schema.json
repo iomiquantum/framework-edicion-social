@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/platform-adaptation.schema.json",
+  "title": "Platform derivative plan",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "adaptation_id",
+    "generated_at",
+    "output_root",
+    "master",
+    "catalog",
+    "status",
+    "blocking_reasons",
+    "policy",
+    "targets",
+    "binding"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.1.0"},
+    "adaptation_id": {"type": "string", "pattern": "^ADAPT-[A-Z0-9-]+$"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "output_root": {"type": "string", "minLength": 1},
+    "master": {
+      "type": "object",
+      "required": [
+        "master_id",
+        "manifest_path",
+        "profile_id",
+        "approval_status",
+        "explicit_user_approval",
+        "content_lock_status"
+      ],
+      "properties": {
+        "master_id": {"type": "string", "pattern": "^MASTER-[A-Z0-9-]+$"},
+        "manifest_path": {"type": "string", "minLength": 1},
+        "profile_id": {"type": "string", "pattern": "^PLATFORM-[A-Z0-9-]+-[0-9]{3}$"},
+        "approval_status": {"enum": ["pending", "approved", "rejected"]},
+        "explicit_user_approval": {"type": "boolean"},
+        "content_lock_status": {"enum": ["unlocked", "locked"]}
+      },
+      "additionalProperties": false
+    },
+    "catalog": {
+      "type": "object",
+      "required": ["path", "catalog_version"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "catalog_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"}
+      },
+      "additionalProperties": false
+    },
+    "status": {
+      "enum": [
+        "blocked_until_master_approved",
+        "blocked_until_content_locked",
+        "ready_for_platform_preview"
+      ]
+    },
+    "blocking_reasons": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "policy": {
+      "type": "object",
+      "required": ["strategy", "preserve", "allowed_changes", "prohibited_changes"],
+      "properties": {
+        "strategy": {"enum": ["approved_master_delta_only", "instagram_master_reuse_unless_material_delta"]},
+        "preserve": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "allowed_changes": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "prohibited_changes": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "profile_id",
+          "platform",
+          "surface",
+          "status",
+          "delta",
+          "safe_zone",
+          "export",
+          "hyperframes_variables",
+          "required_gates",
+          "gates",
+          "output_path"
+        ],
+        "properties": {
+          "profile_id": {"type": "string", "pattern": "^PLATFORM-[A-Z0-9-]+-[0-9]{3}$"},
+          "platform": {"enum": ["instagram", "tiktok", "youtube"]},
+          "surface": {"type": "string", "minLength": 1},
+          "status": {"enum": ["blocked", "ready_for_preview"]},
+          "delta": {
+            "type": "object",
+            "required": ["layout", "captions", "cta", "export", "semantic_guard"],
+            "properties": {
+              "layout": {"type": "string", "minLength": 1},
+              "captions": {"type": "string", "minLength": 1},
+              "cta": {"type": "string", "minLength": 1},
+              "export": {"type": "string", "minLength": 1},
+              "semantic_guard": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          },
+          "safe_zone": {
+            "type": "object",
+            "required": ["provenance", "requires_live_preview", "essential", "captions"],
+            "properties": {
+              "provenance": {"const": "internal_conservative_not_official"},
+              "requires_live_preview": {"const": true},
+              "essential": {
+                "type": "object",
+                "required": ["x", "y", "width", "height"],
+                "properties": {
+                  "x": {"type": "number", "minimum": 0, "maximum": 1},
+                  "y": {"type": "number", "minimum": 0, "maximum": 1},
+                  "width": {"type": "number", "minimum": 0, "maximum": 1},
+                  "height": {"type": "number", "minimum": 0, "maximum": 1}
+                },
+                "additionalProperties": false
+              },
+              "captions": {
+                "type": "object",
+                "required": ["x", "y", "width", "height"],
+                "properties": {
+                  "x": {"type": "number", "minimum": 0, "maximum": 1},
+                  "y": {"type": "number", "minimum": 0, "maximum": 1},
+                  "width": {"type": "number", "minimum": 0, "maximum": 1},
+                  "height": {"type": "number", "minimum": 0, "maximum": 1}
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "export": {
+            "type": "object",
+            "required": [
+              "width",
+              "height",
+              "fps",
+              "container",
+              "video_codec",
+              "pixel_format",
+              "target_bitrate_mbps",
+              "audio_codec",
+              "audio_sample_rate_hz",
+              "color_space"
+            ],
+            "properties": {
+              "width": {"type": "integer", "minimum": 1},
+              "height": {"type": "integer", "minimum": 1},
+              "fps": {"type": "number", "minimum": 1},
+              "container": {"type": "string", "minLength": 1},
+              "video_codec": {"type": "string", "minLength": 1},
+              "pixel_format": {"type": "string", "minLength": 1},
+              "target_bitrate_mbps": {"type": "number", "exclusiveMinimum": 0},
+              "audio_codec": {"type": "string", "minLength": 1},
+              "audio_sample_rate_hz": {"type": "integer", "minimum": 1},
+              "color_space": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          },
+          "hyperframes_variables": {
+            "type": "object",
+            "required": [
+              "platform_profile",
+              "layout_token",
+              "cta_token",
+              "safe_essential_x",
+              "safe_essential_y",
+              "safe_essential_width",
+              "safe_essential_height",
+              "caption_safe_x",
+              "caption_safe_y",
+              "caption_safe_width",
+              "caption_safe_height"
+            ],
+            "properties": {
+              "platform_profile": {"type": "string", "minLength": 1},
+              "layout_token": {"type": "string", "minLength": 1},
+              "cta_token": {"type": "string", "minLength": 1},
+              "safe_essential_x": {"type": "number", "minimum": 0, "maximum": 1},
+              "safe_essential_y": {"type": "number", "minimum": 0, "maximum": 1},
+              "safe_essential_width": {"type": "number", "minimum": 0, "maximum": 1},
+              "safe_essential_height": {"type": "number", "minimum": 0, "maximum": 1},
+              "caption_safe_x": {"type": "number", "minimum": 0, "maximum": 1},
+              "caption_safe_y": {"type": "number", "minimum": 0, "maximum": 1},
+              "caption_safe_width": {"type": "number", "minimum": 0, "maximum": 1},
+              "caption_safe_height": {"type": "number", "minimum": 0, "maximum": 1}
+            },
+            "additionalProperties": false
+          },
+          "required_gates": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {"type": "string", "pattern": "^[a-z][a-z0-9_-]+$"}
+          },
+          "gates": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id", "status", "evidence", "note"],
+              "properties": {
+                "id": {"type": "string", "pattern": "^[a-z][a-z0-9_-]+$"},
+                "status": {"enum": ["passed", "pending", "failed"]},
+                "evidence": {"type": ["string", "null"]},
+                "note": {"type": "string", "minLength": 1}
+              },
+              "additionalProperties": false
+            }
+          },
+          "output_path": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "binding": {
+      "type": "object",
+      "required": ["algorithm", "canonicalization", "payload_sha256"],
+      "properties": {
+        "algorithm": {"const": "sha256"},
+        "canonicalization": {"const": "json-sort-keys-utf8-v1"},
+        "payload_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

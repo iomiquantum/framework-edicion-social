@@ -1,0 +1,22 @@
+<!doctype html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;color:#181217;font-family:Inter,sans-serif;pointer-events:none}
+  .panel{position:absolute;left:54px;right:54px;top:66px;display:grid;grid-template-columns:1fr 104px 1fr;gap:16px;align-items:stretch}
+  .state,.arrow{min-height:190px;display:flex;align-items:center;justify-content:center;border:5px solid #181217;font:900 64px/.88 Inter,sans-serif;text-align:center;padding:26px 18px}
+  .state{background:#F4E7D3;box-shadow:9px 9px 0 #7C3AED}.state.bad{background:#DD596F;color:#181217;box-shadow:9px 9px 0 #181217}
+  .arrow{background:#181217;color:#F4E7D3;font-size:78px;padding:0}
+  .note{position:absolute;left:76px;right:76px;top:308px;background:#F4E7D3;border:4px solid #181217;padding:22px 26px;font:700 italic 48px/1 "EB Garamond",Georgia,serif;color:#7C3AED;text-align:center}
+</style>
+<div data-hf-id="hf-v12-idea-root" id="root" data-composition-id="scene-idea" data-duration="6.21" data-width="1080" data-height="1920">
+  <div class="panel"><div class="state" id="seen">VEN TU<br>OFERTA</div><div class="arrow" id="arrow">→</div><div class="state bad" id="no">NO<br>DECIDEN</div></div>
+  <div class="note" id="note">entender antes de decorar</div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#seen",{scale:0,opacity:0,y:20},{scale:1,opacity:1,y:0,duration:.46,ease:"power3.out"},.08)
+    .fromTo("#arrow",{scale:0,opacity:0},{scale:1,opacity:1,duration:.38,ease:"power3.out"},.28)
+    .fromTo("#no",{scale:0,opacity:0,y:20},{scale:1,opacity:1,y:0,duration:.46,ease:"power3.out"},.44)
+    .fromTo("#note",{x:-36,opacity:0},{x:0,opacity:1,duration:.40,ease:"power2.out"},.74);
+  window.__timelines["scene-idea"]=tl;
+</script>
+</template></body></html>

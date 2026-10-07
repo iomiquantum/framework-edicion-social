@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;color:#17323B;font-family:Inter,Arial,sans-serif;pointer-events:none}.cue{position:absolute;left:54px;right:54px;bottom:500px;min-height:126px;padding:24px 28px 26px;background:rgba(242,231,213,.98);border:5px solid #17323B;box-shadow:12px 12px 0 #C84A3D;font-size:60px;font-weight:900;line-height:1.02;text-align:center;letter-spacing:-1px;opacity:0;display:flex;align-items:center;justify-content:center;flex-wrap:wrap}.cue.long{font-size:54px}.cue b{color:#17323B;text-decoration:underline;text-decoration-color:#C84A3D;text-decoration-thickness:8px;text-underline-offset:7px}.cue .teal{text-decoration:underline;text-decoration-color:#3B8C91;text-decoration-thickness:8px;text-underline-offset:7px}#c5a .teal{margin-left:.18em}
+</style>
+<div data-hf-id="hf-v15-captions-root" id="root" data-composition-id="captions-es" data-duration="21.072" data-width="1080" data-height="1920" data-layout-allow-caption-zone="">
+  <div data-hf-id="hf-2h13" id="c1" class="cue">No automatices algo que <b data-hf-id="hf-b5o7">no entiendes.</b></div><div data-hf-id="hf-izkf" id="c2" class="cue long">Uno de los peores errores con <span data-hf-id="hf-jsp7" class="teal">inteligencia artificial</span></div><div data-hf-id="hf-1sp8" id="c3" class="cue long">es automatizar <b data-hf-id="hf-el0w">demasiado pronto</b> cualquier proceso.</div><div data-hf-id="hf-bprd" id="c4" class="cue">Si todavía no sabes <span data-hf-id="hf-cwtg" class="teal">por qué funciona,</span></div><div data-hf-id="hf-eole" id="c5a" class="cue">Automatizarlo puede <span data-hf-id="hf-v15-cap-significar" class="teal">significar</span></div><div data-hf-id="hf-v15-cap-return" id="c5b" class="cue long">repetir más rápido algo que <b data-hf-id="hf-qgpi">ya está mal.</b></div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});const cues=[["#c1",.06,1.95],["#c2",2.40,6.142],["#c3",6.142,8.388],["#c4",8.888,12.592],["#c5a",12.652,15.772],["#c5b",16.132,20.832]];cues.forEach(([id,a,b])=>{tl.fromTo(id,{opacity:0,y:18},{opacity:1,y:0,duration:.10,ease:"power1.out"},a).to(id,{opacity:0,y:-8,duration:.10,ease:"power1.in"},Math.max(a,b-.10))});window.__timelines["captions-es"]=tl;
+</script>
+</template></body></html>

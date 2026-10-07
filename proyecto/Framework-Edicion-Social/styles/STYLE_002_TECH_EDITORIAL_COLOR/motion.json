@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.1.0",
+  "style_id": "STYLE_002_TECH_EDITORIAL_COLOR",
+  "version": "1.1.0",
+  "presets": {
+    "caption_enter": {"duration_s": 0.18, "y_px": 16, "scale_from": 0.985, "ease": "power2.out"},
+    "card_enter": {"duration_s": 0.30, "x_px": 26, "scale_from": 0.88, "ease": "back.out(1.45)"},
+    "cutaway_enter": {"duration_s": 0.32, "scale_from": 1.05, "ease": "power2.out"},
+    "speaker_punch_in": {"scale_range": [1.09, 1.12], "duration_s_range": [0.6, 1.2], "ease": "sine.inOut", "face_safe_origin_required": true}
+  },
+  "rules": {
+    "semantic_trigger_required": true,
+    "continuous_spin_allowed": false,
+    "fixed_interval_zooms_allowed": false,
+    "random_transition_selection_allowed": false
+  }
+}

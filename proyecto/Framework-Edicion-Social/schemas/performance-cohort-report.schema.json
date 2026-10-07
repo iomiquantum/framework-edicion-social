@@ -1,0 +1,211 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/performance-cohort-report.schema.json",
+  "title": "Lineage-verified non-causal cohort performance report",
+  "type": "object",
+  "required": ["schema_version", "report_id", "generated_at", "source_store_id", "source_store_sha256", "observation_count", "production_record_ids", "analysis_parameters", "cohorts", "separation_notice", "governance"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "report_id": {"type": "string", "pattern": "^COHORT-REPORT-[A-F0-9]{16}$"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "source_store_id": {"type": "string", "minLength": 1},
+    "source_store_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "observation_count": {"type": "integer", "minimum": 0},
+    "production_record_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^PROD-[A-F0-9]{16}$"}
+    },
+    "analysis_parameters": {
+      "type": "object",
+      "required": ["aggregation_version", "window_tolerance_hours", "minimum_comparable_publications", "creative_dimensions", "cohort_unit", "effective_sample_rule", "material_confounder_strength_cap", "production_comparison_status"],
+      "properties": {
+        "aggregation_version": {"const": "2.0.0"},
+        "window_tolerance_hours": {
+          "type": "object",
+          "required": ["24", "72", "168"],
+          "properties": {
+            "24": {"const": 2},
+            "72": {"const": 4},
+            "168": {"const": 8}
+          },
+          "additionalProperties": false
+        },
+        "minimum_comparable_publications": {"const": 3},
+        "creative_dimensions": {
+          "type": "array",
+          "minItems": 8,
+          "maxItems": 8,
+          "uniqueItems": true,
+          "items": {"enum": ["primary_family_id", "recipe_id", "hook_id", "structure_id", "visual_system_id", "motion_id", "sound_id", "cta_id"]}
+        },
+        "cohort_unit": {"const": "unique_publication"},
+        "effective_sample_rule": {"const": "intersection_of_all_core_metrics"},
+        "material_confounder_strength_cap": {"const": "exploratory"},
+        "production_comparison_status": {"const": "verified_only"}
+      },
+      "additionalProperties": false
+    },
+    "cohorts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["cohort_id", "definition", "members", "sample_size", "effective_sample_size", "evidence_strength", "creative_performance", "creative_variation", "production_efficiency", "interpretation"],
+        "properties": {
+          "cohort_id": {"type": "string", "pattern": "^COHORT-[A-F0-9]{16}$"},
+          "definition": {
+            "type": "object",
+            "required": ["project_id", "platform", "surface", "target_profile_id", "window_hours", "traffic_source", "campaign_objective", "duration_band", "audience_segment", "account_id", "language", "topic_id", "campaign_id", "publication_period", "currency"],
+            "properties": {
+              "project_id": {"type": "string", "minLength": 1},
+              "platform": {"type": "string", "minLength": 1},
+              "surface": {"type": "string", "minLength": 1},
+              "target_profile_id": {"type": "string", "minLength": 1},
+              "window_hours": {"enum": [24, 72, 168]},
+              "traffic_source": {"type": "string", "minLength": 1},
+              "campaign_objective": {"type": ["string", "null"]},
+              "duration_band": {"enum": ["01-20s", "21-40s", "41-60s", "61s-plus"]},
+              "audience_segment": {"type": ["string", "null"]},
+              "account_id": {"type": "string", "minLength": 1},
+              "language": {"type": "string", "minLength": 2},
+              "topic_id": {"type": "string", "minLength": 1},
+              "campaign_id": {"type": ["string", "null"]},
+              "publication_period": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}$"},
+              "currency": {"type": ["string", "null"]}
+            },
+            "additionalProperties": false
+          },
+          "members": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "object",
+              "required": ["observation_id", "publication_id", "video_id"],
+              "properties": {
+                "observation_id": {"type": "string", "pattern": "^OBS-[A-F0-9]{16}$"},
+                "publication_id": {"type": "string", "minLength": 1},
+                "video_id": {"type": "string", "pattern": "^VIDEO-[0-9]{2,}$"}
+              },
+              "additionalProperties": false
+            }
+          },
+          "sample_size": {"type": "integer", "minimum": 1},
+          "effective_sample_size": {"type": "integer", "minimum": 0},
+          "evidence_strength": {"enum": ["insufficient", "exploratory", "directional", "stronger_non_causal"]},
+          "creative_performance": {
+            "type": "object",
+            "required": ["median_views", "median_completion_rate", "median_average_watch_ratio", "median_shares_per_reach", "median_saves_per_reach", "effective_publications"],
+            "properties": {
+              "median_views": {"type": ["number", "null"], "minimum": 0},
+              "median_completion_rate": {"type": ["number", "null"], "minimum": 0},
+              "median_average_watch_ratio": {"type": ["number", "null"], "minimum": 0},
+              "median_shares_per_reach": {"type": ["number", "null"], "minimum": 0},
+              "median_saves_per_reach": {"type": ["number", "null"], "minimum": 0},
+              "effective_publications": {
+                "type": "object",
+                "required": ["views", "completion_rate", "average_watch_ratio", "shares_per_reach", "saves_per_reach", "joint_core"],
+                "properties": {
+                  "views": {"type": "integer", "minimum": 0},
+                  "completion_rate": {"type": "integer", "minimum": 0},
+                  "average_watch_ratio": {"type": "integer", "minimum": 0},
+                  "shares_per_reach": {"type": "integer", "minimum": 0},
+                  "saves_per_reach": {"type": "integer", "minimum": 0},
+                  "joint_core": {"type": "integer", "minimum": 0}
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "creative_variation": {
+            "type": "array",
+            "minItems": 8,
+            "maxItems": 8,
+            "items": {
+              "type": "object",
+              "required": ["dimension", "status", "variant_count", "missing_publications", "cohort_publications", "variants"],
+              "properties": {
+                "dimension": {"enum": ["primary_family_id", "recipe_id", "hook_id", "structure_id", "visual_system_id", "motion_id", "sound_id", "cta_id"]},
+                "status": {"enum": ["missing", "single_variant", "multiple_variants"]},
+                "variant_count": {"type": "integer", "minimum": 0},
+                "missing_publications": {"type": "integer", "minimum": 0},
+                "cohort_publications": {"type": "integer", "minimum": 1},
+                "variants": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["value", "publication_count", "median_views", "median_completion_rate", "median_average_watch_ratio", "median_shares_per_reach", "median_saves_per_reach", "effective_publications"],
+                    "properties": {
+                      "value": {"type": "string", "minLength": 1},
+                      "publication_count": {"type": "integer", "minimum": 1},
+                      "median_views": {"type": ["number", "null"], "minimum": 0},
+                      "median_completion_rate": {"type": ["number", "null"], "minimum": 0},
+                      "median_average_watch_ratio": {"type": ["number", "null"], "minimum": 0},
+                      "median_shares_per_reach": {"type": ["number", "null"], "minimum": 0},
+                      "median_saves_per_reach": {"type": ["number", "null"], "minimum": 0},
+                      "effective_publications": {
+                        "type": "object",
+                        "required": ["views", "completion_rate", "average_watch_ratio", "shares_per_reach", "saves_per_reach", "joint_core"],
+                        "properties": {
+                          "views": {"type": "integer", "minimum": 0},
+                          "completion_rate": {"type": "integer", "minimum": 0},
+                          "average_watch_ratio": {"type": "integer", "minimum": 0},
+                          "shares_per_reach": {"type": "integer", "minimum": 0},
+                          "saves_per_reach": {"type": "integer", "minimum": 0},
+                          "joint_core": {"type": "integer", "minimum": 0}
+                        },
+                        "additionalProperties": false
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "production_efficiency": {
+            "type": "object",
+            "required": ["status", "sample_size", "production_record_ids", "median_total_minutes", "median_review_rounds", "median_change_count", "not_combined_with_creative_score"],
+            "properties": {
+              "status": {"enum": ["not_measured", "measured_separately"]},
+              "sample_size": {"type": "integer", "minimum": 0},
+              "production_record_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^PROD-[A-F0-9]{16}$"}},
+              "median_total_minutes": {"type": ["number", "null"], "minimum": 0},
+              "median_review_rounds": {"type": ["number", "null"], "minimum": 0},
+              "median_change_count": {"type": ["number", "null"], "minimum": 0},
+              "not_combined_with_creative_score": {"const": true}
+            },
+            "additionalProperties": false
+          },
+          "interpretation": {
+            "type": "object",
+            "required": ["status", "minimum_additional_publications", "confounders", "next_step"],
+            "properties": {
+              "status": {"enum": ["collect_more", "human_hypothesis_review"]},
+              "minimum_additional_publications": {"type": "integer", "minimum": 0},
+              "confounders": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+              "next_step": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "separation_notice": {"type": "string", "minLength": 1},
+    "governance": {
+      "type": "object",
+      "required": ["causal_claim_allowed", "automatic_rule_promotion", "minimum_comparable_publications", "human_interpretation_required"],
+      "properties": {
+        "causal_claim_allowed": {"const": false},
+        "automatic_rule_promotion": {"const": false},
+        "minimum_comparable_publications": {"const": 3},
+        "human_interpretation_required": {"const": true}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

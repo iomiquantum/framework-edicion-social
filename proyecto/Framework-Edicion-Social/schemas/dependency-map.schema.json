@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/dependency-map.schema.json",
+  "title": "Production dependency map",
+  "type": "object",
+  "required": ["schema_version", "project_id", "inputs", "layers"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "project_id": {"type": "string"},
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "description"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z][a-z0-9_-]*$"},
+          "description": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "layers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "description", "depends_on", "heavy", "artifacts"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z][a-z0-9_-]*$"},
+          "description": {"type": "string"},
+          "depends_on": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {"type": "string", "pattern": "^[a-z][a-z0-9_-]*$"}
+          },
+          "heavy": {"type": "boolean"},
+          "artifacts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "path", "kind"],
+              "properties": {
+                "id": {"type": "string", "pattern": "^[a-z][a-z0-9_-]*$"},
+                "path": {"type": "string", "minLength": 1},
+                "kind": {"enum": ["file", "directory", "logical"]}
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

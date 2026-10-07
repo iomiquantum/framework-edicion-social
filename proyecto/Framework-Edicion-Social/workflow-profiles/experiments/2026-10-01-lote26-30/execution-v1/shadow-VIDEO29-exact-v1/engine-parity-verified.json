@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "engine_version": "0.8.100",
+  "export_sha256": "5a9a4de94a95cfda18ad275666870997809f39acb111971d8c50146ba4b54bdd",
+  "reference_sha256": "c426f1c94ae2eaa1dbe892be939af7d3dbeebe7299ff669b02400149f7fb8991",
+  "decoded_samples_exact": true,
+  "sample_count_per_channel": 1150976,
+  "full_correlation": 1.0,
+  "reference_measurements": [
+    {
+      "true_peak_dbfs": -2.0,
+      "integrated_lufs": -18.0
+    }
+  ],
+  "global_attenuation_db": 0.0,
+  "export_loudness": {
+    "true_peak_dbfs": -2.0,
+    "integrated_lufs": -18.0
+  },
+  "events": [
+    {
+      "id": "sfx-escucha",
+      "start_s": 0.18,
+      "duration_s": 0.72,
+      "decoded_samples_exact": true,
+      "correlation": 1.0
+    },
+    {
+      "id": "sfx-utilidad",
+      "start_s": 6.34,
+      "duration_s": 0.085,
+      "decoded_samples_exact": true,
+      "correlation": 1.0
+    },
+    {
+      "id": "sfx-antes",
+      "start_s": 17.5,
+      "duration_s": 0.5,
+      "decoded_samples_exact": true,
+      "correlation": 0.9999999999999998
+    }
+  ],
+  "human_listened": false,
+  "wall_seconds": 1.1701099590281956,
+  "limits": "Technical identity of complete mix and each event; does not establish subjective audibility, naturalness or mobile playback."
+}

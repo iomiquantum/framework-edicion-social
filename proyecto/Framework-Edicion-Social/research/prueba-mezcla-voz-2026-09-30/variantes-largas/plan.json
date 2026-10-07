@@ -1,0 +1,2513 @@
+[
+  {
+    "id": "largo-53",
+    "variant": "A",
+    "title": "Pulso y precisión",
+    "direction": "Groove presente que se controla por frase. Corte seco en tesis, transiciones cortas, movimientos medidos; sonido al frente solo cuando la voz da espacio.",
+    "reference_principles": {
+      "source_analysis": "research/musica-bajo-voz-2026-09-30/ANALISIS_REFERENCIAS_SONORAS.md",
+      "principles": [
+        "Entrada/acento de promesa.",
+        "Cambio de carácter ligado a idea.",
+        "Puente con menos densidad.",
+        "Retirada fuerte en interrupción/tesis.",
+        "Reentrada a solución con cola protegida.",
+        "Pregunta/acción final con voz prioritaria."
+      ],
+      "not_claimed": [
+        "Canciones/efectos exactos o faders originales de referencia.",
+        "Escucha perceptual por agente.",
+        "Retención demostrada."
+      ]
+    },
+    "chapters": [
+      [
+        0,
+        "El retrabajo"
+      ],
+      [
+        4.975,
+        "El bucle"
+      ],
+      [
+        16.378,
+        "Diseñar un flujo"
+      ],
+      [
+        33.311,
+        "La tesis"
+      ],
+      [
+        35.107,
+        "Prueba práctica"
+      ],
+      [
+        47.746,
+        "La pregunta"
+      ]
+    ],
+    "music": [
+      {
+        "music": "cipher",
+        "start": 0,
+        "end": 16.24,
+        "source_start": 27,
+        "relative_db_points": [
+          [
+            0,
+            -25
+          ],
+          [
+            0.5,
+            -15
+          ],
+          [
+            3.3,
+            -23
+          ],
+          [
+            4.8,
+            -15
+          ],
+          [
+            7.5,
+            -20
+          ],
+          [
+            8.4,
+            -16
+          ],
+          [
+            10.4,
+            -24
+          ],
+          [
+            11.3,
+            -18
+          ],
+          [
+            14.4,
+            -24
+          ],
+          [
+            15.3,
+            -30
+          ],
+          [
+            16.24,
+            -70
+          ]
+        ],
+        "role": "Bucle con groove y colas de voz despejadas.",
+        "character": "abierto"
+      },
+      {
+        "music": "backbay",
+        "start": 19.0,
+        "end": 32.77,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            19,
+            -35
+          ],
+          [
+            19.5,
+            -16
+          ],
+          [
+            20.8,
+            -22
+          ],
+          [
+            22.9,
+            -19
+          ],
+          [
+            24.6,
+            -29
+          ],
+          [
+            25.4,
+            -23
+          ],
+          [
+            29.7,
+            -25
+          ],
+          [
+            31.8,
+            -30
+          ],
+          [
+            32.77,
+            -70
+          ]
+        ],
+        "role": "Flujo, con espacio para criterios.",
+        "character": "abierto"
+      },
+      {
+        "music": "backbay",
+        "start": 35.06,
+        "end": 52.93,
+        "source_start": 70,
+        "relative_db_points": [
+          [
+            35.06,
+            -35
+          ],
+          [
+            35.7,
+            -16
+          ],
+          [
+            38.6,
+            -24
+          ],
+          [
+            39.2,
+            -20
+          ],
+          [
+            42.7,
+            -27
+          ],
+          [
+            44.2,
+            -35
+          ],
+          [
+            46.2,
+            -23
+          ],
+          [
+            47.4,
+            -28
+          ],
+          [
+            49.2,
+            -28
+          ],
+          [
+            51.6,
+            -40
+          ],
+          [
+            52.93,
+            -70
+          ]
+        ],
+        "role": "Aplicación; retirar al diseñar primero sistema y en pregunta.",
+        "character": "abierto"
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.025,
+        "file": "aire_breve",
+        "reason": "Apertura y advertencia inicial.",
+        "target_relative_rms_db": -14,
+        "reverse": false
+      },
+      {
+        "start": 4.79,
+        "file": "clic_calido",
+        "reason": "Pides: inicio del bucle.",
+        "target_relative_rms_db": -12,
+        "reverse": false
+      },
+      {
+        "start": 7.86,
+        "file": "dato_claro",
+        "reason": "Otra versión, avance que retorna.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 10.96,
+        "file": "reinicio_suave",
+        "reason": "El bucle vuelve.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 16.21,
+        "file": "cambio_corto",
+        "reason": "Automatizar: cambio de definición.",
+        "target_relative_rms_db": -14,
+        "reverse": false
+      },
+      {
+        "start": 19.01,
+        "file": "resolucion_doble",
+        "reason": "Diseñar el flujo y sus reglas.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 24.88,
+        "file": "pulso_redondo",
+        "reason": "Todo vuelve a ti; baja el arreglo.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 33.04,
+        "file": "pulso_redondo",
+        "reason": "Tesis, fondo retirado.",
+        "target_relative_rms_db": -12,
+        "reverse": false
+      },
+      {
+        "start": 34.93,
+        "file": "dato_claro",
+        "reason": "Haz esta prueba: inicia aplicación.",
+        "target_relative_rms_db": -12,
+        "reverse": false
+      },
+      {
+        "start": 38.94,
+        "file": "clic_calido",
+        "reason": "Comprobar con una regla.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 43.17,
+        "file": "clic_calido",
+        "reason": "Punto final de la lista, discreto.",
+        "target_relative_rms_db": -17,
+        "reverse": false
+      },
+      {
+        "start": 47.56,
+        "file": "cambio_corto",
+        "reason": "Pregunta de cierre, sin crescendo.",
+        "target_relative_rms_db": -17,
+        "reverse": false
+      }
+    ],
+    "voice_policy": "Mismo WAV de voz y ganancia que primera prueba. Sin nuevas restauraciones ni manipulación vocal.",
+    "human_review": "por confirmar"
+  },
+  {
+    "id": "largo-53",
+    "variant": "B",
+    "title": "Cálida y fluida",
+    "direction": "Paleta acústica y piano ligero, transiciones suaves, menos impactos, microvariación de arreglo. Alternativa al pulso electrónico.",
+    "reference_principles": {
+      "source_analysis": "research/musica-bajo-voz-2026-09-30/ANALISIS_REFERENCIAS_SONORAS.md",
+      "principles": [
+        "Entrada/acento de promesa.",
+        "Cambio de carácter ligado a idea.",
+        "Puente con menos densidad.",
+        "Retirada fuerte en interrupción/tesis.",
+        "Reentrada a solución con cola protegida.",
+        "Pregunta/acción final con voz prioritaria."
+      ],
+      "not_claimed": [
+        "Canciones/efectos exactos o faders originales de referencia.",
+        "Escucha perceptual por agente.",
+        "Retención demostrada."
+      ]
+    },
+    "chapters": [
+      [
+        0,
+        "El retrabajo"
+      ],
+      [
+        4.975,
+        "El bucle"
+      ],
+      [
+        16.378,
+        "Diseñar un flujo"
+      ],
+      [
+        33.311,
+        "La tesis"
+      ],
+      [
+        35.107,
+        "Prueba práctica"
+      ],
+      [
+        47.746,
+        "La pregunta"
+      ]
+    ],
+    "music": [
+      {
+        "music": "backbay",
+        "start": 0,
+        "end": 16.18,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            0,
+            -25
+          ],
+          [
+            0.6,
+            -17
+          ],
+          [
+            3.1,
+            -24
+          ],
+          [
+            5,
+            -19
+          ],
+          [
+            7.8,
+            -25
+          ],
+          [
+            8.6,
+            -18
+          ],
+          [
+            10.3,
+            -26
+          ],
+          [
+            11.5,
+            -22
+          ],
+          [
+            15.2,
+            -31
+          ],
+          [
+            16.18,
+            -70
+          ]
+        ],
+        "role": "Relato de negocio con avance ligero.",
+        "character": "abierto"
+      },
+      {
+        "music": "clean",
+        "start": 16.26,
+        "end": 32.72,
+        "source_start": 31,
+        "relative_db_points": [
+          [
+            16.26,
+            -40
+          ],
+          [
+            17.1,
+            -21
+          ],
+          [
+            18.7,
+            -26
+          ],
+          [
+            19.6,
+            -19
+          ],
+          [
+            22.5,
+            -23
+          ],
+          [
+            24.6,
+            -30
+          ],
+          [
+            26,
+            -24
+          ],
+          [
+            30.4,
+            -29
+          ],
+          [
+            32.72,
+            -70
+          ]
+        ],
+        "role": "Definición/sistema con otra textura; tesis fuera.",
+        "character": "abierto"
+      },
+      {
+        "music": "backbay",
+        "start": 35.08,
+        "end": 47.45,
+        "source_start": 75,
+        "relative_db_points": [
+          [
+            35.08,
+            -36
+          ],
+          [
+            35.7,
+            -18
+          ],
+          [
+            38.8,
+            -24
+          ],
+          [
+            40.1,
+            -21
+          ],
+          [
+            43.2,
+            -28
+          ],
+          [
+            44.2,
+            -35
+          ],
+          [
+            46,
+            -24
+          ],
+          [
+            47.45,
+            -70
+          ]
+        ],
+        "role": "Aplicación con una retirada en la condición.",
+        "character": "abierto"
+      },
+      {
+        "music": "clean",
+        "start": 47.7,
+        "end": 52.93,
+        "source_start": 69,
+        "relative_db_points": [
+          [
+            47.7,
+            -38
+          ],
+          [
+            48.4,
+            -25
+          ],
+          [
+            50.1,
+            -29
+          ],
+          [
+            51.7,
+            -36
+          ],
+          [
+            52.93,
+            -70
+          ]
+        ],
+        "role": "Pregunta con piano tenue.",
+        "character": "abierto"
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.025,
+        "file": "aire_breve",
+        "reason": "Apertura y advertencia inicial.",
+        "target_relative_rms_db": -14,
+        "reverse": false
+      },
+      {
+        "start": 4.79,
+        "file": "clic_calido",
+        "reason": "Pides: inicio del bucle.",
+        "target_relative_rms_db": -12,
+        "reverse": false
+      },
+      {
+        "start": 10.96,
+        "file": "reinicio_suave",
+        "reason": "El bucle vuelve.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 16.21,
+        "file": "cambio_corto",
+        "reason": "Automatizar: cambio de definición.",
+        "target_relative_rms_db": -14,
+        "reverse": false
+      },
+      {
+        "start": 19.01,
+        "file": "resolucion_doble",
+        "reason": "Diseñar el flujo y sus reglas.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 33.04,
+        "file": "pulso_redondo",
+        "reason": "Tesis, fondo retirado.",
+        "target_relative_rms_db": -12,
+        "reverse": false
+      },
+      {
+        "start": 34.93,
+        "file": "dato_claro",
+        "reason": "Haz esta prueba: inicia aplicación.",
+        "target_relative_rms_db": -12,
+        "reverse": false
+      },
+      {
+        "start": 38.94,
+        "file": "clic_calido",
+        "reason": "Comprobar con una regla.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 47.56,
+        "file": "cambio_corto",
+        "reason": "Pregunta de cierre, sin crescendo.",
+        "target_relative_rms_db": -17,
+        "reverse": false
+      }
+    ],
+    "voice_policy": "Mismo WAV de voz y ganancia que primera prueba. Sin nuevas restauraciones ni manipulación vocal.",
+    "human_review": "por confirmar"
+  },
+  {
+    "id": "largo-53",
+    "variant": "C",
+    "title": "Contraste editorial",
+    "direction": "Más cambios, anticipaciones y acentos de lista; retiradas más marcadas y entradas más firmes. Comparar densidad, no asumir mejor por más efectos.",
+    "reference_principles": {
+      "source_analysis": "research/musica-bajo-voz-2026-09-30/ANALISIS_REFERENCIAS_SONORAS.md",
+      "principles": [
+        "Entrada/acento de promesa.",
+        "Cambio de carácter ligado a idea.",
+        "Puente con menos densidad.",
+        "Retirada fuerte en interrupción/tesis.",
+        "Reentrada a solución con cola protegida.",
+        "Pregunta/acción final con voz prioritaria."
+      ],
+      "not_claimed": [
+        "Canciones/efectos exactos o faders originales de referencia.",
+        "Escucha perceptual por agente.",
+        "Retención demostrada."
+      ]
+    },
+    "chapters": [
+      [
+        0,
+        "El retrabajo"
+      ],
+      [
+        4.975,
+        "El bucle"
+      ],
+      [
+        16.378,
+        "Diseñar un flujo"
+      ],
+      [
+        33.311,
+        "La tesis"
+      ],
+      [
+        35.107,
+        "Prueba práctica"
+      ],
+      [
+        47.746,
+        "La pregunta"
+      ]
+    ],
+    "music": [
+      {
+        "music": "neon",
+        "start": 0,
+        "end": 10.78,
+        "source_start": 45,
+        "relative_db_points": [
+          [
+            0,
+            -25
+          ],
+          [
+            0.5,
+            -15
+          ],
+          [
+            3.2,
+            -24
+          ],
+          [
+            4.8,
+            -14
+          ],
+          [
+            6.8,
+            -19
+          ],
+          [
+            7.7,
+            -24
+          ],
+          [
+            8.4,
+            -15
+          ],
+          [
+            10.0,
+            -30
+          ],
+          [
+            10.78,
+            -70
+          ]
+        ],
+        "role": "Mecanismo y montaje de pasos.",
+        "character": "abierto"
+      },
+      {
+        "music": "resonance",
+        "start": 11.16,
+        "end": 16.14,
+        "source_start": 20,
+        "relative_db_points": [
+          [
+            11.16,
+            -35
+          ],
+          [
+            11.9,
+            -20
+          ],
+          [
+            13.8,
+            -26
+          ],
+          [
+            15,
+            -32
+          ],
+          [
+            16.14,
+            -70
+          ]
+        ],
+        "role": "El bucle no desaparece, breve contraste oscuro.",
+        "character": "contenido"
+      },
+      {
+        "music": "clean",
+        "start": 18.99,
+        "end": 32.8,
+        "source_start": 31,
+        "relative_db_points": [
+          [
+            18.99,
+            -36
+          ],
+          [
+            19.6,
+            -18
+          ],
+          [
+            21,
+            -24
+          ],
+          [
+            23,
+            -21
+          ],
+          [
+            24.7,
+            -29
+          ],
+          [
+            26,
+            -22
+          ],
+          [
+            30.5,
+            -28
+          ],
+          [
+            32.8,
+            -70
+          ]
+        ],
+        "role": "El flujo aclara el mensaje.",
+        "character": "abierto"
+      },
+      {
+        "music": "sarsaparilla",
+        "start": 35.04,
+        "end": 47.55,
+        "source_start": 40,
+        "relative_db_points": [
+          [
+            35.04,
+            -40
+          ],
+          [
+            35.9,
+            -19
+          ],
+          [
+            38.5,
+            -25
+          ],
+          [
+            40,
+            -23
+          ],
+          [
+            42.6,
+            -28
+          ],
+          [
+            44.4,
+            -34
+          ],
+          [
+            46.1,
+            -28
+          ],
+          [
+            47.55,
+            -70
+          ]
+        ],
+        "role": "Acción con arreglo pop menos denso, sin climax.",
+        "character": "contenido"
+      },
+      {
+        "music": "clean",
+        "start": 48,
+        "end": 52.93,
+        "source_start": 78,
+        "relative_db_points": [
+          [
+            48,
+            -40
+          ],
+          [
+            48.8,
+            -28
+          ],
+          [
+            50.4,
+            -31
+          ],
+          [
+            51.7,
+            -38
+          ],
+          [
+            52.93,
+            -70
+          ]
+        ],
+        "role": "Pregunta sin ritmo insistente.",
+        "character": "abierto"
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.025,
+        "file": "aire_breve",
+        "reason": "Apertura y advertencia inicial.",
+        "target_relative_rms_db": -14,
+        "reverse": false
+      },
+      {
+        "start": 4.43,
+        "file": "aire_ascendente",
+        "reason": "Anticipación del bucle.",
+        "target_relative_rms_db": -19,
+        "reverse": false
+      },
+      {
+        "start": 4.79,
+        "file": "clic_calido",
+        "reason": "Pides: inicio del bucle.",
+        "target_relative_rms_db": -12,
+        "reverse": false
+      },
+      {
+        "start": 7.86,
+        "file": "dato_claro",
+        "reason": "Otra versión, avance que retorna.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 10.96,
+        "file": "reinicio_suave",
+        "reason": "El bucle vuelve.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 16.21,
+        "file": "cambio_corto",
+        "reason": "Automatizar: cambio de definición.",
+        "target_relative_rms_db": -14,
+        "reverse": false
+      },
+      {
+        "start": 18.6,
+        "file": "aire_ascendente",
+        "reason": "Preparar definición de flujo.",
+        "target_relative_rms_db": -18,
+        "reverse": false
+      },
+      {
+        "start": 19.01,
+        "file": "resolucion_doble",
+        "reason": "Diseñar el flujo y sus reglas.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 24.88,
+        "file": "pulso_redondo",
+        "reason": "Todo vuelve a ti; baja el arreglo.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 33.04,
+        "file": "pulso_redondo",
+        "reason": "Tesis, fondo retirado.",
+        "target_relative_rms_db": -12,
+        "reverse": false
+      },
+      {
+        "start": 34.57,
+        "file": "aire_ascendente",
+        "reason": "Preparar regreso a acción.",
+        "target_relative_rms_db": -19,
+        "reverse": false
+      },
+      {
+        "start": 34.93,
+        "file": "dato_claro",
+        "reason": "Haz esta prueba: inicia aplicación.",
+        "target_relative_rms_db": -12,
+        "reverse": false
+      },
+      {
+        "start": 38.94,
+        "file": "clic_calido",
+        "reason": "Comprobar con una regla.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 43.17,
+        "file": "clic_calido",
+        "reason": "Punto final de la lista, discreto.",
+        "target_relative_rms_db": -17,
+        "reverse": false
+      },
+      {
+        "start": 46.78,
+        "file": "resolucion_doble",
+        "reason": "Después añadeIA: acento contenido.",
+        "target_relative_rms_db": -18,
+        "reverse": false
+      },
+      {
+        "start": 47.56,
+        "file": "cambio_corto",
+        "reason": "Pregunta de cierre, sin crescendo.",
+        "target_relative_rms_db": -17,
+        "reverse": false
+      }
+    ],
+    "voice_policy": "Mismo WAV de voz y ganancia que primera prueba. Sin nuevas restauraciones ni manipulación vocal.",
+    "human_review": "por confirmar"
+  },
+  {
+    "id": "largo-159",
+    "variant": "A",
+    "title": "Pulso y precisión",
+    "direction": "Groove presente que se controla por frase. Corte seco en tesis, transiciones cortas, movimientos medidos; sonido al frente solo cuando la voz da espacio.",
+    "reference_principles": {
+      "source_analysis": "research/musica-bajo-voz-2026-09-30/ANALISIS_REFERENCIAS_SONORAS.md",
+      "principles": [
+        "Entrada/acento de promesa.",
+        "Cambio de carácter ligado a idea.",
+        "Puente con menos densidad.",
+        "Retirada fuerte en interrupción/tesis.",
+        "Reentrada a solución con cola protegida.",
+        "Pregunta/acción final con voz prioritaria."
+      ],
+      "not_claimed": [
+        "Canciones/efectos exactos o faders originales de referencia.",
+        "Escucha perceptual por agente.",
+        "Retención demostrada."
+      ]
+    },
+    "chapters": [
+      [
+        0,
+        "Atención o ventas"
+      ],
+      [
+        24.33,
+        "El cliente"
+      ],
+      [
+        37.236,
+        "La evidencia"
+      ],
+      [
+        59.005,
+        "Tu ventaja"
+      ],
+      [
+        83.449,
+        "El criterio"
+      ],
+      [
+        93.365,
+        "El riesgo"
+      ],
+      [
+        120.909,
+        "La acción"
+      ],
+      [
+        146.047,
+        "La pregunta correcta"
+      ]
+    ],
+    "music": [
+      {
+        "music": "cipher",
+        "start": 0,
+        "end": 24.4,
+        "source_start": 27,
+        "relative_db_points": [
+          [
+            0,
+            -26
+          ],
+          [
+            0.5,
+            -15
+          ],
+          [
+            2.2,
+            -21
+          ],
+          [
+            4.8,
+            -29
+          ],
+          [
+            6,
+            -19
+          ],
+          [
+            8.6,
+            -25
+          ],
+          [
+            10.1,
+            -21
+          ],
+          [
+            12.8,
+            -26
+          ],
+          [
+            13.5,
+            -16
+          ],
+          [
+            17.2,
+            -25
+          ],
+          [
+            18.8,
+            -18
+          ],
+          [
+            22,
+            -26
+          ],
+          [
+            23.7,
+            -31
+          ],
+          [
+            24.4,
+            -70
+          ]
+        ],
+        "role": "Problema y promesa; no toda frase con impacto.",
+        "character": "abierto"
+      },
+      {
+        "music": "backbay",
+        "start": 24.17,
+        "end": 37.1,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            24.17,
+            -38
+          ],
+          [
+            25,
+            -17
+          ],
+          [
+            27,
+            -24
+          ],
+          [
+            28.3,
+            -20
+          ],
+          [
+            31.6,
+            -25
+          ],
+          [
+            33.7,
+            -21
+          ],
+          [
+            36.4,
+            -30
+          ],
+          [
+            37.1,
+            -70
+          ]
+        ],
+        "role": "Cliente y resultado práctico.",
+        "character": "abierto"
+      },
+      {
+        "music": "clean",
+        "start": 37.19,
+        "end": 58.96,
+        "source_start": 31,
+        "relative_db_points": [
+          [
+            37.19,
+            -38
+          ],
+          [
+            38,
+            -20
+          ],
+          [
+            42.4,
+            -27
+          ],
+          [
+            43.3,
+            -22
+          ],
+          [
+            47.9,
+            -28
+          ],
+          [
+            49,
+            -18
+          ],
+          [
+            52,
+            -24
+          ],
+          [
+            54.9,
+            -21
+          ],
+          [
+            57.8,
+            -29
+          ],
+          [
+            58.96,
+            -70
+          ]
+        ],
+        "role": "Datos antes de respuestas.",
+        "character": "abierto"
+      },
+      {
+        "music": "backbay",
+        "start": 58.99,
+        "end": 83.32,
+        "source_start": 55,
+        "relative_db_points": [
+          [
+            58.99,
+            -37
+          ],
+          [
+            60,
+            -17
+          ],
+          [
+            61.7,
+            -23
+          ],
+          [
+            66.7,
+            -21
+          ],
+          [
+            69.2,
+            -27
+          ],
+          [
+            70.1,
+            -29
+          ],
+          [
+            73.5,
+            -33
+          ],
+          [
+            75,
+            -24
+          ],
+          [
+            79.1,
+            -22
+          ],
+          [
+            82.1,
+            -30
+          ],
+          [
+            83.32,
+            -70
+          ]
+        ],
+        "role": "Activos propios.",
+        "character": "abierto"
+      },
+      {
+        "music": "neon",
+        "start": 93.32,
+        "end": 120.77,
+        "source_start": 70,
+        "relative_db_points": [
+          [
+            93.32,
+            -37
+          ],
+          [
+            94.2,
+            -19
+          ],
+          [
+            96.3,
+            -27
+          ],
+          [
+            97.8,
+            -21
+          ],
+          [
+            103,
+            -24
+          ],
+          [
+            106.8,
+            -29
+          ],
+          [
+            108.5,
+            -22
+          ],
+          [
+            112.5,
+            -27
+          ],
+          [
+            115.5,
+            -31
+          ],
+          [
+            116.6,
+            -26
+          ],
+          [
+            119.5,
+            -34
+          ],
+          [
+            120.77,
+            -70
+          ]
+        ],
+        "role": "Riesgo con pulso; procesos clave tienen espacio.",
+        "character": "abierto"
+      },
+      {
+        "music": "backbay",
+        "start": 120.8,
+        "end": 146.05,
+        "source_start": 82,
+        "relative_db_points": [
+          [
+            120.8,
+            -38
+          ],
+          [
+            121.7,
+            -16
+          ],
+          [
+            125.5,
+            -24
+          ],
+          [
+            127.2,
+            -19
+          ],
+          [
+            133,
+            -23
+          ],
+          [
+            135.7,
+            -29
+          ],
+          [
+            137,
+            -17
+          ],
+          [
+            140.7,
+            -25
+          ],
+          [
+            141.8,
+            -38
+          ],
+          [
+            142.4,
+            -60
+          ],
+          [
+            143.4,
+            -31
+          ],
+          [
+            145.4,
+            -39
+          ],
+          [
+            146.05,
+            -70
+          ]
+        ],
+        "role": "Acción, frenar en una sola.",
+        "character": "abierto"
+      },
+      {
+        "music": "clean",
+        "start": 146.1,
+        "end": 158.798,
+        "source_start": 74,
+        "relative_db_points": [
+          [
+            146.1,
+            -40
+          ],
+          [
+            147.3,
+            -25
+          ],
+          [
+            149.3,
+            -31
+          ],
+          [
+            150.3,
+            -24
+          ],
+          [
+            153.2,
+            -29
+          ],
+          [
+            156.2,
+            -36
+          ],
+          [
+            158,
+            -44
+          ],
+          [
+            158.798,
+            -70
+          ]
+        ],
+        "role": "Pregunta sin competir.",
+        "character": "abierto"
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.025,
+        "file": "dato_claro",
+        "reason": "Atención o ventas: hook.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 5.48,
+        "file": "pulso_redondo",
+        "reason": "Contraste campaña/oferta.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 13.1,
+        "file": "clic_calido",
+        "reason": "Contenido genérico.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 24.2,
+        "file": "cambio_corto",
+        "reason": "Herramienta→cliente.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 33.35,
+        "file": "dato_claro",
+        "reason": "Diferencia que cambia el comienzo.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 37.02,
+        "file": "aire_breve",
+        "reason": "Cliente→evidencia.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 48.46,
+        "file": "clic_calido",
+        "reason": "Reúne evidencia.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 58.93,
+        "file": "resolucion_doble",
+        "reason": "Evidencia→ventaja propia.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 69.55,
+        "file": "pulso_redondo",
+        "reason": "Si vive en tu cabeza: contraste.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 83.32,
+        "file": "pulso_redondo",
+        "reason": "Pensar mejor, fondo fuera.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 93.27,
+        "file": "reinicio_suave",
+        "reason": "Advertencia sobre procesos.",
+        "target_relative_rms_db": -14,
+        "reverse": false
+      },
+      {
+        "start": 107.46,
+        "file": "clic_calido",
+        "reason": "Repetir el error más rápido.",
+        "target_relative_rms_db": -17,
+        "reverse": false
+      },
+      {
+        "start": 120.81,
+        "file": "cambio_corto",
+        "reason": "Riesgo→acción.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 126.4,
+        "file": "dato_claro",
+        "reason": "Información→aplicación.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 135.96,
+        "file": "clic_calido",
+        "reason": "Elegir una mejora concreta.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 142.19,
+        "file": "dato_claro",
+        "reason": "Una sola: retirada.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 146.01,
+        "file": "cambio_corto",
+        "reason": "La pregunta correcta.",
+        "target_relative_rms_db": -17,
+        "reverse": false
+      }
+    ],
+    "voice_policy": "Mismo WAV de voz y ganancia que primera prueba. Sin nuevas restauraciones ni manipulación vocal.",
+    "human_review": "por confirmar"
+  },
+  {
+    "id": "largo-159",
+    "variant": "B",
+    "title": "Cálida y fluida",
+    "direction": "Paleta acústica y piano ligero, transiciones suaves, menos impactos, microvariación de arreglo. Alternativa al pulso electrónico.",
+    "reference_principles": {
+      "source_analysis": "research/musica-bajo-voz-2026-09-30/ANALISIS_REFERENCIAS_SONORAS.md",
+      "principles": [
+        "Entrada/acento de promesa.",
+        "Cambio de carácter ligado a idea.",
+        "Puente con menos densidad.",
+        "Retirada fuerte en interrupción/tesis.",
+        "Reentrada a solución con cola protegida.",
+        "Pregunta/acción final con voz prioritaria."
+      ],
+      "not_claimed": [
+        "Canciones/efectos exactos o faders originales de referencia.",
+        "Escucha perceptual por agente.",
+        "Retención demostrada."
+      ]
+    },
+    "chapters": [
+      [
+        0,
+        "Atención o ventas"
+      ],
+      [
+        24.33,
+        "El cliente"
+      ],
+      [
+        37.236,
+        "La evidencia"
+      ],
+      [
+        59.005,
+        "Tu ventaja"
+      ],
+      [
+        83.449,
+        "El criterio"
+      ],
+      [
+        93.365,
+        "El riesgo"
+      ],
+      [
+        120.909,
+        "La acción"
+      ],
+      [
+        146.047,
+        "La pregunta correcta"
+      ]
+    ],
+    "music": [
+      {
+        "music": "backbay",
+        "start": 0,
+        "end": 24.39,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            0,
+            -26
+          ],
+          [
+            0.6,
+            -18
+          ],
+          [
+            3.9,
+            -26
+          ],
+          [
+            6,
+            -20
+          ],
+          [
+            8.8,
+            -28
+          ],
+          [
+            10,
+            -22
+          ],
+          [
+            12.8,
+            -30
+          ],
+          [
+            14,
+            -20
+          ],
+          [
+            17.6,
+            -26
+          ],
+          [
+            19.1,
+            -22
+          ],
+          [
+            22.7,
+            -28
+          ],
+          [
+            24.39,
+            -70
+          ]
+        ],
+        "role": "Negocio; groove sin urgencia.",
+        "character": "abierto"
+      },
+      {
+        "music": "clean",
+        "start": 24.15,
+        "end": 58.94,
+        "source_start": 31,
+        "relative_db_points": [
+          [
+            24.15,
+            -39
+          ],
+          [
+            25.1,
+            -21
+          ],
+          [
+            27.3,
+            -27
+          ],
+          [
+            28.5,
+            -22
+          ],
+          [
+            32.8,
+            -26
+          ],
+          [
+            35,
+            -24
+          ],
+          [
+            36.8,
+            -29
+          ],
+          [
+            38.1,
+            -20
+          ],
+          [
+            42.6,
+            -28
+          ],
+          [
+            44,
+            -24
+          ],
+          [
+            48.1,
+            -27
+          ],
+          [
+            50,
+            -20
+          ],
+          [
+            53.5,
+            -25
+          ],
+          [
+            55.6,
+            -24
+          ],
+          [
+            58,
+            -32
+          ],
+          [
+            58.94,
+            -70
+          ]
+        ],
+        "role": "Persona y evidencia con continuidad.",
+        "character": "abierto"
+      },
+      {
+        "music": "backbay",
+        "start": 59,
+        "end": 83.33,
+        "source_start": 73,
+        "relative_db_points": [
+          [
+            59,
+            -36
+          ],
+          [
+            60,
+            -19
+          ],
+          [
+            66,
+            -22
+          ],
+          [
+            69.1,
+            -29
+          ],
+          [
+            70.5,
+            -26
+          ],
+          [
+            73.5,
+            -32
+          ],
+          [
+            75.1,
+            -23
+          ],
+          [
+            79.2,
+            -23
+          ],
+          [
+            82.1,
+            -29
+          ],
+          [
+            83.33,
+            -70
+          ]
+        ],
+        "role": "Ventaja propia sin euforia.",
+        "character": "abierto"
+      },
+      {
+        "music": "clean",
+        "start": 94.2,
+        "end": 120.71,
+        "source_start": 91,
+        "relative_db_points": [
+          [
+            94.2,
+            -40
+          ],
+          [
+            95,
+            -24
+          ],
+          [
+            98,
+            -23
+          ],
+          [
+            102,
+            -25
+          ],
+          [
+            107.1,
+            -30
+          ],
+          [
+            109,
+            -24
+          ],
+          [
+            114.9,
+            -31
+          ],
+          [
+            117,
+            -28
+          ],
+          [
+            119.7,
+            -38
+          ],
+          [
+            120.71,
+            -70
+          ]
+        ],
+        "role": "Riesgo explicado, sin dramatizar.",
+        "character": "abierto"
+      },
+      {
+        "music": "sarsaparilla",
+        "start": 120.9,
+        "end": 141.98,
+        "source_start": 40,
+        "relative_db_points": [
+          [
+            120.9,
+            -40
+          ],
+          [
+            121.8,
+            -21
+          ],
+          [
+            125.6,
+            -27
+          ],
+          [
+            128.8,
+            -24
+          ],
+          [
+            133.1,
+            -28
+          ],
+          [
+            136.1,
+            -30
+          ],
+          [
+            137.5,
+            -21
+          ],
+          [
+            140.8,
+            -29
+          ],
+          [
+            141.98,
+            -70
+          ]
+        ],
+        "role": "Acción con percusión contenida.",
+        "character": "contenido"
+      },
+      {
+        "music": "clean",
+        "start": 146.22,
+        "end": 158.798,
+        "source_start": 76,
+        "relative_db_points": [
+          [
+            146.22,
+            -41
+          ],
+          [
+            147.2,
+            -27
+          ],
+          [
+            149.3,
+            -33
+          ],
+          [
+            150.4,
+            -26
+          ],
+          [
+            153.5,
+            -31
+          ],
+          [
+            156.4,
+            -37
+          ],
+          [
+            158.1,
+            -45
+          ],
+          [
+            158.798,
+            -70
+          ]
+        ],
+        "role": "Reflexión final.",
+        "character": "abierto"
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.025,
+        "file": "dato_claro",
+        "reason": "Atención o ventas: hook.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 24.2,
+        "file": "cambio_corto",
+        "reason": "Herramienta→cliente.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 37.02,
+        "file": "aire_breve",
+        "reason": "Cliente→evidencia.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 48.46,
+        "file": "clic_calido",
+        "reason": "Reúne evidencia.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 58.93,
+        "file": "resolucion_doble",
+        "reason": "Evidencia→ventaja propia.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 83.32,
+        "file": "pulso_redondo",
+        "reason": "Pensar mejor, fondo fuera.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 93.27,
+        "file": "reinicio_suave",
+        "reason": "Advertencia sobre procesos.",
+        "target_relative_rms_db": -14,
+        "reverse": false
+      },
+      {
+        "start": 120.81,
+        "file": "cambio_corto",
+        "reason": "Riesgo→acción.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 135.96,
+        "file": "clic_calido",
+        "reason": "Elegir una mejora concreta.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 142.19,
+        "file": "dato_claro",
+        "reason": "Una sola: retirada.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 146.01,
+        "file": "cambio_corto",
+        "reason": "La pregunta correcta.",
+        "target_relative_rms_db": -17,
+        "reverse": false
+      }
+    ],
+    "voice_policy": "Mismo WAV de voz y ganancia que primera prueba. Sin nuevas restauraciones ni manipulación vocal.",
+    "human_review": "por confirmar"
+  },
+  {
+    "id": "largo-159",
+    "variant": "C",
+    "title": "Contraste editorial",
+    "direction": "Más cambios, anticipaciones y acentos de lista; retiradas más marcadas y entradas más firmes. Comparar densidad, no asumir mejor por más efectos.",
+    "reference_principles": {
+      "source_analysis": "research/musica-bajo-voz-2026-09-30/ANALISIS_REFERENCIAS_SONORAS.md",
+      "principles": [
+        "Entrada/acento de promesa.",
+        "Cambio de carácter ligado a idea.",
+        "Puente con menos densidad.",
+        "Retirada fuerte en interrupción/tesis.",
+        "Reentrada a solución con cola protegida.",
+        "Pregunta/acción final con voz prioritaria."
+      ],
+      "not_claimed": [
+        "Canciones/efectos exactos o faders originales de referencia.",
+        "Escucha perceptual por agente.",
+        "Retención demostrada."
+      ]
+    },
+    "chapters": [
+      [
+        0,
+        "Atención o ventas"
+      ],
+      [
+        24.33,
+        "El cliente"
+      ],
+      [
+        37.236,
+        "La evidencia"
+      ],
+      [
+        59.005,
+        "Tu ventaja"
+      ],
+      [
+        83.449,
+        "El criterio"
+      ],
+      [
+        93.365,
+        "El riesgo"
+      ],
+      [
+        120.909,
+        "La acción"
+      ],
+      [
+        146.047,
+        "La pregunta correcta"
+      ]
+    ],
+    "music": [
+      {
+        "music": "neon",
+        "start": 0,
+        "end": 24.37,
+        "source_start": 45,
+        "relative_db_points": [
+          [
+            0,
+            -28
+          ],
+          [
+            0.5,
+            -16
+          ],
+          [
+            4.7,
+            -29
+          ],
+          [
+            6.3,
+            -20
+          ],
+          [
+            8.8,
+            -28
+          ],
+          [
+            10,
+            -21
+          ],
+          [
+            12.9,
+            -29
+          ],
+          [
+            14,
+            -16
+          ],
+          [
+            18.2,
+            -26
+          ],
+          [
+            19.2,
+            -20
+          ],
+          [
+            22.5,
+            -29
+          ],
+          [
+            24.37,
+            -70
+          ]
+        ],
+        "role": "Pulso, contraste entre cantidad y ventas.",
+        "character": "abierto"
+      },
+      {
+        "music": "clean",
+        "start": 24.17,
+        "end": 58.96,
+        "source_start": 31,
+        "relative_db_points": [
+          [
+            24.17,
+            -38
+          ],
+          [
+            25.2,
+            -19
+          ],
+          [
+            27.4,
+            -27
+          ],
+          [
+            28.6,
+            -23
+          ],
+          [
+            33.3,
+            -28
+          ],
+          [
+            34.4,
+            -24
+          ],
+          [
+            36.8,
+            -32
+          ],
+          [
+            38.4,
+            -22
+          ],
+          [
+            42.5,
+            -30
+          ],
+          [
+            44.2,
+            -24
+          ],
+          [
+            48.3,
+            -30
+          ],
+          [
+            50,
+            -19
+          ],
+          [
+            53.8,
+            -27
+          ],
+          [
+            55.1,
+            -23
+          ],
+          [
+            58,
+            -34
+          ],
+          [
+            58.96,
+            -70
+          ]
+        ],
+        "role": "Cambio a persona y evidencia.",
+        "character": "abierto"
+      },
+      {
+        "music": "backbay",
+        "start": 59.02,
+        "end": 83.31,
+        "source_start": 98,
+        "relative_db_points": [
+          [
+            59.02,
+            -37
+          ],
+          [
+            60,
+            -18
+          ],
+          [
+            64.2,
+            -24
+          ],
+          [
+            68.9,
+            -27
+          ],
+          [
+            70.5,
+            -29
+          ],
+          [
+            73.3,
+            -32
+          ],
+          [
+            75.2,
+            -23
+          ],
+          [
+            79.4,
+            -24
+          ],
+          [
+            82,
+            -31
+          ],
+          [
+            83.31,
+            -70
+          ]
+        ],
+        "role": "Ventaja con otro carácter.",
+        "character": "abierto"
+      },
+      {
+        "music": "resonance",
+        "start": 93.4,
+        "end": 115.52,
+        "source_start": 20,
+        "relative_db_points": [
+          [
+            93.4,
+            -40
+          ],
+          [
+            94.7,
+            -22
+          ],
+          [
+            96.6,
+            -30
+          ],
+          [
+            98.2,
+            -24
+          ],
+          [
+            102.4,
+            -27
+          ],
+          [
+            106.9,
+            -33
+          ],
+          [
+            109.1,
+            -25
+          ],
+          [
+            112.5,
+            -30
+          ],
+          [
+            114.8,
+            -37
+          ],
+          [
+            115.52,
+            -70
+          ]
+        ],
+        "role": "Advertencia breve y retirada antes de todavía no tienes sistema.",
+        "character": "contenido"
+      },
+      {
+        "music": "cipher",
+        "start": 120.85,
+        "end": 142.05,
+        "source_start": 58,
+        "relative_db_points": [
+          [
+            120.85,
+            -38
+          ],
+          [
+            121.8,
+            -16
+          ],
+          [
+            125.7,
+            -25
+          ],
+          [
+            127.6,
+            -19
+          ],
+          [
+            133.4,
+            -24
+          ],
+          [
+            135.9,
+            -31
+          ],
+          [
+            137.2,
+            -16
+          ],
+          [
+            140.6,
+            -28
+          ],
+          [
+            142.05,
+            -70
+          ]
+        ],
+        "role": "Aplicación con reentrada y último giro.",
+        "character": "abierto"
+      },
+      {
+        "music": "clean",
+        "start": 146.22,
+        "end": 158.798,
+        "source_start": 83,
+        "relative_db_points": [
+          [
+            146.22,
+            -42
+          ],
+          [
+            147.4,
+            -27
+          ],
+          [
+            149.4,
+            -34
+          ],
+          [
+            150.6,
+            -25
+          ],
+          [
+            153.8,
+            -31
+          ],
+          [
+            156.6,
+            -38
+          ],
+          [
+            158.2,
+            -46
+          ],
+          [
+            158.798,
+            -70
+          ]
+        ],
+        "role": "Pregunta, no gran final.",
+        "character": "abierto"
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.025,
+        "file": "dato_claro",
+        "reason": "Atención o ventas: hook.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 5.48,
+        "file": "pulso_redondo",
+        "reason": "Contraste campaña/oferta.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 13.1,
+        "file": "clic_calido",
+        "reason": "Contenido genérico.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 23.86,
+        "file": "aire_ascendente",
+        "reason": "Preparar cliente.",
+        "target_relative_rms_db": -19,
+        "reverse": false
+      },
+      {
+        "start": 24.2,
+        "file": "cambio_corto",
+        "reason": "Herramienta→cliente.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 33.35,
+        "file": "dato_claro",
+        "reason": "Diferencia que cambia el comienzo.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 36.7,
+        "file": "aire_ascendente",
+        "reason": "Preparar evidencia.",
+        "target_relative_rms_db": -20,
+        "reverse": false
+      },
+      {
+        "start": 37.02,
+        "file": "aire_breve",
+        "reason": "Cliente→evidencia.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 48.46,
+        "file": "clic_calido",
+        "reason": "Reúne evidencia.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 54.32,
+        "file": "dato_claro",
+        "reason": "Conversación real.",
+        "target_relative_rms_db": -18,
+        "reverse": false
+      },
+      {
+        "start": 58.52,
+        "file": "aire_ascendente",
+        "reason": "Preparar ventaja.",
+        "target_relative_rms_db": -19,
+        "reverse": false
+      },
+      {
+        "start": 58.93,
+        "file": "resolucion_doble",
+        "reason": "Evidencia→ventaja propia.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 69.55,
+        "file": "pulso_redondo",
+        "reason": "Si vive en tu cabeza: contraste.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 73.64,
+        "file": "clic_calido",
+        "reason": "Activo propio, frase resguardada.",
+        "target_relative_rms_db": -19,
+        "reverse": false
+      },
+      {
+        "start": 83.32,
+        "file": "pulso_redondo",
+        "reason": "Pensar mejor, fondo fuera.",
+        "target_relative_rms_db": -15,
+        "reverse": false
+      },
+      {
+        "start": 92.92,
+        "file": "aire_ascendente",
+        "reason": "Preparar riesgo.",
+        "target_relative_rms_db": -20,
+        "reverse": false
+      },
+      {
+        "start": 93.27,
+        "file": "reinicio_suave",
+        "reason": "Advertencia sobre procesos.",
+        "target_relative_rms_db": -14,
+        "reverse": false
+      },
+      {
+        "start": 107.46,
+        "file": "clic_calido",
+        "reason": "Repetir el error más rápido.",
+        "target_relative_rms_db": -17,
+        "reverse": false
+      },
+      {
+        "start": 115.49,
+        "file": "pulso_redondo",
+        "reason": "No tienes sistema: retiro de cama.",
+        "target_relative_rms_db": -18,
+        "reverse": false
+      },
+      {
+        "start": 120.36,
+        "file": "aire_ascendente",
+        "reason": "Preparar acción.",
+        "target_relative_rms_db": -19,
+        "reverse": false
+      },
+      {
+        "start": 120.81,
+        "file": "cambio_corto",
+        "reason": "Riesgo→acción.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 126.4,
+        "file": "dato_claro",
+        "reason": "Información→aplicación.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 135.96,
+        "file": "clic_calido",
+        "reason": "Elegir una mejora concreta.",
+        "target_relative_rms_db": -16,
+        "reverse": false
+      },
+      {
+        "start": 142.19,
+        "file": "dato_claro",
+        "reason": "Una sola: retirada.",
+        "target_relative_rms_db": -13,
+        "reverse": false
+      },
+      {
+        "start": 143.29,
+        "file": "clic_calido",
+        "reason": "Mide antes de automatizar.",
+        "target_relative_rms_db": -18,
+        "reverse": false
+      },
+      {
+        "start": 146.01,
+        "file": "cambio_corto",
+        "reason": "La pregunta correcta.",
+        "target_relative_rms_db": -17,
+        "reverse": false
+      }
+    ],
+    "voice_policy": "Mismo WAV de voz y ganancia que primera prueba. Sin nuevas restauraciones ni manipulación vocal.",
+    "human_review": "por confirmar"
+  }
+]

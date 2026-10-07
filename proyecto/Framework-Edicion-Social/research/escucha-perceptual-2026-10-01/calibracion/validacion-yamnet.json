@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "voice_solo": true,
+    "music_solo": true,
+    "silence_no_invented_sources": true,
+    "no_voice": true,
+    "music_excess_sensitivity": true
+  },
+  "pass": true,
+  "excluded": [
+    "Audibility of sparse original SFX",
+    "Emotional suitability",
+    "Human intelligibility/MOS",
+    "Exact fader dB or genre identity"
+  ],
+  "elapsed_seconds": 4.108089334098622
+}

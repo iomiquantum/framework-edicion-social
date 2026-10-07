@@ -1,0 +1,99 @@
+{
+  "source": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/assets/video13-voice-normalized-v1.m4a",
+  "source_sha256": "6e793d41de7a22976996b24b18b06c118f1966b4b154b1a51b73cc499cfb5305",
+  "voice_clip": "Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/audiciones/00-voz-sola-video13-12s.wav",
+  "voice_clip_sha256": "15e8faa440c374f4d1e5b1a6842c34237563c3eec08521573734c770a4385218",
+  "range_source_s": [
+    0,
+    12
+  ],
+  "voice_rms_dbfs": -18.86196144287037,
+  "method": "Misma voz sin cambio de ganancia. Cama a 24 dB menos de RMS medio del fragmento; fades solo en música. Sin normalización por variante. No es verificación perceptual ni cumplimiento WCAG.",
+  "human_listening": "por confirmar",
+  "mixes": [
+    {
+      "name": "01-tech-original",
+      "bed_source": "Framework-Edicion-Social/library/music/tech_pulse_114bpm_8bars.wav",
+      "bed_source_start_s": 0,
+      "music_gain": 0.35250226320015315,
+      "music_gain_db": -9.056761806519301,
+      "file": "Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/audiciones/01-tech-original-bajo-voz-video13-12s.wav",
+      "sha256": "a6c06f1fcdf66465eb3ff9c15e2c5303ea95b5239eab7153142748a122aed613",
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-1.46",
+        "input_lra": "1.00",
+        "input_thresh": "-26.45",
+        "output_i": "-16.03",
+        "output_tp": "-1.50",
+        "output_lra": "1.90",
+        "output_thresh": "-26.49",
+        "normalization_type": "dynamic",
+        "target_offset": "0.03"
+      }
+    },
+    {
+      "name": "02-computations",
+      "bed_source": "Framework-Edicion-Social/library/music/candidates/2026-09-30/computations-no-cello.mp3",
+      "bed_source_start_s": 45,
+      "music_gain": 0.06267825048958849,
+      "music_gain_db": -24.05766268609884,
+      "file": "Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/audiciones/02-computations-bajo-voz-video13-12s.wav",
+      "sha256": "1c120819db9c5988e3b615fbfbe2f7a74512f0aa95fa886c17d53802c98da7bc",
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-1.42",
+        "input_lra": "1.00",
+        "input_thresh": "-26.45",
+        "output_i": "-16.04",
+        "output_tp": "-1.50",
+        "output_lra": "1.90",
+        "output_thresh": "-26.50",
+        "normalization_type": "dynamic",
+        "target_offset": "0.04"
+      }
+    },
+    {
+      "name": "03-intervention",
+      "bed_source": "Framework-Edicion-Social/library/music/candidates/2026-09-30/intervention-no-piano-melody.mp3",
+      "bed_source_start_s": 45,
+      "music_gain": 0.04998653877086613,
+      "music_gain_db": -26.02293868313391,
+      "file": "Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/audiciones/03-intervention-bajo-voz-video13-12s.wav",
+      "sha256": "1cfd43162ad97f8b26f69ea727e1c36a106da57e105e35cfb65a9ffc0a98a977",
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-1.54",
+        "input_lra": "1.00",
+        "input_thresh": "-26.44",
+        "output_i": "-16.04",
+        "output_tp": "-1.50",
+        "output_lra": "1.90",
+        "output_thresh": "-26.50",
+        "normalization_type": "dynamic",
+        "target_offset": "0.04"
+      }
+    },
+    {
+      "name": "04-cirrus",
+      "bed_source": "Framework-Edicion-Social/library/music/candidates/2026-09-30/cirrus.mp3",
+      "bed_source_start_s": 45,
+      "music_gain": 0.05737598807675618,
+      "music_gain_db": -24.825396447363637,
+      "file": "Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/audiciones/04-cirrus-bajo-voz-video13-12s.wav",
+      "sha256": "2b8cb4eb1cdff4f5fcebee9be179c9eb101e7688fafa127651f8fac0e372d57c",
+      "loudness": {
+        "input_i": "-16.02",
+        "input_tp": "-1.44",
+        "input_lra": "1.00",
+        "input_thresh": "-26.44",
+        "output_i": "-16.03",
+        "output_tp": "-1.50",
+        "output_lra": "1.90",
+        "output_thresh": "-26.49",
+        "normalization_type": "dynamic",
+        "target_offset": "0.03"
+      }
+    }
+  ]
+}

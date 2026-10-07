@@ -1,0 +1,44 @@
+{
+  "url": "http://127.0.0.1:8868/research/escucha-perceptual-2026-10-01/index.html",
+  "optional": true,
+  "headless_does_not_require_browser": true,
+  "browser_tab": "9",
+  "phase_start_seconds": {
+    "largo-53": 18,
+    "largo-159": 120
+  },
+  "layers_checked": [
+    "original_C",
+    "new_candidate",
+    "common_voice",
+    "new_music",
+    "new_sfx"
+  ],
+  "each_layer_ready_state": 4,
+  "each_layer_media_error": null,
+  "native_times_observed_s": {
+    "largo-53": [
+      18.116193,
+      18.469813,
+      18.711872,
+      18.951231,
+      19.152451,
+      19.389739,
+      19.61366
+    ],
+    "largo-159": [
+      120.232339,
+      120.519304,
+      120.75574,
+      121.036315,
+      121.329334,
+      121.571997,
+      121.847984
+    ]
+  },
+  "position_preserved": true,
+  "console_warn_error": [],
+  "final_paused_both": true,
+  "human_hearing": false,
+  "scope": "Native playback/seek/layer-switch verification only. Does not certify perceptual listening."
+}

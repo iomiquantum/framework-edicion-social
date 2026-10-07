@@ -1,0 +1,12 @@
+[
+  {
+    "stage": "primera ejecución mezcla",
+    "failure": "guard_len_voice: tolerancia2 muestras demasiado estrecha",
+    "observed": {
+      "01": "audio termina1ms antes de duración video",
+      "11": "audio termina16.1875ms antes de contenedor"
+    },
+    "solution": "Solo silencio terminal para igualar montaje; guarda duración nativa y relleno exactos; máximo50ms, sin retimar palabras.",
+    "output_before_failure": "No mezclas creadas, solo músicas decodificadas."
+  }
+]

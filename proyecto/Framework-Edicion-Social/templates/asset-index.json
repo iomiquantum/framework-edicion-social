@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-09-25T00:00:00Z",
+  "scope": {
+    "project_root": ".",
+    "catalogs": [],
+    "manifests": [],
+    "explicit_roots": [],
+    "usage_history": null
+  },
+  "capabilities": {
+    "exact_content_deduplication": true,
+    "semantic_metadata_ranking": true,
+    "perceptual_visual_similarity": false,
+    "similarity_notice": "Semantic scores use declared text metadata only. No perceptual visual similarity was measured; only identical SHA-256 values prove exact-content duplication."
+  },
+  "fatigue_policy": {
+    "mode": "advisory_non_blocking",
+    "unit": "videos_since_last_use",
+    "unknown_recency_behavior": "warn_without_excluding",
+    "default_cooldowns": {
+      "bgm": 3,
+      "icon": 1,
+      "image": 2,
+      "logo": 0,
+      "lut": 1,
+      "motion_preset": 2,
+      "sfx": 1,
+      "transition": 2,
+      "typographic_overlay": 2,
+      "unknown": 1,
+      "video": 2,
+      "voice": 0
+    }
+  },
+  "summary": {
+    "asset_count": 0,
+    "source_record_count": 0,
+    "exact_duplicate_group_count": 0,
+    "status_counts": {},
+    "type_counts": {}
+  },
+  "assets": [],
+  "exact_duplicate_groups": []
+}

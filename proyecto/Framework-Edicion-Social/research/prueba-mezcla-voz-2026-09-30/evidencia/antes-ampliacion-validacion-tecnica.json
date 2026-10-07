@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "pieces": 5,
+  "source_hashes_unchanged": true,
+  "voices_constant_gain": true,
+  "stems_sum": true,
+  "aac_native_48k_stereo": true,
+  "aac_true_peak_max_dbfs": -2.99,
+  "all_nonzero": true,
+  "hook_sfx_all": true,
+  "minimum_two_sfx_identities": true,
+  "aac_correlation_min": 0.9998033863442025,
+  "human_listening": "por confirmar",
+  "perception_not_certified": true
+}

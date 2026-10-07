@@ -1,0 +1,91 @@
+{
+  "video_id": "VIDEO-29",
+  "flow": 2,
+  "version": "v2",
+  "status": "local_delivery_technical_visual_sampled",
+  "render_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/entrega/VIDEO-29-ENTREGA-HLG-v2.mp4",
+  "sha256": "03f8537f098f38584f8e5b64b7a8fa4aab7a6944a1897824a4c9f3c5c2cf5ed7",
+  "duration_s": 23.966666666667,
+  "frames": 719,
+  "size_bytes": 5700732,
+  "prior_version": "v1 preserved, transitiondefect noted in qa/v1-disposition-after-shadow.json",
+  "correction": "Cards/circle/closing body appear afteropaque backdrop, .16s delay; noface/body text cross in exacttransition samples.",
+  "visual_review": {
+    "reviewer": "/root",
+    "exact_frames_reviewed": 58,
+    "sheets": [
+      "qa/critical-final-v2/contact-sheet-1.jpg",
+      "qa/critical-final-v2/contact-sheet-2.jpg"
+    ],
+    "coverage": "all15captionreadingstates+4sceneseams+photo11.8/13.9+last",
+    "findings": [],
+    "unchanged_inputs": {
+      "captions.json": true,
+      "compositions/captions29.html": true,
+      "compositions/scene29-escuchar.html": true,
+      "compositions/scene29-confianza.html": true
+    },
+    "prior_coverage": "v1 140exactframes retained forunchangedcutplan/assets/caps, v2exactallcueandchangedseamsreviewed",
+    "max_caption_rows": 2,
+    "physical_colorimetry": "por confirmar"
+  },
+  "audio_review": {
+    "status": "pass",
+    "engine_version": "0.8.100",
+    "export_sha256": "03f8537f098f38584f8e5b64b7a8fa4aab7a6944a1897824a4c9f3c5c2cf5ed7",
+    "reference_sha256": "c426f1c94ae2eaa1dbe892be939af7d3dbeebe7299ff669b02400149f7fb8991",
+    "decoded_samples_exact": true,
+    "sample_count_per_channel": 1150976,
+    "full_correlation": 1.0,
+    "reference_measurements": [
+      {
+        "true_peak_dbfs": -2.0,
+        "integrated_lufs": -18.0
+      }
+    ],
+    "global_attenuation_db": 0.0,
+    "export_loudness": {
+      "true_peak_dbfs": -2.0,
+      "integrated_lufs": -18.0
+    },
+    "events": [
+      {
+        "id": "sfx-escucha",
+        "start_s": 0.18,
+        "duration_s": 0.72,
+        "decoded_samples_exact": true,
+        "correlation": 1.0
+      },
+      {
+        "id": "sfx-utilidad",
+        "start_s": 6.34,
+        "duration_s": 0.085,
+        "decoded_samples_exact": true,
+        "correlation": 1.0
+      },
+      {
+        "id": "sfx-antes",
+        "start_s": 17.5,
+        "duration_s": 0.5,
+        "decoded_samples_exact": true,
+        "correlation": 0.9999999999999998
+      }
+    ],
+    "human_listened": false,
+    "wall_seconds": 1.20795770798577,
+    "limits": "Technical identity of complete mix and each event; does not establish subjective audibility, naturalness or mobile playback."
+  },
+  "technical_evidence": "qa/post-render-v2/summary.json",
+  "timings_command_s": {
+    "final_engine": 161.9,
+    "posttechnical": 2.153,
+    "parity": 1.20795770798577,
+    "critical_decode": 1.352751167025417
+  },
+  "human_listened": false,
+  "continuous_human_playback": "por confirmar",
+  "mobile_physical_review": "por confirmar",
+  "platform_review": "por confirmar",
+  "publication": false,
+  "approved_by_user": false
+}

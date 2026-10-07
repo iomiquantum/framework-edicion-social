@@ -1,0 +1,21 @@
+<template><style>
+@font-face{font-family:Montserrat;src:url(assets/fonts/Montserrat-800.woff2);font-weight:800;font-display:block}
+@font-face{font-family:Editorial;src:url(assets/fonts/EBGaramond-700.woff2);font-weight:700;font-display:block}
+*{box-sizing:border-box;margin:0;padding:0}html,body{width:100%;height:100%;overflow:hidden}
+#main{position:relative;width:100%;height:100%;overflow:hidden;color:#FFF6E7;font-family:Montserrat,sans-serif}
+#bed{position:absolute;inset:0;background:#142B3A;z-index:0}
+.speaker{position:absolute;top:384px;left:0;width:1080px;height:1536px;object-fit:cover;object-position:50% 50%;z-index:1}
+.cutaway{position:absolute;top:384px;left:0;width:1080px;height:1536px;object-fit:cover;z-index:2}
+#header{position:absolute;top:0;left:0;width:1080px;height:384px;background:#142B3A;border-bottom:6px solid #F18B54;z-index:3}
+.title{position:absolute;top:0;left:88px;width:904px;height:350px}
+.eyebrow{position:absolute;top:58px;left:0;font-size:42px;line-height:1.1;letter-spacing:2px;color:#F18B54;opacity:0}
+h1{position:absolute;left:0;top:126px;font-size:90px;line-height:1.16;letter-spacing:-2px;font-weight:800}
+h1 span{display:block;opacity:0}h1.serif{font-family:Editorial,serif;font-size:88px;line-height:1.2;letter-spacing:-1px}
+h1.single{top:168px;font-size:98px;letter-spacing:-3px}
+.accent{color:#F18B54}
+#route{position:absolute;left:88px;top:366px;width:860px;height:6px;background:#51616D;z-index:5}
+#route-fill{width:100%;height:6px;background:#76C9C0;transform-origin:left center}
+.caption{position:absolute;left:72px;top:1400px;width:936px;text-align:center}
+.caption p{display:inline-block;width:100%;padding:24px 30px;background:#142B3A;color:#FFF6E7;border-radius:22px;border:3px solid #FFF6E7;font-size:58px;line-height:1.13;font-weight:800;word-spacing:2px}
+
+#scene-hook-root{position:absolute;inset:0}</style><div id="scene-hook-root" data-hf-id="hf-v21-scene-hook-root" data-composition-id="scene-hook" data-duration="5.166667" data-width="1080" data-height="1920"><div id="hook" data-hf-id="hf-v21-hook" class="clip title" data-start="0.000000" data-duration="5.166667" data-track-index="3" data-track-kind="graphics"><div data-hf-id="hf-79sn" class="eyebrow">NEUROMARKETING</div><h1 data-hf-id="hf-m3fm"><span data-hf-id="hf-oac8">¿CONTROLAR</span><span data-hf-id="hf-re0n">CEREBROS?</span></h1></div></div><script>const tl=gsap.timeline({paused:true});document.querySelectorAll('#scene-hook-root .title').forEach(el=>{const t=Number(el.dataset.start)+0;const end=Number(el.dataset.start)+Number(el.dataset.duration);const eyebrow=el.querySelector('.eyebrow');tl.set(eyebrow,{opacity:1},t);tl.set(eyebrow,{opacity:0},end);el.querySelectorAll('h1 span').forEach((s,n)=>{tl.set(s,{opacity:1,y:n?38:60},t+n*.11);tl.to(s,{y:0,duration:n?.14:.18,ease:'power4.out'},t+n*.11);tl.set(s,{opacity:0},end)})});window.__timelines["scene-hook"]=tl;</script></template>

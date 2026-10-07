@@ -1,0 +1,19 @@
+{
+  "edition": "light",
+  "version": "2.1.0",
+  "hyperframes": "0.8.102",
+  "first_new_video": 31,
+  "templates": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/CATALOGO_MAESTRO_01_A_30.json",
+  "windows_verified": false,
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "onboarding": "tools/asistente.py",
+  "student_guide": "GUIASUPERDETALLADA.html",
+  "mac_original_unchanged": true,
+  "recording_guide": "GUIA_GRABACION_MASTER.html",
+  "progress_directory": "MI-PROGRESO",
+  "repository": "https://github.com/iomiquantum/framework-edicion-social",
+  "download_url": "https://github.com/iomiquantum/framework-edicion-social/archive/refs/heads/main.zip"
+}

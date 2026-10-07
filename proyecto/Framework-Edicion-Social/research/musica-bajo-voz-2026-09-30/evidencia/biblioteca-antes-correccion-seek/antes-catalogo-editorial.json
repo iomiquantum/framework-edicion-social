@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "date_local": "2026-09-30",
+  "short_video_rule": {
+    "duration_s": [
+      15,
+      30
+    ],
+    "music_count": "Una o dos según mensaje, duración y contexto; no cuota ni cambio por cronómetro.",
+    "one_track": "Variar ganancia, arreglo, entradas, retiradas y acentos según voz y argumento.",
+    "second_track": "Justificar con cambio de intención y revisar transición completa con voz."
+  },
+  "tracks": [
+    {
+      "id": "BGM-CAND-SB-NEON-NOMELODY",
+      "type": "bgm",
+      "title": "Neon · No Melody",
+      "file": "library/music/candidates/2026-09-30-prueba-ritmica/neon-no-melody.mp3",
+      "preview": "research/musica-bajo-voz-2026-09-30/audiciones/biblioteca-funciones/neon-20s.wav",
+      "sha256": "af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d",
+      "preview_sha256": "5c3efc66062126c26728eeefddc2041a57db8b6b4898e85f12652426733e6778",
+      "preview_changes": {
+        "source_start_s": 45,
+        "duration_s": 20,
+        "constant_gain_db": -2.620000000000001,
+        "fade_in_s": 0.1,
+        "fade_out_s": 0.5
+      },
+      "roles": [
+        "impulso",
+        "explicacion"
+      ],
+      "character": "Pulso electrónico retro; descripción oficial y propuesta editorial.",
+      "status": "direction_liked_in_C_pending_mix",
+      "feedback": "Te gustó el inicio y la dirección de C; pediste bajadas por momentos. No equivale a aprobación global.",
+      "caution": "Arpegios pueden disputar palabras suaves; probar automatización por frase.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "'Neon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/neon/ · https://creativecommons.org/licenses/by/4.0/.",
+      "source_page": "https://www.scottbuckley.com.au/library/neon/",
+      "source_manifest": "library/music/candidates/2026-09-30-prueba-ritmica/manifest.json",
+      "history": false
+    },
+    {
+      "id": "BGM-CAND-SB-RESONANCE-ALT",
+      "type": "bgm",
+      "title": "Resonance · No Melody in Backend",
+      "file": "library/music/candidates/2026-09-30-funciones/resonance-no-backend-melody.mp3",
+      "preview": "research/musica-bajo-voz-2026-09-30/audiciones/biblioteca-funciones/resonance-20s.wav",
+      "sha256": "a09c0ea14aa6942ed4023dcc95a754108fdba9bca7087853d36ffe0a264c16cb",
+      "preview_sha256": "50386d6ae1aa21d4bca4e378fc48503cfb1e00ef34e28d866b193e250e75c035",
+      "preview_changes": {
+        "source_start_s": 20,
+        "duration_s": 20,
+        "constant_gain_db": 1.3500000000000014,
+        "fade_in_s": 0.1,
+        "fade_out_s": 0.5,
+        "compression": false
+      },
+      "roles": [
+        "curiosidad",
+        "tension",
+        "contraste"
+      ],
+      "character": "El compositor describe pulso electrónico, guitarras ambientales y desarrollo de sintetizadores más intenso.",
+      "status": "candidate_not_listened",
+      "feedback": "Pendiente de escuchar con voz real.",
+      "caution": "Carácter oscuro/industrial. No usar como fondo genérico; revisar actividad y palabras suaves.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "'Resonance' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/resonance/ · https://creativecommons.org/licenses/by/4.0/.",
+      "source_page": "https://www.scottbuckley.com.au/library/resonance/",
+      "source_manifest": "library/music/candidates/2026-09-30-funciones/manifest.json",
+      "history": false
+    },
+    {
+      "id": "BGM-CAND-SB-SARSAPARILLA",
+      "type": "bgm",
+      "title": "Sarsaparilla · Full Mix",
+      "file": "library/music/candidates/2026-09-30-funciones/sarsaparilla.mp3",
+      "preview": "research/musica-bajo-voz-2026-09-30/audiciones/biblioteca-funciones/sarsaparilla-20s.wav",
+      "sha256": "23729fc534e6a350d158e8df86bf16fe9e611da85ab0b11b3e82666ab588deb6",
+      "preview_sha256": "02b94d5c1258ff5f38d08af7ca7fd23921de067077c60cb78679bf57ab743c1b",
+      "preview_changes": {
+        "source_start_s": 40,
+        "duration_s": 20,
+        "constant_gain_db": -6.27,
+        "fade_in_s": 0.1,
+        "fade_out_s": 0.5,
+        "compression": false
+      },
+      "roles": [
+        "impulso",
+        "ejemplo",
+        "solucion"
+      ],
+      "character": "El compositor describe pop luminoso con percusión, guitarra y sintetizadores.",
+      "status": "candidate_not_listened",
+      "feedback": "Pendiente de escuchar con voz real.",
+      "caution": "Arreglo denso y sin mezcla alternativa. Puede competir con la voz; candidato para probar, no elección final.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "'Sarsaparilla' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/sarsaparilla/ · https://creativecommons.org/licenses/by/4.0/.",
+      "source_page": "https://www.scottbuckley.com.au/library/sarsaparilla/",
+      "source_manifest": "library/music/candidates/2026-09-30-funciones/manifest.json",
+      "history": false
+    },
+    {
+      "id": "BGM-CAND-SB-COMPUTATIONS-NOCELLO",
+      "type": "bgm",
+      "title": "Computations in a Snowstorm · No Cello",
+      "file": "library/music/candidates/2026-09-30/computations-no-cello.mp3",
+      "preview": "research/musica-bajo-voz-2026-09-30/audiciones/computations-musica-sola-20s.mp3",
+      "sha256": "678dabce348ecd305ee4c998b258275acd1f4731a858083d11535467207bc5e0",
+      "roles": [
+        "antecedente"
+      ],
+      "character": "Candidato ambiental para procesos de IA; confirmar que el tono no resulte demasiado oscuro.",
+      "status": "presented_excerpt_rejected",
+      "feedback": "Primera tanda descartada: demasiado calmada. Pista completa no evaluada globalmente.",
+      "caution": "Conservar antecedente; no devolver automáticamente a la selección activa.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "'Computations in a Snowstorm' by Scott Buckley – released under CC-BY 4.0. www.scottbuckley.com.au. Fuente: https://www.scottbuckley.com.au/library/computations/ Licencia: https://creativecommons.org/licenses/by/4.0/.",
+      "source_page": "https://www.scottbuckley.com.au/library/computations/",
+      "source_manifest": "library/music/candidates/2026-09-30/manifest.json",
+      "history": true
+    },
+    {
+      "id": "BGM-CAND-SB-INTERVENTION-NOMELODY",
+      "type": "bgm",
+      "title": "Intervention · No Piano Melody",
+      "file": "library/music/candidates/2026-09-30/intervention-no-piano-melody.mp3",
+      "preview": "research/musica-bajo-voz-2026-09-30/audiciones/intervention-musica-sola-20s.mp3",
+      "sha256": "decafaf069940c9e0038c54d707a7dd27903ec91e661c1b46dbbb705c44e934c",
+      "roles": [
+        "antecedente"
+      ],
+      "character": "Candidato para una advertencia o tensión breve; no imponer suspense a toda explicación.",
+      "status": "presented_excerpt_rejected",
+      "feedback": "Primera tanda descartada: demasiado calmada. Pista completa no evaluada globalmente.",
+      "caution": "Conservar antecedente; no devolver automáticamente a la selección activa.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "'Intervention' by Scott Buckley – released under CC-BY 4.0. www.scottbuckley.com.au. Fuente: https://www.scottbuckley.com.au/library/intervention/ Licencia: https://creativecommons.org/licenses/by/4.0/.",
+      "source_page": "https://www.scottbuckley.com.au/library/intervention/",
+      "source_manifest": "library/music/candidates/2026-09-30/manifest.json",
+      "history": true
+    },
+    {
+      "id": "BGM-CAND-SB-CIRRUS",
+      "type": "bgm",
+      "title": "Cirrus · Full Mix",
+      "file": "library/music/candidates/2026-09-30/cirrus.mp3",
+      "preview": "research/musica-bajo-voz-2026-09-30/audiciones/cirrus-musica-sola-20s.mp3",
+      "sha256": "020b1e913bfc263cb9ce732fb277fa777afba5e755e7165023a559068171d04b",
+      "roles": [
+        "antecedente"
+      ],
+      "character": "Candidato para reflexión humana; comprobar que la emoción no domine el mensaje.",
+      "status": "presented_excerpt_rejected",
+      "feedback": "Primera tanda descartada: demasiado calmada. Pista completa no evaluada globalmente.",
+      "caution": "Conservar antecedente; no devolver automáticamente a la selección activa.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "'Cirrus' by Scott Buckley – released under CC-BY 4.0. www.scottbuckley.com.au. Fuente: https://www.scottbuckley.com.au/library/cirrus/ Licencia: https://creativecommons.org/licenses/by/4.0/.",
+      "source_page": "https://www.scottbuckley.com.au/library/cirrus/",
+      "source_manifest": "library/music/candidates/2026-09-30/manifest.json",
+      "history": true
+    },
+    {
+      "id": "BGM-ORIGINAL-TECH-PULSE",
+      "type": "bgm",
+      "title": "Pulso tecnológico original",
+      "file": "library/music/tech_pulse_114bpm_8bars.wav",
+      "preview": "library/music/tech_pulse_114bpm_8bars.wav",
+      "sha256": "da843fadc286facd564f4ee1bb50e70e343adab66d4a4742ba87f9b3d0766cf4",
+      "roles": [
+        "antecedente"
+      ],
+      "character": "Síntesis procedural discreta, 114 BPM.",
+      "status": "legacy_context_review",
+      "feedback": "Antecedente del framework; encaje con la nueva dirección por confirmar.",
+      "caution": "No asumir que una cama discreta resuelve la sensación plana.",
+      "license": "CC0-1.0 (to the extent rights exist)",
+      "credit": "Original procedural synthesis; generate_bed.py · CC0-1.0.",
+      "source_manifest": "library/music/manifest.json",
+      "history": true
+    },
+    {
+      "id": "SFX-ORIGINAL-01",
+      "type": "sfx",
+      "title": "Entrada de aire",
+      "file": "library/sfx/01_airy_in.wav",
+      "preview": "library/sfx/01_airy_in.wav",
+      "sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+      "roles": [
+        "entrada"
+      ],
+      "character": "Aparición de un diagrama o concepto",
+      "duration_s": 0.44,
+      "status": "existing_resource_context_review",
+      "feedback": "Recurso original; verificar ataque y cola en la mezcla de cada video.",
+      "caution": "Nivel de fuente; ajustar contra la voz contemporánea. No es preset de volumen aprobado.",
+      "license": "CC0-1.0 (to the extent rights exist)",
+      "credit": "Original procedural synthesis; generate_sfx.py · CC0-1.0.",
+      "source_manifest": "library/sfx/manifest.json",
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-02",
+      "type": "sfx",
+      "title": "Transición suave",
+      "file": "library/sfx/02_soft_whoosh.wav",
+      "preview": "library/sfx/02_soft_whoosh.wav",
+      "sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+      "roles": [
+        "transicion"
+      ],
+      "character": "Cambio narrativo o desplazamiento gráfico",
+      "duration_s": 0.3,
+      "status": "existing_resource_context_review",
+      "feedback": "Recurso original; verificar ataque y cola en la mezcla de cada video.",
+      "caution": "Nivel de fuente; ajustar contra la voz contemporánea. No es preset de volumen aprobado.",
+      "license": "CC0-1.0 (to the extent rights exist)",
+      "credit": "Original procedural synthesis; generate_sfx.py · CC0-1.0.",
+      "source_manifest": "library/sfx/manifest.json",
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-03",
+      "type": "sfx",
+      "title": "Tick puntual",
+      "file": "library/sfx/03_ui_tick.wav",
+      "preview": "library/sfx/03_ui_tick.wav",
+      "sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+      "roles": [
+        "detalle"
+      ],
+      "character": "Un nodo o marca puntual",
+      "duration_s": 0.085,
+      "status": "existing_resource_context_review",
+      "feedback": "Recurso original; verificar ataque y cola en la mezcla de cada video.",
+      "caution": "Nivel de fuente; ajustar contra la voz contemporánea. No es preset de volumen aprobado.",
+      "license": "CC0-1.0 (to the extent rights exist)",
+      "credit": "Original procedural synthesis; generate_sfx.py · CC0-1.0.",
+      "source_manifest": "library/sfx/manifest.json",
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-04",
+      "type": "sfx",
+      "title": "Pop redondeado",
+      "file": "library/sfx/04_soft_pop.wav",
+      "preview": "library/sfx/04_soft_pop.wav",
+      "sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+      "roles": [
+        "enfasis"
+      ],
+      "character": "Una palabra o elemento clave",
+      "duration_s": 0.16,
+      "status": "existing_resource_context_review",
+      "feedback": "Recurso original; verificar ataque y cola en la mezcla de cada video.",
+      "caution": "Nivel de fuente; ajustar contra la voz contemporánea. No es preset de volumen aprobado.",
+      "license": "CC0-1.0 (to the extent rights exist)",
+      "credit": "Original procedural synthesis; generate_sfx.py · CC0-1.0.",
+      "source_manifest": "library/sfx/manifest.json",
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-05",
+      "type": "sfx",
+      "title": "Acento grave",
+      "file": "library/sfx/05_low_accent.wav",
+      "preview": "library/sfx/05_low_accent.wav",
+      "sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+      "roles": [
+        "contraste"
+      ],
+      "character": "Un único énfasis de mayor peso",
+      "duration_s": 0.34,
+      "status": "existing_resource_context_review",
+      "feedback": "Recurso original; verificar ataque y cola en la mezcla de cada video.",
+      "caution": "Nivel de fuente; ajustar contra la voz contemporánea. No es preset de volumen aprobado.",
+      "license": "CC0-1.0 (to the extent rights exist)",
+      "credit": "Original procedural synthesis; generate_sfx.py · CC0-1.0.",
+      "source_manifest": "library/sfx/manifest.json",
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-06",
+      "type": "sfx",
+      "title": "Secuencia de tres",
+      "file": "library/sfx/06_sequence.wav",
+      "preview": "library/sfx/06_sequence.wav",
+      "sha256": "d63dc815a4724ad5175289db358f7a7e55c5eb84079c03d8d1be388d1b41c76b",
+      "roles": [
+        "secuencia"
+      ],
+      "character": "Diagrama de secuencia de tres pasos",
+      "duration_s": 0.5,
+      "status": "existing_resource_context_review",
+      "feedback": "Recurso original; verificar ataque y cola en la mezcla de cada video.",
+      "caution": "Nivel de fuente; ajustar contra la voz contemporánea. No es preset de volumen aprobado.",
+      "license": "CC0-1.0 (to the extent rights exist)",
+      "credit": "Original procedural synthesis; generate_sfx.py · CC0-1.0.",
+      "source_manifest": "library/sfx/manifest.json",
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-07",
+      "type": "sfx",
+      "title": "Regreso",
+      "file": "library/sfx/07_loop_return.wav",
+      "preview": "library/sfx/07_loop_return.wav",
+      "sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+      "roles": [
+        "retorno"
+      ],
+      "character": "Retorno o repetición visual",
+      "duration_s": 0.48,
+      "status": "existing_resource_context_review",
+      "feedback": "Recurso original; verificar ataque y cola en la mezcla de cada video.",
+      "caution": "Nivel de fuente; ajustar contra la voz contemporánea. No es preset de volumen aprobado.",
+      "license": "CC0-1.0 (to the extent rights exist)",
+      "credit": "Original procedural synthesis; generate_sfx.py · CC0-1.0.",
+      "source_manifest": "library/sfx/manifest.json",
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-08",
+      "type": "sfx",
+      "title": "Resolución",
+      "file": "library/sfx/08_resolve.wav",
+      "preview": "library/sfx/08_resolve.wav",
+      "sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+      "roles": [
+        "cierre"
+      ],
+      "character": "Cierre de idea con respiración",
+      "duration_s": 0.84,
+      "status": "existing_resource_context_review",
+      "feedback": "Recurso original; verificar ataque y cola en la mezcla de cada video.",
+      "caution": "Nivel de fuente; ajustar contra la voz contemporánea. No es preset de volumen aprobado.",
+      "license": "CC0-1.0 (to the extent rights exist)",
+      "credit": "Original procedural synthesis; generate_sfx.py · CC0-1.0.",
+      "source_manifest": "library/sfx/manifest.json",
+      "history": false
+    }
+  ],
+  "limits": [
+    "Roles propuestos, no clasificación emocional ni garantía de encaje.",
+    "Aprobación se registra por recurso/tramo/mezcla; feedback de C no aprueba el catálogo completo.",
+    "Ninguna música extraída de las referencias se incorpora a esta biblioteca."
+  ]
+}

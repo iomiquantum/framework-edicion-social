@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "",
+  "inputs": [
+    {"id": "source", "description": "Original selected camera and audio source"},
+    {"id": "transcription", "description": "Approved word-timestamp transcript"},
+    {"id": "cut-plan", "description": "Editorial source-range and timing decisions"},
+    {"id": "style", "description": "Locked visual and motion style package"},
+    {"id": "assets", "description": "Selected visual, music and sound assets"},
+    {"id": "mix", "description": "Audio mix decisions and automation"}
+  ],
+  "layers": [
+    {
+      "id": "ingest",
+      "description": "Source probing and normalized source references",
+      "depends_on": ["source"],
+      "heavy": false,
+      "artifacts": [
+        {"id": "source-probe", "path": "work/source-probe.json", "kind": "file"}
+      ]
+    },
+    {
+      "id": "narrative",
+      "description": "Transcript-aligned edit structure",
+      "depends_on": ["transcription", "cut-plan"],
+      "heavy": false,
+      "artifacts": [
+        {"id": "timeline-plan", "path": "work/timeline-plan.json", "kind": "file"}
+      ]
+    },
+    {
+      "id": "lookdev",
+      "description": "Style and asset resolution",
+      "depends_on": ["style", "assets"],
+      "heavy": false,
+      "artifacts": [
+        {"id": "look-lock", "path": "work/look-lock.json", "kind": "file"}
+      ]
+    },
+    {
+      "id": "assembly",
+      "description": "Picture composition and edit assembly",
+      "depends_on": ["ingest", "narrative", "lookdev"],
+      "heavy": true,
+      "artifacts": [
+        {"id": "composition", "path": "editables/composition", "kind": "directory"}
+      ]
+    },
+    {
+      "id": "audio-mix",
+      "description": "Voice, music and sound-effects mix",
+      "depends_on": ["source", "mix", "assets"],
+      "heavy": true,
+      "artifacts": [
+        {"id": "mixdown", "path": "work/mixdown.wav", "kind": "file"}
+      ]
+    },
+    {
+      "id": "qa",
+      "description": "Integrated editorial and technical checks",
+      "depends_on": ["assembly", "audio-mix"],
+      "heavy": false,
+      "artifacts": [
+        {"id": "qa-scorecard", "path": "qa/scorecard.json", "kind": "file"}
+      ]
+    },
+    {
+      "id": "render",
+      "description": "Final encoded delivery and render manifest",
+      "depends_on": ["qa"],
+      "heavy": true,
+      "artifacts": [
+        {"id": "delivery-render", "path": "renders/final.mp4", "kind": "file"},
+        {"id": "render-manifest", "path": "renders/final.manifest.json", "kind": "file"}
+      ]
+    }
+  ]
+}

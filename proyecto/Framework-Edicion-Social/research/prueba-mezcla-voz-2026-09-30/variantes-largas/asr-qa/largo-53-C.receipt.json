@@ -1,0 +1,9 @@
+{
+  "source": "variantes-largas/largo-53/C/mezcla.m4a",
+  "source_sha256": "a082c0fed9f913e194c6f58ada64d11743c9e3b5eb7f54789f7e8146a5cb799b",
+  "model": "Whisper.cpp large-v3 local, es,4threads, defaults, no prompt",
+  "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+  "conversion": "AAC final→mono16kPCM16 SOLO para comprobación, no fuente de mezcla",
+  "elapsed_seconds": 13.545,
+  "asr_input_sha256": "272f336012e065e3dcbf13752ebe9172c1a0435cc8124bf296c61dc4c744210c"
+}

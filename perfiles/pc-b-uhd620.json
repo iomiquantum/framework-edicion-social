@@ -1,0 +1,13 @@
+{
+  "id": "pc-b-uhd620",
+  "description": "i7-8550U, RAM 16 GB, Intel UHD 620, Windows 11 Pro",
+  "role": "Preparacion, recursos, revision y segundo video independiente; render posible por validar",
+  "render_workers": 1,
+  "low_memory": false,
+  "max_heavy_jobs": 1,
+  "gpu_encode_default": false,
+  "gpu_encode_candidate": "No asumir soporte de codificacion del adaptador sin prueba",
+  "browser_gpu": "auto",
+  "quality_policy": "Mismas reglas editoriales, misma resolucion y QA que PC A",
+  "benchmark_verified": false
+}

@@ -1,0 +1,87 @@
+{
+  "status": "pass",
+  "date_local": "2026-09-30",
+  "render_hashes_unchanged": 26,
+  "renders_sampled": 26,
+  "frames_inspected": 52,
+  "downloaded_tracks": 3,
+  "html_local_links": "pass",
+  "audition_files": [
+    {
+      "file": "00-voz-sola-video13-12s.wav",
+      "duration_s": 12.0,
+      "sha256": "15e8faa440c374f4d1e5b1a6842c34237563c3eec08521573734c770a4385218",
+      "decode_full": "pass"
+    },
+    {
+      "file": "01-tech-original-bajo-voz-video13-12s.wav",
+      "duration_s": 12.0,
+      "sha256": "a6c06f1fcdf66465eb3ff9c15e2c5303ea95b5239eab7153142748a122aed613",
+      "decode_full": "pass"
+    },
+    {
+      "file": "01-tech-original-cama-12s.wav",
+      "duration_s": 12.0,
+      "sha256": "7c9e080a656cdfa87f39d88be66c0eba7fc365a909ca9741e9690bd9283b9f16",
+      "decode_full": "pass"
+    },
+    {
+      "file": "02-computations-bajo-voz-video13-12s.wav",
+      "duration_s": 12.0,
+      "sha256": "1c120819db9c5988e3b615fbfbe2f7a74512f0aa95fa886c17d53802c98da7bc",
+      "decode_full": "pass"
+    },
+    {
+      "file": "02-computations-cama-12s.wav",
+      "duration_s": 12.0,
+      "sha256": "94d614c7cbb9e46c93f47f8be446e1ef61b030ca894bd32f8e0b1dd9b02046fa",
+      "decode_full": "pass"
+    },
+    {
+      "file": "03-intervention-bajo-voz-video13-12s.wav",
+      "duration_s": 12.0,
+      "sha256": "1cfd43162ad97f8b26f69ea727e1c36a106da57e105e35cfb65a9ffc0a98a977",
+      "decode_full": "pass"
+    },
+    {
+      "file": "03-intervention-cama-12s.wav",
+      "duration_s": 12.0,
+      "sha256": "6d1a722facf93144ea6a09b9e852f48619477e99a670cd42e5878c734d3dff60",
+      "decode_full": "pass"
+    },
+    {
+      "file": "04-cirrus-bajo-voz-video13-12s.wav",
+      "duration_s": 12.0,
+      "sha256": "2b8cb4eb1cdff4f5fcebee9be179c9eb101e7688fafa127651f8fac0e372d57c",
+      "decode_full": "pass"
+    },
+    {
+      "file": "04-cirrus-cama-12s.wav",
+      "duration_s": 12.0,
+      "sha256": "ae79c25d2c2c6e4bfab6d18de9617905cc4dc09362b5fd6cb46270c6521c1057",
+      "decode_full": "pass"
+    },
+    {
+      "file": "cirrus-musica-sola-20s.mp3",
+      "duration_s": 20.0,
+      "sha256": "7a3c424d51f96b24f2ce39abc4ef99fd9d12c13991784408905e033dfbfe151a",
+      "decode_full": "pass"
+    },
+    {
+      "file": "computations-musica-sola-20s.mp3",
+      "duration_s": 20.0,
+      "sha256": "ed223db21063a0d59fd315b812067482296ceb01ce57f12ba593fc245bca2280",
+      "decode_full": "pass"
+    },
+    {
+      "file": "intervention-musica-sola-20s.mp3",
+      "duration_s": 20.0,
+      "sha256": "fbf3ed6d936e936449896aa4afb2db0725301b75929fe932383028df69e1dc5e",
+      "decode_full": "pass"
+    }
+  ],
+  "issues": [],
+  "human_listening": "por confirmar",
+  "audience_results": "awaiting_data",
+  "browser_check": "Página inspeccionada en captura; carga de reproductor de voz verificada en UI, sin afirmar escucha."
+}

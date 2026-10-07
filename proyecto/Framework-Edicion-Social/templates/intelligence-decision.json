@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "",
+  "framework_version": "1.6.3",
+  "research_cutoff": "",
+  "brief_path": "",
+  "approved_take_id": "",
+  "transcript_sha256": "",
+  "preference_profile_path": "profiles/creative_preferences.json",
+  "asset_catalog_version": "1.0.0",
+  "asset_reuse_summary": {"reused": 0, "derived": 0, "generated": 0, "unused": 0},
+  "applied_rules": [],
+  "rejected_rules": [],
+  "observations_considered": [],
+  "experiment_id": null,
+  "rationale": ""
+}

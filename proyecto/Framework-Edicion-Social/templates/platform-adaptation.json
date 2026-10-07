@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.1.0",
+  "adaptation_id": "ADAPT-MASTER-VIDEO-01",
+  "generated_at": "2026-09-25T00:00:00Z",
+  "output_root": "deliveries",
+  "master": {
+    "master_id": "MASTER-VIDEO-01",
+    "manifest_path": "templates/platform-master.json",
+    "profile_id": "PLATFORM-MASTER-VERTICAL-001",
+    "approval_status": "pending",
+    "explicit_user_approval": false,
+    "content_lock_status": "unlocked"
+  },
+  "catalog": {
+    "path": "platforms/catalog.json",
+    "catalog_version": "1.0.0"
+  },
+  "status": "blocked_until_master_approved",
+  "blocking_reasons": [
+    "El master no tiene aprobacion explicita del usuario.",
+    "El contenido del master no esta bloqueado."
+  ],
+  "policy": {
+    "strategy": "instagram_master_reuse_unless_material_delta",
+    "preserve": ["take", "cuts", "voice", "semantics", "approved_assets"],
+    "allowed_changes": ["layout_reflow", "caption_line_breaks", "cta_surface_wording", "export_settings"],
+    "prohibited_changes": ["spoken_message", "claim_meaning", "selected_take", "cut_timing", "approved_asset_identity"]
+  },
+  "targets": [
+    {
+      "profile_id": "PLATFORM-INSTAGRAM-REELS-ORGANIC-001",
+      "platform": "instagram",
+      "surface": "reels_organic",
+      "status": "blocked",
+      "delta": {
+        "layout": "Refluir elementos al token instagram-reels-organic sin modificar cortes.",
+        "captions": "Cambiar solo saltos de linea y posicion; conservar el texto aprobado.",
+        "cta": "Usar wording nativo solo si es semanticamente equivalente y se aprueba en preview.",
+        "export": "Aplicar el preset tecnico del perfil sin rearmar el montaje.",
+        "semantic_guard": "Cualquier cambio de mensaje, claim, toma o timing obliga a regresar a aprobacion del master."
+      },
+      "safe_zone": {
+        "provenance": "internal_conservative_not_official",
+        "requires_live_preview": true,
+        "essential": {"x": 0.08, "y": 0.1, "width": 0.74, "height": 0.7},
+        "captions": {"x": 0.08, "y": 0.62, "width": 0.7, "height": 0.15}
+      },
+      "export": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "container": "mp4",
+        "video_codec": "h264",
+        "pixel_format": "yuv420p",
+        "target_bitrate_mbps": 8,
+        "audio_codec": "aac",
+        "audio_sample_rate_hz": 48000,
+        "color_space": "bt709"
+      },
+      "hyperframes_variables": {
+        "platform_profile": "PLATFORM-INSTAGRAM-REELS-ORGANIC-001",
+        "layout_token": "instagram-reels-organic",
+        "cta_token": "cta-instagram-reels",
+        "safe_essential_x": 0.08,
+        "safe_essential_y": 0.1,
+        "safe_essential_width": 0.74,
+        "safe_essential_height": 0.7,
+        "caption_safe_x": 0.08,
+        "caption_safe_y": 0.62,
+        "caption_safe_width": 0.7,
+        "caption_safe_height": 0.15
+      },
+      "required_gates": [
+        "explicit_master_approval",
+        "content_lock",
+        "live_platform_preview",
+        "semantic_match"
+      ],
+      "gates": [
+        {
+          "id": "explicit_master_approval",
+          "status": "pending",
+          "evidence": null,
+          "note": "Debe existir aprobacion humana explicita del master."
+        },
+        {
+          "id": "content_lock",
+          "status": "pending",
+          "evidence": null,
+          "note": "Toma, cortes, voz, semantica y assets deben estar bloqueados."
+        },
+        {
+          "id": "live_platform_preview",
+          "status": "pending",
+          "evidence": null,
+          "note": "La zona segura numerica es interna; verificar la interfaz real."
+        },
+        {
+          "id": "semantic_match",
+          "status": "pending",
+          "evidence": null,
+          "note": "Confirmar que CTA y reflujo no cambian el significado."
+        }
+      ],
+      "output_path": "deliveries/instagram/VIDEO-01-instagram-reels.mp4"
+    }
+  ],
+  "binding": {
+    "algorithm": "sha256",
+    "canonicalization": "json-sort-keys-utf8-v1",
+    "payload_sha256": "6d67067a2500a2cbf235a6ae38badd7a1422b20794db35dd7640779533315aa7"
+  }
+}

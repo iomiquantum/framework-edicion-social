@@ -1,0 +1,936 @@
+{
+  "schema_version": "1.0.0",
+  "profile_id": "creator_social_primary",
+  "updated_at": "2026-09-30",
+  "learning_policy": {
+    "allowed_evidence": [
+      "explicit_user_instruction",
+      "explicit_review_decision",
+      "repeated_choice_across_projects",
+      "documented_performance_experiment"
+    ],
+    "never_promote_from": [
+      "assistant_inference_only",
+      "silent_acceptance",
+      "single_external_trend",
+      "one_project_exception"
+    ],
+    "candidate_requires_explicit_signal": true,
+    "candidate_promotion_distinct_projects": 2,
+    "explicit_global_instruction_can_confirm_immediately": true,
+    "negative_feedback_is_scoped_by_default": true
+  },
+  "confirmed_preferences": [
+    {
+      "id": "PREF-WORKFLOW-001",
+      "category": "workflow",
+      "scope": [
+        "all_social_video"
+      ],
+      "summary": "Optimizar el tiempo de edición sin bajar el piso de calidad profesional.",
+      "operational_effect": [
+        "parallel_preproduction",
+        "reuse_before_generation",
+        "layered_editing",
+        "short_segment_reviews",
+        "full_quality_render_after_editorial_lock"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-WORKFLOW-002",
+      "category": "workflow",
+      "scope": [
+        "multi_video_batches",
+        "all_social_video"
+      ],
+      "summary": "Analizar cada maestro una sola vez y distribuir tomas aprobadas por video para evitar rescaneos y habilitar edición paralela.",
+      "operational_effect": [
+        "single_master_transcription",
+        "human_reviewed_take_map",
+        "per_video_editing_proxy",
+        "exclusive_video_workspaces",
+        "max_two_heavy_jobs",
+        "final_render_from_original"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-SOURCE-001",
+      "category": "source_of_truth",
+      "scope": [
+        "talking_head",
+        "scripted_with_improvisation"
+      ],
+      "summary": "El guion es provisional; la toma aprobada y su transcripción mandan sobre la edición.",
+      "operational_effect": [
+        "final_transcript_from_audio",
+        "discard_unused_script_assets",
+        "resolve_improvised_entities"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-VISUAL-001",
+      "category": "composition",
+      "scope": [
+        "talking_head"
+      ],
+      "summary": "Proteger el rostro y aprovechar espacios vacíos; una cobertura completa solo debe ser breve o un cutaway justificado.",
+      "operational_effect": [
+        "face_safe_layout",
+        "negative_space_first",
+        "brief_face_crossing_only",
+        "semantic_full_screen_cutaways"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "PREF-VISUAL-002",
+      "category": "visual_language",
+      "scope": [
+        "all_social_video"
+      ],
+      "summary": "Combinar imágenes, iconos, logos oficiales, gráficos y momentos a pantalla completa según el contexto.",
+      "operational_effect": [
+        "semantic_media_mix",
+        "official_brand_assets",
+        "visual_role_variety"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "PREF-MOTION-001",
+      "category": "motion_and_sound",
+      "scope": [
+        "all_social_video"
+      ],
+      "summary": "Los zooms, transiciones y SFX deben sentirse, estar sincronizados y responder al significado, sin saturar.",
+      "operational_effect": [
+        "perceptible_semantic_zooms",
+        "animated_transitions",
+        "localized_sfx",
+        "attention_rest_beats"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "PREF-MOTION-002",
+      "category": "contextual_micro_scenes",
+      "scope": [
+        "all_social_video",
+        "talking_head",
+        "multi_video_series"
+      ],
+      "summary": "Usar microacciones y microescenas realistas —escritura, teclado, pantallas, vehículos, luces, rutas, máquinas y objetos— para materializar ideas del guion, siempre con una relación semántica clara y sin convertirlas en relleno.",
+      "operational_effect": [
+        "map_each_motion_to_a_specific_transcript_beat",
+        "prefer_practical_footage_for_hands_vehicles_light_and_objects",
+        "composite_editable_text_interfaces_and_routes_in_post",
+        "use_hybrid_real_footage_and_seek_safe_motion_graphics",
+        "limit_primary_micro_scene_frequency",
+        "return_attention_to_presenter_after_visual_support",
+        "reject_context_free_motion_and_visual_filler",
+        "verify_perspective_light_grain_reflections_and_camera_motion"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-COLOR-001",
+      "category": "color",
+      "scope": [
+        "all_social_video"
+      ],
+      "summary": "Usar una cromática variada y agradable; evitar que todos los recursos sean amarillos o dorados.",
+      "operational_effect": [
+        "multicolor_semantic_palette",
+        "gold_as_optional_accent",
+        "topic_adaptive_color"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "id": "PREF-LIBRARY-001",
+      "category": "asset_library",
+      "scope": [
+        "all_projects"
+      ],
+      "summary": "Reutilizar recursos aprobados mediante nombres, descripciones y catálogo antes de generar nuevos.",
+      "operational_effect": [
+        "candidate_search_first",
+        "stable_asset_ids",
+        "usage_history",
+        "versioned_derivatives"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-SFX-001",
+      "category": "sound_design",
+      "scope": [
+        "all_social_video"
+      ],
+      "summary": "Preferir SFX suaves, cálidos, de ataque redondeado y poco brillo; evitar efectos ásperos o demasiado presentes para el oído.",
+      "operational_effect": [
+        "low_brightness_sfx",
+        "rounded_envelopes",
+        "conservative_peak",
+        "initial_mix_gain_0_35_to_0_50",
+        "calibrate_gain_to_source_loudness_and_context",
+        "voice_first"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_review_decision",
+          "date": "2026-09-25",
+          "targets": [
+            "SFX-MOTION-0001",
+            "SFX-ENTRY-0001"
+          ]
+        },
+        {
+          "kind": "explicit_review_decision",
+          "date": "2026-09-25",
+          "approved_targets": [
+            "SFX-ENTRY-0002",
+            "SFX-ENTRY-0003",
+            "SFX-MOTION-0003"
+          ],
+          "rejected_targets": [
+            "SFX-MOTION-0002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PREF-VISUAL-003",
+      "category": "originality_and_art_direction",
+      "scope": [
+        "all_social_video"
+      ],
+      "summary": "Evitar imágenes genéricas o reconocibles como generación de IA; cada video debe recibir una dirección artística propia, coherente con su idea y distinta de recursos comunes o repetidos.",
+      "operational_effect": [
+        "reject_generic_ai_aesthetic",
+        "concept_before_prompt",
+        "distinct_art_direction_per_video",
+        "inspect_anatomy_texture_lighting_and_repetition",
+        "prefer_real_or_authored_media_when_generation_is_not_the_best_fit"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-VISUAL-004",
+      "category": "mixed_media_variety",
+      "scope": [
+        "all_social_video"
+      ],
+      "summary": "Mezclar formatos visuales para que las imágenes de una serie no se parezcan entre sí, manteniendo coherencia narrativa y de marca.",
+      "operational_effect": [
+        "rotate_photography_collage_macro_tabletop_documentary_analog_and_graphic_formats",
+        "avoid_repeating_composition_subject_lighting_or_palette",
+        "combine_real_broll_generated_cutaways_icons_diagrams_and_material_textures",
+        "preserve_series_coherence_through_typography_motion_and_editorial_rules"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-VISUAL-005",
+      "category": "subject_safety_and_semantic_layout",
+      "scope": [
+        "all_social_video"
+      ],
+      "summary": "Antes de montar overlays o recursos se deben revisar rostros, sujetos de primer plano, zonas vacías, pertinencia semántica y transiciones; ninguna capa debe ocultar el foco principal ni mezclar dos rostros durante un fundido prolongado.",
+      "operational_effect": [
+        "inspect_source_and_generated_subjects_before_layout",
+        "protect_eyes_mouth_faces_and_foreground_subjects",
+        "place_text_in_verified_negative_space",
+        "reject_ambiguous_or_irrelevant_icons",
+        "prefer_fast_clean_subject_changes_over_long_double_exposure",
+        "require_beginning_middle_end_visual_contact_sheet_before_render"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25",
+          "targets": [
+            "VIDEO-02"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PREF-TYPE-001",
+      "category": "typographic_overlays",
+      "scope": [
+        "talking_head",
+        "all_vertical_social",
+        "all_social_video"
+      ],
+      "summary": "Los acentos tipográficos son recursos opcionales y adaptables a la toma real; deben reforzar una sola idea sin saturar, tapar rostros, competir con captions ni quitar protagonismo al locutor.",
+      "operational_effect": [
+        "regenerate_or_rephrase_against_approved_transcript",
+        "single_semantic_purpose_per_overlay",
+        "verified_negative_space_placement",
+        "protect_eyes_mouth_face_and_primary_gesture",
+        "subtle_face_crossing_only_when_editorially_justified",
+        "avoid_dense_caption_overlap",
+        "limit_hero_type_frequency_and_duration",
+        "scale_overlay_to_verified_negative_space",
+        "maintain_typographic_hierarchy_across_scenes",
+        "avoid_timid_overlay_scale_when_space_is_available",
+        "voice_and_presenter_remain_primary",
+        "remove_overlay_when_it_does_not_improve_comprehension"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-VISUAL-006",
+      "category": "layered_subject_compositing",
+      "scope": [
+        "talking_head",
+        "all_vertical_social",
+        "all_social_video"
+      ],
+      "summary": "Cuando un tratamiento visual de fondo funciona pero invade al sujeto, conservarlo mediante capas: placa original abajo, gráfico al medio y recorte sincronizado del sujeto arriba; preservar el color de la grabación y suavizar el borde sin desenfocar el rostro.",
+      "operational_effect": [
+        "prefer_layered_subject_masking_over_flat_face_overlay",
+        "original_plate_graphic_subject_cutout_stack",
+        "synchronize_duplicate_video_layers_and_camera_motion",
+        "preserve_source_color_space_and_original_subject_pixels",
+        "reject_visual_color_matching_by_aggressive_filters",
+        "inspect_matte_edges_hair_ears_shoulders_hands_and_headrests",
+        "feather_alpha_only_without_blurring_the_subject",
+        "block_delivery_on_visible_color_jumps_or_mask_halos",
+        "use_masking_only_when_depth_improves_reading"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25",
+          "targets": [
+            "VIDEO-02"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PREF-EDIT-001",
+      "category": "dialogue_editing",
+      "scope": [
+        "talking_head",
+        "all_social_video"
+      ],
+      "summary": "Iniciar cerca del primer fonema y compactar espacios sin perder respiración, énfasis ni naturalidad.",
+      "operational_effect": [
+        "speech_onset_default_preroll_4_frames",
+        "adaptive_pause_classification",
+        "preserve_semantic_pauses",
+        "micro_voice_crossfades",
+        "avoid_machine_gun_cadence",
+        "gesture_aware_cuts"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-WORKFLOW-003",
+      "category": "production_system",
+      "scope": [
+        "all_projects",
+        "all_social_video"
+      ],
+      "summary": "Usar la matriz profesional completa con gates verificables: preflight, blueprint, selección de estilo, propiedad exclusiva, impacto/caché, variantes, golden master y revisión de rendimiento.",
+      "operational_effect": [
+        "recording_preflight",
+        "creative_blueprint",
+        "explainable_style_scoring_with_abstention",
+        "single_writer_production_board",
+        "dependency_aware_delta_rebuild",
+        "deterministic_cache_key",
+        "controlled_variants",
+        "immutable_golden_master",
+        "contextual_performance_review"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-WORKFLOW-004",
+      "category": "recording_support_preflight",
+      "scope": [
+        "all_social_video",
+        "long_form_video",
+        "multi_video_batches"
+      ],
+      "summary": "Preparar antes de cada video un plan breve de tomas reales complementarias y verificar si ya existen, se grabarán, se resolverán después o no se usarán; la ausencia de estos recursos nunca bloquea la grabación principal.",
+      "operational_effect": [
+        "per_video_non_blocking_support_checklist",
+        "four_state_asset_decision_before_recording",
+        "group_support_shots_by_location_props_and_people",
+        "continue_a_roll_when_support_media_is_missing",
+        "document_editorial_fallback",
+        "provider_agnostic_external_generation_later",
+        "record_provider_model_prompt_license_hash_and_privacy",
+        "never_upload_sensitive_footage_without_authorization"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-PLATFORM-001",
+      "category": "platform_delivery",
+      "scope": [
+        "instagram_reels",
+        "tiktok",
+        "youtube_shorts",
+        "all_vertical_social"
+      ],
+      "summary": "Aprobar primero un máster vertical neutral y crear después derivados por plataforma reutilizando el mismo contenido y recursos, sin reeditar el video desde cero.",
+      "operational_effect": [
+        "explicit_master_approval_gate",
+        "content_lock_before_derivatives",
+        "platform_layout_tokens",
+        "caption_and_cta_reflow_only",
+        "live_platform_preview",
+        "shared_semantic_assets_and_cuts"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-LEARNING-001",
+      "category": "learning_system",
+      "scope": [
+        "all_projects",
+        "all_social_video"
+      ],
+      "summary": "Mejorar continuamente el motor de aprendizaje para convertir decisiones aprobadas en plantillas y matrices más rápidas, sin reducir calidad, estructura, lógica ni criterio editorial.",
+      "operational_effect": [
+        "evidence_scoped_learning",
+        "human_review_before_promotion",
+        "versioned_templates_and_matrices",
+        "quality_floor_before_speed",
+        "reversible_defaults",
+        "measure_turnaround_and_rework"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-CREATIVE-001",
+      "category": "creative_exploration",
+      "scope": [
+        "all_social_video",
+        "multi_video_series"
+      ],
+      "summary": "Mantener un portafolio de estructuras, formatos y estilos; probar variaciones controladas para crear varias familias de plantillas sin congelar la creatividad.",
+      "operational_effect": [
+        "template_family_portfolio",
+        "controlled_structure_variants",
+        "format_and_style_rotation",
+        "template_lineage",
+        "contextual_template_selection",
+        "anti_monotony_checks"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-WORKFLOW-005",
+      "category": "batch_optimization",
+      "scope": [
+        "all_projects",
+        "all_social_video",
+        "multi_video_batches"
+      ],
+      "summary": "Implementar de inmediato las mejoras verificadas que reduzcan retrabajo en el lote completo, manteniendo calidad profesional, trazabilidad y variación creativa.",
+      "operational_effect": [
+        "hash_bound_review_console",
+        "semantic_asset_reuse_before_generation",
+        "advisory_asset_and_pattern_fatigue",
+        "contextual_modular_recipe_proposals",
+        "approved_sdr_multichannel_package",
+        "verified_publication_cohort_metrics",
+        "deep_regression_testing_before_framework_promotion"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "PREF-TYPE-002",
+      "category": "hook_title_contrast",
+      "scope": [
+        "talking_head",
+        "all_vertical_social",
+        "all_social_video"
+      ],
+      "summary": "Los títulos principales del inicio deben apoyarse en una placa de fondo legible y coherente con el color propio de cada video, sin tapar el rostro.",
+      "operational_effect": [
+        "hook_title_background_panel",
+        "family_specific_accent_border",
+        "preserve_large_typographic_scale",
+        "verified_negative_space_placement",
+        "subject_safe_title_geometry"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25",
+          "targets": [
+            "VIDEO-03",
+            "VIDEO-04",
+            "VIDEO-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PREF-SFX-002",
+      "category": "hook_sound_design",
+      "scope": [
+        "all_social_video",
+        "all_vertical_social"
+      ],
+      "summary": "El inicio debe tener acentos sonoros perceptibles que llamen la atención, pero sincronizados con el evento visual, suaves y subordinados a la voz.",
+      "operational_effect": [
+        "compact_two_layer_hook_signature_when_supported",
+        "synchronize_sfx_to_visual_and_semantic_events",
+        "avoid_decorative_or_continuous_sound_density",
+        "phone_speaker_audibility_check",
+        "four_semantic_events_when_the_structure_supports_hook_concept_support_and_cta",
+        "calibrate_gain_to_source_loudness_instead_of_using_a_fixed_percentage",
+        "voice_first_mix"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25",
+          "targets": [
+            "VIDEO-03",
+            "VIDEO-04",
+            "VIDEO-05"
+          ]
+        },
+        {
+          "kind": "explicit_user_review",
+          "date": "2026-09-25",
+          "targets": [
+            "VIDEO-06",
+            "VIDEO-07",
+            "VIDEO-08",
+            "VIDEO-09",
+            "VIDEO-10"
+          ],
+          "observation": "La edición fue valorada como excelente, pero los SFX no eran perceptibles."
+        }
+      ]
+    },
+    {
+      "id": "PREF-CAPTION-001",
+      "category": "captions",
+      "scope": [
+        "all_social_video",
+        "all_vertical_social"
+      ],
+      "summary": "Los subtítulos deben conservar una sola frase legible a la vez; los cruces de opacidad entre cues se validan en fotogramas del MP4 real.",
+      "operational_effect": [
+        "adjacent_caption_cues_do_not_overlap",
+        "sample_real_mp4_at_caption_boundaries",
+        "block_delivery_on_double_readable_caption_frames",
+        "preserve_phone_size_legibility"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-25",
+          "targets": [
+            "VIDEO-06",
+            "VIDEO-07",
+            "VIDEO-08",
+            "VIDEO-09",
+            "VIDEO-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PREF-AUDIO-001",
+      "category": "voice_cleanup",
+      "scope": [
+        "explicit_user_voice_review",
+        "explicit_user_background_noise_removal"
+      ],
+      "summary": "Revisar y limpiar la voz solo por solicitud explícita sobre el material indicado; conservar investigación/recetas y sugerir tratamientos adicionales según hallazgos, sin aplicarlos por rutina.",
+      "operational_effect": [
+        "activate_only_after_specific_user_request",
+        "no_automatic_cleanup_bypass_or_model_benchmark_for_normal_edits",
+        "suggest_extra_restoration_before_application",
+        "preserve_original_and_prior_versions",
+        "matched_level_ab_and_latency_QA_when_audio_changes",
+        "record_hashes_parameters_evidence_and_listening_status"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-30",
+          "note": "Petición en este chat de revisar audio y aplicar supresión de ruido cuando exista."
+        },
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-30",
+          "quote": "Todo esto que acabamos de disenar no quiero que quede para la edicion de todos los videos unicamente quiero que se use cuando yo pida la revision o la eliminacion de sonidos en el fondo de la voz",
+          "note": "Tratamientos adicionales se sugieren al detectar hallazgos; conservar lo realizado."
+        }
+      ],
+      "previous_versions": [
+        {
+          "superseded_at": "2026-09-30",
+          "reason": "Usuario limita revisión/limpieza a solicitud específica; conservar investigación y medios.",
+          "preference": {
+            "id": "PREF-AUDIO-001",
+            "category": "voice_cleanup",
+            "scope": [
+              "all_social_video"
+            ],
+            "summary": "Revisar ruido de fondo antes de mezclar y aplicar supresión cuando existan sonidos ajenos a la voz, preservando naturalidad e inteligibilidad.",
+            "operational_effect": [
+              "diagnose_isolated_voice_before_mix",
+              "denoise_when_needed_or_document_bypass",
+              "compare_original_and_processed_voice",
+              "preserve_phonemes_breaths_timbre_and_sync",
+              "record_processor_parameters_hashes_and_actual_listening"
+            ],
+            "status": "confirmed",
+            "evidence": [
+              {
+                "kind": "explicit_user_instruction",
+                "date": "2026-09-30",
+                "note": "Petición en este chat de revisar audio y aplicar supresión de ruido cuando exista."
+              }
+            ]
+          }
+        }
+      ],
+      "activation": {
+        "explicit_user_request_required": true,
+        "scope_inherited_to_next_video": false,
+        "skill": "revisar-limpiar-voz",
+        "allow_implicit_invocation": false
+      }
+    },
+    {
+      "id": "PREF-AUDIO-NOISE-001",
+      "category": "voice_restoration",
+      "scope": [
+        "explicit_user_voice_review",
+        "explicit_user_background_noise_removal"
+      ],
+      "summary": "Revisar y limpiar la voz solo por solicitud explícita sobre el material indicado; conservar investigación/recetas y sugerir tratamientos adicionales según hallazgos, sin aplicarlos por rutina.",
+      "operational_effect": [
+        "activate_only_after_specific_user_request",
+        "no_automatic_cleanup_bypass_or_model_benchmark_for_normal_edits",
+        "suggest_extra_restoration_before_application",
+        "preserve_original_and_prior_versions",
+        "matched_level_ab_and_latency_QA_when_audio_changes",
+        "record_hashes_parameters_evidence_and_listening_status"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-30",
+          "targets": [
+            "VIDEO-16",
+            "future_edits"
+          ],
+          "quote": "revise muy bien el audio y apliemos supresion de ruido de fondo si existen sonidos que no sean la voz"
+        },
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-30",
+          "quote": "Todo esto que acabamos de disenar no quiero que quede para la edicion de todos los videos unicamente quiero que se use cuando yo pida la revision o la eliminacion de sonidos en el fondo de la voz",
+          "note": "Tratamientos adicionales se sugieren al detectar hallazgos; conservar lo realizado."
+        }
+      ],
+      "previous_versions": [
+        {
+          "superseded_at": "2026-09-30",
+          "reason": "Usuario limita revisión/limpieza a solicitud específica; conservar investigación y medios.",
+          "preference": {
+            "id": "PREF-AUDIO-NOISE-001",
+            "category": "voice_restoration",
+            "scope": [
+              "all_social_video",
+              "multi_video_batches"
+            ],
+            "summary": "Revisar ruido ajeno a la voz y aplicar supresión conservadora cuando exista ruido que perjudique la claridad; conservar voz original y evitar degradar timbre o respiraciones.",
+            "operational_effect": [
+              "measure_noise_from_same_take_pauses",
+              "conditional_reversible_denoise",
+              "matched_level_ab_review",
+              "preserve_voice_and_breaths",
+              "measure_and_compensate_processor_latency",
+              "never_claim_human_listen_without_evidence"
+            ],
+            "status": "confirmed",
+            "evidence": [
+              {
+                "kind": "explicit_user_instruction",
+                "date": "2026-09-30",
+                "targets": [
+                  "VIDEO-16",
+                  "future_edits"
+                ],
+                "quote": "revise muy bien el audio y apliemos supresion de ruido de fondo si existen sonidos que no sean la voz"
+              }
+            ]
+          }
+        }
+      ],
+      "activation": {
+        "explicit_user_request_required": true,
+        "scope_inherited_to_next_video": false,
+        "skill": "revisar-limpiar-voz",
+        "allow_implicit_invocation": false
+      }
+    },
+    {
+      "id": "PREF-WORKFLOW-006",
+      "category": "workflow",
+      "scope": [
+        "all_social_video",
+        "multi_video_batches"
+      ],
+      "summary": "Ante falta de escucha directa, buscar alternativas y continuar análisis y montaje provisional; no bloquear el trabajo útil ni afirmar escucha humana sin evidencia.",
+      "operational_effect": [
+        "automatic_audio_analysis_and_transcription",
+        "provisional_traceable_editing",
+        "keep_human_audio_review_pending",
+        "do_not_fabricate_ingest_ready_or_approval"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-30",
+          "note": "Correcto no debes bloquearte debes buscar soluciones y seguir."
+        }
+      ]
+    },
+    {
+      "id": "PREF-IMAGE-CONTEXT-REALISM-001",
+      "category": "contextual_image_direction",
+      "scope": [
+        "all_social_video",
+        "multi_video_batches"
+      ],
+      "summary": "Evaluar cada imagen contra la frase real; si el recurso disponible no encaja o resulta genérico, preferir generación específica con acabado fotográfico natural y detalles propios del contexto; banco como alternativa pertinente.",
+      "operational_effect": [
+        "inspect_image_against_actual_spoken_beat",
+        "reject_context_mismatch_despite_asset_availability",
+        "prefer_context_specific_generation_when_available_image_does_not_fit",
+        "use_bank_only_if_semantically_and_visually_suitable",
+        "specific_microaction_natural_light_texture_and_plausible_objects",
+        "audit_anatomy_gaze_perspective_screens_and_in_video_framing",
+        "preserve_prompt_provenance_versions_and_hashes",
+        "never_guarantee_unique_or_undetectable_generation"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-30",
+          "quote": "Apliquemos esto a las reglas si la imagen que hay disponible en recursos no va con el contexto del video generar nuevamente otra o buscar en el banco de imagenes alguna que haya , pero preferible generarla segun el contexto del video y las caracteristicas que pedi. Se ve siempre super bien no parezca tan generada con IA si no mas real y que sea diferentee a lo que hay en internet no se sienta una mas del monton. la gente diga esto lo genero la IA.",
+          "note": "Instrucción global explícita; la referencia a apariencia IA se interpreta junto con el pedido previo de que no se sienta genérica ni evidentemente generada. No es aprobación del candidato individual."
+        }
+      ]
+    },
+    {
+      "id": "PREF-TEMPLATE-DIVERSITY-001",
+      "category": "visual_identity",
+      "scope": [
+        "all_social_video",
+        "multi_video_batches",
+        "workflow_profiles_1_2_3"
+      ],
+      "summary": "Cada plantilla debe distinguirse por estructura, composición, lenguaje gráfico y movimiento; color y tipografía por sí solos no cumplen la diversidad buscada.",
+      "operational_effect": [
+        "inspect_approved_original_template_at_start",
+        "preserve_contextual_template_identity",
+        "review_crop_and_negative_space_before_full_composition",
+        "require_documented_start_layout_review",
+        "verify_conservation_during_assembly_and_exact_export",
+        "avoid_cosmetic_only_template_variation"
+      ],
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-30",
+          "excerpt": "la idea de tener diferenets plantiallas estilos que cambien en estructura disneo iconos etc etc todo lo que mas se peuda no solo en colores como quedaron ahorita"
+        },
+        {
+          "kind": "explicit_user_instruction",
+          "date": "2026-09-30",
+          "excerpt": "debe exigirse desde el inicio ... sin danar las reglas ya puestas anteriormente ... comparar con los videos vecinos esta demas ... ya las aprobamos visualmente"
+        }
+      ]
+    }
+  ],
+  "candidate_preferences": [],
+  "scoped_rejections": [
+    {
+      "id": "REJECT-SFX-0001",
+      "category": "sound_design",
+      "targets": [
+        "SFX-MOTION-0001",
+        "SFX-ENTRY-0001"
+      ],
+      "scope": [
+        "personal_library",
+        "all_social_video"
+      ],
+      "reason": "Demasiado fuertes y brillantes para el oído.",
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_review_decision",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "id": "REJECT-SFX-0002",
+      "category": "sound_design",
+      "targets": [
+        "SFX-MOTION-0002"
+      ],
+      "scope": [
+        "personal_library",
+        "all_social_video"
+      ],
+      "reason": "El barrido tipo tela no coincide con el gusto sonoro aprobado.",
+      "status": "confirmed",
+      "evidence": [
+        {
+          "kind": "explicit_review_decision",
+          "date": "2026-09-25"
+        }
+      ]
+    }
+  ]
+}

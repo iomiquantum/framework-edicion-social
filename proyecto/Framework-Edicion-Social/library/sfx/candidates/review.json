@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "reviewed_at": "2026-09-25",
+  "decision_source": "explicit_user_review",
+  "approved": [
+    "SFX-ENTRY-0002",
+    "SFX-ENTRY-0003",
+    "SFX-MOTION-0003"
+  ],
+  "rejected": [
+    "SFX-MOTION-0002"
+  ],
+  "rule": "Only approved IDs are eligible for automatic candidate selection. Rejected files remain for reproducibility and must not be reused."
+}

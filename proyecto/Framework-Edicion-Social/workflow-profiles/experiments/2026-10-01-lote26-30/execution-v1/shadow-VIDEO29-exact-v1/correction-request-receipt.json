@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-01T05:22:30.589689+00:00",
+  "defect_id": "T29-TRANSITION-FACE-01",
+  "severity": "minor_visual_finish",
+  "status": "root_accepted_correction_v2_pending",
+  "prior_audit_preserved": "audit.json",
+  "root_direction": "Delay graphics body cards/circle/closing/rule until backgroundopacity1 at0.16s; headline and caption fade stays off face",
+  "frames_observed_s": [
+    6.133,
+    6.2,
+    17.367,
+    17.4
+  ],
+  "previous_version_preserved": true,
+  "final_renders_expected": 2,
+  "not_claimed": "humaneditorialapproval or alwaysfreeface in v1"
+}

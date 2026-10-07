@@ -1,0 +1,52 @@
+{
+  "status": "completed_estimates_only",
+  "model": "htdemucs single955717e8",
+  "demucs_version": "4.0.1",
+  "torch_version": "2.5.1",
+  "model_sha256": "8726e21a993978c7ba086d3872e7608d7d5bfca646ca4aca459ffda844faa8b4",
+  "model_url": "https://dl.fbaipublicfiles.com/demucs/hybrid_transformer/955717e8-8726e21a.th",
+  "device": "cpu",
+  "threads": 4,
+  "seed": 0,
+  "shifts": 0,
+  "overlap": 0.25,
+  "segment_s": 7,
+  "duration_s": 69.49995464852607,
+  "sample_rate": 44100,
+  "normalization": "Una normalización de entrada revertida común; WAVFLOAT sin rescale/clamp por stem.",
+  "reconstruction_correlation": 0.9998297453393918,
+  "residual_rms_dbfs": -50.6024694442749,
+  "elapsed_s": 26.024124832998496,
+  "stems": [
+    {
+      "name": "drums",
+      "path": "estimaciones-demucs/drums.wav",
+      "sha256": "eb7eef4186e85a655f70c1c63ce0f98a2fc176cf3e26bcd28f663c5a1924ff05",
+      "peak_dbfs": -0.8718227595090866
+    },
+    {
+      "name": "bass",
+      "path": "estimaciones-demucs/bass.wav",
+      "sha256": "445df3108d1f7ccc3de5327122cef1e468e25176ea550aff8da0e34348423d99",
+      "peak_dbfs": -10.596425533294678
+    },
+    {
+      "name": "other",
+      "path": "estimaciones-demucs/other.wav",
+      "sha256": "70ba40fdab0b10c59af79cabf03ad8e304cd50cb9592690e3dbf14e38a122cf0",
+      "peak_dbfs": -5.171524882316589
+    },
+    {
+      "name": "vocals",
+      "path": "estimaciones-demucs/vocals.wav",
+      "sha256": "739194d85166a86e2312443a3a9cc11200ff9af52951e2b0f493c885c1578533",
+      "peak_dbfs": -2.0219410955905914
+    }
+  ],
+  "limits": [
+    "Modelo entrenado en música: vocals puede incluir habla y residuos; acompañamiento puede contener fuga de voz/SFX.",
+    "No son stems originales. No permite inferir faders/automatización exactos ni número de canciones.",
+    "Torch2.5.1 existente usado en entorno aislado; se evita sustituir por la antigua dependencia torchaudio<2.1 del paquete.",
+    "Fuentes originales intactas; derivados solo para análisis, no para biblioteca/reutilización de música."
+  ]
+}

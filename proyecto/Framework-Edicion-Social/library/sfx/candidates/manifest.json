@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "created": "2026-09-25",
+  "pack": "Soft Transitions Candidates",
+  "design_constraints": [
+    "conservative peak level",
+    "rounded attack and release",
+    "low-pass texture with reduced high-frequency fatigue",
+    "no samples or third-party recordings",
+    "not eligible for automatic reuse until explicit approval"
+  ],
+  "files": [
+    {
+      "file": "candidates/entry_velvet_bloom_soft_v01.wav",
+      "family": "entry",
+      "duration_seconds": 0.58,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -22,
+      "rms_dbfs": -35.3,
+      "description": "Entrada aterciopelada y cálida para revelar una idea sin ataque brillante.",
+      "status": "provisional_pending_user_review",
+      "provenance": "Original deterministic procedural synthesis; generate_soft_candidates.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    },
+    {
+      "file": "candidates/entry_warm_breath_lift_soft_v01.wav",
+      "family": "entry",
+      "duration_seconds": 0.72,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -24,
+      "rms_dbfs": -37.98,
+      "description": "Elevación respirada, lenta y muy discreta para imágenes o conceptos contemplativos.",
+      "status": "provisional_pending_user_review",
+      "provenance": "Original deterministic procedural synthesis; generate_soft_candidates.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    },
+    {
+      "file": "candidates/motion_fabric_swish_soft_v01.wav",
+      "family": "motion",
+      "duration_seconds": 0.52,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -22,
+      "rms_dbfs": -35.73,
+      "description": "Barrido tipo tela, redondeado y de poco brillo para desplazamientos gráficos.",
+      "status": "provisional_pending_user_review",
+      "provenance": "Original deterministic procedural synthesis; generate_soft_candidates.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    },
+    {
+      "file": "candidates/motion_warm_slide_soft_v01.wav",
+      "family": "motion",
+      "duration_seconds": 0.44,
+      "sample_rate": 48000,
+      "bit_depth": 24,
+      "channels": 1,
+      "peak_dbfs": -24,
+      "rms_dbfs": -37.58,
+      "description": "Deslizamiento cálido y corto para cambios de bloque debajo de la voz.",
+      "status": "provisional_pending_user_review",
+      "provenance": "Original deterministic procedural synthesis; generate_soft_candidates.py",
+      "license": "CC0-1.0 (to the extent rights exist)"
+    }
+  ]
+}

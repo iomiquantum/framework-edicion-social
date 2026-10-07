@@ -1,0 +1,88 @@
+{
+  "at_utc": "2026-10-01T05:10:45.109684+00:00",
+  "video_id": "VIDEO-30",
+  "reviewer": "/root/auditoria_flujos_26_30",
+  "export": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/entrega/VIDEO-30-ENTREGA-HLG-v1.mp4",
+    "sha256": "91b60c310a204be58a2b739944dc5676edf57521403257ebd31ccee7fa506cbd",
+    "size_bytes": 8792199
+  },
+  "status": "requires_finish_correction_new_version_requested",
+  "exact_frame_samples_inspected": 47,
+  "contact_sheets_inspected": 4,
+  "caption_cues_covered": 9,
+  "scope": "All provided exact export contact sheets inspected + sourceboard/fidelity and exactAAC parity receipts; not continuous playback or listen",
+  "evidence": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/entrega/VIDEO-30-ENTREGA-HLG-v1.mp4",
+      "sha256": "91b60c310a204be58a2b739944dc5676edf57521403257ebd31ccee7fa506cbd",
+      "size_bytes": 8792199
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/QA_FIDELIDAD_PLANTILLA.md",
+      "sha256": "18c013ba71611d695ac28066928cb248fdfe55734bd648fe30915bf444ce80c4",
+      "size_bytes": 5446
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/final-audio-v1/engine-parity-verified.json",
+      "sha256": "7098006bbb498afd8c0a819e75fc80f20c650a8f325eddbf7c78d7073576a4e2",
+      "size_bytes": 1267
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/exact-frames-v1/contact-3.jpg",
+      "sha256": "5f29144f5bb40a9dabd95f9f8032e8084f2615fb7d10b7f2f387f4de51c30676",
+      "size_bytes": 744258
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/exact-frames-v1/contact-2.jpg",
+      "sha256": "37e737377dbe2102fae066a9aa0610e9c0ffb6e586be5c2bcefc1ab91c4681d3",
+      "size_bytes": 490089
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/exact-frames-v1/contact-1.jpg",
+      "sha256": "aa0341edd2e63b4bcaa26e49a4c0f23c6e3700e154414ebc17d7aa05682c0e77",
+      "size_bytes": 509804
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/exact-frames-v1/contact-4.jpg",
+      "sha256": "7f31dca761c7bf96ab9b3529ce9921cdac7a9ba92becce646fd3e0d7d55c2b11",
+      "size_bytes": 488187
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/exact-frames-v1/manifest.json",
+      "sha256": "c635bbf8d6bfe3b5c2e3af2f859c4119d788025b43f9cbe8e6d23b722c4b7d26",
+      "size_bytes": 14630
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/QA_EXACTO_VIDEO30_v1.json",
+      "sha256": "1079a079a2f464ea11f50a59f5641d0c73167dfccd269b1ceaba1c3dc0984263",
+      "size_bytes": 2751
+    }
+  ],
+  "observations": [
+    "FamilyT30Aa/wave/contextimage/recap channels retained across5states",
+    "9captions <=2lines, imagefull10–12s and return, no ghosttitles in providedsamples",
+    "Actualblack surround at0/3.633/6.9/12 thenfade0.16s creates discontinuity absentfromboard; no fullblackframe",
+    "Root accepted correction: persistnavybackground behindpresenter innewv2, preservev1 and repeatexactQA",
+    "This is a shadow-detected finishdefect after candidate delivery; countone escapedminorvisualdefect and newfinalrender/rework, no hearinginference"
+  ],
+  "defects_escaped_shadow": [
+    {
+      "id": "T30-BG-01",
+      "severity": "minor_visual_finish",
+      "status": "correction_requested",
+      "times_s": [
+        0,
+        3.633,
+        6.9,
+        12
+      ],
+      "impact": "briefblack surroundingstage thenfade; qualityfinish discontinuity",
+      "root_authorization": "parent MESSAGE accepted correction30 persistentnavy, preservev1"
+    }
+  ],
+  "human_listened": false,
+  "continuous_playback": false,
+  "platform_physical_mobile": "por confirmar",
+  "editorial_user_approval": "not inferred"
+}

@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-07T00:08:58Z",
+  "releases": {
+    "node": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>",
+      "version": null,
+      "source": "https://nodejs.org/dist/index.json"
+    },
+    "hyperframes": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>",
+      "version": null,
+      "source": "https://registry.npmjs.org/hyperframes/latest"
+    },
+    "codex": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>",
+      "version": null,
+      "source": "https://registry.npmjs.org/@openai%2fcodex/latest"
+    },
+    "python": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>",
+      "version": null,
+      "source": "https://www.python.org/downloads/"
+    },
+    "ffmpeg": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>",
+      "version": null,
+      "source": "https://ffmpeg.org/releases/"
+    },
+    "audio": {
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>",
+      "version": null,
+      "source": "https://pypi.org/pypi/ai-edge-litert/json"
+    }
+  },
+  "policy": "Última estable consultada ahora. Versiones nuevas no equivalen a compatibilidad comprobada."
+}

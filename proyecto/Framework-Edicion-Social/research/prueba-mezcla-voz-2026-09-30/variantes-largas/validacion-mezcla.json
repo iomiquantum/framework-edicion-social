@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "variants": 6,
+  "voice_shared_unchanged": true,
+  "aac_tp_max_dbfs": -5.84,
+  "minimum_correlation": 0.9999810577127154,
+  "all_hook_sfx": true,
+  "new_sfx_original_CC0": true,
+  "hearing_perception": "por confirmar"
+}

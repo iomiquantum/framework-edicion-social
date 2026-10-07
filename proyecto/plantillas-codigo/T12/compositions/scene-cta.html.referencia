@@ -1,0 +1,20 @@
+<!doctype html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;color:#181217;font-family:Inter,sans-serif;pointer-events:none}
+  .question{position:absolute;left:64px;right:64px;top:72px;background:#F4E7D3;border:4px solid #181217;box-shadow:12px 12px 0 #7C3AED;padding:32px 34px;font:700 72px/.9 "Bebas Neue",Impact,sans-serif;text-align:left}
+  .choice{position:absolute;left:64px;right:64px;bottom:138px;display:grid;grid-template-columns:1fr 90px 1fr;gap:12px}
+  .choice span{min-height:112px;display:flex;align-items:center;justify-content:center;border:4px solid #181217;background:#F4E7D3;font:900 39px/.95 Inter,sans-serif;text-align:center;padding:18px}.choice .arrow{background:#181217;color:#F4E7D3;font-size:52px;padding:0}.choice .sales{background:#2A9D8F}
+</style>
+<div data-hf-id="hf-v12-cta-root" id="root" data-composition-id="scene-cta" data-duration="4.72" data-width="1080" data-height="1920">
+  <div class="question" id="question">¿QUÉ TE CUESTA MÁS?</div>
+  <div class="choice"><span id="attention">CONSEGUIR<br>ATENCIÓN</span><span class="arrow" id="arrow">→</span><span class="sales" id="sales">CONVERTIR<br>EN VENTAS</span></div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#question",{y:-54,opacity:0},{y:0,opacity:1,duration:.44,ease:"power3.out"},.08)
+    .fromTo("#attention",{scale:0,opacity:0,y:22},{scale:1,opacity:1,y:0,duration:.46,ease:"power3.out"},.38)
+    .fromTo("#arrow",{scale:0,opacity:0},{scale:1,opacity:1,duration:.36,ease:"power3.out"},.58)
+    .fromTo("#sales",{scale:0,opacity:0,y:22},{scale:1,opacity:1,y:0,duration:.46,ease:"power3.out"},.74);
+  window.__timelines["scene-cta"]=tl;
+</script>
+</template></body></html>

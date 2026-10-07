@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/recording-preflight.schema.json",
+  "title": "Initial recording technical preflight",
+  "type": "object",
+  "required": ["schema_version", "project_id", "recording_id", "source_path", "policy", "probe", "checks", "summary", "checked_at"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "project_id": {"type": "string"},
+    "recording_id": {"type": "string"},
+    "source_path": {"type": "string"},
+    "policy": {
+      "type": "object",
+      "required": ["require_audio", "allowed_video_codecs", "allowed_audio_codecs", "min_short_edge_px", "min_long_edge_px", "min_duration_s", "min_fps", "max_fps", "min_audio_sample_rate_hz", "min_audio_channels", "allowed_orientations", "vfr_warn_delta_fps", "warn_on_missing_color_metadata"],
+      "properties": {
+        "require_audio": {"type": "boolean"},
+        "allowed_video_codecs": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "allowed_audio_codecs": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "min_short_edge_px": {"type": "integer", "minimum": 1},
+        "min_long_edge_px": {"type": "integer", "minimum": 1},
+        "min_duration_s": {"type": "number", "minimum": 0},
+        "min_fps": {"type": "number", "exclusiveMinimum": 0},
+        "max_fps": {"type": "number", "exclusiveMinimum": 0},
+        "min_audio_sample_rate_hz": {"type": "integer", "minimum": 1},
+        "min_audio_channels": {"type": "integer", "minimum": 1},
+        "allowed_orientations": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["portrait", "landscape", "square"]}},
+        "vfr_warn_delta_fps": {"type": "number", "minimum": 0},
+        "warn_on_missing_color_metadata": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "probe": {
+      "type": ["object", "null"],
+      "properties": {
+        "format_name": {"type": ["string", "null"]},
+        "duration_s": {"type": ["number", "null"], "minimum": 0},
+        "size_bytes": {"type": ["integer", "null"], "minimum": 0},
+        "video_stream_count": {"type": "integer", "minimum": 0},
+        "audio_stream_count": {"type": "integer", "minimum": 0},
+        "video": {
+          "type": ["object", "null"],
+          "properties": {
+            "codec": {"type": ["string", "null"]},
+            "coded_width": {"type": ["integer", "null"], "minimum": 0},
+            "coded_height": {"type": ["integer", "null"], "minimum": 0},
+            "display_width": {"type": ["integer", "null"], "minimum": 0},
+            "display_height": {"type": ["integer", "null"], "minimum": 0},
+            "rotation_degrees": {"type": "integer"},
+            "orientation": {"type": ["string", "null"]},
+            "avg_fps": {"type": ["number", "null"], "minimum": 0},
+            "nominal_fps": {"type": ["number", "null"], "minimum": 0},
+            "color_space": {"type": ["string", "null"]},
+            "color_transfer": {"type": ["string", "null"]},
+            "color_primaries": {"type": ["string", "null"]}
+          },
+          "additionalProperties": false
+        },
+        "audio": {
+          "type": ["object", "null"],
+          "properties": {
+            "codec": {"type": ["string", "null"]},
+            "sample_rate_hz": {"type": ["integer", "null"], "minimum": 0},
+            "channels": {"type": ["integer", "null"], "minimum": 0},
+            "channel_layout": {"type": ["string", "null"]}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "severity", "status", "observed", "expected", "message"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^PF-[0-9]{3}$"},
+          "name": {"type": "string", "minLength": 1},
+          "severity": {"enum": ["hard", "advisory"]},
+          "status": {"enum": ["pass", "warn", "fail", "not_run"]},
+          "observed": {"type": "string"},
+          "expected": {"type": "string"},
+          "message": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["status", "pass", "warn", "fail", "not_run", "delivery_ready"],
+      "properties": {
+        "status": {"enum": ["pending", "pass", "warn", "fail"]},
+        "pass": {"type": "integer", "minimum": 0},
+        "warn": {"type": "integer", "minimum": 0},
+        "fail": {"type": "integer", "minimum": 0},
+        "not_run": {"type": "integer", "minimum": 0},
+        "delivery_ready": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "checked_at": {"type": "string"}
+  },
+  "additionalProperties": false
+}

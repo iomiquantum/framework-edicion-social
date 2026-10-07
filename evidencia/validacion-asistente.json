@@ -1,0 +1,61 @@
+{
+  "version": "2.0.0",
+  "platform_of_tests": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "tests": {
+    "adapter_and_wizard": {
+      "count": 30,
+      "status": "pass",
+      "log": "tests-adaptador-y-asistente.log"
+    },
+    "framework_copy": {
+      "count": 329,
+      "status": "pass",
+      "log": "tests-framework-asistente.log"
+    }
+  },
+  "validator": "pass: validacion-framework-asistente.log",
+  "syntax": "Python AST, node --check app.js, bash -n launchers passed",
+  "ui": {
+    "browser": "Codex in-app browser",
+    "reviewed": "Start, context, five palettes, template gallery photos/cropped viewport, masters, prepared handoff. 30 boards structurally checked; not a visual certification of all recolorings.",
+    "real_creation": "prueba-ui-lote.json; synthetic batch removed, projects empty",
+    "screenshot": "asistente-paletas.jpg",
+    "installation_consent": "Real UI version query + Node plan source/scope/steps displayed; cancelled without installing.",
+    "consent_screenshot": "asistente-autorizacion.jpg"
+  },
+  "smoke": {
+    "status": "pass",
+    "hyperframes": "0.8.102",
+    "scope": "Temporary Mac runtime, reused existing CLI/GSAP; check + render + decoded motion + audio RMS",
+    "record": "smoke-mac-asistente.json"
+  },
+  "audio": {
+    "doctor_mac": "pass, existing pinned environment/model reused read-only",
+    "yamnet_inference_mac": "pass: yamnet-inferencia-mac.log",
+    "windows": "pending real install, inference and calibration checks",
+    "asr": "implementation and dependency metadata checked; new engine/model not downloaded or transcribed here"
+  },
+  "latest_versions": "versiones-consultadas-asistente.json",
+  "installers_executed": false,
+  "global_software_changes": false,
+  "windows_powershell_and_render_executed": false,
+  "clean_machine_mac_executed": false,
+  "hyperframes_latest_render_executed": false,
+  "mac_original_integrity": {
+    "protected_files": 2405,
+    "changed": [],
+    "status": "pass",
+    "scope": "Original Mac framework, templates, rules and scripts. Global bitacora receives a requested documentary entry separately."
+  },
+  "projects_empty": true,
+  "source_files": 1870,
+  "skills_bundled": 14,
+  "delivery": "one existing folder evolved in place; no previous video media reintroduced",
+  "notes": [
+    "No human listening or editorial approval inferred.",
+    "Readiness on each destination requires real diagnosis, synthetic render and user confirmation of Codex access.",
+    "Full installations were not run during development; system managers may require manual installation."
+  ],
+  "mac_launcher": "Executed native .command via bash --edit list; returned empty registry. Double-click/Gatekeeper on clean machine pending.",
+  "transfer_integrity": "1870 project files, 0 errors, verificacion-asistente-final.log"
+}

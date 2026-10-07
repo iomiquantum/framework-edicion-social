@@ -1,0 +1,108 @@
+{
+  "updated_at": "2026-09-25",
+  "approval_event": "El usuario aprobó explícitamente las 30 plantillas el 2026-09-25 con la frase: 'que queden todas aprobadas'.",
+  "purpose": "Registro de hipótesis creativas para comparar estructuras visuales con métricas reales posteriores.",
+  "rules": [
+    "Una plantilla aprobada visualmente no se considera ganadora sin datos comparables de publicación.",
+    "Arquetipos y motivaciones se usan como hipótesis creativas, no como diagnósticos de personalidad.",
+    "No se atribuye causalidad a una sola publicación ni se promete viralidad.",
+    "Las métricas se registran a 24 h, 72 h, 7 días y 28 días cuando estén disponibles."
+  ],
+  "templates": [
+    {
+      "id": "T01",
+      "name": "Editorial impreso",
+      "primary_angle": "claridad editorial y autoridad",
+      "motivation_hypothesis": "comprensión y confianza",
+      "approval_status": "approved",
+      "evidence": "aprobación explícita registrada en la bitácora",
+      "artifact": "OPCION-01_EDITORIAL-IMPRESO/propuesta-01.png"
+    },
+    {
+      "id": "T02",
+      "name": "Internet nativo",
+      "primary_angle": "interrupción controlada y participación",
+      "motivation_hypothesis": "novedad y reacción rápida",
+      "approval_status": "approved",
+      "evidence": "aprobación explícita registrada en la bitácora",
+      "artifact": "OPCION-02_INTERNET-NATIVO/propuesta-02.png"
+    },
+    {
+      "id": "T03",
+      "name": "Minidocumental humano",
+      "primary_angle": "curiosidad progresiva y cercanía",
+      "motivation_hypothesis": "empatía y reflexión",
+      "approval_status": "approved",
+      "evidence": "aprobación explícita global de las 30 plantillas registrada el 2026-09-25",
+      "artifact": "OPCION-03_MINIDOCUMENTAL-HUMANO/propuesta-03.png"
+    },
+    {
+      "id": "T04",
+      "name": "Sistema claro",
+      "primary_angle": "explicación lógica y decisión visual",
+      "motivation_hypothesis": "orden y control",
+      "approval_status": "approved",
+      "evidence": "aprobación explícita global de las 30 plantillas registrada el 2026-09-25",
+      "artifact": "OPCION-04_SISTEMA-CLARO/propuesta-04.png"
+    },
+    {
+      "id": "T05",
+      "name": "Cómic pop",
+      "primary_angle": "diálogo expresivo y entretenimiento",
+      "motivation_hypothesis": "energía social y juego",
+      "approval_status": "approved",
+      "evidence": "aprobación explícita global de las 30 plantillas registrada el 2026-09-25",
+      "artifact": "OPCION-05_COMIC-POP/propuesta-05.png"
+    },
+    {
+      "id": "T06",
+      "name": "Confesión cruda",
+      "primary_angle": "vulnerabilidad y aprendizaje",
+      "motivation_hypothesis": "identificación y confianza",
+      "archetype_hypothesis": "persona común / cuidador",
+      "primary_metric": "retención después de la admisión y comentarios de identificación",
+      "approval_status": "approved",
+      "artifact": "OPCION-06_CONFESION-CRUDA/propuesta-06.png"
+    },
+    {
+      "id": "T07",
+      "name": "Caso abierto",
+      "primary_angle": "investigación y evidencia visible",
+      "motivation_hypothesis": "verificación y reducción de incertidumbre",
+      "archetype_hypothesis": "sabio / investigador",
+      "primary_metric": "guardados y retención hasta el criterio de verificación",
+      "approval_status": "approved",
+      "artifact": "OPCION-07_CASO-ABIERTO/propuesta-07.png"
+    },
+    {
+      "id": "T08",
+      "name": "Duelo de ideas",
+      "primary_angle": "contraste y toma de postura",
+      "motivation_hypothesis": "elección y expresión pública",
+      "archetype_hypothesis": "rebelde / retador",
+      "primary_metric": "comentarios con postura y compartidos",
+      "approval_status": "approved",
+      "artifact": "OPCION-08_DUELO-DE-IDEAS/propuesta-08.png"
+    },
+    {
+      "id": "T09",
+      "name": "Manifiesto de autor",
+      "primary_angle": "identidad reconocible y aspiración",
+      "motivation_hypothesis": "diferenciación y expresión personal",
+      "archetype_hypothesis": "creador / héroe",
+      "primary_metric": "compartidos, guardados y comentarios sobre identidad",
+      "approval_status": "approved",
+      "artifact": "OPCION-09_MANIFIESTO-DE-AUTOR/propuesta-09.png"
+    },
+    {
+      "id": "T10",
+      "name": "Reto de autor",
+      "primary_angle": "autoevaluación y participación",
+      "motivation_hypothesis": "autonomía, competencia y progreso",
+      "archetype_hypothesis": "explorador / entrenador",
+      "primary_metric": "respuestas 1-2-3 y retención hasta el resultado",
+      "approval_status": "approved",
+      "artifact": "OPCION-10_RETO-DE-AUTOR/propuesta-10.png"
+    }
+  ]
+}

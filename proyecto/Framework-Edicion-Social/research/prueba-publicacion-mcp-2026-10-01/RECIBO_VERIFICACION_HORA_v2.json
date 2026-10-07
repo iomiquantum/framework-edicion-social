@@ -1,0 +1,320 @@
+{
+  "version": 2,
+  "recordedAtUtc": "2026-10-01 06:22:06 UTC",
+  "brand": {
+    "id": "6177067",
+    "name": "Silent Run Ecuador"
+  },
+  "purpose": "Verificación final de fecha y hora, posterior al recibo original v1; conserva su historia.",
+  "scheduledDate": "2026-10-02",
+  "timezone": "America/Guayaquil",
+  "mcp": {
+    "first": "09:00",
+    "last": "10:40",
+    "caseCount": 11,
+    "destinationCount": 17,
+    "allDraftFalse": true,
+    "allAutoPublishTrue": true,
+    "allProviderPending": true,
+    "cases": [
+      {
+        "testId": "P01",
+        "id": 385566319,
+        "uuid": "572359031725834830",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 1,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T09:00:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "facebook",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          },
+          {
+            "network": "instagram",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ],
+        "igAutoPublish": true
+      },
+      {
+        "testId": "P02",
+        "id": 385566411,
+        "uuid": "2243109020537736501",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 1,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T09:10:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "facebook",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          },
+          {
+            "network": "instagram",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ],
+        "igAutoPublish": true
+      },
+      {
+        "testId": "P03",
+        "id": 385566418,
+        "uuid": "5060693824076268020",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 3,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T09:20:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "facebook",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          },
+          {
+            "network": "instagram",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ],
+        "igAutoPublish": true
+      },
+      {
+        "testId": "P04",
+        "id": 385566427,
+        "uuid": "6018955738659899342",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 1,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T09:30:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "facebook",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          },
+          {
+            "network": "instagram",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ],
+        "igAutoPublish": true
+      },
+      {
+        "testId": "P05",
+        "id": 385566430,
+        "uuid": "5229785277899230436",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 1,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T09:40:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "facebook",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          },
+          {
+            "network": "instagram",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ],
+        "igAutoPublish": true
+      },
+      {
+        "testId": "P06",
+        "id": 385566438,
+        "uuid": "1918079464526728961",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 1,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T09:50:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "facebook",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          },
+          {
+            "network": "instagram",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ],
+        "igAutoPublish": true
+      },
+      {
+        "testId": "P07",
+        "id": 385566443,
+        "uuid": "-2373599650573762156",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 1,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T10:00:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "facebook",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ]
+      },
+      {
+        "testId": "P08",
+        "id": 385566456,
+        "uuid": "4281328617706638093",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 1,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T10:10:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "tiktok",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ]
+      },
+      {
+        "testId": "P09",
+        "id": 385566462,
+        "uuid": "-1208518555454452734",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 3,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T10:20:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "tiktok",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ]
+      },
+      {
+        "testId": "P10",
+        "id": 385566471,
+        "uuid": "1836079371515742936",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 1,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T10:30:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "tiktok",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ]
+      },
+      {
+        "testId": "P11",
+        "id": 385566477,
+        "uuid": "3782030177655343356",
+        "draft": false,
+        "autoPublish": true,
+        "mediaCount": 1,
+        "copyMatches": true,
+        "date": {
+          "dateTime": "2026-10-02T10:40:00",
+          "timezone": "America/Guayaquil"
+        },
+        "providers": [
+          {
+            "network": "youtube",
+            "status": "PENDING",
+            "detailedStatus": "Pending"
+          }
+        ]
+      }
+    ]
+  },
+  "web": {
+    "calendar": {
+      "observed": true,
+      "first": "09:00",
+      "last": "10:40",
+      "agreesWithMcp": true
+    },
+    "listado": {
+      "observed": true,
+      "range": "2026-10-02 / 2026-10-02",
+      "first": "09:00",
+      "last": "10:40",
+      "agreesWithMcp": true,
+      "caseCount": 11,
+      "allPending": true,
+      "evidenceDom": "evidencias/listado-final-dom.txt",
+      "evidenceScreenshot": "evidencias/listado-programado-02-oct.jpg"
+    },
+    "individualEditor": {
+      "observed": true,
+      "first": "16:00",
+      "last": "17:40",
+      "offsetHours": 7,
+      "timezoneSelector": "America/Guayaquil",
+      "cause": "por confirmar",
+      "evidence": "evidencias/verificacion-ui.json"
+    }
+  },
+  "conclusion": "MCP, calendario y Listado coinciden en 09:00–10:40. La discrepancia observada se limita al editor individual; no se afirma causa ni corrección.",
+  "actualPublication": {
+    "verified": false,
+    "status": "por confirmar mañana por destino",
+    "warning": "La aceptación de programación y PENDING no prueban publicación. Desaparecer de getScheduledPosts tampoco prueba éxito."
+  },
+  "controlDraft": {
+    "uuid": "3758769130611950882",
+    "includedInTestCount": false,
+    "draft": true,
+    "autoPublish": false
+  },
+  "previousReceipt": "RECIBO_PROGRAMACION_v1.json",
+  "followupReceipt": "RECIBO_SEGUIMIENTO_v1.json"
+}

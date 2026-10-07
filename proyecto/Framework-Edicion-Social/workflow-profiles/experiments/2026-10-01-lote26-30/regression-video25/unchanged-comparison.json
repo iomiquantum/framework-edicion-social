@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "qa_reuse_eligibility_comparison",
+  "created_at": "2026-10-01T03:42:50.313663+00:00",
+  "status": "comparison_complete",
+  "before_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/before.json",
+  "after_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/after.json",
+  "current_spec_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/context-spec.json",
+  "current_context_verified": true,
+  "scope_id": "REGRESSION-VIDEO25-READONLY",
+  "changed_groups": [],
+  "reuse_candidate_scopes": [
+    "visual",
+    "captions",
+    "audio",
+    "semantics"
+  ],
+  "rerun_scopes": [],
+  "scope_reasons": {
+    "visual": [],
+    "captions": [],
+    "audio": [],
+    "semantics": []
+  },
+  "errors": [],
+  "exact_export_qa": "required_for_each_new_mp4",
+  "qa_result": "not_evaluated",
+  "approval": "not_evaluated",
+  "limits": "Manual inventory only; unlisted dependencies are not discovered. Hashes prove local byte integrity, not runtime-manifest claims, QA quality, human review or approval. Reuse candidates require editorial verification of coverage and valid prior evidence. Every new MP4 requires exact-export QA.",
+  "integrity_digest": "4b1e75f6fcb061afc1045a07d64fb7a9c906e3d3f7df77db20423ee673831eb7"
+}

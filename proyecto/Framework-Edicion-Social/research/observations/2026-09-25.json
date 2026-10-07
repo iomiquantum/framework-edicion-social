@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-25",
+  "consulted_at": "2026-09-25T09:00:18-05:00",
+  "scope": {
+    "country": "EC",
+    "region_fallback": "LATAM",
+    "language": "es",
+    "niche": "ai_education",
+    "platforms": ["instagram_reels", "tiktok", "youtube_shorts"],
+    "distribution": "organic"
+  },
+  "status": "material_platform_change",
+  "platform_changes": [
+    {
+      "id": "OBS-2026-09-25-YT-SHORTS-SERIES",
+      "kind": "platform_change",
+      "claim": "YouTube anunció el despliegue de Shorts Series para organizar Shorts en temporadas y episodios, añadir miniaturas personalizadas y habilitar reproducción secuencial en web, móvil y TV.",
+      "source_id": "YOUTUBE_SHORTS_SERIES_2026",
+      "source_url": "https://blog.youtube/news-and-events/made-on-youtube-creators-shorts-series-tv-features/",
+      "published_or_effective_at": "2026-09-23",
+      "observed_at": "2026-09-25",
+      "evidence_level": "A",
+      "scope_fit": "Es directamente relevante para un lote narrativo de 30 videos, pero el anuncio es global y no confirma que la función ya esté disponible en la cuenta o en Ecuador.",
+      "action": "No modificar los másteres ni el montaje actual. Cuando la cuenta tenga acceso, probar una temporada con un subconjunto temáticamente coherente, mantener cada episodio comprensible por sí solo y usar numeración o CTA secuencial únicamente como capa derivada de publicación. Comparar después su comportamiento con una línea base no agrupada usando métricas propias y contexto equivalente.",
+      "limitations": [
+        "La disponibilidad del despliegue no está confirmada para Ecuador ni para la cuenta concreta.",
+        "Las cifras de microdramas publicadas por YouTube no prueban rendimiento para educación sobre IA o tecnología.",
+        "La reproducción secuencial no demuestra por sí sola una mejora de retención, alcance o conversión.",
+        "La prueba debe preservar el máster aprobado y no promover una regla hasta contar con evidencia local comparable."
+      ]
+    },
+    {
+      "id": "OBS-2026-09-25-YT-POSTS-IN-SHORTS-FEED",
+      "kind": "platform_change",
+      "claim": "YouTube anunció que en web y móvil empezará a recomendar publicaciones de comunidad dentro del feed de Shorts.",
+      "source_id": "YOUTUBE_SHORTS_SERIES_2026",
+      "source_url": "https://blog.youtube/news-and-events/made-on-youtube-creators-shorts-series-tv-features/",
+      "published_or_effective_at": "2026-09-23",
+      "observed_at": "2026-09-25",
+      "evidence_level": "A",
+      "scope_fit": "Puede complementar episodios del lote con contexto, preguntas o encuestas sin modificar el video aprobado; el anuncio no confirma disponibilidad por cuenta o país.",
+      "action": "Cuando la función esté visible, probar una publicación de apoyo vinculada a un episodio y medirla como superficie de distribución separada. No insertar esta capa en el máster ni mezclar sus métricas con la retención del Short.",
+      "limitations": [
+        "La disponibilidad específica para Ecuador y la cuenta no está confirmada.",
+        "Una recomendación de publicación en el feed no garantiza alcance ni transferencia de audiencia al video.",
+        "Las métricas de publicaciones y Shorts deben conservarse separadas salvo que exista atribución verificable."
+      ]
+    }
+  ],
+  "observed_patterns": [],
+  "deduplication": {
+    "against": "research/observations/2026-09-24.json",
+    "duplicates_removed": [
+      "Edición conversacional para Shorts/Create ya registrada el 2026-09-24.",
+      "Pruebas A/B de hasta tres cortes ya registradas el 2026-09-24.",
+      "Cambio de Content ID para Shorts de 61 a 179 segundos ya registrado el 2026-09-24."
+    ],
+    "material_items_kept": 2
+  },
+  "coverage": {
+    "ecuador_specific_sample": "not_available",
+    "regional_proxy": "Official YouTube global announcement cross-checked against the Spanish LATAM overview",
+    "official_sources_checked": ["YouTube Blog", "YouTube Blog ES-LATAM", "YouTube Help", "TikTok Newsroom", "Meta Newsroom LATAM"],
+    "recent_external_sample": "insufficient_evidence"
+  },
+  "notes": [
+    "No se encontró una muestra reciente y reproducible de videos verticales de tecnología o IA en español/Ecuador suficiente para declarar un patrón viral.",
+    "Los cambios se registran como oportunidades de distribución y experimentos futuros; no modifican reglas, plantillas, recursos ni renders.",
+    "Meta One y las actualizaciones de TikTok detectadas dentro del contexto de 30 días no se elevaron como novedades del día porque quedaron fuera de la ventana primaria de siete días o no aportaron una acción editorial nueva verificable."
+  ]
+}

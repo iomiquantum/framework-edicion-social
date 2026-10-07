@@ -1,0 +1,196 @@
+{
+  "status": "interim_not_comparative_result",
+  "captured_at_utc": "2026-10-01T04:38:24.083812+00:00",
+  "shared_intake_initial_seconds": 767.0829679965973,
+  "shared_intake_count_once": true,
+  "rows": [
+    {
+      "video_id": "VIDEO-26",
+      "flow": 1,
+      "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/workflow-runs/lote26-30-flujo1-v1",
+      "observed_closed_operational_seconds": 833.6031723022461,
+      "open_interval": {
+        "schema_version": 1,
+        "event_id": "a2e2ddbd-7a72-40a2-aa8c-55fa1fcf7e13",
+        "sequence": 5,
+        "action": "start",
+        "interval_id": "a2e2ddbd-7a72-40a2-aa8c-55fa1fcf7e13",
+        "phase": "assembly",
+        "kind": "work",
+        "at_epoch_seconds": 1790829461.375683,
+        "at_utc": "2026-10-01T04:37:41.375683+00:00",
+        "note": "Composición modular fielT26 y captions/voz+SFX",
+        "measurement_method": "utc_wall_clock_time_time_cross_process"
+      },
+      "elapsed_span_seconds": 833.6353702545166,
+      "unmeasured_gaps_seconds": 0.03219795227050781,
+      "raw_timing_snapshot": "VIDEO-26-timing.json",
+      "not_speed_result": true
+    },
+    {
+      "video_id": "VIDEO-27",
+      "flow": 1,
+      "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/workflow-runs/lote26-30-flujo1-v1",
+      "observed_closed_operational_seconds": null,
+      "open_interval": null,
+      "elapsed_span_seconds": null,
+      "unmeasured_gaps_seconds": null,
+      "raw_timing_snapshot": "VIDEO-27-timing.json",
+      "not_speed_result": true
+    },
+    {
+      "video_id": "VIDEO-28",
+      "flow": 2,
+      "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/workflow-runs/lote26-30-flujo2-v1",
+      "observed_closed_operational_seconds": 777.2480540275574,
+      "open_interval": {
+        "schema_version": 1,
+        "event_id": "2be0dbfb-2f6e-426f-a42b-803b8a0a1e96",
+        "sequence": 7,
+        "action": "start",
+        "interval_id": "2be0dbfb-2f6e-426f-a42b-803b8a0a1e96",
+        "phase": "qa_pre_render",
+        "kind": "work",
+        "at_epoch_seconds": 1790829473.7218502,
+        "at_utc": "2026-10-01T04:37:53.721850+00:00",
+        "note": null,
+        "measurement_method": "utc_wall_clock_time_time_cross_process"
+      },
+      "elapsed_span_seconds": 777.3185539245605,
+      "unmeasured_gaps_seconds": 0.07049989700317383,
+      "raw_timing_snapshot": "VIDEO-28-timing.json",
+      "not_speed_result": true
+    },
+    {
+      "video_id": "VIDEO-29",
+      "flow": 2,
+      "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/workflow-runs/lote26-30-flujo2-v1",
+      "observed_closed_operational_seconds": null,
+      "open_interval": null,
+      "elapsed_span_seconds": null,
+      "unmeasured_gaps_seconds": null,
+      "raw_timing_snapshot": "VIDEO-29-timing.json",
+      "not_speed_result": true
+    },
+    {
+      "video_id": "VIDEO-30",
+      "flow": 3,
+      "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/workflow-runs/lote26-30-flujo3-v1",
+      "observed_closed_operational_seconds": 318.7088739871979,
+      "open_interval": {
+        "schema_version": 1,
+        "event_id": "eb91cb1b-9d1c-4e1d-9b5c-0f95b2892a00",
+        "sequence": 3,
+        "action": "start",
+        "interval_id": "eb91cb1b-9d1c-4e1d-9b5c-0f95b2892a00",
+        "phase": "resources",
+        "kind": "work",
+        "at_epoch_seconds": 1790829014.216627,
+        "at_utc": "2026-10-01T04:30:14.216627+00:00",
+        "note": null,
+        "measurement_method": "utc_wall_clock_time_time_cross_process"
+      },
+      "elapsed_span_seconds": 318.7088739871979,
+      "unmeasured_gaps_seconds": 0.0,
+      "raw_timing_snapshot": "VIDEO-30-timing.json",
+      "not_speed_result": true
+    }
+  ],
+  "repair_attribution": {
+    "observed_container": "VIDEO-30/semantic_lock work interval",
+    "raw_container_seconds": 318.7088739871979,
+    "scope": "shared alignment repair affects26/28/30 selected transcripts, not exclusively F3",
+    "exact_repair_seconds": null,
+    "subtract_unknown_repair_from_F3": false,
+    "F3_uncontaminated_semantic_lock_seconds": null,
+    "report_policy": "Show raw container and mixed/shared attribution. Do not compare its full duration as exclusive F3 work or invent a split.",
+    "ledger": {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/00-INGESTA/analysis-26-30/directed-adjudication/alignment-repair-ledger.json",
+      "sha256": "5c6a2c79985f1274ffa1c4ac6429503e88774eabcea6bc51cea5d3cc09adcd7a"
+    },
+    "cut_edge_evidence": {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/00-INGESTA/analysis-26-30/CUT_EDGE_ADJUDICATION.json",
+      "sha256": "14c59b4b08b0f86b37e3a60ee16a687d2b3a94112c7d0f3af0da6e61ca2e3537"
+    },
+    "no_new_ASR": "ledger describes SequenceMatcher lexical mapping to original bounded speech intervals",
+    "human_listened": false,
+    "phoneme_complete_by_ear": "por confirmar"
+  },
+  "transcript_lineage": [
+    {
+      "video_id": "VIDEO-26",
+      "at_assignment_sha256": "33b5f490c8764310e16762203d2e63ed411bc0a30567aae65435155fefea709a",
+      "current": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/source/video-26-transcript-selected.json",
+        "sha256": "9f264b19fabeac2af1959cc5ee311568598ef56744a3fbc6bec41a1bede51553"
+      },
+      "changed_after_assignment": true,
+      "words": 81,
+      "current_voice_text": "Puede llegar un momento en que tu próximo cliente no te encuentre, pero quien te encuentre va a ser su vida. Imagínate que alguien le diga, búscame la mejor opción para resolver este problema. Esa IA va a investigar quién eres, qué dicen de ti, qué has publicado, ver si realmente pareces confiable y probablemente le va a recomendar muchas más opciones. Tu reputación digital ya no será solamente para convencer personas. Si una IA investigara hoy tu negocio, ¿qué encontraría?",
+      "effect": "Corrected directed lexical alignment; same source duration/ranges. Frozen assignment not retroactively reauthored."
+    },
+    {
+      "video_id": "VIDEO-27",
+      "at_assignment_sha256": "1457952e0c321f984b5fcd1a20d2a472f98c4ec6adb42c69739773212f507b8d",
+      "current": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/source/video-27-transcript-selected.json",
+        "sha256": "8b35e2603b23ddc3637160e3ab92b9f6d2b51b8e580230e6b8e690c767162d51"
+      },
+      "changed_after_assignment": true,
+      "words": 59,
+      "current_voice_text": "Dentro de poco, hacer una campaña completa puede ser lo más fácil del marketing. textos, imágenes, vídeos, segmentaciones, la IA puede generar todo eso cada vez más rápido. Entonces saber hacer anuncios deja de ser suficiente, lo difícil va a ser decidir qué idea probar y saber qué pasó. La ventaja no será crear campañas, será aprender de ellas.",
+      "effect": "Corrected directed lexical alignment; same source duration/ranges. Frozen assignment not retroactively reauthored."
+    },
+    {
+      "video_id": "VIDEO-28",
+      "at_assignment_sha256": "2f86c5b4a73c468c291f085209b1960072df178b8a40e93faed7b1d1765a1350",
+      "current": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/source/video-28-transcript-selected.json",
+        "sha256": "6ece9d16fef8a77ac97bbb5a5d847c132c3cea3cb241b20ca39f1810e904ba49"
+      },
+      "changed_after_assignment": true,
+      "words": 65,
+      "current_voice_text": "Hay un pequeño problema con decir que tu ventaja competitiva es la IA. Tu competencia también tiene ChatGPT, Claude, Gemini, probablemente las mismas herramientas que tú. Entonces la diferencia no puede ser solamente tener acceso, la diferencia está en qué información tienes y que has aprendido utilizándolas. La herramienta se comparte. El aprendizaje acumulado no. ¿Qué sabe hoy tu negocio que tu competencia no sabe?",
+      "effect": "Corrected directed lexical alignment; same source duration/ranges. Frozen assignment not retroactively reauthored."
+    },
+    {
+      "video_id": "VIDEO-29",
+      "at_assignment_sha256": "b4fc64bd2dab01a5bd4c47bcab2a7cbe175a5c423e101d30190dc2ed1e0c56ca",
+      "current": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/source/video-29-transcript-selected.json",
+        "sha256": "b9aeb2249d5ee8cdaca2e38ff4a15d2e4a8a5779c4b7ac2ac6d41370c4e65f5e"
+      },
+      "changed_after_assignment": true,
+      "words": 73,
+      "current_voice_text": "Si cada vez que apareces en mi pantalla intentas venderme algo probablemente voy a dejar de escucharte. Dame algo útil, cuéntame algo que no había pensado, ayúdame a solucionar un problema, porque cuando llegue el día en que necesite lo que tú vendes, yo ya debería saber quién eres y confiar en ti. La venta empieza mucho antes de pedir dinero. ¿Qué podrías enseñar hoy sin intentar vender nada a tus futuros clientes?",
+      "effect": "Corrected directed lexical alignment; same source duration/ranges. Frozen assignment not retroactively reauthored."
+    },
+    {
+      "video_id": "VIDEO-30",
+      "at_assignment_sha256": "e2f959501bf5bee45eb0eccfb56f239353ee4cf9da59de73ab3c3a29b7732d35",
+      "current": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/source/video-30-transcript-selected.json",
+        "sha256": "a974c48b6938af7e50c4f04175e13bad3b1ecbb014090949d458edf69e246666"
+      },
+      "changed_after_assignment": true,
+      "words": 45,
+      "current_voice_text": "Hay una pregunta que puede valer más que aprender 100 herramientas de IA. Si mañana cualquiera puede crear contenido, anuncios, páginas, productos y hasta negocios usando las mismas herramientas que tú, entonces tienes que preguntarte algo muy incómodo. ¿Por qué alguien debería escogerte a ti?",
+      "effect": "Corrected directed lexical alignment; same source duration/ranges. Frozen assignment not retroactively reauthored."
+    }
+  ],
+  "image26_creation": {
+    "wall_seconds": 25.957,
+    "evidence": "parent NEW_TASK explicit measurement; file/command receipt not yet located in this audit snapshot",
+    "evidence_status": "reported_by_parent_pending_artifact",
+    "included_in_phase_clock_not_additive": true
+  },
+  "method_limits": [
+    "Five videos not completed; open intervals excluded by summaries",
+    "Unknown gaps remain null/unmeasured; no zero filling",
+    "Shared repair cost and commandstartup errors kept apart from profile creative work",
+    "Parallel intervals are person/process wall spans, never additive batch elapsed",
+    "Historical52assets creation excluded; new validation/adaptation counted",
+    "Same lexical correction can invalidate caption/source reuse contexts even unchanged source/proxy",
+    "Human listening/naturalness remain pending; cut-edge signal evidence does not certify phonemes"
+  ]
+}

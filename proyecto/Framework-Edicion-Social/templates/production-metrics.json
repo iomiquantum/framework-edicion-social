@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "production_record_id": "PROD-34D2EC20F1ACFBD6",
+  "project_id": "PROJECT-EXAMPLE",
+  "video_id": "VIDEO-01",
+  "captured_at": "2026-09-25T00:00:00Z",
+  "started_at": null,
+  "first_reviewable_at": null,
+  "final_delivered_at": null,
+  "measurement_method": "self_reported",
+  "verification_status": "self_reported",
+  "evidence": null,
+  "stage_minutes": {
+    "ingest_and_selects": 0,
+    "transcription_and_semantic_lock": 0,
+    "resource_preparation": 0,
+    "assembly": 0,
+    "review_changes": 0,
+    "quality_control": 0,
+    "rendering": 0
+  },
+  "assets": {
+    "reused": 0,
+    "derived": 0,
+    "generated": 0,
+    "generated_but_unused": 0,
+    "reuse_rate": null
+  },
+  "reviews": {
+    "rounds": 0,
+    "atomic_decisions": 0,
+    "approved_first_pass": 0,
+    "first_pass_approval_rate": null
+  },
+  "renders": {
+    "segment_previews": 0,
+    "full_drafts": 0,
+    "full_quality": 0
+  },
+  "rework": {
+    "change_count": 0,
+    "layers": [],
+    "root_causes": []
+  },
+  "notes": ""
+}

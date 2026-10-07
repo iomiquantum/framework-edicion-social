@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "13220c0c-6980-48dd-84fa-ff425f0ef6dc",
+  "sequence": 17,
+  "action": "start",
+  "interval_id": "13220c0c-6980-48dd-84fa-ff425f0ef6dc",
+  "phase": "qa_post_render",
+  "kind": "experiment_audit",
+  "at_epoch_seconds": 1790832623.792196,
+  "at_utc": "2026-10-01T05:30:23.792196+00:00",
+  "note": "Revisión29v2 y seam26 existentes; sin nuevo decode",
+  "measurement_method": "utc_wall_clock_time_time_cross_process"
+}

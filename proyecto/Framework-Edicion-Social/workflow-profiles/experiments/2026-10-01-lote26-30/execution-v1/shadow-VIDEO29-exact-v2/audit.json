@@ -1,0 +1,53 @@
+{
+  "at_utc": "2026-10-01T05:33:45.986847+00:00",
+  "reviewer": "/root/auditoria_flujos_26_30",
+  "status": "sampled_visual_and_technical_pass",
+  "export": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/entrega/VIDEO-29-ENTREGA-HLG-v2.mp4",
+    "sha256": "03f8537f098f38584f8e5b64b7a8fa4aab7a6944a1897824a4c9f3c5c2cf5ed7"
+  },
+  "exact_frames_inspected": 58,
+  "contact_sheets_inspected": 2,
+  "caption_cues_covered": 15,
+  "scope": "Revisión dirigida de las hojas existentes del MP4 exacto v2: todos los cues, entradas de tarjetas/círculo/cierre, foto y retorno, último frame. Sin nueva extracción ni check completo. Cobertura general v1 se conserva para entradas intactas.",
+  "observations": [
+    "Las tarjetas de utilidad aparecen después de que el fondo oculta el rostro; la entrada del círculo y del cuerpo de cierre también está separada de la desaparición del presentador.",
+    "No se observa superposición de cuerpo gráfico sobre el rostro en las muestras críticas de v2.",
+    "Captions de hasta dos líneas, foto contextual y retorno, fondo continuo y último estado conservan T29.",
+    "El recibo del responsable acredita paridad AAC completa de 1150976 muestras por canal y tres eventos SFX; no certifica escucha."
+  ],
+  "resolved_defect": "T29-TRANSITION-FACE-01",
+  "minor_shadow_escaped_defects": 1,
+  "minor_shadow_defects_remaining": 0,
+  "critical_escaped_defects": 0,
+  "evidence": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/entrega/VIDEO-29-ENTREGA-HLG-v2.mp4",
+      "sha256": "03f8537f098f38584f8e5b64b7a8fa4aab7a6944a1897824a4c9f3c5c2cf5ed7"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/final-review-v2.json",
+      "sha256": "46755dac244024353fc4bce7666e07d9e31cb285e3d9909768b1bb17243825e2"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/critical-final-v2/contact-sheet-1.jpg",
+      "sha256": "dc1737cf78fc1a613509b819c50f2fac7ae6ead9aa398cae58a21787b74b69a0"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/critical-final-v2/contact-sheet-2.jpg",
+      "sha256": "d5a07259793361af39b15fb550a625393511215d353dc063d136ec5271ffa76c"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/workflow-report-final-v2.json",
+      "sha256": "f932150229df8cc181b5f7bb99cbf90c32b6e6f5e92201192577ebe6c80a78e6"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/v1-disposition-after-shadow.json",
+      "sha256": "7136e572e63dc91d6b7d1b520c2e4a374edf1ebeef3df9ee2bba4c05c83c3e76"
+    }
+  ],
+  "human_listened": false,
+  "continuous_playback": false,
+  "editorial_user_approval": "no inferida",
+  "physical_mobile_and_platform_review": "por confirmar"
+}

@@ -1,0 +1,97 @@
+{
+  "seed": 9302026,
+  "date_local": "2026-09-30",
+  "sfx": [
+    {
+      "id": "aire_breve",
+      "file": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/aire_breve.wav",
+      "sha256": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+      "duration_s": 0.34,
+      "role": "Preparar un cambio, sin impacto grave.",
+      "recipe": "Ruido filtrado1300–6500Hz, ventana sinusoidal1.7,340ms.",
+      "license": "CC0 1.0",
+      "source": "Síntesis procedural original con semilla9302026, sin muestras externas.",
+      "approval": "candidato para estas pruebas, escucha por confirmar"
+    },
+    {
+      "id": "cambio_corto",
+      "file": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/cambio_corto.wav",
+      "sha256": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+      "duration_s": 0.19,
+      "role": "Cambio de pensamiento/pista con cola corta.",
+      "recipe": "Ruido filtrado500–2500Hz,190ms, ventana cuadrada-seno.",
+      "license": "CC0 1.0",
+      "source": "Síntesis procedural original con semilla9302026, sin muestras externas.",
+      "approval": "candidato para estas pruebas, escucha por confirmar"
+    },
+    {
+      "id": "clic_calido",
+      "file": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/clic_calido.wav",
+      "sha256": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+      "duration_s": 0.105,
+      "role": "Una evidencia o un paso de comprobación.",
+      "recipe": "1200/1800Hz,105ms, decaimiento22/15ms, sin muestra.",
+      "license": "CC0 1.0",
+      "source": "Síntesis procedural original con semilla9302026, sin muestras externas.",
+      "approval": "candidato para estas pruebas, escucha por confirmar"
+    },
+    {
+      "id": "pulso_redondo",
+      "file": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/pulso_redondo.wav",
+      "sha256": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+      "duration_s": 0.24,
+      "role": "Contraste suave con cuerpo y presencia.",
+      "recipe": "160/640Hz,240ms, envolventes65/32ms.",
+      "license": "CC0 1.0",
+      "source": "Síntesis procedural original con semilla9302026, sin muestras externas.",
+      "approval": "candidato para estas pruebas, escucha por confirmar"
+    },
+    {
+      "id": "dato_claro",
+      "file": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/dato_claro.wav",
+      "sha256": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+      "duration_s": 0.18,
+      "role": "Punto singular de información, no cada palabra.",
+      "recipe": "880/1320Hz,180ms, decaimiento43/31ms.",
+      "license": "CC0 1.0",
+      "source": "Síntesis procedural original con semilla9302026, sin muestras externas.",
+      "approval": "candidato para estas pruebas, escucha por confirmar"
+    },
+    {
+      "id": "reinicio_suave",
+      "file": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/reinicio_suave.wav",
+      "sha256": "cdf817df3efeac07185df5703fe304dbeb2045e79931595c4ddb04e7fbf55a08",
+      "duration_s": 0.32,
+      "role": "Retorno del bucle o retirada de mecanismo.",
+      "recipe": "Ruido300–1700Hz, subida160ms y caída32ms.",
+      "license": "CC0 1.0",
+      "source": "Síntesis procedural original con semilla9302026, sin muestras externas.",
+      "approval": "candidato para estas pruebas, escucha por confirmar"
+    },
+    {
+      "id": "resolucion_doble",
+      "file": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/resolucion_doble.wav",
+      "sha256": "d408aa51bf045ceb4ceb8559f73f9fb55509436f6de3c6b148001b56ed506370",
+      "duration_s": 0.55,
+      "role": "Paso de problema a aplicación; dos acentos ligados.",
+      "recipe": "660Hz y990Hz a130ms,550ms de cola controlada.",
+      "license": "CC0 1.0",
+      "source": "Síntesis procedural original con semilla9302026, sin muestras externas.",
+      "approval": "candidato para estas pruebas, escucha por confirmar"
+    },
+    {
+      "id": "aire_ascendente",
+      "file": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/aire_ascendente.wav",
+      "sha256": "657b99f58c93a8b69f8fea8f428e278a93025e5eac0d9fe9a677cef71fe43edd",
+      "duration_s": 0.44,
+      "role": "Anticipación breve hacia una reentrada musical.",
+      "recipe": "Ruido1600–7600Hz,440ms de subida y caída32ms; sin boom.",
+      "license": "CC0 1.0",
+      "source": "Síntesis procedural original con semilla9302026, sin muestras externas.",
+      "approval": "candidato para estas pruebas, escucha por confirmar"
+    }
+  ],
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "Código original local, no grabaciones ni muestras del video de referencia.",
+  "status": "candidate_not_globally_approved"
+}

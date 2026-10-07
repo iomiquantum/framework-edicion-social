@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/asset-lock.schema.json",
+  "title": "Project asset lock",
+  "type": "object",
+  "required": ["schema_version", "project_id", "framework_version", "catalog_path", "catalog_sha256", "generated_at", "videos"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "project_id": {"type": "string"},
+    "framework_version": {"type": "string"},
+    "catalog_path": {"type": "string"},
+    "catalog_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "generated_at": {"type": "string"},
+    "videos": {"type": "array"}
+  },
+  "additionalProperties": false
+}

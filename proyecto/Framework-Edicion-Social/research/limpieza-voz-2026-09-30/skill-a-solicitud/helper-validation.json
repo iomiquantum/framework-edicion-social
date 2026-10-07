@@ -1,0 +1,40 @@
+{
+  "cases": [
+    {
+      "case": "odd-sample stereo context / same duration / duplicated mono / source preserved",
+      "pass": true,
+      "receipt": {
+        "input": "/private/var/folders/6l/43qq3fx50zvg_fpvlxhh3ttm0000gp/T/voice-skill-validation-ht4s1zlo/synthetic.wav",
+        "input_sha256": "620d6cfc2203949dabf3848981468f6b7c3135a966063b7997b964e9a3e57756",
+        "input_channels": 2,
+        "output": "/private/var/folders/6l/43qq3fx50zvg_fpvlxhh3ttm0000gp/T/voice-skill-validation-ht4s1zlo/processed.wav",
+        "output_sha256": "e31b453144ae4dab09fb5d216c696b296886a821f49c803db267d9c5a7aad31f",
+        "library": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-17/qa/noise-benchmark-v3/rnnoise-source/librnnoise.dylib",
+        "library_sha256": "1f03338053bcc86e166e67cb3d027c4999fb22f3accd4ce71ac6baf4921a47bf",
+        "sample_rate": 48000,
+        "samples": 48123,
+        "duration_s": 1.0025625,
+        "frame_samples": 480,
+        "input_float_scale": 32768,
+        "compensated_delay_samples": 960,
+        "padding_samples": 5157,
+        "channels": "Explicit (L+R)/2 for stereo, mono duplicated to L/R",
+        "inference_s": 0.08982320799259469,
+        "normalization": "none",
+        "human_listened": false,
+        "approved": false
+      }
+    },
+    {
+      "case": "existing output rejected and unchanged",
+      "pass": true,
+      "exit_code": 2
+    },
+    {
+      "case": "library hash mismatch rejected before load/output",
+      "pass": true,
+      "exit_code": 2
+    }
+  ],
+  "scope": "Synthetic technical contract only, not perceptual/naturalness test; no project audio/video/approved media changed."
+}

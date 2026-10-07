@@ -1,0 +1,1148 @@
+[
+  {
+    "id": "01",
+    "title": "La IA y el retrabajo",
+    "direction": "Pulso de mecanismo que desaparece en el veredicto. Retorno más discreto para sistema y retirada en la pregunta. Una pista; contraste mediante arreglo/nivel.",
+    "chapters": [
+      [
+        0,
+        "El problema"
+      ],
+      [
+        6.142,
+        "El bucle"
+      ],
+      [
+        11.695,
+        "La idea clave"
+      ],
+      [
+        17.561,
+        "La pregunta"
+      ]
+    ],
+    "music": [
+      {
+        "music": "neon",
+        "start": 0,
+        "end": 11.35,
+        "source_start": 45,
+        "relative_db_points": [
+          [
+            0,
+            -26
+          ],
+          [
+            0.3,
+            -19
+          ],
+          [
+            1.6,
+            -25
+          ],
+          [
+            2.1,
+            -21
+          ],
+          [
+            3,
+            -24
+          ],
+          [
+            5.8,
+            -21
+          ],
+          [
+            6.3,
+            -19
+          ],
+          [
+            8.1,
+            -24
+          ],
+          [
+            8.6,
+            -19
+          ],
+          [
+            10.5,
+            -25
+          ],
+          [
+            11.35,
+            -55
+          ]
+        ],
+        "role": "Repetición; baja antes de las colas suaves."
+      },
+      {
+        "music": "neon",
+        "start": 13.35,
+        "end": 21.375,
+        "source_start": 70,
+        "relative_db_points": [
+          [
+            13.35,
+            -36
+          ],
+          [
+            13.9,
+            -23
+          ],
+          [
+            15,
+            -27
+          ],
+          [
+            16,
+            -23
+          ],
+          [
+            17.2,
+            -29
+          ],
+          [
+            17.7,
+            -31
+          ],
+          [
+            19.8,
+            -34
+          ],
+          [
+            20.8,
+            -38
+          ],
+          [
+            21.375,
+            -60
+          ]
+        ],
+        "role": "Sistema sin celebrar; pregunta queda al frente."
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.025,
+        "file": "04_soft_pop.wav",
+        "reason": "Hook: acento corto antes de la entrada vocal.",
+        "target_relative_rms_db": -12
+      },
+      {
+        "start": 6.05,
+        "file": "02_soft_whoosh.wav",
+        "reason": "Entrada del bucle; transición dentro de pausa.",
+        "target_relative_rms_db": -12
+      },
+      {
+        "start": 8.42,
+        "file": "03_ui_tick.wav",
+        "reason": "Una corrección del proceso, no cada palabra.",
+        "target_relative_rms_db": -12
+      },
+      {
+        "start": 9.85,
+        "file": "07_loop_return.wav",
+        "reason": "Último retorno del bucle en pausa; cola protegida.",
+        "target_relative_rms_db": -15
+      },
+      {
+        "start": 13.13,
+        "file": "08_resolve.wav",
+        "reason": "Salir del bucle y presentar sistema.",
+        "target_relative_rms_db": -16
+      }
+    ],
+    "human_listening": "por confirmar",
+    "voice_policy": "Sin nueva restauración/EQ/compresión. Nivel fijo compartido por mezcla y control. Se conserva prosodia."
+  },
+  {
+    "id": "11",
+    "title": "Contenido propio",
+    "direction": "Un único groove contenido. Más impulso durante la enumeración; retirada antes de originalidad. El remate pensado/generado tiene espacio.",
+    "chapters": [
+      [
+        0,
+        "Contenido genérico"
+      ],
+      [
+        8.97,
+        "Cantidad y velocidad"
+      ],
+      [
+        14.08,
+        "Algo propio"
+      ],
+      [
+        20.04,
+        "Pensado o generado"
+      ]
+    ],
+    "music": [
+      {
+        "music": "cipher",
+        "start": 0,
+        "end": 13.75,
+        "source_start": 27,
+        "relative_db_points": [
+          [
+            0,
+            -27
+          ],
+          [
+            0.35,
+            -21
+          ],
+          [
+            2,
+            -26
+          ],
+          [
+            2.9,
+            -22
+          ],
+          [
+            5.3,
+            -26
+          ],
+          [
+            6.4,
+            -24
+          ],
+          [
+            8.2,
+            -28
+          ],
+          [
+            8.9,
+            -19
+          ],
+          [
+            10.5,
+            -21
+          ],
+          [
+            12.3,
+            -24
+          ],
+          [
+            13.3,
+            -29
+          ],
+          [
+            13.75,
+            -60
+          ]
+        ],
+        "role": "Cantidad/velocidad; crecimiento limitado, no aceleración artificial."
+      },
+      {
+        "music": "cipher",
+        "start": 16.7,
+        "end": 26.05,
+        "source_start": 59,
+        "relative_db_points": [
+          [
+            16.7,
+            -36
+          ],
+          [
+            17.3,
+            -24
+          ],
+          [
+            19,
+            -29
+          ],
+          [
+            20,
+            -30
+          ],
+          [
+            22,
+            -27
+          ],
+          [
+            23.1,
+            -33
+          ],
+          [
+            23.9,
+            -30
+          ],
+          [
+            25.2,
+            -36
+          ],
+          [
+            26.05,
+            -60
+          ]
+        ],
+        "role": "Vuelve detrás de lo propio, desaparece para el último contraste."
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.025,
+        "file": "01_airy_in.wav",
+        "reason": "Hook con entrada suave, sin impacto grave.",
+        "target_relative_rms_db": -14
+      },
+      {
+        "start": 8.53,
+        "file": "03_ui_tick.wav",
+        "reason": "Preparar enumeración en pausa.",
+        "target_relative_rms_db": -14
+      },
+      {
+        "start": 13.6,
+        "file": "05_low_accent.wav",
+        "reason": "El giro de cantidad a originalidad, con retirada musical.",
+        "target_relative_rms_db": -16
+      },
+      {
+        "start": 20.73,
+        "file": "04_soft_pop.wav",
+        "reason": "Pregunta en pausa medida, suave.",
+        "target_relative_rms_db": -15
+      }
+    ],
+    "human_listening": "por confirmar",
+    "voice_policy": "Sin nueva restauración/EQ/compresión. Nivel fijo compartido por mezcla y control. Se conserva prosodia."
+  },
+  {
+    "id": "14",
+    "title": "Escuchar al cliente",
+    "direction": "Una música de conversación con movimiento suave. Baja durante las necesidades del cliente y se retira en escuchar mejor. Pregunta final casi desnuda.",
+    "chapters": [
+      [
+        0,
+        "Una conversación"
+      ],
+      [
+        6.48,
+        "Lo que dice el cliente"
+      ],
+      [
+        13.6,
+        "Escuchar mejor"
+      ],
+      [
+        18.46,
+        "La pregunta"
+      ]
+    ],
+    "music": [
+      {
+        "music": "backbay",
+        "start": 0,
+        "end": 13.52,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            0,
+            -28
+          ],
+          [
+            0.35,
+            -22
+          ],
+          [
+            1.8,
+            -27
+          ],
+          [
+            2.6,
+            -23
+          ],
+          [
+            4.1,
+            -26
+          ],
+          [
+            5.7,
+            -29
+          ],
+          [
+            6.35,
+            -23
+          ],
+          [
+            8.3,
+            -26
+          ],
+          [
+            9.5,
+            -27
+          ],
+          [
+            10.4,
+            -31
+          ],
+          [
+            11.7,
+            -29
+          ],
+          [
+            12.8,
+            -33
+          ],
+          [
+            13.52,
+            -60
+          ]
+        ],
+        "role": "Movimiento humano; se abre espacio para qué preocupa/quiere/no entiende."
+      },
+      {
+        "music": "backbay",
+        "start": 18.3,
+        "end": 23.26,
+        "source_start": 56.3,
+        "relative_db_points": [
+          [
+            18.3,
+            -39
+          ],
+          [
+            18.9,
+            -30
+          ],
+          [
+            20,
+            -33
+          ],
+          [
+            21.5,
+            -36
+          ],
+          [
+            22.4,
+            -38
+          ],
+          [
+            23.26,
+            -60
+          ]
+        ],
+        "role": "Cola tenue durante pregunta; no subir en cada pausa."
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.03,
+        "file": "04_soft_pop.wav",
+        "reason": "Hook: pregunta implícita sobre el prompt.",
+        "target_relative_rms_db": -12
+      },
+      {
+        "start": 6.37,
+        "file": "02_soft_whoosh.wav",
+        "reason": "Pasar de herramienta a conversación real.",
+        "target_relative_rms_db": -15
+      },
+      {
+        "start": 13.5,
+        "file": "03_ui_tick.wav",
+        "reason": "Inicio de la tesis escuchar mejor; único punto de puntuación.",
+        "target_relative_rms_db": -15
+      }
+    ],
+    "human_listening": "por confirmar",
+    "voice_policy": "Sin nueva restauración/EQ/compresión. Nivel fijo compartido por mezcla y control. Se conserva prosodia."
+  },
+  {
+    "id": "largo-53",
+    "title": "Retrabajo acelerado",
+    "direction": "Dos temas: mecanismo en el bucle, groove práctico al explicar flujo y acción. Retirada en la tesis, contraste por sentido; la pregunta final respira.",
+    "chapters": [
+      [
+        0,
+        "El retrabajo"
+      ],
+      [
+        4.975,
+        "El bucle"
+      ],
+      [
+        16.378,
+        "Diseñar un flujo"
+      ],
+      [
+        33.311,
+        "La tesis"
+      ],
+      [
+        35.107,
+        "Prueba práctica"
+      ],
+      [
+        47.746,
+        "La pregunta"
+      ]
+    ],
+    "music": [
+      {
+        "music": "neon",
+        "start": 0,
+        "end": 16.27,
+        "source_start": 45,
+        "relative_db_points": [
+          [
+            0,
+            -27
+          ],
+          [
+            0.45,
+            -21
+          ],
+          [
+            3.4,
+            -28
+          ],
+          [
+            4.8,
+            -22
+          ],
+          [
+            5.4,
+            -20
+          ],
+          [
+            7.7,
+            -24
+          ],
+          [
+            8.4,
+            -21
+          ],
+          [
+            10.2,
+            -27
+          ],
+          [
+            11.2,
+            -23
+          ],
+          [
+            13.8,
+            -28
+          ],
+          [
+            15.4,
+            -32
+          ],
+          [
+            16.27,
+            -60
+          ]
+        ],
+        "role": "El bucle tiene movimiento; se evita un golpe en cada verbo."
+      },
+      {
+        "music": "backbay",
+        "start": 18.98,
+        "end": 32.8,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            18.98,
+            -36
+          ],
+          [
+            19.5,
+            -23
+          ],
+          [
+            20.8,
+            -27
+          ],
+          [
+            23,
+            -25
+          ],
+          [
+            24.6,
+            -31
+          ],
+          [
+            25.3,
+            -27
+          ],
+          [
+            29.6,
+            -30
+          ],
+          [
+            31.8,
+            -34
+          ],
+          [
+            32.8,
+            -60
+          ]
+        ],
+        "role": "Sistema con espacio en la lista de requisitos."
+      },
+      {
+        "music": "backbay",
+        "start": 35.06,
+        "end": 52.93,
+        "source_start": 60,
+        "relative_db_points": [
+          [
+            35.06,
+            -36
+          ],
+          [
+            35.7,
+            -23
+          ],
+          [
+            38.4,
+            -29
+          ],
+          [
+            39.2,
+            -26
+          ],
+          [
+            42,
+            -29
+          ],
+          [
+            44,
+            -34
+          ],
+          [
+            46,
+            -28
+          ],
+          [
+            47.6,
+            -30
+          ],
+          [
+            49,
+            -33
+          ],
+          [
+            51.6,
+            -39
+          ],
+          [
+            52.93,
+            -60
+          ]
+        ],
+        "role": "Aplicación; retirada al diseñar primero el sistema y en cierre."
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.025,
+        "file": "01_airy_in.wav",
+        "reason": "Hook: apertura con aire.",
+        "target_relative_rms_db": -14
+      },
+      {
+        "start": 4.83,
+        "file": "03_ui_tick.wav",
+        "reason": "Comienza el bucle en pausa.",
+        "target_relative_rms_db": -14
+      },
+      {
+        "start": 10.96,
+        "file": "07_loop_return.wav",
+        "reason": "Bucle: un retorno, no cuatro impactos.",
+        "target_relative_rms_db": -16
+      },
+      {
+        "start": 19.01,
+        "file": "08_resolve.wav",
+        "reason": "Del bucle al flujo definido.",
+        "target_relative_rms_db": -17
+      },
+      {
+        "start": 33.04,
+        "file": "05_low_accent.wav",
+        "reason": "Tesis retrabajo acelerado, precedida de pausa.",
+        "target_relative_rms_db": -16
+      },
+      {
+        "start": 34.91,
+        "file": "04_soft_pop.wav",
+        "reason": "Prueba práctica.",
+        "target_relative_rms_db": -15
+      },
+      {
+        "start": 47.57,
+        "file": "03_ui_tick.wav",
+        "reason": "Pregunta final sin crescendo.",
+        "target_relative_rms_db": -17
+      }
+    ],
+    "human_listening": "por confirmar",
+    "voice_policy": "Sin nueva restauración/EQ/compresión. Nivel fijo compartido por mezcla y control. Se conserva prosodia."
+  },
+  {
+    "id": "largo-159",
+    "title": "De atención a ventas",
+    "direction": "Cuatro recursos, tres funciones: contraste/mecanismo (Cipher y Neon), conversación/evidencia (Clean Soul), acción (Backbay). Los temas se transforman; no ocho canciones para ocho actos.",
+    "chapters": [
+      [
+        0,
+        "Atención o ventas"
+      ],
+      [
+        24.33,
+        "El cliente"
+      ],
+      [
+        37.236,
+        "La evidencia"
+      ],
+      [
+        59.005,
+        "Tu ventaja"
+      ],
+      [
+        83.449,
+        "El criterio"
+      ],
+      [
+        93.365,
+        "El riesgo"
+      ],
+      [
+        120.909,
+        "La acción"
+      ],
+      [
+        146.047,
+        "La pregunta correcta"
+      ]
+    ],
+    "music": [
+      {
+        "music": "cipher",
+        "start": 0,
+        "end": 24.4,
+        "source_start": 27,
+        "relative_db_points": [
+          [
+            0,
+            -28
+          ],
+          [
+            0.5,
+            -22
+          ],
+          [
+            2,
+            -27
+          ],
+          [
+            4.7,
+            -32
+          ],
+          [
+            6,
+            -26
+          ],
+          [
+            8.5,
+            -31
+          ],
+          [
+            9.6,
+            -27
+          ],
+          [
+            12.8,
+            -32
+          ],
+          [
+            13.5,
+            -23
+          ],
+          [
+            17.3,
+            -29
+          ],
+          [
+            18.7,
+            -24
+          ],
+          [
+            22,
+            -31
+          ],
+          [
+            23.8,
+            -35
+          ],
+          [
+            24.4,
+            -60
+          ]
+        ],
+        "role": "Abrir problema, sin tono épico ni golpes para cada negación."
+      },
+      {
+        "music": "clean",
+        "start": 24.16,
+        "end": 58.95,
+        "source_start": 31,
+        "relative_db_points": [
+          [
+            24.16,
+            -40
+          ],
+          [
+            25.2,
+            -23
+          ],
+          [
+            27,
+            -29
+          ],
+          [
+            28.4,
+            -25
+          ],
+          [
+            31,
+            -28
+          ],
+          [
+            33,
+            -30
+          ],
+          [
+            34,
+            -27
+          ],
+          [
+            36.7,
+            -33
+          ],
+          [
+            38,
+            -25
+          ],
+          [
+            41.8,
+            -31
+          ],
+          [
+            43.6,
+            -27
+          ],
+          [
+            47.8,
+            -31
+          ],
+          [
+            49.2,
+            -24
+          ],
+          [
+            52,
+            -29
+          ],
+          [
+            54.4,
+            -26
+          ],
+          [
+            57.6,
+            -34
+          ],
+          [
+            58.95,
+            -60
+          ]
+        ],
+        "role": "Cambio a persona/evidencia; textura ligera sin drone continuo."
+      },
+      {
+        "music": "backbay",
+        "start": 58.98,
+        "end": 83.3,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            58.98,
+            -38
+          ],
+          [
+            60,
+            -24
+          ],
+          [
+            61.6,
+            -27
+          ],
+          [
+            65,
+            -24
+          ],
+          [
+            68.5,
+            -29
+          ],
+          [
+            70.1,
+            -31
+          ],
+          [
+            73.4,
+            -34
+          ],
+          [
+            74.2,
+            -29
+          ],
+          [
+            78,
+            -27
+          ],
+          [
+            82,
+            -34
+          ],
+          [
+            83.3,
+            -60
+          ]
+        ],
+        "role": "Conocimiento propio y activo reutilizable; pequeño avance, sin triunfo."
+      },
+      {
+        "music": "neon",
+        "start": 93.31,
+        "end": 120.77,
+        "source_start": 70,
+        "relative_db_points": [
+          [
+            93.31,
+            -38
+          ],
+          [
+            94.1,
+            -25
+          ],
+          [
+            96.2,
+            -30
+          ],
+          [
+            97.3,
+            -26
+          ],
+          [
+            100,
+            -27
+          ],
+          [
+            104,
+            -31
+          ],
+          [
+            107,
+            -33
+          ],
+          [
+            108.2,
+            -27
+          ],
+          [
+            112,
+            -31
+          ],
+          [
+            115.4,
+            -35
+          ],
+          [
+            116.2,
+            -32
+          ],
+          [
+            118.7,
+            -37
+          ],
+          [
+            120.77,
+            -60
+          ]
+        ],
+        "role": "Advertencia: pulso de mecanismo, nunca drama intenso."
+      },
+      {
+        "music": "backbay",
+        "start": 120.8,
+        "end": 145.96,
+        "source_start": 70,
+        "relative_db_points": [
+          [
+            120.8,
+            -40
+          ],
+          [
+            121.7,
+            -24
+          ],
+          [
+            125.6,
+            -29
+          ],
+          [
+            127,
+            -25
+          ],
+          [
+            132,
+            -29
+          ],
+          [
+            135.5,
+            -32
+          ],
+          [
+            136.8,
+            -23
+          ],
+          [
+            140.5,
+            -30
+          ],
+          [
+            141.8,
+            -40
+          ],
+          [
+            142.35,
+            -50
+          ],
+          [
+            143.35,
+            -38
+          ],
+          [
+            145.96,
+            -60
+          ]
+        ],
+        "role": "Acción concreta; retirada en una sola y medir antes de automatizar."
+      },
+      {
+        "music": "clean",
+        "start": 146.2,
+        "end": 158.798,
+        "source_start": 69,
+        "relative_db_points": [
+          [
+            146.2,
+            -43
+          ],
+          [
+            147,
+            -31
+          ],
+          [
+            149,
+            -34
+          ],
+          [
+            150,
+            -29
+          ],
+          [
+            152.8,
+            -33
+          ],
+          [
+            156,
+            -37
+          ],
+          [
+            157.5,
+            -42
+          ],
+          [
+            158.798,
+            -60
+          ]
+        ],
+        "role": "Pregunta: leve soporte, cola controlada."
+      }
+    ],
+    "sfx": [
+      {
+        "start": 0.025,
+        "file": "04_soft_pop.wav",
+        "reason": "Hook: atención/ventas.",
+        "target_relative_rms_db": -14
+      },
+      {
+        "start": 13.12,
+        "file": "03_ui_tick.wav",
+        "reason": "Contenido genérico, cambia el argumento.",
+        "target_relative_rms_db": -16
+      },
+      {
+        "start": 24.2,
+        "file": "02_soft_whoosh.wav",
+        "reason": "De herramienta a cliente.",
+        "target_relative_rms_db": -16
+      },
+      {
+        "start": 37.06,
+        "file": "03_ui_tick.wav",
+        "reason": "Entrada de evidencia.",
+        "target_relative_rms_db": -16
+      },
+      {
+        "start": 58.94,
+        "file": "08_resolve.wav",
+        "reason": "Conocimiento del negocio.",
+        "target_relative_rms_db": -18
+      },
+      {
+        "start": 83.32,
+        "file": "05_low_accent.wav",
+        "reason": "Criterio al frente; música retirada.",
+        "target_relative_rms_db": -17
+      },
+      {
+        "start": 93.27,
+        "file": "07_loop_return.wav",
+        "reason": "Advertencia sobre procesos.",
+        "target_relative_rms_db": -17
+      },
+      {
+        "start": 120.8,
+        "file": "02_soft_whoosh.wav",
+        "reason": "De riesgo a aplicación.",
+        "target_relative_rms_db": -17
+      },
+      {
+        "start": 142.22,
+        "file": "04_soft_pop.wav",
+        "reason": "Una sola: acento en pausa, sin música.",
+        "target_relative_rms_db": -16
+      },
+      {
+        "start": 145.98,
+        "file": "03_ui_tick.wav",
+        "reason": "Regreso a la pregunta correcta.",
+        "target_relative_rms_db": -18
+      }
+    ],
+    "human_listening": "por confirmar",
+    "voice_policy": "Sin nueva restauración/EQ/compresión. Nivel fijo compartido por mezcla y control. Se conserva prosodia."
+  }
+]

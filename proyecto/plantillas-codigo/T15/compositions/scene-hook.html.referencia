@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;color:#17323B;font-family:Inter,Arial,sans-serif;pointer-events:none}
+  .card{position:absolute;left:54px;right:54px;top:50px;height:240px;background:#F2E7D5;border:5px solid #17323B;box-shadow:12px 12px 0 #C84A3D;padding:18px 30px 30px;overflow:hidden}
+  .eyebrow{font:900 42px/1 Inter,Arial,sans-serif;color:#C84A3D;letter-spacing:.5px;text-transform:uppercase;opacity:0}
+  .headline{margin-top:8px;font:900 72px/.84 "Bebas Neue",Impact,sans-serif;letter-spacing:-1px;text-transform:uppercase;display:flex;flex-wrap:wrap;gap:0 16px;max-width:880px}
+  .headline span{display:inline-block;opacity:0}.headline .accent{color:#F2E7D5;background:#17323B;padding:0 10px}
+  .rule{position:absolute;left:30px;right:30px;bottom:14px;height:6px;background:#C89B4B;transform-origin:left center}
+</style>
+<div data-hf-id="hf-v15-hook-root" id="root" data-composition-id="scene-hook" data-duration="2.40" data-width="1080" data-height="1920">
+  <div data-hf-id="hf-0zhg" class="card" id="hook-card"><div data-hf-id="hf-2s5m" class="eyebrow" id="hook-eyebrow" data-layout-allow-overlap="">Regla de seguridad</div><div data-hf-id="hf-96qe" class="headline" data-layout-allow-overlap=""><span data-hf-id="hf-op36" id="hook-w1" data-layout-allow-overlap="">NO AUTOMATICES</span><span data-hf-id="hf-eitw" id="hook-w2" class="accent">LO QUE NO ENTIENDES</span></div><div data-hf-id="hf-2ygw" class="rule" id="hook-rule"></div></div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.set("#hook-eyebrow",{opacity:1,y:48},.06).to("#hook-eyebrow",{y:0,duration:.15,ease:"power4.out"},.06);
+  tl.set("#hook-w1",{opacity:1,y:70},.18).to("#hook-w1",{y:0,duration:.18,ease:"power4.out"},.18);
+  tl.set("#hook-w2",{opacity:1,y:58},.34).to("#hook-w2",{y:0,duration:.16,ease:"power4.out"},.34);
+  tl.fromTo("#hook-rule",{scaleX:0},{scaleX:1,duration:.42,ease:"power2.out"},.48);
+  window.__timelines["scene-hook"]=tl;
+</script>
+</template></body></html>

@@ -1,0 +1,131 @@
+........................................................................................................................................................................................................................................................................................................................EEEEEEEEE........
+======================================================================
+ERROR: test_approved_artifact_can_remain_pending_for_template_reuse (test_validate_framework.TemplateBankValidationTests.test_approved_artifact_can_remain_pending_for_template_reuse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 311, in setUp
+    receipt = MODULE.approval_receipts.prepare_receipt(
+        artifact, receipt_id="APPROVAL-LIGHT-TEST", project_id="TEST-PROJECT",
+    ...<2 lines>...
+        notes="Synthetic test fixture only; never a user approval.",
+    )
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/approval_receipt.py", line 394, in prepare_receipt
+    raise ApprovalReceiptError("prepared receipt is invalid: " + "; ".join(errors))
+approval_receipt.ApprovalReceiptError: prepared receipt is invalid: $.receipt_id: 'APPROVAL-LIGHT-TEST' does not match '^APPROVAL-VIDEO-[0-9]{2,}-[A-Z0-9_-]+$'
+
+======================================================================
+ERROR: test_approved_artifact_requires_existing_receipt (test_validate_framework.TemplateBankValidationTests.test_approved_artifact_requires_existing_receipt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 311, in setUp
+    receipt = MODULE.approval_receipts.prepare_receipt(
+        artifact, receipt_id="APPROVAL-LIGHT-TEST", project_id="TEST-PROJECT",
+    ...<2 lines>...
+        notes="Synthetic test fixture only; never a user approval.",
+    )
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/approval_receipt.py", line 394, in prepare_receipt
+    raise ApprovalReceiptError("prepared receipt is invalid: " + "; ".join(errors))
+approval_receipt.ApprovalReceiptError: prepared receipt is invalid: $.receipt_id: 'APPROVAL-LIGHT-TEST' does not match '^APPROVAL-VIDEO-[0-9]{2,}-[A-Z0-9_-]+$'
+
+======================================================================
+ERROR: test_artifact_receipt_cannot_authorize_template_reuse (test_validate_framework.TemplateBankValidationTests.test_artifact_receipt_cannot_authorize_template_reuse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 311, in setUp
+    receipt = MODULE.approval_receipts.prepare_receipt(
+        artifact, receipt_id="APPROVAL-LIGHT-TEST", project_id="TEST-PROJECT",
+    ...<2 lines>...
+        notes="Synthetic test fixture only; never a user approval.",
+    )
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/approval_receipt.py", line 394, in prepare_receipt
+    raise ApprovalReceiptError("prepared receipt is invalid: " + "; ".join(errors))
+approval_receipt.ApprovalReceiptError: prepared receipt is invalid: $.receipt_id: 'APPROVAL-LIGHT-TEST' does not match '^APPROVAL-VIDEO-[0-9]{2,}-[A-Z0-9_-]+$'
+
+======================================================================
+ERROR: test_current_registry_is_valid (test_validate_framework.TemplateBankValidationTests.test_current_registry_is_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 311, in setUp
+    receipt = MODULE.approval_receipts.prepare_receipt(
+        artifact, receipt_id="APPROVAL-LIGHT-TEST", project_id="TEST-PROJECT",
+    ...<2 lines>...
+        notes="Synthetic test fixture only; never a user approval.",
+    )
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/approval_receipt.py", line 394, in prepare_receipt
+    raise ApprovalReceiptError("prepared receipt is invalid: " + "; ".join(errors))
+approval_receipt.ApprovalReceiptError: prepared receipt is invalid: $.receipt_id: 'APPROVAL-LIGHT-TEST' does not match '^APPROVAL-VIDEO-[0-9]{2,}-[A-Z0-9_-]+$'
+
+======================================================================
+ERROR: test_duplicate_template_id_is_rejected (test_validate_framework.TemplateBankValidationTests.test_duplicate_template_id_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 311, in setUp
+    receipt = MODULE.approval_receipts.prepare_receipt(
+        artifact, receipt_id="APPROVAL-LIGHT-TEST", project_id="TEST-PROJECT",
+    ...<2 lines>...
+        notes="Synthetic test fixture only; never a user approval.",
+    )
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/approval_receipt.py", line 394, in prepare_receipt
+    raise ApprovalReceiptError("prepared receipt is invalid: " + "; ".join(errors))
+approval_receipt.ApprovalReceiptError: prepared receipt is invalid: $.receipt_id: 'APPROVAL-LIGHT-TEST' does not match '^APPROVAL-VIDEO-[0-9]{2,}-[A-Z0-9_-]+$'
+
+======================================================================
+ERROR: test_light_package_registry_does_not_inherit_render_approval (test_validate_framework.TemplateBankValidationTests.test_light_package_registry_does_not_inherit_render_approval)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 311, in setUp
+    receipt = MODULE.approval_receipts.prepare_receipt(
+        artifact, receipt_id="APPROVAL-LIGHT-TEST", project_id="TEST-PROJECT",
+    ...<2 lines>...
+        notes="Synthetic test fixture only; never a user approval.",
+    )
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/approval_receipt.py", line 394, in prepare_receipt
+    raise ApprovalReceiptError("prepared receipt is invalid: " + "; ".join(errors))
+approval_receipt.ApprovalReceiptError: prepared receipt is invalid: $.receipt_id: 'APPROVAL-LIGHT-TEST' does not match '^APPROVAL-VIDEO-[0-9]{2,}-[A-Z0-9_-]+$'
+
+======================================================================
+ERROR: test_tampered_or_rebound_receipt_is_rejected (test_validate_framework.TemplateBankValidationTests.test_tampered_or_rebound_receipt_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 311, in setUp
+    receipt = MODULE.approval_receipts.prepare_receipt(
+        artifact, receipt_id="APPROVAL-LIGHT-TEST", project_id="TEST-PROJECT",
+    ...<2 lines>...
+        notes="Synthetic test fixture only; never a user approval.",
+    )
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/approval_receipt.py", line 394, in prepare_receipt
+    raise ApprovalReceiptError("prepared receipt is invalid: " + "; ".join(errors))
+approval_receipt.ApprovalReceiptError: prepared receipt is invalid: $.receipt_id: 'APPROVAL-LIGHT-TEST' does not match '^APPROVAL-VIDEO-[0-9]{2,}-[A-Z0-9_-]+$'
+
+======================================================================
+ERROR: test_template_default_requires_approved_source_artifact (test_validate_framework.TemplateBankValidationTests.test_template_default_requires_approved_source_artifact)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 311, in setUp
+    receipt = MODULE.approval_receipts.prepare_receipt(
+        artifact, receipt_id="APPROVAL-LIGHT-TEST", project_id="TEST-PROJECT",
+    ...<2 lines>...
+        notes="Synthetic test fixture only; never a user approval.",
+    )
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/approval_receipt.py", line 394, in prepare_receipt
+    raise ApprovalReceiptError("prepared receipt is invalid: " + "; ".join(errors))
+approval_receipt.ApprovalReceiptError: prepared receipt is invalid: $.receipt_id: 'APPROVAL-LIGHT-TEST' does not match '^APPROVAL-VIDEO-[0-9]{2,}-[A-Z0-9_-]+$'
+
+======================================================================
+ERROR: test_unknown_namespace_status_is_rejected (test_validate_framework.TemplateBankValidationTests.test_unknown_namespace_status_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 311, in setUp
+    receipt = MODULE.approval_receipts.prepare_receipt(
+        artifact, receipt_id="APPROVAL-LIGHT-TEST", project_id="TEST-PROJECT",
+    ...<2 lines>...
+        notes="Synthetic test fixture only; never a user approval.",
+    )
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/approval_receipt.py", line 394, in prepare_receipt
+    raise ApprovalReceiptError("prepared receipt is invalid: " + "; ".join(errors))
+approval_receipt.ApprovalReceiptError: prepared receipt is invalid: $.receipt_id: 'APPROVAL-LIGHT-TEST' does not match '^APPROVAL-VIDEO-[0-9]{2,}-[A-Z0-9_-]+$'
+
+----------------------------------------------------------------------
+Ran 329 tests in 6.337s
+
+FAILED (errors=9)

@@ -1,0 +1,1354 @@
+{
+  "templates": [
+    {
+      "id": "T01",
+      "path": "plantillas-codigo/T01",
+      "hyperframes_reference": "0.8.77",
+      "files": [
+        {
+          "file": "plantillas-codigo/T01/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/compositions/captions-es.html",
+          "sha256": "4d24080e6a634b08694e79ec057b1f9b4aa7fcd5ebad20c596b8a3287d8c91cb"
+        },
+        {
+          "file": "plantillas-codigo/T01/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/compositions/scene-cta.html",
+          "sha256": "ec97d55359940ec9b9271da754712d23426ba439dd6fcd04ac8ab20667ae25ae"
+        },
+        {
+          "file": "plantillas-codigo/T01/compositions/scene-cycle.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/compositions/scene-cycle.html",
+          "sha256": "ec086ad991ac887655c9f77c65770f9378d573a60fe580527f1f2a0b3e8351e3"
+        },
+        {
+          "file": "plantillas-codigo/T01/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/compositions/scene-hook.html",
+          "sha256": "2f91b9070619f0305d0b076e533d024792fef15ebb0e05e69676f89ef56cb5c6"
+        },
+        {
+          "file": "plantillas-codigo/T01/compositions/scene-problem.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/compositions/scene-problem.html",
+          "sha256": "a5a71d3c2afd998501845328a00fe3d86057bd04484f79f7169909dc480ffae8"
+        },
+        {
+          "file": "plantillas-codigo/T01/compositions/scene-system.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/compositions/scene-system.html",
+          "sha256": "0c91707eed59ab6d9aade01f5da8744ed502ea41620d0ce4a253a886e2bc2548"
+        },
+        {
+          "file": "plantillas-codigo/T01/compositions/scene-verdict.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/compositions/scene-verdict.html",
+          "sha256": "e1af4f76b382dd777ea4c6e072691804e999f0b81a21c7ac3a1bc12f70b92b8c"
+        },
+        {
+          "file": "plantillas-codigo/T01/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/index.html",
+          "sha256": "db96cbf3a63d0b16ed3940bbc6f8b29337d1aeda80ec50d1d3c50d7f9cd3a8bc"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T02",
+      "path": "plantillas-codigo/T02",
+      "hyperframes_reference": "0.8.75",
+      "files": [
+        {
+          "file": "plantillas-codigo/T02/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/compositions/captions-es.html",
+          "sha256": "d3a30167326a1e7376c213856a13ddfc07c58e6f245e896d14f64b9806514259"
+        },
+        {
+          "file": "plantillas-codigo/T02/compositions/scene-action.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/compositions/scene-action.html",
+          "sha256": "3fd788e2d8ba4230e770bc65199ecaadaded309ea70f15006c6f2c27e63e5140"
+        },
+        {
+          "file": "plantillas-codigo/T02/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/compositions/scene-cta.html",
+          "sha256": "3005c9fafa36450d54dd34e58050befc1ef15793dc9c301832bd251aa11b65b5"
+        },
+        {
+          "file": "plantillas-codigo/T02/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/compositions/scene-hook.html",
+          "sha256": "da7433ce7b8a44b3e4e0c37c11f3862280ca6d0def35870c622569db3f1e70e7"
+        },
+        {
+          "file": "plantillas-codigo/T02/compositions/scene-stack.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/compositions/scene-stack.html",
+          "sha256": "ae646f20a1819f02881544d1f63c5ed5f8303bc56d17f3ccad8dae9930208877"
+        },
+        {
+          "file": "plantillas-codigo/T02/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/index.html",
+          "sha256": "736cb5b07de93000c6e255b4ccc8b9ade8c1286357483b7e2a8cb9f0077e01b1"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T03",
+      "path": "plantillas-codigo/T03",
+      "hyperframes_reference": "0.8.75",
+      "files": [
+        {
+          "file": "plantillas-codigo/T03/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/compositions/captions-es.html",
+          "sha256": "8c6f45c36103665913a0e2dea6a0ab83f82f3fc1ac9363c4858120c8204392ea"
+        },
+        {
+          "file": "plantillas-codigo/T03/compositions/scene-common.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/compositions/scene-common.html",
+          "sha256": "1a2f500ea47ec371a11f606ee27bbc49f81ccf3eadbac2a3eef2bc54a3f6a37e"
+        },
+        {
+          "file": "plantillas-codigo/T03/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/compositions/scene-cta.html",
+          "sha256": "80511f47d23fe98efc27388086ccc9a31052af44f16376b07439142da52d22e8"
+        },
+        {
+          "file": "plantillas-codigo/T03/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/compositions/scene-hook.html",
+          "sha256": "97698892ffbe7a909f8c78b0a42dd8eda6f368fca2353af151d4feb0b713d36e"
+        },
+        {
+          "file": "plantillas-codigo/T03/compositions/scene-moat.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/compositions/scene-moat.html",
+          "sha256": "d213e0667533fcb5958125df144077fc801f14d2ff7afdafe546ec07fe543877"
+        },
+        {
+          "file": "plantillas-codigo/T03/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/index.html",
+          "sha256": "53a6cafdd7563bdfcf67de20238d3426ce576447b764b91b2a65ed91c7926b2b"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T04",
+      "path": "plantillas-codigo/T04",
+      "hyperframes_reference": "0.8.75",
+      "files": [
+        {
+          "file": "plantillas-codigo/T04/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/compositions/captions-es.html",
+          "sha256": "1bfabd5856dbeb0a82d8d353a5acb61d1063bba9cc6292b256f0dd758ae9c770"
+        },
+        {
+          "file": "plantillas-codigo/T04/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/compositions/scene-cta.html",
+          "sha256": "1935d8bd63fd9be4a83f0af9ec60ee19ccfe53dcf0d4d826c32d1d082124d0eb"
+        },
+        {
+          "file": "plantillas-codigo/T04/compositions/scene-diagnosis.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/compositions/scene-diagnosis.html",
+          "sha256": "4e8156decb220b3d92c1c43a220ed9069ed2bb4a68f80a8a29b1d65d953cab01"
+        },
+        {
+          "file": "plantillas-codigo/T04/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/compositions/scene-hook.html",
+          "sha256": "8837762b47526c33d0b4b819ac010c07e7fbe2a4fe669cf2ee640007b269e4bf"
+        },
+        {
+          "file": "plantillas-codigo/T04/compositions/scene-speed.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/compositions/scene-speed.html",
+          "sha256": "31f79fa6ce9d07943ccee3838590b6b00f99dca88ed4721e0460b2a6d95ad65a"
+        },
+        {
+          "file": "plantillas-codigo/T04/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/index.html",
+          "sha256": "cbc0ddb2c7e687ff32777b5d9da948e1fcedb05eaa1c85663bd47f55ad3b12af"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T05",
+      "path": "plantillas-codigo/T05",
+      "hyperframes_reference": "0.8.75",
+      "files": [
+        {
+          "file": "plantillas-codigo/T05/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/compositions/captions-es.html",
+          "sha256": "c08ef33d496170eeb64a8252e6e08e6e5bab521cc12897c76035194c33e01372"
+        },
+        {
+          "file": "plantillas-codigo/T05/compositions/scene-criterion.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/compositions/scene-criterion.html",
+          "sha256": "4e5f24a588ba5ba16e539ceaec79780bb090354b9c03e0fea5b93f17caa2d078"
+        },
+        {
+          "file": "plantillas-codigo/T05/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/compositions/scene-cta.html",
+          "sha256": "8a801d33e7dcf2f9f64a78bc419fc4fdd37614fff5c951195e83f50c6ed3f661"
+        },
+        {
+          "file": "plantillas-codigo/T05/compositions/scene-delegation.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/compositions/scene-delegation.html",
+          "sha256": "99f7c5369bb1d80852652ae5b9e9345da4576ecd8639c52ebed4e75a188d4588"
+        },
+        {
+          "file": "plantillas-codigo/T05/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/compositions/scene-hook.html",
+          "sha256": "fc85b295aa24faf64b030f1110c905dd59d044f616a98618634f65fa65b207ac"
+        },
+        {
+          "file": "plantillas-codigo/T05/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/index.html",
+          "sha256": "4d5b0a8c71269faf0fcc34f24c951b6009d43c32fbd65382432a49540c9a68f2"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T06",
+      "path": "plantillas-codigo/T06",
+      "hyperframes_reference": "0.8.77",
+      "files": [
+        {
+          "file": "plantillas-codigo/T06/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/compositions/captions-es.html",
+          "sha256": "189734e5f7830b61eaec28268ab23737cceb6a246019ddf6bf55cce0559538e4"
+        },
+        {
+          "file": "plantillas-codigo/T06/compositions/scene-concept.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/compositions/scene-concept.html",
+          "sha256": "6454476e28b9f155f7ccfff82d41df760a64f3a956f16a3eee7a60973a038ba9"
+        },
+        {
+          "file": "plantillas-codigo/T06/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/compositions/scene-cta.html",
+          "sha256": "df028865ec00db0643885e827adb88960623879d746e0591f4e2590593fc0942"
+        },
+        {
+          "file": "plantillas-codigo/T06/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/compositions/scene-hook.html",
+          "sha256": "dd2eb9a3e8f2743e6e571fe8a1d5431e4a0e36db8ed1c1a0f358108b155e97b0"
+        },
+        {
+          "file": "plantillas-codigo/T06/compositions/scene-support.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/compositions/scene-support.html",
+          "sha256": "65e9b85c3ecacd6b04badac706343daab6bfcfa0c58a4f69bca8c239adc2ccde"
+        },
+        {
+          "file": "plantillas-codigo/T06/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/index.html",
+          "sha256": "f55d7a1df4fdc9c2e95f2d6ba83f5860b661bc5a27ed635377f864bfe1b92bac"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T07",
+      "path": "plantillas-codigo/T07",
+      "hyperframes_reference": "0.8.77",
+      "files": [
+        {
+          "file": "plantillas-codigo/T07/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/compositions/captions-es.html",
+          "sha256": "c45011f7492b6bfd9c39e5da6a0b1e03ec997000cab78a255859359d6e9c8dc9"
+        },
+        {
+          "file": "plantillas-codigo/T07/compositions/scene-concept.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/compositions/scene-concept.html",
+          "sha256": "2ca3e25ee9b69ca48fd1b6e0e9193f865f8e32952e0aea12ef008b2b49dbe136"
+        },
+        {
+          "file": "plantillas-codigo/T07/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/compositions/scene-cta.html",
+          "sha256": "b5e34cc7aeb8ff7251490de92fcdc6e11cc6e10fcd85665c84f3b9f3fa9c6d1b"
+        },
+        {
+          "file": "plantillas-codigo/T07/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/compositions/scene-hook.html",
+          "sha256": "cdbf2a395c05bd1958d7b0137abfc27bd7eec5d271c1a7ce41b550607edd7f28"
+        },
+        {
+          "file": "plantillas-codigo/T07/compositions/scene-support.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/compositions/scene-support.html",
+          "sha256": "41fe0799ae06730c75466f916dffb94919025f124717d6321ea5cd2156dbd188"
+        },
+        {
+          "file": "plantillas-codigo/T07/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/index.html",
+          "sha256": "9f1868db7618f244f27c04c0f32971408bfa59e5d51e60e6c1b3314d99516f9c"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T08",
+      "path": "plantillas-codigo/T08",
+      "hyperframes_reference": "0.8.77",
+      "files": [
+        {
+          "file": "plantillas-codigo/T08/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/compositions/captions-es.html",
+          "sha256": "da087c7d279fc739861535d90b27a4a7c4d658c605067c24f017087b60894eda"
+        },
+        {
+          "file": "plantillas-codigo/T08/compositions/scene-concept.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/compositions/scene-concept.html",
+          "sha256": "4c53bc5dbfa70e3da13701417f13110416eb5b8c52e733f80b3cfbb08a15c3c4"
+        },
+        {
+          "file": "plantillas-codigo/T08/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/compositions/scene-cta.html",
+          "sha256": "8f9766719d1961ecc856602fbee04adaa6a5b343253fc6414c0705e9f54c4572"
+        },
+        {
+          "file": "plantillas-codigo/T08/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/compositions/scene-hook.html",
+          "sha256": "01ded602013e920b6dd8d9a7465ad604236e0f60e736415a745f6bb1a5b1bd1e"
+        },
+        {
+          "file": "plantillas-codigo/T08/compositions/scene-support.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/compositions/scene-support.html",
+          "sha256": "155f65a91cea8ea97cff55a023db10a7ecfaf2c3617f5ef41148895a87eebf88"
+        },
+        {
+          "file": "plantillas-codigo/T08/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/index.html",
+          "sha256": "56fe36967e790ad6ba4eb02fcbe5e307ed6c224dc95f95b6af0c5b6109d5d914"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T09",
+      "path": "plantillas-codigo/T09",
+      "hyperframes_reference": "0.8.77",
+      "files": [
+        {
+          "file": "plantillas-codigo/T09/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/compositions/captions-es.html",
+          "sha256": "aa43e69e5e34e95840c3c4f129d783a69c60a3e3f361680a51ab4c6c07d01ad4"
+        },
+        {
+          "file": "plantillas-codigo/T09/compositions/scene-concept.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/compositions/scene-concept.html",
+          "sha256": "0f71952fef0c67020122b25ef6670c226561fbe58c95c178c45fa4d6b30a6ac9"
+        },
+        {
+          "file": "plantillas-codigo/T09/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/compositions/scene-cta.html",
+          "sha256": "0a20c53fc2ad187c25c50d81b456773d59c903d9e4829e316182547c532dd270"
+        },
+        {
+          "file": "plantillas-codigo/T09/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/compositions/scene-hook.html",
+          "sha256": "31b878c55d93989def9abc5f31528353a4d2f391a317134e86e9ccec7c514335"
+        },
+        {
+          "file": "plantillas-codigo/T09/compositions/scene-support.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/compositions/scene-support.html",
+          "sha256": "f81f12aa2cf9b9f3f52130181dcf77a4796ee0aceb0c0b3f4d44c2b0b6015fbf"
+        },
+        {
+          "file": "plantillas-codigo/T09/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/index.html",
+          "sha256": "fb535ef0dc209c0152b09374438df2364f4a8043cc6eb039f391f8678ba9a585"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T10",
+      "path": "plantillas-codigo/T10",
+      "hyperframes_reference": "0.8.77",
+      "files": [
+        {
+          "file": "plantillas-codigo/T10/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/compositions/captions-es.html",
+          "sha256": "1af0675e4c0773dce566ce3625fb6fbe197675d2f9b76cf306234450b655d598"
+        },
+        {
+          "file": "plantillas-codigo/T10/compositions/scene-concept.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/compositions/scene-concept.html",
+          "sha256": "163a870286919796b365c57d849c132b4cd673a3c776ed7490e915c079ecf87e"
+        },
+        {
+          "file": "plantillas-codigo/T10/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/compositions/scene-cta.html",
+          "sha256": "72b56e059a30d61a025862de4fd71185036ab90dcece7547fbaa91839b0dcbd5"
+        },
+        {
+          "file": "plantillas-codigo/T10/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/compositions/scene-hook.html",
+          "sha256": "e6632d2c12b8b434a2ad704a36733b1a1272d4bcd6a4c8336005ad5501cdb928"
+        },
+        {
+          "file": "plantillas-codigo/T10/compositions/scene-support.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/compositions/scene-support.html",
+          "sha256": "f6ccd9295be80ca2843df08dfe0b6534e7cd8c70cba6154d27a5c6cd5956a4a7"
+        },
+        {
+          "file": "plantillas-codigo/T10/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/index.html",
+          "sha256": "4b43c1421d54e48a9902068c05b0e6e4a98683937da133d0c518f7556ad6ffe6"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T11",
+      "path": "plantillas-codigo/T11",
+      "hyperframes_reference": "0.8.77",
+      "files": [
+        {
+          "file": "plantillas-codigo/T11/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/compositions/captions-es.html",
+          "sha256": "ead4b415584b827f3f654675b55aa2486fe705ac3ac09a2aa025a6613c05bac7"
+        },
+        {
+          "file": "plantillas-codigo/T11/compositions/scene-acceleration.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/compositions/scene-acceleration.html",
+          "sha256": "c62006f43bf263298991b1b0c86ffadcfbd7aeb6da8515082672f2dbe039f86d"
+        },
+        {
+          "file": "plantillas-codigo/T11/compositions/scene-contrast.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/compositions/scene-contrast.html",
+          "sha256": "da3301aa5deb7f94a082fb1030122d82a02a12bfaf19518d9e101212d26cb43e"
+        },
+        {
+          "file": "plantillas-codigo/T11/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/compositions/scene-cta.html",
+          "sha256": "2448dd5ffb783bf9f3ce34d5c2fba964d8c99ee63741ad1a3adfa4191513a0a7"
+        },
+        {
+          "file": "plantillas-codigo/T11/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/compositions/scene-hook.html",
+          "sha256": "8898362e43e7b3b0132b136980a8fd1603fe91094d4decb18e57ed329977aac1"
+        },
+        {
+          "file": "plantillas-codigo/T11/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/index.html",
+          "sha256": "ed843a6ea352e1e5e6227525a8060a266b52f45e655dad73ccf7fa1517631d5e"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T12",
+      "path": "plantillas-codigo/T12",
+      "hyperframes_reference": "0.8.77",
+      "files": [
+        {
+          "file": "plantillas-codigo/T12/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/compositions/captions-es.html",
+          "sha256": "84fa5a397ea1d43e73c2dba0dee70e522adbb09a676b83c163c99ea8052c87e3"
+        },
+        {
+          "file": "plantillas-codigo/T12/compositions/scene-contrast.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/compositions/scene-contrast.html",
+          "sha256": "31d3d494430394d60d4ea116b94fb848cace8a37b99983149d0741dfb83ac534"
+        },
+        {
+          "file": "plantillas-codigo/T12/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/compositions/scene-cta.html",
+          "sha256": "0f15677231fe84de6409638da12a151964436f0b163bf8a7c5f1bc53a701351f"
+        },
+        {
+          "file": "plantillas-codigo/T12/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/compositions/scene-hook.html",
+          "sha256": "a0c82fc455836e078830615d74781c142c609911d510bf9536ebff1b5652ae73"
+        },
+        {
+          "file": "plantillas-codigo/T12/compositions/scene-idea.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/compositions/scene-idea.html",
+          "sha256": "f20479c65e208e9546565be2a9990d4eb20098e69fb1b54a52f0e94acad543b2"
+        },
+        {
+          "file": "plantillas-codigo/T12/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/index.html",
+          "sha256": "5ee85afb91514c192f1893baf0971848d87d6bcb9d8528fd9a4a4768d276e066"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T13",
+      "path": "plantillas-codigo/T13",
+      "hyperframes_reference": "0.8.78",
+      "files": [
+        {
+          "file": "plantillas-codigo/T13/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/compositions/captions-es.html",
+          "sha256": "f1696d14093365c5acb561b10cb3a21f8efb3cc45b323e72ca838b2e9ec0ea0a"
+        },
+        {
+          "file": "plantillas-codigo/T13/compositions/components/caption-editorial-emphasis.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/compositions/components/caption-editorial-emphasis.html",
+          "sha256": "6144571b6c73dbdec282284fe2277d3c958e15cddaf362295ba9cca02e705d1c"
+        },
+        {
+          "file": "plantillas-codigo/T13/compositions/components/grain-overlay.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/compositions/components/grain-overlay.html",
+          "sha256": "97a0da8f26feca9574abcf08b8186cef10ea4819b2aeabc30547ae16ed9ae80d"
+        },
+        {
+          "file": "plantillas-codigo/T13/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/compositions/scene-cta.html",
+          "sha256": "0cca0dd94e8f6beff7ca757e79d7a491684ec3631225c6213e2d546e66216ba1"
+        },
+        {
+          "file": "plantillas-codigo/T13/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/compositions/scene-hook.html",
+          "sha256": "3036f47175f77a3f667bc633828cf6d655595218c58b1020736f037b1a17bd32"
+        },
+        {
+          "file": "plantillas-codigo/T13/compositions/scene-listen.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/compositions/scene-listen.html",
+          "sha256": "202b46fc7fe0b67ad8e28aff8ec873f10a1e62c5e365c12e56c8d17f29ef40c3"
+        },
+        {
+          "file": "plantillas-codigo/T13/compositions/scene-value.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/compositions/scene-value.html",
+          "sha256": "66eaf4db4eabdfb2104957ff4914e8e205514349e0e5df606f76312a9a7ffe2b"
+        },
+        {
+          "file": "plantillas-codigo/T13/compositions/texture-overlay.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/compositions/texture-overlay.html",
+          "sha256": "f053866c9c84f63d5158f5ae0cb9c928a612a4af175e1d752224981315adf99b"
+        },
+        {
+          "file": "plantillas-codigo/T13/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/index.html",
+          "sha256": "b76cb92e776ba7c38280a29a3bcfd1eb8b892f9a98f300952479b5ff0cea66d2"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T14",
+      "path": "plantillas-codigo/T14",
+      "hyperframes_reference": "0.8.79",
+      "files": [
+        {
+          "file": "plantillas-codigo/T14/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/compositions/captions-es.html",
+          "sha256": "3d8b37be5ba5ac171551af73d1ccf895827542711368d7ce33182d1178c60e34"
+        },
+        {
+          "file": "plantillas-codigo/T14/compositions/scene-conversation.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/compositions/scene-conversation.html",
+          "sha256": "aeed149eb6b7a4a9cab786e3d6829246859223a0a252a44fa7d7400db15a3010"
+        },
+        {
+          "file": "plantillas-codigo/T14/compositions/scene-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/compositions/scene-cta.html",
+          "sha256": "c09dad6dc033c650001078b751b256ea12662e70cf49f00b132fa14f09420765"
+        },
+        {
+          "file": "plantillas-codigo/T14/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/compositions/scene-hook.html",
+          "sha256": "ca645b505ff17b236dc6ad779dbbdfccc67afa2a12735b7f515ed1d57af41f0f"
+        },
+        {
+          "file": "plantillas-codigo/T14/compositions/scene-listen.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/compositions/scene-listen.html",
+          "sha256": "4d5dfea3c14dfaee414e648e45e0edb16c493937665e3ba1d7645b4664090f80"
+        },
+        {
+          "file": "plantillas-codigo/T14/compositions/texture-overlay.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/compositions/texture-overlay.html",
+          "sha256": "6bf294cc5a5734938415405e99d6f755dd5315ed374080110f2db8b71cb552fb"
+        },
+        {
+          "file": "plantillas-codigo/T14/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/index.html",
+          "sha256": "925f95c382a3219ce5eb5e823641cb52e1cf68ca63db368255dac7e1a5f617d5"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T15",
+      "path": "plantillas-codigo/T15",
+      "hyperframes_reference": "0.8.79",
+      "files": [
+        {
+          "file": "plantillas-codigo/T15/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/compositions/captions-es.html",
+          "sha256": "1cb8f943defa93aa9d19801b7785839a172a47cc9873c0375e6dea4c1f18ac31"
+        },
+        {
+          "file": "plantillas-codigo/T15/compositions/scene-close.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/compositions/scene-close.html",
+          "sha256": "87930d77eb1bf67078542c0d2241ab5df1911a9ad33627f45cb49ebc57870a49"
+        },
+        {
+          "file": "plantillas-codigo/T15/compositions/scene-consequence.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/compositions/scene-consequence.html",
+          "sha256": "fd514d0abfe6acc65054cce2d4514ae0558532169cd2cebde31c86c2c2cc51a0"
+        },
+        {
+          "file": "plantillas-codigo/T15/compositions/scene-error.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/compositions/scene-error.html",
+          "sha256": "9c6203602c4057f1be5322f267d1aaf875212d93a40832bcd7f60a06de15ff9d"
+        },
+        {
+          "file": "plantillas-codigo/T15/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/compositions/scene-hook.html",
+          "sha256": "efe0394cbdac83b13b16fdb704149e9b9fe7f7df40fcd97b7e6df22b41ff71c8"
+        },
+        {
+          "file": "plantillas-codigo/T15/compositions/scene-inspect.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/compositions/scene-inspect.html",
+          "sha256": "0194c607b4bca0234037149aacd1f4be851756828f1e3bc9d2d69b622a75c211"
+        },
+        {
+          "file": "plantillas-codigo/T15/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/index.html",
+          "sha256": "39c190795cb4e6f3916440975a09404c1850622ffe72ca82279aa4a4648dc8e0"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T16",
+      "path": "plantillas-codigo/T16",
+      "hyperframes_reference": "0.8.99",
+      "files": [
+        {
+          "file": "plantillas-codigo/T16/assets/vendor/gsap.min.js.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6/assets/vendor/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "plantillas-codigo/T16/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6/compositions/captions-es.html",
+          "sha256": "f8e89746bbfc506a5908b520d26f13faac1d54ebba4e38e084902367f1c5921d"
+        },
+        {
+          "file": "plantillas-codigo/T16/compositions/scene-broll.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6/compositions/scene-broll.html",
+          "sha256": "212761ebf1b713b579425568e398a7bc94607648b2cd8d54c2b42be713e4183a"
+        },
+        {
+          "file": "plantillas-codigo/T16/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6/compositions/scene-hook.html",
+          "sha256": "65466a24e6952cf0a48c2e05f55a841d3710498b17a573d7eae005fb2edfd764"
+        },
+        {
+          "file": "plantillas-codigo/T16/compositions/scene-question.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6/compositions/scene-question.html",
+          "sha256": "580970cc3e72aa5520bd6a0dfd5c1286ebb2b3aedfc2492cefb6b97728c6a335"
+        },
+        {
+          "file": "plantillas-codigo/T16/compositions/scene-repeat.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6/compositions/scene-repeat.html",
+          "sha256": "cb58578864a5c21ba0586a9fae0924c564372878464c68c623575cd055376855"
+        },
+        {
+          "file": "plantillas-codigo/T16/compositions/scene-service.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6/compositions/scene-service.html",
+          "sha256": "3e5e674f19d9b184c28849935a2d589ae9489605dec251bbb7faf0e832dddfe3"
+        },
+        {
+          "file": "plantillas-codigo/T16/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6/index.html",
+          "sha256": "3578cf8690499d6e0e3375bd0b1b8940e960168330895579b31b1a656f00cb24"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T17",
+      "path": "plantillas-codigo/T17",
+      "hyperframes_reference": "0.8.99",
+      "files": [
+        {
+          "file": "plantillas-codigo/T17/assets/vendor/gsap.min.js.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/assets/vendor/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "plantillas-codigo/T17/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/compositions/captions-es.html",
+          "sha256": "32d7b64b3111d56e4805d596a177d4a214104daf6e36aae47cb440c3d8ae500b"
+        },
+        {
+          "file": "plantillas-codigo/T17/compositions/scene17-broll.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/compositions/scene17-broll.html",
+          "sha256": "77055f952754ce3426da47ddff4e31a072c8e35bdb3f12719178b2c27be03045"
+        },
+        {
+          "file": "plantillas-codigo/T17/compositions/scene17-consequence.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/compositions/scene17-consequence.html",
+          "sha256": "af2a391b182e2ecf99d749dacd93b271932872630636b8e12a881816551eceef"
+        },
+        {
+          "file": "plantillas-codigo/T17/compositions/scene17-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/compositions/scene17-cta.html",
+          "sha256": "0bd382ad8e5468a977333aa71eaadcc56190486d231edb74dab3eba946d51ba3"
+        },
+        {
+          "file": "plantillas-codigo/T17/compositions/scene17-explanation.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/compositions/scene17-explanation.html",
+          "sha256": "df1cf46bcaea49c2a38c4aae7b1935d20812d6fb48211a93ed434782c6dfe9ef"
+        },
+        {
+          "file": "plantillas-codigo/T17/compositions/scene17-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/compositions/scene17-hook.html",
+          "sha256": "c45a78a537577ddaafe39ca66c7462d9c86a9766202cc0bc0c682ae4cd4c53b0"
+        },
+        {
+          "file": "plantillas-codigo/T17/compositions/scene17-remate.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/compositions/scene17-remate.html",
+          "sha256": "e1b72e6840ad0f6ff7c48b309200d6b8e5c7ff340da43cd9c9efd63b4fd28133"
+        },
+        {
+          "file": "plantillas-codigo/T17/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/index.html",
+          "sha256": "25986981508ee96d4e390ce9d6c74bf8aa80745d89bac7ff56b505c199f661aa"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T18",
+      "path": "plantillas-codigo/T18",
+      "hyperframes_reference": "0.8.99",
+      "files": [
+        {
+          "file": "plantillas-codigo/T18/assets/vendor/gsap.min.js.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/assets/vendor/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "plantillas-codigo/T18/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/compositions/captions-es.html",
+          "sha256": "420096aa64cdbac14340d6142a26f68f7204243a70793a0de3798dbdc659b7e4"
+        },
+        {
+          "file": "plantillas-codigo/T18/compositions/scene18-change.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/compositions/scene18-change.html",
+          "sha256": "7bc5a1654cc420c67e996cb61ea88959bcf1ecf9ae63b72854de3f47eebfd60a"
+        },
+        {
+          "file": "plantillas-codigo/T18/compositions/scene18-product.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/compositions/scene18-product.html",
+          "sha256": "e5bde767a5bf9632d022d07746c4521f4b01bf43b0727c386171ff92d06521ef"
+        },
+        {
+          "file": "plantillas-codigo/T18/compositions/scene18-question.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/compositions/scene18-question.html",
+          "sha256": "dbbefbe03cd716eb19b616c01b2d791818316a720b809a4fe0f4eb52f98584ae"
+        },
+        {
+          "file": "plantillas-codigo/T18/compositions/scene18-result.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/compositions/scene18-result.html",
+          "sha256": "b33f46d01e1676181167ffb05dffa0ca99de51738aa3766b740a761afec5f1c4"
+        },
+        {
+          "file": "plantillas-codigo/T18/compositions/scene18-support.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/compositions/scene18-support.html",
+          "sha256": "b840f2e47880c53bcdf5402558325935a2d168f1bc52035a04e890a56613a46f"
+        },
+        {
+          "file": "plantillas-codigo/T18/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/index.html",
+          "sha256": "9364eea12e29210f01e691643f00824cf8463bee61af30ff90548ede198214a8"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T19",
+      "path": "plantillas-codigo/T19",
+      "hyperframes_reference": "0.8.99",
+      "files": [
+        {
+          "file": "plantillas-codigo/T19/assets/vendor/gsap.min.js.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/assets/vendor/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "plantillas-codigo/T19/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/compositions/captions-es.html",
+          "sha256": "579f0815acb92e5811ef7601d254d3e6c72b78287a6c69554431b081ca371dcc"
+        },
+        {
+          "file": "plantillas-codigo/T19/compositions/scene19-cta.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/compositions/scene19-cta.html",
+          "sha256": "cfba210e0c871037395f32446afa33fc979f7266496d4d4c7233a8b3d216c6d2"
+        },
+        {
+          "file": "plantillas-codigo/T19/compositions/scene19-example.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/compositions/scene19-example.html",
+          "sha256": "80172b060b73fb99dec642f24de01df12aa0af950579b9d2ac51e226b6014c26"
+        },
+        {
+          "file": "plantillas-codigo/T19/compositions/scene19-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/compositions/scene19-hook.html",
+          "sha256": "7fe15d56a8e45a73dd1a5b93e68d08e54abe3e274dde5af89ca5052e58ec7cd2"
+        },
+        {
+          "file": "plantillas-codigo/T19/compositions/scene19-idea.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/compositions/scene19-idea.html",
+          "sha256": "2d8f365f650a1655ad751090587cd756aa51674d2f1bea64f92f0a2b07d31f9c"
+        },
+        {
+          "file": "plantillas-codigo/T19/compositions/scene19-photo.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/compositions/scene19-photo.html",
+          "sha256": "fecc43c3a669ae3394802f5035d9339c3b1cb0214e2e8ecb0f73122a88301b7e"
+        },
+        {
+          "file": "plantillas-codigo/T19/compositions/scene19-remate.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/compositions/scene19-remate.html",
+          "sha256": "372d503328a7dc751b3aaca01aa9952a728b1151ecdbd88c96509fc9b89ea49f"
+        },
+        {
+          "file": "plantillas-codigo/T19/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/index.html",
+          "sha256": "df5d82e614a50c4a0b531593fdeeb270b6c45b38c7d112684088e66170e9ee1b"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T20",
+      "path": "plantillas-codigo/T20",
+      "hyperframes_reference": "0.8.102",
+      "files": [
+        {
+          "file": "plantillas-codigo/T20/assets/vendor/gsap.min.js.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/assets/vendor/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+        },
+        {
+          "file": "plantillas-codigo/T20/compositions/application20.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/compositions/application20.html",
+          "sha256": "eabce47a7addca32f8de8599a2aaadd0135b8680cda4bec471498fcd0279cf73"
+        },
+        {
+          "file": "plantillas-codigo/T20/compositions/authority20.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/compositions/authority20.html",
+          "sha256": "6ab9cbf443f31979ac1e7ff6434c853a01d73a8691157ff79b89b5c66ec12b3f"
+        },
+        {
+          "file": "plantillas-codigo/T20/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/compositions/captions-es.html",
+          "sha256": "c5b15825903804cd08f03fa1880f0b120b706fc7caa9af5c7d75ee3428f272f1"
+        },
+        {
+          "file": "plantillas-codigo/T20/compositions/components/svg-stroke-trace.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/compositions/components/svg-stroke-trace.html",
+          "sha256": "d801f508ff88c61d46df20a8cac431b77f1b20769477af04308de5165f2a85c5"
+        },
+        {
+          "file": "plantillas-codigo/T20/compositions/context20.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/compositions/context20.html",
+          "sha256": "b76130c72f5702275b56614c38c871f7244225b4bd211ca8c974ac69cc48acca"
+        },
+        {
+          "file": "plantillas-codigo/T20/compositions/prices20.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/compositions/prices20.html",
+          "sha256": "8ff5f1394014b33672a5792eb1df755aa9d530f4620683785fc7bbcc4f01347e"
+        },
+        {
+          "file": "plantillas-codigo/T20/compositions/roots20.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/compositions/roots20.html",
+          "sha256": "da2f7b0734a399f5e56de87f53bf6de76a36f5fcd10257e5c8bc054f876a2984"
+        },
+        {
+          "file": "plantillas-codigo/T20/compositions/seed20.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/compositions/seed20.html",
+          "sha256": "dead3af841345253ef2a5f3936125cf3a7e43a6fa9a7159004f65b8b0209304e"
+        },
+        {
+          "file": "plantillas-codigo/T20/compositions/understand20.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/compositions/understand20.html",
+          "sha256": "54544ff5b80b21521d931bc4ab2c23207a73344e6252f0697038ab09b6ee3f34"
+        },
+        {
+          "file": "plantillas-codigo/T20/compositions/value20.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/compositions/value20.html",
+          "sha256": "6df4417e05170ffb8ccafd8f0153b45233c1ea9dcfdaeb60e0b810f630b2607f"
+        },
+        {
+          "file": "plantillas-codigo/T20/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/index.html",
+          "sha256": "af48ec09b5277ac1d3f14fd70065a395e266480c54e6222e7848af5d09b72e1c"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T21",
+      "path": "plantillas-codigo/T21",
+      "hyperframes_reference": "0.8.99",
+      "files": [
+        {
+          "file": "plantillas-codigo/T21/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/compositions/captions-es.html",
+          "sha256": "4412f606aa88050fce7827870a761f4428cdcdb53891bdfaa3057901839ac629"
+        },
+        {
+          "file": "plantillas-codigo/T21/compositions/scene-close.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/compositions/scene-close.html",
+          "sha256": "7bccba4cdeb7e841a64ca54996785375221900ee55eba9e3c2f4554a02217a76"
+        },
+        {
+          "file": "plantillas-codigo/T21/compositions/scene-focus.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/compositions/scene-focus.html",
+          "sha256": "1d8b1eccaf494526bb8d13b4026d4ce223b3697d2ab185f028597dc58c19e1aa"
+        },
+        {
+          "file": "plantillas-codigo/T21/compositions/scene-hook.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/compositions/scene-hook.html",
+          "sha256": "e33e4da518f3f6bd7bbc254bc7fa0eb196dd0e0f75d818953c7a0dcfed122992"
+        },
+        {
+          "file": "plantillas-codigo/T21/compositions/scene-myth.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/compositions/scene-myth.html",
+          "sha256": "7b009d6b410e4c1bce7d3d4c74e7b2b83c6fbe7f8f749e24ce12c20944d5862f"
+        },
+        {
+          "file": "plantillas-codigo/T21/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/index.html",
+          "sha256": "177bac009e6c780955e3dc40528132bf5f86b46082d56ae2b159c7488db63ae1"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T22",
+      "path": "plantillas-codigo/T22",
+      "hyperframes_reference": "0.8.99",
+      "files": [
+        {
+          "file": "plantillas-codigo/T22/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/compositions/captions-es.html",
+          "sha256": "2bed60d975cf7853c42c3645a55f421b541ec2b3537e6c2ee909a78780f20222"
+        },
+        {
+          "file": "plantillas-codigo/T22/compositions/scene-contrast.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/compositions/scene-contrast.html",
+          "sha256": "36d8aeab1b52f8e8084d4d9493fc3137d6c52861b82eca1e18d4ae7de6dbec50"
+        },
+        {
+          "file": "plantillas-codigo/T22/compositions/scene-example.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/compositions/scene-example.html",
+          "sha256": "15a6b5b2a0e8e0168f4561c4ad8a21387f46775dd7adc7866bfaeb95b2c23fd1"
+        },
+        {
+          "file": "plantillas-codigo/T22/compositions/scene-experience.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/compositions/scene-experience.html",
+          "sha256": "4f6d0a05999aea02af4179eb9e666d576e8b063d3a38eb50990f8977bf1d5c89"
+        },
+        {
+          "file": "plantillas-codigo/T22/compositions/scene-observe.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/compositions/scene-observe.html",
+          "sha256": "fe9cc19d739d1f30fb5d09fa188d8017acb0489de80d0c00d9a35c1bfaa6d5eb"
+        },
+        {
+          "file": "plantillas-codigo/T22/compositions/scene-question.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/compositions/scene-question.html",
+          "sha256": "45c00601743783dc286ebc91f91023c0532313f3da29248b67a0bed1238f8f1e"
+        },
+        {
+          "file": "plantillas-codigo/T22/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/index.html",
+          "sha256": "cc5d30eed66b652986badf9c103deb8587aeb6f7c74e742ec03b4e28d663614c"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T23",
+      "path": "plantillas-codigo/T23",
+      "hyperframes_reference": "0.8.99",
+      "files": [
+        {
+          "file": "plantillas-codigo/T23/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/compositions/captions-es.html",
+          "sha256": "cb75712d883d43a3a92c59eec995acae32a81f2d705a6cafbfabb91253cc3e3c"
+        },
+        {
+          "file": "plantillas-codigo/T23/compositions/scene-audiencia.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/compositions/scene-audiencia.html",
+          "sha256": "344be073431b634244bad5210cf2f5ccb86c6bedcd04c21db2c3aa5da48f87bf"
+        },
+        {
+          "file": "plantillas-codigo/T23/compositions/scene-confianza.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/compositions/scene-confianza.html",
+          "sha256": "f167e87b5eca7da2e40dd364597fff596aa76e8bcd552ca985635bb410d37af0"
+        },
+        {
+          "file": "plantillas-codigo/T23/compositions/scene-eleccion.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/compositions/scene-eleccion.html",
+          "sha256": "a9fedf36d71c90c2d90d5258a46aa676015470043b4a3bffe4630c6594374b29"
+        },
+        {
+          "file": "plantillas-codigo/T23/compositions/scene-escucha.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/compositions/scene-escucha.html",
+          "sha256": "96dfcfb47d1679b9afb2cd33615b26ce10414fba1eaee9fa7df7a1c7d754f1b3"
+        },
+        {
+          "file": "plantillas-codigo/T23/compositions/scene-negocio.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/compositions/scene-negocio.html",
+          "sha256": "8e538c121c52af7f6c065d0640e00b571ac247f9e89c841e5e574d3595c91bc3"
+        },
+        {
+          "file": "plantillas-codigo/T23/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/index.html",
+          "sha256": "c07becf1d2fc50a1dba33dab54be56ef9659755b166bd53bc95949053866937e"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T24",
+      "path": "plantillas-codigo/T24",
+      "hyperframes_reference": "0.8.99",
+      "files": [
+        {
+          "file": "plantillas-codigo/T24/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/compositions/captions-es.html",
+          "sha256": "8370c031315b1f78b7d8a8862d91e43e0da7d7ed57ac4458c08d569f6ed29728"
+        },
+        {
+          "file": "plantillas-codigo/T24/compositions/components/titlecard-calm.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/compositions/components/titlecard-calm.html",
+          "sha256": "14f4f48e4a0c92e88d7d3ebe68de567d8c1c688a20c583dda29ed40bbc131c5f"
+        },
+        {
+          "file": "plantillas-codigo/T24/compositions/scene-marca.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/compositions/scene-marca.html",
+          "sha256": "8fd7413584c852283ac05a5de60ce848eab03107a052c85e2b22de2cdbd479da"
+        },
+        {
+          "file": "plantillas-codigo/T24/compositions/scene-memoria.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/compositions/scene-memoria.html",
+          "sha256": "6bafb6ad0993b5acbf8543e254e37c42901db82a7a2be96b1d0df0c8343c9629"
+        },
+        {
+          "file": "plantillas-codigo/T24/compositions/scene-mensaje.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/compositions/scene-mensaje.html",
+          "sha256": "112a16978b51a03a7a8db6dcd0b7b562a95ca43b27f9a071463e1bb55d56e55c"
+        },
+        {
+          "file": "plantillas-codigo/T24/compositions/scene-palabra.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/compositions/scene-palabra.html",
+          "sha256": "2e42ed1c971d1e116bbd56e9d6c1e61551c4c85616663fc84a88942bad3bb0a0"
+        },
+        {
+          "file": "plantillas-codigo/T24/compositions/scene-recuerdo.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/compositions/scene-recuerdo.html",
+          "sha256": "a2ffee79ffb02bd068ee96cc44b333423a81541a6d3c732fe5fe3d133e2e8aa4"
+        },
+        {
+          "file": "plantillas-codigo/T24/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/index.html",
+          "sha256": "f997cd50a59686e9689a0e38b0837dd435927a2288a5f3e923390084bf65e401"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T25",
+      "path": "plantillas-codigo/T25",
+      "hyperframes_reference": "0.8.99",
+      "files": [
+        {
+          "file": "plantillas-codigo/T25/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/captions-es.html",
+          "sha256": "743671f5bb94e506443e9f92c27a076a3d289c719f119736917fc0a01c217639"
+        },
+        {
+          "file": "plantillas-codigo/T25/compositions/scene-compra.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-compra.html",
+          "sha256": "eafb93c8f9c91dbead0eecd28c796e09f52f2c6d3be582d442926d41190ae254"
+        },
+        {
+          "file": "plantillas-codigo/T25/compositions/scene-contexto.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-contexto.html",
+          "sha256": "2a0d2693732b1485749e788e5a693ceb3330ef6e3dbc96d1f0c02dbe1f8ccdcb"
+        },
+        {
+          "file": "plantillas-codigo/T25/compositions/scene-necesidad.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-necesidad.html",
+          "sha256": "defecdc2d2b844f675007e5f0320ee20b502aa8aa2c7078f97a6f428993172e7"
+        },
+        {
+          "file": "plantillas-codigo/T25/compositions/scene-precio.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-precio.html",
+          "sha256": "8a55f5eb21f2e1ba9ebe93d89198603d66b3824a738be138c7fbd1d162ce1ab3"
+        },
+        {
+          "file": "plantillas-codigo/T25/compositions/scene-problema.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-problema.html",
+          "sha256": "b847de9649f38c02f13e6262acde4444a377f0e237fc8b2523f4160fcc16eae1"
+        },
+        {
+          "file": "plantillas-codigo/T25/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/index.html",
+          "sha256": "4a9af49e71e8057f4df263afc5f0745f7cb9ba890513f1e53689c0a63699915b"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T26",
+      "path": "plantillas-codigo/T26",
+      "hyperframes_reference": "0.8.100",
+      "files": [
+        {
+          "file": "plantillas-codigo/T26/compositions/captions26.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/compositions/captions26.html",
+          "sha256": "c4f3c05a12734d8bf97e50a097eab37902e38e150ea87864284b9d1eb78a15ff"
+        },
+        {
+          "file": "plantillas-codigo/T26/compositions/components/caption-editorial-emphasis.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/compositions/components/caption-editorial-emphasis.html",
+          "sha256": "6144571b6c73dbdec282284fe2277d3c958e15cddaf362295ba9cca02e705d1c"
+        },
+        {
+          "file": "plantillas-codigo/T26/compositions/scene26-busqueda.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/compositions/scene26-busqueda.html",
+          "sha256": "01d0b799d4ac3f1c39d6b4e176da0a24883518bc979e970d54ec09978a059061"
+        },
+        {
+          "file": "plantillas-codigo/T26/compositions/scene26-cliente.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/compositions/scene26-cliente.html",
+          "sha256": "9b7403c7674e65d1f7e64831976d9942e1d802d7fb8bfe7abcc6e958ad60cb85"
+        },
+        {
+          "file": "plantillas-codigo/T26/compositions/scene26-confianza.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/compositions/scene26-confianza.html",
+          "sha256": "1785f944db1b690db8adaea330f4ecb1b654f431ce6ef746d2fc3f8fbc06383f"
+        },
+        {
+          "file": "plantillas-codigo/T26/compositions/scene26-investigar.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/compositions/scene26-investigar.html",
+          "sha256": "35a7c50bcc9265a7fbdd0fb3b0749e093f7a7521f7e7131423e33c8dc78eb86e"
+        },
+        {
+          "file": "plantillas-codigo/T26/compositions/scene26-negocio.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/compositions/scene26-negocio.html",
+          "sha256": "3933c128572b39acc60ce8ecaa1d2f0722035607c89a13e9a1da4aabff394f45"
+        },
+        {
+          "file": "plantillas-codigo/T26/compositions/scene26-reputacion.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/compositions/scene26-reputacion.html",
+          "sha256": "65e335847b91849df6856accf430b851b0e49623eac6805cf6b8bc7cb3eeb691"
+        },
+        {
+          "file": "plantillas-codigo/T26/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/index.html",
+          "sha256": "485db2bd525c000d1c7ef4a06a1350c5024dfee9f91b649735d1c8d4975dbcd6"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T27",
+      "path": "plantillas-codigo/T27",
+      "hyperframes_reference": "0.8.102",
+      "files": [
+        {
+          "file": "plantillas-codigo/T27/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/compositions/captions-es.html",
+          "sha256": "cc10c2dbb924a90ea215802f692c46dc57e8867ea30aafd78c791f841271dbc5"
+        },
+        {
+          "file": "plantillas-codigo/T27/compositions/state-cierre.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/compositions/state-cierre.html",
+          "sha256": "407600f5cb593280058ed9e053b3a5c82004ae8dc3e3a62a2fcce2dc7ca92489"
+        },
+        {
+          "file": "plantillas-codigo/T27/compositions/state-contexto.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/compositions/state-contexto.html",
+          "sha256": "1b964e9934746b02fbd9e2c2d89dd3e0cdc8938987463879a57c023c21233403"
+        },
+        {
+          "file": "plantillas-codigo/T27/compositions/state-rostro.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/compositions/state-rostro.html",
+          "sha256": "a65457e658a1a907ae792f8a5d4dce2b941c1e9072ac17e432adfb60638a3a65"
+        },
+        {
+          "file": "plantillas-codigo/T27/compositions/state-sonido.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/compositions/state-sonido.html",
+          "sha256": "f3ce58f99cac2ef32a9964fab2f014d8b25ea8275dc344c2060ddfb4b6de3983"
+        },
+        {
+          "file": "plantillas-codigo/T27/compositions/state-voz.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/compositions/state-voz.html",
+          "sha256": "e23c8f6bc9ccd5f23406a4f2f344a66f760ca672780d7aa5817b0a03a6fd453b"
+        },
+        {
+          "file": "plantillas-codigo/T27/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/index.html",
+          "sha256": "f4999f61392954e1d088e474231fddd50369ddd56a76d62cd90dcac3dfd5c5fa"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T28",
+      "path": "plantillas-codigo/T28",
+      "hyperframes_reference": "0.8.100",
+      "files": [
+        {
+          "file": "plantillas-codigo/T28/compositions/captions-es.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/captions-es.html",
+          "sha256": "96b33b4be33d7c128d7e316127b5b51f4118b1cff81856042edec9eb73929767"
+        },
+        {
+          "file": "plantillas-codigo/T28/compositions/focus-learning.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/focus-learning.html",
+          "sha256": "aca653c2287d5641499fb2ea72638b14dc8d534dedbeda0ca575659cd0e13005"
+        },
+        {
+          "file": "plantillas-codigo/T28/compositions/state-0.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/state-0.html",
+          "sha256": "de8c0d51ce93a65a65d3be07f569172b2113e2dc3aa09cfcc582bee9094e03e3"
+        },
+        {
+          "file": "plantillas-codigo/T28/compositions/state-1.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/state-1.html",
+          "sha256": "dbfffcb5f6c25b0cfbbca8a6ff02f520d7fb7d38b65cfc9716f8779cdcd0f6e5"
+        },
+        {
+          "file": "plantillas-codigo/T28/compositions/state-2.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/state-2.html",
+          "sha256": "feb6a15765d8759a31b6c6f63bd870b3d10e1faa13b6bbdc8890dc126a98ad69"
+        },
+        {
+          "file": "plantillas-codigo/T28/compositions/state-3.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/state-3.html",
+          "sha256": "2c9a80f79d316699b532e8cb0819b07a8606bfccaca5c43da967be65d414685d"
+        },
+        {
+          "file": "plantillas-codigo/T28/compositions/state-4.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/state-4.html",
+          "sha256": "2e0d984006a02d0eccfe7de43af77ada86734a37694bd3fc0b6096dc1ab8d3be"
+        },
+        {
+          "file": "plantillas-codigo/T28/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/index.html",
+          "sha256": "be50e1ef1b0fdb5e6d680de2260d9b5812e0952e07c15bed706a017fd04a1914"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T29",
+      "path": "plantillas-codigo/T29",
+      "hyperframes_reference": "0.8.100",
+      "files": [
+        {
+          "file": "plantillas-codigo/T29/compositions/captions29.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/compositions/captions29.html",
+          "sha256": "5203feef316c18d9e6e164eff9a1ba058a2cbd308b1ed4fcbbd6012abf7a9bec"
+        },
+        {
+          "file": "plantillas-codigo/T29/compositions/scene29-antes.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/compositions/scene29-antes.html",
+          "sha256": "9fbbea6e56785acd2df67728e1f7c375fef5a7727b1c7494d2c9cc7c5ba37933"
+        },
+        {
+          "file": "plantillas-codigo/T29/compositions/scene29-aportar.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/compositions/scene29-aportar.html",
+          "sha256": "e2474c19e7caaf8c518be6c9cb10a602fa2b36b933994488147ee01ceec25d16"
+        },
+        {
+          "file": "plantillas-codigo/T29/compositions/scene29-confianza.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/compositions/scene29-confianza.html",
+          "sha256": "ab8da5c84b88d33f66b2cf6c84611cf94d6b0768e0a507b80e4f28d512a91202"
+        },
+        {
+          "file": "plantillas-codigo/T29/compositions/scene29-ensenar.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/compositions/scene29-ensenar.html",
+          "sha256": "f1afcc602d3caf28c9786d09a29ef19874bce6d5b6254ca9b7a1c32a4639fe18"
+        },
+        {
+          "file": "plantillas-codigo/T29/compositions/scene29-escuchar.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/compositions/scene29-escuchar.html",
+          "sha256": "453b09e9a2c8703d4d7cd852cc879d408f4eed3f9e5f4eeb22cd28dd3604a260"
+        },
+        {
+          "file": "plantillas-codigo/T29/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/index.html",
+          "sha256": "600bb7e36056b19561824ba482be69c581eb231c4c5078b922bb723135b522da"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    },
+    {
+      "id": "T30",
+      "path": "plantillas-codigo/T30",
+      "hyperframes_reference": "0.8.102",
+      "files": [
+        {
+          "file": "plantillas-codigo/T30/compositions/central.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/compositions/central.html",
+          "sha256": "41dc50ef0463e946e2405e055d781d9f372513876d6a3b6b128984f813fb1108"
+        },
+        {
+          "file": "plantillas-codigo/T30/compositions/components/svg-stroke-trace.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/compositions/components/svg-stroke-trace.html",
+          "sha256": "d801f508ff88c61d46df20a8cac431b77f1b20769477af04308de5165f2a85c5"
+        },
+        {
+          "file": "plantillas-codigo/T30/compositions/recap.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/compositions/recap.html",
+          "sha256": "6e6be7fc2fd84f8cb58937a18807d5b2f3fd3115d1722f43dcaf84042597ec6f"
+        },
+        {
+          "file": "plantillas-codigo/T30/compositions/simbolo.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/compositions/simbolo.html",
+          "sha256": "ceb369afa6ea7f419b028f8ced2bbfe5ce7f86c6caca17d7115bab081f49dbd8"
+        },
+        {
+          "file": "plantillas-codigo/T30/compositions/sonora.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/compositions/sonora.html",
+          "sha256": "5e4f403938ca75a24ad61aef86266be5d8a9e28414e8f3138b36a1ba8ebe374c"
+        },
+        {
+          "file": "plantillas-codigo/T30/compositions/textual.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/compositions/textual.html",
+          "sha256": "87f2bb2800534104db50c404b4548c8fcb414fb857ce813f74ced9687e1c8619"
+        },
+        {
+          "file": "plantillas-codigo/T30/index.html.referencia",
+          "source_path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/index.html",
+          "sha256": "e1181a83c28076f0237cf6bdeeba3e249b4047730112289b76ee87ba98eaabe3"
+        }
+      ],
+      "status": "source_reference_requires_new_media_and_timing",
+      "video_approval_transferred": false
+    }
+  ]
+}

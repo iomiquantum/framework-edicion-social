@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-01T07:04:39.588567+00:00",
+  "changes": [
+    {
+      "file": "AGENTS.md",
+      "before_sha256": "ffe607556ab0d63c89f2979de8b1e9b3126ceec443883277466ca18be6dc034b",
+      "after_sha256": "ec5ed73f8bcfabfe1e5fe2b0a8635483af2e9fea69273414534d8f466b03d119",
+      "mode": "append",
+      "locked_fresh_read": true
+    },
+    {
+      "file": "Framework-Edicion-Social/AUDIO_DIRECCION_Y_PROSODIA.md",
+      "before_sha256": "e5c5db6dd413ccf7c32d8b484798b9196de3b5735ea839f72849e9024fefc43b",
+      "after_sha256": "6a6b1d28496279eb8980b2071f744486772e448b8ae9bf70748c4c39603075bf",
+      "mode": "append",
+      "locked_fresh_read": true
+    },
+    {
+      "file": "Framework-Edicion-Social/AUDIO_MEZCLA_CONTEXTO_QA.md",
+      "before_sha256": "a78523c36a0f121e954e595231678e5d335d6f1795aaf39ef05e315b46f7813a",
+      "after_sha256": "2b070a41206f353b76d89a44f92728e972becc5f24e0acfb50194b25565ef825",
+      "mode": "append",
+      "locked_fresh_read": true
+    },
+    {
+      "file": "Framework-Edicion-Social/README.md",
+      "before_sha256": "eed9c54fa6e3da63a5034f8ae8d23ec008b62d528f5c4c913e79b7b586568f69",
+      "after_sha256": "15d558f5c85702d01c0589b0c4426693d1ffb7fe2f0d7865c9f96cb06497ad85",
+      "mode": "append",
+      "locked_fresh_read": true
+    },
+    {
+      "file": "Framework-Edicion-Social/CHANGELOG.md",
+      "before_sha256": "139d957b7de827149f45a8fc3036fbc0f0544f2e1cdc75bcf15a9218f4907b0e",
+      "after_sha256": "ae51693a7e113430a6a9e8a526779376751100481bef7e071da60c8130acca49",
+      "mode": "prepend",
+      "locked_fresh_read": true
+    },
+    {
+      "file": "BITACORA_CURSO_EDICION.md",
+      "before_sha256": "98046994db5480899dd7ad95e2b870bf9a6db15ac7134e13cce8275b19f4bded",
+      "after_sha256": "a2f47d65d0f6d0fcebf0ce300bc03aadbdd88c99a13081fd96b4e06819cc9fca",
+      "mode": "append",
+      "locked_fresh_read": true
+    }
+  ]
+}

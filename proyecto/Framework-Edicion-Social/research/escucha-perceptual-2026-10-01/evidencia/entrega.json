@@ -1,0 +1,26 @@
+{
+  "artifacts": {
+    "CIERRE.json": {
+      "sha256": "7f60ede15a7c0e9963d35009deca82b1027ca353dbb27ea482364f23767cc6dd",
+      "bytes": 6955
+    },
+    "INFORME.md": {
+      "sha256": "af87001c8187172cd661c7f8ae9cd3b11526040a76a0b49f1d99fe34715b1282",
+      "bytes": 9234
+    },
+    "CHANGELOG.md": {
+      "sha256": "598a5eec68c329a2da44560c92a55ca9ad29835186397a2cb4181e2f535650cf",
+      "bytes": 1595
+    },
+    "headless/v2/aceptacion.json": {
+      "sha256": "ac7a2753f47bbb1a08d33a058ead402f34ac50dafab1842722520317fc6f6574",
+      "bytes": 34867
+    },
+    "evidencia/ui.json": {
+      "sha256": "52a94c8f6dd3df8a5d3ba097e2a18d3839b487031a0d789a98b4c2383b16ca36",
+      "bytes": 975
+    }
+  },
+  "root_script_sha256": "b11c5dd2dcb1dcaf561f2cb6dbb9b9f515400d7b248345fadc069eda6fbd0169",
+  "permission_scope": "Explicit tool/repository installation and code-based mixing research; no publication/voice restoration."
+}

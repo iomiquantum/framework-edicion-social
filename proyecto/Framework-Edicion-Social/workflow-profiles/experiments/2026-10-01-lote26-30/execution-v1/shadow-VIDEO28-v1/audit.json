@@ -1,0 +1,125 @@
+{
+  "status": "requires_minor_correction_and_boundary_validation",
+  "at_utc": "2026-10-01T04:45:36.680955+00:00",
+  "reviewer": "/root/auditoria_flujos_26_30",
+  "scope": "shadow pre-render candidate review existing23snapshots via3contact-sheets, source text/timing and originalT28board; no full check rerun, no exact export yet",
+  "evidence": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/QA_FIDELIDAD_PLANTILLA.md",
+      "sha256": "74de11e22d69d8dac9bbd1e872b4f57796f52e2568924662bf4248a89acf6ef1"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/index.html",
+      "sha256": "3abe0b6edaaae5e494dec284f08e7d03a6a3ac3ef2a845e68dbd70f23a3bcefd"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/design.md",
+      "sha256": "ae422889e9d70a7166aa4e470187b2f6561cd9a4c0013ac3bb7a714331c4e4a8"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/asset-ledger.json",
+      "sha256": "51dfb4a474acb7517a25af084c008ad9e1bf377f801dae545e07324b02bfee2b"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/check-v5.json",
+      "sha256": "8d194127943932540c30581775d3c0da556baf2679c3cfa879c1ca539d65573c"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/sfx-presence-v2/report.json",
+      "sha256": "b3f1e451ad2d1fefb271dd7d262e2dbb37fcbc75725367627279ce4eb539856c"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/source/video-28-transcript-selected.json",
+      "sha256": "6ece9d16fef8a77ac97bbb5a5d847c132c3cea3cb241b20ca39f1810e904ba49"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/source/video-28-provisional-source-ranges.json",
+      "sha256": "7aa29afa915a1d979e7bd81ac5941c91c11c45b8730a53d9517735108e8f537f"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-28_AUDIO-GUIA/propuesta-28.png",
+      "sha256": "a51d73182c06b34f0931e1a9ac9e3e5ce7cd8db197de49924195a49ce73ac5d8"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/state-1.html",
+      "sha256": "c932411ca0097082a40ea0cfb8fc20383d6e67b0cbfa1662aa49fb56f15003c9"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/state-0.html",
+      "sha256": "ccdebf34bf5d8e55d533266974b9cd517018dbf558ad4ef38b88d64697bd60ab"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/focus-learning.html",
+      "sha256": "3d655837436e47daf93654e6eb4aef83b98333db504ffdd45f5d8e5ee62e5274"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/state-4.html",
+      "sha256": "903e90d66dcf4bdc90b75f4756b4269de87392f9d81be15f26de32b952cc07f1"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/captions-es.html",
+      "sha256": "e9c17f4c020dfe2a6f7213c9a64581e6e64b47692c576d14df9064a9ec813b4e"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/state-3.html",
+      "sha256": "d3ff7ce32466d58489e95bc2b4466ccc862d7f907ae3fa15b9ffe1d1644577e7"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/compositions/state-2.html",
+      "sha256": "0e566e96f51b6f259cb8df5f2f2408fd18ed7f65d9f3919a4fa2b2c8de248bde"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/snapshots/contact-sheet-3.jpg",
+      "sha256": "3427d3470a45e1dd840b54473fc73780bd129979834aebc105be4a22af57f590"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/snapshots/contact-sheet-2.jpg",
+      "sha256": "a34d1493e27bed7e03508f10f728bb9d1f0191d2a85cda756aa18a785c7133b0"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/snapshots/contact-sheet-1.jpg",
+      "sha256": "beeb2762f7a48df6c418992b8f24249e3adb20655ebc22c77ee936f628c0a35c"
+    }
+  ],
+  "observations": [
+    {
+      "id": "T28-01",
+      "type": "orthography",
+      "severity": "minor",
+      "finding": "caption9 y que has aprendido needs indirect-interrogative qué accent",
+      "action": "owner correct visible orthography; no voice change"
+    },
+    {
+      "id": "T28-02",
+      "type": "cue_boundary",
+      "severity": "potential_visible_overlap",
+      "finding": "10ms overlapping captionwindows cap1/2,3/4,6/7,10/11,12/13; same geometric box and opacity schedule; possible singleframe doublecue at30fps",
+      "action": "remove actual overlapping endpoints or inspect exact directed boundaries and document",
+      "not_claimed": "contact-sheets prove actual overlap; sampled sheets do not show overlap"
+    },
+    {
+      "id": "T28-03",
+      "type": "documentation",
+      "severity": "coverage_pending",
+      "finding": "QA_FIDELIDAD durante montaje remains not_run despite new existing preview review",
+      "action": "owner complete actualcoverage note before render; exactMP4pending"
+    }
+  ],
+  "positive_visual_observations": [
+    "Family-specific circle/ring and waveform survive originalboard adaptation; content autosufficient by selectedvoice",
+    "13caption states represented across23samples; <=2 visiblelines in samples, no readable lettering concatenation",
+    "Presenter complete9:16 imagecontain, face/captionseparate; hands retained in observedposes",
+    "Image metaphor twoidenticaltools/differentexperience matches spokenlearning, same presenterbox2.1s",
+    "Graphicalinsert18.2–20.3 returns presenter, no fake data/actions/brandclaims",
+    "No accidental large lowerdeadzone seen: waveform and caption lane distribute stage; space reserved purposeful"
+  ],
+  "technical_evidence_review": [
+    "check-v5 ok0errors0warnings, engine0.8.100, motion disabled and9layout samples/5contrast samples; does not prove full visualmotion",
+    "SFXpresencev2 noerrors/warnings3identities, hook0.15s, technicalPCMdiagnostic -19.31LUFS/-2.82TP before configurednormalization; exactAACpending"
+  ],
+  "human_listened": false,
+  "phonemes_naturalness": "por confirmar",
+  "exact_MP4_review": "not_run",
+  "critical_escaped_defects": null,
+  "limits": "This is pre-render shadow of candidate, not delivery approval or full moving-video watch. Minor defects reported to owner; after changes evidence hashes must refresh."
+}

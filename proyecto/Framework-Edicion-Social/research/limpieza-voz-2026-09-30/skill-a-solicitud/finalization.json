@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-30",
+  "skill": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz",
+  "skill_validator": "PASS",
+  "preference_validator": "PASS; 31 unique IDs",
+  "allow_implicit_invocation": false,
+  "relative_skill_links_verified": [
+    {
+      "from": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/SKILL.md",
+      "target": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/references/diagnostico.md"
+    },
+    {
+      "from": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/SKILL.md",
+      "target": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/references/recetas.md"
+    },
+    {
+      "from": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/SKILL.md",
+      "target": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/references/diagnostico.md"
+    },
+    {
+      "from": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/SKILL.md",
+      "target": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/references/recetas.md"
+    },
+    {
+      "from": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/SKILL.md",
+      "target": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/references/evidencia-proyecto.md"
+    },
+    {
+      "from": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/references/recetas.md",
+      "target": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz/references/evidencia-proyecto.md"
+    }
+  ],
+  "helper_validation": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/helper-validation.json",
+  "protected_media_verification": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/protected-media-verification.json",
+  "archived_activation_points": 9,
+  "historical_preferences_retained": true,
+  "media_reprocessed": false,
+  "scope_examples": {
+    "Edita el video18": "ordinary editing; skill not activated",
+    "Renderiza17": "ordinary render; skill not activated",
+    "Revisa el audio17": "requested review; diagnose and suggest",
+    "Elimina el fondo17": "requested background removal; conservative A/B",
+    "Pregunta por eses/de-esser": "explanation; no media mutation"
+  },
+  "scope_example_validation": "Instruction review, not an independent behavioral model test",
+  "skill_files": {
+    "SKILL.md": "a16987e04aa7053d05394e62ddb8f9b653cd250e036f83588e513e2f79c34f11",
+    "references/recetas.md": "6a19aebbc652f98e153408f2350c5bfc08b8f36518d733f70ea1c3ee26242cbe",
+    "references/evidencia-proyecto.md": "49b262361338962d1c63efeb99340faa2f0a1062267a9a0d22b5d6eb2aab6d7a",
+    "references/diagnostico.md": "25c53bc284bd00a177b16b6107bd84f43d616055773810e7d666e7253f992373",
+    "agents/openai.yaml": "d2187b39c98eaf128d3333ca372c303a57147b7946bef05db95926920a098ad9",
+    "scripts/rnnoise_wav.py": "1faa52246a98e00cee407ca70bf1d53e8147988f44331779d664c56071d68a0b"
+  },
+  "research_document_sha256": "dba5cacf35ea960350ad53bc35feb94e711614c316d0ab0aff899a049f6afa9f",
+  "scope_changes_sha256": "e49f181bd42df3fc5fab9add5c0a180ce56f32b5c05bd84e832cdbd24ae69ac7"
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "",
+  "video_id": "",
+  "source": {
+    "path": "",
+    "sha256": "",
+    "fps": 30,
+    "duration_s": null
+  },
+  "take": {
+    "take_id": "",
+    "marker_start_s": null,
+    "marker_end_s": null,
+    "approval_marker_s": null,
+    "approval_status": "pending"
+  },
+  "transcript": {
+    "path": "",
+    "sha256": "",
+    "language": "es",
+    "word_timestamps_verified": false
+  },
+  "policy": {
+    "profile": "adaptive_social_tight_v1",
+    "speech_onset": {
+      "default_preroll_frames": 4,
+      "normal_range_frames": [2, 6],
+      "gesture_or_breath_range_frames": [6, 12],
+      "expressive_exception_range_frames": [15, 30]
+    },
+    "speech_tail": {
+      "default_range_frames": [4, 8],
+      "gesture_or_reaction_range_frames": [10, 20]
+    },
+    "pause_target_frames": {
+      "natural_breath": [3, 8],
+      "same_idea": [4, 8],
+      "related_phrases": [8, 14],
+      "idea_change_or_emphasis": [12, 24]
+    },
+    "voice_crossfade_ms": [10, 33],
+    "classification_values": [
+      "dead_air_or_restart",
+      "natural_breath",
+      "same_idea",
+      "related_phrases",
+      "idea_change_or_emphasis",
+      "dramatic_or_visual_pause"
+    ],
+    "action_values": ["remove", "compress", "keep"],
+    "never_cut": [
+      "first_phoneme",
+      "final_syllable",
+      "meaningful_breath",
+      "meaningful_gesture"
+    ]
+  },
+  "selected_range": {
+    "source_in_s": null,
+    "first_phoneme_s": null,
+    "applied_preroll_frames": null,
+    "last_phoneme_s": null,
+    "applied_tail_frames": null,
+    "source_out_s": null
+  },
+  "kept_segments": [],
+  "phrase_corrections": [],
+  "pause_decisions": [],
+  "qa": {
+    "marker_absent": false,
+    "first_word_complete": false,
+    "last_word_complete": false,
+    "audio_continuity_pass": false,
+    "gesture_continuity_pass": false,
+    "room_tone_pass": false,
+    "captions_retimed": false,
+    "headphones_pass": false,
+    "phone_speaker_pass": false,
+    "exceptions": []
+  },
+  "created_at": "",
+  "updated_at": ""
+}

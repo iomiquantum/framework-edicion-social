@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_version": "1.0.0",
+  "updated_at": "2026-09-30",
+  "status": "adopted_editorial_selection_process_with_unvalidated_style_presets",
+  "protocol": "SUBTITULOS_CONTEXTO_Y_LECTURA.md",
+  "decision_template": "templates/caption-decision.json",
+  "performance_status": "por_confirmar",
+  "automatic_selector_implemented": false,
+  "numeric_defaults_provenance": "internal_editorial_starting_points_not_platform_requirements",
+  "defaults": {
+    "canvas": [
+      1080,
+      1920
+    ],
+    "max_lines": 2,
+    "font_px_explore": [
+      56,
+      72
+    ],
+    "font_px_initial": [
+      60,
+      64
+    ],
+    "line_height_explore": [
+      1.08,
+      1.18
+    ],
+    "cps_target": [
+      15,
+      18
+    ],
+    "cps_review_above": 20,
+    "cps_priority_above": 25,
+    "multiword_short_cue_review_below_seconds": 0.8,
+    "contrast_goal": 4.5,
+    "numeric_thresholds_are_automatic_fail": false
+  },
+  "placements": [
+    {
+      "id": "CHEST_NEGATIVE_SPACE",
+      "instruction": "Debajo del mentón, fuera de rostro/gestos y UI."
+    },
+    {
+      "id": "RESERVED_SAFE_LANE",
+      "instruction": "Carril dentro de la zona útil, diseñado antes del encuadre."
+    },
+    {
+      "id": "SCENE_INTEGRATED",
+      "instruction": "Texto dentro de escena sin ocultar acción ni lecturas competidoras."
+    }
+  ],
+  "formats": [
+    {
+      "id": "CAP-FRASE-EDITORIAL-001",
+      "name": "Frase estable",
+      "use_when": [
+        "explicación densa",
+        "instrucciones",
+        "tono sobrio"
+      ],
+      "treatment": "Bloque de sentido completo visible, sin animación por palabra.",
+      "motion": "Entrada/salida suave de la caja; sin movimiento durante lectura.",
+      "avoid_when": "Una escena exige un énfasis narrativo puntual: se permite combinar con un acento, sin eliminar cobertura."
+    },
+    {
+      "id": "CAP-ENFASIS-SEMANTICO-001",
+      "name": "Frase y palabras destacadas",
+      "use_when": [
+        "contraste",
+        "objeción",
+        "idea principal",
+        "conclusión"
+      ],
+      "treatment": "Conservar frase completa; destacar una o dos palabras relevantes con peso, color o escala moderada.",
+      "motion": "Reservar espacio de énfasis para no alterar saltos ni posición; escala 1,1–1,2 como preset interno.",
+      "avoid_when": "Destacar casi todas las palabras o cuando ya haya un gran titular repetido."
+    },
+    {
+      "id": "CAP-RESALTADO-PROGRESIVO-001",
+      "name": "Frase visible y resaltado sincronizado",
+      "use_when": [
+        "ritmo conversacional",
+        "frase con secuencia clara"
+      ],
+      "treatment": "Mostrar bloque completo; actualizar énfasis con el tiempo real de cada palabra.",
+      "motion": "Caja y texto base estables; nada desaparece por el resaltado.",
+      "requires": [
+        "Tiempos de palabra verificados y reutilizados de ingesta/montaje"
+      ],
+      "fallback": "CAP-FRASE-EDITORIAL-001",
+      "avoid_when": "No hay tiempos precisos, el texto parpadea o el cambio reduce contraste."
+    },
+    {
+      "id": "CAP-IMPACTO-INTEGRADO-001",
+      "name": "Hito con palabra o cifra protagonista",
+      "use_when": [
+        "hook breve",
+        "dato clave",
+        "remate",
+        "contraste corto"
+      ],
+      "treatment": "Acento grande que acompaña una frase legible completa; puede integrarse en ella evitando duplicación.",
+      "motion": "Uso breve por función; vuelve a la base de lectura elegida.",
+      "avoid_when": "Explicación continua convertida en una sucesión de palabras sueltas."
+    }
+  ]
+}

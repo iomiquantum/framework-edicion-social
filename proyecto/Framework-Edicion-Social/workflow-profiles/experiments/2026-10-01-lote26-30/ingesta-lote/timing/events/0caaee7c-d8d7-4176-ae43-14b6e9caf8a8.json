@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "0caaee7c-d8d7-4176-ae43-14b6e9caf8a8",
+  "sequence": 1,
+  "action": "start",
+  "interval_id": "0caaee7c-d8d7-4176-ae43-14b6e9caf8a8",
+  "phase": "intake",
+  "kind": "work",
+  "at_epoch_seconds": 1790827760.362001,
+  "at_utc": "2026-10-01T04:09:20.362001+00:00",
+  "note": "Inicio de ingesta compartida autorizada lote26-30; preparación y análisis único",
+  "measurement_method": "utc_wall_clock_time_time_cross_process"
+}

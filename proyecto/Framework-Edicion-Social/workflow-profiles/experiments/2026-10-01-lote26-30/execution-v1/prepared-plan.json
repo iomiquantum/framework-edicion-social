@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "trial_id": "LOTE-26-30-FLUJOS-001",
+  "planned_local_date": "2026-10-01",
+  "timezone": "America/Guayaquil",
+  "status": "prepared_waiting_batch_intake_and_assignment",
+  "user_authorization": "Crear flujo2 y3, conservar lo vigente, preparar pruebas para mañana lote26–30",
+  "default_outside_explicit_trial": "flujo-1",
+  "profiles": {
+    "flujo-1": "1.0.0",
+    "flujo-2": "0.1.0",
+    "flujo-3": "0.1.0"
+  },
+  "allocation": {
+    "flujo-1": 2,
+    "flujo-2": 2,
+    "flujo-3": 1
+  },
+  "assignment_policy": "After shared intake, before creative assembly: pick F3-eligible case, match remaining4 by duration/complexity/resources into two F1/F2 pairs; counterbalance processing order and freeze decision/criterion. Explicit user profile selection overrides this mixed proposal; preserve change receipt.",
+  "video_assignments": {
+    "VIDEO-26": null,
+    "VIDEO-27": null,
+    "VIDEO-28": null,
+    "VIDEO-29": null,
+    "VIDEO-30": null
+  },
+  "assignment_frozen_at": null,
+  "intake_scope": "LOTE-26-30, measured once separately",
+  "baseline_regression": "One read-only check on finished25 for tooling/invalidation; not editing speed comparison, no re-render",
+  "extra_audit": "All F2/F3 candidates receive additional existing-method audit, measured as experiment_audit. Report operational and total-with-audit, including user_wait and unmeasured gaps separately.",
+  "comparison": "F2 versus F1 is descriptive matched comparison; F3 judged against simpler declared scope, not creative equivalence. Five observations are preliminary, not causal or general speed evidence.",
+  "promotion": "No automatic default changes. Review quality, defects, coverage and measurements after batch; preserve previous versions.",
+  "stop_conditions": [
+    "QA required fails or is unmeasured",
+    "Reuse cannot prove full current dependencies and valid original evidence",
+    "Candidate misses critical defect found by extra audit",
+    "F3 scope incompatible with content or user requirements"
+  ],
+  "acceptance": [
+    "All common QA required controls satisfied with linked evidence",
+    "No critical escaped defects detected by additional audit",
+    "Actual candidate approval; subjective listening never inferred from profile selection",
+    "Timing coverage includes preparation/assembly/review/documentation, waits/audit reported apart",
+    "Current source and approved historical files remain intact"
+  ],
+  "missing_measurements_policy": "null/not_measured; no zero filling or token/cost guesses",
+  "speed_targets": null,
+  "scheduled_automation": false
+}

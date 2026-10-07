@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "a802e71e-cd5f-45f9-9cc5-eae9f0189c43",
+  "sequence": 1,
+  "action": "start",
+  "interval_id": "a802e71e-cd5f-45f9-9cc5-eae9f0189c43",
+  "phase": "coordination",
+  "kind": "experiment_audit",
+  "at_epoch_seconds": 1790827939.2816,
+  "at_utc": "2026-10-01T04:12:19.281600+00:00",
+  "note": "Preparación de auditoría experimental; lecturas iniciales y creaciónrecibo previas no medidas",
+  "measurement_method": "utc_wall_clock_time_time_cross_process"
+}

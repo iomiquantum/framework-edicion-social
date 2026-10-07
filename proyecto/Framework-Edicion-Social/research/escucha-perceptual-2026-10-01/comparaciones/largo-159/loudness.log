@@ -1,0 +1,44 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-159/mezcla.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf63.1.102
+  Duration: 00:02:38.80, start: 0.000000, bitrate: 248 kb/s
+  Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 247 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.102 pcm_s16le
+      handler_name    : SoundHandler
+size=N/A time=00:00:23.10 bitrate=N/A speed=46.1x elapsed=0:00:00.50    
+size=N/A time=00:00:47.20 bitrate=N/A speed=46.7x elapsed=0:00:01.01    
+size=N/A time=00:01:11.20 bitrate=N/A speed=  47x elapsed=0:00:01.51    
+size=N/A time=00:01:35.50 bitrate=N/A speed=47.3x elapsed=0:00:02.02    
+size=N/A time=00:01:59.80 bitrate=N/A speed=47.5x elapsed=0:00:02.52    
+size=N/A time=00:02:24.20 bitrate=N/A speed=47.5x elapsed=0:00:03.03    
+[Parsed_loudnorm_0 @ 0xb53039440] 
+{
+	"input_i" : "-18.01",
+	"input_tp" : "-5.95",
+	"input_lra" : "2.90",
+	"input_thresh" : "-28.69",
+	"output_i" : "-17.96",
+	"output_tp" : "-5.48",
+	"output_lra" : "2.90",
+	"output_thresh" : "-28.64",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.04"
+}
+[out#0/null @ 0xb53038cc0] video:0KiB audio:119098KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:02:38.80 bitrate=N/A speed=  48x elapsed=0:00:03.30    

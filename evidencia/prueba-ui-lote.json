@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "method": "Real browser UI through all six steps; synthetic master only",
+  "batch": {
+    "video": 31,
+    "path": "Nuevos-Videos/VIDEO-31/editable",
+    "hyperframes": "0.8.102",
+    "template": "T01",
+    "hook_end": null,
+    "delivery_transfer": "bt709",
+    "sfx_plan_present": false,
+    "windows_runtime_verified": false,
+    "batch": "20261006-191323-prueba-ia-para-negocios-846492",
+    "profile": "mac-auto"
+  },
+  "master_bytes": 2287,
+  "master_sha256": "e2eb663a5932ddb6e7019a731e657fe01520aaf5ad0b3d886b2f850150a1d9a3",
+  "source_copy_count": 0,
+  "files": [
+    "proyecto/Lotes/20261006-191323-prueba-ia-para-negocios-846492/GUION.md",
+    "proyecto/Lotes/20261006-191323-prueba-ia-para-negocios-846492/CONTEXTO.json",
+    "proyecto/Lotes/20261006-191323-prueba-ia-para-negocios-846492/LEEME.md",
+    "proyecto/Lotes/20261006-191323-prueba-ia-para-negocios-846492/ABRIR_EN_CODEX.txt",
+    "proyecto/Lotes/20261006-191323-prueba-ia-para-negocios-846492/MASTERS.json",
+    "proyecto/Nuevos-Videos/VIDEO-31/CONTEXTO_LOTE.json",
+    "proyecto/Nuevos-Videos/VIDEO-31/PALETA.json",
+    "proyecto/Nuevos-Videos/VIDEO-31/LEEME.md",
+    "proyecto/Nuevos-Videos/VIDEO-31/QA_FIDELIDAD_PLANTILLA.md",
+    "proyecto/Nuevos-Videos/VIDEO-31/VISTA_PLANTILLA.svg",
+    "proyecto/Nuevos-Videos/VIDEO-31/PLANTILLA_SELECCIONADA.json",
+    "proyecto/Nuevos-Videos/VIDEO-31/windows-project.json",
+    "proyecto/Nuevos-Videos/VIDEO-31/editable/assets/paleta.css"
+  ],
+  "result": "Folders, context, palette, selection and Codex instruction created; no composition or approval. Test folders removed afterwards."
+}

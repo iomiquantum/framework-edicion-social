@@ -1,0 +1,26 @@
+test_duplicate_master_blocked (test_asistente.BatchTests.test_duplicate_master_blocked) ... ok
+test_existing_folder_is_not_overwritten (test_asistente.BatchTests.test_existing_folder_is_not_overwritten) ... ok
+test_failed_build_does_not_commit_partial_registry (test_asistente.BatchTests.test_failed_build_does_not_commit_partial_registry) ... ok
+test_missing_master_makes_no_project (test_asistente.BatchTests.test_missing_master_makes_no_project) ... ok
+test_prepares_shared_master_no_copy_no_approval (test_asistente.BatchTests.test_prepares_shared_master_no_copy_no_approval) ... ok
+test_readable_palette_history_avoids_recent (test_asistente.BatchTests.test_readable_palette_history_avoids_recent) ... ok
+test_arbitrary_files_are_not_served (test_asistente.HTTPTests.test_arbitrary_files_are_not_served) ... ok
+test_catalog_access_and_five_suggestions (test_asistente.HTTPTests.test_catalog_access_and_five_suggestions) ... ok
+test_no_ready_without_real_checks (test_asistente.HTTPTests.test_no_ready_without_real_checks) ... ok
+test_no_token_and_cross_origin_cannot_mutate (test_asistente.HTTPTests.test_no_token_and_cross_origin_cannot_mutate) ... ok
+test_token_needed_for_local_paths (test_asistente.HTTPTests.test_token_needed_for_local_paths) ... ok
+test_all_boards_preserve_nodes_and_embedded_photos (test_asistente.PaletteTests.test_all_boards_preserve_nodes_and_embedded_photos) ... ok
+test_bad_colors_block_creation (test_asistente.PaletteTests.test_bad_colors_block_creation) ... ok
+test_five_distinct_palettes_and_readable_pairs (test_asistente.PaletteTests.test_five_distinct_palettes_and_readable_pairs) ... ok
+test_unchanged_palette_keeps_identity_for_history (test_asistente.PaletteTests.test_unchanged_palette_keeps_identity_for_history) ... ok
+test_unknown_template_blocked (test_asistente.PaletteTests.test_unknown_template_blocked) ... ok
+test_doctor_payload_false_is_not_success (test_asistente.SetupTests.test_doctor_payload_false_is_not_success) ... ok
+test_expired_plan_never_runs (test_asistente.SetupTests.test_expired_plan_never_runs) ... ok
+test_install_without_consent_never_runs (test_asistente.SetupTests.test_install_without_consent_never_runs) ... ok
+test_missing_latest_release_does_not_install_guessed_version (test_asistente.SetupTests.test_missing_latest_release_does_not_install_guessed_version) ... ok
+test_no_network_returns_explicit_unknown_versions (test_asistente.SetupTests.test_no_network_returns_explicit_unknown_versions) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 1.422s
+
+OK

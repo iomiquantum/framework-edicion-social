@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "5857b5d4-4a97-41f5-8a0d-3de1828f66d6",
+  "sequence": 15,
+  "action": "start",
+  "interval_id": "5857b5d4-4a97-41f5-8a0d-3de1828f66d6",
+  "phase": "documentation",
+  "kind": "experiment_audit",
+  "at_epoch_seconds": 1790832452.694054,
+  "at_utc": "2026-10-01T05:27:32.694054+00:00",
+  "note": "Borrador legible del informe comparativo, pendientes27/29v2 explícitos",
+  "measurement_method": "utc_wall_clock_time_time_cross_process"
+}

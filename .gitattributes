@@ -1,0 +1,8 @@
+# Preserve the exact portable payload and its SHA-256 receipts in clones and ZIPs.
+# Windows entry points are saved as CRLF; Mac entry points are saved as LF.
+* -text
+*.png binary
+*.jpg binary
+*.wav binary
+*.mp3 binary
+*.woff2 binary

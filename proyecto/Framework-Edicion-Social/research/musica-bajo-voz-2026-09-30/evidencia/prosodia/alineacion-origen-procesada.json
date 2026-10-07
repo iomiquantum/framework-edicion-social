@@ -1,0 +1,13 @@
+{
+  "comparison": "Audiciones v1 a igual LUFS, mono16k, gain constant. Alignment diagnostic; not listener evidence.",
+  "lag_samples_at_16k": -342,
+  "lag_seconds": -0.021375,
+  "waveform_correlation_after_alignment": 0.9347318728140357,
+  "gain_difference_p10_p50_p90_db": [
+    -0.3898,
+    -0.1835,
+    0.4237
+  ],
+  "frames_used": 162,
+  "limits": "Comparación de forma y nivel, no de naturalidad/timbre/interpretación. Cambio de ganancia entre previews aplicado a los mismos cortes."
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Director de calidad visual"
+  short_description: "Audita y eleva videos a calidad editorial"
+  brand_color: "#D85F3D"
+  default_prompt: "Usa $visual-quality-director para auditar este video y proponer correcciones visuales verificables."

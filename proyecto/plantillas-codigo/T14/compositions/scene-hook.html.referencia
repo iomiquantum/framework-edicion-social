@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;color:#F8F3E8;font-family:Inter,Arial,sans-serif;pointer-events:none}
+  .bubble{position:absolute;display:flex;align-items:center;border:4px solid #F8F3E8;border-radius:30px;padding:16px 28px;font-family:"Archivo Black","Arial Black",Inter,sans-serif;font-weight:900;letter-spacing:-1.5px;text-transform:uppercase;opacity:0}
+  .bubble::after{content:"";position:absolute;bottom:-22px;width:0;height:0;border-style:solid}
+  .bubble-a{left:42px;right:238px;top:96px;height:110px;background:#2F66FF;font-size:62px;line-height:.94}.bubble-a::after{left:58px;border-width:22px 24px 0 0;border-color:#F8F3E8 transparent transparent transparent}
+  .bubble-b{left:210px;right:42px;top:262px;height:134px;background:#0E1B2B;display:block;padding:12px 28px;font-size:44px;line-height:.96}.bubble-b span,.bubble-b strong{display:block}.bubble-b strong{color:#FF7A45;font-size:56px;line-height:.94}.bubble-b::after{right:66px;border-width:22px 0 0 24px;border-color:#F8F3E8 transparent transparent transparent}
+  .voice{position:absolute;right:54px;top:438px;width:260px;height:104px;display:flex;align-items:center;justify-content:center;gap:12px;background:rgba(14,27,43,.90);border:4px solid #2F66FF;border-radius:52px;opacity:0}
+  .voice i{display:block;width:13px;border-radius:8px;background:#F8F3E8;transform-origin:center}.voice i:nth-child(1),.voice i:nth-child(7){height:24px}.voice i:nth-child(2),.voice i:nth-child(6){height:46px}.voice i:nth-child(3),.voice i:nth-child(5){height:70px}.voice i:nth-child(4){height:88px;background:#FF7A45}
+</style>
+<div data-hf-id="hf-af7b" id="root" data-composition-id="scene-hook" data-duration="6.41" data-width="1080" data-height="1920">
+  <div data-hf-id="hf-v14-bubble-a" class="bubble bubble-a" id="v14-hook-bubble-a">TU MEJOR PROMPT</div>
+  <div data-hf-id="hf-v14-bubble-b" class="bubble bubble-b" id="v14-hook-bubble-b"><span>PUEDE SER UNA</span><strong data-hf-id="hf-v14-hook-accent">CONVERSACIÓN</strong></div>
+  <div data-hf-id="hf-v14-voice" class="voice" id="v14-hook-voice"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#v14-hook-bubble-a",{x:-70,scale:.94,opacity:0},{x:0,scale:1,opacity:1,duration:.46,ease:"power3.out"},.04)
+    .fromTo("#v14-hook-bubble-b",{x:70,scale:.94,opacity:0},{x:0,scale:1,opacity:1,duration:.48,ease:"power3.out"},.28)
+    .fromTo("#v14-hook-voice",{scale:.7,opacity:0},{scale:1,opacity:1,duration:.40,ease:"power3.out"},.70);
+  gsap.utils.toArray("#v14-hook-voice i").forEach((bar,i)=>tl.fromTo(bar,{scaleY:.22},{scaleY:1,duration:.18,ease:"power2.out"},.84+i*.045));
+  window.__timelines["scene-hook"]=tl;
+</script>
+</template></body></html>

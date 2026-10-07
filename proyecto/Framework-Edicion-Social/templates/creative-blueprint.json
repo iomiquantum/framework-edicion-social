@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0.0",
+  "blueprint_id": "CBP-VIDEO-00-V1",
+  "project_id": "PROJECT-ID",
+  "video_id": "VIDEO-00",
+  "duration_target_s": 30,
+  "strategy": {
+    "audience": "Persona que necesita entender una decisión compleja con rapidez.",
+    "message": "La claridad del problema vale más que acumular herramientas.",
+    "viewer_value": "Comprender qué priorizar y qué puede ignorar.",
+    "desired_action": "Identificar el problema principal antes de elegir una herramienta.",
+    "guardrails": [
+      "No presentar metáforas visuales como evidencia.",
+      "No cubrir ojos ni boca del hablante."
+    ]
+  },
+  "hook": {
+    "text": "TU PROBLEMA NO ES FALTA DE HERRAMIENTAS",
+    "viewer_stake": "Evitar invertir tiempo en soluciones antes de definir el problema.",
+    "pattern": "contrarian",
+    "duration_target_s": 2.5,
+    "editorial_copy": true,
+    "source_trace_ids": [
+      "SRC-BRIEF"
+    ]
+  },
+  "beats": [
+    {
+      "id": "BEAT-01",
+      "order": 1,
+      "narrative_role": "hook",
+      "narrative_job": "Abrir con el costo de elegir herramientas sin definir el problema.",
+      "start_s": 0,
+      "end_s": 2.5,
+      "duration_target_s": 2.5,
+      "on_screen": "TU PROBLEMA NO ES FALTA DE HERRAMIENTAS",
+      "voice_text": "Tu problema no es falta de herramientas.",
+      "emotion": {
+        "label": "alerta",
+        "intensity_in": 0.55,
+        "intensity_out": 0.8,
+        "valence": -0.2
+      },
+      "energy": 0.82,
+      "visual_roles": [
+        "speaker",
+        "hook_text",
+        "background",
+        "foreground_accent"
+      ],
+      "face_safe": {
+        "subject_visible": true,
+        "protected_regions": [
+          "eyes",
+          "mouth",
+          "captions"
+        ],
+        "preferred_zones": [
+          "upper_right_negative_space",
+          "lower_left_below_shoulders"
+        ],
+        "overlay_strategy": "negative_space",
+        "max_face_crossing_s": 0.3,
+        "exceptions": []
+      },
+      "motion_events": [
+        {
+          "id": "MOTION-HOOK-PUNCH",
+          "intent": "Hacer perceptible el giro contrarian sin sacudir el plano.",
+          "target_role": "hook_text",
+          "semantic_trigger": "problema",
+          "intensity": 0.7,
+          "duration_s": 0.24,
+          "crosses_face": false
+        }
+      ],
+      "sfx_events": [
+        {
+          "id": "SFX-CUE-HOOK",
+          "asset_id": null,
+          "intent": "Acento grave opcional en el giro inicial.",
+          "semantic_trigger": "problema",
+          "required": false,
+          "voice_priority": true
+        }
+      ],
+      "rest_after_s": 0.2,
+      "trace_ids": [
+        "SRC-BRIEF",
+        "DEC-HOOK"
+      ]
+    },
+    {
+      "id": "BEAT-02",
+      "order": 2,
+      "narrative_role": "value",
+      "narrative_job": "Entregar el criterio que permite elegir qué resolver primero.",
+      "start_s": 2.5,
+      "end_s": 24,
+      "duration_target_s": 21.5,
+      "on_screen": "PROBLEMA → CRITERIO → HERRAMIENTA",
+      "voice_text": "Primero define el problema, después el criterio y solo entonces la herramienta.",
+      "emotion": {
+        "label": "comprensión",
+        "intensity_in": 0.6,
+        "intensity_out": 0.7,
+        "valence": 0.45
+      },
+      "energy": 0.58,
+      "visual_roles": [
+        "speaker",
+        "caption",
+        "diagram",
+        "background"
+      ],
+      "face_safe": {
+        "subject_visible": true,
+        "protected_regions": [
+          "eyes",
+          "mouth",
+          "captions"
+        ],
+        "preferred_zones": [
+          "upper_right_negative_space"
+        ],
+        "overlay_strategy": "negative_space",
+        "max_face_crossing_s": 0.3,
+        "exceptions": []
+      },
+      "motion_events": [
+        {
+          "id": "MOTION-DIAGRAM-STEPS",
+          "intent": "Revelar el proceso en el orden que se explica.",
+          "target_role": "diagram",
+          "semantic_trigger": "problema, criterio y herramienta",
+          "intensity": 0.45,
+          "duration_s": 1.2,
+          "crosses_face": false
+        }
+      ],
+      "sfx_events": [],
+      "rest_after_s": 0.6,
+      "trace_ids": [
+        "SRC-SCRIPT",
+        "DEC-BODY"
+      ]
+    },
+    {
+      "id": "BEAT-03",
+      "order": 3,
+      "narrative_role": "cta",
+      "narrative_job": "Convertir la idea en una pregunta aplicable al negocio del espectador.",
+      "start_s": 24,
+      "end_s": 30,
+      "duration_target_s": 6,
+      "on_screen": "¿QUÉ PROBLEMA RESOLVERÍAS PRIMERO?",
+      "voice_text": "¿Qué problema resolverías primero?",
+      "emotion": {
+        "label": "agencia",
+        "intensity_in": 0.55,
+        "intensity_out": 0.72,
+        "valence": 0.65
+      },
+      "energy": 0.68,
+      "visual_roles": [
+        "speaker",
+        "cta",
+        "background",
+        "foreground_accent"
+      ],
+      "face_safe": {
+        "subject_visible": true,
+        "protected_regions": [
+          "eyes",
+          "mouth",
+          "captions"
+        ],
+        "preferred_zones": [
+          "lower_third_safe_zone"
+        ],
+        "overlay_strategy": "negative_space",
+        "max_face_crossing_s": 0.3,
+        "exceptions": []
+      },
+      "motion_events": [
+        {
+          "id": "MOTION-CTA-SETTLE",
+          "intent": "Cerrar con una entrada estable que deje tiempo para responder.",
+          "target_role": "cta",
+          "semantic_trigger": "pregunta final",
+          "intensity": 0.38,
+          "duration_s": 0.45,
+          "crosses_face": false
+        }
+      ],
+      "sfx_events": [
+        {
+          "id": "SFX-CUE-CTA",
+          "asset_id": null,
+          "intent": "Resolución cálida opcional al asentarse el CTA.",
+          "semantic_trigger": "pregunta final",
+          "required": false,
+          "voice_priority": true
+        }
+      ],
+      "rest_after_s": 0,
+      "trace_ids": [
+        "SRC-BRIEF",
+        "DEC-CTA"
+      ]
+    }
+  ],
+  "emotion_arc": {
+    "start": "alerta",
+    "end": "agencia",
+    "peak_beat_id": "BEAT-01",
+    "peak_energy": 0.82,
+    "rhythm_pattern": "hit-hold-breathe-resolve"
+  },
+  "face_safe_policy": {
+    "protect": [
+      "eyes",
+      "mouth",
+      "captions"
+    ],
+    "preferred_placement_order": [
+      "negative_space",
+      "split_screen",
+      "full_screen_transition"
+    ],
+    "max_face_crossing_s": 0.3,
+    "crossing_requires_transition": true,
+    "manual_review_required": true
+  },
+  "budgets": {
+    "motion": {
+      "max_primary_events": 6,
+      "max_simultaneous_events": 2,
+      "max_events_per_beat": 2,
+      "max_face_crossing_events": 1,
+      "stillness_min_s": 0.6
+    },
+    "sfx": {
+      "max_cues": 4,
+      "max_simultaneous_cues": 1,
+      "min_gap_s": 0.8,
+      "voice_priority": true,
+      "silence_is_valid": true
+    },
+    "rests": {
+      "min_count": 1,
+      "min_total_s": 0.6,
+      "max_energy": 0.35
+    }
+  },
+  "rest_beats": [
+    {
+      "id": "REST-AFTER-BODY",
+      "after_beat_id": "BEAT-02",
+      "duration_s": 0.6,
+      "purpose": "Dar espacio antes de pedir una respuesta al espectador.",
+      "max_energy": 0.3,
+      "audio_mode": "voice_only"
+    }
+  ],
+  "style_selection_signals": {
+    "topic_and_intent": [
+      "technology",
+      "process_explanation"
+    ],
+    "narrative_rhythm": [
+      "process_explanation"
+    ],
+    "source_geometry": [
+      "talking_head"
+    ],
+    "platform_fit": [
+      "full_length_reel"
+    ],
+    "brand_tone": [
+      "high_contrast_editorial"
+    ]
+  },
+  "traceability": {
+    "sources": [
+      {
+        "id": "SRC-BRIEF",
+        "kind": "brief",
+        "path": "BRIEF.md",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "supports": [
+          "audiencia",
+          "mensaje",
+          "CTA"
+        ]
+      },
+      {
+        "id": "SRC-SCRIPT",
+        "kind": "script",
+        "path": "script.json",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "supports": [
+          "cuerpo compartido",
+          "orden de ideas"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "id": "DEC-HOOK",
+        "claim": "El hook debe expresar la consecuencia para el espectador y no una característica de la herramienta.",
+        "source_ids": [
+          "SRC-BRIEF"
+        ],
+        "rationale": "La promesa de valor debe llegar antes de la evidencia.",
+        "confidence": "inferred"
+      },
+      {
+        "id": "DEC-BODY",
+        "claim": "El cuerpo se organiza como un proceso de tres pasos.",
+        "source_ids": [
+          "SRC-SCRIPT"
+        ],
+        "rationale": "La fuente enumera problema, criterio y herramienta en ese orden.",
+        "confidence": "confirmed"
+      },
+      {
+        "id": "DEC-CTA",
+        "claim": "El CTA pide aplicar el criterio al caso propio.",
+        "source_ids": [
+          "SRC-BRIEF"
+        ],
+        "rationale": "La acción deseada es diagnosticar antes de comprar o implementar.",
+        "confidence": "provisional"
+      }
+    ],
+    "unresolved": [
+      "Sustituir los hashes de ejemplo antes de aprobar el blueprint.",
+      "Ajustar tiempos contra la toma aprobada."
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<!doctype html><html><body><template>
+<style>
+#root{position:absolute;inset:0;color:#f6f4ee;font-family:"Arial Black",Arial,sans-serif;pointer-events:none}.panel{position:absolute;top:220px;left:64px;width:660px;padding:42px 46px;border-radius:30px;background:rgba(16,19,33,.91);border:1px solid rgba(46,211,199,.35)}.label{font:700 23px SFMono-Regular,monospace;color:#2ed3c7;letter-spacing:.12em}.eq{margin-top:18px;font-size:66px;line-height:1.04;letter-spacing:-.05em}.eq .bad{color:#ff6b6b}.eq .good{color:#2ed3c7}.hourglass{position:absolute;right:35px;top:280px;width:330px;height:330px;filter:drop-shadow(0 18px 44px rgba(46,211,199,.22))}
+</style>
+<div id="root" data-composition-id="scene-system" data-width="1080" data-height="1920"><div class="panel"><div class="label">LA DIFERENCIA</div><div class="eq"><span class="bad">SIN SISTEMA</span><br>= MÁS TRABAJO<br><span class="good">CON SISTEMA</span><br>= TIEMPO</div></div><img class="hourglass" src=".media/images/image_003.svg"></div>
+<script>const tl=gsap.timeline({paused:true});tl.fromTo(".panel",{opacity:0,x:-55},{opacity:1,x:0,duration:.42,ease:"power3.out"},.08).fromTo(".hourglass",{opacity:0,scale:.72,rotation:-24},{opacity:1,scale:1,rotation:0,duration:.58,ease:"back.out(1.7)"},.32).to(".hourglass",{rotation:12,duration:1,ease:"sine.inOut",yoyo:true,repeat:1},.95).to("#root",{opacity:0,duration:.24},3.3);window.__timelines["scene-system"]=tl;</script>
+</template></body></html>

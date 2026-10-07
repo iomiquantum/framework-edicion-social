@@ -1,0 +1,127 @@
+{
+  "status": "historical_reference_snapshot_not_new_QA_or_approval",
+  "created_at": "2026-10-01T03:34:02.760286+00:00",
+  "files": [
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/AGENTS.md",
+      "snapshot_path": "files/AGENTS.md",
+      "sha256": "2170ce64bc1a3fa92e8836e1265738c63388a582488078ade6ed4cc7e89c1be6",
+      "size_bytes": 4609
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/AGENTS.md",
+      "snapshot_path": "files/Serie-IA-Negocios-10-Videos/AGENTS.md",
+      "sha256": "2da6305339086b852c32e0eca8a583517430b068ada73283b5f2e9c62c094988",
+      "size_bytes": 11941
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/ESTANDAR_QA_PREAPROBACION.md",
+      "snapshot_path": "files/Serie-IA-Negocios-10-Videos/ESTANDAR_QA_PREAPROBACION.md",
+      "sha256": "337021b296ea5a068137eb42ef471d7e1964695cc449a0e48b399e2fc44cf1d1",
+      "size_bytes": 5738
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/README.md",
+      "snapshot_path": "files/Framework-Edicion-Social/README.md",
+      "sha256": "e10ca01f529a89d41cc09887662c3ff0e2970e2fa9b1da319e5e5eef6db7a217",
+      "size_bytes": 25051
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/MEJORA_CONTINUA.md",
+      "snapshot_path": "files/Framework-Edicion-Social/MEJORA_CONTINUA.md",
+      "sha256": "82b93d365752bf24ba56ec871b4479d53e43d4036b85b22abf126f715cdd95cd",
+      "size_bytes": 13594
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/FLUJO_PRODUCCION_RAPIDA.md",
+      "snapshot_path": "files/Framework-Edicion-Social/FLUJO_PRODUCCION_RAPIDA.md",
+      "sha256": "ba859b6e87bf8c3104056f3ccd1e3d1c0acbbf9ed275fc0a841fc87256a7942d",
+      "size_bytes": 23240
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/OPERACION_OPTIMIZACION.md",
+      "snapshot_path": "files/Framework-Edicion-Social/OPERACION_OPTIMIZACION.md",
+      "sha256": "bb905261089edc8f89a3e315de0694653ad382af3bd223ec6ee7a8e7e90cb0f2",
+      "size_bytes": 14777
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/QA_PROFESIONAL.md",
+      "snapshot_path": "files/Framework-Edicion-Social/QA_PROFESIONAL.md",
+      "sha256": "0e82a0f2494337c5ffece84ef01997ec1c6b1769c2c6be28d48426c1bf4b3c55",
+      "size_bytes": 24151
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/PROMPT_EDICION_INDIVIDUAL.md",
+      "snapshot_path": "files/Framework-Edicion-Social/PROMPT_EDICION_INDIVIDUAL.md",
+      "sha256": "c9899b0d0d96cafabfe7e6a32097aabc54d4e523fcbd3e54b7a35df126d9ffca",
+      "size_bytes": 10601
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/PROMPT_INGESTA_Y_EDICION.md",
+      "snapshot_path": "files/Framework-Edicion-Social/PROMPT_INGESTA_Y_EDICION.md",
+      "sha256": "3b69a86152c406501e4175c92ba06b4dd405ab362c97d096c82b3c6c25501caa",
+      "size_bytes": 12497
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/AUDIO_DIRECCION_Y_PROSODIA.md",
+      "snapshot_path": "files/Framework-Edicion-Social/AUDIO_DIRECCION_Y_PROSODIA.md",
+      "sha256": "5e47f0d69c85808ecb23f3783c0b1de570e70277fd8c6970d9db638da88bd270",
+      "size_bytes": 10921
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/SUBTITULOS_CONTEXTO_Y_LECTURA.md",
+      "snapshot_path": "files/Framework-Edicion-Social/SUBTITULOS_CONTEXTO_Y_LECTURA.md",
+      "sha256": "a74f51c735a5781fb241ba39faed4f0ee46094e5a9c54636fc9c5ce09e13aa08",
+      "size_bytes": 11812
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/IMAGENES_CONTEXTO_REALISMO.md",
+      "snapshot_path": "files/Framework-Edicion-Social/IMAGENES_CONTEXTO_REALISMO.md",
+      "sha256": "8d7d63bbb53e94b6313f1f5c3a949dd810bd4bc3dfbd7bc169511490af7215de",
+      "size_bytes": 6422
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/profiles/default.json",
+      "snapshot_path": "files/Framework-Edicion-Social/profiles/default.json",
+      "sha256": "8b7a7c91c13a7122571f589e6623a94376cf8fd0b7dae00b7a6685dc2477a6c8",
+      "size_bytes": 456
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/change_impact.py",
+      "snapshot_path": "files/Framework-Edicion-Social/scripts/change_impact.py",
+      "sha256": "9f112f69b57756b3a8042a5d36d0484536524ee7436ccc409fcd67be9e05ca28",
+      "size_bytes": 9652
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/cache_key.py",
+      "snapshot_path": "files/Framework-Edicion-Social/scripts/cache_key.py",
+      "sha256": "cc6df4784a2d03ebb4f9ec2319eff664b1a824e30278b3da5c82a714a5ea76db",
+      "size_bytes": 7501
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/medir_proceso.py",
+      "snapshot_path": "files/Framework-Edicion-Social/scripts/medir_proceso.py",
+      "sha256": "993d77701c1ba82eef9cc668c67f13773a9217e0367b33fa6216ce6a2a231ae8",
+      "size_bytes": 6044
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/build_review_packet.py",
+      "snapshot_path": "files/Framework-Edicion-Social/scripts/build_review_packet.py",
+      "sha256": "046abeb0104ea68252f9bac7c1ccd2e75452af84eb9ec9fb29d21f93bca70970",
+      "size_bytes": 49010
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/validar_texto_visible.py",
+      "snapshot_path": "files/Framework-Edicion-Social/scripts/validar_texto_visible.py",
+      "sha256": "407c13c50cfcb3e2c40e72a7050b14aea95bafff98443e270df07497f7fd780d",
+      "size_bytes": 4652
+    },
+    {
+      "source_path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/revisar_presencia_sfx.py",
+      "snapshot_path": "files/Framework-Edicion-Social/scripts/revisar_presencia_sfx.py",
+      "sha256": "3df98fbbbfd33756aad6400eb1e118b2d4be2448bbf64ef78a3c910e2eeb116d",
+      "size_bytes": 9423
+    }
+  ],
+  "scope": "Reference for flow1 before additive profile routing; no media copied, no existing render altered"
+}

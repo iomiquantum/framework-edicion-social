@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/style-decision.schema.json",
+  "title": "Deterministic style selection decision",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "decision_id",
+    "blueprint_id",
+    "blueprint_sha256",
+    "catalog_path",
+    "catalog_sha256",
+    "scoring_version",
+    "weights",
+    "threshold",
+    "abstention_margin",
+    "status",
+    "selected_style_id",
+    "score_margin",
+    "abstention_reasons",
+    "ranking",
+    "explanation"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "decision_id": {"type": "string", "pattern": "^STYLE-DECISION-[A-Z0-9_-]+$"},
+    "blueprint_id": {"type": "string", "pattern": "^CBP-[A-Z0-9][A-Z0-9_-]*$"},
+    "blueprint_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "catalog_path": {"type": "string", "minLength": 1},
+    "catalog_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "scoring_version": {"const": "style-score-v1"},
+    "weights": {
+      "type": "object",
+      "required": ["topic_and_intent", "narrative_rhythm", "source_geometry", "platform_fit", "brand_tone"],
+      "properties": {
+        "topic_and_intent": {"type": "number", "minimum": 0, "maximum": 1},
+        "narrative_rhythm": {"type": "number", "minimum": 0, "maximum": 1},
+        "source_geometry": {"type": "number", "minimum": 0, "maximum": 1},
+        "platform_fit": {"type": "number", "minimum": 0, "maximum": 1},
+        "brand_tone": {"type": "number", "minimum": 0, "maximum": 1}
+      },
+      "additionalProperties": false
+    },
+    "threshold": {"type": "number", "minimum": 0, "maximum": 1},
+    "abstention_margin": {"type": "number", "minimum": 0, "maximum": 1},
+    "status": {"enum": ["selected", "abstained"]},
+    "selected_style_id": {"type": ["string", "null"]},
+    "score_margin": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "abstention_reasons": {
+      "type": "array",
+      "items": {"enum": ["not_scored", "no_eligible_styles", "below_threshold", "ambiguous_margin"]},
+      "uniqueItems": true
+    },
+    "ranking": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["style_id", "style_status", "version", "canonical_path", "score", "eligible", "dimensions", "positive_matches", "negative_matches", "explanation"],
+        "properties": {
+          "style_id": {"type": "string", "pattern": "^STYLE_[0-9]{3}_[A-Z0-9_]+$"},
+          "style_status": {"enum": ["candidate", "testing", "approved", "deprecated"]},
+          "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+          "canonical_path": {"type": "string", "minLength": 1},
+          "score": {"type": "number", "minimum": 0, "maximum": 1},
+          "eligible": {"type": "boolean"},
+          "dimensions": {
+            "type": "array",
+            "minItems": 5,
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "required": ["dimension", "weight", "score", "signals", "positive_matches", "negative_matches", "explanation"],
+              "properties": {
+                "dimension": {"enum": ["topic_and_intent", "narrative_rhythm", "source_geometry", "platform_fit", "brand_tone"]},
+                "weight": {"type": "number", "minimum": 0, "maximum": 1},
+                "score": {"type": "number", "minimum": 0, "maximum": 1},
+                "signals": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+                "positive_matches": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+                "negative_matches": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+                "explanation": {"type": "string", "minLength": 1}
+              },
+              "additionalProperties": false
+            }
+          },
+          "positive_matches": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "negative_matches": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "explanation": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "explanation": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

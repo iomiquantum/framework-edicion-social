@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/performance-review.schema.json",
+  "title": "Contextualized post-publication performance review",
+  "type": "object",
+  "required": ["schema_version", "review_id", "project_id", "video_id", "platform", "measurement_window", "distribution_context", "content_context", "metrics", "benchmarks", "evidence_status", "interpretation", "next_step", "governance", "created_at", "updated_at"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "review_id": {"type": "string"},
+    "project_id": {"type": "string"},
+    "video_id": {"type": "string", "pattern": "^$|^VIDEO-[0-9]{2,}$"},
+    "platform": {"enum": ["unknown", "instagram", "tiktok", "youtube_shorts", "linkedin", "facebook", "other"]},
+    "measurement_window": {
+      "type": "object",
+      "required": ["started_at", "ended_at", "hours_since_publish", "data_captured_at"],
+      "properties": {
+        "started_at": {"type": "string"},
+        "ended_at": {"type": "string"},
+        "hours_since_publish": {"type": ["number", "null"], "minimum": 0},
+        "data_captured_at": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "distribution_context": {
+      "type": "object",
+      "required": ["traffic_source", "paid_spend", "currency", "followers_at_publish", "campaign_objective", "audience_notes"],
+      "properties": {
+        "traffic_source": {"enum": ["unknown", "organic", "paid", "mixed"]},
+        "paid_spend": {"type": ["number", "null"], "minimum": 0},
+        "currency": {"type": ["string", "null"]},
+        "followers_at_publish": {"type": ["integer", "null"], "minimum": 0},
+        "campaign_objective": {"type": ["string", "null"]},
+        "audience_notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "content_context": {
+      "type": "object",
+      "required": ["duration_s", "format", "style_id", "hook_variant", "cta_variant", "publish_slot", "content_notes"],
+      "properties": {
+        "duration_s": {"type": ["number", "null"], "minimum": 0},
+        "format": {"type": ["string", "null"]},
+        "style_id": {"type": ["string", "null"]},
+        "hook_variant": {"type": ["string", "null"]},
+        "cta_variant": {"type": ["string", "null"]},
+        "publish_slot": {"type": ["string", "null"]},
+        "content_notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "metrics": {
+      "type": "object",
+      "required": ["impressions", "reach", "views", "average_watch_time_s", "completion_rate", "likes", "comments", "shares", "saves", "clicks", "conversions"],
+      "properties": {
+        "impressions": {"type": ["integer", "null"], "minimum": 0},
+        "reach": {"type": ["integer", "null"], "minimum": 0},
+        "views": {"type": ["integer", "null"], "minimum": 0},
+        "average_watch_time_s": {"type": ["number", "null"], "minimum": 0},
+        "completion_rate": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "likes": {"type": ["integer", "null"], "minimum": 0},
+        "comments": {"type": ["integer", "null"], "minimum": 0},
+        "shares": {"type": ["integer", "null"], "minimum": 0},
+        "saves": {"type": ["integer", "null"], "minimum": 0},
+        "clicks": {"type": ["integer", "null"], "minimum": 0},
+        "conversions": {"type": ["integer", "null"], "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "benchmarks": {
+      "type": "object",
+      "required": ["cohort_id", "cohort_definition", "sample_size", "median_views", "median_completion_rate", "median_share_rate"],
+      "properties": {
+        "cohort_id": {"type": ["string", "null"]},
+        "cohort_definition": {"type": "string"},
+        "sample_size": {"type": ["integer", "null"], "minimum": 0},
+        "median_views": {"type": ["number", "null"], "minimum": 0},
+        "median_completion_rate": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "median_share_rate": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+      },
+      "additionalProperties": false
+    },
+    "evidence_status": {
+      "type": "object",
+      "required": ["status", "report_path", "report_sha256", "cohort_id", "metrics_evidence_sha256", "notice"],
+      "properties": {
+        "status": {"const": "pending_verified_cohort_evidence"},
+        "report_path": {"type": "null"},
+        "report_sha256": {"type": "null"},
+        "cohort_id": {"type": "null"},
+        "metrics_evidence_sha256": {"type": "null"},
+        "notice": {"const": "High confidence, retirement, and promotion remain unavailable until a semantic verifier binds this review to an exact cohort report and local metric evidence."}
+      },
+      "additionalProperties": false
+    },
+    "interpretation": {
+      "type": "object",
+      "required": ["confidence", "causal_claim_allowed", "confounders", "observations", "hypotheses"],
+      "properties": {
+        "confidence": {"enum": ["insufficient", "low", "medium"]},
+        "causal_claim_allowed": {"const": false},
+        "confounders": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "observations": {"type": "array", "items": {"type": "string"}},
+        "hypotheses": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "next_step": {
+      "type": "object",
+      "required": ["decision", "experiment_id", "rationale", "minimum_additional_sample", "owner"],
+      "properties": {
+        "decision": {"enum": ["no_action", "observe", "test_again"]},
+        "experiment_id": {"type": ["string", "null"]},
+        "rationale": {"type": "string"},
+        "minimum_additional_sample": {"type": ["integer", "null"], "minimum": 0},
+        "owner": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "governance": {
+      "type": "object",
+      "required": ["automatic_rule_promotion", "rule_registry_write_permitted", "human_review_required", "promotion_status", "evidence_required_before_policy_change"],
+      "properties": {
+        "automatic_rule_promotion": {"const": false},
+        "rule_registry_write_permitted": {"const": false},
+        "human_review_required": {"const": true},
+        "promotion_status": {"const": "not_applicable"},
+        "evidence_required_before_policy_change": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "created_at": {"type": "string"},
+    "updated_at": {"type": "string"}
+  },
+  "additionalProperties": false
+}

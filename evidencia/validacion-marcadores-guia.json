@@ -1,0 +1,77 @@
+{
+  "scope": "Texto real de los cuatro ejemplos HTML, con tiempos sintéticos; no ASR ni audio real.",
+  "results": {
+    "1 · Todo salió bien": {
+      "markers": [
+        "take_start",
+        "approved",
+        "session_end"
+      ],
+      "takes": [
+        {
+          "id": "VIDEO-31-TAKE-01",
+          "decision": "approved",
+          "corrections": 0
+        }
+      ]
+    },
+    "2 · Corregí una frase": {
+      "markers": [
+        "take_start",
+        "replace_previous_phrase",
+        "approved",
+        "session_end"
+      ],
+      "takes": [
+        {
+          "id": "VIDEO-31-TAKE-01",
+          "decision": "approved",
+          "corrections": 1
+        }
+      ]
+    },
+    "3 · Repetí la toma": {
+      "markers": [
+        "take_start",
+        "discarded",
+        "take_start",
+        "approved",
+        "session_end"
+      ],
+      "takes": [
+        {
+          "id": "VIDEO-31-TAKE-01",
+          "decision": "discarded",
+          "corrections": 0
+        },
+        {
+          "id": "VIDEO-31-TAKE-02",
+          "decision": "approved",
+          "corrections": 0
+        }
+      ]
+    },
+    "4 · Varios videos": {
+      "markers": [
+        "take_start",
+        "approved",
+        "take_start",
+        "approved",
+        "session_end"
+      ],
+      "takes": [
+        {
+          "id": "VIDEO-31-TAKE-01",
+          "decision": "approved",
+          "corrections": 0
+        },
+        {
+          "id": "VIDEO-32-TAKE-01",
+          "decision": "approved",
+          "corrections": 0
+        }
+      ]
+    }
+  },
+  "status": "pass"
+}

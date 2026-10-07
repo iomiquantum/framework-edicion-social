@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-10-01T04:46:40.094467+00:00",
+  "source_words": 65,
+  "caption_words": 65,
+  "normalized_lexical_match": true,
+  "normalization": "casefold, remove accents and punctuation for lexical audit; orthography checked separately",
+  "claim_scope": "caption wording matches corrected selected ASR text; no listening/transcripttruth or frame-sync certification"
+}

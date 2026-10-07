@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/publish-package.schema.json",
+  "title": "Fail-closed multichannel publication package",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "package_id",
+    "project_id",
+    "video_id",
+    "generated_at",
+    "status",
+    "blocking_reasons",
+    "source",
+    "adaptation",
+    "targets",
+    "governance",
+    "bundle",
+    "binding"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.2.0"},
+    "package_id": {"type": "string", "pattern": "^PUBLISH-VIDEO-[0-9]{2,}-[A-Z0-9-]+$"},
+    "project_id": {"type": "string", "minLength": 1},
+    "video_id": {"type": "string", "pattern": "^VIDEO-[0-9]{2,}$"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["blocked", "ready_for_derivative_build"]},
+    "blocking_reasons": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "size_bytes",
+        "media_role",
+        "master_profile_id",
+        "platform_manifest_path",
+        "platform_manifest_sha256",
+        "approval_receipt_path",
+        "approval_receipt_sha256",
+        "approval_receipt_id",
+        "master_profile_report_path",
+        "master_profile_report_sha256",
+        "source_media_path",
+        "source_media_sha256",
+        "source_approval_receipt_path",
+        "source_approval_receipt_sha256",
+        "source_approval_receipt_id",
+        "content_lock_evidence_path",
+        "content_lock_evidence_sha256",
+        "content_lock_id"
+      ],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "size_bytes": {"type": "integer", "minimum": 1},
+        "media_role": {"const": "social_delivery_master"},
+        "master_profile_id": {"const": "MASTER-PROFILE-SOCIAL-SDR-001"},
+        "platform_manifest_path": {"type": "string", "minLength": 1},
+        "platform_manifest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "approval_receipt_path": {"type": "string", "minLength": 1},
+        "approval_receipt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "approval_receipt_id": {"type": "string", "minLength": 1},
+        "master_profile_report_path": {"type": "string", "minLength": 1},
+        "master_profile_report_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "source_media_path": {"type": "string", "minLength": 1},
+        "source_media_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "source_approval_receipt_path": {"type": "string", "minLength": 1},
+        "source_approval_receipt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "source_approval_receipt_id": {"type": "string", "minLength": 1},
+        "content_lock_evidence_path": {"type": "string", "minLength": 1},
+        "content_lock_evidence_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "content_lock_id": {"type": "string", "pattern": "^CONTENT-LOCK-[A-Z0-9-]+$"}
+      },
+      "additionalProperties": false
+    },
+    "adaptation": {
+      "type": "object",
+      "required": [
+        "status",
+        "strategy",
+        "catalog_version",
+        "catalog_path",
+        "catalog_sha256",
+        "target_count",
+        "plan_output"
+      ],
+      "properties": {
+        "status": {"type": "string", "minLength": 1},
+        "strategy": {"enum": ["approved_master_delta_only", "instagram_master_reuse_unless_material_delta"]},
+        "catalog_version": {"type": "string", "minLength": 1},
+        "catalog_path": {"type": "string", "minLength": 1},
+        "catalog_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "target_count": {"type": "integer", "minimum": 1},
+        "plan_output": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "profile_id",
+          "platform",
+          "surface",
+          "status",
+          "delivery_output",
+          "brief_output",
+          "provenance",
+          "cover",
+          "copy",
+          "required_gates",
+          "gates"
+        ],
+        "properties": {
+          "profile_id": {"type": "string", "minLength": 1},
+          "platform": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+          "surface": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+          "status": {"enum": ["blocked", "awaiting_derivative_render"]},
+          "delivery_output": {"type": "string", "minLength": 1},
+          "brief_output": {
+            "type": "string",
+            "pattern": "^[a-z0-9_-]+/[a-z0-9_-]+-package-brief\\.json$"
+          },
+          "provenance": {
+            "type": "object",
+            "required": [
+              "catalog_path",
+              "catalog_sha256",
+              "profile_version",
+              "evidence_reviewed_at"
+            ],
+            "properties": {
+              "catalog_path": {"type": "string", "minLength": 1},
+              "catalog_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+              "profile_version": {"type": "string", "minLength": 1},
+              "evidence_reviewed_at": {"type": "string", "format": "date"}
+            },
+            "additionalProperties": false
+          },
+          "cover": {
+            "type": "object",
+            "required": ["status", "aspect_ratio", "safe_zone_profile", "creative_direction"],
+            "properties": {
+              "status": {"const": "draft_required"},
+              "aspect_ratio": {"const": "9:16"},
+              "safe_zone_profile": {"type": "string", "minLength": 1},
+              "creative_direction": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          },
+          "copy": {
+            "type": "object",
+            "required": ["status", "title", "caption", "cta", "semantic_guard"],
+            "properties": {
+              "status": {"const": "draft_required"},
+              "title": {"type": ["string", "null"]},
+              "caption": {"type": ["string", "null"]},
+              "cta": {"type": ["string", "null"]},
+              "semantic_guard": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          },
+          "required_gates": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "gates": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id", "status", "evidence", "note"],
+              "properties": {
+                "id": {"type": "string", "minLength": 1},
+                "status": {"enum": ["pending", "passed"]},
+                "evidence": {"type": ["string", "null"]},
+                "note": {"type": "string", "minLength": 1}
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "governance": {
+      "type": "object",
+      "required": [
+        "auto_publish",
+        "reedit_master",
+        "derivative_must_preserve_semantics",
+        "live_platform_preview_required",
+        "human_publication_approval_required",
+        "cryptographic_identity_established",
+        "ready_scope",
+        "publication_ready",
+        "integrity_notice"
+      ],
+      "properties": {
+        "auto_publish": {"const": false},
+        "reedit_master": {"const": false},
+        "derivative_must_preserve_semantics": {"const": true},
+        "live_platform_preview_required": {"const": true},
+        "human_publication_approval_required": {"const": true},
+        "cryptographic_identity_established": {"const": false},
+        "ready_scope": {"const": "derivative_build_only"},
+        "publication_ready": {"const": false},
+        "integrity_notice": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "bundle": {
+      "type": "object",
+      "required": ["adaptation_payload_sha256", "briefs"],
+      "properties": {
+        "adaptation_payload_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "briefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["path", "payload_sha256"],
+            "properties": {
+              "path": {"type": "string", "minLength": 1},
+              "payload_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "binding": {
+      "type": "object",
+      "required": ["algorithm", "canonicalization", "payload_sha256"],
+      "properties": {
+        "algorithm": {"const": "sha256"},
+        "canonicalization": {"const": "json-sort-keys-utf8-v1"},
+        "payload_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

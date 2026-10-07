@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/style.schema.json",
+  "title": "Reusable social video style pack",
+  "type": "object",
+  "required": ["schema_version", "id", "version", "status", "canvas", "palette", "typography", "limits"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "id": {"type": "string", "pattern": "^STYLE_[0-9]{3}_[A-Z0-9_]+$"},
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "status": {"enum": ["candidate", "testing", "approved", "deprecated"]},
+    "canvas": {
+      "type": "object",
+      "required": ["width", "height", "fps", "aspect_ratio"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "fps": {"type": "number", "minimum": 1},
+        "aspect_ratio": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "palette": {"type": "object"},
+    "typography": {"type": "object"},
+    "caption": {"type": "object"},
+    "layout": {"type": "object"},
+    "overlay_slots": {"type": "object"},
+    "limits": {"type": "object"}
+  },
+  "additionalProperties": false
+}

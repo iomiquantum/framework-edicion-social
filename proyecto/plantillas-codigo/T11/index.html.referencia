@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" data-resolution="portrait">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1080,height=1920">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #14120f; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #14120f; }
+      .clip { position: absolute; inset: 0; }
+      #camera { position: absolute; inset: -1.5%; transform-origin: 50% 40%; }
+      #speaker { width: 103%; height: 103%; object-fit: cover; }
+      .scene { z-index: 5; }
+      #captions { z-index: 30; pointer-events: none; }
+      #paper-grain { position: absolute; inset: 0; z-index: 28; opacity: .10; pointer-events: none; mix-blend-mode: multiply; background-image: radial-gradient(#14120f 0.7px, transparent 0.7px); background-size: 7px 7px; }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-yt8o" id="root" data-composition-id="main" data-start="0" data-duration="29.100" data-width="1080" data-height="1920">
+      <div data-hf-id="hf-kwiw" id="camera">
+        <video data-hf-id="hf-6oc4" id="speaker" class="clip" src="assets/video11-master-hdr-referencefit-v12-subject55-hq.mp4" muted playsinline preload="auto" data-start="0" data-duration="29.100" data-track-index="0"></video>
+      </div>
+      <div data-hf-id="hf-7j3o" id="hook" class="clip scene" data-composition-id="scene-hook" data-composition-src="compositions/scene-hook.html" data-start="0" data-duration="8.250" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div data-hf-id="hf-gpy7" id="acceleration" class="clip scene" data-composition-id="scene-acceleration" data-composition-src="compositions/scene-acceleration.html" data-start="8.250" data-duration="5.270" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div data-hf-id="hf-qn46" id="contrast" class="clip scene" data-composition-id="scene-contrast" data-composition-src="compositions/scene-contrast.html" data-start="13.520" data-duration="6.540" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div data-hf-id="hf-dfl1" id="cta" class="clip scene" data-composition-id="scene-cta" data-composition-src="compositions/scene-cta.html" data-start="20.060" data-duration="9.040" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div data-hf-id="hf-ctse" id="captions" class="clip" data-composition-id="captions-es" data-composition-src="compositions/captions-es.html" data-start="0" data-duration="29.100" data-track-index="8" data-track-kind="captions" data-width="1080" data-height="1920"></div>
+      <div data-hf-id="hf-7zus" id="paper-grain" data-layout-ignore=""></div>
+      <audio data-hf-id="hf-mwl7" id="voice" src="assets/video11-voice-normalized.m4a" preload="auto" data-start="0" data-duration="29.100" data-track-index="20" data-volume="1"></audio>
+      <audio data-hf-id="hf-udln" id="sfx-hook" src="assets/04_soft_pop.wav" preload="auto" data-start="0.080" data-duration="0.160" data-track-index="30" data-volume="0.34"></audio>
+      <audio data-hf-id="hf-e9z7" id="sfx-acceleration" src="assets/03_ui_tick.wav" preload="auto" data-start="8.270" data-duration="0.100" data-track-index="31" data-volume="0.30"></audio>
+      <audio data-hf-id="hf-xu5t" id="sfx-contrast" src="assets/04_soft_pop.wav" preload="auto" data-start="13.560" data-duration="0.160" data-track-index="32" data-volume="0.30"></audio>
+      <audio data-hf-id="hf-7994" id="sfx-cta" src="assets/03_ui_tick.wav" preload="auto" data-start="20.100" data-duration="0.100" data-track-index="33" data-volume="0.28"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+tl.set("#voice", { x: -47, y: -2, data: "hf-hold" }, 0);
+      tl.fromTo("#camera", { scale: 1, x: 0, y: 0 }, { scale: 1.025, y: 10, duration: 8.25, ease: "sine.inOut" }, 0)
+        .fromTo("#camera", { scale: 1.02, x: 0, y: 0 }, { scale: 1.04, y: 8, duration: 6.54, ease: "sine.inOut", immediateRender: false }, 13.52)
+        .fromTo("#camera", { scale: 1.015, x: 0, y: 0 }, { scale: 1.03, y: 5, duration: 9.04, ease: "sine.inOut", immediateRender: false }, 20.06);
+tl.to("#voice", { keyframes: { "0%": { x: -47, y: -2 }, "62%": { x: -94.903, y: -8.177 }, "63.4%": { x: -128.252, y: -12.185 }, "64.8%": { x: -161.137, y: -16.147 }, "66.2%": { x: -177.852, y: -18.64 }, "67.6%": { x: -166.905, y: -18.841 }, "69%": { x: -129.081, y: -16.575 }, "73.2%": { x: -78.648, y: -12.465, ease: "custom(M0,0 C0.333,0 0.667,1 1,1)" }, "74.6%": { x: -34.237, y: -7.967 }, "76.1%": { x: -5.458, y: -4.364 }, "77.5%": { x: 9.427, y: -2.264 }, "88.7%": { x: 15.903, y: -1.582, ease: "custom(M0,0 C0.333,0 0.667,0.667 1,1)" }, "100%": { x: 22, y: -2 }, easeEach: "none" }, duration: 2.367 }, 8.3);
+      window.__timelines = window.__timelines || {};
+      window.__timelines.main = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

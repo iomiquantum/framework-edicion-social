@@ -1,0 +1,291 @@
+{
+  "status": "TECHNICAL_PASS",
+  "date_local": "2026-09-30",
+  "records": [
+    {
+      "id": "BGM-CAND-SB-NEON-NOMELODY",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "impulso",
+        "explicacion"
+      ],
+      "history": false,
+      "preview_format": "48k stereo PCM24 / 20s",
+      "decode": "PASS",
+      "sample_peak_dbfs": -5.8948493003845215
+    },
+    {
+      "id": "BGM-CAND-SB-RESONANCE-ALT",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "curiosidad",
+        "tension",
+        "contraste"
+      ],
+      "history": false,
+      "preview_format": "48k stereo PCM24 / 20s",
+      "decode": "PASS",
+      "sample_peak_dbfs": -1.429504007101059
+    },
+    {
+      "id": "BGM-CAND-SB-SARSAPARILLA",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "impulso",
+        "ejemplo",
+        "solucion"
+      ],
+      "history": false,
+      "preview_format": "48k stereo PCM24 / 20s",
+      "decode": "PASS",
+      "sample_peak_dbfs": -7.256692051887512
+    },
+    {
+      "id": "BGM-CAND-KM-CIPHER",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "mecanismo",
+        "contraste"
+      ],
+      "history": false,
+      "preview_format": "48k stereo PCM24 / 20s",
+      "decode": "PASS",
+      "sample_peak_dbfs": -9.136356711387634
+    },
+    {
+      "id": "BGM-CAND-KM-CLEAN-SOUL",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "conversacion",
+        "reflexion"
+      ],
+      "history": false,
+      "preview_format": "48k stereo PCM24 / 20s",
+      "decode": "PASS",
+      "sample_peak_dbfs": -7.1141427755355835
+    },
+    {
+      "id": "BGM-CAND-KM-BACKBAY-LOUNGE",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "impulso",
+        "solucion"
+      ],
+      "history": false,
+      "preview_format": "48k stereo PCM24 / 20s",
+      "decode": "PASS",
+      "sample_peak_dbfs": -7.428184151649475
+    },
+    {
+      "id": "BGM-CAND-SB-COMPUTATIONS-NOCELLO",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "antecedente"
+      ],
+      "history": true
+    },
+    {
+      "id": "BGM-CAND-SB-INTERVENTION-NOMELODY",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "antecedente"
+      ],
+      "history": true
+    },
+    {
+      "id": "BGM-CAND-SB-CIRRUS",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "antecedente"
+      ],
+      "history": true
+    },
+    {
+      "id": "BGM-ORIGINAL-TECH-PULSE",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "antecedente"
+      ],
+      "history": true
+    },
+    {
+      "id": "SFX-ORIGINAL-01",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "entrada"
+      ],
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-02",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "transicion"
+      ],
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-03",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "detalle"
+      ],
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-04",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "enfasis"
+      ],
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-05",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "contraste"
+      ],
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-06",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "secuencia"
+      ],
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-07",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "retorno"
+      ],
+      "history": false
+    },
+    {
+      "id": "SFX-ORIGINAL-08",
+      "source_hash": "PASS",
+      "preview_and_manifest_exists": true,
+      "roles": [
+        "cierre"
+      ],
+      "history": false
+    }
+  ],
+  "active_music": 6,
+  "sfx": 8,
+  "history_music": 4,
+  "new_official_license_snapshots": "PASS",
+  "local_links": [
+    {
+      "page": "biblioteca.html",
+      "href": "practica.html"
+    },
+    {
+      "page": "biblioteca.html",
+      "href": "referencias.html"
+    },
+    {
+      "page": "biblioteca.html",
+      "href": "../../library/music/CATALOGO_EDITORIAL.md"
+    },
+    {
+      "page": "biblioteca.html",
+      "href": "../../library/music/catalogo-editorial.json"
+    },
+    {
+      "page": "referencias.html",
+      "href": "practica.html"
+    },
+    {
+      "page": "referencias.html",
+      "href": "referencias-usuario/ref-02/preview.mp4"
+    },
+    {
+      "page": "referencias.html",
+      "href": "referencias-usuario/ref-02/niveles-estimados.png"
+    },
+    {
+      "page": "referencias.html",
+      "href": "ANALISIS_REFERENCIAS_SONORAS.md"
+    },
+    {
+      "page": "referencias.html",
+      "href": "referencias-usuario/validacion.json"
+    },
+    {
+      "page": "referencias.html",
+      "href": "practica.html"
+    },
+    {
+      "page": "referencias.html",
+      "href": "biblioteca.html"
+    },
+    {
+      "page": "referencias.html",
+      "href": "practica.html"
+    },
+    {
+      "page": "referencias.html",
+      "href": "voz.html"
+    },
+    {
+      "page": "practica.html",
+      "href": "referencias.html"
+    },
+    {
+      "page": "practica.html",
+      "href": "audiciones/practica-v1/02-voz-efectos-pulso.mp4"
+    },
+    {
+      "page": "practica.html",
+      "href": "audiciones/practica-v1/02-voz-efectos-pulso.wav"
+    },
+    {
+      "page": "practica.html",
+      "href": "evidencia/practica-v1/manifest.json"
+    },
+    {
+      "page": "practica.html",
+      "href": "APLICACION_PRACTICA.md"
+    },
+    {
+      "page": "practica.html",
+      "href": "../../library/music/candidates/2026-09-30-prueba-ritmica/CREDITOS.txt"
+    },
+    {
+      "page": "practica.html",
+      "href": "biblioteca.html"
+    },
+    {
+      "page": "practica.html",
+      "href": "voz.html"
+    },
+    {
+      "page": "practica.html",
+      "href": "banco.html"
+    }
+  ],
+  "human_listening_new_music": "por confirmar",
+  "global_approval": "por confirmar",
+  "reference_audio_reused_in_library": false
+}

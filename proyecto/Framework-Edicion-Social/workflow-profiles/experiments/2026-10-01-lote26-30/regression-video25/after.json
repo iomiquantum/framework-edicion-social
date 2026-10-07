@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "qa_reuse_context_snapshot",
+  "created_at": "2026-10-01T03:42:50.274535+00:00",
+  "scope_id": "REGRESSION-VIDEO25-READONLY",
+  "coverage_note": "Read-only tooling regression on frozen25. Mainindex included in both visual_style andmix conservatively. Not new QAapproval nor speedofassembly proof.",
+  "inventory_scope": "manually_declared_only",
+  "spec": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/context-spec.json",
+    "bytes": 4094,
+    "sha256": "efd76084b68767823bc1ac2f31102987307f58853622fc68285922df761a43f0"
+  },
+  "spec_descriptor": {
+    "scope_id": "REGRESSION-VIDEO25-READONLY",
+    "coverage_note": "Read-only tooling regression on frozen25. Mainindex included in both visual_style andmix conservatively. Not new QAapproval nor speedofassembly proof.",
+    "groups": {
+      "source": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/video25-master-hlg-v1.mp4"
+      ],
+      "transcription": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/transcript.json"
+      ],
+      "cut_plan": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/cut-plan.json"
+      ],
+      "visual_style": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/fonts/Montserrat-800.woff2",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/captions-es.html",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-compra.html",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-contexto.html",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-necesidad.html",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-precio.html",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-problema.html",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/index.html"
+      ],
+      "visual_assets": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/compra-valor-contexto-v2.png"
+      ],
+      "audio_assets": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/sfx-ahorro-mix-v1.wav",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/sfx-contexto-mix-v1.wav",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/sfx-precio-mix-v1.wav"
+      ],
+      "mix": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/asset-ledger.json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/video25-voice-clean-normalized-v1.wav",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/index.html"
+      ],
+      "engine": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/qa_reuse_context.py",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/QA_COMUN.md",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/flujo-2.json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/hyperframes.json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/media-runtime.mjs",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/package.json"
+      ]
+    }
+  },
+  "groups": {
+    "source": {
+      "files": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/video25-master-hlg-v1.mp4",
+          "bytes": 49952913,
+          "sha256": "119ef53e9e04accdb1af73ccffe2e0bbe9f34d4671e52003839bf311798ce574"
+        }
+      ],
+      "sha256": "cf074f348a2389b1b58469882ae7934d2c7ba0bef529e85c595a1d4d1c4ee2da"
+    },
+    "transcription": {
+      "files": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/transcript.json",
+          "bytes": 14881,
+          "sha256": "5e3d6025ef1e9e73b5a30f88ae314b501e0120bda1cf65dc8ab092042b9615bc"
+        }
+      ],
+      "sha256": "9e117fb743ae6772b12477fdc482b8239ff7688657231f501ff2abfb73cca74d"
+    },
+    "cut_plan": {
+      "files": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/cut-plan.json",
+          "bytes": 2509,
+          "sha256": "8b92d944a1981d63abfc707d1adb0cffcad544bf0855e5d2c3cf700e646269f8"
+        }
+      ],
+      "sha256": "1607af26927c6640dfe0db373c4b15cf9d31e40050cc02967c8ab67a67cdf9fc"
+    },
+    "visual_style": {
+      "files": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/fonts/Montserrat-800.woff2",
+          "bytes": 19012,
+          "sha256": "ba826fb84c2e961578adf3a08b5778b87905d4443445d1d56d84f9f157d5ea4b"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/captions-es.html",
+          "bytes": 5054,
+          "sha256": "743671f5bb94e506443e9f92c27a076a3d289c719f119736917fc0a01c217639"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-compra.html",
+          "bytes": 1118,
+          "sha256": "eafb93c8f9c91dbead0eecd28c796e09f52f2c6d3be582d442926d41190ae254"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-contexto.html",
+          "bytes": 1100,
+          "sha256": "2a0d2693732b1485749e788e5a693ceb3330ef6e3dbc96d1f0c02dbe1f8ccdcb"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-necesidad.html",
+          "bytes": 1124,
+          "sha256": "defecdc2d2b844f675007e5f0320ee20b502aa8aa2c7078f97a6f428993172e7"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-precio.html",
+          "bytes": 1093,
+          "sha256": "8a55f5eb21f2e1ba9ebe93d89198603d66b3824a738be138c7fbd1d162ce1ab3"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-problema.html",
+          "bytes": 1539,
+          "sha256": "b847de9649f38c02f13e6262acde4444a377f0e237fc8b2523f4160fcc16eae1"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/index.html",
+          "bytes": 5382,
+          "sha256": "4a9af49e71e8057f4df263afc5f0745f7cb9ba890513f1e53689c0a63699915b"
+        }
+      ],
+      "sha256": "c396b5b16203cb3b4a2f7309f6fa5491f577f14796140807c66be1ff6d8d4041"
+    },
+    "visual_assets": {
+      "files": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/compra-valor-contexto-v2.png",
+          "bytes": 1827485,
+          "sha256": "6cf5a0cfb8358e7c85cfe184cf7e776dd01c13fd5f84b1f5c8248a3586009dd3"
+        }
+      ],
+      "sha256": "a859ffc062ab1bc22b3bc3d76987f045bd1972a411af6b7c2a5f57cd4a8f976a"
+    },
+    "audio_assets": {
+      "files": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/sfx-ahorro-mix-v1.wav",
+          "bytes": 23142,
+          "sha256": "1063deb999866d9cbe4b82fe4d7bee87e9508b8e64b6ffab0b38f783396f96b0"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/sfx-contexto-mix-v1.wav",
+          "bytes": 121062,
+          "sha256": "4fb0c3989955ecefe6404e840c1c7d0f289c38099e74853e8e09e054bca6a56a"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/sfx-precio-mix-v1.wav",
+          "bytes": 83620,
+          "sha256": "c82ee74c844aa8ab8a7d00f974a17df6d60e0d41ccf3025071f6b7be2d967550"
+        }
+      ],
+      "sha256": "0b3c740b46ecd0ca2d69b3465e76d9c791979a0ce23f6a09302a6a077fe42931"
+    },
+    "mix": {
+      "files": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/asset-ledger.json",
+          "bytes": 2774,
+          "sha256": "d09eabad1d3a1e8cb33c671e6d9e7c8be56ca207126585d1597d69f378909a8f"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/video25-voice-clean-normalized-v1.wav",
+          "bytes": 6979302,
+          "sha256": "90053bfb24ff2e0a07239e4aff6efb9d142a0b55f312657ff36d8b2b416f19b0"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/index.html",
+          "bytes": 5382,
+          "sha256": "4a9af49e71e8057f4df263afc5f0745f7cb9ba890513f1e53689c0a63699915b"
+        }
+      ],
+      "sha256": "444572a5eb3b0ecd89e492e35381ac92198cf04025c99e93cac3682b3e4d13c8"
+    },
+    "engine": {
+      "files": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/qa_reuse_context.py",
+          "bytes": 13470,
+          "sha256": "b22200652ae6d15b7c354db44188d73c1c07ecb2f36e367a57060b0526b966e9"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/QA_COMUN.md",
+          "bytes": 2769,
+          "sha256": "241598e2deab1a9fc8fd43f56d1f5c85d612c88c2a377b09f9bfcb66f602b050"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/flujo-2.json",
+          "bytes": 1418,
+          "sha256": "39ee24c2b9fbb6bcb7c6f01db74144fdfce376d9f7a6fdb36572e8c85d8323a4"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/hyperframes.json",
+          "bytes": 318,
+          "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/media-runtime.mjs",
+          "bytes": 2952,
+          "sha256": "32edac3bc6eecb2468c369c5adafdb0c2cd924ff51dad39a70a83c830d1e1c5f"
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/package.json",
+          "bytes": 406,
+          "sha256": "3a3665182c058644bceb95c328fc1f2cb19773d62bf3d125b1f7a49227cd3e93"
+        }
+      ],
+      "sha256": "2169eb092f63dea13087bddb5e099cf672ed9e22c78ad140dd9aacc0963b7dfe"
+    }
+  },
+  "limits": "Manual inventory only; unlisted dependencies are not discovered. Hashes prove local byte integrity, not runtime-manifest claims, QA quality, human review or approval. Reuse candidates require editorial verification of coverage and valid prior evidence. Every new MP4 requires exact-export QA.",
+  "integrity_digest": "5f427eed53f5a684973a4738ea4f47bd52c450fdd1528519065afacf476f03af"
+}

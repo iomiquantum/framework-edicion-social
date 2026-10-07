@@ -1,0 +1,143 @@
+{
+  "date_local": "2026-09-30",
+  "method": "FFmpeg bandpass de tercio de octava y volumedetect sobre fragmentos exactos, con ganancia/fundidos de cama iguales a audición. Media de doce segundos; no análisis de palabra ni prueba perceptual.",
+  "results": [
+    {
+      "track": "voz",
+      "center_hz": 200,
+      "bandwidth_hz": 46.32,
+      "mean_dbfs": -28.7
+    },
+    {
+      "track": "voz",
+      "center_hz": 630,
+      "bandwidth_hz": 145.908,
+      "mean_dbfs": -28.0
+    },
+    {
+      "track": "voz",
+      "center_hz": 1600,
+      "bandwidth_hz": 370.56,
+      "mean_dbfs": -35.4
+    },
+    {
+      "track": "voz",
+      "center_hz": 4000,
+      "bandwidth_hz": 926.4,
+      "mean_dbfs": -40.8
+    },
+    {
+      "track": "01-tech-original",
+      "center_hz": 200,
+      "bandwidth_hz": 46.32,
+      "mean_dbfs": -54.8,
+      "voice_minus_music_db": 26.1
+    },
+    {
+      "track": "01-tech-original",
+      "center_hz": 630,
+      "bandwidth_hz": 145.908,
+      "mean_dbfs": -60.4,
+      "voice_minus_music_db": 32.4
+    },
+    {
+      "track": "01-tech-original",
+      "center_hz": 1600,
+      "bandwidth_hz": 370.56,
+      "mean_dbfs": -71.9,
+      "voice_minus_music_db": 36.5
+    },
+    {
+      "track": "01-tech-original",
+      "center_hz": 4000,
+      "bandwidth_hz": 926.4,
+      "mean_dbfs": -80.3,
+      "voice_minus_music_db": 39.5
+    },
+    {
+      "track": "02-computations",
+      "center_hz": 200,
+      "bandwidth_hz": 46.32,
+      "mean_dbfs": -62.2,
+      "voice_minus_music_db": 33.5
+    },
+    {
+      "track": "02-computations",
+      "center_hz": 630,
+      "bandwidth_hz": 145.908,
+      "mean_dbfs": -54.5,
+      "voice_minus_music_db": 26.5
+    },
+    {
+      "track": "02-computations",
+      "center_hz": 1600,
+      "bandwidth_hz": 370.56,
+      "mean_dbfs": -71.1,
+      "voice_minus_music_db": 35.7
+    },
+    {
+      "track": "02-computations",
+      "center_hz": 4000,
+      "bandwidth_hz": 926.4,
+      "mean_dbfs": -74.9,
+      "voice_minus_music_db": 34.1
+    },
+    {
+      "track": "03-intervention",
+      "center_hz": 200,
+      "bandwidth_hz": 46.32,
+      "mean_dbfs": -51.6,
+      "voice_minus_music_db": 22.9
+    },
+    {
+      "track": "03-intervention",
+      "center_hz": 630,
+      "bandwidth_hz": 145.908,
+      "mean_dbfs": -52.1,
+      "voice_minus_music_db": 24.1
+    },
+    {
+      "track": "03-intervention",
+      "center_hz": 1600,
+      "bandwidth_hz": 370.56,
+      "mean_dbfs": -65.9,
+      "voice_minus_music_db": 30.5
+    },
+    {
+      "track": "03-intervention",
+      "center_hz": 4000,
+      "bandwidth_hz": 926.4,
+      "mean_dbfs": -76.3,
+      "voice_minus_music_db": 35.5
+    },
+    {
+      "track": "04-cirrus",
+      "center_hz": 200,
+      "bandwidth_hz": 46.32,
+      "mean_dbfs": -49.4,
+      "voice_minus_music_db": 20.7
+    },
+    {
+      "track": "04-cirrus",
+      "center_hz": 630,
+      "bandwidth_hz": 145.908,
+      "mean_dbfs": -52.2,
+      "voice_minus_music_db": 24.2
+    },
+    {
+      "track": "04-cirrus",
+      "center_hz": 1600,
+      "bandwidth_hz": 370.56,
+      "mean_dbfs": -64.2,
+      "voice_minus_music_db": 28.8
+    },
+    {
+      "track": "04-cirrus",
+      "center_hz": 4000,
+      "bandwidth_hz": 926.4,
+      "mean_dbfs": -74.9,
+      "voice_minus_music_db": 34.1
+    }
+  ],
+  "limit": "Ni una forma espectral ni LUFS identifican por sí solos la causa de desatención. No diagnosticar un filtro de voz sin referencia. No se alteró el sonido."
+}

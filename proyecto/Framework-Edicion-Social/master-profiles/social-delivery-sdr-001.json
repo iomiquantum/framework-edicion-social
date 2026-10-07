@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "id": "MASTER-PROFILE-SOCIAL-SDR-001",
+  "profile_version": "1.0.0",
+  "label": "Máster social SDR BT.709 vertical",
+  "artifact_role": "social_delivery_master",
+  "color_intent": "normalize_sdr_bt709",
+  "status": "active",
+  "intended_use": [
+    "máster neutral de publicación social",
+    "fuente para derivados específicos de Instagram, TikTok y YouTube"
+  ],
+  "forbidden_uses": [
+    "reemplazo del mezzanine HDR para reedición",
+    "generación antes de aprobar el SHA-256 exacto del máster editorial"
+  ],
+  "video": {
+    "file_extensions": [".mp4"],
+    "containers": ["mp4"],
+    "codecs": ["h264"],
+    "codec_profiles": ["high"],
+    "pixel_formats": ["yuv420p"],
+    "minimum_bit_depth": 8,
+    "width": 1080,
+    "height": 1920,
+    "fps_target": 30,
+    "fps_tolerance": 0.02,
+    "orientation": "vertical",
+    "aspect_ratio": "9:16",
+    "duration_min_seconds": 1,
+    "duration_max_seconds": 180,
+    "color_primaries": ["bt709"],
+    "color_transfers": ["bt709"],
+    "color_spaces": ["bt709"],
+    "bitrate_min_mbps": 6,
+    "bitrate_max_mbps": 20,
+    "bitrate_enforcement": "warning"
+  },
+  "audio": {
+    "required": true,
+    "codecs": ["aac"],
+    "codec_profiles": ["lc"],
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "requires_loudness_scan": true,
+    "target_lufs": -14,
+    "lufs_tolerance": 2,
+    "true_peak_max_dbtp": -1
+  },
+  "governance": {
+    "editable_source": false,
+    "upload_ready": true,
+    "requires_approved_source_receipt": true,
+    "required_source_media_role": "editorial_mezzanine",
+    "required_source_profile_id": "MASTER-PROFILE-EDITORIAL-HDR-001",
+    "source_hash_must_differ": true,
+    "requires_visual_review": true,
+    "rules": [
+      "Derivar únicamente del máster editorial cuyo hash fue aprobado explícitamente.",
+      "Aplicar conversión HDR a SDR controlada; no limitarse a cambiar etiquetas de color.",
+      "Validar niveles, pieles, gradientes, subtítulos, rostro y sincronía después de convertir.",
+      "El checker técnico no sustituye la revisión visual ni la vista previa de plataforma."
+    ]
+  }
+}

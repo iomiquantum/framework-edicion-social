@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-09-25",
+  "status": "approved",
+  "approval_event": "El usuario aprobó explícitamente las 30 plantillas el 2026-09-25 con la frase: 'que queden todas aprobadas'.",
+  "research": "INVESTIGACION_DIVERSIDAD_VISUAL_11_A_20.md",
+  "measurement_plan": "PLAN_MEDICION_PLANTILLAS_11_A_20.md",
+  "templates": [
+    {"id":"T11","name":"Realidad deformada","visual_world":"surreal portal","motivation_hypothesis":"surprise and curiosity","primary_metric":"replay_or_retention_after_portal","artifact":"OPCION-11_REALIDAD-DEFORMADA/propuesta-11.png","approval_status":"approved","evidence":"El usuario confirmó la corrección de contraste de la captura 2 con 'Excelente' el 2026-09-25."},
+    {"id":"T12","name":"Prompt Playground","visual_world":"retro computer interface","motivation_hypothesis":"discovery and control","primary_metric":"saves","artifact":"OPCION-12_PROMPT-PLAYGROUND/propuesta-12.png","approval_status":"approved"},
+    {"id":"T13","name":"Explorecore","visual_world":"field notebook and map","motivation_hypothesis":"exploration and calm","primary_metric":"average_percentage_viewed","artifact":"OPCION-13_EXPLORECORE/propuesta-13.png","approval_status":"approved"},
+    {"id":"T14","name":"Texture Check","visual_world":"tactile glass clay and volume","motivation_hypothesis":"sensory curiosity","primary_metric":"replay","artifact":"OPCION-14_TEXTURE-CHECK/propuesta-14.png","approval_status":"approved"},
+    {"id":"T15","name":"Notes App Chic","visual_world":"camera roll notes and voice memo","motivation_hypothesis":"closeness and authenticity","primary_metric":"identification_comments","artifact":"OPCION-15_NOTES-APP-CHIC/propuesta-15.png","approval_status":"approved"},
+    {"id":"T16","name":"Opt-Out","visual_world":"quiet minimalism","motivation_hypothesis":"cognitive relief and clarity","primary_metric":"completion_rate","artifact":"OPCION-16_OPT-OUT/propuesta-16.png","approval_status":"approved"},
+    {"id":"T17","name":"Drama Club","visual_world":"telenovela stage","motivation_hypothesis":"emotion and expectation","primary_metric":"retention_to_reveal","artifact":"OPCION-17_DRAMA-CLUB/propuesta-17.png","approval_status":"approved"},
+    {"id":"T18","name":"Rótulo popular","visual_world":"warm everyday sign painting","motivation_hypothesis":"familiarity and belonging","primary_metric":"shares","artifact":"OPCION-18_ROTULO-POPULAR/propuesta-18.png","approval_status":"approved"},
+    {"id":"T19","name":"Pixel Quest","visual_world":"pixel game mission","motivation_hypothesis":"competence and progress","primary_metric":"numbered_responses","artifact":"OPCION-19_PIXEL-QUEST/propuesta-19.png","approval_status":"approved"},
+    {"id":"T20","name":"Jardín de ideas","visual_world":"organic growth system","motivation_hypothesis":"growth and purpose","primary_metric":"saves","artifact":"OPCION-20_JARDIN-DE-IDEAS/propuesta-20.png","approval_status":"approved"}
+  ]
+}

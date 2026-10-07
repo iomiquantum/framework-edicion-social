@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "pieces": 18,
+  "phrase_maps": 4,
+  "phrases": 41,
+  "source_voice_hashes": "pass",
+  "auditions": [
+    {
+      "id": "VIDEO-11",
+      "duration_s": 29.1,
+      "lufs": -22.0,
+      "true_peak_db": -4.09,
+      "decode": "pass",
+      "sha256": "b589f66ce6900f929daaf4c3218a280824b29917d9a6f2d8741cf33e0b2385aa"
+    },
+    {
+      "id": "VIDEO-13",
+      "duration_s": 19.47,
+      "lufs": -22.0,
+      "true_peak_db": -4.14,
+      "decode": "pass",
+      "sha256": "8fe902e672311504c45f3f7c95a0671e6e028dc5c3f70a91aef61e2a3f5df4d3"
+    },
+    {
+      "id": "VIDEO-14",
+      "duration_s": 23.26,
+      "lufs": -21.99,
+      "true_peak_db": -4.25,
+      "decode": "pass",
+      "sha256": "fbe961524fa9036fa341a5bd582e199c8394daa3e1ca23700ddffbd577d5df36"
+    },
+    {
+      "id": "VIDEO-21",
+      "duration_s": 21.633333,
+      "lufs": -22.0,
+      "true_peak_db": -4.96,
+      "decode": "pass",
+      "sha256": "ae564c9ccdf38717f49d1069fc02163c7d5b0509e33e58d61bf6cc21c135bb77"
+    },
+    {
+      "id": "VIDEO-13-ORIGEN",
+      "duration_s": 19.44,
+      "lufs": -22.0,
+      "true_peak_db": -4.53,
+      "decode": "pass",
+      "sha256": "0d03482a29489d4cba2cc798270bd31657cfa41bb815178718237a2c27116330"
+    }
+  ],
+  "issues": [],
+  "perceptual_interpretation": "por confirmar",
+  "existing_videos_modified": false
+}

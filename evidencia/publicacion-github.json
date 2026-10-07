@@ -1,0 +1,19 @@
+{
+  "date_local": "2026-10-06",
+  "repository": "https://github.com/iomiquantum/framework-edicion-social",
+  "visibility": "public",
+  "authorization": "User explicitly requested upload to own GitHub and selected public access.",
+  "status": "repository_created_preparing_initial_upload",
+  "branch": "main",
+  "download_url": "https://github.com/iomiquantum/framework-edicion-social/archive/refs/heads/main.zip",
+  "payload": "Portable delivery only; no original Mac checkout, old videos, current student progress, sessions or installed runtimes.",
+  "scan": {
+    "candidate_files": 1980,
+    "archive_entries_checked": 52,
+    "credential_pattern_findings": 0,
+    "scope": "Pattern-based scan; not a claim of exhaustive secret detection."
+  },
+  "archive_verification": "pending",
+  "native_windows_installation": "pending",
+  "native_clean_mac_installation": "pending"
+}

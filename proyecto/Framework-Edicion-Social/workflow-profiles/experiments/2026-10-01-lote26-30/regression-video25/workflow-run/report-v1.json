@@ -1,0 +1,377 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-01T03:45:02.825725+00:00",
+  "run_id": "0600d9ab-2de2-49b3-b78c-ba1b2793962a",
+  "video_id": "VIDEO-25",
+  "profile_id": "flujo-2",
+  "profile_version": "0.1.0",
+  "profile_status": "experimental_ready_for_pilot",
+  "live_rules_changed": false,
+  "timing": {
+    "schema_version": 1,
+    "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/workflow-run",
+    "measurement_method": "utc_wall_clock_time_time_cross_process",
+    "status": "measured",
+    "events": 2,
+    "closed_intervals": 1,
+    "open_interval": null,
+    "intervals": [
+      {
+        "interval_id": "3ee2e6c5-1ae9-49e8-9be8-2d1df436d95b",
+        "phase": "qa_post_render",
+        "kind": "experiment_audit",
+        "started_at_utc": "2026-10-01T03:45:02.687562+00:00",
+        "ended_at_utc": "2026-10-01T03:45:02.781598+00:00",
+        "started_epoch_seconds": 1790826302.687562,
+        "ended_epoch_seconds": 1790826302.7815979,
+        "seconds": 0.09403586387634277,
+        "start_note": "Read-only tooling smoke, not video25 re-edit or full QA",
+        "stop_note": null
+      }
+    ],
+    "phases": {
+      "intake": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null,
+        "kinds": {
+          "work": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "command": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "user_wait": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "experiment_audit": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          }
+        }
+      },
+      "semantic_lock": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null,
+        "kinds": {
+          "work": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "command": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "user_wait": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "experiment_audit": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          }
+        }
+      },
+      "resources": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null,
+        "kinds": {
+          "work": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "command": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "user_wait": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "experiment_audit": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          }
+        }
+      },
+      "assembly": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null,
+        "kinds": {
+          "work": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "command": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "user_wait": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "experiment_audit": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          }
+        }
+      },
+      "review_changes": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null,
+        "kinds": {
+          "work": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "command": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "user_wait": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "experiment_audit": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          }
+        }
+      },
+      "qa_pre_render": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null,
+        "kinds": {
+          "work": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "command": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "user_wait": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "experiment_audit": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          }
+        }
+      },
+      "render": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null,
+        "kinds": {
+          "work": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "command": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "user_wait": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "experiment_audit": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          }
+        }
+      },
+      "qa_post_render": {
+        "status": "measured",
+        "intervals": 1,
+        "total_seconds": 0.09403586387634277,
+        "kinds": {
+          "work": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "command": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "user_wait": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "experiment_audit": {
+            "status": "measured",
+            "intervals": 1,
+            "total_seconds": 0.09403586387634277
+          }
+        }
+      },
+      "documentation": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null,
+        "kinds": {
+          "work": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "command": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "user_wait": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "experiment_audit": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          }
+        }
+      },
+      "coordination": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null,
+        "kinds": {
+          "work": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "command": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "user_wait": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          },
+          "experiment_audit": {
+            "status": "not_measured",
+            "intervals": 0,
+            "total_seconds": null
+          }
+        }
+      }
+    },
+    "kinds": {
+      "work": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null
+      },
+      "command": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null
+      },
+      "user_wait": {
+        "status": "not_measured",
+        "intervals": 0,
+        "total_seconds": null
+      },
+      "experiment_audit": {
+        "status": "measured",
+        "intervals": 1,
+        "total_seconds": 0.09403586387634277
+      }
+    },
+    "span_started_at_utc": "2026-10-01T03:45:02.687562+00:00",
+    "span_ended_at_utc": "2026-10-01T03:45:02.781598+00:00",
+    "elapsed_span_seconds": 0.09403586387634277,
+    "observed_union_seconds": 0.09403586387634277,
+    "unmeasured_gaps_seconds": 0.0,
+    "observed_operational_union_seconds": null,
+    "observed_user_wait_seconds": null,
+    "observed_experiment_audit_seconds": 0.09403586387634277,
+    "limits": "Solo intervalos cerrados del journal; el abierto queda excluido. El span termina en el último stop: no incluye espera posterior ni tiempo previo al primer start. Los huecos no identifican su causa. work y command son etiquetas de tiempo transcurrido, no actividad humana continua; user_wait y experiment_audit se informan por separado. La unión operativa incluye solo work/command medidos, sin asignar huecos ni espera/auditoría al trabajo. No suma ni importa tiempos de subprocessos. UTC/time.time usa reloj de pared, no monotónico entre procesos. No afirma tokens, costo, ahorro, QA, escucha ni aprobación; no comparar ejecuciones con cobertura distinta."
+  },
+  "event_counts": {
+    "full_check": 0,
+    "targeted_check": 1,
+    "correction": 0,
+    "full_render": 0,
+    "failed_render": 0,
+    "image_generated": 0,
+    "image_unused": 0,
+    "escalation": 0,
+    "candidate_ready": 0,
+    "local_delivery_completed": 0
+  },
+  "milestones": {
+    "candidate_ready": null,
+    "local_delivery_completed": null
+  },
+  "events": [
+    {
+      "event_id": "b4962f24-ef55-44ae-b7a3-fc46ed10f81a",
+      "run_id": "0600d9ab-2de2-49b3-b78c-ba1b2793962a",
+      "at": "2026-10-01T03:45:02.733057+00:00",
+      "kind": "targeted_check",
+      "note": "Tooling context check only; original25 retained",
+      "evidence": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/result.json",
+        "sha256": "52e6554897b0f6b723da9a822a3cd0f77bddb86357de72dd4100501a8824d5e0",
+        "size_bytes": 728
+      },
+      "measurement_method": "explicit_logged_event_not_automatic_detection"
+    }
+  ],
+  "evidence_index": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/result.json",
+      "sha256": "52e6554897b0f6b723da9a822a3cd0f77bddb86357de72dd4100501a8824d5e0",
+      "size_bytes": 728
+    }
+  ],
+  "qa_status": "not_evaluated_by_this_report",
+  "approval_status": "not_evaluated_by_this_report",
+  "limits": "Counts cover explicit logs only; an absent event does not prove no rework. Timers do not establish quality, listening, causal savings, tokens or cost. This report does not write bitacora/changelogs."
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/asset.schema.json",
+  "title": "Reusable media asset",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "file",
+    "type",
+    "description",
+    "semantic_tags",
+    "best_for",
+    "avoid_for",
+    "status",
+    "sha256",
+    "provenance",
+    "reuse"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Z]{3,4}-[A-Z0-9]+-[0-9]{4}$"},
+    "name": {"type": "string", "minLength": 3},
+    "file": {"type": "string", "minLength": 3},
+    "type": {
+      "enum": ["icon", "image", "logo", "sfx", "bgm", "transition", "motion_preset", "lut", "video"]
+    },
+    "description": {"type": "string", "minLength": 12},
+    "semantic_tags": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+    "best_for": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "avoid_for": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "visual_roles": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "style_tags": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "technical": {"type": "object", "additionalProperties": true},
+    "status": {"enum": ["provisional", "approved", "deprecated"]},
+    "approval": {
+      "type": "object",
+      "properties": {
+        "qa_status": {"enum": ["not_run", "passed", "failed"]},
+        "editorial_status": {"enum": ["pending", "approved_for_library", "rejected"]},
+        "user_approval_status": {"enum": ["not_reviewed", "not_reviewed_as_individual_asset", "explicit_approved", "explicit_rejected"]},
+        "reuse_status": {"enum": ["not_evaluated", "eligible_with_policy", "restricted", "ineligible"]},
+        "performance_status": {"enum": ["no_data", "awaiting_data", "promising", "validated", "underperforming"]}
+      },
+      "additionalProperties": false
+    },
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "provenance": {
+      "type": "object",
+      "required": ["kind", "license"],
+      "properties": {
+        "kind": {"type": "string"},
+        "license": {"type": "string"},
+        "source": {"type": ["string", "null"]},
+        "created_at": {"type": ["string", "null"]},
+        "prompt": {"type": ["string", "null"]},
+        "model": {"type": ["string", "null"]}
+      },
+      "additionalProperties": true
+    },
+    "reuse": {
+      "type": "object",
+      "required": ["scope", "policy", "usage_count", "used_in"],
+      "properties": {
+        "scope": {"enum": ["global", "style", "project", "entity_exact"]},
+        "policy": {"enum": ["unlimited", "rotate", "limited", "exact_match_only", "do_not_reuse"]},
+        "cooldown_videos": {"type": "integer", "minimum": 0},
+        "usage_count": {"type": "integer", "minimum": 0},
+        "last_used_at": {"type": ["string", "null"]},
+        "used_in": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

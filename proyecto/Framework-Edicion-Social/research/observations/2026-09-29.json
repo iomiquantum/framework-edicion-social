@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-29",
+  "consulted_at": "2026-09-29T09:10:28-05:00",
+  "scope": {
+    "format": "video_vertical_corto",
+    "topics": [
+      "tecnologia",
+      "inteligencia_artificial"
+    ],
+    "language": "es",
+    "primary_market": "Ecuador",
+    "proxy_market": "LATAM"
+  },
+  "status": "no_material_change",
+  "platform_changes": [],
+  "observed_patterns": [],
+  "deduplication": {
+    "compared_with": "research/observations/2026-09-28.json",
+    "duplicates_discarded": [
+      "El anuncio Made on YouTube 2026 y su detalle para creadores fueron publicados el 2026-09-23 y ya están registrados.",
+      "Shorts Series, publicaciones en el feed y edición conversacional ya fueron consolidados en las observaciones del 24 y 25 y en el informe 2026-W40.",
+      "Los cambios de etiquetas de IA, monetización y métricas localizados son anteriores a la ventana diaria y no aportan hoy una acción editorial nueva."
+    ],
+    "material_items_kept": 0
+  },
+  "coverage": {
+    "official_sources_checked": [
+      "YouTube Help: Creator updates",
+      "YouTube Community: Made on YouTube 2026",
+      "YouTube Blog",
+      "TikTok Newsroom ES-LATAM",
+      "Meta Newsroom y archivo Reels"
+    ],
+    "ecuador_specific_sample": "No disponible con muestra suficiente en esta ejecución.",
+    "latam_proxy": "No se encontró una señal reciente y reproducible con muestra suficiente para elevarla a patrón observado."
+  },
+  "notes": [
+    "No se verificó un cambio oficial nuevo y aplicable desde la consulta anterior.",
+    "La publicación oficial de TeamYouTube revalida que Shorts Series se despliega globalmente y que la edición conversacional está prevista desde comienzos de 2027; estos datos pertenecen al anuncio ya registrado, no a una novedad del día.",
+    "La disponibilidad efectiva en la cuenta y en Ecuador no fue comprobada, por lo que los experimentos propuestos siguen condicionados a verificación directa.",
+    "TikTok y Meta no mostraron una actualización reciente que cambie la edición o publicación orgánica dentro del alcance estudiado.",
+    "No se modificaron reglas, perfiles, experimentos ni renders."
+  ]
+}

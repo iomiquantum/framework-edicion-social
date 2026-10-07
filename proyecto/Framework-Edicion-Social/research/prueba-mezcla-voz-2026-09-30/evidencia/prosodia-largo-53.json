@@ -1,0 +1,237 @@
+{
+  "id": "largo-53",
+  "voice_file_sha256": "f1a8a32fa9e9732ba2456e097b1accabb84d543a6eb37394c589a8c51145ce0a",
+  "transcript_binding": "NUEVO-EXPLAINER-HYPERFRAMES-2026-09-26/videos/retrabajo-acelerado/assets/audio/voice-generic-kokoro.wav.meta.json",
+  "transcript_sha256": "e5325855143f5e702c09b1a298417fa94fb11ea2b88b4d27ced5beeb545748e5",
+  "method": {
+    "rms_window_s": 0.05,
+    "low_energy_threshold_dbfs": -34.48,
+    "pitch": "Praat autocorrelation75–400Hz,20ms; octave errors possible",
+    "interpretation": "Texto/contexto editorial; métricas no prueban emoción, defecto ni percepción."
+  },
+  "global": {
+    "start_s": 0,
+    "end_s": 52.93,
+    "text": "",
+    "words_per_s": 0.0,
+    "active_rms_median_dbfs": -15.63,
+    "active_rms_range_p90_p10_db": 11.5,
+    "f0_median_hz": 169.5,
+    "f0_p90_p10_semitones": 8.23,
+    "low_energy_fraction": 0.138
+  },
+  "low_energy_intervals_s": [
+    [
+      1.85,
+      2.05
+    ],
+    [
+      4.7,
+      5.0
+    ],
+    [
+      7.95,
+      8.25
+    ],
+    [
+      9.55,
+      9.7
+    ],
+    [
+      10.9,
+      11.15
+    ],
+    [
+      14.5,
+      14.75
+    ],
+    [
+      16.1,
+      16.4
+    ],
+    [
+      18.95,
+      19.15
+    ],
+    [
+      21.35,
+      21.6
+    ],
+    [
+      22.85,
+      23.0
+    ],
+    [
+      24.85,
+      25.15
+    ],
+    [
+      28.7,
+      29.0
+    ],
+    [
+      30.15,
+      30.4
+    ],
+    [
+      33.0,
+      33.35
+    ],
+    [
+      34.8,
+      35.1
+    ],
+    [
+      37.4,
+      37.65
+    ],
+    [
+      38.85,
+      39.2
+    ],
+    [
+      40.85,
+      41.05
+    ],
+    [
+      43.4,
+      43.55
+    ],
+    [
+      45.9,
+      46.25
+    ],
+    [
+      47.4,
+      47.75
+    ],
+    [
+      50.45,
+      50.75
+    ]
+  ],
+  "phrases": [
+    {
+      "start_s": 0.0,
+      "end_s": 4.715,
+      "text": "La IA no te está ahorrando tiempo si todo lo que hace termina otra vez en tus manos.",
+      "words_per_s": 3.82,
+      "active_rms_median_dbfs": -16.07,
+      "active_rms_range_p90_p10_db": 12.38,
+      "f0_median_hz": 170.4,
+      "f0_p90_p10_semitones": 8.13,
+      "low_energy_fraction": 0.053
+    },
+    {
+      "start_s": 4.975,
+      "end_s": 8.068,
+      "text": "Pides una respuesta. La corriges. Cambias el prompt.",
+      "words_per_s": 2.59,
+      "active_rms_median_dbfs": -15.45,
+      "active_rms_range_p90_p10_db": 14.93,
+      "f0_median_hz": 172.5,
+      "f0_p90_p10_semitones": 8.72,
+      "low_energy_fraction": 0.065
+    },
+    {
+      "start_s": 8.218,
+      "end_s": 10.927,
+      "text": "Recibes otra versión. Y vuelves a revisar.",
+      "words_per_s": 2.58,
+      "active_rms_median_dbfs": -16.62,
+      "active_rms_range_p90_p10_db": 9.43,
+      "f0_median_hz": 178.8,
+      "f0_p90_p10_semitones": 8.07,
+      "low_energy_fraction": 0.091
+    },
+    {
+      "start_s": 11.147,
+      "end_s": 16.118,
+      "text": "Aunque la respuesta llegue enseguida, el trabajo no desaparece: se convierte en un bucle.",
+      "words_per_s": 2.82,
+      "active_rms_median_dbfs": -16.06,
+      "active_rms_range_p90_p10_db": 10.88,
+      "f0_median_hz": 171.0,
+      "f0_p90_p10_semitones": 7.34,
+      "low_energy_fraction": 0.081
+    },
+    {
+      "start_s": 16.378,
+      "end_s": 18.981,
+      "text": "Automatizar no es sólo generar algo rápido.",
+      "words_per_s": 2.69,
+      "active_rms_median_dbfs": -15.1,
+      "active_rms_range_p90_p10_db": 12.13,
+      "f0_median_hz": 167.7,
+      "f0_p90_p10_semitones": 8.56,
+      "low_energy_fraction": 0.019
+    },
+    {
+      "start_s": 19.161,
+      "end_s": 24.878,
+      "text": "Es diseñar un flujo con una entrada clara, criterios definidos, una comprobación y un punto final.",
+      "words_per_s": 2.8,
+      "active_rms_median_dbfs": -15.38,
+      "active_rms_range_p90_p10_db": 12.07,
+      "f0_median_hz": 167.3,
+      "f0_p90_p10_semitones": 8.21,
+      "low_energy_fraction": 0.104
+    },
+    {
+      "start_s": 25.118,
+      "end_s": 33.011,
+      "text": "Si casi todos los pasos dependen de que tú rescates la respuesta, la IA te asiste, pero el proceso no se completa de extremo a extremo.",
+      "words_per_s": 3.29,
+      "active_rms_median_dbfs": -15.55,
+      "active_rms_range_p90_p10_db": 10.01,
+      "f0_median_hz": 167.0,
+      "f0_p90_p10_semitones": 8.15,
+      "low_energy_fraction": 0.133
+    },
+    {
+      "start_s": 33.311,
+      "end_s": 34.847,
+      "text": "Es retrabajo acelerado.",
+      "words_per_s": 1.95,
+      "active_rms_median_dbfs": -15.97,
+      "active_rms_range_p90_p10_db": 8.56,
+      "f0_median_hz": 166.3,
+      "f0_p90_p10_semitones": 9.91,
+      "low_energy_fraction": 0.065
+    },
+    {
+      "start_s": 35.107,
+      "end_s": 38.926,
+      "text": "Haz esta prueba con una tarea repetitiva. ¿Tiene una entrada clara?",
+      "words_per_s": 2.88,
+      "active_rms_median_dbfs": -15.59,
+      "active_rms_range_p90_p10_db": 10.53,
+      "f0_median_hz": 171.1,
+      "f0_p90_p10_semitones": 7.61,
+      "low_energy_fraction": 0.143
+    },
+    {
+      "start_s": 39.146,
+      "end_s": 47.466,
+      "text": "¿Puede comprobarse con una regla? ¿Deja una salida lista para el siguiente paso? Si falta una, diseña primero el sistema. Después añade la IA.",
+      "words_per_s": 2.88,
+      "active_rms_median_dbfs": -15.24,
+      "active_rms_range_p90_p10_db": 11.08,
+      "f0_median_hz": 165.6,
+      "f0_p90_p10_semitones": 7.83,
+      "low_energy_fraction": 0.127
+    },
+    {
+      "start_s": 47.746,
+      "end_s": 52.93,
+      "text": "¿Qué tarea de tu negocio avanza al siguiente paso… y cuál vuelve a ti para ser reconstruida?",
+      "words_per_s": 3.28,
+      "active_rms_median_dbfs": -15.9,
+      "active_rms_range_p90_p10_db": 9.83,
+      "f0_median_hz": 169.7,
+      "f0_p90_p10_semitones": 8.34,
+      "low_energy_fraction": 0.097
+    }
+  ],
+  "human_listening": "por confirmar"
+}

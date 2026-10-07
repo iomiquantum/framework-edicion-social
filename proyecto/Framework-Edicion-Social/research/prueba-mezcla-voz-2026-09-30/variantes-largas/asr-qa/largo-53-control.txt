@@ -1,0 +1,11 @@
+La IA no te está ahorrando tiempo si todo lo que hace termina otra vez en tus manos.
+Pides una respuesta, la corriges, cambias el prompt.
+Recibes otra versión y vuelves a revisar.
+Aunque la respuesta llegue enseguida, el trabajo no desaparece, se convierte en un bucle.
+Automatizar no es solo generar algo rápido.
+Es diseñar un flujo con una entrada clara, criterios definidos, una comprobación y un punto final.
+Si casi todos los pasos dependen de que tú rescates la respuesta, la IA te asiste, pero el proceso no se completa de extremo a extremo.
+Es retrabajo acelerado.
+Haz esta prueba con una tarea repetitiva, tiene una entrada clara.
+Puede comprobarse con una regla, deja una salida lista para el siguiente paso, si falta una, diseña primero el sistema, después añade la IA.
+¿Qué tarea de tu negocio avanza al siguiente paso y cuál vuelve a ti para ser reconstruida?

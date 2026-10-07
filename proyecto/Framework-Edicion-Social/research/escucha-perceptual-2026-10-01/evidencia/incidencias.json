@@ -1,0 +1,32 @@
+[
+  {
+    "id": "metric_sfx_sparse",
+    "failure": "La estimación global E-STOI no distingue suficientes efectos breves excesivos: balanced .9822 vs effects_masks .9576; diferencia .0246 < .05 previamente definida.",
+    "decision": "Conservar fallo; no usar índice global como auditor de SFX ni como medida de distracción. Mantener controles y continuar estimación de interferencia musical/habla, cuyos controles sí pasan."
+  },
+  {
+    "id": "omni_mlx_api",
+    "failure": "mlx-lm-omni .1.3 importa get_model_path eliminado en mlx-lm .32.0.",
+    "decision": "Adaptador local explícito para rutas locales verificadas; sin modificar bibliotecas compartidas ni habilitar trust_remote_code. Verificar carga completa de los parámetros usados."
+  },
+  {
+    "id": "omni_quantization_mode",
+    "failure": "MLX actual pasa mode=affine al embedding legado; el método original no acepta el argumento.",
+    "decision": "Adaptador local verifica mode=affine y delega al cuantizador original; otros modos se rechazan. Generación usa tokenizer textual base y prompt ya condicionado por audio. Sin edición de paquetes compartidos."
+  },
+  {
+    "id": "omni_conv_layout",
+    "failure": "AudioEncoder conv1 checkpoint shape (1280,128,3), input (6,200,128): disposición PyTorch incompatibile con Conv1d MLX; conv2 igualmente por verificar.",
+    "decision": "Transponer únicamente ejes in/kernel de los dos pesos Conv1d después de comprobar shapes exactos; registrar adaptaciones, no alterar checkpoint ni el resto de parámetros. Comprobar con controles de sonido."
+  },
+  {
+    "id": "omni_audio_attention_windows",
+    "failure": "Puerto MLX atiende globalmente entre chunks; encoder oficial Transformers delimita bloques mediante cu_seqlens. Esta diferencia afecta fidelidad de inferencia.",
+    "decision": "Adaptador local de atención bloqueada de100posiciones tras conv, según n_window=100. Conservar salida/receta anterior y repetir controles desde cero. No afirmar equivalencia exacta con backend oficial."
+  },
+  {
+    "id": "disk_headroom_after_checkpoint",
+    "failure": "Guard4GiB detuvo Gemma después de terminar3550670554bytes/checksum del checkpoint. Espacio disponible3.25GiB; swap de sistema14.27GiB. Restan metadatos/tokenizer~33MiB.",
+    "decision": "Terminar únicamente archivos individuales<=64MiB con reserva>=2GiB; conservar reserva4GiB para nuevos pesos. No descargar más modelos. Limitar/cache de memoria y registrar espacio final."
+  }
+]

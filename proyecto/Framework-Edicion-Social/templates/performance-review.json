@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0.0",
+  "review_id": "",
+  "project_id": "",
+  "video_id": "",
+  "platform": "unknown",
+  "measurement_window": {
+    "started_at": "",
+    "ended_at": "",
+    "hours_since_publish": null,
+    "data_captured_at": ""
+  },
+  "distribution_context": {
+    "traffic_source": "unknown",
+    "paid_spend": null,
+    "currency": null,
+    "followers_at_publish": null,
+    "campaign_objective": null,
+    "audience_notes": ""
+  },
+  "content_context": {
+    "duration_s": null,
+    "format": null,
+    "style_id": null,
+    "hook_variant": null,
+    "cta_variant": null,
+    "publish_slot": null,
+    "content_notes": ""
+  },
+  "metrics": {
+    "impressions": null,
+    "reach": null,
+    "views": null,
+    "average_watch_time_s": null,
+    "completion_rate": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "saves": null,
+    "clicks": null,
+    "conversions": null
+  },
+  "benchmarks": {
+    "cohort_id": null,
+    "cohort_definition": "",
+    "sample_size": null,
+    "median_views": null,
+    "median_completion_rate": null,
+    "median_share_rate": null
+  },
+  "evidence_status": {
+    "status": "pending_verified_cohort_evidence",
+    "report_path": null,
+    "report_sha256": null,
+    "cohort_id": null,
+    "metrics_evidence_sha256": null,
+    "notice": "High confidence, retirement, and promotion remain unavailable until a semantic verifier binds this review to an exact cohort report and local metric evidence."
+  },
+  "interpretation": {
+    "confidence": "insufficient",
+    "causal_claim_allowed": false,
+    "confounders": [],
+    "observations": [],
+    "hypotheses": []
+  },
+  "next_step": {
+    "decision": "observe",
+    "experiment_id": null,
+    "rationale": "",
+    "minimum_additional_sample": null,
+    "owner": null
+  },
+  "governance": {
+    "automatic_rule_promotion": false,
+    "rule_registry_write_permitted": false,
+    "human_review_required": true,
+    "promotion_status": "not_applicable",
+    "evidence_required_before_policy_change": true
+  },
+  "created_at": "",
+  "updated_at": ""
+}

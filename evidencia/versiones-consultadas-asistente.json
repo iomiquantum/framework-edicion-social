@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-07T00:11:13Z",
+  "releases": {
+    "node": {
+      "version": "26.10.0",
+      "lts": "24.21.0",
+      "source": "https://nodejs.org/dist/index.json"
+    },
+    "hyperframes": {
+      "version": "0.8.138",
+      "source": "https://registry.npmjs.org/hyperframes/latest"
+    },
+    "codex": {
+      "version": "0.160.1",
+      "source": "https://registry.npmjs.org/@openai%2fcodex/latest"
+    },
+    "python": {
+      "version": "3.14.8",
+      "source": "https://www.python.org/downloads/"
+    },
+    "ffmpeg": {
+      "version": "9.0.2",
+      "source": "https://ffmpeg.org/releases/"
+    },
+    "audio": {
+      "version": "2.3.0",
+      "source": "https://pypi.org/pypi/ai-edge-litert/json"
+    }
+  },
+  "policy": "Última estable consultada ahora. Versiones nuevas no equivalen a compatibilidad comprobada."
+}

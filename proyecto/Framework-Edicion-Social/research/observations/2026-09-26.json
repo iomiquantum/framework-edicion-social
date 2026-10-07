@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-26",
+  "consulted_at": "2026-09-26T09:01:54-05:00",
+  "scope": {
+    "country": "EC",
+    "region_fallback": "LATAM",
+    "language": "es",
+    "niche": "ai_education",
+    "platforms": ["instagram_reels", "tiktok", "youtube_shorts"],
+    "distribution": "organic"
+  },
+  "status": "no_material_change",
+  "platform_changes": [],
+  "observed_patterns": [],
+  "deduplication": {
+    "against": "research/observations/2026-09-25.json",
+    "duplicates_removed": [
+      "Shorts Series y reproducción secuencial ya registradas el 2026-09-25.",
+      "Publicaciones de comunidad dentro del feed de Shorts ya registradas el 2026-09-25.",
+      "Edición conversacional de Shorts/Create y pruebas A/B de cortes ya registradas el 2026-09-24."
+    ],
+    "material_items_kept": 0
+  },
+  "coverage": {
+    "ecuador_specific_sample": "not_available",
+    "regional_proxy": "Official global and ES-LATAM platform sources; no Ecuador-specific creator sample was available.",
+    "official_sources_checked": [
+      "YouTube Blog",
+      "YouTube Blog ES-LATAM",
+      "TikTok Newsroom",
+      "Meta Newsroom",
+      "Meta Reels archive"
+    ],
+    "recent_external_sample": "insufficient_evidence"
+  },
+  "notes": [
+    "No se verificó desde la consulta anterior un cambio oficial nuevo y aplicable a la edición o publicación de videos verticales de tecnología e IA en español.",
+    "Los anuncios de YouTube del 23 de septiembre continúan dentro de la ventana de siete días, pero ya están deduplicados en las observaciones del 24 y 25 de septiembre.",
+    "Se revalidó la página oficial de TikTok sobre transparencia de contenido generado por IA: el cuerpo accesible conserva fecha de publicación del 14 de julio de 2026 y no expone un delta fechado posterior verificable; no se trató como novedad diaria.",
+    "Las noticias de Meta del 24 de septiembre consultadas se concentran en Connect y hardware/IA general; no aportan una acción nueva verificable para Reels orgánicos del proyecto.",
+    "No se encontró una muestra reciente, reproducible y suficientemente contextualizada de Ecuador o LATAM para declarar un patrón viral de edición. No se modifican reglas, perfiles, experimentos ni renders."
+  ]
+}

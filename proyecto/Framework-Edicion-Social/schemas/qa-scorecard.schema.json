@@ -1,0 +1,453 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/qa-scorecard.schema.json",
+  "title": "Professional video QA scorecard",
+  "description": "Separates delivery-blocking hard gates from human editorial criteria while preserving time-based evidence and justified exceptions.",
+  "type": "object",
+  "required": [
+    "$schema",
+    "schema_version",
+    "scorecard_id",
+    "project_id",
+    "video_id",
+    "render_id",
+    "evaluated_at",
+    "policy",
+    "artifacts",
+    "sections",
+    "exceptions",
+    "editorial_signoff",
+    "summary"
+  ],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schema_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "scorecard_id": {"type": "string"},
+    "project_id": {"type": "string"},
+    "video_id": {"type": "string"},
+    "render_id": {"type": "string"},
+    "evaluated_at": {"type": "string"},
+    "policy": {
+      "type": "object",
+      "required": [
+        "status_values",
+        "any_hard_fail_blocks_delivery",
+        "required_hard_not_run_blocks_delivery",
+        "hard_fail_exception_override_allowed",
+        "evaluated_check_requires_evidence",
+        "warn_or_fail_requires_note",
+        "time_evidence_uses_final_render_timeline"
+      ],
+      "properties": {
+        "status_values": {"const": ["pass", "warn", "fail", "not_run"]},
+        "any_hard_fail_blocks_delivery": {"const": true},
+        "required_hard_not_run_blocks_delivery": {"const": true},
+        "hard_fail_exception_override_allowed": {"const": false},
+        "evaluated_check_requires_evidence": {"const": true},
+        "warn_or_fail_requires_note": {"const": true},
+        "time_evidence_uses_final_render_timeline": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "artifacts": {
+      "type": "object",
+      "required": [
+        "source_manifest_path",
+        "source_sha256",
+        "approved_take_id",
+        "transcript_path",
+        "transcript_sha256",
+        "cut_plan_path",
+        "cut_plan_sha256",
+        "render_path",
+        "render_sha256",
+        "render_manifest_path",
+        "framework_version",
+        "hyperframes_version"
+      ],
+      "properties": {
+        "source_manifest_path": {"type": "string"},
+        "source_sha256": {"$ref": "#/$defs/hashOrEmpty"},
+        "approved_take_id": {"type": "string"},
+        "transcript_path": {"type": "string"},
+        "transcript_sha256": {"$ref": "#/$defs/hashOrEmpty"},
+        "cut_plan_path": {"type": "string"},
+        "cut_plan_sha256": {"$ref": "#/$defs/hashOrEmpty"},
+        "render_path": {"type": "string"},
+        "render_sha256": {"$ref": "#/$defs/hashOrEmpty"},
+        "render_manifest_path": {"type": "string"},
+        "framework_version": {"type": "string"},
+        "hyperframes_version": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "sections": {
+      "type": "object",
+      "required": [
+        "source_and_take",
+        "phonemes_and_cadence",
+        "captions",
+        "face_gestures_and_safe_zones",
+        "semantic_visuals",
+        "color",
+        "audio_and_sfx",
+        "structure_hook_and_cta",
+        "technical_validation",
+        "device_playback"
+      ],
+      "properties": {
+        "source_and_take": {"$ref": "#/$defs/section"},
+        "phonemes_and_cadence": {"$ref": "#/$defs/section"},
+        "captions": {"$ref": "#/$defs/section"},
+        "face_gestures_and_safe_zones": {"$ref": "#/$defs/section"},
+        "semantic_visuals": {"$ref": "#/$defs/section"},
+        "color": {"$ref": "#/$defs/section"},
+        "audio_and_sfx": {"$ref": "#/$defs/section"},
+        "structure_hook_and_cta": {"$ref": "#/$defs/section"},
+        "technical_validation": {"$ref": "#/$defs/section"},
+        "device_playback": {"$ref": "#/$defs/section"}
+      },
+      "additionalProperties": false
+    },
+    "exceptions": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/exception"}
+    },
+    "editorial_signoff": {
+      "type": "object",
+      "required": [
+        "status",
+        "reviewer",
+        "reviewed_at",
+        "accepted_exception_ids",
+        "notes"
+      ],
+      "properties": {
+        "status": {"$ref": "#/$defs/status"},
+        "reviewer": {"type": "string"},
+        "reviewed_at": {"type": "string"},
+        "accepted_exception_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^EXC-[A-Z0-9-]+$"},
+          "uniqueItems": true
+        },
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "hard_gate_counts",
+        "editorial_counts",
+        "hard_gate_status",
+        "editorial_status",
+        "delivery_decision",
+        "delivery_allowed",
+        "blocking_check_ids",
+        "warning_check_ids",
+        "unresolved_exception_ids",
+        "notes"
+      ],
+      "properties": {
+        "hard_gate_counts": {"$ref": "#/$defs/counts"},
+        "editorial_counts": {"$ref": "#/$defs/counts"},
+        "hard_gate_status": {"$ref": "#/$defs/status"},
+        "editorial_status": {"$ref": "#/$defs/status"},
+        "delivery_decision": {
+          "enum": ["pending", "blocked", "needs_human_review", "ready"]
+        },
+        "delivery_allowed": {"type": "boolean"},
+        "blocking_check_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "warning_check_ids": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "unresolved_exception_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^EXC-[A-Z0-9-]+$"},
+          "uniqueItems": true
+        },
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {"properties": {"delivery_allowed": {"const": true}}},
+          "then": {
+            "properties": {
+              "delivery_decision": {"const": "ready"},
+              "hard_gate_status": {"enum": ["pass", "warn"]},
+              "editorial_status": {"enum": ["pass", "warn"]},
+              "blocking_check_ids": {"type": "array", "maxItems": 0},
+              "unresolved_exception_ids": {"type": "array", "maxItems": 0}
+            }
+          }
+        },
+        {
+          "if": {"properties": {"hard_gate_status": {"const": "fail"}}},
+          "then": {
+            "properties": {
+              "delivery_decision": {"const": "blocked"},
+              "delivery_allowed": {"const": false},
+              "blocking_check_ids": {"type": "array", "minItems": 1}
+            }
+          }
+        },
+        {
+          "if": {"properties": {"hard_gate_status": {"const": "not_run"}}},
+          "then": {"properties": {"delivery_allowed": {"const": false}}}
+        }
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "status": {"enum": ["pass", "warn", "fail", "not_run"]},
+    "hashOrEmpty": {
+      "oneOf": [
+        {"const": ""},
+        {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      ]
+    },
+    "counts": {
+      "type": "object",
+      "required": ["total", "pass", "warn", "fail", "not_run"],
+      "properties": {
+        "total": {"type": "integer", "minimum": 0},
+        "pass": {"type": "integer", "minimum": 0},
+        "warn": {"type": "integer", "minimum": 0},
+        "fail": {"type": "integer", "minimum": 0},
+        "not_run": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["evidence_id", "kind", "note"],
+      "properties": {
+        "evidence_id": {"type": "string", "pattern": "^EVID-[A-Z0-9-]+$"},
+        "kind": {
+          "enum": [
+            "command_output",
+            "metric",
+            "artifact",
+            "timestamp_range",
+            "frame",
+            "transcript_alignment",
+            "waveform",
+            "listening_observation",
+            "visual_observation",
+            "platform_preview"
+          ]
+        },
+        "artifact_path": {"type": ["string", "null"]},
+        "artifact_sha256": {
+          "oneOf": [
+            {"type": "null"},
+            {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+          ]
+        },
+        "start_s": {"type": ["number", "null"], "minimum": 0},
+        "end_s": {"type": ["number", "null"], "minimum": 0},
+        "frame": {"type": ["integer", "null"], "minimum": 0},
+        "device": {
+          "type": ["string", "null"],
+          "enum": [null, "headphones", "studio_monitors", "phone_speaker", "phone_screen", "desktop_speaker", "platform_preview"]
+        },
+        "command": {"type": ["string", "null"]},
+        "metric": {"type": ["string", "null"]},
+        "value": {"type": ["string", "number", "boolean", "null"]},
+        "unit": {"type": ["string", "null"]},
+        "observed_by": {"type": ["string", "null"]},
+        "recorded_at": {"type": ["string", "null"]},
+        "note": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {"properties": {"kind": {"const": "timestamp_range"}}},
+          "then": {
+            "required": ["start_s", "end_s"],
+            "properties": {
+              "start_s": {"type": "number", "minimum": 0},
+              "end_s": {"type": "number", "minimum": 0}
+            }
+          }
+        },
+        {
+          "if": {"properties": {"kind": {"const": "frame"}}},
+          "then": {
+            "required": ["frame"],
+            "properties": {"frame": {"type": "integer", "minimum": 0}}
+          }
+        },
+        {
+          "if": {"properties": {"kind": {"const": "metric"}}},
+          "then": {
+            "required": ["metric", "value"],
+            "properties": {
+              "metric": {"type": "string", "minLength": 1},
+              "value": {"type": ["string", "number", "boolean"]}
+            }
+          }
+        },
+        {
+          "if": {"properties": {"kind": {"const": "command_output"}}},
+          "then": {
+            "required": ["command"],
+            "properties": {"command": {"type": "string", "minLength": 1}}
+          }
+        },
+        {
+          "if": {"properties": {"kind": {"const": "listening_observation"}}},
+          "then": {
+            "required": ["device", "observed_by"],
+            "properties": {
+              "device": {"enum": ["headphones", "studio_monitors", "phone_speaker", "phone_screen", "desktop_speaker", "platform_preview"]},
+              "observed_by": {"type": "string", "minLength": 1}
+            }
+          }
+        }
+      ]
+    },
+    "hardCheck": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "requirement",
+        "required",
+        "verification_mode",
+        "status",
+        "evidence",
+        "notes",
+        "exception_ids"
+      ],
+      "properties": {
+        "id": {"type": "string", "pattern": "^HG-[A-Z]+-[0-9]{3}$"},
+        "title": {"type": "string", "minLength": 3},
+        "requirement": {"type": "string", "minLength": 8},
+        "required": {"type": "boolean"},
+        "verification_mode": {"enum": ["automatic", "hybrid"]},
+        "status": {"$ref": "#/$defs/status"},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+        "notes": {"type": "string"},
+        "exception_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^EXC-[A-Z0-9-]+$"},
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {"properties": {"status": {"enum": ["pass", "warn", "fail"]}}},
+          "then": {"properties": {"evidence": {"type": "array", "minItems": 1}}}
+        },
+        {
+          "if": {"properties": {"status": {"enum": ["warn", "fail"]}}},
+          "then": {"properties": {"notes": {"type": "string", "minLength": 1}}}
+        }
+      ]
+    },
+    "editorialCriterion": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "review_question",
+        "required",
+        "verification_mode",
+        "status",
+        "evidence",
+        "notes",
+        "exception_ids"
+      ],
+      "properties": {
+        "id": {"type": "string", "pattern": "^ED-[A-Z]+-[0-9]{3}$"},
+        "title": {"type": "string", "minLength": 3},
+        "review_question": {"type": "string", "minLength": 8},
+        "required": {"type": "boolean"},
+        "verification_mode": {"const": "human"},
+        "status": {"$ref": "#/$defs/status"},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+        "notes": {"type": "string"},
+        "exception_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^EXC-[A-Z0-9-]+$"},
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {"properties": {"status": {"enum": ["pass", "warn", "fail"]}}},
+          "then": {"properties": {"evidence": {"type": "array", "minItems": 1}}}
+        },
+        {
+          "if": {"properties": {"status": {"enum": ["warn", "fail"]}}},
+          "then": {"properties": {"notes": {"type": "string", "minLength": 1}}}
+        }
+      ]
+    },
+    "section": {
+      "type": "object",
+      "required": ["hard_gates", "editorial_criteria"],
+      "properties": {
+        "hard_gates": {"type": "array", "items": {"$ref": "#/$defs/hardCheck"}},
+        "editorial_criteria": {"type": "array", "items": {"$ref": "#/$defs/editorialCriterion"}}
+      },
+      "additionalProperties": false
+    },
+    "exception": {
+      "type": "object",
+      "required": [
+        "id",
+        "check_ids",
+        "start_s",
+        "end_s",
+        "reason",
+        "risk",
+        "compensating_controls",
+        "requested_by",
+        "approved_by",
+        "approved_at",
+        "disposition",
+        "hard_gate_override"
+      ],
+      "properties": {
+        "id": {"type": "string", "pattern": "^EXC-[A-Z0-9-]+$"},
+        "check_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "start_s": {"type": ["number", "null"], "minimum": 0},
+        "end_s": {"type": ["number", "null"], "minimum": 0},
+        "reason": {"type": "string", "minLength": 8},
+        "risk": {"type": "string", "minLength": 8},
+        "compensating_controls": {"type": "array", "items": {"type": "string"}},
+        "requested_by": {"type": "string"},
+        "approved_by": {"type": "string"},
+        "approved_at": {"type": "string"},
+        "disposition": {"enum": ["pending", "accepted", "rejected", "superseded"]},
+        "hard_gate_override": {"const": false}
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {"properties": {"disposition": {"const": "accepted"}}},
+          "then": {
+            "properties": {
+              "approved_by": {"type": "string", "minLength": 1},
+              "approved_at": {"type": "string", "minLength": 1},
+              "compensating_controls": {"type": "array", "minItems": 1}
+            }
+          }
+        }
+      ]
+    }
+  }
+}

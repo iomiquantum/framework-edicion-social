@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "decision_id": "STYLE-DECISION-VIDEO-00",
+  "blueprint_id": "CBP-VIDEO-00-V1",
+  "blueprint_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "catalog_path": "styles/catalog.json",
+  "catalog_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "scoring_version": "style-score-v1",
+  "weights": {
+    "topic_and_intent": 0.3,
+    "narrative_rhythm": 0.25,
+    "source_geometry": 0.2,
+    "platform_fit": 0.15,
+    "brand_tone": 0.1
+  },
+  "threshold": 0.62,
+  "abstention_margin": 0.08,
+  "status": "abstained",
+  "selected_style_id": null,
+  "score_margin": null,
+  "abstention_reasons": [
+    "not_scored"
+  ],
+  "ranking": [],
+  "explanation": "Ejecute scripts/score_style.py con un creative blueprint completo antes de seleccionar un estilo."
+}

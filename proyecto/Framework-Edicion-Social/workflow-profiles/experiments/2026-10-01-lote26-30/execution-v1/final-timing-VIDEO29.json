@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/workflow-runs/lote26-30-flujo2-v1",
+  "measurement_method": "utc_wall_clock_time_time_cross_process",
+  "status": "measured",
+  "events": 18,
+  "closed_intervals": 9,
+  "open_interval": null,
+  "intervals": [
+    {
+      "interval_id": "2a78c837-f2e1-48e7-a286-8333059a591c",
+      "phase": "semantic_lock",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T04:47:37.835757+00:00",
+      "ended_at_utc": "2026-10-01T04:52:08.273657+00:00",
+      "started_epoch_seconds": 1790830057.835757,
+      "ended_epoch_seconds": 1790830328.273657,
+      "seconds": 270.43790006637573,
+      "start_note": "T29 ritmo/recuerdo con fuente compartida y revisión ligera antes montaje",
+      "stop_note": "T29 cuatro maquetas y contexto fotoevaluados; caption3filasresuelto; evidencia conforme antes montaje"
+    },
+    {
+      "interval_id": "a8402167-acce-4c10-8f31-a9b8c7e35426",
+      "phase": "resources",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T04:52:08.472950+00:00",
+      "ended_at_utc": "2026-10-01T05:01:15.802698+00:00",
+      "started_epoch_seconds": 1790830328.47295,
+      "ended_epoch_seconds": 1790830875.802698,
+      "seconds": 547.329747915268,
+      "start_note": "Reutilización contextual foto/voz/SFX, adaptación de T29 sin generarimageninnecesaria; esperando extracción heavy cuando slot disponible",
+      "stop_note": "Recursosreutilizados+scriptmontaje15cues5escenas; intervalo incluye implementación y coordinación26, no tiempo puro recursos"
+    },
+    {
+      "interval_id": "996257cf-6018-4fb9-b5dc-224b07338e6b",
+      "phase": "assembly",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T05:01:15.890291+00:00",
+      "ended_at_utc": "2026-10-01T05:10:02.018600+00:00",
+      "started_epoch_seconds": 1790830875.890291,
+      "ended_epoch_seconds": 1790831402.0186,
+      "seconds": 526.1283090114594,
+      "start_note": "Revisión dirigida texto/geometría y perfil prosódico29 antes checkestable",
+      "stop_note": "Montaje cinco estados/captions73palabras completado; contraste azul ajustado antesQA. Perfilvoz y guardSFX sin flags."
+    },
+    {
+      "interval_id": "5e293a18-4a9e-4afa-a611-1fd6fb95e44a",
+      "phase": "qa_pre_render",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T05:10:02.091547+00:00",
+      "ended_at_utc": "2026-10-01T05:13:35.373089+00:00",
+      "started_epoch_seconds": 1790831402.0915468,
+      "ended_epoch_seconds": 1790831615.373089,
+      "seconds": 213.28154230117798,
+      "start_note": "Revisión visual/audio técnica/integral con smoke HDR dirigido; escucha humana pendiente.",
+      "stop_note": "SmokeHDR/lectura/fondos revisados y candidato congelado. Auditoría no es escucha."
+    },
+    {
+      "interval_id": "3527c736-11a6-48ad-80a8-d89f5375f48a",
+      "phase": "render",
+      "kind": "command",
+      "started_at_utc": "2026-10-01T05:13:35.470148+00:00",
+      "ended_at_utc": "2026-10-01T05:16:56.372244+00:00",
+      "started_epoch_seconds": 1790831615.470148,
+      "ended_epoch_seconds": 1790831816.372244,
+      "seconds": 200.90209579467773,
+      "start_note": "FinalHLG0.8.100unworker; guardtexto/SFX antes captura.",
+      "stop_note": "Final719frames terminado motor171.6s; reloj incluye coordinación/documentación durante comando. IniciaQAexacto."
+    },
+    {
+      "interval_id": "18b45c01-f867-467f-a42b-74c019242a82",
+      "phase": "qa_post_render",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T05:16:56.458872+00:00",
+      "ended_at_utc": "2026-10-01T05:19:19.827705+00:00",
+      "started_epoch_seconds": 1790831816.458872,
+      "ended_epoch_seconds": 1790831959.8277051,
+      "seconds": 143.36883306503296,
+      "start_note": "Decodificación/probe, AAC exacto, todoscues/fronteras/photo/cierre revisión visual. Humanlisteningpending.",
+      "stop_note": "QAexacta140frames5hojas/AACparity1/decodificaciónPASS y documentación entrega local completas; pendinghumana."
+    },
+    {
+      "interval_id": "ddff7480-5fb9-4c76-b6b2-100099b2a89d",
+      "phase": "review_changes",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T05:22:19.836474+00:00",
+      "ended_at_utc": "2026-10-01T05:23:52.736382+00:00",
+      "started_epoch_seconds": 1790832139.8364742,
+      "ended_epoch_seconds": 1790832232.736382,
+      "seconds": 92.89990782737732,
+      "start_note": "Sombra detectó gráficos sobre rostro durantefade. Delaybody.16s tras fondoopaco, v1preservada; candidato v2/re-render yQA crítico.",
+      "stop_note": "Corrección3cuerpos gráficos y cuatroframes preview dirigidos validada; fuente/voz/SFX/caps intactos."
+    },
+    {
+      "interval_id": "8356e600-5929-4da9-9ff4-a36440a4338e",
+      "phase": "render",
+      "kind": "command",
+      "started_at_utc": "2026-10-01T05:23:52.835035+00:00",
+      "ended_at_utc": "2026-10-01T05:27:49.273237+00:00",
+      "started_epoch_seconds": 1790832232.8350348,
+      "ended_epoch_seconds": 1790832469.273237,
+      "seconds": 236.43820214271545,
+      "start_note": "Segundo fullrender29v2; registrar costo adicional. V1preservada.",
+      "stop_note": "Segundo final motor161.9s completo; iniciaQAcriticoexacto, voice/capsintactos."
+    },
+    {
+      "interval_id": "9c5b712f-61d6-49ec-8d35-6bb4c12fdaa2",
+      "phase": "qa_post_render",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T05:27:49.349799+00:00",
+      "ended_at_utc": "2026-10-01T05:29:42.540433+00:00",
+      "started_epoch_seconds": 1790832469.349799,
+      "ended_epoch_seconds": 1790832582.540433,
+      "seconds": 113.19063401222229,
+      "start_note": "V2 exacto crítico todas15lecturas/transiciones/photo/ultimo+AACAparity;3cuerpos delayvalidar.",
+      "stop_note": "V2QAexact58frames/todas15lecturas, faceoverlayresuelto,3SFXparidadintacta; documentación con coord27incluida."
+    }
+  ],
+  "phases": {
+    "intake": {
+      "status": "not_measured",
+      "intervals": 0,
+      "total_seconds": null,
+      "kinds": {
+        "work": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "semantic_lock": {
+      "status": "measured",
+      "intervals": 1,
+      "total_seconds": 270.43790006637573,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 270.43790006637573
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "resources": {
+      "status": "measured",
+      "intervals": 1,
+      "total_seconds": 547.329747915268,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 547.329747915268
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "assembly": {
+      "status": "measured",
+      "intervals": 1,
+      "total_seconds": 526.1283090114594,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 526.1283090114594
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "review_changes": {
+      "status": "measured",
+      "intervals": 1,
+      "total_seconds": 92.89990782737732,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 92.89990782737732
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "qa_pre_render": {
+      "status": "measured",
+      "intervals": 1,
+      "total_seconds": 213.28154230117798,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 213.28154230117798
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "render": {
+      "status": "measured",
+      "intervals": 2,
+      "total_seconds": 437.3402979373932,
+      "kinds": {
+        "work": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "command": {
+          "status": "measured",
+          "intervals": 2,
+          "total_seconds": 437.3402979373932
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "qa_post_render": {
+      "status": "measured",
+      "intervals": 2,
+      "total_seconds": 256.55946707725525,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 2,
+          "total_seconds": 256.55946707725525
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "documentation": {
+      "status": "not_measured",
+      "intervals": 0,
+      "total_seconds": null,
+      "kinds": {
+        "work": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "coordination": {
+      "status": "not_measured",
+      "intervals": 0,
+      "total_seconds": null,
+      "kinds": {
+        "work": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    }
+  },
+  "kinds": {
+    "work": {
+      "status": "measured",
+      "intervals": 7,
+      "total_seconds": 1906.6368741989136
+    },
+    "command": {
+      "status": "measured",
+      "intervals": 2,
+      "total_seconds": 437.3402979373932
+    },
+    "user_wait": {
+      "status": "not_measured",
+      "intervals": 0,
+      "total_seconds": null
+    },
+    "experiment_audit": {
+      "status": "not_measured",
+      "intervals": 0,
+      "total_seconds": null
+    }
+  },
+  "span_started_at_utc": "2026-10-01T04:47:37.835757+00:00",
+  "span_ended_at_utc": "2026-10-01T05:29:42.540433+00:00",
+  "elapsed_span_seconds": 2524.704675912857,
+  "observed_union_seconds": 2343.9771721363068,
+  "unmeasured_gaps_seconds": 180.7275037765503,
+  "observed_operational_union_seconds": 2343.9771721363068,
+  "observed_user_wait_seconds": null,
+  "observed_experiment_audit_seconds": null,
+  "limits": "Solo intervalos cerrados del journal; el abierto queda excluido. El span termina en el último stop: no incluye espera posterior ni tiempo previo al primer start. Los huecos no identifican su causa. work y command son etiquetas de tiempo transcurrido, no actividad humana continua; user_wait y experiment_audit se informan por separado. La unión operativa incluye solo work/command medidos, sin asignar huecos ni espera/auditoría al trabajo. No suma ni importa tiempos de subprocessos. UTC/time.time usa reloj de pared, no monotónico entre procesos. No afirma tokens, costo, ahorro, QA, escucha ni aprobación; no comparar ejecuciones con cobertura distinta."
+}

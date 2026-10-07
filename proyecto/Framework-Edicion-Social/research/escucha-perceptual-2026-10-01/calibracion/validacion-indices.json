@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "dry_reference_near_one": true,
+    "music_excess_lowers_estimate": true,
+    "effects_excess_lowers_estimate": false,
+    "missing_voice_lowers_estimate": true
+  },
+  "speech_music_scope_pass": true,
+  "all_capabilities_pass": false,
+  "human_listener": false,
+  "excluded": [
+    "Global SFX masking/distraction/audibility; sparse transients failed the predeclared sensitivity control."
+  ],
+  "limits": "Directional sensitivity on these controls only; no MOS, universal cutoff or creative ranking."
+}

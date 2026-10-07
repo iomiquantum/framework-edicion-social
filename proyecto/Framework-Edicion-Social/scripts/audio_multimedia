@@ -1,0 +1,10 @@
+#!/bin/sh
+# Portable copy only. Original Mac entry remains unchanged.
+audio_script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+audio_kit_root=$(CDPATH= cd -- "$audio_script_dir/../../.." && pwd)
+audio_runtime_python="$audio_kit_root/runtime/audio/bin/python"
+if [ ! -x "$audio_runtime_python" ]; then
+  printf '%s\n' 'Prepara audio con INICIO Y CONFIGURACION DE FRAMEWORK.' >&2
+  exit 1
+fi
+exec "$audio_runtime_python" "$audio_kit_root/tools/audio.py" "$@"

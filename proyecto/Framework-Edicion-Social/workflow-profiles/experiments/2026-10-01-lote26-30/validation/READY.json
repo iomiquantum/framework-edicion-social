@@ -1,0 +1,213 @@
+{
+  "status": "tooling_and_preservation_verified_ready_for_pilot",
+  "unit_tests_total": 41,
+  "tests_scope": "8workflow_run+8phase_timer+15reuse_context+5existing_process_timer+5existing_visibletext_guard",
+  "cli_smoke": [
+    {
+      "command": [
+        "python3",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/workflow_run.py",
+        "init",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/workflow-run",
+        "--video",
+        "VIDEO-25",
+        "--flow",
+        "2",
+        "--trial",
+        "REGRESSION-25-NO-EDIT"
+      ],
+      "returncode": 0,
+      "wall_s": 0.04840854095527902
+    },
+    {
+      "command": [
+        "python3",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/medir_fases_edicion.py",
+        "start",
+        "--run",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/workflow-run",
+        "--phase",
+        "qa_post_render",
+        "--kind",
+        "experiment_audit",
+        "--note",
+        "Read-only tooling smoke, not video25 re-edit or full QA"
+      ],
+      "returncode": 0,
+      "wall_s": 0.04827870795270428
+    },
+    {
+      "command": [
+        "python3",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/workflow_run.py",
+        "event",
+        "--run",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/workflow-run",
+        "--kind",
+        "targeted_check",
+        "--note",
+        "Tooling context check only; original25 retained",
+        "--evidence",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/result.json"
+      ],
+      "returncode": 0,
+      "wall_s": 0.04332412499934435
+    },
+    {
+      "command": [
+        "python3",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/medir_fases_edicion.py",
+        "stop",
+        "--run",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/workflow-run"
+      ],
+      "returncode": 0,
+      "wall_s": 0.05032054096227512
+    },
+    {
+      "command": [
+        "python3",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/workflow_run.py",
+        "report",
+        "--run",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/workflow-run",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/workflow-run/report-v1.json",
+        "--evidence",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/regression-video25/result.json"
+      ],
+      "returncode": 0,
+      "wall_s": 0.04168595897499472
+    }
+  ],
+  "baseline_preservation": [
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/AGENTS.md",
+      "snapshot_intact": true,
+      "current_identical": false,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/AGENTS.md",
+      "snapshot_intact": true,
+      "current_identical": false,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/ESTANDAR_QA_PREAPROBACION.md",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/README.md",
+      "snapshot_intact": true,
+      "current_identical": false,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/MEJORA_CONTINUA.md",
+      "snapshot_intact": true,
+      "current_identical": false,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/FLUJO_PRODUCCION_RAPIDA.md",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/OPERACION_OPTIMIZACION.md",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/QA_PROFESIONAL.md",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/PROMPT_EDICION_INDIVIDUAL.md",
+      "snapshot_intact": true,
+      "current_identical": false,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/PROMPT_INGESTA_Y_EDICION.md",
+      "snapshot_intact": true,
+      "current_identical": false,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/AUDIO_DIRECCION_Y_PROSODIA.md",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/SUBTITULOS_CONTEXTO_Y_LECTURA.md",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/IMAGENES_CONTEXTO_REALISMO.md",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/profiles/default.json",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/change_impact.py",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/cache_key.py",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/medir_proceso.py",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/build_review_packet.py",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/validar_texto_visible.py",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    },
+    {
+      "source": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/revisar_presencia_sfx.py",
+      "snapshot_intact": true,
+      "current_identical": true,
+      "original_body_preserved": true
+    }
+  ],
+  "initial_preproduction52files_unchanged": true,
+  "video25_reference24files_unchanged": true,
+  "flow1_default": true,
+  "flows2and3": "experimental_ready_for_pilot_not_promoted",
+  "audiovisual_new_profiles": "not_run",
+  "speed_improvement": "not_measured",
+  "runtime_source_snapshots": "No video edits/renders or originalmedia copied/modified in this task"
+}

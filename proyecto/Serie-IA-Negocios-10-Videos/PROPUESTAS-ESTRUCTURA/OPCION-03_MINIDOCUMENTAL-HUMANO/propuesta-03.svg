@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3200" height="3200" viewBox="0 0 3200 3200">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#080706" flood-opacity="0.5"/>
+    </filter>
+    <pattern id="grain" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r="1" fill="#f2eadc" opacity="0.05"/>
+      <circle cx="9" cy="8" r="0.8" fill="#f2eadc" opacity="0.035"/>
+    </pattern>
+    <pattern id="rule" width="100" height="44" patternUnits="userSpaceOnUse">
+      <path d="M0 43.5H100" stroke="#f2eadc" stroke-width="1" opacity="0.08"/>
+    </pattern>
+    <linearGradient id="photoFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.45" stop-color="#171411" stop-opacity="0"/>
+      <stop offset="1" stop-color="#171411" stop-opacity="0.96"/>
+    </linearGradient>
+    <clipPath id="f1"><rect x="301" y="270" width="486" height="864"/></clipPath>
+    <clipPath id="f2"><rect x="829" y="270" width="486" height="864"/></clipPath>
+    <clipPath id="f3"><rect x="1357" y="270" width="486" height="864"/></clipPath>
+    <clipPath id="f4"><rect x="1885" y="270" width="486" height="864"/></clipPath>
+    <clipPath id="f5"><rect x="2413" y="270" width="486" height="864"/></clipPath>
+    <clipPath id="portraitCircle"><circle cx="2656" cy="914" r="122"/></clipPath>
+  </defs>
+
+  <rect width="3200" height="3200" fill="#171411"/>
+  <rect width="3200" height="1400" fill="url(#rule)"/>
+  <rect x="0" y="0" width="44" height="1400" fill="#ff6b3d"/>
+  <text x="150" y="88" font-family="Georgia, serif" font-size="31" font-style="italic" fill="#ff6b3d">Propuesta 03 · Video 11</text>
+  <text x="150" y="170" font-family="Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2" fill="#f2eadc">MINIDOCUMENTAL HUMANO / TENSIÓN PROGRESIVA</text>
+  <text x="3030" y="98" text-anchor="end" font-family="Courier New, monospace" font-size="23" font-weight="700" fill="#f2eadc">5 MOMENTOS · 9:16</text>
+  <text x="3030" y="145" text-anchor="end" font-family="Courier New, monospace" font-size="18" fill="#ff6b3d">PROMESA · OBSERVACIÓN · IDENTIDAD</text>
+  <line x1="150" y1="223" x2="3030" y2="223" stroke="#ff6b3d" stroke-width="3"/>
+
+  <!-- FRAME 1: cold open, promise first -->
+  <g filter="url(#shadow)"><rect x="301" y="270" width="486" height="864" fill="#171411"/></g>
+  <g clip-path="url(#f1)">
+    <image x="301" y="270" width="486" height="864" xlink:href="../assets-compartidos/presentador-01.jpg" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="301" y="270" width="486" height="864" fill="url(#photoFade)"/>
+    <text x="329" y="866" font-family="Georgia, serif" font-size="31" font-style="italic" fill="#ff6b3d">La dificultad cambió.</text>
+    <text x="329" y="930" font-family="Arial, sans-serif" font-size="54" font-weight="900" letter-spacing="-2" fill="#f2eadc">CREAR YA NO</text>
+    <text x="329" y="989" font-family="Arial, sans-serif" font-size="54" font-weight="900" letter-spacing="-2" fill="#f2eadc">ES DIFÍCIL.</text>
+    <line x1="329" y1="1022" x2="520" y2="1022" stroke="#ff6b3d" stroke-width="8"/>
+    <text x="329" y="1074" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#f2eadc">Ahora lo difícil es importar.</text>
+  </g>
+
+  <!-- FRAME 2: visual tension without invented metrics -->
+  <g filter="url(#shadow)"><rect x="829" y="270" width="486" height="864" fill="#2a241e"/></g>
+  <g clip-path="url(#f2)">
+    <rect x="829" y="270" width="486" height="864" fill="#2a241e"/>
+    <rect x="829" y="270" width="486" height="864" fill="url(#grain)"/>
+    <text x="861" y="324" font-family="Courier New, monospace" font-size="17" font-weight="700" fill="#ff6b3d">CUANDO TODO AUMENTA</text>
+    <text x="846" y="485" font-family="Arial, sans-serif" font-size="114" font-weight="900" letter-spacing="-8" fill="#f2eadc" opacity="0.13">MÁS</text>
+    <text x="846" y="618" font-family="Arial, sans-serif" font-size="114" font-weight="900" letter-spacing="-8" fill="#f2eadc" opacity="0.35">MÁS</text>
+    <text x="846" y="751" font-family="Arial, sans-serif" font-size="114" font-weight="900" letter-spacing="-8" fill="#f2eadc">MÁS</text>
+    <path d="M867 833 C948 792 1008 811 1062 760 S1173 694 1270 638" fill="none" stroke="#ff6b3d" stroke-width="8"/>
+    <path d="M867 896 C948 917 1008 901 1062 944 S1173 1004 1270 1030" fill="none" stroke="#f2eadc" stroke-width="5" stroke-dasharray="10 10" opacity="0.72"/>
+    <text x="867" y="872" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#ff6b3d">VOLUMEN</text>
+    <text x="1126" y="1002" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#f2eadc">VALOR PROMEDIO</text>
+    <rect x="851" y="1063" width="442" height="48" fill="#f2eadc"/>
+    <text x="1072" y="1095" text-anchor="middle" font-family="Georgia, serif" font-size="21" font-style="italic" fill="#171411">Más producción no garantiza más atención.</text>
+  </g>
+
+  <!-- FRAME 3: evidence / observation -->
+  <g filter="url(#shadow)"><rect x="1357" y="270" width="486" height="864" fill="#171411"/></g>
+  <g clip-path="url(#f3)">
+    <image x="1357" y="270" width="486" height="864" xlink:href="../assets-compartidos/video-11-collage.png" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="1357" y="270" width="486" height="864" fill="#171411" opacity="0.18"/>
+    <rect x="1379" y="294" width="202" height="44" fill="#f2eadc"/>
+    <text x="1480" y="323" text-anchor="middle" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#171411">MIRA LO QUE PASA</text>
+    <rect x="1539" y="577" width="138" height="188" fill="none" stroke="#ff6b3d" stroke-width="7"/>
+    <line x1="1677" y1="610" x2="1789" y2="535" stroke="#ff6b3d" stroke-width="4"/>
+    <circle cx="1794" cy="531" r="7" fill="#ff6b3d"/>
+    <rect x="1379" y="852" width="442" height="236" fill="#171411" opacity="0.95"/>
+    <text x="1405" y="910" font-family="Georgia, serif" font-size="27" font-style="italic" fill="#ff6b3d">Cuando todo se parece…</text>
+    <text x="1405" y="976" font-family="Arial, sans-serif" font-size="42" font-weight="900" letter-spacing="-1" fill="#f2eadc">LO GENÉRICO</text>
+    <text x="1405" y="1025" font-family="Arial, sans-serif" font-size="42" font-weight="900" letter-spacing="-1" fill="#f2eadc">SE VUELVE</text>
+    <text x="1405" y="1074" font-family="Arial, sans-serif" font-size="42" font-weight="900" letter-spacing="-1" fill="#ff6b3d">INVISIBLE.</text>
+  </g>
+
+  <!-- FRAME 4: human return / point of view -->
+  <g filter="url(#shadow)"><rect x="1885" y="270" width="486" height="864" fill="#f2eadc"/></g>
+  <g clip-path="url(#f4)">
+    <image x="1885" y="270" width="486" height="610" xlink:href="../assets-compartidos/presentador-02.jpg" preserveAspectRatio="xMidYMid slice"/>
+    <rect x="1885" y="270" width="18" height="610" fill="#ff6b3d"/>
+    <rect x="1885" y="880" width="486" height="254" fill="#f2eadc"/>
+    <text x="1919" y="930" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#ff6b3d">LA VENTAJA REAL</text>
+    <text x="1919" y="997" font-family="Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-2" fill="#171411">NO ES PRODUCIR.</text>
+    <text x="1919" y="1057" font-family="Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-2" fill="#171411">ES TENER CRITERIO.</text>
+    <line x1="1919" y1="1090" x2="2308" y2="1090" stroke="#ff6b3d" stroke-width="5"/>
+  </g>
+
+  <!-- FRAME 5: reflective CTA / loop -->
+  <g filter="url(#shadow)"><rect x="2413" y="270" width="486" height="864" fill="#f2eadc"/></g>
+  <g clip-path="url(#f5)">
+    <rect x="2413" y="270" width="486" height="864" fill="#f2eadc"/>
+    <text x="2447" y="422" font-family="Arial, sans-serif" font-size="53" font-weight="900" letter-spacing="-2" fill="#171411">NO COMPITAS</text>
+    <text x="2447" y="482" font-family="Arial, sans-serif" font-size="53" font-weight="900" letter-spacing="-2" fill="#171411">POR VOLUMEN.</text>
+    <rect x="2443" y="526" width="424" height="108" fill="#ff6b3d"/>
+    <text x="2655" y="575" text-anchor="middle" font-family="Georgia, serif" font-size="25" font-style="italic" fill="#171411">Compite por</text>
+    <text x="2655" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="39" font-weight="900" fill="#171411">IDENTIDAD.</text>
+    <text x="2656" y="685" text-anchor="middle" font-family="Courier New, monospace" font-size="16" font-weight="700" fill="#171411">RESPONDE:</text>
+    <text x="2656" y="729" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-style="italic" fill="#171411">¿Qué parte solo</text>
+    <text x="2656" y="763" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-style="italic" fill="#171411">puedes decir tú?</text>
+    <circle cx="2656" cy="914" r="130" fill="#171411"/>
+    <image x="2534" y="792" width="244" height="244" xlink:href="../assets-compartidos/presentador-03.jpg" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitCircle)"/>
+    <circle cx="2656" cy="914" r="127" fill="none" stroke="#ff6b3d" stroke-width="7"/>
+  </g>
+
+  <g font-family="Courier New, monospace" font-size="21" font-weight="700" letter-spacing="1.5" fill="#f2eadc">
+    <text x="301" y="1200">01 — PROMESA</text>
+    <text x="829" y="1200">02 — TENSIÓN</text>
+    <text x="1357" y="1200">03 — OBSERVACIÓN</text>
+    <text x="1885" y="1200">04 — PUNTO DE VISTA</text>
+    <text x="2413" y="1200">05 — IDENTIDAD</text>
+  </g>
+  <text x="301" y="1265" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#f2eadc">Ritmo sereno con tensión: promesa inmediata, evidencia visual, regreso al rostro y cierre que abre conversación.</text>
+  <text x="2899" y="1322" text-anchor="end" font-family="Courier New, monospace" font-size="19" fill="#ff6b3d">PROPUESTA PARA APROBACIÓN · NO ES UN FRAME FINAL DE PRODUCCIÓN</text>
+</svg>

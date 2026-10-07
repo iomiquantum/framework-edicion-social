@@ -1,0 +1,3422 @@
+{
+  "created_at_utc": "2026-10-01T00:01:33.107198+00:00",
+  "status": "technical_extraction_complete_visual_review_pending",
+  "scope": "18 distinct short-video exports; three selected caption states each, not every scene/frame or listening. Approved outputs untouched.",
+  "videos": [
+    {
+      "video_id": "VIDEO-01",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-01/deliveries/VIDEO-01-instagram-reels.mp4",
+      "sha256": "760a291da58418e7585b6d4c41db867e2edfed1b52719918ba89a620d26913c1",
+      "bytes": 23373475,
+      "selection": "Instagram delivery file; no approval inferred from filename.",
+      "metadata": {
+        "duration_s": 21.4,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "bt709",
+        "viewing_conversion": "SDR BT709 decoded"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/compositions/captions-es.html",
+        "sha256": "4d24080e6a634b08694e79ec057b1f9b4aa7fcd5ebad20c596b8a3287d8c91cb",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:74px;bottom:255px;width:932px;padding:22px 28px 24px;border-radius:24px;background:rgba(16,19,33,.92);box-shadow:0 18px 55px rgba(0,0,0,.28);font-size:49px;line-height:1.08;text-align:center;letter-spacing:-.025em;opacity:0"
+        },
+        {
+          "selector": "#root[data-platform]:not([data-platform=\"neutral\"]) #captions-host .cue",
+          "declarations": "left: calc(var(--caption_safe_x) * 100%);\n        top: calc(var(--caption_safe_y) * 100%);\n        bottom: auto;\n        width: calc(var(--caption_safe_width) * 100%);\n        max-height: calc(var(--caption_safe_height) * 100%);"
+        },
+        {
+          "selector": "#root[data-platform=\"instagram\"] #captions-host .cue",
+          "declarations": "padding: 17px 23px 19px; border-radius: 24px; font-size: 43px; line-height: 1.04; text-align: center; background: rgba(16,19,33,.90);"
+        },
+        {
+          "selector": "#root[data-platform=\"tiktok\"] #captions-host .cue",
+          "declarations": "padding: 16px 22px 18px 27px; border-radius: 12px 22px 22px 12px; border-left: 8px solid #2ed3c7; font-size: 44px; line-height: 1.04; text-align: left; background: rgba(16,19,33,.94);"
+        },
+        {
+          "selector": "#root[data-platform=\"youtube\"] #captions-host .cue",
+          "declarations": "padding: 17px 23px 19px; border-radius: 20px; border-top: 4px solid #756bff; font-size: 43px; line-height: 1.04; text-align: center; background: rgba(16,19,33,.92);"
+        }
+      ],
+      "cue_count": 12,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "La IA no te está ahorrando tiempo.",
+          "start_s": 0.175,
+          "end_s": 1.939,
+          "duration_s": 1.764,
+          "cps_including_spaces": 19.27437641723356,
+          "wpm": 238.0952380952381
+        },
+        {
+          "id": "c2",
+          "text": "Hay gente utilizando inteligencia artificial",
+          "start_s": 2.286,
+          "end_s": 4.615,
+          "duration_s": 2.329,
+          "cps_including_spaces": 18.892228424216402,
+          "wpm": 128.81064834693
+        },
+        {
+          "id": "c3",
+          "text": "y trabajando más que antes.",
+          "start_s": 4.615,
+          "end_s": 5.968,
+          "duration_s": 1.3529999999999998,
+          "cps_including_spaces": 19.95565410199557,
+          "wpm": 221.729490022173
+        },
+        {
+          "id": "c4",
+          "text": "Generan algo, corrigen,",
+          "start_s": 6.314,
+          "end_s": 8.292,
+          "duration_s": 1.9779999999999998,
+          "cps_including_spaces": 11.627906976744187,
+          "wpm": 91.00101112234582
+        },
+        {
+          "id": "c5",
+          "text": "vuelven a pedirlo, revisan otra vez.",
+          "start_s": 8.683,
+          "end_s": 11.218,
+          "duration_s": 2.535,
+          "cps_including_spaces": 14.201183431952662,
+          "wpm": 142.0118343195266
+        },
+        {
+          "id": "c6",
+          "text": "Eso no es automatizar.",
+          "start_s": 11.61,
+          "end_s": 13.021,
+          "duration_s": 1.4110000000000014,
+          "cps_including_spaces": 15.591778880226775,
+          "wpm": 170.09213323883753
+        },
+        {
+          "id": "c7",
+          "text": "Si la IA te da más trabajo",
+          "start_s": 13.367,
+          "end_s": 15.192,
+          "duration_s": 1.8249999999999993,
+          "cps_including_spaces": 14.246575342465759,
+          "wpm": 230.13698630136994
+        },
+        {
+          "id": "c8",
+          "text": "del que te quita,",
+          "start_s": 15.192,
+          "end_s": 15.962,
+          "duration_s": 0.7699999999999996,
+          "cps_including_spaces": 22.07792207792209,
+          "wpm": 311.68831168831184
+        },
+        {
+          "id": "c9",
+          "text": "todavía no tienes un sistema.",
+          "start_s": 15.962,
+          "end_s": 17.387,
+          "duration_s": 1.4250000000000007,
+          "cps_including_spaces": 20.350877192982445,
+          "wpm": 210.52631578947356
+        },
+        {
+          "id": "c10",
+          "text": "A ti,",
+          "start_s": 17.734,
+          "end_s": 18.2,
+          "duration_s": 0.4659999999999975,
+          "cps_including_spaces": 10.729613733905637,
+          "wpm": 257.5107296137353
+        },
+        {
+          "id": "c11",
+          "text": "¿la IA te está ahorrando tiempo",
+          "start_s": 18.269,
+          "end_s": 19.942,
+          "duration_s": 1.6730000000000018,
+          "cps_including_spaces": 18.52958756724445,
+          "wpm": 215.1823072325162
+        },
+        {
+          "id": "c12",
+          "text": "o te está dando más trabajo?",
+          "start_s": 19.942,
+          "end_s": 21.262,
+          "duration_s": 1.3200000000000003,
+          "cps_including_spaces": 21.212121212121207,
+          "wpm": 272.72727272727263
+        }
+      ],
+      "max_cps": 22.07792207792209,
+      "over20cps": 3,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-01/frame-00.png",
+          "sha256": "b91dc111207390e800687a2cc631b18e1b9697bb99d4820e78eb1c60f4b59e37",
+          "frame_index": 31,
+          "time_s": 1.0333333333333334
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-01/frame-01.png",
+          "sha256": "28f4734d70170f52f111ec1d728c27d540b4410ce10b98294abc21fc2646e1e6",
+          "frame_index": 103,
+          "time_s": 3.433333333333333
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-01/frame-02.png",
+          "sha256": "4c74ff158eb5e1c581693ce81ed3b6d6a086c64d6c58bed44049232a099420fd",
+          "frame_index": 428,
+          "time_s": 14.266666666666667
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-01/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-02",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-02/VIDEO-02_REVISION_v3.mp4",
+      "sha256": "469aaa4221d5f65e2f5f1faf516b0033342b9fbc380214241084a9a88fc67ae4",
+      "bytes": 9874487,
+      "selection": "Highest numbered root revision at inventory time; approval not inferred.",
+      "metadata": {
+        "duration_s": 18.333008,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/compositions/captions-es.html",
+        "sha256": "d3a30167326a1e7376c213856a13ddfc07c58e6f245e896d14f64b9806514259",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:74px;bottom:255px;width:932px;padding:21px 27px 23px;border-radius:24px;background:rgba(17,19,37,.93);box-shadow:0 18px 55px rgba(0,0,0,.30);font-size:48px;line-height:1.08;text-align:center;letter-spacing:-.025em;opacity:0"
+        }
+      ],
+      "cue_count": 10,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "Otro curso no te va a salvar.",
+          "start_s": 0.173,
+          "end_s": 1.818,
+          "duration_s": 1.645,
+          "cps_including_spaces": 17.62917933130699,
+          "wpm": 255.31914893617022
+        },
+        {
+          "id": "c2",
+          "text": "Tal vez no necesitas comprar otro curso.",
+          "start_s": 2.164,
+          "end_s": 4.254,
+          "duration_s": 2.0899999999999994,
+          "cps_including_spaces": 19.138755980861248,
+          "wpm": 200.95693779904312
+        },
+        {
+          "id": "c3",
+          "text": "Si ya tienes cinco comprados",
+          "start_s": 4.6,
+          "end_s": 6.55,
+          "duration_s": 1.9500000000000002,
+          "cps_including_spaces": 14.358974358974358,
+          "wpm": 153.84615384615384
+        },
+        {
+          "id": "c4",
+          "text": "y todavía no ejecutas ninguno,",
+          "start_s": 6.55,
+          "end_s": 8.561,
+          "duration_s": 2.011,
+          "cps_including_spaces": 14.917951268025856,
+          "wpm": 149.17951268025857
+        },
+        {
+          "id": "c5",
+          "text": "probablemente no te falta información.",
+          "start_s": 8.907,
+          "end_s": 10.812,
+          "duration_s": 1.9049999999999994,
+          "cps_including_spaces": 19.9475065616798,
+          "wpm": 157.48031496062998
+        },
+        {
+          "id": "c6",
+          "text": "Te falta convertir",
+          "start_s": 11.159,
+          "end_s": 12.106,
+          "duration_s": 0.9469999999999992,
+          "cps_including_spaces": 19.007391763463584,
+          "wpm": 190.07391763463588
+        },
+        {
+          "id": "c7",
+          "text": "conocimiento en acción.",
+          "start_s": 12.461,
+          "end_s": 14.02,
+          "duration_s": 1.5589999999999993,
+          "cps_including_spaces": 14.753046824887756,
+          "wpm": 115.45862732520852
+        },
+        {
+          "id": "c8",
+          "text": "Sé sincero:",
+          "start_s": 14.366,
+          "end_s": 15.005,
+          "duration_s": 0.6390000000000011,
+          "cps_including_spaces": 17.214397496087606,
+          "wpm": 187.79342723004663
+        },
+        {
+          "id": "c9",
+          "text": "¿cuántos cursos tienes comprados",
+          "start_s": 15.431,
+          "end_s": 16.82,
+          "duration_s": 1.3890000000000011,
+          "cps_including_spaces": 23.038156947444186,
+          "wpm": 172.7861771058314
+        },
+        {
+          "id": "c10",
+          "text": "que todavía no terminas?",
+          "start_s": 16.82,
+          "end_s": 18.188,
+          "duration_s": 1.3679999999999986,
+          "cps_including_spaces": 17.543859649122826,
+          "wpm": 175.43859649122825
+        }
+      ],
+      "max_cps": 23.038156947444186,
+      "over20cps": 1,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-02/frame-00.png",
+          "sha256": "cbca81bff067859681873db3b96b9b3a9ab172516a44843d83faf62bb60f8562",
+          "frame_index": 29,
+          "time_s": 0.9666666666666667
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-02/frame-01.png",
+          "sha256": "3970ae8153c71dd2d40c560b40757e6de819dfc457c508985e070f574cb272b6",
+          "frame_index": 96,
+          "time_s": 3.2
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-02/frame-02.png",
+          "sha256": "9ec6a45e64bdb191344249a6b71a7aa1fff8379414a27ac5223c62926a089cf0",
+          "frame_index": 348,
+          "time_s": 11.6
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-02/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-03",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-03/VIDEO-03_REVISION_v3.mp4",
+      "sha256": "47edaa87e3d75ffd4c944381a0b92995c1ea352e45a5b03083f2bdcd30722d8a",
+      "bytes": 11851518,
+      "selection": "Highest numbered root revision at inventory time; approval not inferred.",
+      "metadata": {
+        "duration_s": 20.3,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/compositions/captions-es.html",
+        "sha256": "8c6f45c36103665913a0e2dea6a0ab83f82f3fc1ac9363c4858120c8204392ea",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:72px;bottom:255px;width:936px;padding:20px 25px 22px;border-radius:23px;background:rgba(7,17,31,.94);box-shadow:0 18px 55px rgba(0,0,0,.3);font-size:46px;line-height:1.08;text-align:center;letter-spacing:-.025em;opacity:0"
+        }
+      ],
+      "cue_count": 8,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "ChatGPT no es tu ventaja.",
+          "start_s": 0.173,
+          "end_s": 1.849,
+          "duration_s": 1.676,
+          "cps_including_spaces": 14.916467780429596,
+          "wpm": 178.99761336515513
+        },
+        {
+          "id": "c2",
+          "text": "Si tu ventaja competitiva es usar ChatGPT,",
+          "start_s": 2.195,
+          "end_s": 4.864,
+          "duration_s": 2.669,
+          "cps_including_spaces": 15.736230798051704,
+          "wpm": 157.36230798051704
+        },
+        {
+          "id": "c3",
+          "text": "no tienes ninguna ventaja.",
+          "start_s": 5.21,
+          "end_s": 6.58,
+          "duration_s": 1.37,
+          "cps_including_spaces": 18.97810218978102,
+          "wpm": 175.1824817518248
+        },
+        {
+          "id": "c4",
+          "text": "Mañana todos tendremos una IA igual o mejor.",
+          "start_s": 6.926,
+          "end_s": 10.836,
+          "duration_s": 3.91,
+          "cps_including_spaces": 11.253196930946292,
+          "wpm": 122.76214833759592
+        },
+        {
+          "id": "c5",
+          "text": "Tu ventaja serán tus clientes,",
+          "start_s": 11.182,
+          "end_s": 12.62,
+          "duration_s": 1.4379999999999988,
+          "cps_including_spaces": 20.862308762169697,
+          "wpm": 208.62308762169698
+        },
+        {
+          "id": "c6",
+          "text": "tus datos y tu experiencia,",
+          "start_s": 12.62,
+          "end_s": 14.35,
+          "duration_s": 1.7300000000000004,
+          "cps_including_spaces": 15.606936416184967,
+          "wpm": 173.41040462427742
+        },
+        {
+          "id": "c7",
+          "text": "y lo que tu negocio haya aprendido.",
+          "start_s": 14.35,
+          "end_s": 16.829,
+          "duration_s": 2.479000000000001,
+          "cps_including_spaces": 14.11859620814844,
+          "wpm": 169.4231544977813
+        },
+        {
+          "id": "c8",
+          "text": "¿Qué sabe tu negocio que ChatGPT todavía no sabe?",
+          "start_s": 17.175,
+          "end_s": 20.014,
+          "duration_s": 2.8389999999999986,
+          "cps_including_spaces": 17.259598450158514,
+          "wpm": 190.20781965480813
+        }
+      ],
+      "max_cps": 20.862308762169697,
+      "over20cps": 1,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-03/frame-00.png",
+          "sha256": "09e513ec3932712041762db14860657340d847a23626b28c9de5ce270af6f89f",
+          "frame_index": 30,
+          "time_s": 1.0
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-03/frame-01.png",
+          "sha256": "27cdabaa681cbc825f48e1cd4d36a1e220e0e977d0305020304f042f4c7bdff3",
+          "frame_index": 357,
+          "time_s": 11.9
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-03/frame-02.png",
+          "sha256": "5de590523d6ff4e8816ba4d22e86453b5c2f4bea88fd685793211806c551fafc",
+          "frame_index": 557,
+          "time_s": 18.566666666666666
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-03/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-04",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-04/VIDEO-04_REVISION_v2.mp4",
+      "sha256": "9b13dedd96ddc5452e7180b89c3db28734caf72cab23bb18bb5a32023658db8c",
+      "bytes": 9819609,
+      "selection": "Highest numbered root revision at inventory time; approval not inferred.",
+      "metadata": {
+        "duration_s": 18.833333,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/compositions/captions-es.html",
+        "sha256": "1bfabd5856dbeb0a82d8d353a5acb61d1063bba9cc6292b256f0dd758ae9c770",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:72px;bottom:255px;width:936px;padding:20px 25px 22px;border-radius:23px;background:rgba(7,17,31,.94);box-shadow:0 18px 55px rgba(0,0,0,.3);font-size:46px;line-height:1.08;text-align:center;letter-spacing:-.025em;opacity:0"
+        }
+      ],
+      "cue_count": 7,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "La IA puede empeorar tu negocio.",
+          "start_s": 0.173,
+          "end_s": 2.121,
+          "duration_s": 1.948,
+          "cps_including_spaces": 16.42710472279261,
+          "wpm": 184.80492813141686
+        },
+        {
+          "id": "c2",
+          "text": "La inteligencia artificial también puede empeorarlo.",
+          "start_s": 2.467,
+          "end_s": 5.95,
+          "duration_s": 3.483,
+          "cps_including_spaces": 14.929658340511054,
+          "wpm": 103.35917312661498
+        },
+        {
+          "id": "c3",
+          "text": "Si tienes procesos malos,",
+          "start_s": 6.296,
+          "end_s": 8.15,
+          "duration_s": 1.854,
+          "cps_including_spaces": 13.484358144552319,
+          "wpm": 129.44983818770226
+        },
+        {
+          "id": "c4",
+          "text": "información desordenada y nadie mide resultados,",
+          "start_s": 8.15,
+          "end_s": 11.431,
+          "duration_s": 3.280999999999999,
+          "cps_including_spaces": 14.629686071319725,
+          "wpm": 109.72264553489794
+        },
+        {
+          "id": "c5",
+          "text": "la IA puede hacer el desorden mucho más rápido.",
+          "start_s": 11.777,
+          "end_s": 15.062,
+          "duration_s": 3.285,
+          "cps_including_spaces": 14.30745814307458,
+          "wpm": 164.3835616438356
+        },
+        {
+          "id": "c6",
+          "text": "¿Qué parte de tu negocio",
+          "start_s": 15.408,
+          "end_s": 17.015,
+          "duration_s": 1.607000000000001,
+          "cps_including_spaces": 14.934660858742989,
+          "wpm": 186.68326073428736
+        },
+        {
+          "id": "c7",
+          "text": "todavía no automatizarías?",
+          "start_s": 17.361,
+          "end_s": 18.545,
+          "duration_s": 1.184000000000001,
+          "cps_including_spaces": 21.95945945945944,
+          "wpm": 152.0270270270269
+        }
+      ],
+      "max_cps": 21.95945945945944,
+      "over20cps": 1,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-04/frame-00.png",
+          "sha256": "5866ac118f0fbdae4aaeb8d577b1c9ecf8ef63ffbd112c216c9132164d36d064",
+          "frame_index": 34,
+          "time_s": 1.1333333333333333
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-04/frame-01.png",
+          "sha256": "c13a1914fbf644550e5150ba9257963a4fb3f0172ec0bc7901a338c9be14c151",
+          "frame_index": 126,
+          "time_s": 4.2
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-04/frame-02.png",
+          "sha256": "0e573f2ca5dfeb704dcb201ff32d001441a1bdc31aa8f582aa2121bcfe96bc4b",
+          "frame_index": 293,
+          "time_s": 9.766666666666667
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-04/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-05",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-05/VIDEO-05_REVISION_v2.mp4",
+      "sha256": "3ce6c676b6f9c0bc27003b4cf03804f8c715bc361e4f7c97a31552c5cf21d61e",
+      "bytes": 9088082,
+      "selection": "Highest numbered root revision at inventory time; approval not inferred.",
+      "metadata": {
+        "duration_s": 19.533333,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/compositions/captions-es.html",
+        "sha256": "c08ef33d496170eeb64a8252e6e08e6e5bab521cc12897c76035194c33e01372",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:72px;bottom:255px;width:936px;padding:20px 25px 22px;border-radius:23px;background:rgba(7,17,31,.94);box-shadow:0 18px 55px rgba(0,0,0,.3);font-size:46px;line-height:1.08;text-align:center;letter-spacing:-.025em;opacity:0"
+        }
+      ],
+      "cue_count": 8,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "La IA te puede volver más mediocre.",
+          "start_s": 0.173,
+          "end_s": 2.306,
+          "duration_s": 2.133,
+          "cps_including_spaces": 16.408813877168306,
+          "wpm": 196.90576652601968
+        },
+        {
+          "id": "c2",
+          "text": "La inteligencia artificial también puede volverte mediocre",
+          "start_s": 2.652,
+          "end_s": 5.72,
+          "duration_s": 3.0679999999999996,
+          "cps_including_spaces": 18.904823989569756,
+          "wpm": 136.897001303781
+        },
+        {
+          "id": "c3",
+          "text": "si dejas que piense, escriba y decida",
+          "start_s": 5.72,
+          "end_s": 8.55,
+          "duration_s": 2.830000000000001,
+          "cps_including_spaces": 13.074204946996462,
+          "wpm": 148.40989399293284
+        },
+        {
+          "id": "c4",
+          "text": "todo por ti.",
+          "start_s": 8.55,
+          "end_s": 10.082,
+          "duration_s": 1.532,
+          "cps_including_spaces": 7.83289817232376,
+          "wpm": 117.49347258485639
+        },
+        {
+          "id": "c5",
+          "text": "Cada día ejercitarás menos tu propio criterio.",
+          "start_s": 10.428,
+          "end_s": 12.618,
+          "duration_s": 2.1899999999999995,
+          "cps_including_spaces": 21.004566210045667,
+          "wpm": 191.78082191780828
+        },
+        {
+          "id": "c6",
+          "text": "La IA debería aumentar tu inteligencia,",
+          "start_s": 12.964,
+          "end_s": 14.62,
+          "duration_s": 1.6559999999999988,
+          "cps_including_spaces": 23.550724637681178,
+          "wpm": 217.39130434782626
+        },
+        {
+          "id": "c7",
+          "text": "no reemplazarla.",
+          "start_s": 14.62,
+          "end_s": 15.82,
+          "duration_s": 1.200000000000001,
+          "cps_including_spaces": 13.333333333333321,
+          "wpm": 99.99999999999991
+        },
+        {
+          "id": "c8",
+          "text": "¿Qué decisión jamás le entregarías completamente a una IA?",
+          "start_s": 16.166,
+          "end_s": 19.332,
+          "duration_s": 3.1660000000000004,
+          "cps_including_spaces": 18.319646241313958,
+          "wpm": 170.5622236260265
+        }
+      ],
+      "max_cps": 23.550724637681178,
+      "over20cps": 2,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-05/frame-00.png",
+          "sha256": "941938fa4e976db13532f7761d3e194fe793f79820651be28e5adc9afb8cfc3f",
+          "frame_index": 37,
+          "time_s": 1.2333333333333334
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-05/frame-01.png",
+          "sha256": "3791d3818d1742e00899dd99c5ba23eb2d71fa1d8d7c6704ef79d1cb1f1e9cfa",
+          "frame_index": 125,
+          "time_s": 4.166666666666667
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-05/frame-02.png",
+          "sha256": "1fea74d4237d65f007a16bf58f54a484625cf4811cb0064eae9f28522937f816",
+          "frame_index": 345,
+          "time_s": 11.5
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-05/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-06",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-06/VIDEO-06_REVISION_v3.mp4",
+      "sha256": "9ab9dbcddee82b6835d3fcfa4d6c6ea1c8bdc2dd8e862ef45ef4fa38e98c4f4d",
+      "bytes": 15416230,
+      "selection": "Highest numbered root revision at inventory time; approval not inferred.",
+      "metadata": {
+        "duration_s": 19.6,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/compositions/captions-es.html",
+        "sha256": "189734e5f7830b61eaec28268ab23737cceb6a246019ddf6bf55cce0559538e4",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:78px;bottom:235px;width:924px;padding:19px 25px 21px;border-radius:22px;background:rgba(7,17,31,.92);border:1px solid rgba(255,255,255,.15);box-shadow:0 18px 55px rgba(0,0,0,.3);font-size:45px;font-weight:800;line-height:1.08;text-align:center;letter-spacing:-1px;opacity:0"
+        }
+      ],
+      "cue_count": 10,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "Tu know-how no debería morir contigo",
+          "start_s": 0.14,
+          "end_s": 2.23,
+          "duration_s": 2.09,
+          "cps_including_spaces": 17.224880382775122,
+          "wpm": 172.2488038277512
+        },
+        {
+          "id": "c2",
+          "text": "si todo lo que sabes de",
+          "start_s": 2.45,
+          "end_s": 3.58,
+          "duration_s": 1.13,
+          "cps_including_spaces": 20.353982300884958,
+          "wpm": 318.5840707964602
+        },
+        {
+          "id": "c3",
+          "text": "tu negocio está en tu cabeza",
+          "start_s": 3.58,
+          "end_s": 5.22,
+          "duration_s": 1.6399999999999997,
+          "cps_including_spaces": 17.07317073170732,
+          "wpm": 219.51219512195127
+        },
+        {
+          "id": "c4",
+          "text": "tienes un grave problema no porque",
+          "start_s": 5.22,
+          "end_s": 7.62,
+          "duration_s": 2.4000000000000004,
+          "cps_including_spaces": 14.166666666666664,
+          "wpm": 149.99999999999997
+        },
+        {
+          "id": "c5",
+          "text": "tengas que regalárselo a una IA",
+          "start_s": 7.62,
+          "end_s": 9.43,
+          "duration_s": 1.8099999999999996,
+          "cps_including_spaces": 17.127071823204425,
+          "wpm": 198.89502762430945
+        },
+        {
+          "id": "c6",
+          "text": "sino porque todavía no convertiste esa",
+          "start_s": 9.43,
+          "end_s": 11.94,
+          "duration_s": 2.51,
+          "cps_including_spaces": 15.139442231075698,
+          "wpm": 143.42629482071715
+        },
+        {
+          "id": "c7",
+          "text": "experiencia en un archivo o un",
+          "start_s": 11.94,
+          "end_s": 14.1,
+          "duration_s": 2.16,
+          "cps_including_spaces": 13.888888888888888,
+          "wpm": 166.66666666666666
+        },
+        {
+          "id": "c8",
+          "text": "activo que pueda trabajar sin ti",
+          "start_s": 14.1,
+          "end_s": 16.24,
+          "duration_s": 2.139999999999999,
+          "cps_including_spaces": 14.953271028037392,
+          "wpm": 168.22429906542067
+        },
+        {
+          "id": "c9",
+          "text": "cuánto de tu negocio depende todavía",
+          "start_s": 16.24,
+          "end_s": 18.54,
+          "duration_s": 2.3000000000000007,
+          "cps_including_spaces": 15.652173913043473,
+          "wpm": 156.52173913043472
+        },
+        {
+          "id": "c10",
+          "text": "solamente de ti",
+          "start_s": 18.54,
+          "end_s": 19.6,
+          "duration_s": 1.0600000000000023,
+          "cps_including_spaces": 14.150943396226385,
+          "wpm": 169.81132075471663
+        }
+      ],
+      "max_cps": 20.353982300884958,
+      "over20cps": 1,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-06/frame-00.png",
+          "sha256": "cb220e54384749f37e7b06d59d5b65e4e775443eae127d54abaacb73a4a04f86",
+          "frame_index": 35,
+          "time_s": 1.1666666666666667
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-06/frame-01.png",
+          "sha256": "70117ad95a4a52e7e6a9f6e804b0fc1f41bcbc6a89a7ec3c5409a4c0b15f4b85",
+          "frame_index": 320,
+          "time_s": 10.666666666666666
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-06/frame-02.png",
+          "sha256": "f6e7c1e9df5b0faeb22ee8dcda055580c9789c9a0bdf650d2d6f79b6681a9998",
+          "frame_index": 572,
+          "time_s": 19.066666666666666
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-06/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-07",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-07/VIDEO-07_REVISION_v3.mp4",
+      "sha256": "d36ff711d86c695f53ca1eb184d9633d972232801cb230eae6553239ac84b3ff",
+      "bytes": 13215569,
+      "selection": "Highest numbered root revision at inventory time; approval not inferred.",
+      "metadata": {
+        "duration_s": 18.7,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/compositions/captions-es.html",
+        "sha256": "c45011f7492b6bfd9c39e5da6a0b1e03ec997000cab78a255859359d6e9c8dc9",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:78px;bottom:235px;width:924px;padding:19px 25px 21px;border-radius:22px;background:rgba(7,17,31,.92);border:1px solid rgba(255,255,255,.15);box-shadow:0 18px 55px rgba(0,0,0,.3);font-size:45px;font-weight:800;line-height:1.08;text-align:center;letter-spacing:-1px;opacity:0"
+        }
+      ],
+      "cue_count": 10,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "Tener muchas ideas no es emprender.",
+          "start_s": 0.0,
+          "end_s": 1.94,
+          "duration_s": 1.94,
+          "cps_including_spaces": 18.04123711340206,
+          "wpm": 185.56701030927834
+        },
+        {
+          "id": "c2",
+          "text": "Tener 10 ideas de negocio no",
+          "start_s": 1.94,
+          "end_s": 3.85,
+          "duration_s": 1.9100000000000001,
+          "cps_including_spaces": 14.659685863874344,
+          "wpm": 188.48167539267016
+        },
+        {
+          "id": "c3",
+          "text": "significa que tengas 10 oportunidades.",
+          "start_s": 3.85,
+          "end_s": 5.84,
+          "duration_s": 1.9899999999999998,
+          "cps_including_spaces": 19.095477386934675,
+          "wpm": 150.75376884422113
+        },
+        {
+          "id": "c4",
+          "text": "La IA puede darte cientos de",
+          "start_s": 5.84,
+          "end_s": 7.7,
+          "duration_s": 1.8600000000000003,
+          "cps_including_spaces": 15.053763440860212,
+          "wpm": 193.54838709677415
+        },
+        {
+          "id": "c5",
+          "text": "ideas en segundos.",
+          "start_s": 7.71,
+          "end_s": 9.11,
+          "duration_s": 1.3999999999999995,
+          "cps_including_spaces": 12.857142857142861,
+          "wpm": 128.5714285714286
+        },
+        {
+          "id": "c6",
+          "text": "El verdadero valor está en descubrir",
+          "start_s": 9.11,
+          "end_s": 11.33,
+          "duration_s": 2.2200000000000006,
+          "cps_including_spaces": 16.21621621621621,
+          "wpm": 162.1621621621621
+        },
+        {
+          "id": "c7",
+          "text": "cuál merece tu tiempo, tu dinero",
+          "start_s": 11.33,
+          "end_s": 13.39,
+          "duration_s": 2.0600000000000005,
+          "cps_including_spaces": 15.533980582524268,
+          "wpm": 174.757281553398
+        },
+        {
+          "id": "c8",
+          "text": "y tu energía.¿Qué idea tienes guardada",
+          "start_s": 13.39,
+          "end_s": 15.99,
+          "duration_s": 2.5999999999999996,
+          "cps_including_spaces": 14.615384615384617,
+          "wpm": 138.46153846153848
+        },
+        {
+          "id": "c9",
+          "text": "hace meses y todavía no has",
+          "start_s": 15.99,
+          "end_s": 17.62,
+          "duration_s": 1.6300000000000008,
+          "cps_including_spaces": 16.564417177914102,
+          "wpm": 220.85889570552138
+        },
+        {
+          "id": "c10",
+          "text": "probado?",
+          "start_s": 17.64,
+          "end_s": 18.49,
+          "duration_s": 0.8499999999999979,
+          "cps_including_spaces": 9.411764705882376,
+          "wpm": 70.58823529411782
+        }
+      ],
+      "max_cps": 19.095477386934675,
+      "over20cps": 0,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-07/frame-00.png",
+          "sha256": "90b532f62457aae1a366266dc6b39cec43cd5f768973e395c34cfe0f76fa5594",
+          "frame_index": 29,
+          "time_s": 0.9666666666666667
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-07/frame-01.png",
+          "sha256": "c4a7ac0decd84f1d250edb8d84fe54c265ce8a58a74fda26c3b2892b05b3b10f",
+          "frame_index": 145,
+          "time_s": 4.833333333333333
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-07/frame-02.png",
+          "sha256": "5ecd28725b4b4b77f1cfa6bda9e9d79940ea627b50eb2bda03c8bad4c9d3c125",
+          "frame_index": 306,
+          "time_s": 10.2
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-07/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-08",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-08/VIDEO-08_REVISION_v3.mp4",
+      "sha256": "fb52786819ab22952343ea2f6cd01ee690ce3f56861e406f2317ac5a1ffc8275",
+      "bytes": 13162750,
+      "selection": "Highest numbered root revision at inventory time; approval not inferred.",
+      "metadata": {
+        "duration_s": 18.9,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/compositions/captions-es.html",
+        "sha256": "da087c7d279fc739861535d90b27a4a7c4d658c605067c24f017087b60894eda",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:78px;bottom:235px;width:924px;padding:19px 25px 21px;border-radius:22px;background:rgba(7,17,31,.92);border:1px solid rgba(255,255,255,.15);box-shadow:0 18px 55px rgba(0,0,0,.3);font-size:45px;font-weight:800;line-height:1.08;text-align:center;letter-spacing:-1px;opacity:0"
+        }
+      ],
+      "cue_count": 10,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "Tu cliente no quiere saber qué",
+          "start_s": 0.15,
+          "end_s": 1.9,
+          "duration_s": 1.75,
+          "cps_including_spaces": 17.142857142857142,
+          "wpm": 205.7142857142857
+        },
+        {
+          "id": "c2",
+          "text": "IA usas.",
+          "start_s": 1.9,
+          "end_s": 2.4,
+          "duration_s": 0.5,
+          "cps_including_spaces": 16.0,
+          "wpm": 240.0
+        },
+        {
+          "id": "c3",
+          "text": "A tu cliente no le interesa",
+          "start_s": 2.4,
+          "end_s": 4.78,
+          "duration_s": 2.3800000000000003,
+          "cps_including_spaces": 11.34453781512605,
+          "wpm": 151.26050420168065
+        },
+        {
+          "id": "c4",
+          "text": "qué inteligencia artificial estás usando.",
+          "start_s": 4.78,
+          "end_s": 6.82,
+          "duration_s": 2.04,
+          "cps_including_spaces": 20.098039215686274,
+          "wpm": 147.05882352941177
+        },
+        {
+          "id": "c5",
+          "text": "A él le importa que respondas",
+          "start_s": 6.82,
+          "end_s": 8.19,
+          "duration_s": 1.3699999999999992,
+          "cps_including_spaces": 21.167883211678845,
+          "wpm": 262.77372262773736
+        },
+        {
+          "id": "c6",
+          "text": "rápido, que cumplas lo prometido y",
+          "start_s": 8.19,
+          "end_s": 10.04,
+          "duration_s": 1.8499999999999996,
+          "cps_including_spaces": 18.378378378378383,
+          "wpm": 194.59459459459464
+        },
+        {
+          "id": "c7",
+          "text": "que soluciones el problema.",
+          "start_s": 10.06,
+          "end_s": 11.5,
+          "duration_s": 1.4399999999999995,
+          "cps_including_spaces": 18.750000000000007,
+          "wpm": 166.6666666666667
+        },
+        {
+          "id": "c8",
+          "text": "La tecnología no es el producto,",
+          "start_s": 11.5,
+          "end_s": 13.62,
+          "duration_s": 2.119999999999999,
+          "cps_including_spaces": 15.094339622641515,
+          "wpm": 169.81132075471706
+        },
+        {
+          "id": "c9",
+          "text": "el resultado sí.¿Qué valoras más cuando",
+          "start_s": 13.62,
+          "end_s": 16.08,
+          "duration_s": 2.459999999999999,
+          "cps_including_spaces": 15.853658536585371,
+          "wpm": 146.3414634146342
+        },
+        {
+          "id": "c10",
+          "text": "compras?¿Velocidad, confianza o precio?",
+          "start_s": 16.08,
+          "end_s": 18.65,
+          "duration_s": 2.5700000000000003,
+          "cps_including_spaces": 15.175097276264589,
+          "wpm": 93.38521400778208
+        }
+      ],
+      "max_cps": 21.167883211678845,
+      "over20cps": 2,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-08/frame-00.png",
+          "sha256": "f3ddd98df2356c78b947b3700d34fcdc8ec1fb24e82be7888871d38f55c76a7f",
+          "frame_index": 30,
+          "time_s": 1.0
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-08/frame-01.png",
+          "sha256": "bbf70342787d554257267d2e1abbe21527703fc9d9689ed8e30af7e7142d5b4c",
+          "frame_index": 174,
+          "time_s": 5.8
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-08/frame-02.png",
+          "sha256": "6b6e5e2f76bf687c1579d04a6d4064dc6fe55029f34eaa8c841db89a75bdfc22",
+          "frame_index": 273,
+          "time_s": 9.1
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-08/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-09",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-09/VIDEO-09_REVISION_v7.mp4",
+      "sha256": "8f1896e7a159b6ebe04fbeecf7893f97203d6a175762b4d2d98a362495f70393",
+      "bytes": 15739463,
+      "selection": "Highest numbered root revision at inventory time; approval not inferred.",
+      "metadata": {
+        "duration_s": 20.1,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/compositions/captions-es.html",
+        "sha256": "aa43e69e5e34e95840c3c4f129d783a69c60a3e3f361680a51ab4c6c07d01ad4",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:78px;bottom:235px;width:924px;padding:19px 25px 21px;border-radius:22px;background:rgba(7,17,31,.92);border:1px solid rgba(255,255,255,.15);box-shadow:0 18px 55px rgba(0,0,0,.3);font-size:45px;font-weight:800;line-height:1.08;text-align:center;letter-spacing:-1px;opacity:0"
+        }
+      ],
+      "cue_count": 11,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "Publicar más no es la solución.",
+          "start_s": 0.0,
+          "end_s": 1.75,
+          "duration_s": 1.75,
+          "cps_including_spaces": 17.714285714285715,
+          "wpm": 205.7142857142857
+        },
+        {
+          "id": "c2",
+          "text": "Tu problema probablemente no es que",
+          "start_s": 1.75,
+          "end_s": 3.71,
+          "duration_s": 1.96,
+          "cps_including_spaces": 17.857142857142858,
+          "wpm": 183.6734693877551
+        },
+        {
+          "id": "c3",
+          "text": "publicas poco.",
+          "start_s": 3.71,
+          "end_s": 4.52,
+          "duration_s": 0.8099999999999996,
+          "cps_including_spaces": 17.28395061728396,
+          "wpm": 148.1481481481482
+        },
+        {
+          "id": "c4",
+          "text": "Puedes subir 100 videos con inteligencia",
+          "start_s": 4.52,
+          "end_s": 6.96,
+          "duration_s": 2.4400000000000004,
+          "cps_including_spaces": 16.39344262295082,
+          "wpm": 147.54098360655735
+        },
+        {
+          "id": "c5",
+          "text": "artificial y seguir sin conectar con",
+          "start_s": 7.17,
+          "end_s": 9.17,
+          "duration_s": 2.0,
+          "cps_including_spaces": 18.0,
+          "wpm": 180.0
+        },
+        {
+          "id": "c6",
+          "text": "nadie.",
+          "start_s": 9.17,
+          "end_s": 9.7,
+          "duration_s": 0.5299999999999994,
+          "cps_including_spaces": 11.320754716981146,
+          "wpm": 113.20754716981145
+        },
+        {
+          "id": "c7",
+          "text": "La IA puede multiplicar tu contenido,",
+          "start_s": 9.7,
+          "end_s": 11.76,
+          "duration_s": 2.0600000000000005,
+          "cps_including_spaces": 17.961165048543684,
+          "wpm": 174.757281553398
+        },
+        {
+          "id": "c8",
+          "text": "pero primero tienes que tener algo",
+          "start_s": 11.76,
+          "end_s": 13.71,
+          "duration_s": 1.950000000000001,
+          "cps_including_spaces": 17.435897435897427,
+          "wpm": 184.61538461538453
+        },
+        {
+          "id": "c9",
+          "text": "que valga la pena decir.¿Qué prefieres",
+          "start_s": 13.71,
+          "end_s": 15.63,
+          "duration_s": 1.92,
+          "cps_including_spaces": 19.791666666666668,
+          "wpm": 187.5
+        },
+        {
+          "id": "c10",
+          "text": "seguir?¿Alguien que publica mucho o alguien",
+          "start_s": 15.63,
+          "end_s": 18.03,
+          "duration_s": 2.4000000000000004,
+          "cps_including_spaces": 17.916666666666664,
+          "wpm": 149.99999999999997
+        },
+        {
+          "id": "c11",
+          "text": "que realmente te hace pensar?",
+          "start_s": 18.03,
+          "end_s": 19.85,
+          "duration_s": 1.8200000000000003,
+          "cps_including_spaces": 15.93406593406593,
+          "wpm": 164.83516483516482
+        }
+      ],
+      "max_cps": 19.791666666666668,
+      "over20cps": 0,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-09/frame-00.png",
+          "sha256": "2361cf7b6505889cf5fe3cebb5b784e947097476dfbbd28ae9dc71e3175f365a",
+          "frame_index": 26,
+          "time_s": 0.8666666666666667
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-09/frame-01.png",
+          "sha256": "4c5f02bf9e3be0de94760fa9c2e395617344f4954c45ead0a19396ecc39792ed",
+          "frame_index": 283,
+          "time_s": 9.433333333333334
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-09/frame-02.png",
+          "sha256": "cf501af079d3867ca96651222b084b57706b628e7caa1efc4c2c596f0dd7a70c",
+          "frame_index": 504,
+          "time_s": 16.8
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-09/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-10",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-10/VIDEO-10_REVISION_v3.mp4",
+      "sha256": "1d2f678b4b7483582f23bae7f4a734bde7127d31a79d24813557fb0a9e3d8deb",
+      "bytes": 15474675,
+      "selection": "Highest numbered root revision at inventory time; approval not inferred.",
+      "metadata": {
+        "duration_s": 21.3,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/compositions/captions-es.html",
+        "sha256": "1af0675e4c0773dce566ce3625fb6fbe197675d2f9b76cf306234450b655d598",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:78px;bottom:235px;width:924px;padding:19px 25px 21px;border-radius:22px;background:rgba(7,17,31,.92);border:1px solid rgba(255,255,255,.15);box-shadow:0 18px 55px rgba(0,0,0,.3);font-size:45px;font-weight:800;line-height:1.08;text-align:center;letter-spacing:-1px;opacity:0"
+        }
+      ],
+      "cue_count": 11,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "El futuro no será del que",
+          "start_s": 0.14,
+          "end_s": 1.39,
+          "duration_s": 1.25,
+          "cps_including_spaces": 20.0,
+          "wpm": 288.0
+        },
+        {
+          "id": "c2",
+          "text": "sepa más IA.",
+          "start_s": 1.39,
+          "end_s": 2.1,
+          "duration_s": 0.7100000000000002,
+          "cps_including_spaces": 16.90140845070422,
+          "wpm": 253.5211267605633
+        },
+        {
+          "id": "c3",
+          "text": "El futuro no será del que",
+          "start_s": 2.1,
+          "end_s": 3.44,
+          "duration_s": 1.3399999999999999,
+          "cps_including_spaces": 18.65671641791045,
+          "wpm": 268.6567164179105
+        },
+        {
+          "id": "c4",
+          "text": "sepa usar la inteligencia artificial.",
+          "start_s": 3.44,
+          "end_s": 5.02,
+          "duration_s": 1.5799999999999996,
+          "cps_including_spaces": 23.417721518987346,
+          "wpm": 189.87341772151905
+        },
+        {
+          "id": "c5",
+          "text": "Cuando todos tengamos acceso a respuestas",
+          "start_s": 5.02,
+          "end_s": 7.75,
+          "duration_s": 2.7300000000000004,
+          "cps_including_spaces": 15.018315018315016,
+          "wpm": 131.86813186813185
+        },
+        {
+          "id": "c6",
+          "text": "increíbles, saber responder dejará de ser",
+          "start_s": 8.05,
+          "end_s": 10.07,
+          "duration_s": 2.0199999999999996,
+          "cps_including_spaces": 20.297029702970303,
+          "wpm": 178.21782178217825
+        },
+        {
+          "id": "c7",
+          "text": "suficiente.",
+          "start_s": 10.07,
+          "end_s": 10.84,
+          "duration_s": 0.7699999999999996,
+          "cps_including_spaces": 14.285714285714294,
+          "wpm": 77.92207792207796
+        },
+        {
+          "id": "c8",
+          "text": "El verdadero valor será saber qué",
+          "start_s": 10.84,
+          "end_s": 13.03,
+          "duration_s": 2.1899999999999995,
+          "cps_including_spaces": 15.068493150684935,
+          "wpm": 164.38356164383566
+        },
+        {
+          "id": "c9",
+          "text": "problema merece ser resuelto.¿Qué problema de",
+          "start_s": 13.03,
+          "end_s": 16.4,
+          "duration_s": 3.369999999999999,
+          "cps_including_spaces": 13.35311572700297,
+          "wpm": 106.82492581602376
+        },
+        {
+          "id": "c10",
+          "text": "tu negocio resolverías primero si mañana",
+          "start_s": 16.4,
+          "end_s": 19.11,
+          "duration_s": 2.710000000000001,
+          "cps_including_spaces": 14.76014760147601,
+          "wpm": 132.8413284132841
+        },
+        {
+          "id": "c11",
+          "text": "tuvieras una IA perfecta?",
+          "start_s": 19.11,
+          "end_s": 20.84,
+          "duration_s": 1.7300000000000004,
+          "cps_including_spaces": 14.450867052023117,
+          "wpm": 138.72832369942194
+        }
+      ],
+      "max_cps": 23.417721518987346,
+      "over20cps": 2,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-10/frame-00.png",
+          "sha256": "760df03a372cad7349b05d1983aeb701fb6de43c68491d808b911a7c1d121bf8",
+          "frame_index": 22,
+          "time_s": 0.7333333333333333
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-10/frame-01.png",
+          "sha256": "da8807a70c86883c7e0896489d04d740b33fa5cc3f904282bc11ad2c20854fe8",
+          "frame_index": 271,
+          "time_s": 9.033333333333333
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-10/frame-02.png",
+          "sha256": "dcae9661f2cf91e2d03ca64d49efc07d7b89d979c2c2f448f1deeb14d38b77dc",
+          "frame_index": 441,
+          "time_s": 14.7
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-10/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-11",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/renders/VIDEO-11-FINAL.mp4",
+      "sha256": "1d3c1a09480a21fcb15334173fb30f955c34d0cb289ee517573586d738201a3e",
+      "bytes": 15430694,
+      "selection": "Current FINAL filename frozen by hash; approval not inferred.",
+      "metadata": {
+        "duration_s": 29.1,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/compositions/captions-es.html",
+        "sha256": "ead4b415584b827f3f654675b55aa2486fe705ac3ac09a2aa025a6613c05bac7",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:64px;right:64px;bottom:520px;padding:24px 30px 26px;background:rgba(242,235,221,.96);border:4px solid #14120f;box-shadow:12px 12px 0 #2854E8;font-size:52px;font-weight:900;line-height:1.08;text-align:center;letter-spacing:-1px;opacity:0"
+        },
+        {
+          "selector": ".cue.high",
+          "declarations": "bottom:520px"
+        }
+      ],
+      "cue_count": 10,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "La IA está llenando Internet de contenido genérico.",
+          "start_s": 0.12,
+          "end_s": 2.82,
+          "duration_s": 2.6999999999999997,
+          "cps_including_spaces": 18.88888888888889,
+          "wpm": 177.7777777777778
+        },
+        {
+          "id": "c2",
+          "text": "Mientras más fácil sea crear contenido con IA,",
+          "start_s": 2.88,
+          "end_s": 6.12,
+          "duration_s": 3.24,
+          "cps_including_spaces": 14.19753086419753,
+          "wpm": 148.14814814814815
+        },
+        {
+          "id": "c3",
+          "text": "menos va a valer el contenido promedio.",
+          "start_s": 6.13,
+          "end_s": 8.76,
+          "duration_s": 2.63,
+          "cps_including_spaces": 14.828897338403042,
+          "wpm": 159.6958174904943
+        },
+        {
+          "id": "c4",
+          "text": "Porque todos podemos publicar más,",
+          "start_s": 8.97,
+          "end_s": 11.24,
+          "duration_s": 2.2699999999999996,
+          "cps_including_spaces": 14.977973568281941,
+          "wpm": 132.15859030837007
+        },
+        {
+          "id": "c5",
+          "text": "más rápido y cada vez más bonito.",
+          "start_s": 11.24,
+          "end_s": 14.08,
+          "duration_s": 2.84,
+          "cps_including_spaces": 11.619718309859156,
+          "wpm": 147.88732394366198
+        },
+        {
+          "id": "c6",
+          "text": "La ventaja ya no será producir más.",
+          "start_s": 14.08,
+          "end_s": 16.63,
+          "duration_s": 2.549999999999999,
+          "cps_including_spaces": 13.725490196078438,
+          "wpm": 164.70588235294125
+        },
+        {
+          "id": "c7",
+          "text": "Será tener algo propio que decir, algo original.",
+          "start_s": 16.63,
+          "end_s": 19.9,
+          "duration_s": 3.2699999999999996,
+          "cps_including_spaces": 14.67889908256881,
+          "wpm": 146.7889908256881
+        },
+        {
+          "id": "c8",
+          "text": "Y tú, ¿ya distingues cuándo un contenido fue pensado",
+          "start_s": 20.04,
+          "end_s": 23.68,
+          "duration_s": 3.6400000000000006,
+          "cps_including_spaces": 14.285714285714283,
+          "wpm": 148.35164835164832
+        },
+        {
+          "id": "c9",
+          "text": "y cuándo un contenido fue generado?",
+          "start_s": 23.68,
+          "end_s": 26.36,
+          "duration_s": 2.6799999999999997,
+          "cps_including_spaces": 13.059701492537314,
+          "wpm": 134.32835820895525
+        },
+        {
+          "id": "c10",
+          "text": "Dos diferencias, ¿no? Pensado y generado.",
+          "start_s": 26.36,
+          "end_s": 29.02,
+          "duration_s": 2.66,
+          "cps_including_spaces": 15.413533834586465,
+          "wpm": 135.33834586466165
+        }
+      ],
+      "max_cps": 18.88888888888889,
+      "over20cps": 0,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-11/frame-00.png",
+          "sha256": "da8f50c7e9bb6f2b1d3e7a7f727d2a44cc2f943435e789fbfc3bcba32d27a1bd",
+          "frame_index": 44,
+          "time_s": 1.4666666666666666
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-11/frame-01.png",
+          "sha256": "0acc387dbb49a3dbc5e40fd1da232ee6d512092dc51beb71b5c9e1ea7b7ac7f6",
+          "frame_index": 460,
+          "time_s": 15.333333333333334
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-11/frame-02.png",
+          "sha256": "44bf8c884ab8fde79a2296f1a3f93ed3188fa822a880203fd4f9978a589952a4",
+          "frame_index": 655,
+          "time_s": 21.833333333333332
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-11/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-12",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/renders/VIDEO-12-FINAL.mp4",
+      "sha256": "c0f584d19986cf931ae038a4690d086e993e8efd40eacf5470424edb42b193e8",
+      "bytes": 15346856,
+      "selection": "Current FINAL filename frozen by hash; approval not inferred.",
+      "metadata": {
+        "duration_s": 19.7,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/compositions/captions-es.html",
+        "sha256": "84fa5a397ea1d43e73c2dba0dee70e522adbb09a676b83c163c99ea8052c87e3",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:64px;right:64px;bottom:520px;padding:24px 30px 26px;background:rgba(244,231,211,.97);border:4px solid #181217;box-shadow:12px 12px 0 #7C3AED;font-size:54px;font-weight:900;line-height:1.06;text-align:center;letter-spacing:-1px;opacity:0"
+        }
+      ],
+      "cue_count": 7,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "Tu marketing no necesita más creatividad.",
+          "start_s": 0.05,
+          "end_s": 2.6,
+          "duration_s": 2.5500000000000003,
+          "cps_including_spaces": 16.07843137254902,
+          "wpm": 141.17647058823528
+        },
+        {
+          "id": "c2",
+          "text": "Tal vez tu marketing no necesita ser más creativo.",
+          "start_s": 2.64,
+          "end_s": 5.16,
+          "duration_s": 2.52,
+          "cps_including_spaces": 19.841269841269842,
+          "wpm": 214.2857142857143
+        },
+        {
+          "id": "c3",
+          "text": "Tal vez necesite entender mejor por qué alguien está viendo tu oferta",
+          "start_s": 5.21,
+          "end_s": 9.2,
+          "duration_s": 3.9899999999999993,
+          "cps_including_spaces": 17.29323308270677,
+          "wpm": 180.4511278195489
+        },
+        {
+          "id": "c4",
+          "text": "y aun así no ha decidido comprarte.",
+          "start_s": 9.25,
+          "end_s": 11.37,
+          "duration_s": 2.119999999999999,
+          "cps_including_spaces": 16.509433962264158,
+          "wpm": 198.11320754716988
+        },
+        {
+          "id": "c5",
+          "text": "Una campaña bonita no corrige una oferta que nadie quiere.",
+          "start_s": 11.42,
+          "end_s": 14.93,
+          "duration_s": 3.51,
+          "cps_including_spaces": 16.524216524216524,
+          "wpm": 170.94017094017096
+        },
+        {
+          "id": "c6",
+          "text": "¿Qué te cuesta más en tu negocio?",
+          "start_s": 14.98,
+          "end_s": 17.2,
+          "duration_s": 2.219999999999999,
+          "cps_including_spaces": 14.864864864864872,
+          "wpm": 189.18918918918928
+        },
+        {
+          "id": "c7",
+          "text": "¿Conseguir atención o convertirla en ventas?",
+          "start_s": 17.2,
+          "end_s": 19.66,
+          "duration_s": 2.460000000000001,
+          "cps_including_spaces": 17.88617886178861,
+          "wpm": 146.3414634146341
+        }
+      ],
+      "max_cps": 19.841269841269842,
+      "over20cps": 0,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-12/frame-00.png",
+          "sha256": "8bfa8d05bb79e7ce933022dfbb79eca840ac38cfb685e4559c3d73db5c47b530",
+          "frame_index": 39,
+          "time_s": 1.3
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-12/frame-01.png",
+          "sha256": "dfd4373a5b55e4d1d83700b6fb4717198bc722550bbc189fc17698c98c5fd178",
+          "frame_index": 216,
+          "time_s": 7.2
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-12/frame-02.png",
+          "sha256": "6c6f486f5fc4ead402458b70a5742ff7b34d4855ced55d10a0b74883581e57af",
+          "frame_index": 309,
+          "time_s": 10.3
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-12/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-13",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/renders/VIDEO-13-FINAL.mp4",
+      "sha256": "6ee143441088f43eb6aa0c318b6bf0505e9c8d8f91f7eaa893bda2f30491893e",
+      "bytes": 12631803,
+      "selection": "Current FINAL filename frozen by hash; approval not inferred.",
+      "metadata": {
+        "duration_s": 19.5,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/compositions/captions-es.html",
+        "sha256": "f1696d14093365c5acb561b10cb3a21f8efb3cc45b323e72ca838b2e9ec0ea0a",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:54px;right:54px;bottom:505px;padding:26px 30px 28px;background:rgba(243,231,207,.98);border:5px solid #17353A;box-shadow:12px 12px 0 #E76F51;font-size:58px;font-weight:900;line-height:1.02;text-align:center;letter-spacing:-1.2px;opacity:0"
+        },
+        {
+          "selector": ".cue.long",
+          "declarations": "font-size:54px"
+        }
+      ],
+      "cue_count": 7,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "La IA no conoce a tu cliente.",
+          "start_s": 0.1,
+          "end_s": 2.02,
+          "duration_s": 1.92,
+          "cps_including_spaces": 15.104166666666668,
+          "wpm": 218.75
+        },
+        {
+          "id": "c2",
+          "text": "ChatGPT puede saber muchísimo de marketing",
+          "start_s": 2.12,
+          "end_s": 5.02,
+          "duration_s": 2.8999999999999995,
+          "cps_including_spaces": 14.482758620689658,
+          "wpm": 124.13793103448279
+        },
+        {
+          "id": "c3",
+          "text": "y no saber casi nada de tu cliente.",
+          "start_s": 5.02,
+          "end_s": 6.92,
+          "duration_s": 1.9000000000000004,
+          "cps_including_spaces": 18.421052631578945,
+          "wpm": 252.63157894736835
+        },
+        {
+          "id": "c4",
+          "text": "Porque no escuchó sus llamadas",
+          "start_s": 7.08,
+          "end_s": 10.48,
+          "duration_s": 3.4000000000000004,
+          "cps_including_spaces": 8.823529411764705,
+          "wpm": 88.23529411764706
+        },
+        {
+          "id": "c5",
+          "text": "sus objeciones ni las razones por las que decidió no comprarte.",
+          "start_s": 10.48,
+          "end_s": 13.34,
+          "duration_s": 2.8599999999999994,
+          "cps_including_spaces": 22.027972027972034,
+          "wpm": 230.7692307692308
+        },
+        {
+          "id": "c6",
+          "text": "Esa información puede valer más que cien prompts.",
+          "start_s": 13.46,
+          "end_s": 16.3,
+          "duration_s": 2.84,
+          "cps_including_spaces": 17.253521126760564,
+          "wpm": 169.01408450704227
+        },
+        {
+          "id": "c7",
+          "text": "Y tú, ¿registras por qué tus clientes te dicen no?",
+          "start_s": 16.42,
+          "end_s": 19.42,
+          "duration_s": 3.0,
+          "cps_including_spaces": 16.666666666666668,
+          "wpm": 200.0
+        }
+      ],
+      "max_cps": 22.027972027972034,
+      "over20cps": 1,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-13/frame-00.png",
+          "sha256": "0489ad63cfe133a13f9bfeb4f7b05b90bc41a105ff6dbb4ecbfc2bd0f4b9d13a",
+          "frame_index": 31,
+          "time_s": 1.0333333333333334
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-13/frame-01.png",
+          "sha256": "47220c301751c91f2a760f9442a5bd7123ee1f11d57ea18eee611ca6f1fa4ddb",
+          "frame_index": 263,
+          "time_s": 8.766666666666667
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-13/frame-02.png",
+          "sha256": "69332e134f4e651a515c41acb30f61e0a32efaf98795b88123c342a0f48c1e7f",
+          "frame_index": 357,
+          "time_s": 11.9
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-13/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-14",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/renders/VIDEO-14-FINAL.mp4",
+      "sha256": "76c87c7416646ec53f4f16dccdebd421069e046dc5fe6ab53c63a0ac4fca2840",
+      "bytes": 19845181,
+      "selection": "Current FINAL filename frozen by hash; approval not inferred.",
+      "metadata": {
+        "duration_s": 23.266667,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/compositions/captions-es.html",
+        "sha256": "3d8b37be5ba5ac171551af73d1ccf895827542711368d7ce33182d1178c60e34",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:54px;right:54px;bottom:480px;min-height:132px;padding:24px 32px 26px;background:rgba(14,27,43,.96);border:4px solid #2F66FF;border-radius:28px;font-size:64px;font-weight:900;line-height:1.01;text-align:center;letter-spacing:-1.4px;opacity:0;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;column-gap:.22em;row-gap:0"
+        },
+        {
+          "selector": ".cue::after",
+          "declarations": "content:\"\";position:absolute;left:74px;bottom:-24px;width:0;height:0;border-style:solid;border-width:24px 28px 0 0;border-color:#2F66FF transparent transparent transparent"
+        },
+        {
+          "selector": ".cue.long",
+          "declarations": "font-size:60px"
+        }
+      ],
+      "cue_count": 10,
+      "cues": [
+        {
+          "id": "v14-cap-1",
+          "text": "Tu mejor prompt puede ser una conversación.",
+          "start_s": 0.2,
+          "end_s": 2.5,
+          "duration_s": 2.3,
+          "cps_including_spaces": 18.695652173913047,
+          "wpm": 182.60869565217394
+        },
+        {
+          "id": "v14-cap-2",
+          "text": "Tu mejor prompt de marketing",
+          "start_s": 3.09,
+          "end_s": 4.65,
+          "duration_s": 1.5600000000000005,
+          "cps_including_spaces": 17.948717948717942,
+          "wpm": 192.30769230769224
+        },
+        {
+          "id": "v14-cap-3",
+          "text": "puede no estar dentro de ChatGPT.",
+          "start_s": 4.65,
+          "end_s": 6.15,
+          "duration_s": 1.5,
+          "cps_including_spaces": 22.0,
+          "wpm": 240.0
+        },
+        {
+          "id": "v14-cap-4",
+          "text": "Puede estar en una conversación real",
+          "start_s": 6.72,
+          "end_s": 9.1,
+          "duration_s": 2.38,
+          "cps_including_spaces": 15.126050420168069,
+          "wpm": 151.26050420168067
+        },
+        {
+          "id": "v14-cap-5",
+          "text": "donde un cliente te dice exactamente",
+          "start_s": 9.1,
+          "end_s": 11.0,
+          "duration_s": 1.9000000000000004,
+          "cps_including_spaces": 18.947368421052627,
+          "wpm": 189.4736842105263
+        },
+        {
+          "id": "v14-cap-6",
+          "text": "qué le preocupa, qué quiere y qué no entiende.",
+          "start_s": 11.0,
+          "end_s": 13.3,
+          "duration_s": 2.3000000000000007,
+          "cps_including_spaces": 19.999999999999993,
+          "wpm": 234.7826086956521
+        },
+        {
+          "id": "v14-cap-7",
+          "text": "El buen marketing muchas veces",
+          "start_s": 13.92,
+          "end_s": 15.8,
+          "duration_s": 1.8800000000000008,
+          "cps_including_spaces": 15.957446808510632,
+          "wpm": 159.57446808510633
+        },
+        {
+          "id": "v14-cap-8",
+          "text": "empieza escuchando mejor.",
+          "start_s": 15.8,
+          "end_s": 17.82,
+          "duration_s": 2.0199999999999996,
+          "cps_including_spaces": 12.376237623762378,
+          "wpm": 89.10891089108912
+        },
+        {
+          "id": "v14-cap-9",
+          "text": "¿Cuándo fue la última vez que hablaste con un cliente",
+          "start_s": 18.5,
+          "end_s": 20.85,
+          "duration_s": 2.3500000000000014,
+          "cps_including_spaces": 22.553191489361687,
+          "wpm": 255.31914893617005
+        },
+        {
+          "id": "v14-cap-10",
+          "text": "intentando no venderle?",
+          "start_s": 20.85,
+          "end_s": 22.95,
+          "duration_s": 2.099999999999998,
+          "cps_including_spaces": 10.952380952380963,
+          "wpm": 85.7142857142858
+        }
+      ],
+      "max_cps": 22.553191489361687,
+      "over20cps": 2,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-14/frame-00.png",
+          "sha256": "0e2809e4343c5063dfbf8e75893fc5b8af68ec9f9aee1e926bf66d02f71ec9f3",
+          "frame_index": 40,
+          "time_s": 1.3333333333333333
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-14/frame-01.png",
+          "sha256": "d3711a5b3cdb3f7822298fe40708445380367fd02da2fe2d253a1e94d1c86c95",
+          "frame_index": 364,
+          "time_s": 12.133333333333333
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-14/frame-02.png",
+          "sha256": "ba5e707ff5916f42cbfdbe5faeb269acf4971833597dbdb593901cab513dd5f0",
+          "frame_index": 590,
+          "time_s": 19.666666666666668
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-14/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-15",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/renders/VIDEO-15-FINAL.mp4",
+      "sha256": "b778b8bfdc79f88d651612f3a581c6661b32312edc287e51f477bfaf116a26f2",
+      "bytes": 15357624,
+      "selection": "Current FINAL filename frozen by hash; approval not inferred.",
+      "metadata": {
+        "duration_s": 21.1,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/compositions/captions-es.html",
+        "sha256": "1cb8f943defa93aa9d19801b7785839a172a47cc9873c0375e6dea4c1f18ac31",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".cue",
+          "declarations": "position:absolute;left:54px;right:54px;bottom:500px;min-height:126px;padding:24px 28px 26px;background:rgba(242,231,213,.98);border:5px solid #17323B;box-shadow:12px 12px 0 #C84A3D;font-size:60px;font-weight:900;line-height:1.02;text-align:center;letter-spacing:-1px;opacity:0;display:flex;align-items:center;justify-content:center;flex-wrap:wrap"
+        },
+        {
+          "selector": ".cue.long",
+          "declarations": "font-size:54px"
+        }
+      ],
+      "cue_count": 6,
+      "cues": [
+        {
+          "id": "c1",
+          "text": "No automatices algo que no entiendes.",
+          "start_s": 0.06,
+          "end_s": 1.95,
+          "duration_s": 1.89,
+          "cps_including_spaces": 19.57671957671958,
+          "wpm": 190.47619047619048
+        },
+        {
+          "id": "c2",
+          "text": "Uno de los peores errores con inteligencia artificial",
+          "start_s": 2.4,
+          "end_s": 6.142,
+          "duration_s": 3.7420000000000004,
+          "cps_including_spaces": 14.163548904329234,
+          "wpm": 128.2736504543025
+        },
+        {
+          "id": "c3",
+          "text": "es automatizar demasiado pronto cualquier proceso.",
+          "start_s": 6.142,
+          "end_s": 8.388,
+          "duration_s": 2.2459999999999996,
+          "cps_including_spaces": 22.261798753339274,
+          "wpm": 160.28495102404278
+        },
+        {
+          "id": "c4",
+          "text": "Si todavía no sabes por qué funciona,",
+          "start_s": 8.888,
+          "end_s": 12.592,
+          "duration_s": 3.7040000000000006,
+          "cps_including_spaces": 9.989200863930884,
+          "wpm": 113.39092872570193
+        },
+        {
+          "id": "c5a",
+          "text": "Automatizarlo puede significar",
+          "start_s": 12.652,
+          "end_s": 15.772,
+          "duration_s": 3.120000000000001,
+          "cps_including_spaces": 9.615384615384613,
+          "wpm": 57.69230769230767
+        },
+        {
+          "id": "c5b",
+          "text": "repetir más rápido algo que ya está mal.",
+          "start_s": 16.132,
+          "end_s": 20.832,
+          "duration_s": 4.699999999999999,
+          "cps_including_spaces": 8.510638297872342,
+          "wpm": 102.1276595744681
+        }
+      ],
+      "max_cps": 22.261798753339274,
+      "over20cps": 1,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-15/frame-00.png",
+          "sha256": "81164a8c08f1268cd975d15b21b32c3c21445e5984e432067f660289348e9e30",
+          "frame_index": 30,
+          "time_s": 1.0
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-15/frame-01.png",
+          "sha256": "a27976a3d0c987043991b8e5a88bb0e16c8c0c49e285ff8a5c64140721f6975a",
+          "frame_index": 128,
+          "time_s": 4.266666666666667
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-15/frame-02.png",
+          "sha256": "17d85fee3ff0e6b5e99cd684f8e91551660730b65a1389b74173ef5f61b3d844",
+          "frame_index": 322,
+          "time_s": 10.733333333333333
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-15/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-16",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-16/VIDEO-16-PARA-APROBACION-v4.mp4",
+      "sha256": "df5b836f43fb38c6378dcdb34ee2ed78d2eb2e037133bffc3dc9af817f82804e",
+      "bytes": 37387624,
+      "selection": "Explicit user approval receipt for v4.",
+      "metadata": {
+        "duration_s": 28.5,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "bt709",
+        "viewing_conversion": "SDR BT709 decoded"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-16/editable-image-v4/compositions/captions-es.html",
+        "sha256": "f8e89746bbfc506a5908b520d26f13faac1d54ebba4e38e084902367f1c5921d",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".caption",
+          "declarations": "opacity:0;position:absolute;left:108px;top:1592px;width:864px;height:132px;display:flex;align-items:center;justify-content:center"
+        },
+        {
+          "selector": ".caption-box",
+          "declarations": "width:864px;max-height:132px;box-sizing:border-box;padding:14px 24px;background:#EEEAE0;color:#171716;font-family:'Inter';font-weight:700;font-size:48px;line-height:52px;text-align:center;overflow-wrap:normal;white-space:normal;word-spacing:0;column-gap:.23em"
+        }
+      ],
+      "cue_count": 22,
+      "cues": [
+        {
+          "id": "caption-01",
+          "text": "Hay un tipo de vendedor",
+          "start_s": 0.28,
+          "end_s": 1.42,
+          "duration_s": 1.14,
+          "cps_including_spaces": 20.17543859649123,
+          "wpm": 263.15789473684214
+        },
+        {
+          "id": "caption-02",
+          "text": "que la IA sí puede",
+          "start_s": 1.42,
+          "end_s": 2.2399999999999998,
+          "duration_s": 0.8199999999999998,
+          "cps_including_spaces": 21.951219512195127,
+          "wpm": 365.85365853658544
+        },
+        {
+          "id": "caption-03",
+          "text": "reemplazar muy fácil.",
+          "start_s": 2.24,
+          "end_s": 3.3600000000000003,
+          "duration_s": 1.12,
+          "cps_including_spaces": 18.749999999999996,
+          "wpm": 160.7142857142857
+        },
+        {
+          "id": "caption-04",
+          "text": "Mira, si yo ya puedo",
+          "start_s": 3.86,
+          "end_s": 5.109999999999999,
+          "duration_s": 1.2499999999999996,
+          "cps_including_spaces": 16.000000000000007,
+          "wpm": 240.0000000000001
+        },
+        {
+          "id": "caption-05",
+          "text": "entrar a internet,",
+          "start_s": 5.11,
+          "end_s": 5.86,
+          "duration_s": 0.75,
+          "cps_including_spaces": 24.0,
+          "wpm": 240.0
+        },
+        {
+          "id": "caption-06",
+          "text": "preguntarle a una IA",
+          "start_s": 6.2,
+          "end_s": 7.16,
+          "duration_s": 0.96,
+          "cps_including_spaces": 20.833333333333336,
+          "wpm": 250.00000000000003
+        },
+        {
+          "id": "caption-07",
+          "text": "cuánto cuesta algo,",
+          "start_s": 7.16,
+          "end_s": 8.26,
+          "duration_s": 1.0999999999999996,
+          "cps_including_spaces": 17.272727272727277,
+          "wpm": 163.63636363636368
+        },
+        {
+          "id": "caption-08",
+          "text": "cuáles son sus características,",
+          "start_s": 8.46,
+          "end_s": 9.72,
+          "duration_s": 1.2599999999999998,
+          "cps_including_spaces": 24.603174603174608,
+          "wpm": 190.4761904761905
+        },
+        {
+          "id": "caption-09",
+          "text": "qué diferencias tiene,",
+          "start_s": 10.14,
+          "end_s": 11.4,
+          "duration_s": 1.2599999999999998,
+          "cps_including_spaces": 17.460317460317462,
+          "wpm": 142.8571428571429
+        },
+        {
+          "id": "caption-10",
+          "text": "¿para qué necesito un vendedor",
+          "start_s": 11.88,
+          "end_s": 13.270000000000001,
+          "duration_s": 1.3900000000000006,
+          "cps_including_spaces": 21.58273381294963,
+          "wpm": 215.82733812949633
+        },
+        {
+          "id": "caption-11",
+          "text": "que venga a repetirme",
+          "start_s": 13.27,
+          "end_s": 14.43,
+          "duration_s": 1.1600000000000001,
+          "cps_including_spaces": 18.103448275862068,
+          "wpm": 206.8965517241379
+        },
+        {
+          "id": "caption-12",
+          "text": "exactamente lo mismo?",
+          "start_s": 14.43,
+          "end_s": 15.5,
+          "duration_s": 1.0700000000000003,
+          "cps_including_spaces": 19.62616822429906,
+          "wpm": 168.22429906542052
+        },
+        {
+          "id": "caption-13",
+          "text": "Ahí ya no me",
+          "start_s": 16.08,
+          "end_s": 16.819999999999997,
+          "duration_s": 0.7399999999999984,
+          "cps_including_spaces": 16.21621621621625,
+          "wpm": 324.324324324325
+        },
+        {
+          "id": "caption-14",
+          "text": "está agregando nada.",
+          "start_s": 16.82,
+          "end_s": 17.740000000000002,
+          "duration_s": 0.9200000000000017,
+          "cps_including_spaces": 21.739130434782567,
+          "wpm": 195.65217391304313
+        },
+        {
+          "id": "caption-15",
+          "text": "El vendedor del futuro",
+          "start_s": 18.34,
+          "end_s": 19.4,
+          "duration_s": 1.0599999999999987,
+          "cps_including_spaces": 20.754716981132102,
+          "wpm": 226.4150943396229
+        },
+        {
+          "id": "caption-16",
+          "text": "no va a valer",
+          "start_s": 19.4,
+          "end_s": 20.119999999999997,
+          "duration_s": 0.7199999999999989,
+          "cps_including_spaces": 18.055555555555586,
+          "wpm": 333.3333333333338
+        },
+        {
+          "id": "caption-17",
+          "text": "por lo que sabe,",
+          "start_s": 20.12,
+          "end_s": 20.86,
+          "duration_s": 0.7399999999999984,
+          "cps_including_spaces": 21.621621621621667,
+          "wpm": 324.324324324325
+        },
+        {
+          "id": "caption-18",
+          "text": "va a valer por",
+          "start_s": 20.86,
+          "end_s": 21.74,
+          "duration_s": 0.879999999999999,
+          "cps_including_spaces": 15.909090909090928,
+          "wpm": 272.72727272727303
+        },
+        {
+          "id": "caption-19",
+          "text": "cómo atiende al cliente.",
+          "start_s": 21.74,
+          "end_s": 23.22,
+          "duration_s": 1.4800000000000004,
+          "cps_including_spaces": 16.21621621621621,
+          "wpm": 162.1621621621621
+        },
+        {
+          "id": "caption-20",
+          "text": "Y tú, ¿todavía prefieres",
+          "start_s": 23.58,
+          "end_s": 25.11,
+          "duration_s": 1.5300000000000011,
+          "cps_including_spaces": 15.68627450980391,
+          "wpm": 156.8627450980391
+        },
+        {
+          "id": "caption-21",
+          "text": "comprar hablando con alguien",
+          "start_s": 25.11,
+          "end_s": 26.41,
+          "duration_s": 1.3000000000000007,
+          "cps_including_spaces": 21.538461538461526,
+          "wpm": 184.61538461538453
+        },
+        {
+          "id": "caption-22",
+          "text": "o hablando con una automatización?",
+          "start_s": 26.41,
+          "end_s": 28.18,
+          "duration_s": 1.7699999999999996,
+          "cps_including_spaces": 19.209039548022602,
+          "wpm": 169.49152542372886
+        }
+      ],
+      "max_cps": 24.603174603174608,
+      "over20cps": 10,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-16/frame-00.png",
+          "sha256": "e3f5441ebe3e259b9252e39f735b4e3ba144e206064fef66c43306859c2d2aca",
+          "frame_index": 25,
+          "time_s": 0.8333333333333334
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-16/frame-01.png",
+          "sha256": "d331d238234595f840d9453c287e7dba8dbe73b081facaabbb9ca5cab2a2df28",
+          "frame_index": 448,
+          "time_s": 14.933333333333334
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-16/frame-02.png",
+          "sha256": "e76b360997c897b0d44d796b31a06a4aef249046342bf7c411ca60c460a4e79e",
+          "frame_index": 818,
+          "time_s": 27.266666666666666
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-16/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-21",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/renders/VIDEO-21-ENTREGA-HLG-v2.mp4",
+      "sha256": "73b68b1b51acf49269cfe9ef1f76a05ceca469e40ebb9dabb637df20bf7ef79a",
+      "bytes": 20161474,
+      "selection": "ENTREGA.json artifact at inventory time; later concurrent revisions not covered.",
+      "metadata": {
+        "duration_s": 21.633333,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/compositions/captions-es.html",
+        "sha256": "4412f606aa88050fce7827870a761f4428cdcdb53891bdfaa3057901839ac629",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".caption",
+          "declarations": "position:absolute;left:72px;top:1400px;width:936px;text-align:center"
+        },
+        {
+          "selector": ".caption p",
+          "declarations": "display:inline-block;width:100%;padding:24px 30px;background:#142B3A;color:#FFF6E7;border-radius:22px;border:3px solid #FFF6E7;font-size:58px;line-height:1.13;font-weight:800;word-spacing:2px"
+        },
+        {
+          "selector": ".caption",
+          "declarations": "position:absolute;left:72px;top:1400px;width:936px;text-align:center"
+        },
+        {
+          "selector": ".caption p",
+          "declarations": "display:inline-block;width:100%;padding:24px 30px;background:#142B3A;color:#FFF6E7;border-radius:22px;border:3px solid #FFF6E7;font-size:58px;line-height:1.13;font-weight:800;word-spacing:2px"
+        }
+      ],
+      "cue_count": 14,
+      "cues": [
+        {
+          "id": "cue-0",
+          "text": "Si alguien te promete",
+          "start_s": 0.01850000000000307,
+          "end_s": 0.9385000000000048,
+          "duration_s": 0.9200000000000017,
+          "cps_including_spaces": 22.826086956521696,
+          "wpm": 260.8695652173908
+        },
+        {
+          "id": "cue-1",
+          "text": "que con neuromarketing",
+          "start_s": 0.9385000000000048,
+          "end_s": 2.018500000000003,
+          "duration_s": 1.0799999999999983,
+          "cps_including_spaces": 20.370370370370402,
+          "wpm": 166.6666666666669
+        },
+        {
+          "id": "cue-2",
+          "text": "puede controlar el cerebro",
+          "start_s": 2.018500000000003,
+          "end_s": 3.4185000000000016,
+          "duration_s": 1.3999999999999986,
+          "cps_including_spaces": 18.57142857142859,
+          "wpm": 171.4285714285716
+        },
+        {
+          "id": "cue-3",
+          "text": "de tu cliente, desconfía.",
+          "start_s": 3.4185000000000016,
+          "end_s": 5.166666666666671,
+          "duration_s": 1.7481666666666698,
+          "cps_including_spaces": 14.300695967203712,
+          "wpm": 137.28668128515562
+        },
+        {
+          "id": "cue-4",
+          "text": "El neuromarketing",
+          "start_s": 5.18314633333334,
+          "end_s": 6.083146333333339,
+          "duration_s": 0.8999999999999986,
+          "cps_including_spaces": 18.888888888888918,
+          "wpm": 133.33333333333354
+        },
+        {
+          "id": "cue-5",
+          "text": "no es un botón secreto",
+          "start_s": 6.083146333333339,
+          "end_s": 7.18314633333334,
+          "duration_s": 1.1000000000000014,
+          "cps_including_spaces": 19.999999999999975,
+          "wpm": 272.7272727272724
+        },
+        {
+          "id": "cue-6",
+          "text": "para hacer comprar a la gente.",
+          "start_s": 7.18314633333334,
+          "end_s": 9.0,
+          "duration_s": 1.8168536666666597,
+          "cps_including_spaces": 16.512061785933657,
+          "wpm": 198.1447414312039
+        },
+        {
+          "id": "cue-7",
+          "text": "Lo interesante está en entender mejor",
+          "start_s": 9.00170833333334,
+          "end_s": 11.00170833333334,
+          "duration_s": 2.0,
+          "cps_including_spaces": 18.5,
+          "wpm": 180.0
+        },
+        {
+          "id": "cue-8",
+          "text": "por qué prestamos atención,",
+          "start_s": 11.00170833333334,
+          "end_s": 13.22170833333334,
+          "duration_s": 2.219999999999999,
+          "cps_including_spaces": 12.162162162162168,
+          "wpm": 108.10810810810817
+        },
+        {
+          "id": "cue-9",
+          "text": "qué nos genera confianza,",
+          "start_s": 13.22170833333334,
+          "end_s": 14.601708333333335,
+          "duration_s": 1.3799999999999955,
+          "cps_including_spaces": 18.115942028985568,
+          "wpm": 173.91304347826144
+        },
+        {
+          "id": "cue-10",
+          "text": "qué nos genera confusión",
+          "start_s": 14.601708333333335,
+          "end_s": 16.071708333333333,
+          "duration_s": 1.4699999999999989,
+          "cps_including_spaces": 16.32653061224491,
+          "wpm": 163.26530612244912
+        },
+        {
+          "id": "cue-11",
+          "text": "y cómo tomamos decisiones.",
+          "start_s": 16.071708333333333,
+          "end_s": 17.933333333333337,
+          "duration_s": 1.8616250000000036,
+          "cps_including_spaces": 13.966292889276815,
+          "wpm": 128.9196266702475
+        },
+        {
+          "id": "cue-12",
+          "text": "Entender el comportamiento",
+          "start_s": 17.952541666666676,
+          "end_s": 19.522541666666683,
+          "duration_s": 1.5700000000000074,
+          "cps_including_spaces": 16.56050955414005,
+          "wpm": 114.64968152866187
+        },
+        {
+          "id": "cue-13",
+          "text": "no es manipular el comportamiento.",
+          "start_s": 19.522541666666683,
+          "end_s": 21.63333333333334,
+          "duration_s": 2.110791666666657,
+          "cps_including_spaces": 16.10770050731368,
+          "wpm": 142.12676918217954
+        }
+      ],
+      "max_cps": 22.826086956521696,
+      "over20cps": 2,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-21/frame-00.png",
+          "sha256": "0bcb4610ca75a91b471042e73fdb20cf55e373f122c24f835bc38b7b0211559d",
+          "frame_index": 14,
+          "time_s": 0.4666666666666667
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-21/frame-01.png",
+          "sha256": "79aef9280182bac6fce87c9920858755de9bfd1497689149c6024c8eae733030",
+          "frame_index": 300,
+          "time_s": 10.0
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-21/frame-02.png",
+          "sha256": "7c89441a633fadc0f9be37cc95f7bbe0d5039f74257fe6016198d34db782b016",
+          "frame_index": 617,
+          "time_s": 20.566666666666666
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-21/contact-sheet.png",
+      "visual_review_completed": false
+    },
+    {
+      "video_id": "VIDEO-22",
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-22/entrega/VIDEO-22-ENTREGA-HLG-v2-audio-conservado.mp4",
+      "sha256": "c1fcbfa0efe6a362f7d8c1600356603cb1c682b9a0caeee17d4d311937bb185e",
+      "bytes": 20531639,
+      "selection": "ENTREGA.json artifact at inventory time; later concurrent revisions not covered.",
+      "metadata": {
+        "duration_s": 25.266667,
+        "width": 1080,
+        "height": 1920,
+        "fps": 30.0,
+        "color_transfer": "arib-std-b67",
+        "viewing_conversion": "HLG/PQ to BT709 Hable, not certified HDR"
+      },
+      "caption_source": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/compositions/captions-es.html",
+        "sha256": "2bed60d975cf7853c42c3645a55f421b541ec2b3537e6c2ee909a78780f20222",
+        "binding_limit": "Current editable inspected separately; exact historical render source equality not claimed without receipt."
+      },
+      "caption_css": [
+        {
+          "selector": ".caption",
+          "declarations": "position:absolute;left:84px;top:1380px;width:912px;text-align:center"
+        },
+        {
+          "selector": ".caption p",
+          "declarations": "opacity:0;display:inline-block;width:100%;padding:22px 24px;background:#F5F1E6;color:#193C39;border-radius:16px;font-family:Outfit,sans-serif;font-size:62px;line-height:1.12;font-weight:700;word-spacing:2px"
+        }
+      ],
+      "cue_count": 16,
+      "cues": [
+        {
+          "id": "cap-0",
+          "text": "Hay veces que",
+          "start_s": 0.060021,
+          "end_s": 0.550021,
+          "duration_s": 0.49,
+          "cps_including_spaces": 26.53061224489796,
+          "wpm": 367.3469387755102
+        },
+        {
+          "id": "cap-1",
+          "text": "preguntarle al cliente qué quiere",
+          "start_s": 0.550021,
+          "end_s": 2.250021,
+          "duration_s": 1.6999999999999997,
+          "cps_including_spaces": 19.411764705882355,
+          "wpm": 176.47058823529414
+        },
+        {
+          "id": "cap-2",
+          "text": "te puede engañar.",
+          "start_s": 2.250021,
+          "end_s": 3.260021,
+          "duration_s": 1.0100000000000002,
+          "cps_including_spaces": 16.83168316831683,
+          "wpm": 178.2178217821782
+        },
+        {
+          "id": "cap-3",
+          "text": "No porque te estén engañando,",
+          "start_s": 3.297333,
+          "end_s": 5.147333,
+          "duration_s": 1.8499999999999996,
+          "cps_including_spaces": 15.675675675675679,
+          "wpm": 162.1621621621622
+        },
+        {
+          "id": "cap-4",
+          "text": "sino porque nosotros mismos",
+          "start_s": 5.147333,
+          "end_s": 6.357333,
+          "duration_s": 1.21,
+          "cps_including_spaces": 22.31404958677686,
+          "wpm": 198.34710743801654
+        },
+        {
+          "id": "cap-5",
+          "text": "decimos cosas que después no hacemos.",
+          "start_s": 6.357333,
+          "end_s": 8.397333,
+          "duration_s": 2.04,
+          "cps_including_spaces": 18.137254901960784,
+          "wpm": 176.47058823529412
+        },
+        {
+          "id": "cap-6",
+          "text": "Decimos: «Yo nunca pagaría eso»",
+          "start_s": 8.765042,
+          "end_s": 10.535041999999999,
+          "duration_s": 1.7699999999999996,
+          "cps_including_spaces": 17.514124293785315,
+          "wpm": 169.49152542372886
+        },
+        {
+          "id": "cap-7",
+          "text": "y terminamos comprándolo.",
+          "start_s": 10.535042,
+          "end_s": 11.935042000000001,
+          "duration_s": 1.4000000000000004,
+          "cps_including_spaces": 17.857142857142854,
+          "wpm": 128.57142857142856
+        },
+        {
+          "id": "cap-8",
+          "text": "Decimos que queremos una cosa",
+          "start_s": 11.935042,
+          "end_s": 13.535041999999999,
+          "duration_s": 1.5999999999999996,
+          "cps_including_spaces": 18.125000000000004,
+          "wpm": 187.50000000000006
+        },
+        {
+          "id": "cap-9",
+          "text": "y nuestro comportamiento termina mostrando otra.",
+          "start_s": 13.535042,
+          "end_s": 16.035042,
+          "duration_s": 2.5,
+          "cps_including_spaces": 19.2,
+          "wpm": 144.0
+        },
+        {
+          "id": "cap-10",
+          "text": "No escuches solamente",
+          "start_s": 16.192105,
+          "end_s": 17.762105000000002,
+          "duration_s": 1.5700000000000003,
+          "cps_including_spaces": 13.375796178343947,
+          "wpm": 114.6496815286624
+        },
+        {
+          "id": "cap-11",
+          "text": "lo que la gente dice,",
+          "start_s": 17.762105,
+          "end_s": 19.492105,
+          "duration_s": 1.7300000000000004,
+          "cps_including_spaces": 12.13872832369942,
+          "wpm": 173.41040462427742
+        },
+        {
+          "id": "cap-12",
+          "text": "mira también lo que hace.",
+          "start_s": 19.492105,
+          "end_s": 20.872104999999998,
+          "duration_s": 1.379999999999999,
+          "cps_including_spaces": 18.115942028985522,
+          "wpm": 217.39130434782626
+        },
+        {
+          "id": "cap-13",
+          "text": "¿Alguna vez dijiste:",
+          "start_s": 21.02425,
+          "end_s": 22.21425,
+          "duration_s": 1.1900000000000013,
+          "cps_including_spaces": 16.806722689075613,
+          "wpm": 151.2605042016805
+        },
+        {
+          "id": "cap-14",
+          "text": "«Yo jamás compraría eso»",
+          "start_s": 22.21425,
+          "end_s": 23.59425,
+          "duration_s": 1.379999999999999,
+          "cps_including_spaces": 17.3913043478261,
+          "wpm": 173.913043478261
+        },
+        {
+          "id": "cap-15",
+          "text": "y terminaste comprándolo?",
+          "start_s": 23.59425,
+          "end_s": 25.12425,
+          "duration_s": 1.5300000000000011,
+          "cps_including_spaces": 16.33986928104574,
+          "wpm": 117.64705882352932
+        }
+      ],
+      "max_cps": 26.53061224489796,
+      "over20cps": 2,
+      "mobile_font_scale": "At360px video width, 1080px source fonts scale by1/3.",
+      "review_frames": [
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-22/frame-00.png",
+          "sha256": "3457c2449d6e82732fbcda8b2917aae8970de87b56a1b2941acfcca60d670aad",
+          "frame_index": 9,
+          "time_s": 0.3
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-22/frame-01.png",
+          "sha256": "f58b3372e63d8f3c6b9f3b24cef73485bc6d58f14b4d19fc3cfa42f2ce13332c",
+          "frame_index": 382,
+          "time_s": 12.733333333333333
+        },
+        {
+          "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-22/frame-02.png",
+          "sha256": "1b680f7a8999aba6a47cb428e9c53f2a2fb0033738218beac8955694d2dfedfa",
+          "frame_index": 443,
+          "time_s": 14.766666666666667
+        }
+      ],
+      "contact_sheet": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-22/contact-sheet.png",
+      "visual_review_completed": false
+    }
+  ],
+  "commands": [
+    {
+      "label": "probe1",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-01/deliveries/VIDEO-01-instagram-reels.mp4"
+      ],
+      "wall_s": 0.061295291990973055,
+      "exit_code": 0
+    },
+    {
+      "label": "frames1",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-01/deliveries/VIDEO-01-instagram-reels.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,31)+eq(n\\,103)+eq(n\\,428),scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-01/frame-%02d.png"
+      ],
+      "wall_s": 0.38063700002385303,
+      "exit_code": 0
+    },
+    {
+      "label": "probe2",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-02/VIDEO-02_REVISION_v3.mp4"
+      ],
+      "wall_s": 0.037509792018681765,
+      "exit_code": 0
+    },
+    {
+      "label": "frames2",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-02/VIDEO-02_REVISION_v3.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,29)+eq(n\\,96)+eq(n\\,348),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-02/frame-%02d.png"
+      ],
+      "wall_s": 0.6205474580056034,
+      "exit_code": 0
+    },
+    {
+      "label": "probe3",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-03/VIDEO-03_REVISION_v3.mp4"
+      ],
+      "wall_s": 0.03837658400880173,
+      "exit_code": 0
+    },
+    {
+      "label": "frames3",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-03/VIDEO-03_REVISION_v3.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,30)+eq(n\\,357)+eq(n\\,557),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-03/frame-%02d.png"
+      ],
+      "wall_s": 0.9592093339888379,
+      "exit_code": 0
+    },
+    {
+      "label": "probe4",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-04/VIDEO-04_REVISION_v2.mp4"
+      ],
+      "wall_s": 0.04364995798096061,
+      "exit_code": 0
+    },
+    {
+      "label": "frames4",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-04/VIDEO-04_REVISION_v2.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,34)+eq(n\\,126)+eq(n\\,293),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-04/frame-%02d.png"
+      ],
+      "wall_s": 0.5453932079835795,
+      "exit_code": 0
+    },
+    {
+      "label": "probe5",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-05/VIDEO-05_REVISION_v2.mp4"
+      ],
+      "wall_s": 0.03963237500283867,
+      "exit_code": 0
+    },
+    {
+      "label": "frames5",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-05/VIDEO-05_REVISION_v2.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,37)+eq(n\\,125)+eq(n\\,345),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-05/frame-%02d.png"
+      ],
+      "wall_s": 0.6054179170168936,
+      "exit_code": 0
+    },
+    {
+      "label": "probe6",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-06/VIDEO-06_REVISION_v3.mp4"
+      ],
+      "wall_s": 0.03847533301450312,
+      "exit_code": 0
+    },
+    {
+      "label": "frames6",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-06/VIDEO-06_REVISION_v3.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,35)+eq(n\\,320)+eq(n\\,572),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-06/frame-%02d.png"
+      ],
+      "wall_s": 1.1503774999873713,
+      "exit_code": 0
+    },
+    {
+      "label": "probe7",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-07/VIDEO-07_REVISION_v3.mp4"
+      ],
+      "wall_s": 0.03801725001540035,
+      "exit_code": 0
+    },
+    {
+      "label": "frames7",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-07/VIDEO-07_REVISION_v3.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,29)+eq(n\\,145)+eq(n\\,306),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-07/frame-%02d.png"
+      ],
+      "wall_s": 0.6880033750203438,
+      "exit_code": 0
+    },
+    {
+      "label": "probe8",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-08/VIDEO-08_REVISION_v3.mp4"
+      ],
+      "wall_s": 0.03931099997134879,
+      "exit_code": 0
+    },
+    {
+      "label": "frames8",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-08/VIDEO-08_REVISION_v3.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,30)+eq(n\\,174)+eq(n\\,273),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-08/frame-%02d.png"
+      ],
+      "wall_s": 0.6313971670460887,
+      "exit_code": 0
+    },
+    {
+      "label": "probe9",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-09/VIDEO-09_REVISION_v7.mp4"
+      ],
+      "wall_s": 0.03790670802118257,
+      "exit_code": 0
+    },
+    {
+      "label": "frames9",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-09/VIDEO-09_REVISION_v7.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,26)+eq(n\\,283)+eq(n\\,504),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-09/frame-%02d.png"
+      ],
+      "wall_s": 1.0530496659921482,
+      "exit_code": 0
+    },
+    {
+      "label": "probe10",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-10/VIDEO-10_REVISION_v3.mp4"
+      ],
+      "wall_s": 0.038595916994381696,
+      "exit_code": 0
+    },
+    {
+      "label": "frames10",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-10/VIDEO-10_REVISION_v3.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,22)+eq(n\\,271)+eq(n\\,441),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-10/frame-%02d.png"
+      ],
+      "wall_s": 0.934700166049879,
+      "exit_code": 0
+    },
+    {
+      "label": "probe11",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/renders/VIDEO-11-FINAL.mp4"
+      ],
+      "wall_s": 0.038391874986700714,
+      "exit_code": 0
+    },
+    {
+      "label": "frames11",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/renders/VIDEO-11-FINAL.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,44)+eq(n\\,460)+eq(n\\,655),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-11/frame-%02d.png"
+      ],
+      "wall_s": 1.138899042038247,
+      "exit_code": 0
+    },
+    {
+      "label": "probe12",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/renders/VIDEO-12-FINAL.mp4"
+      ],
+      "wall_s": 0.038281042012386024,
+      "exit_code": 0
+    },
+    {
+      "label": "frames12",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/renders/VIDEO-12-FINAL.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,39)+eq(n\\,216)+eq(n\\,309),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-12/frame-%02d.png"
+      ],
+      "wall_s": 0.6804735410260037,
+      "exit_code": 0
+    },
+    {
+      "label": "probe13",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/renders/VIDEO-13-FINAL.mp4"
+      ],
+      "wall_s": 0.039077459019608796,
+      "exit_code": 0
+    },
+    {
+      "label": "frames13",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/renders/VIDEO-13-FINAL.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,31)+eq(n\\,263)+eq(n\\,357),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-13/frame-%02d.png"
+      ],
+      "wall_s": 0.7303707079845481,
+      "exit_code": 0
+    },
+    {
+      "label": "probe14",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/renders/VIDEO-14-FINAL.mp4"
+      ],
+      "wall_s": 0.03869349998421967,
+      "exit_code": 0
+    },
+    {
+      "label": "frames14",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/renders/VIDEO-14-FINAL.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,40)+eq(n\\,364)+eq(n\\,590),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-14/frame-%02d.png"
+      ],
+      "wall_s": 1.1918113749707118,
+      "exit_code": 0
+    },
+    {
+      "label": "probe15",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/renders/VIDEO-15-FINAL.mp4"
+      ],
+      "wall_s": 0.039122666988987476,
+      "exit_code": 0
+    },
+    {
+      "label": "frames15",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/renders/VIDEO-15-FINAL.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,30)+eq(n\\,128)+eq(n\\,322),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-15/frame-%02d.png"
+      ],
+      "wall_s": 0.6938712080009282,
+      "exit_code": 0
+    },
+    {
+      "label": "probe16",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-16/VIDEO-16-PARA-APROBACION-v4.mp4"
+      ],
+      "wall_s": 0.04782670899294317,
+      "exit_code": 0
+    },
+    {
+      "label": "frames16",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-16/VIDEO-16-PARA-APROBACION-v4.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,25)+eq(n\\,448)+eq(n\\,818),scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-16/frame-%02d.png"
+      ],
+      "wall_s": 0.6891720410203561,
+      "exit_code": 0
+    },
+    {
+      "label": "probe21",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/renders/VIDEO-21-ENTREGA-HLG-v2.mp4"
+      ],
+      "wall_s": 0.03868125000735745,
+      "exit_code": 0
+    },
+    {
+      "label": "frames21",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/renders/VIDEO-21-ENTREGA-HLG-v2.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,14)+eq(n\\,300)+eq(n\\,617),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-21/frame-%02d.png"
+      ],
+      "wall_s": 1.2734049169812351,
+      "exit_code": 0
+    },
+    {
+      "label": "probe22",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffprobe",
+        "-v",
+        "error",
+        "-show_streams",
+        "-show_format",
+        "-of",
+        "json",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-22/entrega/VIDEO-22-ENTREGA-HLG-v2-audio-conservado.mp4"
+      ],
+      "wall_s": 0.03895854199072346,
+      "exit_code": 0
+    },
+    {
+      "label": "frames22",
+      "argv": [
+        "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-i",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-22/entrega/VIDEO-22-ENTREGA-HLG-v2-audio-conservado.mp4",
+        "-an",
+        "-vf",
+        "select=eq(n\\,9)+eq(n\\,382)+eq(n\\,443),zscale=t=linear:npl=100,format=gbrpf32le,tonemap=hable:desat=0,zscale=p=bt709:t=bt709:m=bt709:r=tv,scale=360:640,format=rgb24",
+        "-fps_mode",
+        "vfr",
+        "-frames:v",
+        "3",
+        "-start_number",
+        "0",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/VIDEO-22/frame-%02d.png"
+      ],
+      "wall_s": 0.8848820409621112,
+      "exit_code": 0
+    }
+  ]
+}

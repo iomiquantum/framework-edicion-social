@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/approval-receipt.schema.json",
+  "title": "Integrity-bound editorial approval receipt",
+  "description": "SHA-256 detects content changes but does not authenticate identity. Approved decisions require independently inspectable human evidence and may be externally signed when cryptographic authenticity is required.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "receipt_id",
+    "project_id",
+    "video_id",
+    "artifact",
+    "decision",
+    "binding",
+    "created_at",
+    "notes"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0.0"},
+    "receipt_id": {
+      "type": "string",
+      "pattern": "^APPROVAL-VIDEO-[0-9]{2,}-[A-Z0-9_-]+$"
+    },
+    "project_id": {"type": "string", "minLength": 1},
+    "video_id": {"type": "string", "pattern": "^VIDEO-[0-9]{2,}$"},
+    "artifact": {
+      "type": "object",
+      "required": [
+        "binding_status",
+        "path",
+        "sha256",
+        "size_bytes",
+        "media_role",
+        "profile_id"
+      ],
+      "properties": {
+        "binding_status": {"enum": ["unbound", "bound"]},
+        "path": {"type": "string"},
+        "sha256": {
+          "type": ["string", "null"],
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "size_bytes": {"type": ["integer", "null"], "minimum": 0},
+        "media_role": {
+          "enum": [
+            "editorial_mezzanine",
+            "social_delivery_master",
+            "platform_derivative",
+            "other"
+          ]
+        },
+        "profile_id": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "decision": {
+      "type": "object",
+      "required": [
+        "status",
+        "explicit_user_approval",
+        "approver",
+        "decided_at",
+        "recorded_at",
+        "recorded_by",
+        "evidence",
+        "scope"
+      ],
+      "properties": {
+        "status": {
+          "enum": ["pending", "approved", "changes_requested", "rejected"]
+        },
+        "explicit_user_approval": {"type": "boolean"},
+        "approver": {"type": ["string", "null"]},
+        "decided_at": {
+          "type": ["string", "null"],
+          "format": "date-time",
+          "description": "When the human made the decision; it may predate receipt creation."
+        },
+        "recorded_at": {
+          "type": ["string", "null"],
+          "format": "date-time",
+          "description": "When the decision was recorded in this receipt; required for every non-pending decision."
+        },
+        "recorded_by": {"type": ["string", "null"]},
+        "evidence": {
+          "type": "object",
+          "required": ["kind", "reference", "excerpt"],
+          "properties": {
+            "kind": {
+              "enum": ["none", "user_message", "signed_form", "review_system", "other"]
+            },
+            "reference": {
+              "type": "string",
+              "description": "For decisions: thread:<id>/turn:<id>, review:<id>/decision:<id>, or signed-form:sha256:<digest>."
+            },
+            "excerpt": {"type": "string"}
+          },
+          "additionalProperties": false
+        },
+        "scope": {
+          "type": "object",
+          "required": ["whole_artifact", "approved_layers"],
+          "properties": {
+            "whole_artifact": {"type": "boolean"},
+            "approved_layers": {
+              "type": "array",
+              "items": {"type": "string", "minLength": 1},
+              "uniqueItems": true
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "binding": {
+      "type": "object",
+      "required": ["algorithm", "canonicalization", "payload_sha256"],
+      "properties": {
+        "algorithm": {"const": "sha256"},
+        "canonicalization": {"const": "json-sort-keys-utf8-v1"},
+        "payload_sha256": {
+          "type": ["string", "null"],
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "created_at": {
+      "type": ["string", "null"],
+      "format": "date-time",
+      "description": "When this receipt was created or prepared, not necessarily when the human decided."
+    },
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

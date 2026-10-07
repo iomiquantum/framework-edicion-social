@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "reports": [
+    {
+      "test_file": "test_workflow_run.py",
+      "returncode": 0,
+      "tests": 8,
+      "wall_seconds": 0.1661462909542024,
+      "log": "Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/validation/test_workflow_run.py.log"
+    },
+    {
+      "test_file": "test_medir_fases_edicion.py",
+      "returncode": 0,
+      "tests": 8,
+      "wall_seconds": 0.18309808295452967,
+      "log": "Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/validation/test_medir_fases_edicion.py.log"
+    },
+    {
+      "test_file": "test_qa_reuse_context.py",
+      "returncode": 0,
+      "tests": 15,
+      "wall_seconds": 0.2274583749822341,
+      "log": "Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/validation/test_qa_reuse_context.py.log"
+    },
+    {
+      "test_file": "test_medir_proceso.py",
+      "returncode": 0,
+      "tests": 5,
+      "wall_seconds": 0.16802233300404623,
+      "log": "Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/validation/test_medir_proceso.py.log"
+    },
+    {
+      "test_file": "test_validar_texto_visible.py",
+      "returncode": 0,
+      "tests": 5,
+      "wall_seconds": 0.0494138749781996,
+      "log": "Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/validation/test_validar_texto_visible.py.log"
+    }
+  ],
+  "scope": "New profile tooling and two unchanged legacy helpers; not an audiovisual profile speed/quality test"
+}

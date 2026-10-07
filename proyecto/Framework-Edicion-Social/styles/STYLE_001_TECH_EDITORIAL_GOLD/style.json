@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "id": "STYLE_001_TECH_EDITORIAL_GOLD",
+  "version": "0.1.0",
+  "status": "testing",
+  "canvas": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "aspect_ratio": "9:16"
+  },
+  "palette": {
+    "accent": "#FFE000",
+    "text_primary": "#FFFFFF",
+    "ink": "#111111",
+    "card_dark": "rgba(21,21,21,0.88)",
+    "caption_back": "rgba(10,10,10,0.80)"
+  },
+  "typography": {
+    "family": "Arial, Helvetica, sans-serif",
+    "caption_weight": 900,
+    "caption_size_px": 51,
+    "eyebrow_size_px": 27,
+    "uppercase": true
+  },
+  "caption": {
+    "max_lines": 3,
+    "bottom_px": 145,
+    "width_px": 620,
+    "accent_mode": "semantic_keywords_only"
+  },
+  "overlay_slots": {
+    "primary_negative_space": {
+      "x": 470,
+      "y": 122,
+      "width": 218,
+      "height": 218
+    },
+    "paired_icons": [
+      {"x": 506, "y": 152, "width": 78, "height": 78},
+      {"x": 602, "y": 152, "width": 78, "height": 78}
+    ]
+  },
+  "limits": {
+    "max_primary_images": 1,
+    "max_simultaneous_icons": 2,
+    "protect_eyes_and_mouth": true,
+    "max_face_crossing_transition_s": 0.4
+  }
+}

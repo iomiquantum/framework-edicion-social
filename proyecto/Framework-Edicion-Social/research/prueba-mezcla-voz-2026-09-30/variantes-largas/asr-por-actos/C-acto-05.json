@@ -1,0 +1,548 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/iomijhondavid/.cache/hyperframes/whisper/models/ggml-large-v3.bin",
+		"language": "es",
+		"translate": false
+	},
+	"result": {
+		"language": "es"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,660"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4660
+			},
+			"text": " Convertir esa experiencia en un sistema no significa dejar de pensar.",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50365,
+					"p": 0.927056,
+					"t_dtw": -1
+				},
+				{
+					"text": " Con",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,200"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 200
+					},
+					"id": 2656,
+					"p": 0.93635,
+					"t_dtw": -1
+				},
+				{
+					"text": "vert",
+					"timestamps": {
+						"from": "00:00:00,350",
+						"to": "00:00:00,480"
+					},
+					"offsets": {
+						"from": 350,
+						"to": 480
+					},
+					"id": 3281,
+					"p": 0.999792,
+					"t_dtw": -1
+				},
+				{
+					"text": "ir",
+					"timestamps": {
+						"from": "00:00:00,480",
+						"to": "00:00:00,600"
+					},
+					"offsets": {
+						"from": 480,
+						"to": 600
+					},
+					"id": 347,
+					"p": 0.999899,
+					"t_dtw": -1
+				},
+				{
+					"text": " esa",
+					"timestamps": {
+						"from": "00:00:00,610",
+						"to": "00:00:00,820"
+					},
+					"offsets": {
+						"from": 610,
+						"to": 820
+					},
+					"id": 11342,
+					"p": 0.997014,
+					"t_dtw": -1
+				},
+				{
+					"text": " experiencia",
+					"timestamps": {
+						"from": "00:00:00,820",
+						"to": "00:00:01,540"
+					},
+					"offsets": {
+						"from": 820,
+						"to": 1540
+					},
+					"id": 36489,
+					"p": 0.998847,
+					"t_dtw": -1
+				},
+				{
+					"text": " en",
+					"timestamps": {
+						"from": "00:00:01,580",
+						"to": "00:00:01,720"
+					},
+					"offsets": {
+						"from": 1580,
+						"to": 1720
+					},
+					"id": 465,
+					"p": 0.993165,
+					"t_dtw": -1
+				},
+				{
+					"text": " un",
+					"timestamps": {
+						"from": "00:00:01,720",
+						"to": "00:00:01,860"
+					},
+					"offsets": {
+						"from": 1720,
+						"to": 1860
+					},
+					"id": 517,
+					"p": 0.998287,
+					"t_dtw": -1
+				},
+				{
+					"text": " sistema",
+					"timestamps": {
+						"from": "00:00:01,860",
+						"to": "00:00:02,380"
+					},
+					"offsets": {
+						"from": 1860,
+						"to": 2380
+					},
+					"id": 13245,
+					"p": 0.996911,
+					"t_dtw": -1
+				},
+				{
+					"text": " no",
+					"timestamps": {
+						"from": "00:00:02,380",
+						"to": "00:00:02,470"
+					},
+					"offsets": {
+						"from": 2380,
+						"to": 2470
+					},
+					"id": 572,
+					"p": 0.916199,
+					"t_dtw": -1
+				},
+				{
+					"text": " significa",
+					"timestamps": {
+						"from": "00:00:02,990",
+						"to": "00:00:03,290"
+					},
+					"offsets": {
+						"from": 2990,
+						"to": 3290
+					},
+					"id": 19957,
+					"p": 0.99827,
+					"t_dtw": -1
+				},
+				{
+					"text": " dejar",
+					"timestamps": {
+						"from": "00:00:03,290",
+						"to": "00:00:03,710"
+					},
+					"offsets": {
+						"from": 3290,
+						"to": 3710
+					},
+					"id": 24391,
+					"p": 0.991931,
+					"t_dtw": -1
+				},
+				{
+					"text": " de",
+					"timestamps": {
+						"from": "00:00:03,710",
+						"to": "00:00:03,870"
+					},
+					"offsets": {
+						"from": 3710,
+						"to": 3870
+					},
+					"id": 368,
+					"p": 0.997402,
+					"t_dtw": -1
+				},
+				{
+					"text": " pensar",
+					"timestamps": {
+						"from": "00:00:03,870",
+						"to": "00:00:04,360"
+					},
+					"offsets": {
+						"from": 3870,
+						"to": 4360
+					},
+					"id": 18321,
+					"p": 0.991605,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"timestamps": {
+						"from": "00:00:04,360",
+						"to": "00:00:04,630"
+					},
+					"offsets": {
+						"from": 4360,
+						"to": 4630
+					},
+					"id": 13,
+					"p": 0.979621,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_233]",
+					"timestamps": {
+						"from": "00:00:04,660",
+						"to": "00:00:04,660"
+					},
+					"offsets": {
+						"from": 4660,
+						"to": 4660
+					},
+					"id": 50598,
+					"p": 0.357513,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,160",
+				"to": "00:00:09,640"
+			},
+			"offsets": {
+				"from": 5160,
+				"to": 9640
+			},
+			"text": " La inteligencia artificial debería aumentar tu criterio, no reemplazarlo.",
+			"tokens": [
+				{
+					"text": " La",
+					"timestamps": {
+						"from": "00:00:05,160",
+						"to": "00:00:04,800"
+					},
+					"offsets": {
+						"from": 5160,
+						"to": 4800
+					},
+					"id": 2369,
+					"p": 0.999952,
+					"t_dtw": -1
+				},
+				{
+					"text": " intel",
+					"timestamps": {
+						"from": "00:00:05,160",
+						"to": "00:00:05,150"
+					},
+					"offsets": {
+						"from": 5160,
+						"to": 5150
+					},
+					"id": 24777,
+					"p": 0.952143,
+					"t_dtw": -1
+				},
+				{
+					"text": "igen",
+					"timestamps": {
+						"from": "00:00:05,430",
+						"to": "00:00:05,430"
+					},
+					"offsets": {
+						"from": 5430,
+						"to": 5430
+					},
+					"id": 3213,
+					"p": 0.999992,
+					"t_dtw": -1
+				},
+				{
+					"text": "cia",
+					"timestamps": {
+						"from": "00:00:05,510",
+						"to": "00:00:05,640"
+					},
+					"offsets": {
+						"from": 5510,
+						"to": 5640
+					},
+					"id": 2755,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " artificial",
+					"timestamps": {
+						"from": "00:00:05,640",
+						"to": "00:00:06,300"
+					},
+					"offsets": {
+						"from": 5640,
+						"to": 6300
+					},
+					"id": 11677,
+					"p": 0.999962,
+					"t_dtw": -1
+				},
+				{
+					"text": " deber",
+					"timestamps": {
+						"from": "00:00:06,400",
+						"to": "00:00:06,700"
+					},
+					"offsets": {
+						"from": 6400,
+						"to": 6700
+					},
+					"id": 29671,
+					"p": 0.999882,
+					"t_dtw": -1
+				},
+				{
+					"text": "ía",
+					"timestamps": {
+						"from": "00:00:06,700",
+						"to": "00:00:06,840"
+					},
+					"offsets": {
+						"from": 6700,
+						"to": 6840
+					},
+					"id": 2686,
+					"p": 0.999996,
+					"t_dtw": -1
+				},
+				{
+					"text": " aumentar",
+					"timestamps": {
+						"from": "00:00:06,840",
+						"to": "00:00:07,410"
+					},
+					"offsets": {
+						"from": 6840,
+						"to": 7410
+					},
+					"id": 43504,
+					"p": 0.999941,
+					"t_dtw": -1
+				},
+				{
+					"text": " tu",
+					"timestamps": {
+						"from": "00:00:07,410",
+						"to": "00:00:07,550"
+					},
+					"offsets": {
+						"from": 7410,
+						"to": 7550
+					},
+					"id": 2604,
+					"p": 0.999628,
+					"t_dtw": -1
+				},
+				{
+					"text": " criter",
+					"timestamps": {
+						"from": "00:00:07,550",
+						"to": "00:00:07,660"
+					},
+					"offsets": {
+						"from": 7550,
+						"to": 7660
+					},
+					"id": 9912,
+					"p": 0.999918,
+					"t_dtw": -1
+				},
+				{
+					"text": "io",
+					"timestamps": {
+						"from": "00:00:08,110",
+						"to": "00:00:08,110"
+					},
+					"offsets": {
+						"from": 8110,
+						"to": 8110
+					},
+					"id": 1004,
+					"p": 0.999998,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"timestamps": {
+						"from": "00:00:08,150",
+						"to": "00:00:08,300"
+					},
+					"offsets": {
+						"from": 8150,
+						"to": 8300
+					},
+					"id": 11,
+					"p": 0.999295,
+					"t_dtw": -1
+				},
+				{
+					"text": " no",
+					"timestamps": {
+						"from": "00:00:08,300",
+						"to": "00:00:08,450"
+					},
+					"offsets": {
+						"from": 8300,
+						"to": 8450
+					},
+					"id": 572,
+					"p": 0.974711,
+					"t_dtw": -1
+				},
+				{
+					"text": " re",
+					"timestamps": {
+						"from": "00:00:08,450",
+						"to": "00:00:08,590"
+					},
+					"offsets": {
+						"from": 8450,
+						"to": 8590
+					},
+					"id": 319,
+					"p": 0.999788,
+					"t_dtw": -1
+				},
+				{
+					"text": "empl",
+					"timestamps": {
+						"from": "00:00:08,690",
+						"to": "00:00:08,910"
+					},
+					"offsets": {
+						"from": 8690,
+						"to": 8910
+					},
+					"id": 5895,
+					"p": 0.999985,
+					"t_dtw": -1
+				},
+				{
+					"text": "az",
+					"timestamps": {
+						"from": "00:00:08,910",
+						"to": "00:00:09,050"
+					},
+					"offsets": {
+						"from": 8910,
+						"to": 9050
+					},
+					"id": 921,
+					"p": 0.99975,
+					"t_dtw": -1
+				},
+				{
+					"text": "arlo",
+					"timestamps": {
+						"from": "00:00:09,140",
+						"to": "00:00:09,370"
+					},
+					"offsets": {
+						"from": 9140,
+						"to": 9370
+					},
+					"id": 19457,
+					"p": 0.99996,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"timestamps": {
+						"from": "00:00:09,370",
+						"to": "00:00:09,640"
+					},
+					"offsets": {
+						"from": 9370,
+						"to": 9640
+					},
+					"id": 13,
+					"p": 0.999703,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_482]",
+					"timestamps": {
+						"from": "00:00:09,640",
+						"to": "00:00:09,640"
+					},
+					"offsets": {
+						"from": 9640,
+						"to": 9640
+					},
+					"id": 50847,
+					"p": 0.423644,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

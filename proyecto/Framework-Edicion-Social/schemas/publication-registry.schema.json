@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/publication-registry.schema.json",
+  "title": "Verified social publication registry",
+  "type": "object",
+  "required": ["schema_version", "registry_id", "updated_at", "records"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "registry_id": {"type": "string", "pattern": "^PUBLICATION-REGISTRY-[A-Z0-9-]+$"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["record_id", "publication_id", "project_id", "video_id", "platform", "surface", "published_at", "registered_at", "package", "delivery", "delivery_check", "publication_evidence", "source_reference"],
+        "properties": {
+          "record_id": {"type": "string", "pattern": "^PUBREC-[A-F0-9]{16}$"},
+          "publication_id": {"type": "string", "minLength": 1},
+          "project_id": {"type": "string", "minLength": 1},
+          "video_id": {"type": "string", "pattern": "^VIDEO-[0-9]{2,}$"},
+          "platform": {"enum": ["instagram", "tiktok", "youtube", "linkedin", "facebook", "other"]},
+          "surface": {"type": "string", "minLength": 1},
+          "published_at": {"type": "string", "format": "date-time"},
+          "registered_at": {"type": "string", "format": "date-time"},
+          "package": {
+            "type": "object",
+            "required": ["path", "sha256", "package_id"],
+            "properties": {
+              "path": {"type": "string", "minLength": 1},
+              "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+              "package_id": {"type": "string", "pattern": "^PUBLISH-VIDEO-[0-9]{2,}-[A-Z0-9-]+$"}
+            },
+            "additionalProperties": false
+          },
+          "delivery": {
+            "type": "object",
+            "required": ["path", "sha256", "size_bytes"],
+            "properties": {
+              "path": {"type": "string", "pattern": "\\.mp4$"},
+              "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+              "size_bytes": {"type": "integer", "minimum": 1}
+            },
+            "additionalProperties": false
+          },
+          "delivery_check": {
+            "type": "object",
+            "required": ["path", "sha256", "profile_id", "required_delivery_status"],
+            "properties": {
+              "path": {"type": "string", "minLength": 1},
+              "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+              "profile_id": {"type": "string", "pattern": "^PLATFORM-[A-Z0-9-]+-[0-9]{3}$"},
+              "required_delivery_status": {"const": "ready"}
+            },
+            "additionalProperties": false
+          },
+          "publication_evidence": {
+            "type": "object",
+            "required": ["path", "sha256", "type", "integrity_scope"],
+            "properties": {
+              "path": {"type": "string", "minLength": 1},
+              "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+              "type": {"enum": ["platform_export", "screenshot", "local_record"]},
+              "integrity_scope": {"const": "local_artifact_integrity_only"}
+            },
+            "additionalProperties": false
+          },
+          "source_reference": {
+            "type": "string",
+            "pattern": "^(https?://[^\\s]+|platform:[A-Za-z0-9._-]+/.+)$"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

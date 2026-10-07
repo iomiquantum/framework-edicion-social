@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "dry_reference_near_one": true,
+    "music_excess_lowers_estimate": true,
+    "effects_excess_lowers_estimate": false,
+    "missing_voice_lowers_estimate": true
+  },
+  "pass": false,
+  "human_listener": false,
+  "limits": "Only validates directional sensitivity on these eight synthetic controls; no MOS, universal cutoff or creative ranking."
+}

@@ -1,0 +1,2965 @@
+{
+  "status": "COMPLETE",
+  "records": [
+    {
+      "id": "largo-53",
+      "variant": "control",
+      "source": "renders/v2/largo-53-voz-sola.m4a",
+      "source_sha256": "354939c777646eaada9f14b7a0e1a4968e69fcb156e89ba9337518b62f674ff2",
+      "model": "Whisper.cpp large-v3 local, es,4threads, defaults, no prompt",
+      "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+      "conversion": "AAC final→mono16kPCM16 SOLO para comprobación, no fuente de mezcla",
+      "elapsed_seconds": 14.335,
+      "asr_input_sha256": "aa91ec09e6dac53643041a2ff8921c9ae81a20be522bd4685807bcf85582efb3",
+      "against_script": {
+        "reference_words": 151,
+        "recognized_words": 151,
+        "edit_count": 0,
+        "wer": 0.0,
+        "edits": []
+      },
+      "text": "La IA no te está ahorrando tiempo si todo lo que hace termina otra vez en tus manos.\nPides una respuesta, la corriges, cambias el prompt.\nRecibes otra versión y vuelves a revisar.\nAunque la respuesta llegue enseguida, el trabajo no desaparece, se convierte en un bucle.\nAutomatizar no es solo generar algo rápido.\nEs diseñar un flujo con una entrada clara, criterios definidos, una comprobación y un punto final.\nSi casi todos los pasos dependen de que tú rescates la respuesta, la IA te asiste, pero el proceso no se completa de extremo a extremo.\nEs retrabajo acelerado.\nHaz esta prueba con una tarea repetitiva, tiene una entrada clara.\nPuede comprobarse con una regla, deja una salida lista para el siguiente paso, si falta una, diseña primero el sistema, después añade la IA.\n¿Qué tarea de tu negocio avanza al siguiente paso y cuál vuelve a ti para ser reconstruida?\n",
+      "human_intelligibility": "por confirmar"
+    },
+    {
+      "id": "largo-159",
+      "variant": "control",
+      "source": "renders/v2/largo-159-voz-sola.m4a",
+      "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+      "model": "Whisper.cpp large-v3 local, es,4threads, defaults, no prompt",
+      "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+      "conversion": "AAC final→mono16kPCM16 SOLO para comprobación, no fuente de mezcla",
+      "elapsed_seconds": 35.867,
+      "asr_input_sha256": "576623a5bbfd7b498c88d8e63772defc846595a729a7b7b586c7b1707cba87cc",
+      "against_script": {
+        "reference_words": 366,
+        "recognized_words": 367,
+        "edit_count": 3,
+        "wer": 0.00819672131147541,
+        "edits": [
+          {
+            "type": "insertion",
+            "recognized": "empiezas",
+            "reference_word_index": 140
+          },
+          {
+            "type": "substitution",
+            "reference": "empieza",
+            "recognized": "conocer",
+            "reference_word_index": 140
+          },
+          {
+            "type": "substitution",
+            "reference": "diez",
+            "recognized": "10",
+            "reference_word_index": 294
+          }
+        ]
+      },
+      "text": "¿Qué te cuesta más en tu negocio?\n¿Conseguir atención o convertirla en ventas?\nUna campaña bonita no corrige una oferta que nadie quiere.\nY publicar más por sí solo tampoco garantiza resolverlo.\nLa inteligencia artificial está llenando Internet de contenido genérico.\nCuando producir contenido se vuelve fácil,\nel volumen deja de ser suficiente para diferenciarte.\nPero tu cliente no compra la herramienta que utilizas.\nLe importa que respondas rápido.\nQue cumplas lo prometido y que soluciones su problema.\nEsa es la diferencia que cambia donde tienes que empezar.\nChatGPT puede saber muchísimo de marketing y casi nada de tu cliente.\nNo escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte.\nAntes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.\nA veces, tu mejor prompt empieza en una conversación real con un cliente.\nAhí empiezas.\nConocer tu verdadera ventaja.\nNo en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió.\nSi ese conocimiento vive solamente en tu cabeza, tienes un problema.\nNo porque debas regalárselo a una inteligencia artificial,\nsino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nLa inteligencia artificial,\ndebería aumentar tu criterio, no reemplazarlo.\nY antes de automatizar, revisa tus procesos.\nSi son malos, la información está desordenada y nadie mide resultados.\nLa inteligencia artificial puede hacer el desorden mucho más rápido.\nAutomatizar algo que todavía no entiendes puede significar repetir a mayor velocidad algo que ya estaba mal.\nY si la herramienta te da más trabajo del que te quita,\ntodavía no tienes un sistema.\nEntonces, quizá no necesitas comprar otro curso ni guardar otras 10 ideas.\nSi ya tienes información útil y todavía no la aplicas,\nquizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.\nElige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.\nUna sola.\nMídela antes de automatizarla.\nAhora sí, vuelve a la pregunta correcta.\nSi mañana tuvieras una inteligencia artificial perfecta,\n¿qué problema de tu cliente o de tu proceso comercial resolverías primero?\n",
+      "human_intelligibility": "por confirmar"
+    },
+    {
+      "id": "largo-53",
+      "variant": "A",
+      "source": "variantes-largas/largo-53/A/mezcla.m4a",
+      "source_sha256": "671c5f23822be643bbbb48a483123d45bc27b8fe59c424c97b5bdadbf14f4de2",
+      "model": "Whisper.cpp large-v3 local, es,4threads, defaults, no prompt",
+      "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+      "conversion": "AAC final→mono16kPCM16 SOLO para comprobación, no fuente de mezcla",
+      "elapsed_seconds": 13.236,
+      "asr_input_sha256": "fbefeddd6c734c9c8987d9294382616db7c3df93320d8d918d0d151653ea94a8",
+      "against_script": {
+        "reference_words": 151,
+        "recognized_words": 151,
+        "edit_count": 0,
+        "wer": 0.0,
+        "edits": []
+      },
+      "text": "La IA no te está ahorrando tiempo si todo lo que hace termina otra vez en tus manos.\nPides una respuesta, la corriges, cambias el prompt, recibes otra versión y vuelves a revisar.\nAunque la respuesta llegue enseguida, el trabajo no desaparece, se convierte en un bucle.\nAutomatizar no es solo generar algo rápido.\nEs diseñar un flujo con una entrada clara, criterios definidos, una comprobación y un punto final.\nSi casi todos los pasos dependen de que tú rescates la respuesta, la IA te asiste, pero el proceso no se completa de extremo a extremo.\nEs retrabajo acelerado.\nHaz esta prueba con una tarea repetitiva, tiene una entrada clara.\nPuede comprobarse con una regla, deja una salida lista para el siguiente paso, si falta una, diseña primero el sistema, después añade la IA.\n¿Qué tarea de tu negocio avanza al siguiente paso y cuál vuelve a ti para ser reconstruida?\n",
+      "human_intelligibility": "por confirmar",
+      "against_control_recognition": {
+        "reference_words": 151,
+        "recognized_words": 151,
+        "edit_count": 0,
+        "wer": 0.0,
+        "edits": []
+      }
+    },
+    {
+      "id": "largo-53",
+      "variant": "B",
+      "source": "variantes-largas/largo-53/B/mezcla.m4a",
+      "source_sha256": "53a0b690214552bbc3672ba3093cb6c7ff0db8eeaf1e0bebf583f64b510cf8b4",
+      "model": "Whisper.cpp large-v3 local, es,4threads, defaults, no prompt",
+      "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+      "conversion": "AAC final→mono16kPCM16 SOLO para comprobación, no fuente de mezcla",
+      "elapsed_seconds": 13.831,
+      "asr_input_sha256": "4e87d44cfb70c1a7261be721709eb5116094cb895a90c772d7e7d2d939642510",
+      "against_script": {
+        "reference_words": 151,
+        "recognized_words": 151,
+        "edit_count": 0,
+        "wer": 0.0,
+        "edits": []
+      },
+      "text": "La IA no te está ahorrando tiempo si todo lo que hace termina otra vez en tus manos.\nPides una respuesta, la corriges, cambias el prompt, recibes otra versión y vuelves a revisar.\nAunque la respuesta llegue enseguida, el trabajo no desaparece, se convierte en un bucle.\nAutomatizar no es solo generar algo rápido.\nEs diseñar un flujo con una entrada clara, criterios definidos, una comprobación y un punto final.\nSi casi todos los pasos dependen de que tú rescates la respuesta, la IA te asiste, pero el proceso no se completa de extremo a extremo.\nEs retrabajo acelerado.\nHaz esta prueba con una tarea repetitiva, tiene una entrada clara.\nPuede comprobarse con una regla, deja una salida lista para el siguiente paso, si falta una, diseña primero el sistema, después añade la IA.\n¿Qué tarea de tu negocio avanza al siguiente paso y cuál vuelve a ti para ser reconstruida?\n",
+      "human_intelligibility": "por confirmar",
+      "against_control_recognition": {
+        "reference_words": 151,
+        "recognized_words": 151,
+        "edit_count": 0,
+        "wer": 0.0,
+        "edits": []
+      }
+    },
+    {
+      "id": "largo-53",
+      "variant": "C",
+      "source": "variantes-largas/largo-53/C/mezcla.m4a",
+      "source_sha256": "a082c0fed9f913e194c6f58ada64d11743c9e3b5eb7f54789f7e8146a5cb799b",
+      "model": "Whisper.cpp large-v3 local, es,4threads, defaults, no prompt",
+      "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+      "conversion": "AAC final→mono16kPCM16 SOLO para comprobación, no fuente de mezcla",
+      "elapsed_seconds": 13.545,
+      "asr_input_sha256": "272f336012e065e3dcbf13752ebe9172c1a0435cc8124bf296c61dc4c744210c",
+      "against_script": {
+        "reference_words": 151,
+        "recognized_words": 151,
+        "edit_count": 0,
+        "wer": 0.0,
+        "edits": []
+      },
+      "text": "La IA no te está ahorrando tiempo si todo lo que hace termina otra vez en tus manos.\nPides una respuesta, la corriges, cambias el prompt, recibes otra versión y vuelves a revisar.\nAunque la respuesta llegue enseguida, el trabajo no desaparece, se convierte en un bucle.\nAutomatizar no es solo generar algo rápido.\nEs diseñar un flujo con una entrada clara, criterios definidos, una comprobación y un punto final.\nSi casi todos los pasos dependen de que tú rescates la respuesta, la IA te asiste, pero el proceso no se completa de extremo a extremo.\nEs retrabajo acelerado.\nHaz esta prueba con una tarea repetitiva, tiene una entrada clara.\nPuede comprobarse con una regla, deja una salida lista para el siguiente paso, si falta una, diseña primero el sistema, después añade la IA.\n¿Qué tarea de tu negocio avanza al siguiente paso y cuál vuelve a ti para ser reconstruida?\n",
+      "human_intelligibility": "por confirmar",
+      "against_control_recognition": {
+        "reference_words": 151,
+        "recognized_words": 151,
+        "edit_count": 0,
+        "wer": 0.0,
+        "edits": []
+      }
+    },
+    {
+      "id": "largo-159",
+      "variant": "A",
+      "source": "variantes-largas/largo-159/A/mezcla.m4a",
+      "source_sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "model": "Whisper.cpp large-v3 local, es,4threads, defaults, no prompt",
+      "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+      "conversion": "AAC final→mono16kPCM16 SOLO para comprobación, no fuente de mezcla",
+      "elapsed_seconds": 49.471,
+      "asr_input_sha256": "400db4f75b47cb82f92af5979fa297ad279d89a141721e0312ab98c03875b40e",
+      "against_script": {
+        "reference_words": 366,
+        "recognized_words": 451,
+        "edit_count": 99,
+        "wer": 0.27049180327868855,
+        "edits": [
+          {
+            "type": "deletion",
+            "reference": "real",
+            "reference_word_index": 135
+          },
+          {
+            "type": "deletion",
+            "reference": "con",
+            "reference_word_index": 136
+          },
+          {
+            "type": "deletion",
+            "reference": "un",
+            "reference_word_index": 137
+          },
+          {
+            "type": "deletion",
+            "reference": "cliente",
+            "reference_word_index": 138
+          },
+          {
+            "type": "substitution",
+            "reference": "ahi",
+            "recognized": "esa",
+            "reference_word_index": 139
+          },
+          {
+            "type": "substitution",
+            "reference": "empieza",
+            "recognized": "es",
+            "reference_word_index": 140
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 202
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "da",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "trabajo",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 275
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 275
+          },
+          {
+            "type": "substitution",
+            "reference": "del",
+            "recognized": "la",
+            "reference_word_index": 275
+          },
+          {
+            "type": "substitution",
+            "reference": "que",
+            "recognized": "herramienta",
+            "reference_word_index": 276
+          },
+          {
+            "type": "insertion",
+            "recognized": "da",
+            "reference_word_index": 278
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 278
+          },
+          {
+            "type": "substitution",
+            "reference": "quita",
+            "recognized": "trabajo",
+            "reference_word_index": 278
+          },
+          {
+            "type": "substitution",
+            "reference": "diez",
+            "recognized": "10",
+            "reference_word_index": 294
+          }
+        ]
+      },
+      "text": "¿Qué te cuesta más en tu negocio?\nConseguir atención o convertirla en ventas.\nUna campaña bonita no corrige una oferta que nadie quiere.\nY publicar más por sí solo tampoco garantiza resolverlo.\nLa inteligencia artificial está llenando Internet de contenido genérico.\nCuando producir contenido se vuelve fácil,\nel volumen deja de ser suficiente para diferenciarte.\nPero tu cliente no compra la herramienta que utilizas.\nLe importa que respondas rápido, que cumplas lo prometido y que soluciones su problema.\nEsa es la diferencia que cambia donde tienes que empezar.\nChatGPT puede saber muchísimo de marketing y casi nada de tu cliente.\nNo escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte.\nAntes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.\nA veces, tu mejor prompt empieza en una conversación.\nEsa es tu verdadera ventaja.\nNo en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió.\nSi ese conocimiento vive solamente en tu cabeza, tienes un problema.\nNo porque debas regalárselo a una inteligencia artificial,\nsino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nLa inteligencia artificial debería aumentar tu criterio, no reemplazarlo.\nY antes de automatizar, revisa tus procesos.\nSi son malos, la información está desordenada y nadie mide resultados.\nLa inteligencia artificial puede hacer el desorden mucho más rápido.\nAutomatizar algo que todavía no entiendes puede significar repetir a mayor velocidad algo que ya estaba mal.\nY si la herramienta te da más trabajo,\ny si la herramienta te da más trabajo,\ny si la herramienta te da más trabajo,\ntodavía no tienes un sistema.\nEntonces, quizá no necesitas comprar otro curso ni guardar otras 10 ideas.\nSi ya tienes información útil y todavía no la aplicas,\nquizá el siguiente paso no sea acumular más,\nsino convertir ese conocimiento en acción.\nElige un problema,\nreúne la evidencia que ya tienes y prueba una mejora concreta.\nUna sola.\nMídela antes de automatizarla.\nAhora sí,\nvuelve a la pregunta correcta.\nSi mañana tuvieras una inteligencia artificial perfecta,\n¿qué problema de tu cliente o de tu proceso comercial resolverías primero?\n",
+      "human_intelligibility": "por confirmar",
+      "against_control_recognition": {
+        "reference_words": 367,
+        "recognized_words": 451,
+        "edit_count": 99,
+        "wer": 0.26975476839237056,
+        "edits": [
+          {
+            "type": "deletion",
+            "reference": "real",
+            "reference_word_index": 135
+          },
+          {
+            "type": "deletion",
+            "reference": "con",
+            "reference_word_index": 136
+          },
+          {
+            "type": "deletion",
+            "reference": "un",
+            "reference_word_index": 137
+          },
+          {
+            "type": "deletion",
+            "reference": "cliente",
+            "reference_word_index": 138
+          },
+          {
+            "type": "deletion",
+            "reference": "ahi",
+            "reference_word_index": 139
+          },
+          {
+            "type": "substitution",
+            "reference": "empiezas",
+            "recognized": "esa",
+            "reference_word_index": 140
+          },
+          {
+            "type": "substitution",
+            "reference": "conocer",
+            "recognized": "es",
+            "reference_word_index": 141
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "experiencia",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "sistema",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "significa",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "dejar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "pensar",
+            "reference_word_index": 203
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "da",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "trabajo",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 276
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 276
+          },
+          {
+            "type": "substitution",
+            "reference": "del",
+            "recognized": "la",
+            "reference_word_index": 276
+          },
+          {
+            "type": "substitution",
+            "reference": "que",
+            "recognized": "herramienta",
+            "reference_word_index": 277
+          },
+          {
+            "type": "insertion",
+            "recognized": "da",
+            "reference_word_index": 279
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 279
+          },
+          {
+            "type": "substitution",
+            "reference": "quita",
+            "recognized": "trabajo",
+            "reference_word_index": 279
+          }
+        ]
+      }
+    },
+    {
+      "id": "largo-159",
+      "variant": "B",
+      "source": "variantes-largas/largo-159/B/mezcla.m4a",
+      "source_sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "model": "Whisper.cpp large-v3 local, es,4threads, defaults, no prompt",
+      "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+      "conversion": "AAC final→mono16kPCM16 SOLO para comprobación, no fuente de mezcla",
+      "elapsed_seconds": 39.746,
+      "asr_input_sha256": "a0a1461d4176b539ee1d7bad97a20448026ec74a16143bff887e90aa6acef1ea",
+      "against_script": {
+        "reference_words": 366,
+        "recognized_words": 375,
+        "edit_count": 11,
+        "wer": 0.030054644808743168,
+        "edits": [
+          {
+            "type": "insertion",
+            "recognized": "empiezas",
+            "reference_word_index": 140
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 140
+          },
+          {
+            "type": "substitution",
+            "reference": "empieza",
+            "recognized": "es",
+            "reference_word_index": 140
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 280
+          },
+          {
+            "type": "insertion",
+            "recognized": "tienes",
+            "reference_word_index": 280
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 280
+          },
+          {
+            "type": "insertion",
+            "recognized": "oportunidad",
+            "reference_word_index": 280
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 280
+          },
+          {
+            "type": "insertion",
+            "recognized": "hacer",
+            "reference_word_index": 280
+          },
+          {
+            "type": "insertion",
+            "recognized": "eso",
+            "reference_word_index": 280
+          },
+          {
+            "type": "substitution",
+            "reference": "diez",
+            "recognized": "10",
+            "reference_word_index": 294
+          }
+        ]
+      },
+      "text": "¿Qué te cuesta más en tu negocio?\nConseguir atención o convertirla en ventas.\nUna campaña bonita no corrige una oferta que nadie quiere.\nY publicar más por sí solo tampoco garantiza resolverlo.\nLa inteligencia artificial está llenando internet de contenido genérico.\nCuando producir contenido se vuelve fácil,\nel volumen deja de ser suficiente para diferenciarte.\nPero tu cliente no compra la herramienta que utilizas.\nLe importa que respondas rápido.\nQue cumplas lo prometido y que soluciones su problema.\nEsa es la diferencia que cambia donde tienes que empezar.\nChatGPT puede saber muchísimo de marketing y casi nada de tu cliente.\nNo escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte.\nAntes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.\nA veces, tu mejor prompt empieza en una conversación real con un cliente.\nAhí empiezas.\nEsa es tu verdadera ventaja.\nNo en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió.\nSi ese conocimiento vive solamente en tu cabeza, tienes un problema.\nNo porque debas regalárselo a una inteligencia artificial,\nsino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nLa inteligencia artificial,\ndebería aumentar tu criterio, no reemplazarlo.\nY antes de automatizar, revisa tus procesos.\nSi son malos, la información está desordenada y nadie mide resultados.\nLa inteligencia artificial puede hacer el desorden mucho más rápido.\nAutomatizar algo que todavía no entiendes puede significar repetir a mayor velocidad.\nAlgo que ya estaba mal.\nY si la herramienta te da más trabajo del que te quita,\ntodavía no tienes la oportunidad de hacer eso.\nNo tienes un sistema.\nEntonces, quizá no necesitas comprar otro curso ni guardar otras 10 ideas.\nSi ya tienes información útil y todavía no la aplicas,\nquizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.\nElige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.\nUna sola.\nMídela antes de automatizarla.\nAhora sí, vuelve a la pregunta correcta.\nSi mañana tuvieras una inteligencia artificial perfecta,\n¿qué problema de tu cliente o de tu proceso comercial resolverías primero?\n",
+      "human_intelligibility": "por confirmar",
+      "against_control_recognition": {
+        "reference_words": 367,
+        "recognized_words": 375,
+        "edit_count": 9,
+        "wer": 0.02452316076294278,
+        "edits": [
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 141
+          },
+          {
+            "type": "substitution",
+            "reference": "conocer",
+            "recognized": "es",
+            "reference_word_index": 141
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 281
+          },
+          {
+            "type": "insertion",
+            "recognized": "tienes",
+            "reference_word_index": 281
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 281
+          },
+          {
+            "type": "insertion",
+            "recognized": "oportunidad",
+            "reference_word_index": 281
+          },
+          {
+            "type": "insertion",
+            "recognized": "de",
+            "reference_word_index": 281
+          },
+          {
+            "type": "insertion",
+            "recognized": "hacer",
+            "reference_word_index": 281
+          },
+          {
+            "type": "insertion",
+            "recognized": "eso",
+            "reference_word_index": 281
+          }
+        ]
+      }
+    },
+    {
+      "id": "largo-159",
+      "variant": "C",
+      "source": "variantes-largas/largo-159/C/mezcla.m4a",
+      "source_sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "model": "Whisper.cpp large-v3 local, es,4threads, defaults, no prompt",
+      "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+      "conversion": "AAC final→mono16kPCM16 SOLO para comprobación, no fuente de mezcla",
+      "elapsed_seconds": 63.746,
+      "asr_input_sha256": "68893792d81c964980a74b58e164836cfbf4488e2285dd1515e634be812a2f3b",
+      "against_script": {
+        "reference_words": 366,
+        "recognized_words": 525,
+        "edit_count": 163,
+        "wer": 0.4453551912568306,
+        "edits": [
+          {
+            "type": "insertion",
+            "recognized": "empiezas",
+            "reference_word_index": 140
+          },
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 140
+          },
+          {
+            "type": "substitution",
+            "reference": "empieza",
+            "recognized": "es",
+            "reference_word_index": 140
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "inteligencia",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "artificial",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "es",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "puede",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "ayudar",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "a",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "cambiar",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "tu",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "vida",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "inteligencia",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "artificial",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "es",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "puede",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "ayudar",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "a",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "cambiar",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "tu",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "vida",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "inteligencia",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "artificial",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "es",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "puede",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "ayudar",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "a",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "cambiar",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "tu",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "vida",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "inteligencia",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "artificial",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "es",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "puede",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "ayudar",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "a",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "cambiar",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "tu",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "vida",
+            "reference_word_index": 213
+          },
+          {
+            "type": "insertion",
+            "recognized": "es",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "puede",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "ayudar",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "a",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "cambiar",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "tu",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "vida",
+            "reference_word_index": 216
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "da",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "trabajo",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "del",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "quita",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "todavia",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "tienes",
+            "reference_word_index": 267
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "da",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "trabajo",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "del",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "quita",
+            "reference_word_index": 282
+          },
+          {
+            "type": "insertion",
+            "recognized": "todavia",
+            "reference_word_index": 282
+          },
+          {
+            "type": "substitution",
+            "reference": "un",
+            "recognized": "no",
+            "reference_word_index": 282
+          },
+          {
+            "type": "substitution",
+            "reference": "sistema",
+            "recognized": "tienes",
+            "reference_word_index": 283
+          },
+          {
+            "type": "substitution",
+            "reference": "diez",
+            "recognized": "10",
+            "reference_word_index": 294
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "ya",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "tienes",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "informacion",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "util",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "todavia",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "aplicas",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "quiza",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "el",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "siguiente",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "paso",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "sea",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "acumular",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "sino",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "ese",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "conocimiento",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "accion",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "ya",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "tienes",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "informacion",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "util",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "todavia",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "aplicas",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "quiza",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "el",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "siguiente",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "paso",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "sea",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "acumular",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "sino",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "ese",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "conocimiento",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "accion",
+            "reference_word_index": 296
+          },
+          {
+            "type": "insertion",
+            "recognized": "elige",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "problema",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "reune",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "evidencia",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "ya",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "tienes",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "prueba",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "mejora",
+            "reference_word_index": 320
+          },
+          {
+            "type": "insertion",
+            "recognized": "concreta",
+            "reference_word_index": 320
+          }
+        ]
+      },
+      "text": "¿Qué te cuesta más en tu negocio?\nConseguir atención o convertirla en ventas.\nUna campaña bonita no corrige una oferta que nadie quiere.\nY publicar más por sí solo tampoco garantiza resolverlo.\nLa inteligencia artificial está llenando Internet de contenido genérico.\nCuando producir contenido se vuelve fácil,\nel volumen deja de ser suficiente para diferenciarte.\nPero tu cliente no compra la herramienta que utilizas.\nLe importa que respondas rápido.\nQue cumplas lo prometido y que soluciones su problema.\nEsa es la diferencia que cambia donde tienes que empezar.\nChatGPT puede saber muchísimo de marketing y casi nada de tu cliente.\nNo escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte.\nAntes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.\nA veces, tu mejor prompt empieza en una conversación real con un cliente.\nAhí empiezas.\nEsa es tu verdadera ventaja.\nNo en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió.\nSi ese conocimiento vive solamente en tu cabeza, tienes un problema.\nNo porque debas regalárselo a una inteligencia artificial,\nsino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.\nConvertir esa experiencia en un sistema no significa dejar de pensar.\nLa inteligencia artificial es una herramienta que te puede ayudar a cambiar tu vida.\nLa inteligencia artificial es una herramienta que te puede ayudar a cambiar tu vida.\nLa inteligencia artificial es una herramienta que te puede ayudar a cambiar tu vida.\nLa inteligencia artificial es una herramienta que te puede ayudar a cambiar tu vida.\nLa inteligencia artificial es una herramienta que te puede ayudar a cambiar tu vida.\nDebería aumentar tu criterio, no reemplazarlo.\nY antes de automatizar, revisa tus procesos.\nSi son malos, la información está desordenada y nadie mide resultados.\nLa inteligencia artificial puede hacer el desorden mucho más rápido.\nAutomatizar algo que todavía no entiendes puede significar repetir a mayor velocidad algo que ya estaba mal.\nY si la herramienta te da más trabajo del que te quita, todavía no tienes.\nY si la herramienta te da más trabajo del que te quita, todavía no tienes.\nY si la herramienta te da más trabajo del que te quita, todavía no tienes.\nEntonces, quizá no necesitas comprar otro curso ni guardar otras 10 ideas.\nSi ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.\nSi ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.\nSi ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.\nElige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.\nElige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.\nUna sola. Mídela antes de automatizarla.\nAhora sí, vuelve a la pregunta correcta.\nSi mañana tuvieras una inteligencia artificial perfecta, ¿qué problema de tu cliente o de tu proceso comercial resolverías primero?\n",
+      "human_intelligibility": "por confirmar",
+      "against_control_recognition": {
+        "reference_words": 367,
+        "recognized_words": 525,
+        "edit_count": 161,
+        "wer": 0.43869209809264303,
+        "edits": [
+          {
+            "type": "insertion",
+            "recognized": "esa",
+            "reference_word_index": 141
+          },
+          {
+            "type": "substitution",
+            "reference": "conocer",
+            "recognized": "es",
+            "reference_word_index": 141
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "inteligencia",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "artificial",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "es",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "puede",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "ayudar",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "a",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "cambiar",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "tu",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "vida",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "inteligencia",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "artificial",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "es",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "puede",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "ayudar",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "a",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "cambiar",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "tu",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "vida",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "inteligencia",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "artificial",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "es",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "puede",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "ayudar",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "a",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "cambiar",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "tu",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "vida",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "inteligencia",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "artificial",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "es",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "puede",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "ayudar",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "a",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "cambiar",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "tu",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "vida",
+            "reference_word_index": 214
+          },
+          {
+            "type": "insertion",
+            "recognized": "es",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "puede",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "ayudar",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "a",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "cambiar",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "tu",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "vida",
+            "reference_word_index": 217
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "da",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "trabajo",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "del",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "quita",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "todavia",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "tienes",
+            "reference_word_index": 268
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "herramienta",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "da",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "trabajo",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "del",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "te",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "quita",
+            "reference_word_index": 283
+          },
+          {
+            "type": "insertion",
+            "recognized": "todavia",
+            "reference_word_index": 283
+          },
+          {
+            "type": "substitution",
+            "reference": "un",
+            "recognized": "no",
+            "reference_word_index": 283
+          },
+          {
+            "type": "substitution",
+            "reference": "sistema",
+            "recognized": "tienes",
+            "reference_word_index": 284
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "ya",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "tienes",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "informacion",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "util",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "todavia",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "aplicas",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "quiza",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "el",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "siguiente",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "paso",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "sea",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "acumular",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "sino",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "ese",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "conocimiento",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "accion",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "si",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "ya",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "tienes",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "informacion",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "util",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "todavia",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "aplicas",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "quiza",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "el",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "siguiente",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "paso",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "no",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "sea",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "acumular",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "mas",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "sino",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "convertir",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "ese",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "conocimiento",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "en",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "accion",
+            "reference_word_index": 297
+          },
+          {
+            "type": "insertion",
+            "recognized": "elige",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "un",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "problema",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "reune",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "la",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "evidencia",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "que",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "ya",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "tienes",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "y",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "prueba",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "una",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "mejora",
+            "reference_word_index": 321
+          },
+          {
+            "type": "insertion",
+            "recognized": "concreta",
+            "reference_word_index": 321
+          }
+        ]
+      }
+    }
+  ],
+  "method": "Control y mezclas exactasAAC, mismo motor/modelo sin prompt; WER normalizado sin puntuación/acentos.",
+  "limits": "ASR puede alucinar/corregir por modelo de lenguaje. No certifica claridad humana, ausencia de masking, emoción ni calidad. No corrige el guion ni reingesta el lote.",
+  "human_review": "por confirmar"
+}

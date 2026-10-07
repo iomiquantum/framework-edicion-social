@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;color:#F8F3E8;font-family:Inter,Arial,sans-serif;pointer-events:none}
+  .question{position:absolute;left:42px;right:42px;top:24px;height:224px;background:#0E1B2B;border:4px solid #FF7A45;border-radius:34px;padding:24px 28px 20px 170px;overflow:hidden;opacity:0}.avatar{position:absolute;left:28px;top:28px;width:112px;height:112px;border-radius:50%;background:#2F66FF;border:4px solid #F8F3E8;display:grid;place-items:center;font:900 62px/1 "Archivo Black","Arial Black",Inter,sans-serif}.avatar::after{content:"";position:absolute;left:50%;bottom:-38px;width:72px;height:26px;transform:translateX(-50%);border-radius:28px 28px 0 0;background:#2F66FF;border:4px solid #F8F3E8;border-bottom:0}.lead{font:900 36px/.95 Inter,Arial,sans-serif;color:#FF7A45;text-transform:uppercase}.hero{font:900 54px/.94 "Archivo Black","Arial Black",Inter,sans-serif;text-transform:uppercase;margin-top:8px}.hero strong{color:#2F66FF}.pulse{position:absolute;right:26px;bottom:22px;display:flex;gap:10px}.pulse i{width:16px;height:16px;border-radius:50%;background:#F8F3E8;opacity:.35}
+</style>
+<div data-hf-id="hf-6mea" id="root" data-composition-id="scene-cta" data-duration="5.10" data-width="1080" data-height="1920">
+  <div data-hf-id="hf-v14-question" class="question" id="v14-cta-question"><div data-hf-id="hf-v14-avatar" class="avatar">C</div><div class="lead">UNA PREGUNTA PARA TI</div><div class="hero">¿HABLASTE CON UN CLIENTE <strong>SIN VENDERLE?</strong></div><div class="pulse"><i></i><i></i><i></i></div></div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#v14-cta-question",{x:66,scale:.95,opacity:0},{x:0,scale:1,opacity:1,duration:.48,ease:"power3.out"},.04)
+    .fromTo("#v14-cta-question .avatar",{scale:0,rotation:-12},{scale:1,rotation:0,duration:.40,ease:"power3.out"},.28);
+  gsap.utils.toArray("#v14-cta-question .pulse i").forEach((dot,i)=>tl.to(dot,{opacity:1,scale:1.22,duration:.16,ease:"power2.out"},.62+i*.14).to(dot,{opacity:.35,scale:1,duration:.18},.82+i*.14));
+  window.__timelines["scene-cta"]=tl;
+</script>
+</template></body></html>

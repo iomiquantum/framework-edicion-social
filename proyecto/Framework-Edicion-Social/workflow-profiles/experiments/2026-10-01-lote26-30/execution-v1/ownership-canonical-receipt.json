@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-10-01T04:22:35.217834+00:00",
+  "source": "collaboration.list_agents live tree",
+  "correction": "assignment-v1 owner strings were descriptive longer names; canonical tool agents below. Flow/criteria frozen unchanged.",
+  "owners": {
+    "VIDEO-26": "/root",
+    "VIDEO-29": "/root",
+    "VIDEO-28": "/root/direccion_26_30",
+    "VIDEO-27": "/root/direccion_26_30",
+    "VIDEO-30": "/root/ingesta_26_30"
+  }
+}

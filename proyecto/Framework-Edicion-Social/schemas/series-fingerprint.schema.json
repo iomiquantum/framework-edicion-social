@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/series-fingerprint.schema.json",
+  "title": "Portable evidence fingerprint for one series video",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "fingerprint_id",
+    "series_id",
+    "video_id",
+    "recorded_at",
+    "approval",
+    "technical_qa",
+    "family",
+    "source_files",
+    "fields",
+    "traits",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "fingerprint_id": {"type": "string", "pattern": "^FP-[A-Z0-9_-]+-[A-F0-9]{12}$"},
+    "series_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+    "video_id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9_-]*$"},
+    "recorded_at": {"type": "string", "format": "date"},
+    "approval": {
+      "type": "object",
+      "required": [
+        "status",
+        "approval_ref",
+        "approval_receipt_path",
+        "approval_receipt_sha256",
+        "approved_artifact_sha256"
+      ],
+      "properties": {
+        "status": {"enum": ["unreviewed", "approved", "rejected"]},
+        "approval_ref": {"type": ["string", "null"]},
+        "approval_receipt_path": {
+          "type": ["string", "null"],
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"
+        },
+        "approval_receipt_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "approved_artifact_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "technical_qa": {
+      "type": "object",
+      "required": ["status", "evidence_path", "evidence_sha256", "artifact_sha256"],
+      "properties": {
+        "status": {"enum": ["unavailable", "pass", "fail"]},
+        "evidence_path": {
+          "type": ["string", "null"],
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"
+        },
+        "evidence_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "artifact_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "family": {
+      "type": ["object", "null"],
+      "required": ["family_id", "archetype_id", "parent_fingerprint_id"],
+      "properties": {
+        "family_id": {"type": "string", "pattern": "^FAMILY-[A-Z0-9_-]+$"},
+        "archetype_id": {"type": "string", "pattern": "^ARCH-[A-Z0-9_-]+$"},
+        "parent_fingerprint_id": {
+          "type": ["string", "null"],
+          "pattern": "^FP-[A-Z0-9_-]+-[A-F0-9]{12}$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "source_files": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["role", "path", "sha256"],
+        "properties": {
+          "role": {"enum": ["project_manifest", "render_manifest", "editable_entry", "hyperframes_config"]},
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"
+          },
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "fields": {
+      "type": "object",
+      "additionalProperties": {
+        "type": ["string", "number", "boolean", "null", "array"],
+        "items": {"type": ["string", "number", "boolean", "null"]}
+      }
+    },
+    "traits": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {"type": "string"},
+        "uniqueItems": true
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}

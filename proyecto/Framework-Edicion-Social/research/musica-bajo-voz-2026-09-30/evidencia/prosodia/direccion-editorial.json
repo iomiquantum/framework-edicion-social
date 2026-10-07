@@ -1,0 +1,49 @@
+{
+  "status": "editorial_proposal_pending_perceptual_validation",
+  "date_local": "2026-09-30",
+  "user_authorized": "Analizar voz, interpretación y proyección para decidir música y efectos",
+  "coverage": {
+    "measured_pieces": 18,
+    "phrase_maps": [
+      "VIDEO-11",
+      "VIDEO-13",
+      "VIDEO-14",
+      "VIDEO-21"
+    ]
+  },
+  "video13": [
+    {
+      "start": 0,
+      "end": 2.09,
+      "intention": "Afirmación que cuestiona una premisa",
+      "sound_proposal": "Presencia y espacio para el hook"
+    },
+    {
+      "start": 2.09,
+      "end": 6.99,
+      "intention": "Contrastar saber marketing y conocer al cliente",
+      "sound_proposal": "Pulso ligero y notas cortas si aporta avance"
+    },
+    {
+      "start": 6.99,
+      "end": 13.39,
+      "intention": "Concretar llamadas, objeciones y razones",
+      "sound_proposal": "Mantener continuidad; SFX solo ligados a un recurso visible"
+    },
+    {
+      "start": 13.39,
+      "end": 16.34,
+      "intention": "Revalorizar información del cliente",
+      "sound_proposal": "Dar espacio al remate; evaluar un acento breve"
+    },
+    {
+      "start": 16.34,
+      "end": 19.47,
+      "intention": "Invitar al espectador a responder",
+      "sound_proposal": "Despejar la pregunta y conservar aire"
+    }
+  ],
+  "projection_hypothesis": "Criterio firme que invita a reflexión, inferido del argumento; percepción por confirmar",
+  "evidence": "ANALISIS_VOZ.md y evidencia/prosodia/analisis.json",
+  "not_auditory_approval": true
+}

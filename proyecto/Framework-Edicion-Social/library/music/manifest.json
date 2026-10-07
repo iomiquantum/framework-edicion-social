@@ -1,0 +1,18 @@
+{
+  "file": "tech_pulse_114bpm_8bars.wav",
+  "bpm": 114,
+  "bars": 8,
+  "beats_per_bar": 4,
+  "duration_seconds": 16.842104166666665,
+  "frames": 808421,
+  "sample_rate": 48000,
+  "bit_depth": 24,
+  "channels": 2,
+  "peak_dbfs": -18,
+  "rms_dbfs": -33.87,
+  "key": "E major / suspended texture",
+  "loopable": true,
+  "provenance": "Original procedural synthesis; generate_bed.py",
+  "license": "CC0-1.0 (to the extent rights exist)",
+  "wrap_step_dbfs": -58.98
+}

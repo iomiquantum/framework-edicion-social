@@ -1,0 +1,27 @@
+[
+  {
+    "file": "/Users/iomijhondavid/.cache/codex-audio-perceptual/2026-10-01/models/yamnet/model.tflite",
+    "source": "https://storage.googleapis.com/mediapipe-models/audio_classifier/yamnet/float32/1/yamnet.tflite",
+    "bytes": 4126810,
+    "sha256": "4d8b4a53282dc83ef04e3e7dbc4fbc98082e34e44ed798e16c3a0cdd4c584faf",
+    "upstream_hash_header": "crc32c=2bG3tw==, md5=0C4bg4gTEHgXt1XQnWtWsw=="
+  },
+  {
+    "file": "/Users/iomijhondavid/.cache/codex-audio-perceptual/2026-10-01/models/yamnet/yamnet_class_map.csv",
+    "source": "https://raw.githubusercontent.com/tensorflow/models/master/research/audioset/yamnet/yamnet_class_map.csv",
+    "bytes": 14096,
+    "sha256": "cdf24d193e196d9e95912a2667051ae203e92a2ba09449218ccb40ef787c6df2"
+  },
+  {
+    "file": "/Users/iomijhondavid/.cache/codex-audio-perceptual/2026-10-01/models/yamnet/README.md",
+    "source": "https://raw.githubusercontent.com/tensorflow/models/master/research/audioset/yamnet/README.md",
+    "bytes": 5183,
+    "sha256": "e837352cc8747b257c36e99f23bf02e136761c6b51f59a577fef786dfd95fd16"
+  },
+  {
+    "file": "/Users/iomijhondavid/.cache/codex-audio-perceptual/2026-10-01/models/yamnet/LICENSE",
+    "source": "https://raw.githubusercontent.com/tensorflow/models/master/LICENSE",
+    "bytes": 11512,
+    "sha256": "5b17814bf0de8cf65069bc6d7cc38cff19fcaa864d243423ad3ef3db01b52385"
+  }
+]

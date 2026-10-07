@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/cut-plan.schema.json",
+  "title": "Non-destructive dialogue cut plan",
+  "type": "object",
+  "required": ["schema_version", "project_id", "video_id", "source", "take", "transcript", "policy", "selected_range", "kept_segments", "pause_decisions", "qa"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "project_id": {"type": "string"},
+    "video_id": {"type": "string"},
+    "source": {
+      "type": "object",
+      "required": ["path", "sha256", "fps", "duration_s"],
+      "properties": {
+        "path": {"type": "string"},
+        "sha256": {"type": "string"},
+        "fps": {"type": "number", "minimum": 1},
+        "duration_s": {"type": ["number", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "take": {"type": "object"},
+    "transcript": {"type": "object"},
+    "policy": {"type": "object"},
+    "selected_range": {"type": "object"},
+    "kept_segments": {"type": "array"},
+    "phrase_corrections": {"type": "array"},
+    "pause_decisions": {"type": "array"},
+    "qa": {"type": "object"},
+    "created_at": {"type": "string"},
+    "updated_at": {"type": "string"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,22 @@
+<!doctype html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;color:#181217;font-family:Inter,sans-serif;pointer-events:none}
+  .cue{position:absolute;left:64px;right:64px;bottom:520px;padding:24px 30px 26px;background:rgba(244,231,211,.97);border:4px solid #181217;box-shadow:12px 12px 0 #7C3AED;font-size:54px;font-weight:900;line-height:1.06;text-align:center;letter-spacing:-1px;opacity:0}
+  .cue b{color:#7C3AED;font-weight:900}.cue .coral{color:#D9576D}
+</style>
+<div data-hf-id="hf-v12-captions-root" id="root" data-composition-id="captions-es" data-duration="19.70" data-width="1080" data-height="1920" data-layout-allow-caption-zone>
+  <div id="c1" class="cue">Tu marketing no necesita <b>más creatividad.</b></div>
+  <div id="c2" class="cue">Tal vez tu marketing no necesita ser <b>más creativo.</b></div>
+  <div id="c3" class="cue">Tal vez necesite entender mejor por qué alguien está viendo <b>tu oferta</b></div>
+  <div id="c4" class="cue">y aun así <span class="coral">no ha decidido comprarte.</span></div>
+  <div id="c5" class="cue">Una campaña bonita no corrige <span class="coral">una oferta que nadie quiere.</span></div>
+  <div id="c6" class="cue">¿Qué te cuesta más <b>en tu negocio?</b></div>
+  <div id="c7" class="cue">¿Conseguir atención o <b>convertirla en ventas?</b></div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  const cues=[["#c1",.05,2.60],["#c2",2.64,5.16],["#c3",5.21,9.20],["#c4",9.25,11.37],["#c5",11.42,14.93],["#c6",14.98,17.20],["#c7",17.20,19.66]];
+  cues.forEach(([id,a,b])=>{tl.fromTo(id,{opacity:0,y:16},{opacity:1,y:0,duration:.10,ease:"power1.out"},a).to(id,{opacity:0,y:-8,duration:.10,ease:"power1.in"},Math.max(a,b-.10))});
+  window.__timelines["captions-es"]=tl;
+</script>
+</template></body></html>

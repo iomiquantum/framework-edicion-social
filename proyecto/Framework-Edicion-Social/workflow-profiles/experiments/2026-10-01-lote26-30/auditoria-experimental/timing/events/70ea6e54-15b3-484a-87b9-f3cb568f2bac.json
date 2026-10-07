@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "70ea6e54-15b3-484a-87b9-f3cb568f2bac",
+  "sequence": 9,
+  "action": "start",
+  "interval_id": "70ea6e54-15b3-484a-87b9-f3cb568f2bac",
+  "phase": "qa_post_render",
+  "kind": "experiment_audit",
+  "at_epoch_seconds": 1790831338.6036322,
+  "at_utc": "2026-10-01T05:08:58.603632+00:00",
+  "note": "Sombra exacta28/30 hash/QA/frames y discrepancia índice",
+  "measurement_method": "utc_wall_clock_time_time_cross_process"
+}

@@ -1,0 +1,940 @@
+{
+  "scope": "30 main editables, VIDEO16 v6; static reachable HTML refs, not JS-generated/CSS proof or rendering",
+  "rows": [
+    {
+      "id": 1,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01",
+      "render_script": "npx --yes hyperframes@0.8.77 render",
+      "hyperframes_versions": [
+        "0.8.77"
+      ],
+      "lockfile": true,
+      "reachable_html": 8,
+      "local_ref_count": 18,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 9,
+        "lottie": 0,
+        "three": 0,
+        "scale": 23,
+        "rotation": 5,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "dbd20c77571376f007d773a6931b5a3bd6556c31e28980d62edc221fdd09d9e3"
+    },
+    {
+      "id": 2,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02",
+      "render_script": "npx --yes hyperframes@0.8.75 render",
+      "hyperframes_versions": [
+        "0.8.75"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 15,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 23,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "287712a3e5b0ca9e1a04063ceebb431fe516cc946ddaa0fea8e185c714f8e5a2"
+    },
+    {
+      "id": 3,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03",
+      "render_script": "npx --yes hyperframes@0.8.75 render",
+      "hyperframes_versions": [
+        "0.8.75"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 16,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 20,
+        "rotation": 5,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "960e23645118808d2e8f6362bf1ece05894f1c862bfd8ca2dfd0deb30768df4f"
+    },
+    {
+      "id": 4,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04",
+      "render_script": "npx --yes hyperframes@0.8.75 render",
+      "hyperframes_versions": [
+        "0.8.75"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 16,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 21,
+        "rotation": 3,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "2b3da13ffb3ec6464bbd38def00f279a36b7d1a8a54e4e3f6ba7824b24ac66ad"
+    },
+    {
+      "id": 5,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05",
+      "render_script": "npx --yes hyperframes@0.8.75 render",
+      "hyperframes_versions": [
+        "0.8.75"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 16,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 23,
+        "rotation": 3,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "6482738aa51bc87ceb114a2d862099b1600849576f02e4ac2bafa2b0aa58d9e5"
+    },
+    {
+      "id": 6,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06",
+      "render_script": "npx --yes hyperframes@0.8.77 render",
+      "hyperframes_versions": [
+        "0.8.77"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 16,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 13,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 2,
+        "mask": 1
+      },
+      "source_sha256": "314530538bcee27040ee39957bda21ee8967187b2c5d3da8fb2aba681c2c92b3"
+    },
+    {
+      "id": 7,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07",
+      "render_script": "npx --yes hyperframes@0.8.77 render",
+      "hyperframes_versions": [
+        "0.8.77"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 16,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 13,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 2,
+        "mask": 1
+      },
+      "source_sha256": "e67196c9612e2cea25134816def1624a3bd1ab765ab03e292ea6870f77ef01ad"
+    },
+    {
+      "id": 8,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08",
+      "render_script": "npx --yes hyperframes@0.8.77 render",
+      "hyperframes_versions": [
+        "0.8.77"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 16,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 13,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 2,
+        "mask": 1
+      },
+      "source_sha256": "1f4ebbf453b2bfaf84d5271ae779395025db701cca6ed0bda924126176086ade"
+    },
+    {
+      "id": 9,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09",
+      "render_script": "npx --yes hyperframes@0.8.77 render",
+      "hyperframes_versions": [
+        "0.8.77"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 16,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 13,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 2,
+        "mask": 1
+      },
+      "source_sha256": "f9628ce90a15b3608e1cbbd02d69b34eb0b3e699f552dd84e924df82c43aec09"
+    },
+    {
+      "id": 10,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10",
+      "render_script": "npx --yes hyperframes@0.8.77 render",
+      "hyperframes_versions": [
+        "0.8.77"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 16,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 13,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 2,
+        "mask": 1
+      },
+      "source_sha256": "1757e427adb91997165afda904e2ae98971504cf4f33e538736eaa2fcf992334"
+    },
+    {
+      "id": 11,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11",
+      "render_script": "npx --yes hyperframes@0.8.77 render",
+      "hyperframes_versions": [
+        "0.8.77"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 12,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 16,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "2f4215665c77d850796f114c91dd4480dd9aa156f0d81d96d450de9dbd6c76bc"
+    },
+    {
+      "id": 12,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12",
+      "render_script": "npx --yes hyperframes@0.8.77 render",
+      "hyperframes_versions": [
+        "0.8.77"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 10,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 20,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "65993ad72412d37a2a89d04137af4b3652fef698d27c3b1d65b0d351fe4d6bcf"
+    },
+    {
+      "id": 13,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13",
+      "render_script": "npx --yes hyperframes@0.8.78 render",
+      "hyperframes_versions": [
+        "0.8.78"
+      ],
+      "lockfile": false,
+      "reachable_html": 7,
+      "local_ref_count": 13,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 10,
+        "lottie": 0,
+        "three": 0,
+        "scale": 12,
+        "rotation": 0,
+        "svg": 1,
+        "inline_icon": 0,
+        "mask": 2
+      },
+      "source_sha256": "bcdd7b38662365fb8e8f177befdbf44ee8531aec6401a5a3d5e0730faae8bf2b"
+    },
+    {
+      "id": 14,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14",
+      "render_script": "npx --yes hyperframes@0.8.79 render",
+      "hyperframes_versions": [
+        "0.8.79"
+      ],
+      "lockfile": false,
+      "reachable_html": 7,
+      "local_ref_count": 12,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 12,
+        "lottie": 0,
+        "three": 0,
+        "scale": 27,
+        "rotation": 2,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 1
+      },
+      "source_sha256": "8d11987a2622738d705e67583b6eb1b6bba2ab8ec65ec32da0bef4249f930010"
+    },
+    {
+      "id": 15,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15",
+      "render_script": "npx --yes hyperframes@0.8.79 render",
+      "hyperframes_versions": [
+        "0.8.79"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 19,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 10,
+        "rotation": 0,
+        "svg": 1,
+        "inline_icon": 1,
+        "mask": 2
+      },
+      "source_sha256": "fce9c32a2d316c714dbd276deda5adda3bb5a6a88874234e74cb99f950188c6a"
+    },
+    {
+      "id": 16,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-facil-v6",
+      "render_script": "npx --yes hyperframes@0.8.99 render",
+      "hyperframes_versions": [
+        "0.8.99"
+      ],
+      "lockfile": false,
+      "reachable_html": 7,
+      "local_ref_count": 17,
+      "missing_local_refs": [],
+      "remote_refs": [],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 8,
+        "lottie": 0,
+        "three": 0,
+        "scale": 10,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "22cbce90bdc5043a420383a9a45dffcecf3f1b10ad5ad26e5289b08293f6cd3a"
+    },
+    {
+      "id": 17,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17",
+      "render_script": "npx --yes hyperframes@0.8.99 render",
+      "hyperframes_versions": [
+        "0.8.99"
+      ],
+      "lockfile": false,
+      "reachable_html": 8,
+      "local_ref_count": 15,
+      "missing_local_refs": [],
+      "remote_refs": [],
+      "wrapper": false,
+      "wrapper_text_guard": false,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 9,
+        "lottie": 0,
+        "three": 0,
+        "scale": 10,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "d156d922cf67c6752cb541c81b89f70974f98ee281ce1424047af368eeaa79fd"
+    },
+    {
+      "id": 18,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.99 render",
+      "hyperframes_versions": [
+        "0.8.99"
+      ],
+      "lockfile": false,
+      "reachable_html": 7,
+      "local_ref_count": 13,
+      "missing_local_refs": [],
+      "remote_refs": [],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 8,
+        "lottie": 0,
+        "three": 0,
+        "scale": 8,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "145da25ee75544253930b5df5790bcf0eb8f65adddeb1e2c593ce2cbd3b62f91"
+    },
+    {
+      "id": 19,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.99 render",
+      "hyperframes_versions": [
+        "0.8.99"
+      ],
+      "lockfile": false,
+      "reachable_html": 8,
+      "local_ref_count": 15,
+      "missing_local_refs": [],
+      "remote_refs": [],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 9,
+        "lottie": 0,
+        "three": 0,
+        "scale": 2,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "73721af34a9de05014b89636384059c73f4bb9d8f2aa974d0346435d42ebb828"
+    },
+    {
+      "id": 20,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.102 render",
+      "hyperframes_versions": [
+        "0.8.102"
+      ],
+      "lockfile": false,
+      "reachable_html": 10,
+      "local_ref_count": 16,
+      "missing_local_refs": [],
+      "remote_refs": [],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 11,
+        "lottie": 0,
+        "three": 0,
+        "scale": 12,
+        "rotation": 0,
+        "svg": 6,
+        "inline_icon": 0,
+        "mask": 10
+      },
+      "source_sha256": "18362251e465764ef4ac24e50f60fd4465d2e0d5e65f01ce3d049d3dca94a1dd"
+    },
+    {
+      "id": 21,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.99 render",
+      "hyperframes_versions": [
+        "0.8.99"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 11,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 2,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "2fe4df5d59cddfcf096db462dae77fd955ceb790d81d847180215a7e448a49d6"
+    },
+    {
+      "id": 22,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.99 render",
+      "hyperframes_versions": [
+        "0.8.99"
+      ],
+      "lockfile": false,
+      "reachable_html": 7,
+      "local_ref_count": 13,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": false,
+      "motion_signals": {
+        "gsap": 24,
+        "lottie": 0,
+        "three": 0,
+        "scale": 0,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "61c7e14dc3addf3cf284653d11973e2a4593d0d6d16aca75d53a4e03bb0cdfae"
+    },
+    {
+      "id": 23,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.99 render",
+      "hyperframes_versions": [
+        "0.8.99"
+      ],
+      "lockfile": false,
+      "reachable_html": 7,
+      "local_ref_count": 12,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 24,
+        "lottie": 0,
+        "three": 0,
+        "scale": 1,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "080d7e7f4555eb2b673ae708549d955c6d5b208673b9a55052d800087f69f0e0"
+    },
+    {
+      "id": 24,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.99 render",
+      "hyperframes_versions": [
+        "0.8.99"
+      ],
+      "lockfile": false,
+      "reachable_html": 7,
+      "local_ref_count": 12,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 28,
+        "lottie": 0,
+        "three": 0,
+        "scale": 0,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "bbf92b506ca9d1256a93f5f6c801acf575f927d6c5a4a600534dd0aaa782604d"
+    },
+    {
+      "id": 25,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.99 render",
+      "hyperframes_versions": [
+        "0.8.99"
+      ],
+      "lockfile": false,
+      "reachable_html": 7,
+      "local_ref_count": 12,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 21,
+        "lottie": 0,
+        "three": 0,
+        "scale": 10,
+        "rotation": 0,
+        "svg": 6,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "4ff31d8c9f99b763480d4250ef9a131afb45de5715356efbcdfea1aefb1fde47"
+    },
+    {
+      "id": 26,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.100 render",
+      "hyperframes_versions": [
+        "0.8.100"
+      ],
+      "lockfile": false,
+      "reachable_html": 8,
+      "local_ref_count": 13,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 9,
+        "lottie": 0,
+        "three": 0,
+        "scale": 0,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "0a19c6944ff7a97b6cb51d693e1c5cd22d6953ead30daec43b541107b2bee788"
+    },
+    {
+      "id": 27,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27",
+      "render_script": "npx --yes hyperframes@0.8.102 render",
+      "hyperframes_versions": [
+        "0.8.102"
+      ],
+      "lockfile": false,
+      "reachable_html": 7,
+      "local_ref_count": 20,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 8,
+        "lottie": 0,
+        "three": 0,
+        "scale": 12,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 1,
+        "mask": 0
+      },
+      "source_sha256": "dcbf6a9906d9a4ba7140f40701c4cbfc55db999809860b12745fd5098899103d"
+    },
+    {
+      "id": 28,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.100 render",
+      "hyperframes_versions": [
+        "0.8.100"
+      ],
+      "lockfile": false,
+      "reachable_html": 8,
+      "local_ref_count": 15,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 9,
+        "lottie": 0,
+        "three": 0,
+        "scale": 2,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "11dd45ebd5d5126de892fad47b099ae7acc10b51667f3f1f5af9c1598190933d"
+    },
+    {
+      "id": 29,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.100 render",
+      "hyperframes_versions": [
+        "0.8.100"
+      ],
+      "lockfile": false,
+      "reachable_html": 7,
+      "local_ref_count": 12,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 8,
+        "lottie": 0,
+        "three": 0,
+        "scale": 0,
+        "rotation": 0,
+        "svg": 0,
+        "inline_icon": 0,
+        "mask": 0
+      },
+      "source_sha256": "9d6cc2ae6387735a543c2a5b90d2e17a82ec26f98301bb70a016f596a13481b8"
+    },
+    {
+      "id": 30,
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30",
+      "render_script": "node media-runtime.mjs npx --yes hyperframes@0.8.102 render",
+      "hyperframes_versions": [
+        "0.8.102"
+      ],
+      "lockfile": false,
+      "reachable_html": 6,
+      "local_ref_count": 13,
+      "missing_local_refs": [],
+      "remote_refs": [
+        {
+          "file": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/index.html",
+          "ref": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+        }
+      ],
+      "wrapper": true,
+      "wrapper_text_guard": true,
+      "wrapper_sfx_guard": true,
+      "motion_signals": {
+        "gsap": 7,
+        "lottie": 0,
+        "three": 0,
+        "scale": 8,
+        "rotation": 0,
+        "svg": 18,
+        "inline_icon": 3,
+        "mask": 8
+      },
+      "source_sha256": "c3512faca1fd91ce70147327f4bc54dc95da747a60e9557c3e105f8b48d6f341"
+    }
+  ]
+}

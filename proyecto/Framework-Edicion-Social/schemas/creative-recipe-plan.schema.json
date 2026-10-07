@@ -1,0 +1,414 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/creative-recipe-plan.schema.json",
+  "title": "Contextual creative recipe proposal plan",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "plan_id",
+    "generator_version",
+    "blueprint",
+    "inputs",
+    "recommendation_policy",
+    "status",
+    "abstention_reasons",
+    "proposal_count",
+    "proposals",
+    "warnings",
+    "explanation"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "plan_id": {"type": "string", "pattern": "^RECIPE-PLAN-[A-Z0-9_-]+$"},
+    "generator_version": {"const": "creative-recipe-compose-v1"},
+    "blueprint": {
+      "type": "object",
+      "required": ["id", "video_id", "path", "sha256", "duration_target_s"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^CBP-[A-Z0-9][A-Z0-9_-]*$"},
+        "video_id": {"type": "string", "minLength": 1},
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "duration_target_s": {"type": "number", "exclusiveMinimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "inputs": {
+      "type": "object",
+      "required": ["catalog", "series_contract", "series_memory", "asset_index"],
+      "properties": {
+        "catalog": {
+          "type": "object",
+          "required": ["path", "sha256"],
+          "properties": {
+            "path": {"type": "string", "minLength": 1},
+            "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+          },
+          "additionalProperties": false
+        },
+        "series_contract": {
+          "type": "object",
+          "required": ["path", "sha256"],
+          "properties": {
+            "path": {"type": ["string", "null"]},
+            "sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+          },
+          "additionalProperties": false
+        },
+        "series_memory": {
+          "type": "object",
+          "required": ["path", "sha256"],
+          "properties": {
+            "path": {"type": ["string", "null"]},
+            "sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+          },
+          "additionalProperties": false
+        },
+        "asset_index": {
+          "type": "object",
+          "required": ["path", "sha256"],
+          "properties": {
+            "path": {"type": ["string", "null"]},
+            "sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "recommendation_policy": {
+      "type": "object",
+      "required": [
+        "max_proposals",
+        "minimum_fit_score",
+        "minimum_confidence_score",
+        "minimum_module_differences_between_options",
+        "single_global_winner",
+        "automatic_promotion",
+        "human_choice_required",
+        "preserve_multiple_families",
+        "ranking_meaning"
+      ],
+      "properties": {
+        "max_proposals": {"const": 3},
+        "minimum_fit_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "minimum_confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "minimum_module_differences_between_options": {"type": "integer", "minimum": 1, "maximum": 6},
+        "single_global_winner": {"const": false},
+        "automatic_promotion": {"const": false},
+        "human_choice_required": {"const": true},
+        "preserve_multiple_families": {"const": true},
+        "ranking_meaning": {"const": "contextual_review_order_not_quality_or_universal_winner"}
+      },
+      "additionalProperties": false
+    },
+    "status": {"enum": ["proposed", "abstained"]},
+    "abstention_reasons": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "insufficient_blueprint_signals",
+          "no_eligible_modules",
+          "no_compatible_combinations",
+          "below_fit_threshold",
+          "below_confidence_threshold"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "proposal_count": {"type": "integer", "minimum": 0, "maximum": 3},
+    "proposals": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "option_id",
+          "recipe_id",
+          "rank",
+          "label",
+          "module_ids",
+          "primary_family_id",
+          "hybrid",
+          "contributing_family_ids",
+          "fit_score",
+          "confidence",
+          "score_breakdown",
+          "compatibility",
+          "fatigue",
+          "asset_fit",
+          "effort",
+          "variety",
+          "creative_direction",
+          "explanation"
+        ],
+        "properties": {
+          "option_id": {"enum": ["OPTION-A", "OPTION-B", "OPTION-C"]},
+          "recipe_id": {"type": "string", "pattern": "^RECIPE-[A-Z0-9_-]+-[A-F0-9]{12}$"},
+          "rank": {"type": "integer", "minimum": 1, "maximum": 3},
+          "label": {"type": "string", "minLength": 1},
+          "module_ids": {
+            "type": "object",
+            "required": ["hook", "structure", "visual_system", "motion", "sound", "cta"],
+            "properties": {
+              "hook": {"type": "string", "pattern": "^HOOK-[A-Z0-9-]+$"},
+              "structure": {"type": "string", "pattern": "^STRUCT-[A-Z0-9-]+$"},
+              "visual_system": {"type": "string", "pattern": "^VIS-[A-Z0-9-]+$"},
+              "motion": {"type": "string", "pattern": "^MOTION-[A-Z0-9-]+$"},
+              "sound": {"type": "string", "pattern": "^SOUND-[A-Z0-9-]+$"},
+              "cta": {"type": "string", "pattern": "^CTA-[A-Z0-9-]+$"}
+            },
+            "additionalProperties": false
+          },
+          "primary_family_id": {
+            "type": ["string", "null"],
+            "pattern": "^FAMILY-[A-Z0-9_-]+$"
+          },
+          "hybrid": {"type": "boolean"},
+          "contributing_family_ids": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^FAMILY-[A-Z0-9_-]+$"},
+            "uniqueItems": true
+          },
+          "fit_score": {"type": "number", "minimum": 0, "maximum": 1},
+          "confidence": {
+            "type": "object",
+            "required": ["score", "level", "basis"],
+            "properties": {
+              "score": {"type": "number", "minimum": 0, "maximum": 1},
+              "level": {"enum": ["low", "medium", "high"]},
+              "basis": {
+                "type": "array",
+                "minItems": 1,
+                "items": {"type": "string", "minLength": 1},
+                "uniqueItems": true
+              }
+            },
+            "additionalProperties": false
+          },
+          "score_breakdown": {
+            "type": "array",
+            "minItems": 6,
+            "maxItems": 6,
+            "items": {
+              "type": "object",
+              "required": ["module_id", "kind", "fit_score", "positive_matches", "negative_matches"],
+              "properties": {
+                "module_id": {"type": "string", "pattern": "^(HOOK|STRUCT|VIS|MOTION|SOUND|CTA)-[A-Z0-9-]+$"},
+                "kind": {"enum": ["hook", "structure", "visual_system", "motion", "sound", "cta"]},
+                "fit_score": {"type": "number", "minimum": 0, "maximum": 1},
+                "positive_matches": {
+                  "type": "array",
+                  "items": {"type": "string", "minLength": 1},
+                  "uniqueItems": true
+                },
+                "negative_matches": {
+                  "type": "array",
+                  "items": {"type": "string", "minLength": 1},
+                  "uniqueItems": true
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "compatibility": {
+            "type": "object",
+            "required": ["passed", "blocking_conflicts", "warnings"],
+            "properties": {
+              "passed": {"const": true},
+              "blocking_conflicts": {"type": "array", "maxItems": 0, "items": {"type": "string"}},
+              "warnings": {
+                "type": "array",
+                "items": {"type": "string", "minLength": 1},
+                "uniqueItems": true
+              }
+            },
+            "additionalProperties": false
+          },
+          "fatigue": {
+            "type": "object",
+            "required": ["window", "signal", "penalty", "matched_prior_entries", "is_quality_score"],
+            "properties": {
+              "window": {"type": "integer", "minimum": 1},
+              "signal": {"enum": ["no_history", "clear", "notice", "warning"]},
+              "penalty": {"type": "number", "minimum": 0, "maximum": 1},
+              "matched_prior_entries": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["video_id", "matched_tokens"],
+                  "properties": {
+                    "video_id": {"type": "string", "minLength": 1},
+                    "matched_tokens": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {"type": "string", "minLength": 1},
+                      "uniqueItems": true
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "is_quality_score": {"const": false}
+            },
+            "additionalProperties": false
+          },
+          "asset_fit": {
+            "type": "object",
+            "required": [
+              "index_provided",
+              "coverage_status",
+              "required_types",
+              "available_types",
+              "missing_types",
+              "preferred_types_available"
+            ],
+            "properties": {
+              "index_provided": {"type": "boolean"},
+              "coverage_status": {"enum": ["unknown", "covered", "gaps"]},
+              "required_types": {
+                "type": "array",
+                "items": {"type": "string", "minLength": 1},
+                "uniqueItems": true
+              },
+              "available_types": {
+                "type": "array",
+                "items": {"type": "string", "minLength": 1},
+                "uniqueItems": true
+              },
+              "missing_types": {
+                "type": "array",
+                "items": {"type": "string", "minLength": 1},
+                "uniqueItems": true
+              },
+              "preferred_types_available": {
+                "type": "array",
+                "items": {"type": "string", "minLength": 1},
+                "uniqueItems": true
+              }
+            },
+            "additionalProperties": false
+          },
+          "effort": {
+            "type": "object",
+            "required": ["points", "level", "minutes_min", "minutes_max", "asset_generation_count"],
+            "properties": {
+              "points": {"type": "integer", "minimum": 1},
+              "level": {"enum": ["low", "medium", "high"]},
+              "minutes_min": {"type": "integer", "minimum": 0},
+              "minutes_max": {"type": "integer", "minimum": 0},
+              "asset_generation_count": {"type": "integer", "minimum": 0}
+            },
+            "additionalProperties": false
+          },
+          "variety": {
+            "type": "object",
+            "required": ["module_difference_from_first", "distinct_axes", "not_quality_score"],
+            "properties": {
+              "module_difference_from_first": {"type": "integer", "minimum": 0, "maximum": 6},
+              "distinct_axes": {
+                "type": "array",
+                "items": {"enum": ["hook", "structure", "visual_system", "motion", "sound", "cta"]},
+                "uniqueItems": true
+              },
+              "not_quality_score": {"const": true}
+            },
+            "additionalProperties": false
+          },
+          "creative_direction": {
+            "type": "object",
+            "required": [
+              "hook",
+              "structure",
+              "visual_system",
+              "motion",
+              "sound",
+              "cta",
+              "face_safe_notes",
+              "rhythm_pattern"
+            ],
+            "properties": {
+              "hook": {
+                "type": "object",
+                "required": ["module_id", "label", "directives"],
+                "properties": {
+                  "module_id": {"type": "string", "pattern": "^HOOK-[A-Z0-9-]+$"},
+                  "label": {"type": "string", "minLength": 1},
+                  "directives": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+                },
+                "additionalProperties": false
+              },
+              "structure": {
+                "type": "object",
+                "required": ["module_id", "label", "directives"],
+                "properties": {
+                  "module_id": {"type": "string", "pattern": "^STRUCT-[A-Z0-9-]+$"},
+                  "label": {"type": "string", "minLength": 1},
+                  "directives": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+                },
+                "additionalProperties": false
+              },
+              "visual_system": {
+                "type": "object",
+                "required": ["module_id", "label", "directives"],
+                "properties": {
+                  "module_id": {"type": "string", "pattern": "^VIS-[A-Z0-9-]+$"},
+                  "label": {"type": "string", "minLength": 1},
+                  "directives": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+                },
+                "additionalProperties": false
+              },
+              "motion": {
+                "type": "object",
+                "required": ["module_id", "label", "directives"],
+                "properties": {
+                  "module_id": {"type": "string", "pattern": "^MOTION-[A-Z0-9-]+$"},
+                  "label": {"type": "string", "minLength": 1},
+                  "directives": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+                },
+                "additionalProperties": false
+              },
+              "sound": {
+                "type": "object",
+                "required": ["module_id", "label", "directives"],
+                "properties": {
+                  "module_id": {"type": "string", "pattern": "^SOUND-[A-Z0-9-]+$"},
+                  "label": {"type": "string", "minLength": 1},
+                  "directives": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+                },
+                "additionalProperties": false
+              },
+              "cta": {
+                "type": "object",
+                "required": ["module_id", "label", "directives"],
+                "properties": {
+                  "module_id": {"type": "string", "pattern": "^CTA-[A-Z0-9-]+$"},
+                  "label": {"type": "string", "minLength": 1},
+                  "directives": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+                },
+                "additionalProperties": false
+              },
+              "face_safe_notes": {
+                "type": "array",
+                "minItems": 1,
+                "items": {"type": "string", "minLength": 1},
+                "uniqueItems": true
+              },
+              "rhythm_pattern": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          },
+          "explanation": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "explanation": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

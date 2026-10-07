@@ -1,0 +1,68 @@
+{
+  "date_local": "2026-10-06",
+  "version": "2.1.0",
+  "status": "implemented_and_locally_verified_with_limits",
+  "python": {
+    "passed": 46,
+    "log": "evidencia/tests-guia-progreso.log"
+  },
+  "javascript": {
+    "status": "pass",
+    "log": "evidencia/tests-guia-js.log",
+    "scope": [
+      "15 steps on each OS",
+      "state validation and recovery",
+      "five original markers",
+      "confirmed disk save",
+      "offline failure and retry",
+      "concurrent-window conflict"
+    ]
+  },
+  "syntax": {
+    "status": "pass",
+    "scope": [
+      "guide inline JavaScript",
+      "assistant JavaScript",
+      "Python AST",
+      "bash -n launchers"
+    ]
+  },
+  "browser_verified": [
+    "Windows checklist and note after reload",
+    "independent Mac progress",
+    "last step recovery",
+    "four recording scenarios",
+    "custom recording script and note",
+    "questionnaire restored after server restart",
+    "backup created in MI-PROGRESO/copias",
+    "explicit restoration of a chosen in-folder backup"
+  ],
+  "recording_marker_parser": {
+    "status": "pass",
+    "scope": "Rendered text and synthetic timestamps only; no real audio or ASR",
+    "evidence": "evidencia/validacion-marcadores-guia.json"
+  },
+  "mac_launcher": {
+    "status": "pass",
+    "scope": "bash INICIO MAC.command --no-browser reuses active local session; no installation performed"
+  },
+  "screenshot": "evidencia/guia-grabacion-visual.png",
+  "test_data": "Removed from initial UI after saving evidence/historico-v1/progreso-sintetico-pruebas-guia.zip; no masters or new real lots created",
+  "pending": [
+    "Clean Windows installation and PowerShell execution",
+    "Clean Mac installation and double-click permissions",
+    "Actual GitHub ZIP on both target systems",
+    "Student pilot",
+    "Physical print / exported PDF",
+    "Browser external download/import dialogs",
+    "Real master ASR and marker review"
+  ],
+  "observed_limits": [
+    "In-app browser policy blocked direct file URL navigation; not bypassed",
+    "External download/file picker completion was not confirmed; in-folder backup and recovery verified instead"
+  ],
+  "repository_published": false,
+  "dependencies_installed_this_change": false,
+  "human_audio_listening_claimed": false,
+  "protected_original": "evidencia/mac-despues-guias.json"
+}

@@ -1,0 +1,89 @@
+{
+  "at_utc": "2026-10-01T05:21:29.071413+00:00",
+  "status": "four_local_deliveries_27pending_not_final",
+  "rows": [
+    {
+      "video": 26,
+      "flow": 1,
+      "closed_operational_seconds": 1917.7368688583374,
+      "closed_span_seconds": 1918.1850361824036,
+      "unmeasured_gaps_seconds": 0.4481673240661621,
+      "open_interval": null,
+      "phases_seconds": {
+        "intake": null,
+        "semantic_lock": 577.4821653366089,
+        "resources": 256.1210069656372,
+        "assembly": 412.03183698654175,
+        "review_changes": null,
+        "qa_pre_render": 273.2236614227295,
+        "render": 261.41712522506714,
+        "qa_post_render": 137.46107292175293,
+        "documentation": null,
+        "coordination": null
+      }
+    },
+    {
+      "video": 28,
+      "flow": 2,
+      "closed_operational_seconds": 1957.6308345794678,
+      "closed_span_seconds": 1971.6240501403809,
+      "unmeasured_gaps_seconds": 13.993215560913086,
+      "open_interval": null,
+      "phases_seconds": {
+        "intake": null,
+        "semantic_lock": 262.0201849937439,
+        "resources": 253.0738401412964,
+        "assembly": 262.1540288925171,
+        "review_changes": null,
+        "qa_pre_render": 519.8307700157166,
+        "render": 490.17304039001465,
+        "qa_post_render": 147.06295204162598,
+        "documentation": 23.316018104553223,
+        "coordination": null
+      }
+    },
+    {
+      "video": 29,
+      "flow": 2,
+      "closed_operational_seconds": 1901.4484281539917,
+      "closed_span_seconds": 1901.9919481277466,
+      "unmeasured_gaps_seconds": 0.5435199737548828,
+      "open_interval": null,
+      "phases_seconds": {
+        "intake": null,
+        "semantic_lock": 270.43790006637573,
+        "resources": 547.329747915268,
+        "assembly": 526.1283090114594,
+        "review_changes": null,
+        "qa_pre_render": 213.28154230117798,
+        "render": 200.90209579467773,
+        "qa_post_render": 143.36883306503296,
+        "documentation": null,
+        "coordination": null
+      }
+    },
+    {
+      "video": 30,
+      "flow": 3,
+      "closed_operational_seconds": 2956.3367857933044,
+      "closed_span_seconds": 3163.9014432430267,
+      "unmeasured_gaps_seconds": 207.5646574497223,
+      "open_interval": null,
+      "phases_seconds": {
+        "intake": null,
+        "semantic_lock": 318.7088739871979,
+        "resources": 506.15420508384705,
+        "assembly": 240.56012606620789,
+        "review_changes": 43.24533295631409,
+        "qa_pre_render": 1002.2198858261108,
+        "render": 353.18723487854004,
+        "qa_post_render": 259.378849029541,
+        "documentation": 202.22784209251404,
+        "coordination": 30.654435873031616
+      }
+    }
+  ],
+  "meaning": "Registered elapsed phaseintervals, not pureattention or CPU; do not sum engines nested again. F3 mixedsharedrepair remains unsplit. 29resourcesmixedcoord26.",
+  "conclusion": "pendingVIDEO27final",
+  "unchanged_default": "flujo-1"
+}

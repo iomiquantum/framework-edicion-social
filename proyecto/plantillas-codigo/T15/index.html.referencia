@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1920">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: #17323B; }
+      #root { position: relative; width: 100%; height: 100%; overflow: hidden; background: #17323B; }
+      #header-bed { position: absolute; inset: 0 0 auto 0; height: 330px; background: #F2E7D5; border-bottom: 6px solid #17323B; }
+      .speaker {
+        position: absolute;
+        inset: 330px 0 0;
+        width: 1080px;
+        height: 1590px;
+        object-fit: cover;
+        object-position: center 48%;
+        background: #17323B;
+      }
+      [data-composition-src] { position: absolute; inset: 0; }
+    </style>
+  </head>
+  <body>
+      <div data-hf-id="hf-v15-root" id="root" data-composition-id="main" data-start="0" data-duration="21.072" data-width="1080" data-height="1920">
+      <div data-hf-id="hf-jtag" id="header-bed"></div>
+      <video data-hf-id="hf-v15-speaker-a" id="speaker-a" class="clip speaker" src="assets/video15-master-hlg-v1.mp4" muted playsinline preload="auto" data-start="0" data-duration="2.100" data-media-start="0" data-track-index="0" data-track-kind="video"></video>
+      <video data-hf-id="hf-v15-speaker-b" id="speaker-b" class="clip speaker" src="assets/video15-master-hlg-v1.mp4" muted playsinline preload="auto" data-start="2.100" data-duration="6.487" data-media-start="3.188" data-track-index="0" data-track-kind="video"></video>
+      <video data-hf-id="hf-v15-speaker-c" id="speaker-c" class="clip speaker" src="assets/video15-master-hlg-v1.mp4" muted playsinline preload="auto" data-start="8.588" data-duration="7.351" data-media-start="11.316" data-track-index="0" data-track-kind="video"></video>
+      <video data-hf-id="hf-v15-speaker-d" id="speaker-d" class="clip speaker" src="assets/video15-master-hlg-v1.mp4" muted playsinline preload="auto" data-start="15.939" data-duration="5.133" data-media-start="23.367" data-track-index="0" data-track-kind="video"></video>
+      <div data-hf-id="hf-v15-hook" id="hook" class="clip" data-composition-id="scene-hook" data-composition-src="compositions/scene-hook.html" data-start="0" data-duration="2.40" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div data-hf-id="hf-v15-error" id="error" class="clip" data-composition-id="scene-error" data-composition-src="compositions/scene-error.html" data-start="2.40" data-duration="6.188" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div data-hf-id="hf-v15-inspect" id="inspect" class="clip" data-composition-id="scene-inspect" data-composition-src="compositions/scene-inspect.html" data-start="8.588" data-duration="4.064" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div data-hf-id="hf-v15-consequence" id="consequence" class="clip" data-composition-id="scene-consequence" data-composition-src="compositions/scene-consequence.html" data-start="12.652" data-duration="8.420" data-track-index="3" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <div data-hf-id="hf-v15-captions" id="captions" class="clip" data-composition-id="captions-es" data-composition-src="compositions/captions-es.html" data-start="0" data-duration="21.072" data-track-index="8" data-track-kind="captions" data-width="1080" data-height="1920"></div>
+      <audio data-hf-id="hf-v15-voice-a" id="voice-a" src="assets/video15-voice-normalized-v1.m4a" preload="auto" data-start="0" data-duration="2.100" data-media-start="0" data-track-index="20" data-track-kind="voice" data-volume="1"></audio>
+      <audio data-hf-id="hf-v15-voice-b" id="voice-b" src="assets/video15-voice-normalized-v1.m4a" preload="auto" data-start="2.100" data-duration="6.487" data-media-start="3.188" data-track-index="20" data-track-kind="voice" data-volume="1"></audio>
+      <audio data-hf-id="hf-v15-voice-c" id="voice-c" src="assets/video15-voice-normalized-v1.m4a" preload="auto" data-start="8.588" data-duration="7.351" data-media-start="11.316" data-track-index="20" data-track-kind="voice" data-volume="1"></audio>
+      <audio data-hf-id="hf-v15-voice-d" id="voice-d" src="assets/video15-voice-normalized-v1.m4a" preload="auto" data-start="15.939" data-duration="5.133" data-media-start="23.367" data-track-index="20" data-track-kind="voice" data-volume="1"></audio>
+      <audio data-hf-id="hf-6asp" id="sfx-open" src="assets/04_soft_pop.wav" preload="auto" data-start="0.08" data-duration="0.16" data-track-index="30" data-volume="0.36"></audio>
+      <audio data-hf-id="hf-v15-sfx-error" id="sfx-error" src="assets/04_soft_pop.wav" preload="auto" data-start="2.44" data-duration="0.16" data-track-index="30" data-volume="0.32"></audio>
+      <audio data-hf-id="hf-v15-sfx-inspect" id="sfx-inspect" src="assets/04_soft_pop.wav" preload="auto" data-start="8.63" data-duration="0.16" data-track-index="30" data-volume="0.30"></audio>
+      <audio data-hf-id="hf-h3e4" id="sfx-loop" src="assets/07_loop_return.wav" preload="auto" data-start="12.77" data-duration="0.48" data-track-index="31" data-volume="0.36"></audio>
+      <audio data-hf-id="hf-v15-sfx-return" id="sfx-return" src="assets/04_soft_pop.wav" preload="auto" data-start="16.09" data-duration="0.16" data-track-index="32" data-volume="0.30"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

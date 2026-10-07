@@ -1,0 +1,34 @@
+VERSION_COUNTS Counter({'0.8.99': 9, '0.8.77': 8, '0.8.75': 4, '0.8.102': 3, '0.8.100': 3, '0.8.79': 2, '0.8.78': 1})
+WRAPPERS 13 TEXT_GUARDS 13 SFX_GUARDS 11 LOCKFILES 1
+1 8 missing 0 remote 1 {'gsap': 9, 'lottie': 0, 'three': 0, 'scale': 23, 'rotation': 5, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+2 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 23, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+3 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 20, 'rotation': 5, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+4 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 21, 'rotation': 3, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+5 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 23, 'rotation': 3, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+6 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 13, 'rotation': 0, 'svg': 0, 'inline_icon': 2, 'mask': 1}
+7 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 13, 'rotation': 0, 'svg': 0, 'inline_icon': 2, 'mask': 1}
+8 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 13, 'rotation': 0, 'svg': 0, 'inline_icon': 2, 'mask': 1}
+9 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 13, 'rotation': 0, 'svg': 0, 'inline_icon': 2, 'mask': 1}
+10 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 13, 'rotation': 0, 'svg': 0, 'inline_icon': 2, 'mask': 1}
+11 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 16, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+12 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 20, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+13 7 missing 0 remote 1 {'gsap': 10, 'lottie': 0, 'three': 0, 'scale': 12, 'rotation': 0, 'svg': 1, 'inline_icon': 0, 'mask': 2}
+14 7 missing 0 remote 1 {'gsap': 12, 'lottie': 0, 'three': 0, 'scale': 27, 'rotation': 2, 'svg': 0, 'inline_icon': 0, 'mask': 1}
+15 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 10, 'rotation': 0, 'svg': 1, 'inline_icon': 1, 'mask': 2}
+16 7 missing 0 remote 0 {'gsap': 8, 'lottie': 0, 'three': 0, 'scale': 10, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+17 8 missing 0 remote 0 {'gsap': 9, 'lottie': 0, 'three': 0, 'scale': 10, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+18 7 missing 0 remote 0 {'gsap': 8, 'lottie': 0, 'three': 0, 'scale': 8, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+19 8 missing 0 remote 0 {'gsap': 9, 'lottie': 0, 'three': 0, 'scale': 2, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+20 10 missing 0 remote 0 {'gsap': 11, 'lottie': 0, 'three': 0, 'scale': 12, 'rotation': 0, 'svg': 6, 'inline_icon': 0, 'mask': 10}
+21 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 2, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+22 7 missing 0 remote 1 {'gsap': 24, 'lottie': 0, 'three': 0, 'scale': 0, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+23 7 missing 0 remote 1 {'gsap': 24, 'lottie': 0, 'three': 0, 'scale': 1, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+24 7 missing 0 remote 1 {'gsap': 28, 'lottie': 0, 'three': 0, 'scale': 0, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+25 7 missing 0 remote 1 {'gsap': 21, 'lottie': 0, 'three': 0, 'scale': 10, 'rotation': 0, 'svg': 6, 'inline_icon': 0, 'mask': 0}
+26 8 missing 0 remote 1 {'gsap': 9, 'lottie': 0, 'three': 0, 'scale': 0, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+27 7 missing 0 remote 1 {'gsap': 8, 'lottie': 0, 'three': 0, 'scale': 12, 'rotation': 0, 'svg': 0, 'inline_icon': 1, 'mask': 0}
+28 8 missing 0 remote 1 {'gsap': 9, 'lottie': 0, 'three': 0, 'scale': 2, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+29 7 missing 0 remote 1 {'gsap': 8, 'lottie': 0, 'three': 0, 'scale': 0, 'rotation': 0, 'svg': 0, 'inline_icon': 0, 'mask': 0}
+30 6 missing 0 remote 1 {'gsap': 7, 'lottie': 0, 'three': 0, 'scale': 8, 'rotation': 0, 'svg': 18, 'inline_icon': 3, 'mask': 8}
+MISSING []
+REMOTE Counter({'https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js': 25})

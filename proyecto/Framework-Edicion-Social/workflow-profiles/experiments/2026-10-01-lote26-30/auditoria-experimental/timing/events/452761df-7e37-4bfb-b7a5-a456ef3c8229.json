@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "452761df-7e37-4bfb-b7a5-a456ef3c8229",
+  "sequence": 5,
+  "action": "start",
+  "interval_id": "452761df-7e37-4bfb-b7a5-a456ef3c8229",
+  "phase": "documentation",
+  "kind": "experiment_audit",
+  "at_epoch_seconds": 1790829504.056184,
+  "at_utc": "2026-10-01T04:38:24.056184+00:00",
+  "note": "Auditoría intermedia de relojes, alineación compartida y plan sombra",
+  "measurement_method": "utc_wall_clock_time_time_cross_process"
+}

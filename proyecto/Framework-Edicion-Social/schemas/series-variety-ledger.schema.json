@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/series-variety-ledger.schema.json",
+  "title": "Series variety evidence ledger",
+  "type": "object",
+  "required": ["schema_version", "series_id", "policy", "entries", "reviews"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "series_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+    "policy": {
+      "type": "object",
+      "required": ["comparison_window", "notice_similarity", "warning_similarity", "similarity_is_quality_score", "comparison_scope"],
+      "properties": {
+        "comparison_window": {"type": "integer", "minimum": 1},
+        "notice_similarity": {"type": "number", "minimum": 0, "maximum": 1},
+        "warning_similarity": {"type": "number", "minimum": 0, "maximum": 1},
+        "similarity_is_quality_score": {"const": false},
+        "comparison_scope": {"const": "within_and_across_template_families"}
+      },
+      "additionalProperties": false
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "video_id",
+          "fingerprint_id",
+          "fingerprint_path",
+          "fingerprint_sha256",
+          "family_id",
+          "archetype_id",
+          "approval_status",
+          "approval_ref",
+          "approved_artifact_sha256",
+          "approved_at",
+          "technical_qa",
+          "recorded_at",
+          "fields",
+          "traits"
+        ],
+        "properties": {
+          "video_id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9_-]*$"},
+          "fingerprint_id": {"type": "string", "pattern": "^FP-[A-Z0-9_-]+-[A-F0-9]{12}$"},
+          "fingerprint_path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"
+          },
+          "fingerprint_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "family_id": {"type": ["string", "null"], "pattern": "^FAMILY-[A-Z0-9_-]+$"},
+          "archetype_id": {"type": ["string", "null"], "pattern": "^ARCH-[A-Z0-9_-]+$"},
+          "approval_status": {"enum": ["unreviewed", "approved", "rejected"]},
+          "approval_ref": {"type": ["string", "null"]},
+          "approved_artifact_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+          "approved_at": {"type": ["string", "null"], "format": "date"},
+          "technical_qa": {
+            "type": "object",
+            "required": ["status", "evidence_path", "evidence_sha256", "artifact_sha256"],
+            "properties": {
+              "status": {"enum": ["unavailable", "pass", "fail"]},
+              "evidence_path": {
+                "type": ["string", "null"],
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"
+              },
+              "evidence_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+              "artifact_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+            },
+            "additionalProperties": false
+          },
+          "recorded_at": {"type": "string", "format": "date"},
+          "fields": {
+            "type": "object",
+            "additionalProperties": {
+              "type": ["string", "number", "boolean", "null", "array"],
+              "items": {"type": ["string", "number", "boolean", "null"]}
+            }
+          },
+          "traits": {
+            "type": "object",
+            "additionalProperties": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "review_id",
+          "candidate_video_id",
+          "candidate_family_id",
+          "compared_video_ids",
+          "generated_at",
+          "maximum_similarity",
+          "similarity_signal",
+          "novelty_budget_status",
+          "blocking",
+          "quality_conclusion"
+        ],
+        "properties": {
+          "review_id": {"type": "string"},
+          "candidate_video_id": {"type": "string"},
+          "candidate_family_id": {"type": ["string", "null"]},
+          "compared_video_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "generated_at": {"type": "string", "format": "date"},
+          "maximum_similarity": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+          "similarity_signal": {"enum": ["insufficient_history", "distinct", "notice", "warning"]},
+          "novelty_budget_status": {"enum": ["not_applicable", "insufficient_history", "within_budget", "under_budget", "over_budget"]},
+          "blocking": {"const": false},
+          "quality_conclusion": {"const": "not_assessed"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

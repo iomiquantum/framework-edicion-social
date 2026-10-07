@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es" data-resolution="portrait">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080,height=1920">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js">
+</script>
+<style>*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#07111f}#root{position:relative;width:1080px;height:1920px;overflow:hidden;background:#07111f}.clip{position:absolute;inset:0}#camera{position:absolute;inset:-2%;transform-origin:50% 42%}#speaker{width:104%;height:104%;object-fit:cover}.scene{z-index:5}#captions{z-index:20}</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="18.833" data-width="1080" data-height="1920">
+<div id="camera">
+<video id="speaker" class="clip" src="assets/video04-master-hdr.mp4" muted playsinline preload="auto" data-start="0" data-duration="18.833" data-track-index="0">
+</video>
+</div>
+<div id="hook" class="clip scene" data-composition-id="scene-hook" data-composition-src="compositions/scene-hook.html" data-start="0" data-duration="6.12" data-track-index="3" data-width="1080" data-height="1920">
+</div>
+<div id="diagnosis" class="clip scene" data-composition-id="scene-diagnosis" data-composition-src="compositions/scene-diagnosis.html" data-start="6.12" data-duration="5.48" data-track-index="4" data-width="1080" data-height="1920">
+</div>
+<div id="speed" class="clip scene" data-composition-id="scene-speed" data-composition-src="compositions/scene-speed.html" data-start="11.60" data-duration="3.63" data-track-index="4" data-width="1080" data-height="1920">
+</div>
+<div id="cta" class="clip scene" data-composition-id="scene-cta" data-composition-src="compositions/scene-cta.html" data-start="15.23" data-duration="3.603" data-track-index="5" data-width="1080" data-height="1920">
+</div>
+<div id="captions" class="clip" data-composition-id="captions-es" data-composition-src="compositions/captions-es.html" data-start="0" data-duration="18.833" data-track-index="8" data-track-kind="captions" data-width="1080" data-height="1920">
+</div>
+<audio id="voice" src="assets/video04-voice-normalized.m4a" preload="auto" data-start="0" data-duration="18.833" data-track-index="20" data-volume="1">
+</audio>
+<audio id="sfx-hook" src="assets/05_low_accent.wav" preload="auto" data-start=".06" data-duration=".34" data-track-index="30" data-volume=".34">
+</audio>
+<audio id="sfx-hook-keyword" src="assets/motion_warm_slide_soft_v01.wav" preload="auto" data-start=".43" data-duration=".44" data-track-index="32" data-volume=".18">
+</audio>
+<audio id="sfx-sequence" src="assets/06_sequence.wav" preload="auto" data-start="6.28" data-duration=".50" data-track-index="31" data-volume=".25">
+</audio>
+<audio id="sfx-slide" src="assets/motion_warm_slide_soft_v01.wav" preload="auto" data-start="11.60" data-duration=".44" data-track-index="31" data-volume=".25">
+</audio>
+<audio id="sfx-resolve" src="assets/08_resolve.wav" preload="auto" data-start="15.31" data-duration=".84" data-track-index="31" data-volume=".27">
+</audio>
+</div>
+<script>const tl=gsap.timeline({paused:true});tl.set('#camera',{scale:1,x:0,y:0},0).to('#camera',{scale:1.055,y:14,duration:.55,ease:'power2.out'},.18).to('#camera',{scale:1.025,y:0,duration:.65,ease:'power2.inOut'},5.35).set('#camera',{scale:1.03,x:0,y:0},15.23).to('#camera',{scale:1.075,y:18,duration:.72,ease:'power2.out'},15.36);window.__timelines=window.__timelines||{};window.__timelines.main=tl;tl.seek(0)</script>
+</body>
+</html>

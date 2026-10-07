@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "license": "project-authored",
+  "format": "svg",
+  "view_box": "0 0 64 64",
+  "icons": [
+    {"id": "breath", "path": "breath.svg", "sha256": "92b25e744cf061e17e914ae41eba8a2b1267f210d735472380008b04f5552805", "tags": ["breathing", "wellness", "guided"]},
+    {"id": "eye", "path": "eye.svg", "sha256": "72096cbdf58f87b5de4ffd125e44343434fbcd73b43e499b1b3355c7e5da7e75", "tags": ["eyes_closed", "focus", "interior"]},
+    {"id": "headphones", "path": "headphones.svg", "sha256": "0bf131516aec257abb47e49ba62ff3110e10ef9156ea4ee4e4166f9f0d1fb7ea", "tags": ["audio", "headphones", "listening"]},
+    {"id": "waves", "path": "waves.svg", "sha256": "4ae269f63ac3bd4bee70e5aefdba83c864f6e52b4e62bd696ac68ed37725a1f7", "tags": ["sound", "resonance", "binaural"]}
+  ]
+}

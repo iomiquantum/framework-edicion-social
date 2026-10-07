@@ -1,0 +1,8 @@
+[
+  {
+    "stage": "primera ejecución variantes",
+    "problem": "uniform_filter1d sobre energía generó residuos negativos de redondeo cerca de silencio; sqrt produjoNaN; guard impidió exportC. A/B conservaron salidas finitas, también se repiten por cadena común.",
+    "solution": "Verificar energía mínima≥−1e−12, guardar mínimo observado y corregir únicamente residuos negativos de precisión a0 antes de sqrt; guards explícitos finitud de música/envolventes.",
+    "preservation": "variantes-largas/antes-correccion-media-cuadratica y script previo; no se presentan salidas fallidas."
+  }
+]

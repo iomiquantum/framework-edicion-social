@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "project_id": "",
+  "review_id": "",
+  "reviewed_at": "",
+  "review_artifact": "",
+  "source_manifest_sha256": "",
+  "overall_decision": "pending",
+  "approved_layers": [],
+  "changes": [
+    {
+      "id": "CHANGE-001",
+      "start_s": null,
+      "end_s": null,
+      "layer": "",
+      "element_id": "",
+      "decision": "modify",
+      "instruction": "",
+      "scope": "project_only",
+      "preference_signal": "none"
+    }
+  ],
+  "preference_candidates": [],
+  "requires_full_editorial_recheck": false,
+  "requires_new_full_render": true,
+  "notes": ""
+}

@@ -1,0 +1,46 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/PRUEBAS-MUSE/VIDEO-12-EDICION-01/VIDEO-12_MUSE_V4.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2mp41
+    hyperframes_version: 0.8.77
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.12.102
+  Duration: 00:00:20.83, start: 0.000000, bitrate: 4862 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt2020nc/bt2020/arib-std-b67, progressive), 1080x1920, 4658 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc62.28.102 libx265
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 193 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2mp41
+    hyperframes_version: 0.8.77
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.12.102
+  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+      handler_name    : SoundHandler
+[Parsed_loudnorm_0 @ 0x9fb054a80] 
+{
+	"input_i" : "-15.74",
+	"input_tp" : "-1.51",
+	"input_lra" : "3.30",
+	"input_thresh" : "-26.09",
+	"output_i" : "-16.05",
+	"output_tp" : "-1.50",
+	"output_lra" : "2.20",
+	"output_thresh" : "-26.37",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.05"
+}
+[out#0/null @ 0x9fb054480] video:0KiB audio:15616KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:20.90 bitrate=N/A speed=49.5x elapsed=0:00:00.42    

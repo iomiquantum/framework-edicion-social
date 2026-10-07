@@ -1,0 +1,29 @@
+Collecting treetable==0.2.5
+  Downloading treetable-0.2.5.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting submitit==1.5.4
+  Using cached submitit-1.5.4-py3-none-any.whl.metadata (7.4 kB)
+Collecting hydra-core==1.3.2
+  Downloading hydra_core-1.3.2-py3-none-any.whl.metadata (5.5 kB)
+Collecting retry==0.9.2
+  Downloading retry-0.9.2-py2.py3-none-any.whl.metadata (5.8 kB)
+Using cached submitit-1.5.4-py3-none-any.whl (76 kB)
+Downloading hydra_core-1.3.2-py3-none-any.whl (154 kB)
+Downloading retry-0.9.2-py2.py3-none-any.whl (8.0 kB)
+Building wheels for collected packages: treetable
+  Building wheel for treetable (pyproject.toml): started
+  Building wheel for treetable (pyproject.toml): finished with status 'done'
+  Created wheel for treetable: filename=treetable-0.2.5-py3-none-any.whl size=7413 sha256=221455324a00c70493efe9579c9c3f87052f036b83f1011941bcdd587a701560
+  Stored in directory: /Users/iomijhondavid/Library/Caches/pip/wheels/6c/c9/6a/3ee58e3f4ed63e61de2a515cdb75438521f0372a1f0086be79
+Successfully built treetable
+Installing collected packages: retry, hydra-core, treetable, submitit
+
+Successfully installed hydra-core-1.3.2 retry-0.9.2 submitit-1.5.4 treetable-0.2.5
+
+[notice] A new release of pip is available: 26.0.1 -> 26.2.1
+[notice] To update, run: /private/tmp/codex-referencia-mezcla-20260930/bin/python -m pip install --upgrade pip

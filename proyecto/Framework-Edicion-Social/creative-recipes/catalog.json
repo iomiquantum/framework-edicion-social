@@ -1,0 +1,713 @@
+{
+  "schema_version": "1.0.0",
+  "catalog_id": "CREATIVE-RECIPE-CATALOG-V1",
+  "scoring_version": "creative-recipe-compose-v1",
+  "policy": {
+    "max_proposals": 3,
+    "minimum_fit_score": 0.58,
+    "minimum_confidence_score": 0.55,
+    "variety_window": 3,
+    "fatigue_notice_occurrences": 2,
+    "fatigue_warning_occurrences": 3,
+    "fatigue_penalty_per_occurrence": 0.018,
+    "maximum_fatigue_penalty": 0.12,
+    "minimum_module_differences_between_options": 2,
+    "single_global_winner": false,
+    "automatic_promotion": false,
+    "human_choice_required": true
+  },
+  "kind_weights": {
+    "hook": 0.18,
+    "structure": 0.24,
+    "visual_system": 0.2,
+    "motion": 0.16,
+    "sound": 0.1,
+    "cta": 0.12
+  },
+  "modules": [
+    {
+      "id": "HOOK-CONTRARIAN-OUTCOME",
+      "kind": "hook",
+      "label": "Giro contrarian con beneficio",
+      "description": "Niega una creencia reconocible y entrega de inmediato la consecuencia útil para el espectador.",
+      "status": "candidate",
+      "best_for": ["technology", "process_explanation", "high_contrast_editorial", "problem_solution"],
+      "avoid_for": ["somber_testimony", "grief", "crisis_statement"],
+      "hook_patterns": ["contrarian", "outcome", "pain"],
+      "narrative_roles": ["hook", "value"],
+      "source_geometries": ["talking_head", "voiceover"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 12,
+      "duration_max_s": 75,
+      "energy_target": 0.82,
+      "required_asset_types": [],
+      "preferred_asset_types": ["icon", "typographic_overlay"],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["HOOK-CONTRARIAN-OUTCOME", "ARCH-CONTRARIAN-LOOP", "contrarian"],
+      "archetype_id": null,
+      "family_ids": ["FAMILY-EDITORIAL-LOOP"],
+      "effort": {"points": 2, "level": "low", "minutes_min": 4, "minutes_max": 8},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La primera frase expresa valor o riesgo para el espectador, no una lista de funciones.",
+          "El énfasis visual usa espacio negativo y no cubre ojos ni boca."
+        ]
+      },
+      "directives": [
+        "Abrir con la negación o contraste antes de 1.2 segundos.",
+        "Hacer visible la consecuencia útil en el mismo beat o en el siguiente.",
+        "Usar un solo acento visual dominante y dejar respirar la última palabra."
+      ]
+    },
+    {
+      "id": "HOOK-DIAGNOSTIC-QUESTION",
+      "kind": "hook",
+      "label": "Pregunta de autodiagnóstico",
+      "description": "Plantea una pregunta que permite al espectador reconocerse antes de ofrecer la explicación.",
+      "status": "candidate",
+      "best_for": ["process_explanation", "talking_head", "education", "advice"],
+      "avoid_for": ["urgent_news", "crisis_statement"],
+      "hook_patterns": ["question", "pain", "curiosity"],
+      "narrative_roles": ["hook", "contrast"],
+      "source_geometries": ["talking_head", "voiceover"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 12,
+      "duration_max_s": 75,
+      "energy_target": 0.7,
+      "required_asset_types": [],
+      "preferred_asset_types": ["icon", "caption"],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["HOOK-DIAGNOSTIC-QUESTION", "diagnostic_question"],
+      "archetype_id": null,
+      "family_ids": ["FAMILY-CLEAN-AUTHORITY"],
+      "effort": {"points": 2, "level": "low", "minutes_min": 4, "minutes_max": 8},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La pregunta debe poder responderse sin conocer la herramienta o marca.",
+          "La pausa posterior es breve, no una espera vacía."
+        ]
+      },
+      "directives": [
+        "Mostrar la pregunta en dos grupos de lectura como máximo.",
+        "Hacer un micro acercamiento en la palabra de diagnóstico, no durante toda la frase.",
+        "Responder o reencuadrar la pregunta antes del segundo beat."
+      ]
+    },
+    {
+      "id": "HOOK-VISUAL-DEMONSTRATION",
+      "kind": "hook",
+      "label": "Demostración antes de explicar",
+      "description": "Abre con un resultado, contraste o mecanismo visible que genera una pregunta concreta.",
+      "status": "candidate",
+      "best_for": ["demonstration", "technology", "process_explanation", "before_after"],
+      "avoid_for": ["unverified_data_story", "somber_testimony"],
+      "hook_patterns": ["demonstration", "curiosity", "outcome"],
+      "narrative_roles": ["hook", "demonstration", "evidence"],
+      "source_geometries": ["talking_head", "voiceover", "screen_capture"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 10,
+      "duration_max_s": 60,
+      "energy_target": 0.86,
+      "required_asset_types": ["image"],
+      "preferred_asset_types": ["icon", "video"],
+      "requires_any_modules": ["VIS-FULLSCREEN-CONCEPT-CUTAWAY", "VIS-SPLITSCREEN-EVIDENCE"],
+      "incompatible_with": [],
+      "variety_keys": ["HOOK-VISUAL-DEMONSTRATION", "visual_demo"],
+      "archetype_id": null,
+      "family_ids": [],
+      "effort": {"points": 4, "level": "medium", "minutes_min": 8, "minutes_max": 16},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La imagen demuestra una idea de la fuente; no funciona como decoración genérica.",
+          "Si ocupa toda la pantalla, el corte es intencional y breve antes de volver al hablante."
+        ]
+      },
+      "directives": [
+        "Enseñar primero el resultado o mecanismo y explicar después su significado.",
+        "Mantener una relación trazable entre la imagen y una frase del guion.",
+        "Evitar texto descriptivo redundante sobre una demostración que ya se entiende."
+      ]
+    },
+    {
+      "id": "STRUCT-CLAIM-PROOF-ACTION",
+      "kind": "structure",
+      "label": "Afirmación, prueba y acción",
+      "description": "Organiza la idea como una tesis breve, evidencia suficiente y una acción concreta.",
+      "status": "candidate",
+      "best_for": ["high_contrast_editorial", "technology", "advice", "authority"],
+      "avoid_for": ["unverified_data_story", "meditation"],
+      "hook_patterns": [],
+      "narrative_roles": ["hook", "value", "evidence", "cta"],
+      "source_geometries": ["talking_head", "voiceover"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 12,
+      "duration_max_s": 60,
+      "energy_target": 0.68,
+      "required_asset_types": [],
+      "preferred_asset_types": ["image", "diagram"],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["STRUCT-CLAIM-PROOF-ACTION", "ARCH-CLAIM-PROOF-ACTION"],
+      "archetype_id": "ARCH-CLAIM-PROOF-ACTION",
+      "family_ids": ["FAMILY-CLEAN-AUTHORITY"],
+      "effort": {"points": 3, "level": "medium", "minutes_min": 8, "minutes_max": 14},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La prueba se distingue visualmente de la afirmación.",
+          "El CTA deriva de la misma tesis y no abre un tema nuevo."
+        ]
+      },
+      "directives": [
+        "Entregar la tesis antes de enumerar evidencia.",
+        "Usar solo la evidencia necesaria para sostener la afirmación.",
+        "Cerrar con una acción que el espectador pueda ejecutar o responder."
+      ]
+    },
+    {
+      "id": "STRUCT-PROBLEM-MECHANISM-SOLUTION",
+      "kind": "structure",
+      "label": "Problema, mecanismo y solución",
+      "description": "Hace visible por qué ocurre un problema antes de presentar la respuesta.",
+      "status": "candidate",
+      "best_for": ["process_explanation", "technology", "problem_solution", "education"],
+      "avoid_for": ["hard_sell", "urgent_news"],
+      "hook_patterns": [],
+      "narrative_roles": ["hook", "contrast", "evidence", "payoff", "cta"],
+      "source_geometries": ["talking_head", "voiceover"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 18,
+      "duration_max_s": 90,
+      "energy_target": 0.62,
+      "required_asset_types": [],
+      "preferred_asset_types": ["diagram", "icon", "image"],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["STRUCT-PROBLEM-MECHANISM-SOLUTION", "ARCH-PROBLEM-MECHANISM-SOLUTION"],
+      "archetype_id": "ARCH-PROBLEM-MECHANISM-SOLUTION",
+      "family_ids": [],
+      "effort": {"points": 4, "level": "medium", "minutes_min": 10, "minutes_max": 18},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "El mecanismo se representa como relación causal, no como una lista de iconos.",
+          "La solución aparece después de que el problema sea comprensible."
+        ]
+      },
+      "directives": [
+        "Nombrar el problema sin prolongar la introducción.",
+        "Visualizar el mecanismo con una secuencia o diagrama de lectura única.",
+        "Resolver con un cambio observable y una consecuencia para el espectador."
+      ]
+    },
+    {
+      "id": "STRUCT-STEPS-PAYOFF",
+      "kind": "structure",
+      "label": "Pasos con recompensa visible",
+      "description": "Divide un proceso en pocas decisiones y reserva una recompensa o síntesis para el final.",
+      "status": "candidate",
+      "best_for": ["process_explanation", "tutorial", "education", "full_length_reel"],
+      "avoid_for": ["somber_testimony", "single_claim"],
+      "hook_patterns": [],
+      "narrative_roles": ["hook", "bridge", "demonstration", "payoff", "cta"],
+      "source_geometries": ["talking_head", "voiceover", "screen_capture"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 20,
+      "duration_max_s": 90,
+      "energy_target": 0.66,
+      "required_asset_types": [],
+      "preferred_asset_types": ["icon", "diagram"],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["STRUCT-STEPS-PAYOFF", "ARCH-STEPS-PAYOFF"],
+      "archetype_id": "ARCH-STEPS-PAYOFF",
+      "family_ids": [],
+      "effort": {"points": 4, "level": "medium", "minutes_min": 10, "minutes_max": 20},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "Los pasos siguen la lógica del guion y no se inventan para llenar pantalla.",
+          "La recompensa final resume el cambio producido por la secuencia."
+        ]
+      },
+      "directives": [
+        "Limitar la secuencia a los pasos que realmente dice la toma aprobada.",
+        "Dar a cada paso una forma visual distinta pero coherente.",
+        "Reservar un beat de lectura limpia para el payoff."
+      ]
+    },
+    {
+      "id": "VIS-NEGATIVE-SPACE-EDITORIAL",
+      "kind": "visual_system",
+      "label": "Editorial en espacio negativo",
+      "description": "Mantiene al hablante como ancla y ubica titulares, datos e iconos en las zonas libres del plano.",
+      "status": "candidate",
+      "best_for": ["talking_head", "high_contrast_editorial", "technology", "advice"],
+      "avoid_for": ["screen_capture_only"],
+      "hook_patterns": [],
+      "narrative_roles": ["hook", "value", "evidence", "cta"],
+      "source_geometries": ["talking_head"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 10,
+      "duration_max_s": 90,
+      "energy_target": 0.64,
+      "required_asset_types": [],
+      "preferred_asset_types": ["icon", "typographic_overlay"],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["VIS-NEGATIVE-SPACE-EDITORIAL", "negative_space"],
+      "archetype_id": null,
+      "family_ids": ["FAMILY-CLEAN-AUTHORITY"],
+      "effort": {"points": 2, "level": "low", "minutes_min": 6, "minutes_max": 12},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "Detectar espacio negativo por beat; no asumir que una zona sirve durante toda la toma.",
+          "Cualquier cruce sobre el rostro debe ser una transición breve y revisada."
+        ]
+      },
+      "directives": [
+        "Anclar el contenido principal a un borde y evitar tarjetas flotando al centro.",
+        "Usar dos puntos focales como máximo cuando el rostro permanece visible.",
+        "Alternar imagen, icono y tipografía según el significado, no por cuota."
+      ]
+    },
+    {
+      "id": "VIS-FULLSCREEN-CONCEPT-CUTAWAY",
+      "kind": "visual_system",
+      "label": "Corte conceptual a pantalla completa",
+      "description": "Interrumpe brevemente el talking head con una escena visual completa que materializa una idea del guion.",
+      "status": "candidate",
+      "best_for": ["talking_head", "technology", "process_explanation", "demonstration"],
+      "avoid_for": ["somber_testimony", "continuous_eye_contact"],
+      "hook_patterns": [],
+      "narrative_roles": ["demonstration", "evidence", "contrast", "payoff"],
+      "source_geometries": ["talking_head", "voiceover"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 12,
+      "duration_max_s": 75,
+      "energy_target": 0.78,
+      "required_asset_types": ["image"],
+      "preferred_asset_types": ["icon", "video"],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["VIS-FULLSCREEN-CONCEPT-CUTAWAY", "full_screen_cutaway"],
+      "archetype_id": null,
+      "family_ids": ["FAMILY-EDITORIAL-LOOP"],
+      "effort": {"points": 5, "level": "medium", "minutes_min": 12, "minutes_max": 24},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La sustitución completa del rostro ocurre solo durante un beat con propósito.",
+          "La imagen debe tener tratamiento de profundidad o movimiento, nunca quedar plana."
+        ]
+      },
+      "directives": [
+        "Reservar la pantalla completa para una idea que gana claridad al salir del talking head.",
+        "Entrar y salir mediante un corte motivado por palabra, gesto o dirección de movimiento.",
+        "Volver al hablante antes de que se pierda la continuidad humana."
+      ]
+    },
+    {
+      "id": "VIS-SPLITSCREEN-EVIDENCE",
+      "kind": "visual_system",
+      "label": "Evidencia en pantalla dividida",
+      "description": "Compara al hablante con una prueba, proceso o imagen sin abandonar por completo el contacto humano.",
+      "status": "candidate",
+      "best_for": ["talking_head", "process_explanation", "evidence", "before_after"],
+      "avoid_for": ["minimal_testimony", "meditation"],
+      "hook_patterns": [],
+      "narrative_roles": ["evidence", "demonstration", "contrast"],
+      "source_geometries": ["talking_head", "screen_capture"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 15,
+      "duration_max_s": 90,
+      "energy_target": 0.7,
+      "required_asset_types": ["image"],
+      "preferred_asset_types": ["diagram", "icon"],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["VIS-SPLITSCREEN-EVIDENCE", "split_screen"],
+      "archetype_id": null,
+      "family_ids": [],
+      "effort": {"points": 4, "level": "medium", "minutes_min": 10, "minutes_max": 20},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La división reserva un área estable para ojos, boca y subtítulos.",
+          "La evidencia tiene jerarquía de lectura propia y no compite con la frase activa."
+        ]
+      },
+      "directives": [
+        "Asignar una función clara a cada lado: persona y prueba, causa y resultado o antes y después.",
+        "Reencuadrar el rostro dentro de su zona en vez de cubrirlo con la segunda capa.",
+        "Cerrar la división cuando la comparación ya fue entendida."
+      ]
+    },
+    {
+      "id": "MOTION-SEMANTIC-PUNCHIN",
+      "kind": "motion",
+      "label": "Punch-in semántico",
+      "description": "Usa acercamientos y retiradas mínimos en palabras o giros concretos, con reposo entre eventos.",
+      "status": "candidate",
+      "best_for": ["talking_head", "high_contrast_editorial", "advice", "technology"],
+      "avoid_for": ["meditation", "motion_sickness_sensitive"],
+      "hook_patterns": [],
+      "narrative_roles": ["hook", "contrast", "payoff", "cta"],
+      "source_geometries": ["talking_head"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 10,
+      "duration_max_s": 90,
+      "energy_target": 0.72,
+      "required_asset_types": [],
+      "preferred_asset_types": [],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["MOTION-SEMANTIC-PUNCHIN", "camera_zoom_scales"],
+      "archetype_id": null,
+      "family_ids": ["FAMILY-CLEAN-AUTHORITY"],
+      "effort": {"points": 3, "level": "medium", "minutes_min": 8, "minutes_max": 16},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "Cada zoom tiene disparador semántico y escala limitada.",
+          "No encadenar acercamientos sin un estado estable entre ellos."
+        ]
+      },
+      "directives": [
+        "Marcar de dos a cuatro palabras o cambios de idea por minuto como máximo inicial.",
+        "Alternar punch-in, punch-out y quietud según la jerarquía.",
+        "Animar el contenedor interior para conservar el recorte y la zona segura."
+      ]
+    },
+    {
+      "id": "MOTION-DRAW-ASSEMBLE",
+      "kind": "motion",
+      "label": "Dibujar y ensamblar",
+      "description": "Construye relaciones, pasos o diagramas en el orden en que los explica la voz.",
+      "status": "candidate",
+      "best_for": ["process_explanation", "tutorial", "technology", "education"],
+      "avoid_for": ["somber_testimony", "single_claim"],
+      "hook_patterns": [],
+      "narrative_roles": ["evidence", "bridge", "demonstration", "payoff"],
+      "source_geometries": ["talking_head", "voiceover", "screen_capture"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 15,
+      "duration_max_s": 90,
+      "energy_target": 0.64,
+      "required_asset_types": ["diagram"],
+      "preferred_asset_types": ["icon"],
+      "requires_any_modules": ["VIS-FULLSCREEN-CONCEPT-CUTAWAY", "VIS-SPLITSCREEN-EVIDENCE"],
+      "incompatible_with": [],
+      "variety_keys": ["MOTION-DRAW-ASSEMBLE", "draw_assemble"],
+      "archetype_id": null,
+      "family_ids": [],
+      "effort": {"points": 5, "level": "high", "minutes_min": 14, "minutes_max": 28},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "Las líneas conectan elementos reales y explican una relación.",
+          "La secuencia se detiene cuando la voz termina el concepto."
+        ]
+      },
+      "directives": [
+        "Revelar cada nodo después de nombrar su concepto, con solape corto.",
+        "Dar una fase de respiración para leer el diagrama completo.",
+        "Resolver el conjunto con una síntesis visual, no con más elementos."
+      ]
+    },
+    {
+      "id": "MOTION-WHIP-MATCHED-CUTAWAYS",
+      "kind": "motion",
+      "label": "Cutaways con velocidad enlazada",
+      "description": "Conecta talking head y recursos mediante movimientos breves cuya salida y entrada comparten dirección y velocidad.",
+      "status": "candidate",
+      "best_for": ["demonstration", "technology", "before_after", "high_energy"],
+      "avoid_for": ["meditation", "somber_testimony", "motion_sickness_sensitive"],
+      "hook_patterns": [],
+      "narrative_roles": ["hook", "contrast", "demonstration", "payoff"],
+      "source_geometries": ["talking_head", "voiceover"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 10,
+      "duration_max_s": 60,
+      "energy_target": 0.86,
+      "required_asset_types": ["image"],
+      "preferred_asset_types": ["video"],
+      "requires_any_modules": ["VIS-FULLSCREEN-CONCEPT-CUTAWAY", "VIS-SPLITSCREEN-EVIDENCE"],
+      "incompatible_with": ["SOUND-VOICE-FIRST-MINIMAL"],
+      "variety_keys": ["MOTION-WHIP-MATCHED-CUTAWAYS", "whip_pan"],
+      "archetype_id": null,
+      "family_ids": ["FAMILY-EDITORIAL-LOOP"],
+      "effort": {"points": 6, "level": "high", "minutes_min": 16, "minutes_max": 30},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La transición rápida sustituye el plano; no barre lentamente sobre la cara.",
+          "La salida acelera y la entrada desacelera en la misma dirección."
+        ]
+      },
+      "directives": [
+        "Usar uno o dos enlaces de velocidad en los cambios de mayor energía.",
+        "Mantener las transiciones restantes como cortes o fundidos breves para conservar contraste.",
+        "Sincronizar el pico de velocidad con palabra, gesto o acento de sonido."
+      ]
+    },
+    {
+      "id": "SOUND-SOFT-PUNCTUATION",
+      "kind": "sound",
+      "label": "Puntuación suave",
+      "description": "Acentúa pocas entradas, cambios y resoluciones con sonidos cortos que permanecen debajo de la voz.",
+      "status": "candidate",
+      "best_for": ["talking_head", "high_contrast_editorial", "technology", "advice"],
+      "avoid_for": ["silent_design", "somber_testimony"],
+      "hook_patterns": [],
+      "narrative_roles": ["hook", "contrast", "payoff", "cta"],
+      "source_geometries": ["talking_head", "voiceover"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 10,
+      "duration_max_s": 90,
+      "energy_target": 0.64,
+      "required_asset_types": ["sfx"],
+      "preferred_asset_types": ["music"],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["SOUND-SOFT-PUNCTUATION", "sfx_hook", "sfx_resolve"],
+      "archetype_id": null,
+      "family_ids": ["FAMILY-CLEAN-AUTHORITY"],
+      "effort": {"points": 2, "level": "low", "minutes_min": 6, "minutes_max": 12},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "Cada SFX tiene intención semántica y su nivel se evalúa bajo la voz.",
+          "El silencio es una decisión válida entre acentos."
+        ]
+      },
+      "directives": [
+        "Usar un acento de hook, uno o dos detalles y una resolución como presupuesto inicial.",
+        "Separar los eventos para que no formen una secuencia constante.",
+        "Descartar cualquier sonido áspero o más llamativo que la palabra que acompaña."
+      ]
+    },
+    {
+      "id": "SOUND-UI-SEQUENCE",
+      "kind": "sound",
+      "label": "Secuencia UI medida",
+      "description": "Asigna ticks o microacentos a pasos de una construcción visual sin convertirla en metrónomo.",
+      "status": "candidate",
+      "best_for": ["process_explanation", "technology", "tutorial", "diagram"],
+      "avoid_for": ["meditation", "somber_testimony", "silent_design"],
+      "hook_patterns": [],
+      "narrative_roles": ["bridge", "evidence", "demonstration", "payoff"],
+      "source_geometries": ["talking_head", "voiceover", "screen_capture"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 15,
+      "duration_max_s": 90,
+      "energy_target": 0.7,
+      "required_asset_types": ["sfx"],
+      "preferred_asset_types": ["music"],
+      "requires_any_modules": ["MOTION-DRAW-ASSEMBLE", "MOTION-SEMANTIC-PUNCHIN"],
+      "incompatible_with": [],
+      "variety_keys": ["SOUND-UI-SEQUENCE", "sfx_tick", "ui"],
+      "archetype_id": null,
+      "family_ids": ["FAMILY-EDITORIAL-LOOP"],
+      "effort": {"points": 4, "level": "medium", "minutes_min": 10, "minutes_max": 20},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "Los ticks siguen hitos visuales reales y dejan hueco a la dicción.",
+          "No se colocan sonidos sobre cada palabra o subtítulo."
+        ]
+      },
+      "directives": [
+        "Vincular cada tick a un nodo, paso o confirmación visible.",
+        "Variar timbre o altura solo cuando cambia la función del elemento.",
+        "Terminar la secuencia con silencio o una resolución distinta."
+      ]
+    },
+    {
+      "id": "SOUND-VOICE-FIRST-MINIMAL",
+      "kind": "sound",
+      "label": "Voz primero, intervención mínima",
+      "description": "Reserva los sonidos para un único cambio o cierre y usa el contraste con silencio como recurso.",
+      "status": "candidate",
+      "best_for": ["talking_head", "authority", "advice", "reflection"],
+      "avoid_for": ["high_energy", "rapid_demo"],
+      "hook_patterns": [],
+      "narrative_roles": ["value", "breath", "cta"],
+      "source_geometries": ["talking_head", "voiceover"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 10,
+      "duration_max_s": 90,
+      "energy_target": 0.48,
+      "required_asset_types": [],
+      "preferred_asset_types": ["sfx"],
+      "requires_any_modules": [],
+      "incompatible_with": ["MOTION-WHIP-MATCHED-CUTAWAYS"],
+      "variety_keys": ["SOUND-VOICE-FIRST-MINIMAL", "voice_only"],
+      "archetype_id": null,
+      "family_ids": ["FAMILY-CLEAN-AUTHORITY"],
+      "effort": {"points": 1, "level": "low", "minutes_min": 3, "minutes_max": 7},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La ausencia de SFX no se interpreta como falta de acabado.",
+          "El único acento, si existe, debe marcar una decisión narrativa."
+        ]
+      },
+      "directives": [
+        "Mantener la voz limpia y usar la música solo como soporte estable.",
+        "Elegir un único momento para romper el silencio si mejora la comprensión.",
+        "No compensar la falta de sonidos con más movimiento visual."
+      ]
+    },
+    {
+      "id": "CTA-REFLECTIVE-QUESTION",
+      "kind": "cta",
+      "label": "Pregunta aplicable al caso propio",
+      "description": "Cierra con una pregunta que obliga a trasladar el criterio del video a la realidad del espectador.",
+      "status": "candidate",
+      "best_for": ["education", "advice", "process_explanation", "question"],
+      "avoid_for": ["urgent_news", "hard_sell"],
+      "hook_patterns": ["question", "contrarian", "pain"],
+      "narrative_roles": ["cta", "breath"],
+      "source_geometries": ["talking_head", "voiceover"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 10,
+      "duration_max_s": 90,
+      "energy_target": 0.58,
+      "required_asset_types": [],
+      "preferred_asset_types": ["typographic_overlay"],
+      "requires_any_modules": [],
+      "incompatible_with": [],
+      "variety_keys": ["CTA-REFLECTIVE-QUESTION", "reflective_question"],
+      "archetype_id": null,
+      "family_ids": [],
+      "effort": {"points": 1, "level": "low", "minutes_min": 3, "minutes_max": 6},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La pregunta se deriva del valor entregado y deja un beat de respuesta.",
+          "La tipografía no invade la boca ni la zona de subtítulos."
+        ]
+      },
+      "directives": [
+        "Formular una sola pregunta, concreta y sin dos verbos de acción.",
+        "Reducir movimiento después de su entrada para permitir lectura.",
+        "Cerrar con contacto visual o plano estable cuando esté disponible."
+      ]
+    },
+    {
+      "id": "CTA-SAVE-CHECKLIST",
+      "kind": "cta",
+      "label": "Guardar una guía reutilizable",
+      "description": "Convierte el aprendizaje en una lista o secuencia breve que merece guardarse para aplicarla después.",
+      "status": "candidate",
+      "best_for": ["tutorial", "process_explanation", "education", "full_length_reel"],
+      "avoid_for": ["single_claim", "somber_testimony"],
+      "hook_patterns": ["outcome", "question", "curiosity"],
+      "narrative_roles": ["payoff", "cta"],
+      "source_geometries": ["talking_head", "voiceover", "screen_capture"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 18,
+      "duration_max_s": 90,
+      "energy_target": 0.62,
+      "required_asset_types": [],
+      "preferred_asset_types": ["icon", "diagram"],
+      "requires_any_modules": ["STRUCT-STEPS-PAYOFF", "STRUCT-CLAIM-PROOF-ACTION"],
+      "incompatible_with": [],
+      "variety_keys": ["CTA-SAVE-CHECKLIST", "save_checklist"],
+      "archetype_id": null,
+      "family_ids": [],
+      "effort": {"points": 2, "level": "low", "minutes_min": 4, "minutes_max": 8},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La lista resume únicamente lo ya explicado.",
+          "La invitación a guardar no sustituye una conclusión."
+        ]
+      },
+      "directives": [
+        "Mostrar la síntesis antes de pedir que se guarde.",
+        "Mantener la lista completa legible durante un beat estable.",
+        "Evitar repetir cada punto en voz si ya fue explicado."
+      ]
+    },
+    {
+      "id": "CTA-COMMENT-DIAGNOSIS",
+      "kind": "cta",
+      "label": "Comentar el diagnóstico",
+      "description": "Invita a responder con el caso o problema concreto relacionado con el criterio del video.",
+      "status": "candidate",
+      "best_for": ["problem_solution", "advice", "question", "community"],
+      "avoid_for": ["sensitive_disclosure", "crisis_statement"],
+      "hook_patterns": ["question", "pain", "contrarian"],
+      "narrative_roles": ["cta"],
+      "source_geometries": ["talking_head", "voiceover"],
+      "platform_fit": ["full_length_reel", "short_form_vertical"],
+      "duration_min_s": 10,
+      "duration_max_s": 75,
+      "energy_target": 0.68,
+      "required_asset_types": [],
+      "preferred_asset_types": ["typographic_overlay"],
+      "requires_any_modules": ["HOOK-DIAGNOSTIC-QUESTION", "STRUCT-PROBLEM-MECHANISM-SOLUTION"],
+      "incompatible_with": [],
+      "variety_keys": ["CTA-COMMENT-DIAGNOSIS", "comment_diagnosis"],
+      "archetype_id": null,
+      "family_ids": [],
+      "effort": {"points": 1, "level": "low", "minutes_min": 3, "minutes_max": 6},
+      "design_contract": {
+        "face_safe": true,
+        "voice_priority": true,
+        "build_breathe_resolve": true,
+        "notes": [
+          "La respuesta solicitada es específica y no exige revelar información sensible.",
+          "El CTA conserva relación directa con el problema diagnosticado."
+        ]
+      },
+      "directives": [
+        "Pedir un caso, obstáculo o decisión concreta en una sola frase.",
+        "Mostrar una palabra guía para reducir fricción al comentar.",
+        "Terminar con el criterio útil, no solo con la petición de interacción."
+      ]
+    }
+  ]
+}

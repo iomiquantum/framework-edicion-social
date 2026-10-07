@@ -1,0 +1,79 @@
+[
+  {
+    "name": "mlx-vlm",
+    "url": "https://raw.githubusercontent.com/Blaizzy/mlx-vlm/main/README.md",
+    "status": 200,
+    "sha256": "33433451886b41a5ec0d7f2fdcc736f9e069c080de7323c6f12e76c4ee7e04db",
+    "observed_utc": "2026-10-01T05:43:09.536477+00:00"
+  },
+  {
+    "name": "pystoi",
+    "url": "https://raw.githubusercontent.com/mpariente/pystoi/master/README.md",
+    "status": 200,
+    "sha256": "7ae6c806fc622a7355d5c6785c29fe05f635d0948e09059d37e3171fa6673914",
+    "observed_utc": "2026-10-01T05:43:09.888925+00:00"
+  },
+  {
+    "name": "visqol",
+    "url": "https://raw.githubusercontent.com/google/visqol/master/README.md",
+    "status": 200,
+    "sha256": "547b6dd351c76512cb680a7de84c2bbc06a0591538ebffc8392ca5bd236ce6de",
+    "observed_utc": "2026-10-01T05:43:10.225445+00:00"
+  },
+  {
+    "name": "gemma-3n",
+    "url": "https://huggingface.co/google/gemma-3n-E2B-it/raw/main/README.md",
+    "status": 401,
+    "sha256": "241a24811e7469dad1107845e93d82b0a34c7930c7c73c2d6587256e462d1986",
+    "observed_utc": "2026-10-01T05:43:10.478910+00:00"
+  },
+  {
+    "name": "gemma-mlx",
+    "url": "https://huggingface.co/mlx-community/gemma-3n-E2B-it-4bit/raw/main/README.md",
+    "status": 200,
+    "sha256": "7c22f744c45fbbb109d7ecffac123a15a64033357d78a30bf933d3b23bd6fbd0",
+    "observed_utc": "2026-10-01T05:43:10.639647+00:00"
+  },
+  {
+    "name": "dnsmos",
+    "url": "https://raw.githubusercontent.com/microsoft/DNS-Challenge/master/DNSMOS/README.md",
+    "status": 200,
+    "sha256": "2d919ce628b72e2ba94b586654f3afa31930f7467ebe45bb4ddbb14a21226331",
+    "observed_utc": "2026-10-01T05:43:10.936517+00:00"
+  },
+  {
+    "name": "gemma-card-correcta",
+    "url": "https://ai.google.dev/gemma/docs/gemma-3n/model_card",
+    "status": 200,
+    "sha256": "0424a97e27a83432ea2eaf142edcb1f06f685826edd5f7fbce92f7e0cb23023f",
+    "observed_utc": "2026-10-01T05:55:17.166379+00:00"
+  },
+  {
+    "name": "gemma-audio",
+    "url": "https://ai.google.dev/gemma/docs/capabilities/audio?hl=en",
+    "status": 200,
+    "sha256": "2c74b29e04a8b2ff29f7c40ff9df44dd6a324233f077572c6c95204046d9f0db",
+    "observed_utc": "2026-10-01T05:55:17.599723+00:00"
+  },
+  {
+    "name": "qwen-omni",
+    "url": "https://raw.githubusercontent.com/QwenLM/Qwen2.5-Omni/main/README.md",
+    "status": 200,
+    "sha256": "8b4c934f3c8dcd1c8b0a71b305190543dacc7d4364c40c6ba45bc2d494cd4a95",
+    "observed_utc": "2026-10-01T05:55:17.884920+00:00"
+  },
+  {
+    "name": "qwen-mlx-card",
+    "url": "https://huggingface.co/giangndm/qwen2.5-omni-7b-mlx-4bit/raw/cc80234b9ea0dc4461ad15a4c45e76d85b703b03/README.md",
+    "status": 200,
+    "sha256": "5a4245c60a338c3d1a1c7606e6f5d8a78fa1f6b33b98555b4a31e4b194f4e749",
+    "observed_utc": "2026-10-01T05:55:18.068485+00:00"
+  },
+  {
+    "name": "python-env-mlx-omni",
+    "url": "https://raw.githubusercontent.com/giangndm/mlx-lm-omni/main/pyproject.toml",
+    "status": 200,
+    "sha256": "21f541bead78b96c5d726b04e17fd8108056aa135c2d385ed37d5908d043696e",
+    "observed_utc": "2026-10-01T05:55:18.273246+00:00"
+  }
+]

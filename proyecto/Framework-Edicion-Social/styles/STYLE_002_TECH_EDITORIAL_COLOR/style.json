@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1.0",
+  "id": "STYLE_002_TECH_EDITORIAL_COLOR",
+  "version": "1.1.0",
+  "status": "testing",
+  "canvas": {"width": 720, "height": 1280, "fps": 30, "aspect_ratio": "9:16"},
+  "palette": {
+    "ink": "#071015",
+    "white": "#F8FBFF",
+    "yellow": "#FFD84D",
+    "cyan": "#55D8E8",
+    "teal": "#46D6B7",
+    "coral": "#FF8178",
+    "violet": "#B5A1FF",
+    "mint": "#75E4C8"
+  },
+  "typography": {
+    "family": "Inter, SF Pro Display, Helvetica Neue, Arial, sans-serif",
+    "caption_weight": 900,
+    "caption_size_px": 46,
+    "uppercase": true,
+    "max_caption_lines": 2
+  },
+  "layout": {
+    "caption_bottom_px": 210,
+    "caption_width_px": 590,
+    "card_top_px": 138,
+    "card_right_px": 80,
+    "protect_eyes_and_mouth": true,
+    "prefer_negative_space": true
+  },
+  "limits": {
+    "max_face_crossing_transition_s": 0.4,
+    "max_tight_shot_scale": 1.12,
+    "tight_shot_scale_requires_face_safe_origin": true,
+    "max_simultaneous_explanatory_layers": 2,
+    "yellow_is_primary_palette": false
+  }
+}

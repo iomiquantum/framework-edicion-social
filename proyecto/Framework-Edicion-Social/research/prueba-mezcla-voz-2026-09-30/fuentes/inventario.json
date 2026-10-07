@@ -1,0 +1,400 @@
+[
+  {
+    "id": "01",
+    "title": "La IA y el retrabajo",
+    "source": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/assets/video01-silence-cut-speed104-v4.mp4",
+    "source_sha256": "1e2db6b21f6f23cb96f78464cafa5ea2d0c6d986d6efaf2565affe5cdf4adbda",
+    "voice_kind": "humana",
+    "duration_s": 21.375,
+    "probe": {
+      "streams": [
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.2",
+          "sample_fmt": "fltp",
+          "sample_rate": "48000",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/48000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 1025952,
+          "duration": "21.374000",
+          "bit_rate": "261729",
+          "nb_frames": "1003",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "SoundHandler"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/assets/video01-silence-cut-speed104-v4.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "21.400000",
+        "size": "7073137",
+        "bit_rate": "2644163",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2mp41",
+          "encoder": "Lavf62.12.102"
+        }
+      }
+    },
+    "native_48k_file": "fuentes/01-voz-nativa-48k.wav",
+    "native_48k_sha256": "c6a005563f36f8881e9fe55466bb408b9bc2850eb5a9d6e4c7c445c8b7d3ee91",
+    "voice_change": "Solo remuestreo a48k, mono duplicado unity, duración del montaje vigente. Sin restauración ni nuevas EQ/compresión."
+  },
+  {
+    "id": "11",
+    "title": "Contenido propio",
+    "source": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/assets/video11-voice-normalized.m4a",
+    "source_sha256": "7dbe30dbc0b71573caccb8a81d9f4afcd3a66b73e1f031ee5fad134956e989ba",
+    "voice_kind": "humana",
+    "duration_s": 29.1,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.2",
+          "sample_fmt": "fltp",
+          "sample_rate": "48000",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x1",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/48000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 1396800,
+          "duration": "29.100000",
+          "bit_rate": "258177",
+          "nb_frames": "1365",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "SoundHandler"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/assets/video11-voice-normalized.m4a",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "29.100000",
+        "size": "946091",
+        "bit_rate": "260093",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "M4A ",
+          "minor_version": "512",
+          "compatible_brands": "M4A isomiso2",
+          "encoder": "Lavf62.12.102"
+        }
+      }
+    },
+    "native_48k_file": "fuentes/11-voz-nativa-48k.wav",
+    "native_48k_sha256": "05772fad4d4ff1a75442987c786ca2153532f81ba938e2e42a77f010ec77c36f",
+    "voice_change": "Solo remuestreo a48k, mono duplicado unity, duración del montaje vigente. Sin restauración ni nuevas EQ/compresión."
+  },
+  {
+    "id": "14",
+    "title": "Escuchar al cliente",
+    "source": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/assets/video14-master-hdr-v1.mp4",
+    "source_sha256": "a8c261e2d480dac8953278db4ca4c2dbabfc412fdf9eaa82f89712c63c48811c",
+    "voice_kind": "humana",
+    "duration_s": 23.26,
+    "probe": {
+      "streams": [
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.2",
+          "sample_fmt": "fltp",
+          "sample_rate": "48000",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/48000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 1118400,
+          "duration": "23.300000",
+          "bit_rate": "254681",
+          "nb_frames": "1094",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "SoundHandler"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/assets/video14-master-hdr-v1.mp4",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "23.300000",
+        "size": "29608811",
+        "bit_rate": "10166115",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2mp41",
+          "encoder": "Lavf62.12.102"
+        }
+      }
+    },
+    "native_48k_file": "fuentes/14-voz-nativa-48k.wav",
+    "native_48k_sha256": "640e9265a0a2864f58f8079bc50be10ecfa15404e66e70d5c43275a763c08ab2",
+    "voice_change": "Solo remuestreo a48k, mono duplicado unity, duración del montaje vigente. Sin restauración ni nuevas EQ/compresión."
+  },
+  {
+    "id": "largo-53",
+    "title": "Retrabajo acelerado",
+    "source": "NUEVO-EXPLAINER-HYPERFRAMES-2026-09-26/videos/retrabajo-acelerado/assets/audio/voice-generic-kokoro-master.wav",
+    "source_sha256": "498b2f0cfa8375abc15e1f6b358337fa47ba09121e172f5811aa8a6299c91d47",
+    "voice_kind": "Kokoro ef_dora",
+    "duration_s": 52.93,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "pcm_s16le",
+          "codec_long_name": "PCM signed 16-bit little-endian",
+          "codec_type": "audio",
+          "codec_tag_string": "[1][0][0][0]",
+          "codec_tag": "0x0001",
+          "sample_fmt": "s16",
+          "sample_rate": "48000",
+          "channels": 1,
+          "bits_per_sample": 16,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/48000",
+          "duration_ts": 2540640,
+          "duration": "52.930000",
+          "bit_rate": "768000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/NUEVO-EXPLAINER-HYPERFRAMES-2026-09-26/videos/retrabajo-acelerado/assets/audio/voice-generic-kokoro-master.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "52.930000",
+        "size": "5081358",
+        "bit_rate": "768011",
+        "probe_score": 99,
+        "tags": {
+          "encoder": "Lavf62.12.102"
+        }
+      }
+    },
+    "native_48k_file": "fuentes/largo-53-voz-nativa-48k.wav",
+    "native_48k_sha256": "f1a8a32fa9e9732ba2456e097b1accabb84d543a6eb37394c589a8c51145ce0a",
+    "voice_change": "Solo remuestreo a48k, mono duplicado unity, duración del montaje vigente. Sin restauración ni nuevas EQ/compresión."
+  },
+  {
+    "id": "largo-159",
+    "title": "De atención a ventas",
+    "source": "Serie-IA-Negocios-10-Videos/VIDEO-LARGO-01-15-2026-09-26/VERSION-05-SUBTITULOS-Y-RECURSOS-FOTOGRAFICOS-2026-09-27/montaje-visual-hyperframes/assets/voice-guide/VOZ_GUIA_COMPLETA_NORMALIZADA.wav",
+    "source_sha256": "c825bdda82007a0f60c46777bf95c0dd8e9669c045666d4612af1bbae8432f94",
+    "voice_kind": "HeyGen Lenny guía, no clon del usuario",
+    "duration_s": 158.798,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "pcm_s16le",
+          "codec_long_name": "PCM signed 16-bit little-endian",
+          "codec_type": "audio",
+          "codec_tag_string": "[1][0][0][0]",
+          "codec_tag": "0x0001",
+          "sample_fmt": "s16",
+          "sample_rate": "44100",
+          "channels": 1,
+          "bits_per_sample": 16,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "duration_ts": 7003008,
+          "duration": "158.798367",
+          "bit_rate": "705600",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-LARGO-01-15-2026-09-26/VERSION-05-SUBTITULOS-Y-RECURSOS-FOTOGRAFICOS-2026-09-27/montaje-visual-hyperframes/assets/voice-guide/VOZ_GUIA_COMPLETA_NORMALIZADA.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "158.798367",
+        "size": "14006094",
+        "bit_rate": "705603",
+        "probe_score": 99,
+        "tags": {
+          "encoder": "Lavf62.12.102"
+        }
+      }
+    },
+    "native_48k_file": "fuentes/largo-159-voz-nativa-48k.wav",
+    "native_48k_sha256": "f6e5e98d8f65f6cc688377b44ec17d26177622e892c5491c71454ea7479fff08",
+    "voice_change": "Solo remuestreo a48k, mono duplicado unity, duración del montaje vigente. Sin restauración ni nuevas EQ/compresión."
+  }
+]

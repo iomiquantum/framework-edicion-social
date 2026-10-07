@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-01T05:43:09.334132+00:00",
+  "request": "Incorporar evaluación perceptual con herramientas/repositorios y demostrarla sobre nuestras mezclas; autorización expresa de descarga/instalación.",
+  "scope": "Herramientas locales de evaluación, controles de calibración, seis mezclas largas y muestras cortas. No restauración de voz ni sustitución automática de versiones.",
+  "agent_human_hearing": false,
+  "memory_gib": 16,
+  "free_gib_initial": 14.92361831665039,
+  "documents": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "ffe607556ab0d63c89f2979de8b1e9b3126ceec443883277466ca18be6dc034b"
+    },
+    {
+      "path": "BITACORA_CURSO_EDICION.md",
+      "sha256": "e83a34c1b46a93e0eab4440f98456cf7abf9adc54aada08fd2f3993e72cf6e4c"
+    },
+    {
+      "path": "Framework-Edicion-Social/AUDIO_DIRECCION_Y_PROSODIA.md",
+      "sha256": "e5c5db6dd413ccf7c32d8b484798b9196de3b5735ea839f72849e9024fefc43b"
+    },
+    {
+      "path": "Framework-Edicion-Social/AUDIO_MEZCLA_CONTEXTO_QA.md",
+      "sha256": "a78523c36a0f121e954e595231678e5d335d6f1795aaf39ef05e315b46f7813a"
+    },
+    {
+      "path": "Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/PROCESO_VARIANTES.md",
+      "sha256": "d5d49c95982403bfefc42c3f83fbf786a25d85f3e053642b6f1eb5688714b50c"
+    },
+    {
+      "path": "Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/manifest.json",
+      "sha256": "fae5117204c3eb597fc9f3693c204e7c61a19d1b977252700d38ed339d14aac1"
+    }
+  ],
+  "limits": [
+    "Un modelo de audio puede equivocarse; se calibra antes de utilizarlo como revisor.",
+    "Los índices estimados no certifican experiencia ni atención de audiencia.",
+    "Voz/mezclas/referencias existentes permanecen intactas."
+  ]
+}

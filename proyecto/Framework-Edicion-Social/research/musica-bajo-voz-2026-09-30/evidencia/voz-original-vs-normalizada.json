@@ -1,0 +1,24 @@
+{
+  "method": "RMS cada100ms: primeros12s reconstruidos con tres rangos exactos del original según cut-plan, frente a voz normalizada. Media de ganancia; no diagnóstico perceptual.",
+  "original": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/00-INGESTA/LOTE-VIDEOS-11-15-ORIGINAL.mp4",
+  "ranges_seconds": [
+    [
+      296.46,
+      298.55
+    ],
+    [
+      302.85,
+      307.75
+    ],
+    [
+      317.35,
+      322.36
+    ]
+  ],
+  "normalized": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/assets/video13-voice-normalized-v1.m4a",
+  "median_gain_db": 7.544,
+  "p10_gain_db": 4.832,
+  "p90_gain_db": 10.486,
+  "frames_used": 101,
+  "limit": "Empalmes y AAC afectan diferencias pequeñas. No mide interpretación, F0, EQ, timbre ni atención. El master de imagen no tenía pista de audio; se usaron rangos originales sin repetir ingesta ni ASR."
+}

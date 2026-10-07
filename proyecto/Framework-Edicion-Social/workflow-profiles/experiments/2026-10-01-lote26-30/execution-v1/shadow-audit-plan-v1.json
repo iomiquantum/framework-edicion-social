@@ -1,0 +1,30 @@
+{
+  "created_at_utc": "2026-10-01T04:38:24.083812+00:00",
+  "status": "prepared_not_run",
+  "audit_targets": [
+    "VIDEO-28",
+    "VIDEO-29",
+    "VIDEO-30"
+  ],
+  "required_same_candidate": "exact editable/config/export hash and current corrected transcript dependencies",
+  "timing": "audit own experiment_audit kind; do not alter creators runs; record defects and correction/render cost in responsible run",
+  "before_audit": [
+    "final candidate path/hash",
+    "three QApasses evidence and exact coverage",
+    "current source/captions corrected alignment",
+    "board/fidelity preassembly reference/mockup evidence",
+    "wrapper gates text/SFX/preflight/authorization",
+    "exact MP4 probe/decode/levels + cue/frame inventory"
+  ],
+  "coverage": [
+    "Original template identity: structural/graphemic/movement states against board",
+    "All captioncues plus short cards/support transitions and closure; protect face/hands",
+    "Full-video visual traversal backed by exact exportframe samples; isolated snapshots not complete watch",
+    "Audio/rhythm measurement audit, hook SFX integration distinctidentities, pauses >1.25s justify; no humanlisten claim",
+    "Semantic labels/actions/images pertinent to selectedvoice, no beat names/decorative inventory",
+    "T30 fourchannels text+voice/wave+contextsymbol+recap, no forcedgrid",
+    "Revalidate engine0.8.100 common manifests and correctedtranscript hashes; no inferredreusePASS"
+  ],
+  "outcome_policy": "pass/warn/fail/not_run by actual evidence; escaped criticaldefects only counted after shadowaudit. Source cue issue fixed before candidate is rework, not escaped exportdefect.",
+  "pending_human": "listening and platformrealUI remain por confirmar when absent"
+}

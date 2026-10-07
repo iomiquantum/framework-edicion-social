@@ -1,0 +1,125 @@
+{
+  "research_date_local": "2026-09-30",
+  "timezone": "America/Guayaquil",
+  "checked_at_utc": "2026-10-01T00:17:32.946822+00:00",
+  "sources": [
+    {
+      "id": "CAP_TIKTOK_SAFE_ZONE_2026",
+      "publisher": "TikTok for Business",
+      "url": "https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads",
+      "type": "official_platform_specification",
+      "published_or_updated": "June 2026",
+      "use": "Zona segura variable según dimensiones, descripción y formatos adicionales.",
+      "limitations": "Guía de anuncios; no fija un y universal para subtítulos orgánicos. Preview no específico del dispositivo.",
+      "access": "primary_page_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_META_REELS_ADS_GUIDE",
+      "publisher": "Meta, documento de autor alojado por organizador de evento",
+      "url": "https://d3m889aznlr23d.cloudfront.net/img/events/458925814/assets/e042d2be.reels_ads_guide1.pdf",
+      "type": "primary_platform_authored_pdf",
+      "published_or_updated": "Fecha de edición no declarada; estudios citados 2021–2023",
+      "use": "Referencia de reservar el 35 % inferior en anuncios; página 4 del PDF.",
+      "limitations": "No certifica interfaz orgánica de 2026. Ads Guide actual bloqueada por login. No trasladar CTR/CPA a efecto causal de captions.",
+      "access": "primary_pdf_opened_7_pages",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_SOUND_OFF_PLOS2024",
+      "publisher": "Autores / University of East Anglia / PLOS ONE",
+      "url": "https://ueaeprints.uea.ac.uk/id/eprint/96946/",
+      "type": "peer_reviewed_primary_study",
+      "published_or_updated": "2024-10-07",
+      "use": "Mayor esfuerzo lector sin audio; n=168, contenido inglés con subtítulos ingleses.",
+      "limitations": "No compara nuestros tamaños, posición ni Reels españoles; no estima porcentaje de usuarios actuales sin sonido.",
+      "access": "primary_repository_abstract_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_TIKTOK_ACCESSIBILITY_CHI2024",
+      "publisher": "McDonnell y coautores / ACM CHI / Makeability Lab",
+      "url": "https://makeabilitylab.cs.washington.edu/media/publications/McDonnell_CaptionItInAnAccessibleWayThatIsAlsoEnjoyableCharacterizingUserDrivenCaptioningPracticesOnTiktok_CHI2024.pdf",
+      "type": "peer_reviewed_primary_study",
+      "published_or_updated": "CHI 2024, May 11–16; TikToks collected April 2023",
+      "use": "Consistencia, legibilidad y prácticas de captions: 300 videos y nueve entrevistas.",
+      "limitations": "Muestra situada; no tendencia de frecuencia en 2026 ni prueba causal de retención.",
+      "access": "primary_author_pdf_downloaded_and_text_extracted",
+      "local_file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/CHI2024-caption-practices.pdf",
+      "local_sha256": "f7f2bcf6c6d1d7e189aaa52d1587dd4bea2e5ea66ae1515adcd89cff155c8a79",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_SOCIAL_REVIEW_CHI2026",
+      "publisher": "Nguyen y coautores / ACM CHI / SInC Lab",
+      "url": "https://sinc-lab.com/publications/2026-04-13-nguyen2026like",
+      "type": "peer_reviewed_systematic_review_primary_abstract",
+      "published_or_updated": "2026-04-13",
+      "use": "Revisión de 36 trabajos 2015–2025 sobre captions sociales y accesibilidad.",
+      "limitations": "Se verificó resumen primario; no atribuir al artículo una posición o tipografía ganadora.",
+      "access": "primary_author_abstract_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_NETFLIX_SPANISH_READING",
+      "publisher": "Netflix Partner Help Center",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/217349997-Spanish-Latin-America-Spain-Timed-Text-Style-Guide",
+      "type": "official_delivery_style_guide",
+      "published_or_updated": "Fecha de edición no verificada",
+      "use": "Referencia de 17 CPS adultos en español y dos líneas.",
+      "limitations": "Especificación Netflix, no requisito de redes ni permiso para omitir palabras de nuestra voz.",
+      "access": "primary_guide_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_W3C_SEMANTIC_COVERAGE",
+      "publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/media/av/captions/",
+      "type": "primary_accessibility_guidance",
+      "published_or_updated": "Fecha de edición no verificada",
+      "use": "Voz fiel, sincronía, sonidos significativos y corrección de captions automáticos.",
+      "limitations": "Aplicar principios no acredita conformidad integral WCAG del video.",
+      "access": "primary_page_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_W3C_CONTRAST",
+      "publisher": "W3C WAI",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "type": "primary_accessibility_guidance",
+      "published_or_updated": "WCAG 2.2, página consultada en 2026",
+      "use": "Objetivo interno de contraste 4,5:1 para todo caption.",
+      "limitations": "Escala física del teléfono y fondo variable deben revisarse; px fuente no implica texto grande WCAG.",
+      "access": "primary_page_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_TIKTOK_CREATIVE_GUIDE",
+      "publisher": "TikTok for Business",
+      "url": "https://ads.tiktok.com/resources/help/article/creative-best-practices?lang=en",
+      "type": "official_ad_creative_guidance",
+      "published_or_updated": "June 2025",
+      "use": "Texto para contexto, zona UI y experimentación creativa.",
+      "limitations": "Los 5–10 words/sec del texto publicitario no se adoptan como velocidad de lectura de subtítulos de voz.",
+      "access": "primary_page_opened",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "id": "CAP_CAPCUT_AVAILABLE_FORMATS",
+      "publisher": "CapCut",
+      "url": "https://www.capcut.com/resource/types-of-captions",
+      "type": "primary_tool_vendor_description",
+      "published_or_updated": "Fecha de edición no verificada",
+      "use": "Disponibilidad actual de estilos de frase, énfasis y captions dinámicos.",
+      "limitations": "La oferta de una herramienta no mide moda, preferencia ni eficacia independiente.",
+      "access": "primary_vendor_page_search_index_checked",
+      "checked_at": "2026-09-30"
+    }
+  ],
+  "excluded_claims": [
+    "85% sound-off as universal current audience statistic",
+    "Word-by-word captions universally improve retention",
+    "Meta ad safe zones or CTR equal organic caption causal effect",
+    "A tool feature list measures current trend prevalence"
+  ]
+}

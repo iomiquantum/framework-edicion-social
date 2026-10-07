@@ -1,0 +1,8 @@
+Collecting retrying==1.4.2
+  Using cached retrying-1.4.2-py3-none-any.whl.metadata (5.5 kB)
+Using cached retrying-1.4.2-py3-none-any.whl (10 kB)
+Installing collected packages: retrying
+Successfully installed retrying-1.4.2
+
+[notice] A new release of pip is available: 26.0.1 -> 26.2.1
+[notice] To update, run: /private/tmp/codex-referencia-mezcla-20260930/bin/python -m pip install --upgrade pip

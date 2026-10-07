@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0.0",
+  "status": "template_not_a_completed_review",
+  "video_id": "VIDEO-NN",
+  "caption_catalog_version": "1.0.0",
+  "spoken_source_path": null,
+  "spoken_source_sha256": null,
+  "main_format_id": null,
+  "editorial_reason": null,
+  "beats": [],
+  "geometry": {
+    "canvas": [
+      1080,
+      1920
+    ],
+    "placement_id": null,
+    "box_px": null,
+    "font_family": null,
+    "base_font_px": null,
+    "line_height": null,
+    "max_lines": 2,
+    "face_gesture_exclusion_evidence": null,
+    "actual_wrap_review_status": "not_run"
+  },
+  "reading": {
+    "cps_counting": "Visible characters including spaces/punctuation over full block duration; once per progressive block.",
+    "max_cps": null,
+    "over20cps_count": null,
+    "short_multiword_cues": [],
+    "decisions_for_flagged_cues": [],
+    "muted_full_review": {
+      "status": "not_run",
+      "reviewer": null,
+      "evidence": null
+    },
+    "mobile_size_review": {
+      "status": "not_run",
+      "display_width_px": null,
+      "evidence": null,
+      "physical_device_review": false
+    }
+  },
+  "destinations": [
+    {
+      "platform": "instagram",
+      "surface": "organic_reels",
+      "preview_status": "not_run",
+      "description_and_cta_checked": false,
+      "exact_render_sha256": null,
+      "evidence": null
+    },
+    {
+      "platform": "facebook",
+      "surface": "organic_reels",
+      "preview_status": "not_run",
+      "description_and_cta_checked": false,
+      "exact_render_sha256": null,
+      "evidence": null
+    },
+    {
+      "platform": "tiktok",
+      "surface": "organic_vertical",
+      "preview_status": "not_run",
+      "description_and_cta_checked": false,
+      "exact_render_sha256": null,
+      "evidence": null
+    }
+  ],
+  "word_timing": {
+    "required": false,
+    "source_path": null,
+    "source_sha256": null,
+    "checked": false
+  },
+  "subtitle_sidecar": {
+    "status": "not_run",
+    "path": null,
+    "sha256": null,
+    "duplicate_caption_policy": null
+  },
+  "exact_export_review": {
+    "render_path": null,
+    "sha256": null,
+    "status": "not_run",
+    "evidence": null
+  },
+  "performance_status": "por_confirmar",
+  "approval_not_inferred": true
+}

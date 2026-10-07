@@ -1,0 +1,576 @@
+{
+  "$schema": "../schemas/qa-scorecard.schema.json",
+  "schema_version": "1.0.0",
+  "scorecard_id": "",
+  "project_id": "",
+  "video_id": "",
+  "render_id": "",
+  "evaluated_at": "",
+  "policy": {
+    "status_values": ["pass", "warn", "fail", "not_run"],
+    "any_hard_fail_blocks_delivery": true,
+    "required_hard_not_run_blocks_delivery": true,
+    "hard_fail_exception_override_allowed": false,
+    "evaluated_check_requires_evidence": true,
+    "warn_or_fail_requires_note": true,
+    "time_evidence_uses_final_render_timeline": true
+  },
+  "artifacts": {
+    "source_manifest_path": "",
+    "source_sha256": "",
+    "approved_take_id": "",
+    "transcript_path": "",
+    "transcript_sha256": "",
+    "cut_plan_path": "",
+    "cut_plan_sha256": "",
+    "render_path": "",
+    "render_sha256": "",
+    "render_manifest_path": "",
+    "framework_version": "",
+    "hyperframes_version": ""
+  },
+  "sections": {
+    "source_and_take": {
+      "hard_gates": [
+        {
+          "id": "HG-SRC-001",
+          "title": "Fuente íntegra y trazable",
+          "requirement": "El original existe, permanece inmutable y su hash coincide con el manifiesto de ingesta.",
+          "required": true,
+          "verification_mode": "automatic",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-SRC-002",
+          "title": "Toma aprobada y rangos correctos",
+          "requirement": "La toma usada tiene aprobación inequívoca y todos los rangos del montaje pertenecen a esa toma y están dentro de la fuente.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-SRC-003",
+          "title": "Claqueta y descartes ausentes",
+          "requirement": "El render no contiene marcadores, espera posterior a la claqueta, tomas descartadas ni material fuera del rango aprobado.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ],
+      "editorial_criteria": [
+        {
+          "id": "ED-SRC-001",
+          "title": "Selección de interpretación",
+          "review_question": "Si existen varias tomas aprobadas, ¿la elegida ofrece la mejor combinación de intención, foco, gesto y audio para esta pieza?",
+          "required": false,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ]
+    },
+    "phonemes_and_cadence": {
+      "hard_gates": [
+        {
+          "id": "HG-DLG-001",
+          "title": "Fonemas completos",
+          "requirement": "La primera palabra, los ataques consonánticos, las sílabas finales y la última palabra se escuchan completos.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-DLG-002",
+          "title": "Empalmes de voz limpios",
+          "requirement": "No existen clics, fonemas duplicados, respiraciones partidas, palabras solapadas ni saltos incompatibles de room tone.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-DLG-003",
+          "title": "Montaje ligado a transcripción y cut plan",
+          "requirement": "Los hashes de transcripción y cut plan corresponden al montaje final y los captions fueron recalculados después del cierre de voz.",
+          "required": true,
+          "verification_mode": "automatic",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ],
+      "editorial_criteria": [
+        {
+          "id": "ED-DLG-001",
+          "title": "Cadencia humana",
+          "review_question": "¿El discurso avanza sin tiempos muertos pero conserva respiración, énfasis, humor y cambios de idea naturales?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "ED-DLG-002",
+          "title": "Continuidad expresiva",
+          "review_question": "¿Los cortes conservan la intención de la interpretación y evitan una cadencia mecánica o atropellada?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ]
+    },
+    "captions": {
+      "hard_gates": [
+        {
+          "id": "HG-CAP-001",
+          "title": "Texto fiel al audio",
+          "requirement": "Palabras, nombres propios, cifras, marcas y signos necesarios coinciden con el audio y la transcripción aprobada.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-CAP-002",
+          "title": "Captions dentro de zona segura",
+          "requirement": "Ningún caption queda cortado, tapado por interfaz, fuera del cuadro o superpuesto a información esencial.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-CAP-003",
+          "title": "Sincronización y legibilidad mínima",
+          "requirement": "Los captions entran y salen con la voz, disponen de tiempo de lectura y mantienen contraste legible durante todo el tramo.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ],
+      "editorial_criteria": [
+        {
+          "id": "ED-CAP-001",
+          "title": "Jerarquía de captions",
+          "review_question": "¿Los saltos de línea, palabras clave y placas de CTA facilitan comprensión sin convertir cada palabra en énfasis?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ]
+    },
+    "face_gestures_and_safe_zones": {
+      "hard_gates": [
+        {
+          "id": "HG-SAFE-001",
+          "title": "Preflight visual: sujeto y contenedores protegidos",
+          "requirement": "Antes del render completo, una hoja de contacto en el aspecto final verifica hook, desarrollo, transición crítica o B-roll y cierre. En cámara y en todo recurso de apoyo, cabello, cabeza, ojos, boca, manos y sujetos esenciales quedan libres de texto, gráficos, velos y recortes incorrectos; cada placa, fondo, resaltado y contenedor cubre íntegramente su texto con el padding previsto, salvo una ruptura intencional documentada. Dentro del área renderizable solo aparece texto destinado al espectador: timecodes, nombres de beats, números de escena, instrucciones de animación y notas de composición quedan fuera o en capas técnicas no renderizables.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-SAFE-002",
+          "title": "Preflight de plataforma",
+          "requirement": "Texto, rostro, CTA y elementos interactivos se verificaron contra las zonas seguras del destino declarado.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ],
+      "editorial_criteria": [
+        {
+          "id": "ED-SAFE-001",
+          "title": "Uso de espacio negativo",
+          "review_question": "¿Los overlays ocupan espacio negativo verificado y permanecen fuera de rostros y sujetos esenciales tanto en la toma principal como en imágenes generadas, B-roll y cutaways?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "ED-SAFE-002",
+          "title": "Continuidad gestual",
+          "review_question": "¿Jump cuts, punch-ins, reencuadres y cutaways preservan una continuidad corporal que no distrae del mensaje?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ]
+    },
+    "semantic_visuals": {
+      "hard_gates": [
+        {
+          "id": "HG-SEM-001",
+          "title": "Sin evidencia inventada",
+          "requirement": "No se inventan cifras, citas, logos, interfaces, resultados o relaciones causales; toda evidencia verificable conserva fuente.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-SEM-002",
+          "title": "Activos válidos y elegibles",
+          "requirement": "Cada activo usado existe, coincide con su hash, tiene procedencia y licencia, y no está rechazado, deprecated ni ineligible.",
+          "required": true,
+          "verification_mode": "automatic",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ],
+      "editorial_criteria": [
+        {
+          "id": "ED-SEM-001",
+          "title": "Correspondencia con el beat",
+          "review_question": "¿Cada imagen, diagrama, icono, SVG, transición y cutaway representa de forma inmediata e inequívoca la idea pronunciada en ese instante, sin elementos decorativos irrelevantes?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "ED-SEM-002",
+          "title": "Densidad visual con descanso",
+          "review_question": "¿La alternancia entre rostro, overlay, B-roll, cutaway y descanso evita tanto monotonía como saturación decorativa?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ]
+    },
+    "color": {
+      "hard_gates": [
+        {
+          "id": "HG-COL-001",
+          "title": "Imagen técnicamente estable",
+          "requirement": "No hay exposición destructiva, clipping visible, flicker, banding, cambios de color entre cortes ni tratamientos que oculten información esencial.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ],
+      "editorial_criteria": [
+        {
+          "id": "ED-COL-001",
+          "title": "Piel y exposición naturales",
+          "review_question": "¿La piel, el balance de blancos, el contraste y la exposición se sienten naturales y consistentes con la toma real?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "ED-COL-002",
+          "title": "Paleta apropiada",
+          "review_question": "¿La cromática apoya tema y tono, conserva contraste y evita una repetición automática de un único color de acento?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ]
+    },
+    "audio_and_sfx": {
+      "hard_gates": [
+        {
+          "id": "HG-AUD-001",
+          "title": "Voz sincronizada y completa",
+          "requirement": "La voz está sincronizada con labios, conserva todos los canales necesarios y no presenta silencios o muting accidentales.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-AUD-002",
+          "title": "Niveles y picos válidos",
+          "requirement": "El archivo no recorta, cumple el límite de true peak y la frecuencia de muestreo definidos por el perfil de entrega.",
+          "required": true,
+          "verification_mode": "automatic",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-AUD-003",
+          "title": "Voz inteligible sobre música y SFX",
+          "requirement": "Música, SFX y procesamiento no enmascaran palabras, respiraciones necesarias ni matices esenciales de la voz.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-AUD-004",
+          "title": "Activos sonoros elegibles",
+          "requirement": "Todos los SFX y pistas musicales coinciden con sus hashes y no tienen estado explicit_rejected, deprecated, ineligible o do_not_reuse.",
+          "required": true,
+          "verification_mode": "automatic",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ],
+      "editorial_criteria": [
+        {
+          "id": "ED-AUD-001",
+          "title": "Diseño sonoro semántico",
+          "review_question": "¿Los SFX se sienten suaves, sincronizados y motivados por acciones o giros concretos, sin aparecer por cada palabra?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "ED-AUD-002",
+          "title": "Música y descanso",
+          "review_question": "¿La música, cuando existe, aporta tono y ritmo sin monotonía, fatiga ni competencia emocional con el discurso?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ]
+    },
+    "structure_hook_and_cta": {
+      "hard_gates": [
+        {
+          "id": "HG-STR-001",
+          "title": "Fidelidad estructural y del CTA",
+          "requirement": "El montaje conserva el significado y orden aprobados; si el brief o la toma incluyen CTA, este aparece completo y sin promesas inventadas.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ],
+      "editorial_criteria": [
+        {
+          "id": "ED-STR-001",
+          "title": "Hook comprensible y honesto",
+          "review_question": "¿El inicio comunica rápidamente una tensión, promesa o pregunta real sin exagerar lo que la pieza puede resolver?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "ED-STR-002",
+          "title": "Progresión y cierre",
+          "review_question": "¿El cuerpo desarrolla una sola línea comprensible y el remate o CTA se siente ganado, claro y visualmente resuelto?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ]
+    },
+    "technical_validation": {
+      "hard_gates": [
+        {
+          "id": "HG-TECH-001",
+          "title": "Proyecto HyperFrames válido",
+          "requirement": "La validación del proyecto termina sin errores de composición, timing, media, layout o render.",
+          "required": true,
+          "verification_mode": "automatic",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-TECH-002",
+          "title": "Especificación de entrega correcta",
+          "requirement": "Resolución, relación de aspecto, fps, códec de video, códec de audio, frecuencia de muestreo y orientación coinciden con el perfil de entrega.",
+          "required": true,
+          "verification_mode": "automatic",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-TECH-003",
+          "title": "Archivo final íntegro",
+          "requirement": "El MP4 decodifica desde el primer hasta el último fotograma, tiene duración y streams esperados y conserva un hash final.",
+          "required": true,
+          "verification_mode": "automatic",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-TECH-004",
+          "title": "Render reproducible y manifiesto completo",
+          "requirement": "El render es determinista y el manifiesto fija versiones, fuente, transcripción, cut plan, estilo y hashes de todos los activos utilizados.",
+          "required": true,
+          "verification_mode": "automatic",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ],
+      "editorial_criteria": [
+        {
+          "id": "ED-TECH-001",
+          "title": "Sin artefactos visibles",
+          "review_question": "¿La reproducción completa está libre de cuadros negros, congelamientos, tearing, assets tardíos, aliasing, transiciones lentas sin intención o dobles exposiciones confusas entre sujetos?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ]
+    },
+    "device_playback": {
+      "hard_gates": [
+        {
+          "id": "HG-DEV-001",
+          "title": "Reproducción completa con audífonos",
+          "requirement": "La pieza se escucha completa a velocidad normal con audífonos o monitores y no revela defectos de voz, empalmes, mezcla o picos.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-DEV-002",
+          "title": "Reproducción completa en altavoz de teléfono",
+          "requirement": "La voz y el mensaje permanecen inteligibles en un altavoz de teléfono a un volumen de escucha normal.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        },
+        {
+          "id": "HG-DEV-003",
+          "title": "Revisión visual en pantalla de teléfono",
+          "requirement": "Captions, rostro, CTA, contraste y zonas seguras son legibles en una pantalla de teléfono al tamaño de consumo real.",
+          "required": true,
+          "verification_mode": "hybrid",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ],
+      "editorial_criteria": [
+        {
+          "id": "ED-DEV-001",
+          "title": "Experiencia consistente entre dispositivos",
+          "review_question": "¿El balance, la energía, la fatiga sonora y la claridad visual se mantienen aceptables al pasar del entorno de edición al teléfono?",
+          "required": true,
+          "verification_mode": "human",
+          "status": "not_run",
+          "evidence": [],
+          "notes": "",
+          "exception_ids": []
+        }
+      ]
+    }
+  },
+  "exceptions": [],
+  "editorial_signoff": {
+    "status": "not_run",
+    "reviewer": "",
+    "reviewed_at": "",
+    "accepted_exception_ids": [],
+    "notes": ""
+  },
+  "summary": {
+    "hard_gate_counts": {"total": 26, "pass": 0, "warn": 0, "fail": 0, "not_run": 26},
+    "editorial_counts": {"total": 16, "pass": 0, "warn": 0, "fail": 0, "not_run": 16},
+    "hard_gate_status": "not_run",
+    "editorial_status": "not_run",
+    "delivery_decision": "pending",
+    "delivery_allowed": false,
+    "blocking_check_ids": [],
+    "warning_check_ids": [],
+    "unresolved_exception_ids": [],
+    "notes": "Plantilla inicial: la entrega permanece deshabilitada hasta completar gates y revisión editorial."
+  }
+}

@@ -1,0 +1,10 @@
+test_active_nested_label_blocks (test_validar_texto_visible.VisibleTextTests.test_active_nested_label_blocks) ... ok
+test_contextual_language_passes (test_validar_texto_visible.VisibleTextTests.test_contextual_language_passes) ... ok
+test_internal_ids_scripts_captions_and_hidden_notes_do_not_block (test_validar_texto_visible.VisibleTextTests.test_internal_ids_scripts_captions_and_hidden_notes_do_not_block) ... ok
+test_missing_active_subcomposition_fails_closed (test_validar_texto_visible.VisibleTextTests.test_missing_active_subcomposition_fails_closed) ... ok
+test_numbered_and_anticipation_labels_block (test_validar_texto_visible.VisibleTextTests.test_numbered_and_anticipation_labels_block) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK

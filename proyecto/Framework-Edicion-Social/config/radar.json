@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "timezone": "America/Guayaquil",
+  "daily": {
+    "time": "09:00",
+    "lookback_days": 7,
+    "context_days": 30,
+    "max_new_items": 5,
+    "notify_only_when_actionable": true
+  },
+  "weekly": {
+    "weekday": "MO",
+    "time": "09:00",
+    "execution": "within_daily_heartbeat",
+    "max_decisions": 3,
+    "max_experiments": 2
+  },
+  "default_scope": {
+    "country": "EC",
+    "region_fallback": "LATAM",
+    "language": "es",
+    "platforms": ["instagram_reels", "tiktok", "youtube_shorts"],
+    "niches": ["ai_education", "technology"],
+    "distribution": "organic"
+  },
+  "priority_weights": {
+    "audience_topic_fit": 30,
+    "evidence_quality": 25,
+    "goal_utility": 20,
+    "freshness": 15,
+    "execution_ease": 10
+  },
+  "thresholds": {
+    "test_candidate": 75,
+    "observation": 55
+  },
+  "review_windows_hours": {
+    "audio_meme_challenge": 72,
+    "emerging_editing_pattern": 336,
+    "platform_recommendation": 720,
+    "interface_safe_zone": 720,
+    "validated_local_rule": 2160,
+    "editorial_principle": 4320
+  }
+}

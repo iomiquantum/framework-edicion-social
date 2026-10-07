@@ -1,0 +1,15 @@
+{
+  "observed_at_utc": "2026-10-01T04:12:06.141909+00:00",
+  "parent_exec_session": 45344,
+  "assertion_owner_pid": 85114,
+  "tool": "caffeinate",
+  "verified_assertions": [
+    "PreventUserIdleSystemSleep",
+    "PreventUserIdleDisplaySleep",
+    "PreventSystemSleep"
+  ],
+  "evidence": "pmset-assertions-initial.txt",
+  "permanent_settings_changed": false,
+  "screen_lock_policy_verified": false,
+  "note": "Assertions prevent idle sleep/display sleep. Lock policy is not demonstrated by assertions; parent owns lifecycle."
+}

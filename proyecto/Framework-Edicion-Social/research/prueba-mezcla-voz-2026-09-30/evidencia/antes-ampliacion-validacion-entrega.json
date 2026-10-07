@@ -1,0 +1,656 @@
+{
+  "status": "PASS",
+  "pieces": 5,
+  "files_verified": 45,
+  "records": [
+    {
+      "id": "01",
+      "files": [
+        {
+          "file": "renders/v2/01-mezcla.wav",
+          "sha256": "f182ff2bde11b03d8511fa7a400e4f9d930bf86fe4d35c84af5412dfc27b01fa",
+          "duration_s": 21.375,
+          "rms": 0.08803716842623652,
+          "peak_dbfs": -3.1908748691476796,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/01-mezcla.m4a",
+          "sha256": "abde2a62b3a364fad96858e412b897c790f27807eb5b6bc264f26c1c07c326d2",
+          "duration_s": 21.375,
+          "rms": 0.08789197647662092,
+          "peak_dbfs": -3.208443519310278,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/01-voz-sola.wav",
+          "sha256": "db677202633f2c8e3619e7e3bba9afe965a5d5ad5bb26a89e41ef98ae32ea31f",
+          "duration_s": 21.375,
+          "rms": 0.08785813410409646,
+          "peak_dbfs": -3.208376104174887,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/01-musica.wav",
+          "sha256": "0e68e74bb02bc5f0670dad0d38cc4ee16582872bfc5f78c6f15bd5a536505e9d",
+          "duration_s": 21.375,
+          "rms": 0.0035632996252044523,
+          "peak_dbfs": -29.325062371850432,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/01-efectos.wav",
+          "sha256": "3bd48350351887e74d04abb6f8366235075a3fb7459f8bcbb93e8c6f31096b69",
+          "duration_s": 21.375,
+          "rms": 0.004562559175977881,
+          "peak_dbfs": -19.764317759312632,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v1/01-mezcla.wav",
+          "sha256": "1d5da1c955a07f340451e0d45db794960fd1d503b91bc838ee626d2bf0350804",
+          "duration_s": 21.375,
+          "rms": 0.08810809616244214,
+          "peak_dbfs": -3.17848191964936,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/01-voz-sola.m4a",
+          "sha256": "c658cd11fce24882548b9db66d116bef1e693bdff1a6860b5d235b64d214b53f",
+          "duration_s": 21.375,
+          "rms": 0.08775054186601189,
+          "peak_dbfs": -3.2356868135493104,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/01-musica.m4a",
+          "sha256": "b2156ebf9fcfaada60c3be92c4400fd82ca04a547c363a08834019f6b9f839b7",
+          "duration_s": 21.375,
+          "rms": 0.0035506342488320244,
+          "peak_dbfs": -29.29239342970785,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/01-efectos.m4a",
+          "sha256": "ba70df073a1bc840c2d05f5fadbecc6e562d71e13d95411913d30b8777bbb08d",
+          "duration_s": 21.375,
+          "rms": 0.004541000203222005,
+          "peak_dbfs": -19.785986202264873,
+          "decode_full": "pass"
+        }
+      ],
+      "sfx_hook_rms": 0.006271113306488699,
+      "events_verified_in_pcm": [
+        {
+          "start_s": 0.025,
+          "source_hash": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+          "rendered_peak_dbfs": -19.764317759312632,
+          "rendered_rms": 0.022171733723036754
+        },
+        {
+          "start_s": 6.05,
+          "source_hash": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+          "rendered_peak_dbfs": -21.165085168683248,
+          "rendered_rms": 0.018568092127295537
+        },
+        {
+          "start_s": 8.42,
+          "source_hash": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+          "rendered_peak_dbfs": -19.799224721535516,
+          "rendered_rms": 0.011085865972497489
+        },
+        {
+          "start_s": 9.85,
+          "source_hash": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+          "rendered_peak_dbfs": -26.190982830991835,
+          "rendered_rms": 0.013543054550775896
+        },
+        {
+          "start_s": 13.13,
+          "source_hash": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+          "rendered_peak_dbfs": -22.3306095213924,
+          "rendered_rms": 0.013989418414178641
+        }
+      ],
+      "aac_pcm_correlation": 0.9998033863442025,
+      "voice_unchanged_except_constant_gain": true,
+      "stems_sum_error": 2.384185791015625e-07,
+      "music_vs_voice": {
+        "analysis_window_s": 0.05,
+        "voice_band_floor_for_summary_dbfs": -40,
+        "v1_relative_median_db": -24.78,
+        "v2_relative_median_db": -28.7,
+        "v2_relative_p95_db": -15.996000000000004,
+        "v2_relative_max_db": -7.92,
+        "low_energy_ratios_excluded_from_summary": "Conservar curvas completas; residuos/pausas/colas no se interpretan como habla ni defecto."
+      },
+      "technical_checks": "PASS",
+      "human_perception": "por confirmar"
+    },
+    {
+      "id": "11",
+      "files": [
+        {
+          "file": "renders/v2/11-mezcla.wav",
+          "sha256": "03d2ef66a66b1adc57f9291f71b33d81144e4a95d32207774c0f3a07ad500b24",
+          "duration_s": 29.1,
+          "rms": 0.08577532579265788,
+          "peak_dbfs": -3.0261241660774636,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/11-mezcla.m4a",
+          "sha256": "e3c9a11df6df6ee8d47b429e1aee9d5639c89232162145959293f63c2d6189b3",
+          "duration_s": 29.1,
+          "rms": 0.0856878003823124,
+          "peak_dbfs": -2.9906746253370207,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/11-voz-sola.wav",
+          "sha256": "6ae69c44eb89bf67aeef962a9eb5624a5227e9a721397805a8704ab996267524",
+          "duration_s": 29.1,
+          "rms": 0.08567071989410588,
+          "peak_dbfs": -3.21981569850787,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/11-musica.wav",
+          "sha256": "3c4e1e898568db180715e1cc3b360b77916ef50d5eda0619c6e7e3f60f0b464e",
+          "duration_s": 29.1,
+          "rms": 0.003186372231989028,
+          "peak_dbfs": -27.930457841001257,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/11-efectos.wav",
+          "sha256": "7b7b789575dc57aae50c3a2058f7fdc46f90e1e273049d61118f8af38526a75a",
+          "duration_s": 29.1,
+          "rms": 0.002521866505556432,
+          "peak_dbfs": -21.28434301684486,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v1/11-mezcla.wav",
+          "sha256": "5f280dfa8477e54d28406943cf709febffa8a3652519e65285e236521a09e344",
+          "duration_s": 29.1,
+          "rms": 0.08581520256170821,
+          "peak_dbfs": -3.027099776992124,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/11-voz-sola.m4a",
+          "sha256": "71d1faff6fb6fdba02a5c1252f6f3cc2aff208c0b1a5d2142e9fff220a38ca09",
+          "duration_s": 29.1,
+          "rms": 0.08560676165398635,
+          "peak_dbfs": -3.26843795669874,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/11-musica.m4a",
+          "sha256": "b1e7bcd51e59d94f2b26048d6c5048e12d800a08ffefc5dfe7b80a70110909be",
+          "duration_s": 29.1,
+          "rms": 0.003178198409295238,
+          "peak_dbfs": -27.92462056940055,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/11-efectos.m4a",
+          "sha256": "62de5f1e946eda19a39d55a33bca23271c3234a6880c8c9b138e6ef95ec7133e",
+          "duration_s": 29.1,
+          "rms": 0.002490937728154305,
+          "peak_dbfs": -21.44730836863788,
+          "decode_full": "pass"
+        }
+      ],
+      "sfx_hook_rms": 0.00817312318801328,
+      "events_verified_in_pcm": [
+        {
+          "start_s": 0.025,
+          "source_hash": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+          "rendered_peak_dbfs": -21.28434301684486,
+          "rendered_rms": 0.01742515718547082
+        },
+        {
+          "start_s": 8.53,
+          "source_hash": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+          "rendered_peak_dbfs": -21.891686792586412,
+          "rendered_rms": 0.008712579054472645
+        },
+        {
+          "start_s": 13.6,
+          "source_hash": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+          "rendered_peak_dbfs": -28.51158611681661,
+          "rendered_rms": 0.0069206473690132195
+        },
+        {
+          "start_s": 20.73,
+          "source_hash": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+          "rendered_peak_dbfs": -24.13756037358633,
+          "rendered_rms": 0.013401006255227587
+        }
+      ],
+      "aac_pcm_correlation": 0.9999278404133619,
+      "voice_unchanged_except_constant_gain": true,
+      "stems_sum_error": 2.384185791015625e-07,
+      "music_vs_voice": {
+        "analysis_window_s": 0.05,
+        "voice_band_floor_for_summary_dbfs": -40,
+        "v1_relative_median_db": -31.04,
+        "v2_relative_median_db": -33.24,
+        "v2_relative_p95_db": -23.423000000000002,
+        "v2_relative_max_db": -18.32,
+        "low_energy_ratios_excluded_from_summary": "Conservar curvas completas; residuos/pausas/colas no se interpretan como habla ni defecto."
+      },
+      "technical_checks": "PASS",
+      "human_perception": "por confirmar"
+    },
+    {
+      "id": "14",
+      "files": [
+        {
+          "file": "renders/v2/14-mezcla.wav",
+          "sha256": "6aead571a79e1fffaae6e6c6e0a4247cfb2ff4f2893317e0f57e30e872f8f282",
+          "duration_s": 23.26,
+          "rms": 0.08235641279919349,
+          "peak_dbfs": -3.2158383900399783,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/14-mezcla.m4a",
+          "sha256": "aabe0d8435521928f3e05e8d553587335f03fff80d68efaf4e46f2defbee915f",
+          "duration_s": 23.26,
+          "rms": 0.08230659219617911,
+          "peak_dbfs": -3.214310639957319,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/14-voz-sola.wav",
+          "sha256": "28b0193e9360c77295e90e6a93fda020cfe5d79e130b349a31ff2e8abbd3f087",
+          "duration_s": 23.26,
+          "rms": 0.08230111402171693,
+          "peak_dbfs": -3.2028767917372454,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/14-musica.wav",
+          "sha256": "b57822098b846a3092594ac49fad35479f30f48337fdd412175d243306b4c137",
+          "duration_s": 23.26,
+          "rms": 0.002031468306048122,
+          "peak_dbfs": -32.42691963833134,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/14-efectos.wav",
+          "sha256": "a1552bd71952e01a8c186dae6f8122fa456a23c19338c1ed86f54348d8662d74",
+          "duration_s": 23.26,
+          "rms": 0.002004107831037085,
+          "peak_dbfs": -23.454224203615745,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v1/14-mezcla.wav",
+          "sha256": "75882b26fd62feabbb3231ba7e00e7bd08e3711256de6a1770688525d865bfc9",
+          "duration_s": 23.26,
+          "rms": 0.0823804771419793,
+          "peak_dbfs": -3.2192381858822654,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/14-voz-sola.m4a",
+          "sha256": "3b1a575ace53e1a40a1770d43511ac8a646d6723a57cbe9c5fb5876aefc9f6a0",
+          "duration_s": 23.26,
+          "rms": 0.08225223190316057,
+          "peak_dbfs": -3.209124441509519,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/14-musica.m4a",
+          "sha256": "6b9d51e4a400abb18d830db64d66f605220bf55083e8140ddec44f0fcc9ce188",
+          "duration_s": 23.26,
+          "rms": 0.0020250146633153995,
+          "peak_dbfs": -32.50854574476487,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/14-efectos.m4a",
+          "sha256": "d282bcbc6ef0ced9e593c2480696ced970799bcddcd81132f37ac998871563dc",
+          "duration_s": 23.26,
+          "rms": 0.001984724908351932,
+          "peak_dbfs": -23.366599583790375,
+          "decode_full": "pass"
+        }
+      ],
+      "sfx_hook_rms": 0.0037443112523978714,
+      "events_verified_in_pcm": [
+        {
+          "start_s": 0.03,
+          "source_hash": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+          "rendered_peak_dbfs": -24.243760992856824,
+          "rendered_rms": 0.013238139387218148
+        },
+        {
+          "start_s": 6.37,
+          "source_hash": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+          "rendered_peak_dbfs": -23.454224203615745,
+          "rendered_rms": 0.014266267304234985
+        },
+        {
+          "start_s": 13.5,
+          "source_hash": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+          "rendered_peak_dbfs": -23.629007642348018,
+          "rendered_rms": 0.0071331345695442
+        }
+      ],
+      "aac_pcm_correlation": 0.9999414720718066,
+      "voice_unchanged_except_constant_gain": true,
+      "stems_sum_error": 2.384185791015625e-07,
+      "music_vs_voice": {
+        "analysis_window_s": 0.05,
+        "voice_band_floor_for_summary_dbfs": -40,
+        "v1_relative_median_db": -32.435,
+        "v2_relative_median_db": -35.14,
+        "v2_relative_p95_db": -22.174,
+        "v2_relative_max_db": -15.61,
+        "low_energy_ratios_excluded_from_summary": "Conservar curvas completas; residuos/pausas/colas no se interpretan como habla ni defecto."
+      },
+      "technical_checks": "PASS",
+      "human_perception": "por confirmar"
+    },
+    {
+      "id": "largo-53",
+      "files": [
+        {
+          "file": "renders/v2/largo-53-mezcla.wav",
+          "sha256": "9699add3f79d14fc0711ad6696f9c621b1064795e84f1c05c510f479c88a1ac3",
+          "duration_s": 52.93,
+          "rms": 0.0887946067697563,
+          "peak_dbfs": -6.109736912692247,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-53-mezcla.m4a",
+          "sha256": "516e9c93c3a0135b8322d942b3558a27c14b6147d0b9df6ca3e82fb7dd431a35",
+          "duration_s": 52.93,
+          "rms": 0.08873409641231801,
+          "peak_dbfs": -6.127278159236268,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-53-voz-sola.wav",
+          "sha256": "845d7d20e233fa7dc724616ff6e561285f168976bf0b63cc6e7e9671b5dc9b4f",
+          "duration_s": 52.93,
+          "rms": 0.08869438614471388,
+          "peak_dbfs": -6.3011296602153335,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-53-musica.wav",
+          "sha256": "fc5cdc7ec39528ca49d6bd2fe24a9591c31a86b8c52b6a4652b608186cfefb58",
+          "duration_s": 52.93,
+          "rms": 0.0028745856706078295,
+          "peak_dbfs": -27.42284270931206,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-53-efectos.wav",
+          "sha256": "122c7737f4a601033b144766fe92ebb01d4997fae028c67895d56557d8585f78",
+          "duration_s": 52.93,
+          "rms": 0.0029347093740141003,
+          "peak_dbfs": -19.704003929771705,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v1/largo-53-mezcla.wav",
+          "sha256": "da98ee9b3753a3da7b43d418a954ccd6961f6593d55dad9c2b4918ebd433bdad",
+          "duration_s": 52.93,
+          "rms": 0.08884545617778383,
+          "peak_dbfs": -6.028779587786487,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-53-voz-sola.m4a",
+          "sha256": "354939c777646eaada9f14b7a0e1a4968e69fcb156e89ba9337518b62f674ff2",
+          "duration_s": 52.93,
+          "rms": 0.08863710873380022,
+          "peak_dbfs": -6.301583108837704,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-53-musica.m4a",
+          "sha256": "9d135c08a3717b82c05ea298bbf459f76b448040254e9e958ddd061c4a33cd56",
+          "duration_s": 52.93,
+          "rms": 0.002867155946313342,
+          "peak_dbfs": -27.49470507463637,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-53-efectos.m4a",
+          "sha256": "3e06bdce4d5419721bf6d13106181eedd8bc55fd2c657c09c2f49280ed89061d",
+          "duration_s": 52.93,
+          "rms": 0.002912915761353623,
+          "peak_dbfs": -19.899941530539685,
+          "decode_full": "pass"
+        }
+      ],
+      "sfx_hook_rms": 0.009787625430953122,
+      "events_verified_in_pcm": [
+        {
+          "start_s": 0.025,
+          "source_hash": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+          "rendered_peak_dbfs": -19.718556978815023,
+          "rendered_rms": 0.020867287532995958
+        },
+        {
+          "start_s": 4.83,
+          "source_hash": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+          "rendered_peak_dbfs": -19.704003929771705,
+          "rendered_rms": 0.011208074625486494
+        },
+        {
+          "start_s": 10.96,
+          "source_hash": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+          "rendered_peak_dbfs": -27.8723409990679,
+          "rendered_rms": 0.0111596136558745
+        },
+        {
+          "start_s": 19.01,
+          "source_hash": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+          "rendered_peak_dbfs": -23.541036196476163,
+          "rendered_rms": 0.012169656742636462
+        },
+        {
+          "start_s": 33.04,
+          "source_hash": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+          "rendered_peak_dbfs": -24.195423081195866,
+          "rendered_rms": 0.011375113044351433
+        },
+        {
+          "start_s": 34.91,
+          "source_hash": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+          "rendered_peak_dbfs": -25.546272493602295,
+          "rendered_rms": 0.011394671102499436
+        },
+        {
+          "start_s": 47.57,
+          "source_hash": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+          "rendered_peak_dbfs": -23.32590779986745,
+          "rendered_rms": 0.007386454332815501
+        }
+      ],
+      "aac_pcm_correlation": 0.9999806812276262,
+      "voice_unchanged_except_constant_gain": true,
+      "stems_sum_error": 2.384185791015625e-07,
+      "music_vs_voice": {
+        "analysis_window_s": 0.05,
+        "voice_band_floor_for_summary_dbfs": -40,
+        "v1_relative_median_db": -29.109999999999996,
+        "v2_relative_median_db": -32.39,
+        "v2_relative_p95_db": -19.266000000000005,
+        "v2_relative_max_db": -13.6,
+        "low_energy_ratios_excluded_from_summary": "Conservar curvas completas; residuos/pausas/colas no se interpretan como habla ni defecto."
+      },
+      "technical_checks": "PASS",
+      "human_perception": "por confirmar"
+    },
+    {
+      "id": "largo-159",
+      "files": [
+        {
+          "file": "renders/v2/largo-159-mezcla.wav",
+          "sha256": "14149133226a9186cf5243b345f56cd2748aed6c2d72b7d9210142f29aa27f9d",
+          "duration_s": 158.798,
+          "rms": 0.08729453043523981,
+          "peak_dbfs": -5.960035443257873,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-159-mezcla.m4a",
+          "sha256": "b8ad0b713998ce7d58c81b9b68982849094ef54e6783fb5e1030423ef6048ed1",
+          "duration_s": 158.798,
+          "rms": 0.0872544047159974,
+          "peak_dbfs": -5.974701322971211,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-159-voz-sola.wav",
+          "sha256": "29e7a580bc2d12a31ff284a10d502d6ae1fba3159df5bd1d9124e6adb59f9d1b",
+          "duration_s": 158.798,
+          "rms": 0.08725607539936653,
+          "peak_dbfs": -6.167056299381044,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-159-musica.wav",
+          "sha256": "c1171b2475888f0d4b724abe0d2f9b952a80b6763b701ace93476e5a95326960",
+          "duration_s": 158.798,
+          "rms": 0.0022763242718178874,
+          "peak_dbfs": -31.34482866864305,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-159-efectos.wav",
+          "sha256": "59eb6051917a1c6b8fc25c0d28fb939234acade0d3416e891f624f2841ec8c8c",
+          "duration_s": 158.798,
+          "rms": 0.0011824656891273914,
+          "peak_dbfs": -23.429678103160498,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v1/largo-159-mezcla.wav",
+          "sha256": "ce34c5707eb3bc364b11a955246e04057b3a2863ca8fed525bf0acf34901f3a3",
+          "duration_s": 158.798,
+          "rms": 0.087316719315477,
+          "peak_dbfs": -5.959268407104123,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-159-voz-sola.m4a",
+          "sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+          "duration_s": 158.798,
+          "rms": 0.08720953403696656,
+          "peak_dbfs": -6.167403284875352,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-159-musica.m4a",
+          "sha256": "d266e465ef0f99e7e2ce8788b214b3916c5036348fd2d01efc44ba9835365701",
+          "duration_s": 158.798,
+          "rms": 0.0022718231796940162,
+          "peak_dbfs": -31.369679828729073,
+          "decode_full": "pass"
+        },
+        {
+          "file": "renders/v2/largo-159-efectos.m4a",
+          "sha256": "5a9b70090b07bd26a2ed24e3d56439be267deacc8142752976379dd15f50bc31",
+          "duration_s": 158.798,
+          "rms": 0.0011780084521904968,
+          "peak_dbfs": -23.458126032321417,
+          "decode_full": "pass"
+        }
+      ],
+      "sfx_hook_rms": 0.0038406224868905475,
+      "events_verified_in_pcm": [
+        {
+          "start_s": 0.025,
+          "source_hash": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+          "rendered_peak_dbfs": -24.023176116772067,
+          "rendered_rms": 0.013578651022289242
+        },
+        {
+          "start_s": 13.12,
+          "source_hash": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+          "rendered_peak_dbfs": -23.429678103160498,
+          "rendered_rms": 0.007298734181577643
+        },
+        {
+          "start_s": 24.2,
+          "source_hash": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+          "rendered_peak_dbfs": -29.275459136165026,
+          "rendered_rms": 0.007298733847205032
+        },
+        {
+          "start_s": 37.06,
+          "source_hash": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+          "rendered_peak_dbfs": -23.429678103160498,
+          "rendered_rms": 0.007298734181577643
+        },
+        {
+          "start_s": 58.94,
+          "source_hash": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+          "rendered_peak_dbfs": -25.343861179294645,
+          "rendered_rms": 0.009888639040891507
+        },
+        {
+          "start_s": 83.32,
+          "source_hash": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+          "rendered_peak_dbfs": -29.049577866410445,
+          "rendered_rms": 0.006505003396745646
+        },
+        {
+          "start_s": 93.27,
+          "source_hash": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+          "rendered_peak_dbfs": -28.926423364431216,
+          "rendered_rms": 0.009884258343458498
+        },
+        {
+          "start_s": 120.8,
+          "source_hash": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+          "rendered_peak_dbfs": -30.275473517740426,
+          "rendered_rms": 0.006505003164614062
+        },
+        {
+          "start_s": 142.22,
+          "source_hash": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+          "rendered_peak_dbfs": -29.41535610536025,
+          "rendered_rms": 0.007298734324231497
+        },
+        {
+          "start_s": 145.98,
+          "source_hash": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+          "rendered_peak_dbfs": -25.429664365176897,
+          "rendered_rms": 0.005797590531822463
+        }
+      ],
+      "aac_pcm_correlation": 0.9999927303375976,
+      "voice_unchanged_except_constant_gain": true,
+      "stems_sum_error": 2.384185791015625e-07,
+      "music_vs_voice": {
+        "analysis_window_s": 0.05,
+        "voice_band_floor_for_summary_dbfs": -40,
+        "v1_relative_median_db": -33.24,
+        "v2_relative_median_db": -35.44,
+        "v2_relative_p95_db": -23.314999999999998,
+        "v2_relative_max_db": -16.9,
+        "low_energy_ratios_excluded_from_summary": "Conservar curvas completas; residuos/pausas/colas no se interpretan como habla ni defecto."
+      },
+      "technical_checks": "PASS",
+      "human_perception": "por confirmar"
+    }
+  ],
+  "source_unchanged": true,
+  "hook_and_two_sfx_identities": true,
+  "true_peak_ceiling_aac_dbfs": -1.5,
+  "intelligibility_and_timbre_not_certified": true,
+  "human_review": "por confirmar"
+}

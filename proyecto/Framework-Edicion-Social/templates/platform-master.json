@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "master_id": "MASTER-VIDEO-01",
+  "project_id": "PROJECT-EXAMPLE",
+  "video_id": "VIDEO-01",
+  "profile_id": "PLATFORM-MASTER-VERTICAL-001",
+  "project_path": "VIDEO-01/editable-hyperframes",
+  "technical": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "aspect_ratio": "9:16",
+    "duration_seconds": 60,
+    "container": "mp4",
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_sample_rate_hz": 48000,
+    "color_space": "bt709"
+  },
+  "approval": {
+    "status": "pending",
+    "explicit_user_approval": false,
+    "approved_by": null,
+    "approved_at": null,
+    "note": "Plantilla: no generar derivados hasta registrar la aprobacion explicita."
+  },
+  "content_lock": {
+    "status": "unlocked",
+    "locked_at": null,
+    "take": false,
+    "cuts": false,
+    "voice": false,
+    "semantics": false,
+    "assets": false
+  },
+  "hashes": {
+    "project_sha256": null,
+    "cut_plan_sha256": null,
+    "audio_mix_sha256": null
+  },
+  "created_at": "2026-09-25T00:00:00Z",
+  "updated_at": "2026-09-25T00:00:00Z"
+}

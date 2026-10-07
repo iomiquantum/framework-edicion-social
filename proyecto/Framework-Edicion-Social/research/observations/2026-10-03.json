@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-03",
+  "consulted_at": "2026-10-03T09:08:16-05:00",
+  "scope": {
+    "format": "video_vertical_corto",
+    "topics": [
+      "tecnologia",
+      "inteligencia_artificial"
+    ],
+    "language": "es",
+    "primary_market": "Ecuador",
+    "proxy_market": "LATAM"
+  },
+  "status": "material_platform_change",
+  "platform_changes": [
+    {
+      "id": "OBS-2026-10-03-YT-SHORTS-ORIGINALITY",
+      "kind": "platform_change",
+      "claim": "YouTube anunció una actualización de sus sistemas de recomendación de Shorts para priorizar más el contenido original y reducir la distribución de canales que agregan o vuelven a subir videos de otros creadores sin cambios significativos.",
+      "source_id": "YOUTUBE_SHORTS_ORIGINAL_CONTENT_2026",
+      "source_url": "https://support.google.com/youtube/blog/470890423/prioritizing-original-content-on-shorts?hl=en",
+      "published_or_effective_at": "2026-10-01",
+      "observed_at": "2026-10-03",
+      "evidence_level": "A",
+      "scope_fit": "Aplica a la distribución de Shorts. El proyecto produce talking-head propio y recursos editoriales originales, por lo que no exige rehacer el máster actual; sí desaconseja basar futuras piezas en reuploads, compilaciones o cambios técnicos mínimos sin aporte autoral.",
+      "action": "Mantener voz, análisis, narrativa y edición propios; cuando se use material de terceros, documentar licencia y aporte sustancial de comentario, edición o storytelling. No crear una variante de plataforma ni modificar el perfil técnico por este anuncio.",
+      "limitations": [
+        "YouTube no publica un umbral cuantitativo para 'cambios significativos' ni garantiza mayor alcance por cumplir esta recomendación.",
+        "La publicación describe distribución y originalidad, no una técnica de retención, estilo visual o frecuencia de edición.",
+        "No se verificó el efecto en una cuenta de Ecuador ni se dispone de métricas propias comparables.",
+        "Plantillas reutilizadas con contenido, voz y narrativa propios no quedan automáticamente clasificadas como contenido no original; la evaluación concreta de YouTube no es observable desde esta ejecución."
+      ]
+    }
+  ],
+  "observed_patterns": [],
+  "deduplication": {
+    "compared_with": "research/observations/2026-10-01.json",
+    "duplicates_discarded": [
+      "Los anuncios Made on YouTube 2026, Shorts Series, edición conversacional y Content ID ya constan en observaciones anteriores.",
+      "El estudio de TikTok Shop México del 2026-10-01 se refiere a comercio y descubrimiento; no establece una práctica nueva de edición orgánica para el nicho estudiado.",
+      "Las fuentes históricas de Meta y TikTok no aportan un cambio nuevo aplicable a esta ejecución."
+    ],
+    "material_items_kept": 1
+  },
+  "coverage": {
+    "official_sources_checked": [
+      "YouTube Community: Prioritizing original content on Shorts",
+      "YouTube Help y YouTube Community",
+      "TikTok Newsroom ES-LATAM",
+      "Meta Newsroom y archivo Reels"
+    ],
+    "ecuador_specific_sample": "No disponible con muestra suficiente en esta ejecución.",
+    "latam_proxy": "Se consultaron fuentes oficiales regionales; no se encontró una muestra pública reproducible suficiente para registrar un patrón de edición."
+  },
+  "profile_comparison": {
+    "catalog_checked": "platforms/catalog.json",
+    "result": "no_profile_change_proposed",
+    "reason": "El cambio afecta priorización de originalidad y distribución, no resolución, códec, duración, safe zones, captions ni exportación."
+  },
+  "notes": [
+    "La fuente fue publicada después de la consulta del 2026-10-01 y se detectó en esta ejecución.",
+    "No existe una observación fechada 2026-10-02; no se fabricó una consulta retrospectiva. La búsqueda actual cubrió desde la última consulta verificable del 2026-10-01.",
+    "No se encontró una muestra suficiente de Ecuador o LATAM para elevar un patrón observado o llamar viral a una práctica.",
+    "No se modificaron reglas, perfiles, experimentos ni renders."
+  ]
+}

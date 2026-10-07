@@ -1,0 +1,63 @@
+# Prompt para editar un video ya separado por ingesta
+
+Sustituir `VIDEO-NN` por el identificador real y pegar este bloque en una tarea nueva del mismo proyecto.
+
+```text
+Edita únicamente VIDEO-NN y trabaja con autonomía hasta entregar su primer MP4 revisable.
+
+Lee y aplica completamente:
+
+- Framework-Edicion-Social/README.md
+- Framework-Edicion-Social/FLUJO_PRODUCCION_RAPIDA.md
+- Framework-Edicion-Social/MATRIZ_PRODUCCION_PRO.md
+- Framework-Edicion-Social/QA_PROFESIONAL.md
+- Framework-Edicion-Social/IMAGENES_CONTEXTO_REALISMO.md
+- Framework-Edicion-Social/MOTOR_APRENDIZAJE.md
+- Framework-Edicion-Social/OPERACION_OPTIMIZACION.md
+- Framework-Edicion-Social/profiles/creative_preferences.json
+- Framework-Edicion-Social/library/catalog.json
+- Serie-IA-Negocios-10-Videos/asset-lock.json
+- Serie-IA-Negocios-10-Videos/asset-intelligence/asset-index.json
+- Serie-IA-Negocios-10-Videos/asset-intelligence/usage-history.json
+- Serie-IA-Negocios-10-Videos/VIDEO-NN/PLAN_RECURSOS.md
+- Serie-IA-Negocios-10-Videos/VIDEO-NN/manifest.json
+
+Antes de editar, ejecuta el preflight con --video VIDEO-NN --stage edit. Si falla, corrige solo el bloqueo del video solicitado o informa el bloqueo real; no vuelvas a transcribir ni recorras el MOV completo.
+
+Reclama VIDEO-NN en el production-board con un owner estable antes de escribir. Si ya pertenece a otra tarea, no modifiques su carpeta. Respeta el límite de heavy jobs y libera el claim únicamente cuando hayas terminado o entregado un bloqueo real.
+
+Usa el take-map compartido y VIDEO-NN/source/*-source-range.json como fuente de verdad. El proxy es para montaje y preview. El render de entrega debe leer el rango exacto del MOV original registrado en source-range.json.
+
+Si la toma contiene `MARCADOR. Corregir, corregir. Última frase.`, exige que la corrección figure como `resolved` después de revisión por escucha. El montaje debe quitar la frase equivocada y la claqueta completas, conservar la repetición nueva y documentar los rangos y empalmes en `cut-plan.json`; la puntuación de la transcripción no decide el corte por sí sola.
+
+Escribe únicamente dentro de Serie-IA-Negocios-10-Videos/VIDEO-NN. Trata Framework-Edicion-Social y 00-INGESTA como solo lectura. No modifiques carpetas de otros videos.
+
+Compara la transcripción real con los recursos preparados; conserva lo pertinente, retira lo que ya no coincida y genera solo lo necesario por improvisaciones. Nunca uses activos rechazados, inelegibles o deprecados.
+
+Para cada imagen, verifica acción, personas, entorno y significado contra la frase hablada. Si el recurso disponible no encaja o es genérico, prioriza generar otro específico con fotografía natural y detalles del contexto; usa el banco solo si hay una alternativa adecuada. No fuerces reutilización por ahorro. Audita manos, miradas, perspectiva, equipos/pantallas, piel/luz y encuadre dentro del video; evita clichés de IA y conserva prompt/fuente, versiones y hashes. No prometas exclusividad ni que nadie detectará generación.
+
+Crea `creative-blueprint.json` desde la toma real. Consulta el índice con la intención de cada beat y compila `creative-recipe-plan.json` usando catálogo, contrato, ledger e índice completos. Revisa hasta tres opciones, cobertura, contraindicaciones, esfuerzo y fatiga. Solo si existe una selección humana explícita, crea `creative-attribution.json` ligado por hash al plan y copia exactamente opción, receta, familia primaria, contribuyentes y seis módulos; si no existe, conserva las propuestas pendientes o la abstención y no inventes atribución. El ranking no es similitud visual ni aprobación. Después ejecuta `score_style.py`. Consulta también el contrato de serie: conserva dimensiones `locked`, usa los rangos `bounded` y rota deliberadamente las dimensiones creativas. Si el selector se abstiene, conserva la abstención y resuelve el estilo editorialmente; no fuerces el preset con mayor puntuación ni copies la plantilla anterior. Congela recursos en `asset-lock.json`, copia `dependency-map.json` y genera una clave de caché antes del ensamblaje.
+
+Monta por capas, protege rostro y captions, compacta silencios según su función, usa zooms/transiciones/SFX semánticos y conserva descansos visuales. Después del primer render crea `review/review-packet.json` y `review/review.html` ligados a render, manifest, dependency-map, blueprint y cambios. Convierte cada corrección en rango, capa, elemento e instrucción; calcula impacto y revisa primero previews parciales con handles. La consola no sustituye el recibo de aprobación.
+
+Antes de entregar, ejecuta el preflight con --video VIDEO-NN --stage render --deep, completa el qa-scorecard del render exacto y corrige todo hard fail. Entrega MP4, editable, transcripción, cut-plan, plan de recetas, atribución creativa solo cuando esté respaldada por una selección humana, manifiestos, consola de revisión, scorecard y resumen breve de decisiones.
+
+Si el proyecto conserva HDR, esta primera entrega es un mezzanine editorial para revisión. Prepara un recibo `pending` ligado a su hash, pero no infieras aprobación. Después de la aprobación explícita se deriva el máster social neutral SDR `PLATFORM-MASTER-VERTICAL-001`. No generes Reels, TikTok ni Shorts hasta que exista aprobación explícita, content lock completo y linaje HDR→SDR verificado. Después se usa `PROMPT_DERIVADOS_PLATAFORMA.md`.
+```
+
+Este prompt presupone que la ingesta maestra ya terminó. Si el preflight informa `TAKE_MAP_MISSING`, `AUDIO_STREAM_UNLOCKED`, `VIDEO_TAKE_UNSELECTED`, `EDITING_PROXY_MISSING` o `SOURCE_RANGE_MISSING`, la tarea debe detener la edición pesada: esos problemas se resuelven una sola vez en la ingesta compartida, no dentro de cada video.
+
+## Limpieza de voz desde VIDEO-21
+
+Aplicar `AUDIO_LIMPIEZA_VOZ.md` antes de normalización y mezcla: diagnóstico de ruido, reducción cuando corresponda y comparación A/B. Preservar voz natural, duración y sincronía; guardar parámetros/hashes. La pista de análisis a 16 kHz no es fuente de mezcla.
+
+## Prevención verificada — captions anidados en export HDR (VIDEO-16, 2026-09-30)
+
+CLI0.8.98 puede forzar visibility:visible!important a descendientes de una capa DOM, aunque el wrapper temporizado esté oculto. En16, las22cajas ocuparon el mismo lugar y quedó el último caption durante todo el MP4. Studio/check correctos no detectaron esa diferencia del compositorHDR.
+
+- Mantener tiempos data-start/data-duration y añadir opacity:0 inicial al wrapper de cada cue, con GSAP determinista que lo activa al inicio y lo apaga al final. Opacity protege todo el subtree. No rebautizar display:flex como causa demostrada ni parchear dependencias instaladas.
+- Después de autorización de render, validar primero un export corto del pipeline real con al menos tres cues distintos, un gap vacío y un corte. Luego comprobar todos los cues, pausas y cola en el MP4 exacto. No sustituirlo por screenshots deStudio.
+- Smoke16 de4,8s/29,253s de comando: seis estados inspeccionados con cues correctos y lanevacía0/3,5333s. Check actualizado42tiempos/300muestrasPASS70,488s. El render largoV2 sigue sujeto aQA.
+- Para color, comparar el destino correcto: HDRtonemapped no acredita paleta idéntica aSDR ni pantallaHDRcertificada. No compensar coloresCSS a ojo. Producir/revisar un derivadoSDR gestionado para reproducción compatible cuando corresponda.
+
+Diagnóstico con código/hash: Serie-IA-Negocios-10-Videos/VIDEO-16/qa-supplements/2026-09-30-caption-render-diagnostic/. V1rechazada se preserva; no modificar videos anteriores aprobados sin solicitud.

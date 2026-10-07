@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/motion-style.schema.json",
+  "title": "Style motion presets",
+  "type": "object",
+  "required": ["schema_version", "style_id", "version", "presets", "rules"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "style_id": {"type": "string", "pattern": "^STYLE_[0-9]{3}_[A-Z0-9_]+$"},
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "presets": {"type": "object"},
+    "rules": {"type": "object"}
+  },
+  "additionalProperties": false
+}

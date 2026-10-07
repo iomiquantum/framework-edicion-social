@@ -1,0 +1,18 @@
+{
+  "at_utc": "2026-10-01T05:33:45.986847+00:00",
+  "reviewer": "/root/auditoria_flujos_26_30",
+  "status": "correction_required_parent_already_authorized",
+  "defect": "T26-TRANSITION-FACE-01",
+  "severity": "minor",
+  "evidence": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/qa/boundaries-final-v1/contact-sheet-5.jpg",
+    "sha256": "88ac2c51d07119a40835fc862cb073edbbb6621287e419f094779795f9657394"
+  },
+  "observed_times_s": [
+    21.233,
+    21.267
+  ],
+  "finding": "Texto de tarjetas y flecha se superponen al rostro durante entrada del panel semitransparente. La frontera de 5.2 s es titular fuera del rostro; las tarjetas entran a 21.2 s.",
+  "next": "VIDEO26 v2 a cargo de ingesta, preservar v1 y verificar muestras exactas nuevas.",
+  "human_listened": false
+}

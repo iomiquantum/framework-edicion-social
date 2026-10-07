@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/take-map.schema.json",
+  "title": "One-pass marker and take map",
+  "type": "object",
+  "required": ["schema_version", "project_id", "source", "transcript", "marker_protocol", "videos", "qa", "generated_at", "updated_at"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "project_id": {"type": "string"},
+    "source": {
+      "type": "object",
+      "required": ["id", "path", "sha256", "fps", "audio_stream_index"],
+      "properties": {
+        "id": {"type": "string"},
+        "path": {"type": "string"},
+        "sha256": {"type": "string"},
+        "fps": {"type": "number", "minimum": 1},
+        "audio_stream_index": {"type": ["integer", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "transcript": {"type": "object"},
+    "marker_protocol": {"enum": ["compact_v1", "compact_v2"]},
+    "videos": {"type": "array"},
+    "qa": {"type": "object"},
+    "generated_at": {"type": "string"},
+    "updated_at": {"type": "string"}
+  },
+  "additionalProperties": false
+}

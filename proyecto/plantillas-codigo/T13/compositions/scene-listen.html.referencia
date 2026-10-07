@@ -1,0 +1,21 @@
+<!doctype html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;background:#17353A;color:#17353A;font-family:Inter,Arial,sans-serif;pointer-events:none}
+  .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.78) contrast(1.08)}.wash{position:absolute;inset:0;background:rgba(23,53,58,.42)}
+  .title{position:absolute;left:46px;right:46px;top:54px;background:#F3E7CF;border:5px solid #17353A;box-shadow:12px 12px 0 #E76F51;padding:26px 30px;font:900 82px/.88 "Bebas Neue",Impact,sans-serif;text-transform:uppercase}
+  .stack{position:absolute;left:58px;right:58px;top:386px;display:grid;gap:22px}.item{min-height:150px;display:flex;align-items:center;justify-content:space-between;padding:22px 30px;background:#F3E7CF;border:5px solid #17353A;box-shadow:10px 10px 0 #E9C46A;font:900 64px/.9 Inter,Arial,sans-serif;transform-origin:left center}
+  .item b{display:grid;place-items:center;width:78px;height:78px;background:#E76F51;color:#17353A;border:4px solid #17353A;font:900 54px/1 "Bebas Neue",Impact,sans-serif}.item:nth-child(2){margin-left:70px;box-shadow:10px 10px 0 #8AB17D}.item:nth-child(3){margin-left:140px;box-shadow:10px 10px 0 #E76F51}
+  .footer{position:absolute;left:58px;right:58px;bottom:112px;background:#17353A;color:#F3E7CF;border:5px solid #F3E7CF;padding:26px;text-align:center;font:900 52px/.95 Inter,Arial,sans-serif}
+</style>
+<div data-hf-id="hf-v13-listen-root" id="root" data-composition-id="scene-listen" data-duration="6.40" data-width="1080" data-height="1920">
+  <img class="photo" data-layout-allow-overflow src="assets/video-13_broll_customer_calls_archive_v01.png" alt=""><div class="wash"></div><div class="title" id="title">LO QUE LA IA NO ESCUCHÓ</div>
+  <div class="stack"><div class="item"><span>LLAMADAS</span><b>01</b></div><div class="item"><span>OBJECIONES</span><b>02</b></div><div class="item"><span>POR QUÉ NO COMPRÓ</span><b>03</b></div></div><div class="footer" id="footer">AHÍ ESTÁ LA INFORMACIÓN REAL</div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#title",{y:-48,opacity:0},{y:0,opacity:1,duration:.44,ease:"power3.out"},.05);
+  gsap.utils.toArray(".item").forEach((el,i)=>tl.fromTo(el,{scale:0,opacity:0,y:24},{scale:1,opacity:1,y:0,duration:.46,ease:"power3.out"},.35+i*.16));
+  tl.fromTo("#footer",{y:40,opacity:0},{y:0,opacity:1,duration:.42,ease:"power3.out"},1.02).fromTo(".photo",{scale:1.04,x:-8},{scale:1.10,x:10,duration:6.4,ease:"none"},0);
+  window.__timelines["scene-listen"]=tl;
+</script>
+</template></body></html>

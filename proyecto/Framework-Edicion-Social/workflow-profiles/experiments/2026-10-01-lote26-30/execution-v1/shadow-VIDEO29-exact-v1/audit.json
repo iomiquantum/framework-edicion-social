@@ -1,0 +1,74 @@
+{
+  "at_utc": "2026-10-01T05:21:29.071413+00:00",
+  "reviewer": "/root/auditoria_flujos_26_30",
+  "status": "sampled_visual_and_technical_pass_with_transition_note",
+  "export": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/entrega/VIDEO-29-ENTREGA-HLG-v1.mp4",
+    "sha256": "5a9a4de94a95cfda18ad275666870997809f39acb111971d8c50146ba4b54bdd"
+  },
+  "exact_frames_inspected": 140,
+  "contact_sheets_inspected": 5,
+  "caption_cues_covered": 15,
+  "scope": "Existing exact export wholepiece/contact coverage, all cues/states/cuts/image entry-return and lastframe + original T29 board; no newdecode or fullcheck",
+  "evidence": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/entrega/VIDEO-29-ENTREGA-HLG-v1.mp4",
+      "sha256": "5a9a4de94a95cfda18ad275666870997809f39acb111971d8c50146ba4b54bdd"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/final-review-v1.json",
+      "sha256": "cc9743ce25fcb87a7f323610003dddc01a04edced72a4bb0ba26c6184d502c1a"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/QA_FIDELIDAD_PLANTILLA.md",
+      "sha256": "f68728d9409487c46f743d10309fcf020ca86a84d0d62b69ef68651a23221b7e"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/final-audio-v1/engine-parity-verified.json",
+      "sha256": "72a673ef9e92c0cf4d6d4eca29e8e822d5c8e6e81c8c84ee9ea7ef7d2617fd9a"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/post-render-v1/summary.json",
+      "sha256": "f453927328c0f3ad74c8be6ad134e8169d2e2ebbba5cb16f47016214c687be87"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/boundaries-final-v1/contact-sheet-5.jpg",
+      "sha256": "b86fd638f05a07e224ee07546364e1f982b4c23803fe1aec58dc3342799f5cc8"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/boundaries-final-v1/contact-sheet-4.jpg",
+      "sha256": "a0d67f0a6b9614a6b213a6bceaf8fb494640b30e9301f43b698cace40a504f4a"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/boundaries-final-v1/contact-sheet-3.jpg",
+      "sha256": "0a9d2daf5bec73eca09bf1a923cbc2a3428aba01f40c33c6f5b3f3036a8dd706"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/boundaries-final-v1/contact-sheet-2.jpg",
+      "sha256": "0fd6545a18a47bca74bad110cd1b05255263c2a7dde83c645d356086ccfd410b"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/boundaries-final-v1/contact-sheet-1.jpg",
+      "sha256": "b4b0ad9ce018f446f810f40077ceb50522606b599f6f435f5d04120aa54a0c5b"
+    }
+  ],
+  "observations": [
+    "Contrast cards, circular recall plate, presenter return and useful finalquestion preserve T29 beyondpalette",
+    "No captiondoublecue or ghosttitle at sampled boundaries; 15captioncues <=2 observedlines",
+    "Image11.8–13.9s reflects teaching/givingvalue and returns presenter",
+    "At6.133–6.2s and17.367–17.4s, intended0.16s panelcrossfade temporarily shows face behindgraphiccopy for2–3frames; documented bycreator and communicated to root",
+    "No blacksurroundflash; end and captionclosure intact",
+    "ExactAAC/fullsamplecorrelation1 +3SFXevents, -18LUFS/-2TP technicalevidence"
+  ],
+  "transition_note": {
+    "severity": "minor_observation",
+    "status": "creator_declared_intentional_parent_notified",
+    "limitation": "Cannot claim face alwaysunobstructed atallframes; brief transitional blending is visible. Not a lingering panel or ghosttitle.",
+    "improvement": "Keepincomingbackgroundopaque andanimate text or hardkillpresenter under fullgraphic"
+  },
+  "critical_escaped_defects": 0,
+  "human_listened": false,
+  "continuous_playback": false,
+  "editorial_user_approval": "not inferred",
+  "platformreview": "por confirmar"
+}

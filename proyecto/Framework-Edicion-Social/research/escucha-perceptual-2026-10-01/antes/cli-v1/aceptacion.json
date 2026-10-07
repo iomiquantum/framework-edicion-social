@@ -1,0 +1,440 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "doctor",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "doctor"
+      ],
+      "elapsed_process_seconds": 0.5253149169730023,
+      "exit_code": 0,
+      "stdout": "{\n  \"python\": \"/Users/iomijhondavid/.cache/codex-audio-perceptual/2026-10-01/venv/bin/python\",\n  \"ffmpeg\": \"/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg\",\n  \"versions\": {\n    \"numpy\": \"2.4.6\",\n    \"scipy\": \"1.17.1\",\n    \"soundfile\": \"0.14.0\",\n    \"pystoi\": \"0.4.1\",\n    \"ai-edge-litert\": \"2.2.0\"\n  },\n  \"headless\": true,\n  \"capabilities\": {\n    \"mix\": \"native48k curves/fades/pan/width/EQ/carve/downward duck/SFX tail\",\n    \"review\": \"ESTOI speech/music + YAMNet + acoustic bands/exact export/mono\",\n    \"prosody\": \"Existing timing/F0/intensity/pause profile cached by source hash\",\n    \"experimental_models\": \"Qwen/Gemma calibration retained; not routine gain or approval reviewers\"\n  },\n  \"human_hearing\": false,\n  \"model_sha256\": \"4d8b4a53282dc83ef04e3e7dbc4fbc98082e34e44ed798e16c3a0cdd4c584faf\"\n}\n",
+      "stderr": "",
+      "opens_interface": false,
+      "result": {
+        "python": "/Users/iomijhondavid/.cache/codex-audio-perceptual/2026-10-01/venv/bin/python",
+        "ffmpeg": "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+        "versions": {
+          "numpy": "2.4.6",
+          "scipy": "1.17.1",
+          "soundfile": "0.14.0",
+          "pystoi": "0.4.1",
+          "ai-edge-litert": "2.2.0"
+        },
+        "headless": true,
+        "capabilities": {
+          "mix": "native48k curves/fades/pan/width/EQ/carve/downward duck/SFX tail",
+          "review": "ESTOI speech/music + YAMNet + acoustic bands/exact export/mono",
+          "prosody": "Existing timing/F0/intensity/pause profile cached by source hash",
+          "experimental_models": "Qwen/Gemma calibration retained; not routine gain or approval reviewers"
+        },
+        "human_hearing": false,
+        "model_sha256": "4d8b4a53282dc83ef04e3e7dbc4fbc98082e34e44ed798e16c3a0cdd4c584faf"
+      }
+    },
+    {
+      "id": "catalogo",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "catalog",
+        "--type",
+        "music",
+        "--role",
+        "impulso"
+      ],
+      "elapsed_process_seconds": 0.5114554580068216,
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"id\": \"BGM-CAND-SB-NEON-NOMELODY\",\n    \"type\": \"bgm\",\n    \"title\": \"Neon · No Melody\",\n    \"file\": \"library/music/candidates/2026-09-30-prueba-ritmica/neon-no-melody.mp3\",\n    \"preview\": \"research/musica-bajo-voz-2026-09-30/audiciones/biblioteca-funciones/neon-20s.wav\",\n    \"sha256\": \"af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d\",\n    \"preview_sha256\": \"d601795e7df04d471196f40354a00e9bee91d9f263455191635de567e420f780\",\n    \"preview_changes\": {\n      \"source_start_s\": 45,\n      \"duration_s\": 20,\n      \"constant_gain_db\": -4.380000000000001,\n      \"fade_in_s\": 0.1,\n      \"fade_out_s\": 0.5\n    },\n    \"roles\": [\n      \"impulso\",\n      \"explicacion\"\n    ],\n    \"character\": \"Pulso electrónico retro; descripción oficial y propuesta editorial.\",\n    \"status\": \"direction_liked_in_C_pending_mix\",\n    \"feedback\": \"Te gustó el inicio y la dirección de C; pediste bajadas por momentos. No equivale a aprobación global.\",\n    \"caution\": \"Arpegios pueden disputar palabras suaves; probar automatización por frase.\",\n    \"license\": \"CC BY 4.0\",\n    \"license_url\": \"https://creativecommons.org/licenses/by/4.0/\",\n    \"credit\": \"'Neon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/neon/ · https://creativecommons.org/licenses/by/4.0/.\",\n    \"source_page\": \"https://www.scottbuckley.com.au/library/neon/\",\n    \"source_manifest\": \"library/music/candidates/2026-09-30-prueba-ritmica/manifest.json\",\n    \"history\": false\n  },\n  {\n    \"id\": \"BGM-CAND-SB-SARSAPARILLA\",\n    \"type\": \"bgm\",\n    \"title\": \"Sarsaparilla · Full Mix\",\n    \"file\": \"library/music/candidates/2026-09-30-funciones/sarsaparilla.mp3\",\n    \"preview\": \"research/musica-bajo-voz-2026-09-30/audiciones/biblioteca-funciones/sarsaparilla-20s.wav\",\n    \"sha256\": \"23729fc534e6a350d158e8df86bf16fe9e611da85ab0b11b3e82666ab588deb6\",\n    \"preview_sha256\": \"6f61b84b64a1139fdcbddde87ab0332a3b8173bd437e8699d06d18ef67aa8d25\",\n    \"preview_changes\": {\n      \"source_start_s\": 40,\n      \"duration_s\": 20,\n      \"constant_gain_db\": -6.9,\n      \"fade_in_s\": 0.1,\n      \"fade_out_s\": 0.5,\n      \"compression\": false\n    },\n    \"roles\": [\n      \"impulso\",\n      \"ejemplo\",\n      \"solucion\"\n    ],\n    \"character\": \"El compositor describe pop luminoso con percusión, guitarra y sintetizadores.\",\n    \"status\": \"candidate_not_listened\",\n    \"feedback\": \"Pendiente de escuchar con voz real.\",\n    \"caution\": \"Arreglo denso y sin mezcla alternativa. Puede competir con la voz; candidato para probar, no elección final.\",\n    \"license\": \"CC BY 4.0\",\n    \"license_url\": \"https://creativecommons.org/licenses/by/4.0/\",\n    \"credit\": \"'Sarsaparilla' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/sarsaparilla/ · https://creativecommons.org/licenses/by/4.0/.\",\n    \"source_page\": \"https://www.scottbuckley.com.au/library/sarsaparilla/\",\n    \"source_manifest\": \"library/music/candidates/2026-09-30-funciones/manifest.json\",\n    \"history\": false\n  },\n  {\n    \"id\": \"BGM-CAND-KM-BACKBAY-LOUNGE\",\n    \"type\": \"bgm\",\n    \"title\": \"Backbay Lounge\",\n    \"file\": \"library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3\",\n    \"preview\": \"library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge-preview-20s.wav\",\n    \"sha256\": \"9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96\",\n    \"preview_sha256\": \"42c62ef564b08b23b9494c203435f2124d0c2af1498220357bb868ac988afa7d\",\n    \"preview_changes\": {\n      \"source_start_s\": 38,\n      \"duration_s\": 20,\n      \"constant_gain_db\": -0.9600000000000009,\n      \"fade_in_s\": 0.1,\n      \"fade_out_s\": 0.5,\n      \"compression\": false\n    },\n    \"roles\": [\n      \"impulso\",\n      \"solucion\"\n    ],\n    \"character\": \"Piano, guitarra, bajo y batería según catálogo oficial; propuesta de groove ligero.\",\n    \"status\": \"candidate_in_context_pending_listening\",\n    \"feedback\": \"Nueva prueba en cinco mensajes; escucha y elección final por confirmar.\",\n    \"caution\": \"Arreglo/melodía pueden competir; evaluar por frase, no validar por nombre.\",\n    \"license\": \"CC BY 4.0\",\n    \"license_url\": \"https://creativecommons.org/licenses/by/4.0/\",\n    \"credit\": \"Backbay Lounge — Kevin MacLeod (incompetech.com). CC BY 4.0. https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700068 · https://creativecommons.org/licenses/by/4.0/. Cambios en estas pruebas: extractos, filtros de música, ganancia y automatización.\",\n    \"source_page\": \"https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700068\",\n    \"source_manifest\": \"library/music/candidates/2026-09-30-mezclas-contexto/manifest.json\",\n    \"history\": false,\n    \"context_bank\": \"research/prueba-mezcla-voz-2026-09-30/index.html\"\n  }\n]\n",
+      "stderr": "",
+      "opens_interface": false,
+      "result": [
+        {
+          "id": "BGM-CAND-SB-NEON-NOMELODY",
+          "type": "bgm",
+          "title": "Neon · No Melody",
+          "file": "library/music/candidates/2026-09-30-prueba-ritmica/neon-no-melody.mp3",
+          "preview": "research/musica-bajo-voz-2026-09-30/audiciones/biblioteca-funciones/neon-20s.wav",
+          "sha256": "af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d",
+          "preview_sha256": "d601795e7df04d471196f40354a00e9bee91d9f263455191635de567e420f780",
+          "preview_changes": {
+            "source_start_s": 45,
+            "duration_s": 20,
+            "constant_gain_db": -4.380000000000001,
+            "fade_in_s": 0.1,
+            "fade_out_s": 0.5
+          },
+          "roles": [
+            "impulso",
+            "explicacion"
+          ],
+          "character": "Pulso electrónico retro; descripción oficial y propuesta editorial.",
+          "status": "direction_liked_in_C_pending_mix",
+          "feedback": "Te gustó el inicio y la dirección de C; pediste bajadas por momentos. No equivale a aprobación global.",
+          "caution": "Arpegios pueden disputar palabras suaves; probar automatización por frase.",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "'Neon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/neon/ · https://creativecommons.org/licenses/by/4.0/.",
+          "source_page": "https://www.scottbuckley.com.au/library/neon/",
+          "source_manifest": "library/music/candidates/2026-09-30-prueba-ritmica/manifest.json",
+          "history": false
+        },
+        {
+          "id": "BGM-CAND-SB-SARSAPARILLA",
+          "type": "bgm",
+          "title": "Sarsaparilla · Full Mix",
+          "file": "library/music/candidates/2026-09-30-funciones/sarsaparilla.mp3",
+          "preview": "research/musica-bajo-voz-2026-09-30/audiciones/biblioteca-funciones/sarsaparilla-20s.wav",
+          "sha256": "23729fc534e6a350d158e8df86bf16fe9e611da85ab0b11b3e82666ab588deb6",
+          "preview_sha256": "6f61b84b64a1139fdcbddde87ab0332a3b8173bd437e8699d06d18ef67aa8d25",
+          "preview_changes": {
+            "source_start_s": 40,
+            "duration_s": 20,
+            "constant_gain_db": -6.9,
+            "fade_in_s": 0.1,
+            "fade_out_s": 0.5,
+            "compression": false
+          },
+          "roles": [
+            "impulso",
+            "ejemplo",
+            "solucion"
+          ],
+          "character": "El compositor describe pop luminoso con percusión, guitarra y sintetizadores.",
+          "status": "candidate_not_listened",
+          "feedback": "Pendiente de escuchar con voz real.",
+          "caution": "Arreglo denso y sin mezcla alternativa. Puede competir con la voz; candidato para probar, no elección final.",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "'Sarsaparilla' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/sarsaparilla/ · https://creativecommons.org/licenses/by/4.0/.",
+          "source_page": "https://www.scottbuckley.com.au/library/sarsaparilla/",
+          "source_manifest": "library/music/candidates/2026-09-30-funciones/manifest.json",
+          "history": false
+        },
+        {
+          "id": "BGM-CAND-KM-BACKBAY-LOUNGE",
+          "type": "bgm",
+          "title": "Backbay Lounge",
+          "file": "library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+          "preview": "library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge-preview-20s.wav",
+          "sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+          "preview_sha256": "42c62ef564b08b23b9494c203435f2124d0c2af1498220357bb868ac988afa7d",
+          "preview_changes": {
+            "source_start_s": 38,
+            "duration_s": 20,
+            "constant_gain_db": -0.9600000000000009,
+            "fade_in_s": 0.1,
+            "fade_out_s": 0.5,
+            "compression": false
+          },
+          "roles": [
+            "impulso",
+            "solucion"
+          ],
+          "character": "Piano, guitarra, bajo y batería según catálogo oficial; propuesta de groove ligero.",
+          "status": "candidate_in_context_pending_listening",
+          "feedback": "Nueva prueba en cinco mensajes; escucha y elección final por confirmar.",
+          "caution": "Arreglo/melodía pueden competir; evaluar por frase, no validar por nombre.",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Backbay Lounge — Kevin MacLeod (incompetech.com). CC BY 4.0. https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700068 · https://creativecommons.org/licenses/by/4.0/. Cambios en estas pruebas: extractos, filtros de música, ganancia y automatización.",
+          "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700068",
+          "source_manifest": "library/music/candidates/2026-09-30-mezclas-contexto/manifest.json",
+          "history": false,
+          "context_bank": "research/prueba-mezcla-voz-2026-09-30/index.html"
+        }
+      ]
+    },
+    {
+      "id": "mix_y_review_reutilizados",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "mix",
+        "--plan",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/plan-piloto-01.json",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/piloto-01-v1",
+        "--review"
+      ],
+      "elapsed_process_seconds": 0.7042486669961363,
+      "exit_code": 0,
+      "stdout": "{\n  \"cached\": true,\n  \"manifest\": \"/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/piloto-01-v1/mix.json\",\n  \"elapsed_seconds\": 0.14032991603016853,\n  \"review\": {\n    \"cached\": true,\n    \"report\": \"/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/piloto-01-v1/review/e46ddcb041dced6b/report.json\",\n    \"signature\": \"e46ddcb041dced6b3ac22b2bd93e5c13a3f70318a270825a7e4e105b0f2f56cf\",\n    \"elapsed_seconds\": 0.05186708411201835\n  }\n}\n",
+      "stderr": "",
+      "opens_interface": false,
+      "result": {
+        "cached": true,
+        "manifest": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/piloto-01-v1/mix.json",
+        "elapsed_seconds": 0.14032991603016853,
+        "review": {
+          "cached": true,
+          "report": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/piloto-01-v1/review/e46ddcb041dced6b/report.json",
+          "signature": "e46ddcb041dced6b3ac22b2bd93e5c13a3f70318a270825a7e4e105b0f2f56cf",
+          "elapsed_seconds": 0.05186708411201835
+        }
+      }
+    },
+    {
+      "id": "prosodia_primera",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "prosody",
+        "--voice",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-voz-sola.wav",
+        "--transcript",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/transcript-final.json",
+        "--direction",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/direction-01.json",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/prosody-01"
+      ],
+      "elapsed_process_seconds": 0.7029699169797823,
+      "exit_code": 0,
+      "stdout": "{\n  \"cached\": false,\n  \"report\": \"/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/prosody-01/00cbc454697b66df/prosody.json\",\n  \"signature\": \"00cbc454697b66df82bd587e1030ec3af999fd6174b3b20cadfbd186e09a55e8\",\n  \"script\": \"Existing acoustic profiler; no new ASR.\"\n}\n",
+      "stderr": "",
+      "opens_interface": false,
+      "result": {
+        "cached": false,
+        "report": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/prosody-01/00cbc454697b66df/prosody.json",
+        "signature": "00cbc454697b66df82bd587e1030ec3af999fd6174b3b20cadfbd186e09a55e8",
+        "script": "Existing acoustic profiler; no new ASR."
+      }
+    },
+    {
+      "id": "prosodia_cache",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "prosody",
+        "--voice",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-voz-sola.wav",
+        "--transcript",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/transcript-final.json",
+        "--direction",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/direction-01.json",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/prosody-01"
+      ],
+      "elapsed_process_seconds": 0.5736669580219314,
+      "exit_code": 0,
+      "stdout": "{\n  \"cached\": true,\n  \"report\": \"/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/prosody-01/00cbc454697b66df/prosody.json\"\n}\n",
+      "stderr": "",
+      "opens_interface": false,
+      "result": {
+        "cached": true,
+        "report": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/prosody-01/00cbc454697b66df/prosody.json"
+      }
+    },
+    {
+      "id": "largo-53_review",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "review",
+        "--voice",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-voz-sola.wav",
+        "--mix",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-53/mezcla.m4a",
+        "--music",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-53/musica.wav",
+        "--sfx",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-53/efectos.wav",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-53-review"
+      ],
+      "elapsed_process_seconds": 3.173028999939561,
+      "exit_code": 0,
+      "stdout": "{\n  \"cached\": false,\n  \"report\": \"/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-53-review/36375e7f2682bf48/report.json\",\n  \"signature\": \"36375e7f2682bf48f6d0e0f56909e458b1906f0c2d13e5e79b2b7adf833ec4f5\",\n  \"elapsed_seconds\": 2.624004542012699\n}\n",
+      "stderr": "INFO: Created TensorFlow Lite XNNPACK delegate for CPU.\n",
+      "opens_interface": false,
+      "result": {
+        "cached": false,
+        "report": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-53-review/36375e7f2682bf48/report.json",
+        "signature": "36375e7f2682bf48f6d0e0f56909e458b1906f0c2d13e5e79b2b7adf833ec4f5",
+        "elapsed_seconds": 2.624004542012699
+      }
+    },
+    {
+      "id": "largo-53_cache",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "review",
+        "--voice",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-voz-sola.wav",
+        "--mix",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-53/mezcla.m4a",
+        "--music",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-53/musica.wav",
+        "--sfx",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-53/efectos.wav",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-53-review"
+      ],
+      "elapsed_process_seconds": 0.6190533329499885,
+      "exit_code": 0,
+      "stdout": "{\n  \"cached\": true,\n  \"report\": \"/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-53-review/36375e7f2682bf48/report.json\",\n  \"signature\": \"36375e7f2682bf48f6d0e0f56909e458b1906f0c2d13e5e79b2b7adf833ec4f5\",\n  \"elapsed_seconds\": 0.08478933305013925\n}\n",
+      "stderr": "",
+      "opens_interface": false,
+      "result": {
+        "cached": true,
+        "report": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-53-review/36375e7f2682bf48/report.json",
+        "signature": "36375e7f2682bf48f6d0e0f56909e458b1906f0c2d13e5e79b2b7adf833ec4f5",
+        "elapsed_seconds": 0.08478933305013925
+      }
+    },
+    {
+      "id": "largo-159_review",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "review",
+        "--voice",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-voz-sola.wav",
+        "--mix",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-159/mezcla.m4a",
+        "--music",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-159/musica.wav",
+        "--sfx",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-159/efectos.wav",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-159-review"
+      ],
+      "elapsed_process_seconds": 7.298043709015474,
+      "exit_code": 0,
+      "stdout": "{\n  \"cached\": false,\n  \"report\": \"/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-159-review/2335a94afbbe2add/report.json\",\n  \"signature\": \"2335a94afbbe2add07e283e2fdd7052c91d89d54ad055f1216baae67a6132dbf\",\n  \"elapsed_seconds\": 6.746655041002668\n}\n",
+      "stderr": "INFO: Created TensorFlow Lite XNNPACK delegate for CPU.\n",
+      "opens_interface": false,
+      "result": {
+        "cached": false,
+        "report": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-159-review/2335a94afbbe2add/report.json",
+        "signature": "2335a94afbbe2add07e283e2fdd7052c91d89d54ad055f1216baae67a6132dbf",
+        "elapsed_seconds": 6.746655041002668
+      }
+    },
+    {
+      "id": "largo-159_cache",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "review",
+        "--voice",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-voz-sola.wav",
+        "--mix",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-159/mezcla.m4a",
+        "--music",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-159/musica.wav",
+        "--sfx",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-159/efectos.wav",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-159-review"
+      ],
+      "elapsed_process_seconds": 0.6603474579751492,
+      "exit_code": 0,
+      "stdout": "{\n  \"cached\": true,\n  \"report\": \"/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-159-review/2335a94afbbe2add/report.json\",\n  \"signature\": \"2335a94afbbe2add07e283e2fdd7052c91d89d54ad055f1216baae67a6132dbf\",\n  \"elapsed_seconds\": 0.10634499997831881\n}\n",
+      "stderr": "",
+      "opens_interface": false,
+      "result": {
+        "cached": true,
+        "report": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/largo-159-review/2335a94afbbe2add/report.json",
+        "signature": "2335a94afbbe2add07e283e2fdd7052c91d89d54ad055f1216baae67a6132dbf",
+        "elapsed_seconds": 0.10634499997831881
+      }
+    },
+    {
+      "id": "fuente_alterada",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "mix",
+        "--plan",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/fuente_alterada.json",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/fuente_alterada-output"
+      ],
+      "elapsed_process_seconds": 0.5354632919188589,
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "{\"status\": \"ERROR\", \"error\": \"Source hash missing or mismatched: /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-voz-sola.wav\"}\n",
+      "opens_interface": false
+    },
+    {
+      "id": "hook_ausente",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "mix",
+        "--plan",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/hook_ausente.json",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/hook_ausente-output"
+      ],
+      "elapsed_process_seconds": 1.1913300409214571,
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "{\"status\": \"ERROR\", \"error\": \"Hook must contain a linked non-silent SFX\"}\n",
+      "opens_interface": false
+    },
+    {
+      "id": "identidades_repetidas",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "mix",
+        "--plan",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/identidades_repetidas.json",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/identidades_repetidas-output"
+      ],
+      "elapsed_process_seconds": 1.253543958067894,
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "{\"status\": \"ERROR\", \"error\": \"20-30s videos need at least two real SFX identities\"}\n",
+      "opens_interface": false
+    },
+    {
+      "id": "evento_fuera",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "mix",
+        "--plan",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/evento_fuera.json",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/evento_fuera-output"
+      ],
+      "elapsed_process_seconds": 1.227329249959439,
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "{\"status\": \"ERROR\", \"error\": \"Clip is outside voice timeline\"}\n",
+      "opens_interface": false
+    },
+    {
+      "id": "parametro_desconocido",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "mix",
+        "--plan",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/parametro_desconocido.json",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/parametro_desconocido-output"
+      ],
+      "elapsed_process_seconds": 0.5487273749895394,
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "{\"status\": \"ERROR\", \"error\": \"Unsupported clip options: {'gay_db'}\"}\n",
+      "opens_interface": false
+    },
+    {
+      "id": "preservar_version",
+      "command": [
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/audio_multimedia",
+        "mix",
+        "--plan",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/guards/otra-version.json",
+        "--out",
+        "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/headless/piloto-01-v1"
+      ],
+      "elapsed_process_seconds": 0.5978232090128586,
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "{\"status\": \"ERROR\", \"error\": \"Output has a different version. Choose another --out; previous media are preserved.\"}\n",
+      "opens_interface": false
+    }
+  ],
+  "previous_output_unchanged": true,
+  "all_via_code": true,
+  "timing_scope": "One execution per condition on this Mac. Includes interpreter startup; no general production speed claim.",
+  "mix_first_run_seconds_from_receipt": 1.8183194589801133,
+  "human_listening": false
+}

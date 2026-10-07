@@ -1,0 +1,121 @@
+{
+  "status": "technical_pass_pending_user_review",
+  "date_local": "2026-09-30",
+  "purpose": "Respuesta al feedback de C: inicio gusta, falta bajar música por momentos para conservar mensaje.",
+  "id": "03-voz-efectos-pulso-automatizado",
+  "wav": "audiciones/practica-v2/03-voz-efectos-pulso-automatizado.wav",
+  "mp4": "audiciones/practica-v2/03-voz-efectos-pulso-automatizado.mp4",
+  "wav_sha256": "c70427df2307c3bc642a8bdd9b087fb350ff57982a472ded4d205a3083c99632",
+  "mp4_sha256": "4e881a6c8e319e90f413c9ea3d561b4bb36c8b422ae695cb1433b8d290bc2dbb",
+  "pcm_loudness": {
+    "input_i": "-16.98",
+    "input_tp": "-2.21",
+    "input_lra": "3.90",
+    "input_thresh": "-27.54",
+    "output_i": "-16.49",
+    "output_tp": "-1.61",
+    "output_lra": "2.50",
+    "output_thresh": "-27.05",
+    "normalization_type": "dynamic",
+    "target_offset": "0.49"
+  },
+  "aac_loudness": {
+    "input_i": "-16.99",
+    "input_tp": "-2.22",
+    "input_lra": "3.90",
+    "input_thresh": "-27.55",
+    "output_i": "-16.46",
+    "output_tp": "-1.62",
+    "output_lra": "2.50",
+    "output_thresh": "-27.05",
+    "normalization_type": "dynamic",
+    "target_offset": "0.46"
+  },
+  "envelope_relative_to_C_db": [
+    [
+      0,
+      0
+    ],
+    [
+      4.05,
+      0
+    ],
+    [
+      4.35,
+      -4
+    ],
+    [
+      4.7,
+      -4
+    ],
+    [
+      5.1,
+      -2
+    ],
+    [
+      5.32,
+      -6
+    ],
+    [
+      6.78,
+      -6
+    ],
+    [
+      7.0,
+      -2.5
+    ],
+    [
+      7.25,
+      -4.5
+    ],
+    [
+      8.8,
+      -4.5
+    ],
+    [
+      9.0,
+      -6
+    ],
+    [
+      9.45,
+      -5
+    ],
+    [
+      10.1,
+      -5
+    ],
+    [
+      10.65,
+      -5.5
+    ],
+    [
+      13.39,
+      -5.5
+    ],
+    [
+      19.5,
+      -5.5
+    ]
+  ],
+  "interpolation": "Lineal en dB; rides por frase, sin bombeo sílaba a sílaba.",
+  "beginning_identical_pcm_until_s": 4.05,
+  "beginning_max_error": 1.1920928955078125e-07,
+  "voice_sfx_invariance_max_error": 1.1920928955078125e-07,
+  "aac_pcm_correlation": 0.99999398299218,
+  "image_stream_unchanged": true,
+  "picture_source_sha256": "6ee143441088f43eb6aa0c318b6bf0505e9c8d8f91f7eaa893bda2f30491893e",
+  "voices_sfx_changed": false,
+  "new_voice_fx": false,
+  "C_preserved": true,
+  "sources": {
+    "audiciones/practica-v1/00-referencia-voz.wav": "3e80697058ed286a1e3f88d5098f25cf106d20d5fc4ddcca435457b80aa99e72",
+    "audiciones/practica-v1/efectos-solos.wav": "b9b494ebfbdc63fb490446402d91e23d9ea44bd472daf957aa2b9668dc9fa7f0",
+    "audiciones/practica-v1/cama-aplicada.wav": "169192e35864f8d45dd800590eb2fdad8f14609c06ee6b80d4db34fe3824b6d9"
+  },
+  "scope": "Prueba aislada, no sustituye editable/entrega13; sin incorporar música de referencia.",
+  "human_listening": "por confirmar",
+  "limits": [
+    "Los tiempos de palabras no son alineación fonética; revisar dentro del video.",
+    "Reducciones4–6dB son decisiones de prueba, no faders copiados de la referencia ni aprobación."
+  ]
+}

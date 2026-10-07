@@ -1,0 +1,828 @@
+[
+  {
+    "id": "largo-53",
+    "variant": "A",
+    "title": "Pulso y precisión",
+    "direction": "Groove presente que se controla por frase. Corte seco en tesis, transiciones cortas, movimientos medidos; sonido al frente solo cuando la voz da espacio.",
+    "duration_s": 52.93,
+    "music_clips": [
+      {
+        "music": "cipher",
+        "start": 0,
+        "end": 16.24,
+        "source_start": 27,
+        "relative_db_points": [
+          [
+            0,
+            -25
+          ],
+          [
+            0.5,
+            -15
+          ],
+          [
+            3.3,
+            -23
+          ],
+          [
+            4.8,
+            -15
+          ],
+          [
+            7.5,
+            -20
+          ],
+          [
+            8.4,
+            -16
+          ],
+          [
+            10.4,
+            -24
+          ],
+          [
+            11.3,
+            -18
+          ],
+          [
+            14.4,
+            -24
+          ],
+          [
+            15.3,
+            -30
+          ],
+          [
+            16.24,
+            -70
+          ]
+        ],
+        "role": "Bucle con groove y colas de voz despejadas.",
+        "character": "abierto",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/cipher.mp3",
+        "source_sha256": "d3d0614535a61d748e2fd8d5117fc4d781022a7624794802a2462d8af3fdd522",
+        "nominal_gain_db": 1.7719049549555552,
+        "carve_fraction": 0.35
+      },
+      {
+        "music": "backbay",
+        "start": 19.0,
+        "end": 32.77,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            19,
+            -35
+          ],
+          [
+            19.5,
+            -16
+          ],
+          [
+            20.8,
+            -22
+          ],
+          [
+            22.9,
+            -19
+          ],
+          [
+            24.6,
+            -29
+          ],
+          [
+            25.4,
+            -23
+          ],
+          [
+            29.7,
+            -25
+          ],
+          [
+            31.8,
+            -30
+          ],
+          [
+            32.77,
+            -70
+          ]
+        ],
+        "role": "Flujo, con espacio para criterios.",
+        "character": "abierto",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+        "source_sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+        "nominal_gain_db": 5.83005748903553,
+        "carve_fraction": 0.35
+      },
+      {
+        "music": "backbay",
+        "start": 35.06,
+        "end": 52.93,
+        "source_start": 70,
+        "relative_db_points": [
+          [
+            35.06,
+            -35
+          ],
+          [
+            35.7,
+            -16
+          ],
+          [
+            38.6,
+            -24
+          ],
+          [
+            39.2,
+            -20
+          ],
+          [
+            42.7,
+            -27
+          ],
+          [
+            44.2,
+            -35
+          ],
+          [
+            46.2,
+            -23
+          ],
+          [
+            47.4,
+            -28
+          ],
+          [
+            49.2,
+            -28
+          ],
+          [
+            51.6,
+            -40
+          ],
+          [
+            52.93,
+            -70
+          ]
+        ],
+        "role": "Aplicación; retirar al diseñar primero sistema y en pregunta.",
+        "character": "abierto",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+        "source_sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+        "nominal_gain_db": 3.678834140308804,
+        "carve_fraction": 0.35
+      }
+    ],
+    "sfx_events": [
+      {
+        "start": 0.025,
+        "file": "aire_breve",
+        "reason": "Apertura y advertencia inicial.",
+        "target_relative_rms_db": -14,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/aire_breve.wav",
+        "source_sha256": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+        "duration_s": 0.34,
+        "gain_db": -6.499999746713012,
+        "pan": 0,
+        "rendered_peak_dbfs": -20.43819991655119,
+        "rendered_rms_dbfs": -35.20174326120283,
+        "voice_context_dbfs": -19.22457663971761,
+        "tail_gain_min_db": -1.9382001307312877
+      },
+      {
+        "start": 4.79,
+        "file": "clic_calido",
+        "reason": "Pides: inicio del bucle.",
+        "target_relative_rms_db": -12,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/clic_calido.wav",
+        "source_sha256": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+        "duration_s": 0.105,
+        "gain_db": -9.20061564851249,
+        "pan": 0,
+        "rendered_peak_dbfs": -23.35579137283006,
+        "rendered_rms_dbfs": -36.87585921629556,
+        "voice_context_dbfs": -24.87550843911697,
+        "tail_gain_min_db": -0.15066959063839463
+      },
+      {
+        "start": 7.86,
+        "file": "dato_claro",
+        "reason": "Otra versión, avance que retorna.",
+        "target_relative_rms_db": -15,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/dato_claro.wav",
+        "source_sha256": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+        "duration_s": 0.18,
+        "gain_db": -12.143044439470216,
+        "pan": 0,
+        "rendered_peak_dbfs": -25.463966656952415,
+        "rendered_rms_dbfs": -38.54982284510125,
+        "voice_context_dbfs": -23.50072495677919,
+        "tail_gain_min_db": -1.043034543746664
+      },
+      {
+        "start": 10.96,
+        "file": "reinicio_suave",
+        "reason": "El bucle vuelve.",
+        "target_relative_rms_db": -15,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/reinicio_suave.wav",
+        "source_sha256": "cdf817df3efeac07185df5703fe304dbeb2045e79931595c4ddb04e7fbf55a08",
+        "duration_s": 0.32,
+        "gain_db": -6.500003868867996,
+        "pan": 0,
+        "rendered_peak_dbfs": -19.053315619175454,
+        "rendered_rms_dbfs": -38.48437733803521,
+        "voice_context_dbfs": -22.668020812586676,
+        "tail_gain_min_db": -1.8405699321519278
+      },
+      {
+        "start": 16.21,
+        "file": "cambio_corto",
+        "reason": "Automatizar: cambio de definición.",
+        "target_relative_rms_db": -14,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/cambio_corto.wav",
+        "source_sha256": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+        "duration_s": 0.19,
+        "gain_db": -11.489378283661026,
+        "pan": 0,
+        "rendered_peak_dbfs": -23.722877816547797,
+        "rendered_rms_dbfs": -37.815166365036916,
+        "voice_context_dbfs": -23.603725365723434,
+        "tail_gain_min_db": -0.8742895209041662
+      },
+      {
+        "start": 19.01,
+        "file": "resolucion_doble",
+        "reason": "Diseñar el flujo y sus reglas.",
+        "target_relative_rms_db": -15,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/resolucion_doble.wav",
+        "source_sha256": "d408aa51bf045ceb4ceb8559f73f9fb55509436f6de3c6b148001b56ed506370",
+        "duration_s": 0.55,
+        "gain_db": -11.841533795828877,
+        "pan": 0,
+        "rendered_peak_dbfs": -24.32859443986821,
+        "rendered_rms_dbfs": -36.666670107990065,
+        "voice_context_dbfs": -21.17281880850267,
+        "tail_gain_min_db": -1.9382001307312877
+      },
+      {
+        "start": 24.88,
+        "file": "pulso_redondo",
+        "reason": "Todo vuelve a ti; baja el arreglo.",
+        "target_relative_rms_db": -15,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/pulso_redondo.wav",
+        "source_sha256": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+        "duration_s": 0.24,
+        "gain_db": -13.79754990186754,
+        "pan": 0,
+        "rendered_peak_dbfs": -26.727968454609773,
+        "rendered_rms_dbfs": -38.426281328473166,
+        "voice_context_dbfs": -23.40576685204031,
+        "tail_gain_min_db": -0.5911341260737023
+      },
+      {
+        "start": 33.04,
+        "file": "pulso_redondo",
+        "reason": "Tesis, fondo retirado.",
+        "target_relative_rms_db": -12,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/pulso_redondo.wav",
+        "source_sha256": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+        "duration_s": 0.24,
+        "gain_db": -11.188924026705042,
+        "pan": 0,
+        "rendered_peak_dbfs": -24.11934283117072,
+        "rendered_rms_dbfs": -35.81045352603289,
+        "voice_context_dbfs": -23.797140976877813,
+        "tail_gain_min_db": -0.28276139174484616
+      },
+      {
+        "start": 34.93,
+        "file": "dato_claro",
+        "reason": "Haz esta prueba: inicia aplicación.",
+        "target_relative_rms_db": -12,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/dato_claro.wav",
+        "source_sha256": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+        "duration_s": 0.18,
+        "gain_db": -8.90562945400098,
+        "pan": 0,
+        "rendered_peak_dbfs": -22.22655140198613,
+        "rendered_rms_dbfs": -35.277398300076555,
+        "voice_context_dbfs": -23.263309971309955,
+        "tail_gain_min_db": -0.9770517578767797
+      },
+      {
+        "start": 38.94,
+        "file": "clic_calido",
+        "reason": "Comprobar con una regla.",
+        "target_relative_rms_db": -16,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/clic_calido.wav",
+        "source_sha256": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+        "duration_s": 0.105,
+        "gain_db": -11.5455419134341,
+        "pan": 0,
+        "rendered_peak_dbfs": -25.700717595734517,
+        "rendered_rms_dbfs": -39.22059032866515,
+        "voice_context_dbfs": -23.22043470403858,
+        "tail_gain_min_db": -0.046187701522654924
+      },
+      {
+        "start": 43.17,
+        "file": "clic_calido",
+        "reason": "Punto final de la lista, discreto.",
+        "target_relative_rms_db": -17,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/clic_calido.wav",
+        "source_sha256": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+        "duration_s": 0.105,
+        "gain_db": -12.2495193204985,
+        "pan": 0,
+        "rendered_peak_dbfs": -26.40469416302431,
+        "rendered_rms_dbfs": -39.93022240082056,
+        "voice_context_dbfs": -22.924412111102978,
+        "tail_gain_min_db": -1.8765628837943518
+      },
+      {
+        "start": 47.56,
+        "file": "cambio_corto",
+        "reason": "Pregunta de cierre, sin crescendo.",
+        "target_relative_rms_db": -17,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/cambio_corto.wav",
+        "source_sha256": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+        "duration_s": 0.19,
+        "gain_db": -14.951319792342844,
+        "pan": 0,
+        "rendered_peak_dbfs": -27.17891038391537,
+        "rendered_rms_dbfs": -41.27037179293489,
+        "voice_context_dbfs": -24.065666874405252,
+        "tail_gain_min_db": -0.8367614373985809
+      }
+    ],
+    "voice_file": "renders/v2/largo-53-voz-sola.wav",
+    "voice_sha256": "845d7d20e233fa7dc724616ff6e561285f168976bf0b63cc6e7e9671b5dc9b4f",
+    "source_sha256": "498b2f0cfa8375abc15e1f6b358337fa47ba09121e172f5811aa8a6299c91d47",
+    "files": {
+      "variantes-largas/largo-53/A/musica.m4a": {
+        "sha256": "a2ee24bdcda30d8f4c0eb7e1d72128589d0bbea0d651e4fa8382fd903f831df4",
+        "bytes": 1498359
+      },
+      "variantes-largas/largo-53/A/mezcla.m4a": {
+        "sha256": "671c5f23822be643bbbb48a483123d45bc27b8fe59c424c97b5bdadbf14f4de2",
+        "bytes": 1649236
+      },
+      "variantes-largas/largo-53/A/mezcla.wav": {
+        "sha256": "31c9df0e43a0053f928e16c4f4b075f08568d44c55f0742cc0a89990e0d73a94",
+        "bytes": 15243884
+      },
+      "variantes-largas/largo-53/A/musica.wav": {
+        "sha256": "b6a2315f3bcd82077a782d0e44fc3b10df1f15dbc203ede01ac28a43f4f7e5dc",
+        "bytes": 15243884
+      },
+      "variantes-largas/largo-53/A/mezcla-v1.wav": {
+        "sha256": "698428986cf1e19bb43b1bab032f1cc6fb3c81471a5f40eee6b227c206185b3e",
+        "bytes": 15243884
+      },
+      "variantes-largas/largo-53/A/efectos.wav": {
+        "sha256": "895a97a3f4e1b25b47723479f78cbbd233a80088f9c80a27b758ca803e519b39",
+        "bytes": 15243884
+      },
+      "variantes-largas/largo-53/A/efectos.m4a": {
+        "sha256": "aa4e915ef8823f31274990967b2ef1ce7a0e0eb76827565f7a5c46d18e505c32",
+        "bytes": 82330
+      }
+    },
+    "diagnostics": {
+      "voice_band_threshold_dbfs": -40,
+      "median_music_relative_db": -32.199998198054885,
+      "p95_music_relative_db": -17.092891487059983,
+      "max_music_relative_db": -9.99169296950391,
+      "v1_mix": {
+        "input_i": -18.0,
+        "input_tp": -5.65,
+        "input_lra": 1.2
+      },
+      "v2_mix": {
+        "input_i": -18.01,
+        "input_tp": -5.84,
+        "input_lra": 1.1
+      },
+      "applied_secondary_gain_min_db": -6.100912833169876,
+      "max_abs_stems_error": 2.384185791015625e-07,
+      "emergency_accompaniment_gain_db": 0,
+      "aac_adjustments": []
+    },
+    "aac_pcm_correlation": 0.9999810577127154,
+    "sfx_identities": 7,
+    "hook_sfx": true,
+    "human_listening": "por confirmar",
+    "native_playback": "pending",
+    "elapsed_seconds": 5.396
+  },
+  {
+    "id": "largo-53",
+    "variant": "B",
+    "title": "Cálida y fluida",
+    "direction": "Paleta acústica y piano ligero, transiciones suaves, menos impactos, microvariación de arreglo. Alternativa al pulso electrónico.",
+    "duration_s": 52.93,
+    "music_clips": [
+      {
+        "music": "backbay",
+        "start": 0,
+        "end": 16.18,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            0,
+            -25
+          ],
+          [
+            0.6,
+            -17
+          ],
+          [
+            3.1,
+            -24
+          ],
+          [
+            5,
+            -19
+          ],
+          [
+            7.8,
+            -25
+          ],
+          [
+            8.6,
+            -18
+          ],
+          [
+            10.3,
+            -26
+          ],
+          [
+            11.5,
+            -22
+          ],
+          [
+            15.2,
+            -31
+          ],
+          [
+            16.18,
+            -70
+          ]
+        ],
+        "role": "Relato de negocio con avance ligero.",
+        "character": "abierto",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+        "source_sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+        "nominal_gain_db": 5.399602881415397,
+        "carve_fraction": 0.28
+      },
+      {
+        "music": "clean",
+        "start": 16.26,
+        "end": 32.72,
+        "source_start": 31,
+        "relative_db_points": [
+          [
+            16.26,
+            -40
+          ],
+          [
+            17.1,
+            -21
+          ],
+          [
+            18.7,
+            -26
+          ],
+          [
+            19.6,
+            -19
+          ],
+          [
+            22.5,
+            -23
+          ],
+          [
+            24.6,
+            -30
+          ],
+          [
+            26,
+            -24
+          ],
+          [
+            30.4,
+            -29
+          ],
+          [
+            32.72,
+            -70
+          ]
+        ],
+        "role": "Definición/sistema con otra textura; tesis fuera.",
+        "character": "abierto",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/clean-soul.mp3",
+        "source_sha256": "458868c225cf8f6dbaf17300aa2e0839386991be8581d0218554699297d7581c",
+        "nominal_gain_db": 10.956536278958065,
+        "carve_fraction": 0.28
+      },
+      {
+        "music": "backbay",
+        "start": 35.08,
+        "end": 47.45,
+        "source_start": 75,
+        "relative_db_points": [
+          [
+            35.08,
+            -36
+          ],
+          [
+            35.7,
+            -18
+          ],
+          [
+            38.8,
+            -24
+          ],
+          [
+            40.1,
+            -21
+          ],
+          [
+            43.2,
+            -28
+          ],
+          [
+            44.2,
+            -35
+          ],
+          [
+            46,
+            -24
+          ],
+          [
+            47.45,
+            -70
+          ]
+        ],
+        "role": "Aplicación con una retirada en la condición.",
+        "character": "abierto",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+        "source_sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+        "nominal_gain_db": 3.578666145092016,
+        "carve_fraction": 0.28
+      },
+      {
+        "music": "clean",
+        "start": 47.7,
+        "end": 52.93,
+        "source_start": 69,
+        "relative_db_points": [
+          [
+            47.7,
+            -38
+          ],
+          [
+            48.4,
+            -25
+          ],
+          [
+            50.1,
+            -29
+          ],
+          [
+            51.7,
+            -36
+          ],
+          [
+            52.93,
+            -70
+          ]
+        ],
+        "role": "Pregunta con piano tenue.",
+        "character": "abierto",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/clean-soul.mp3",
+        "source_sha256": "458868c225cf8f6dbaf17300aa2e0839386991be8581d0218554699297d7581c",
+        "nominal_gain_db": 11.47507042971737,
+        "carve_fraction": 0.28
+      }
+    ],
+    "sfx_events": [
+      {
+        "start": 0.025,
+        "file": "aire_breve",
+        "reason": "Apertura y advertencia inicial.",
+        "target_relative_rms_db": -14,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/aire_breve.wav",
+        "source_sha256": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+        "duration_s": 0.34,
+        "gain_db": -6.499999746713012,
+        "pan": 0,
+        "rendered_peak_dbfs": -20.43819991655119,
+        "rendered_rms_dbfs": -35.20174326120283,
+        "voice_context_dbfs": -19.22457663971761,
+        "tail_gain_min_db": -1.9382001307312877
+      },
+      {
+        "start": 4.79,
+        "file": "clic_calido",
+        "reason": "Pides: inicio del bucle.",
+        "target_relative_rms_db": -12,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/clic_calido.wav",
+        "source_sha256": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+        "duration_s": 0.105,
+        "gain_db": -9.20061564851249,
+        "pan": 0,
+        "rendered_peak_dbfs": -23.35579137283006,
+        "rendered_rms_dbfs": -36.87585921629556,
+        "voice_context_dbfs": -24.87550843911697,
+        "tail_gain_min_db": -0.15066959063839463
+      },
+      {
+        "start": 10.96,
+        "file": "reinicio_suave",
+        "reason": "El bucle vuelve.",
+        "target_relative_rms_db": -15,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/reinicio_suave.wav",
+        "source_sha256": "cdf817df3efeac07185df5703fe304dbeb2045e79931595c4ddb04e7fbf55a08",
+        "duration_s": 0.32,
+        "gain_db": -6.500003868867996,
+        "pan": 0,
+        "rendered_peak_dbfs": -19.053315619175454,
+        "rendered_rms_dbfs": -38.48437733803521,
+        "voice_context_dbfs": -22.668020812586676,
+        "tail_gain_min_db": -1.8405699321519278
+      },
+      {
+        "start": 16.21,
+        "file": "cambio_corto",
+        "reason": "Automatizar: cambio de definición.",
+        "target_relative_rms_db": -14,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/cambio_corto.wav",
+        "source_sha256": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+        "duration_s": 0.19,
+        "gain_db": -11.489378283661026,
+        "pan": 0,
+        "rendered_peak_dbfs": -23.722877816547797,
+        "rendered_rms_dbfs": -37.815166365036916,
+        "voice_context_dbfs": -23.603725365723434,
+        "tail_gain_min_db": -0.8742895209041662
+      },
+      {
+        "start": 19.01,
+        "file": "resolucion_doble",
+        "reason": "Diseñar el flujo y sus reglas.",
+        "target_relative_rms_db": -15,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/resolucion_doble.wav",
+        "source_sha256": "d408aa51bf045ceb4ceb8559f73f9fb55509436f6de3c6b148001b56ed506370",
+        "duration_s": 0.55,
+        "gain_db": -11.841533795828877,
+        "pan": 0,
+        "rendered_peak_dbfs": -24.32859443986821,
+        "rendered_rms_dbfs": -36.666670107990065,
+        "voice_context_dbfs": -21.17281880850267,
+        "tail_gain_min_db": -1.9382001307312877
+      },
+      {
+        "start": 33.04,
+        "file": "pulso_redondo",
+        "reason": "Tesis, fondo retirado.",
+        "target_relative_rms_db": -12,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/pulso_redondo.wav",
+        "source_sha256": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+        "duration_s": 0.24,
+        "gain_db": -11.188924026705042,
+        "pan": 0,
+        "rendered_peak_dbfs": -24.11934283117072,
+        "rendered_rms_dbfs": -35.81045352603289,
+        "voice_context_dbfs": -23.797140976877813,
+        "tail_gain_min_db": -0.28276139174484616
+      },
+      {
+        "start": 34.93,
+        "file": "dato_claro",
+        "reason": "Haz esta prueba: inicia aplicación.",
+        "target_relative_rms_db": -12,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/dato_claro.wav",
+        "source_sha256": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+        "duration_s": 0.18,
+        "gain_db": -8.90562945400098,
+        "pan": 0,
+        "rendered_peak_dbfs": -22.22655140198613,
+        "rendered_rms_dbfs": -35.277398300076555,
+        "voice_context_dbfs": -23.263309971309955,
+        "tail_gain_min_db": -0.9770517578767797
+      },
+      {
+        "start": 38.94,
+        "file": "clic_calido",
+        "reason": "Comprobar con una regla.",
+        "target_relative_rms_db": -16,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/clic_calido.wav",
+        "source_sha256": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+        "duration_s": 0.105,
+        "gain_db": -11.5455419134341,
+        "pan": 0,
+        "rendered_peak_dbfs": -25.700717595734517,
+        "rendered_rms_dbfs": -39.22059032866515,
+        "voice_context_dbfs": -23.22043470403858,
+        "tail_gain_min_db": -0.046187701522654924
+      },
+      {
+        "start": 47.56,
+        "file": "cambio_corto",
+        "reason": "Pregunta de cierre, sin crescendo.",
+        "target_relative_rms_db": -17,
+        "reverse": false,
+        "source": "Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/cambio_corto.wav",
+        "source_sha256": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+        "duration_s": 0.19,
+        "gain_db": -14.951319792342844,
+        "pan": 0,
+        "rendered_peak_dbfs": -27.17891038391537,
+        "rendered_rms_dbfs": -41.27037179293489,
+        "voice_context_dbfs": -24.065666874405252,
+        "tail_gain_min_db": -0.8367614373985809
+      }
+    ],
+    "voice_file": "renders/v2/largo-53-voz-sola.wav",
+    "voice_sha256": "845d7d20e233fa7dc724616ff6e561285f168976bf0b63cc6e7e9671b5dc9b4f",
+    "source_sha256": "498b2f0cfa8375abc15e1f6b358337fa47ba09121e172f5811aa8a6299c91d47",
+    "files": {
+      "variantes-largas/largo-53/B/musica.m4a": {
+        "sha256": "714c17e5d5edc94eebb7e6717cb03729e93858b078673009928309cddc11619c",
+        "bytes": 1483721
+      },
+      "variantes-largas/largo-53/B/mezcla.m4a": {
+        "sha256": "53a0b690214552bbc3672ba3093cb6c7ff0db8eeaf1e0bebf583f64b510cf8b4",
+        "bytes": 1620824
+      },
+      "variantes-largas/largo-53/B/mezcla.wav": {
+        "sha256": "8fe0c41d7fbaee79ceffe6365d2e65a516b77b73271bdf2909ebbf6db00fad4d",
+        "bytes": 15243884
+      },
+      "variantes-largas/largo-53/B/musica.wav": {
+        "sha256": "0d1299bb8ca7540f000317b1db65433c33273e60561ee3854d217071a968672b",
+        "bytes": 15243884
+      },
+      "variantes-largas/largo-53/B/mezcla-v1.wav": {
+        "sha256": "3263a2ff6f7a9da0a9c0b3a595fc51c52e4ce69abeb56239e985f2ab56e90bf9",
+        "bytes": 15243884
+      },
+      "variantes-largas/largo-53/B/efectos.wav": {
+        "sha256": "3074c023b631b8bb2d51c685120bcd84e62fb7e7ac01c1a7755cfe40200b0ac7",
+        "bytes": 15243884
+      },
+      "variantes-largas/largo-53/B/efectos.m4a": {
+        "sha256": "4bc4088552c7cf630cf6bf8a68f31512e1cb269f09b9839314962304f843d372",
+        "bytes": 75322
+      }
+    },
+    "diagnostics": {
+      "voice_band_threshold_dbfs": -40,
+      "median_music_relative_db": -36.7492099485849,
+      "p95_music_relative_db": -22.08818954657518,
+      "max_music_relative_db": -13.088321911469611,
+      "v1_mix": {
+        "input_i": -17.99,
+        "input_tp": -5.72,
+        "input_lra": 1.1
+      },
+      "v2_mix": {
+        "input_i": -18.01,
+        "input_tp": -5.92,
+        "input_lra": 1.1
+      },
+      "applied_secondary_gain_min_db": -4.49874489453366,
+      "max_abs_stems_error": 2.384185791015625e-07,
+      "emergency_accompaniment_gain_db": 0,
+      "aac_adjustments": []
+    },
+    "aac_pcm_correlation": 0.9999887021974355,
+    "sfx_identities": 7,
+    "hook_sfx": true,
+    "human_listening": "por confirmar",
+    "native_playback": "pending",
+    "elapsed_seconds": 5.166
+  }
+]

@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/series-contract.schema.json",
+  "title": "Series memory contract and creative family bible",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "series_id",
+    "status",
+    "seed_policy",
+    "promotion_policy",
+    "recalibration_policy",
+    "quality_policy",
+    "family_policy",
+    "dimensions",
+    "template_families"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "series_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+    "status": {"enum": ["draft", "active", "retired"]},
+    "seed_policy": {
+      "type": "object",
+      "required": ["seed_fingerprint_ids", "rule", "automatic_enforcement"],
+      "properties": {
+        "seed_fingerprint_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "rule": {"const": "reference_not_law"},
+        "automatic_enforcement": {"const": false}
+      },
+      "additionalProperties": false
+    },
+    "promotion_policy": {
+      "type": "object",
+      "required": [
+        "default_minimum_approved_videos",
+        "approvals_must_be_distinct_videos",
+        "matching_evidence_required",
+        "explicit_instruction_can_promote",
+        "creative_dimensions_never_collapse_to_single_value"
+      ],
+      "properties": {
+        "default_minimum_approved_videos": {"const": 2},
+        "approvals_must_be_distinct_videos": {"const": true},
+        "matching_evidence_required": {"const": true},
+        "explicit_instruction_can_promote": {"const": true},
+        "creative_dimensions_never_collapse_to_single_value": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "recalibration_policy": {
+      "type": "object",
+      "required": ["minimum_approved_videos", "interval_approved_videos", "mode", "last_recalibrated_approved_count"],
+      "properties": {
+        "minimum_approved_videos": {"const": 3},
+        "interval_approved_videos": {"type": "integer", "minimum": 1},
+        "mode": {"const": "review_before_apply"},
+        "last_recalibrated_approved_count": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "quality_policy": {
+      "type": "object",
+      "required": [
+        "similarity_is_quality_score",
+        "similarity_can_fail_quality",
+        "human_creative_review_required",
+        "technical_qa_required",
+        "creative_variation_required"
+      ],
+      "properties": {
+        "similarity_is_quality_score": {"const": false},
+        "similarity_can_fail_quality": {"const": false},
+        "human_creative_review_required": {"const": true},
+        "technical_qa_required": {"const": true},
+        "creative_variation_required": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "family_policy": {
+      "type": "object",
+      "required": ["single_global_winner", "preserve_multiple_families", "selection_basis", "minimum_active_families_target"],
+      "properties": {
+        "single_global_winner": {"const": false},
+        "preserve_multiple_families": {"const": true},
+        "selection_basis": {"const": "content_audience_platform_fit"},
+        "minimum_active_families_target": {"type": "integer", "minimum": 2}
+      },
+      "additionalProperties": false
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "dimension_id",
+          "selector",
+          "value_source",
+          "classification",
+          "scope",
+          "family_ids",
+          "state",
+          "enforcement",
+          "comparison",
+          "expected",
+          "source",
+          "evidence",
+          "rationale"
+        ],
+        "properties": {
+          "dimension_id": {"type": "string", "pattern": "^DIM-[A-Z0-9_-]+$"},
+          "selector": {"type": "string", "pattern": "^[a-z0-9_.-]+$"},
+          "value_source": {"enum": ["fields", "traits"]},
+          "classification": {"enum": ["locked", "bounded", "rotating", "free"]},
+          "scope": {"enum": ["series", "family"]},
+          "family_ids": {"type": "array", "items": {"type": "string", "pattern": "^FAMILY-[A-Z0-9_-]+$"}, "uniqueItems": true},
+          "state": {"enum": ["seed", "candidate", "default", "explicit"]},
+          "enforcement": {"enum": ["observe", "warn", "block"]},
+          "comparison": {"enum": ["exact", "allowed_set", "numeric_range", "rotation", "none"]},
+          "expected": {
+            "type": "object",
+            "required": ["exact_values", "allowed_values", "minimum", "maximum", "rotation"],
+            "properties": {
+              "exact_values": {
+                "type": "array",
+                "items": {"type": ["string", "number", "boolean", "null"]},
+                "uniqueItems": true
+              },
+              "allowed_values": {
+                "type": "array",
+                "items": {"type": ["string", "number", "boolean", "null"]},
+                "uniqueItems": true
+              },
+              "minimum": {"type": ["number", "null"]},
+              "maximum": {"type": ["number", "null"]},
+              "rotation": {
+                "type": ["object", "null"],
+                "required": ["window", "max_consecutive", "max_occurrences_in_window", "minimum_unique_in_window"],
+                "properties": {
+                  "window": {"type": "integer", "minimum": 2},
+                  "max_consecutive": {"type": "integer", "minimum": 1},
+                  "max_occurrences_in_window": {"type": "integer", "minimum": 1},
+                  "minimum_unique_in_window": {"type": "integer", "minimum": 1}
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "source": {"enum": ["seed_observation", "approved_pattern", "explicit_instruction", "manual"]},
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["video_id", "fingerprint_id", "approval_ref", "instruction_ref"],
+              "properties": {
+              "video_id": {"type": ["string", "null"], "pattern": "^[A-Z0-9][A-Z0-9_-]*$"},
+              "fingerprint_id": {"type": ["string", "null"], "pattern": "^FP-[A-Z0-9_-]+-[A-F0-9]{12}$"},
+              "approval_ref": {"type": ["string", "null"], "minLength": 1},
+                "instruction_ref": {"type": ["string", "null"]}
+              },
+              "additionalProperties": false
+            }
+          },
+          "rationale": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "template_families": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "family_id",
+          "name",
+          "archetype_id",
+          "status",
+          "lineage",
+          "intended_for",
+          "preserved_dimensions",
+          "controlled_dimensions",
+          "novelty_budget"
+        ],
+        "properties": {
+          "family_id": {"type": "string", "pattern": "^FAMILY-[A-Z0-9_-]+$"},
+          "name": {"type": "string", "minLength": 1},
+          "archetype_id": {"type": "string", "pattern": "^ARCH-[A-Z0-9_-]+$"},
+          "status": {"enum": ["experimental", "candidate", "validated", "retired"]},
+          "lineage": {
+            "type": "object",
+            "required": ["parent_family_id", "derived_from_video_ids", "change_hypothesis"],
+            "properties": {
+              "parent_family_id": {"type": ["string", "null"], "pattern": "^FAMILY-[A-Z0-9_-]+$"},
+              "derived_from_video_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+              "change_hypothesis": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          },
+          "intended_for": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "preserved_dimensions": {"type": "array", "items": {"type": "string", "pattern": "^DIM-[A-Z0-9_-]+$"}, "uniqueItems": true},
+          "controlled_dimensions": {"type": "array", "items": {"type": "string", "pattern": "^DIM-[A-Z0-9_-]+$"}, "uniqueItems": true},
+          "novelty_budget": {
+            "type": "object",
+            "required": [
+              "comparison_window",
+              "minimum_changed_rotating_dimensions",
+              "maximum_changed_locked_dimensions",
+              "target_similarity_minimum",
+              "target_similarity_maximum"
+            ],
+            "properties": {
+              "comparison_window": {"type": "integer", "minimum": 1},
+              "minimum_changed_rotating_dimensions": {"type": "integer", "minimum": 0},
+              "maximum_changed_locked_dimensions": {"const": 0},
+              "target_similarity_minimum": {"type": "number", "minimum": 0, "maximum": 1},
+              "target_similarity_maximum": {"type": "number", "minimum": 0, "maximum": 1}
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

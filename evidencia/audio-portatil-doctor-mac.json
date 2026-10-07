@@ -1,0 +1,20 @@
+{
+  "python": "/Users/iomijhondavid/.cache/codex-audio-perceptual/2026-10-01/venv/bin/python",
+  "ffmpeg": "/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg",
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "soundfile": "0.14.0",
+    "pystoi": "0.4.1",
+    "ai-edge-litert": "2.2.0"
+  },
+  "headless": true,
+  "capabilities": {
+    "mix": "native48k curves/fades/pan/width/EQ/carve/downward duck/SFX tail",
+    "review": "ESTOI speech/music + YAMNet + acoustic bands/exact export/mono",
+    "prosody": "Existing timing/F0/intensity/pause profile cached by source hash",
+    "experimental_models": "Qwen/Gemma calibration retained; not routine gain or approval reviewers"
+  },
+  "human_hearing": false,
+  "model_sha256": "4d8b4a53282dc83ef04e3e7dbc4fbc98082e34e44ed798e16c3a0cdd4c584faf"
+}

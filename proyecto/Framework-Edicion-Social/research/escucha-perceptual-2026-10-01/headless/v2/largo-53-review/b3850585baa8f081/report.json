@@ -1,0 +1,249 @@
+{
+  "inputs": {
+    "voice": {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-voz-sola.wav",
+      "sha256": "845d7d20e233fa7dc724616ff6e561285f168976bf0b63cc6e7e9671b5dc9b4f"
+    },
+    "mix": {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-53/mezcla.m4a",
+      "sha256": "551161f8a0e0bffe87a6d960d96ba587d1c016dd337b1fc2cba93e39d4b3a4b7"
+    },
+    "music": {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-53/musica.wav",
+      "sha256": "9f1a747f3b22cc73061e578085810b2700d4e16d8d773cb33c8e2b24957b5b6b"
+    },
+    "sfx": {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-53/efectos.wav",
+      "sha256": "ddef57da7a45fb253abbec22c870bd8046ff127c1851a59b9d45194808bfe500"
+    }
+  },
+  "window_s": 4,
+  "hop_s": 2,
+  "version": {
+    "script_sha256": "b11c5dd2dcb1dcaf561f2cb6dbb9b9f515400d7b248345fadc069eda6fbd0169",
+    "packages": {
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "soundfile": "0.14.0",
+      "pystoi": "0.4.1",
+      "ai-edge-litert": "2.2.0"
+    },
+    "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "yamnet_sha256": "4d8b4a53282dc83ef04e3e7dbc4fbc98082e34e44ed798e16c3a0cdd4c584faf",
+    "yamnet_labels_sha256": "cdf24d193e196d9e95912a2667051ae203e92a2ba09449218ccb40ef787c6df2",
+    "calibration_hashes": {
+      "validacion-indices.json": "15d74340ad823d7f34ea2e4bd303b8be0b1073810b6f9ff879b3554efe8b4324",
+      "validacion-yamnet.json": "6a3f437fea178b8bf5a15d44d93bc8fdb84ed5165e91c05571338601baf82fe1"
+    }
+  },
+  "signature": "b3850585baa8f0818e961bacb5d3c4b03716b84a3c5b528eb333d3682b18a9a5",
+  "human_listener": false,
+  "duration_s": 52.93,
+  "codec": "aac",
+  "source_sample_rate": "48000",
+  "source_channels": 2,
+  "aac_or_container_extra_samples": 0,
+  "stoi": 0.9984395080115391,
+  "estoi": 0.9923632783948741,
+  "windows": [
+    {
+      "start_s": 0.0,
+      "end_s": 4.0,
+      "estoi": 0.9905981879373624
+    },
+    {
+      "start_s": 2.0,
+      "end_s": 6.0,
+      "estoi": 0.9880727152659109
+    },
+    {
+      "start_s": 4.0,
+      "end_s": 8.0,
+      "estoi": 0.9835099750838182
+    },
+    {
+      "start_s": 6.0,
+      "end_s": 10.0,
+      "estoi": 0.9736556869374059
+    },
+    {
+      "start_s": 8.0,
+      "end_s": 12.0,
+      "estoi": 0.9926547089644421
+    },
+    {
+      "start_s": 10.0,
+      "end_s": 14.0,
+      "estoi": 0.9976894901764727
+    },
+    {
+      "start_s": 12.0,
+      "end_s": 16.0,
+      "estoi": 0.996820539872197
+    },
+    {
+      "start_s": 14.0,
+      "end_s": 18.0,
+      "estoi": 0.998611585144223
+    },
+    {
+      "start_s": 16.0,
+      "end_s": 20.0,
+      "estoi": 0.9711830704984099
+    },
+    {
+      "start_s": 18.0,
+      "end_s": 22.0,
+      "estoi": 0.9682248485214011
+    },
+    {
+      "start_s": 20.0,
+      "end_s": 24.0,
+      "estoi": 0.9965370344150638
+    },
+    {
+      "start_s": 22.0,
+      "end_s": 26.0,
+      "estoi": 0.9962728614829595
+    },
+    {
+      "start_s": 24.0,
+      "end_s": 28.0,
+      "estoi": 0.9955095694957053
+    },
+    {
+      "start_s": 26.0,
+      "end_s": 30.0,
+      "estoi": 0.9954458293622763
+    },
+    {
+      "start_s": 28.0,
+      "end_s": 32.0,
+      "estoi": 0.9959133698330668
+    },
+    {
+      "start_s": 30.0,
+      "end_s": 34.0,
+      "estoi": 0.9997414688354216
+    },
+    {
+      "start_s": 32.0,
+      "end_s": 36.0,
+      "estoi": 0.9976516555687823
+    },
+    {
+      "start_s": 34.0,
+      "end_s": 38.0,
+      "estoi": 0.9853136931970174
+    },
+    {
+      "start_s": 36.0,
+      "end_s": 40.0,
+      "estoi": 0.9884231110837424
+    },
+    {
+      "start_s": 38.0,
+      "end_s": 42.0,
+      "estoi": 0.9978207385537597
+    },
+    {
+      "start_s": 40.0,
+      "end_s": 44.0,
+      "estoi": 0.9960825020497465
+    },
+    {
+      "start_s": 42.0,
+      "end_s": 46.0,
+      "estoi": 0.9966699177062525
+    },
+    {
+      "start_s": 44.0,
+      "end_s": 48.0,
+      "estoi": 0.9970300845165887
+    },
+    {
+      "start_s": 46.0,
+      "end_s": 50.0,
+      "estoi": 0.9982093187419377
+    },
+    {
+      "start_s": 48.0,
+      "end_s": 52.0,
+      "estoi": 0.9998433737683117
+    }
+  ],
+  "review_candidates": [
+    {
+      "start_s": 18.0,
+      "end_s": 22.0,
+      "estoi": 0.9682248485214011
+    },
+    {
+      "start_s": 16.0,
+      "end_s": 20.0,
+      "estoi": 0.9711830704984099
+    },
+    {
+      "start_s": 6.0,
+      "end_s": 10.0,
+      "estoi": 0.9736556869374059
+    },
+    {
+      "start_s": 4.0,
+      "end_s": 8.0,
+      "estoi": 0.9835099750838182
+    },
+    {
+      "start_s": 34.0,
+      "end_s": 38.0,
+      "estoi": 0.9853136931970174
+    }
+  ],
+  "loudness": {
+    "input_i": -18.01,
+    "input_tp": -5.74,
+    "input_lra": 1.1
+  },
+  "mono_rms_change_db": -0.0016488366623009527,
+  "yamnet": {
+    "frame_count": 111,
+    "window_s": 0.975,
+    "hop_s": 0.48,
+    "end_padded": true,
+    "headline": {
+      "Speech": 0.9351069927215576,
+      "Music": 0.10550393909215927,
+      "Silence": 0.0011261261533945799
+    },
+    "interpretation": "Activations, not human probabilities, gain recommendations or SFX audibility."
+  },
+  "status": "EVALUACION_ASISTIDA_PARCIAL",
+  "excluded": [
+    "Human emotional/creative fit",
+    "SFX audibility",
+    "Audience attention",
+    "Automatic fader choice"
+  ],
+  "decisions_required": "Read the phrase at each candidate window. A low estimate does not mandate a volume reduction.",
+  "aac_stems_correlation": 0.9999854197345457,
+  "speech_band_relationships": {
+    "music": {
+      "active_frames": 822,
+      "relative_db_p50": -32.753493775726696,
+      "relative_db_p95": -12.372632588580501,
+      "frames_above_voice": 2,
+      "scope": "Acoustic diagnostic only, not validated human masking."
+    },
+    "sfx": {
+      "active_frames": 56,
+      "relative_db_p50": -22.743412691802646,
+      "relative_db_p95": -2.9561275220673897,
+      "frames_above_voice": 2,
+      "scope": "Acoustic diagnostic only, not validated human masking."
+    }
+  },
+  "elapsed_seconds": 2.625653750030324,
+  "evidence_hashes": {
+    "yamnet.npz": "05deca8be19999bd67f4e1152dae8d55ead62dc6b02c4610f06127eb4f68e09a"
+  }
+}

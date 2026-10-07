@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0.0",
+  "packet_id": "RP-VIDEO-00-000000000000",
+  "project_id": "PROJECT-ID",
+  "video_id": "VIDEO-00",
+  "generated_at": "1970-01-01T00:00:00Z",
+  "render": {
+    "path": "renders/VIDEO-00_REVISION_v1.mp4",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "size_bytes": 1,
+    "metadata": {
+      "duration_s": 30,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "color": "bt709"
+    }
+  },
+  "source_manifest": {
+    "path": "renders/VIDEO-00_REVISION_v1.manifest.json",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "inputs": {
+    "dependency_map": {
+      "path": "dependency-map.json",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "blueprint": {
+      "path": "creative-blueprint.json",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "changes": null,
+    "review_decision": null
+  },
+  "comparison": {
+    "enabled": false,
+    "relation": "not_requested",
+    "previous": null
+  },
+  "beats": [
+    {
+      "id": "BEAT-01",
+      "role": "hook",
+      "label": "Apertura",
+      "start_s": 0,
+      "end_s": 3,
+      "reference_frame_s": 1.5,
+      "review_tags": ["hook", "middle"],
+      "source": "blueprint"
+    }
+  ],
+  "layers": [
+    {
+      "id": "assembly",
+      "description": "Picture composition and edit assembly",
+      "heavy": true,
+      "state": "current"
+    }
+  ],
+  "requested_changes": [],
+  "impact": {
+    "changed": [],
+    "invalidated_layers": [],
+    "invalidated_artifacts": [],
+    "heavy_layers": [],
+    "unaffected_layers": ["assembly"],
+    "computed_at": "1970-01-01T00:00:00Z"
+  },
+  "preview_plan": {
+    "strategy": "no_changes",
+    "partial_review_previews_allowed": false,
+    "final_delivery_requires_full_encode": false,
+    "handle_s": 0.75,
+    "ranges": [],
+    "rationale": "No hay cambios estructurados; no se prescribe un nuevo preview ni un render."
+  },
+  "findings": {
+    "technical": [],
+    "semantic": [],
+    "variety": []
+  },
+  "decisions": {
+    "video": {"status": "pending", "evidence_reference": null},
+    "assets": {"status": "pending", "evidence_reference": null},
+    "template_family": {"status": "pending", "evidence_reference": null},
+    "series_default": {"status": "pending", "evidence_reference": null}
+  },
+  "governance": {
+    "purpose": "editorial_review_coordination",
+    "review_decision_replaces_approval_receipt": false,
+    "approval_authority": "approval_receipt_only",
+    "notice": "Este paquete coordina la revisión editorial. Una decisión de revisión aprobada no sustituye el recibo de aprobación independiente ligado por SHA-256 que se exige para entregar."
+  }
+}

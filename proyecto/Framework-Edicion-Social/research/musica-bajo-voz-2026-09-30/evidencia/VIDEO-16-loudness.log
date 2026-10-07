@@ -1,0 +1,46 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-16/VIDEO-16-PARA-APROBACION-v4.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.8.99
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf63.1.102
+  Duration: 00:00:28.50, start: 0.000000, bitrate: 10494 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 10290 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.102 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 196 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.8.99
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.12.102
+  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+      handler_name    : SoundHandler
+[Parsed_loudnorm_0 @ 0xa21058a80] 
+{
+	"input_i" : "-15.31",
+	"input_tp" : "-1.67",
+	"input_lra" : "5.10",
+	"input_thresh" : "-26.02",
+	"output_i" : "-16.20",
+	"output_tp" : "-2.27",
+	"output_lra" : "4.30",
+	"output_thresh" : "-26.92",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.20"
+}
+[out#0/null @ 0xa21058300] video:0KiB audio:21376KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:28.60 bitrate=N/A speed=49.8x elapsed=0:00:00.57    

@@ -1,0 +1,21 @@
+# Changelog de perfiles de edición
+
+Perfiles experimentales0.1.0; referenciaflujo1version1.0.0. Sin modificar versión/render del framework vigente.
+
+
+### 2026-09-30 — Perfiles flujo1/2/3 y piloto26–30 preparados
+
+- **Petición:** crear flujos2/3 sin dañar lo que funciona, dejarlos listos para probar mañana con26–30; comparar conveniencia de lote nuevo versus repetir anterior.
+- **Punto de partida:** procedimiento vigente y renders21–25 terminados; herramientas de cambios/caché/medición de comandos disponibles pero no automatización completa.26–30ya tenían52archivos de preproducción, sin editables/renders en inventario.
+- **Cambios:** perfiles versionados y QA común:1actual/predeterminado,2misma intención/cobertura con organización/reuso,3alcance esencial con mismos controles. Snapshot de20archivos de referencia. Ruteo aditivo enAGENTS,README,MEJORA yprompts. Nuevos helpersselección/run/índice de evidencia, temporizador porfases con esperas/auditoría aparte ycontexto de dependencias que falla cerrado. Guía/comandos, planpiloto1deoctubre, inventario yplantilla de evaluación, regresión lectura25, pruebas yreciboREADY.
+- **Motivo:** mejorar organización/repeticiones/documentación antes de reducir personalización; mantener controles críticos, retorno a1y medición honesta. Tres perfiles sobre base común, no tres motores separados ni eliminación progresiva deQA.
+- **Archivos afectados:** Framework/workflow-profiles/{catalog,flujo-1,flujo-2,flujo-3}.json,QA_COMUN,GUIA,CHANGELOG,baseline/2026-09-30,experiments/2026-10-01-lote26-30; scripts/{workflow_run,medir_fases_edicion,qa_reuse_context}.py ytests respectivos;AGENTS raíz/serie, Framework/{README,MEJORA_CONTINUA,PROMPT_EDICION_INDIVIDUAL,PROMPT_INGESTA_Y_EDICION,CHANGELOG};bitácora.
+- **Validación:**41testsPASS:8run,8timer,15reuso,5temporizador previo y5gate texto previo. Smoke CLIinit→start→evento→stop→reportePASS. Regresión25rehashea24archivos congelados iguales, contextosin cambios elegible/rechazo sin inventario actual; no render nuevo. Snapshot20archivos íntegro; scripts/QAprevios idénticos y cuerpos de documentos conservados con ruteo añadido.52recursos26–30intactos. Evidenciaenexperimento/validation/{unit-tests.json,test_workflow_run.final.log,READY.json},regression-video25/result.json.
+- **Resultado:** perfiles2/3 listos para piloto experimental,1sigue default. Prueba propuesta2F1+2F2+1F3, asignaciónnullhasta ingesta/criterio de complejidad yantes de montar. Auditoríaextra/espera/huecos separadas ytotal visible. No se han editado ni renderizado26–30 ni cambiado archivos21–25.
+- **Aprendizaje:** lote nuevo mide montaje real;25conocido valida herramientas, no velocidad de editar algo que ya conocemos. CambioHTML/rótulo invalida semántica; imagen también captions porcontraste/rostro. Cachepreviaomiteengine/config:contextocomplementario exigeinventarioactual yversiones/hashesreales, solo propone elegibilidad, nuncaPASS/aprobación. Copias deperfil/QAporrun permiten informes históricos tras versionado, ydetectan cambiosvivos antes de nuevos eventos. Fasesdesconocidasnull, no0inventado.
+- **Pendiente:** ingesta/fuente/asignación y prueba audiovisual26–30 el1deoctubre; medidas comparables de tiempo,defectos/retrabajo/alcance y valoraciónhumana. Perfilescontinúanexperimentales, sin ahorro/equivalencia demostrados nipromociónautomática. Cincoobservaciones seránpreliminares;F3no es comparación deigualalcance. Noautomatizaciónprogramada ni autorización depublicación/restauración/render de nuevos candidatos inferida.
+
+
+### 2026-09-30 — Fidelidad y diversidad obligatoria de plantillas
+
+Petición explícita tras aprobación16/18/19: conservar variación real de estructura, composición, iconos/SVG/imágenes/diagramas/elementos de interfaz y movimiento; no limitar diferencias a color/letras. Nuevo contrato `FIDELIDAD_Y_DIVERSIDAD_PLANTILLAS.md`v1 y plantilla `templates/template-fidelity-review.md`; ruteo enAGENTS, README, estilos, QA y prompts. QA_COMUNv0.1.1 aplica también a flujo3 sin alterar perfiles/snapshots históricos. Preferencia confirmada registrada. Control editorial documentado antes del render y en MP4 exacto, sin nuevo detector automático, cuotas decorativas ni cambios a videos aprobados. Snapshots y validación en research/fidelidad-plantillas-2026-09-30.

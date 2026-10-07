@@ -1,0 +1,26 @@
+{
+  "updated_at": "2026-09-25",
+  "status": "approved",
+  "approval_event": "El usuario aprobó explícitamente las 30 plantillas el 2026-09-25 con la frase: 'que queden todas aprobadas'.",
+  "research": "INVESTIGACION_DISENO_INCLUSIVO_21_A_30.md",
+  "baseline": "ESTANDAR_ACCESIBILIDAD_BASE_01_A_30.md",
+  "measurement_plan": "PLAN_MEDICION_PLANTILLAS_21_A_30.md",
+  "rules": [
+    "Las plantillas se asocian a necesidades observables, no a diagnósticos rígidos.",
+    "Las métricas de plataforma no se usan para inferir discapacidad o neurodivergencia.",
+    "Una revisión automática no sustituye pruebas con personas.",
+    "La accesibilidad es una base para T01-T30, no una colección aislada."
+  ],
+  "templates": [
+    {"id":"T21","name":"Ruta de foco","access_need":"guided attention and prioritization","design_rule":"one idea and one visible next step per frame","primary_metric":"sequence_completion","artifact":"OPCION-21_RUTA-DE-FOCO/propuesta-21.png","approval_status":"approved"},
+    {"id":"T22","name":"Camino predecible","access_need":"orientation and anticipation","design_rule":"stable zones progress and advance notice","primary_metric":"step_orientation_accuracy","artifact":"OPCION-22_CAMINO-PREDECIBLE/propuesta-22.png","approval_status":"approved","revision_note":"2026-09-25: captura 3 recompuesta en tres líneas centradas para mantener el texto completo dentro del contenedor blanco; corrección aprobada por el usuario."},
+    {"id":"T23","name":"Pausa sensorial","access_need":"lower sensory load","design_rule":"space few stimuli and gentle transitions","primary_metric":"sensory_comfort","artifact":"OPCION-23_PAUSA-SENSORIAL/propuesta-23.png","approval_status":"approved"},
+    {"id":"T24","name":"Contraste XL","access_need":"low vision and small-screen reading","design_rule":"extra large type reinforced contrast and few words","primary_metric":"mobile_reading_accuracy","artifact":"OPCION-24_CONTRASTE-XL/propuesta-24.png","approval_status":"approved"},
+    {"id":"T25","name":"Forma + señal","access_need":"color vision differences","design_rule":"never encode meaning with color alone","primary_metric":"color_independent_comprehension","artifact":"OPCION-25_FORMA-MAS-SENAL/propuesta-25.png","approval_status":"approved"},
+    {"id":"T26","name":"Lectura fácil","access_need":"language and reading load","design_rule":"literal short left-aligned spaced text","primary_metric":"literal_comprehension","artifact":"OPCION-26_LECTURA-FACIL/propuesta-26.png","approval_status":"approved"},
+    {"id":"T27","name":"Subtítulo primero","access_need":"deaf and hard-of-hearing access","design_rule":"identified speech complete captions and meaningful sounds","primary_metric":"comprehension_without_audio","artifact":"OPCION-27_SUBTITULO-PRIMERO/propuesta-27.png","approval_status":"approved"},
+    {"id":"T28","name":"Audio guía","access_need":"blind and low-vision access","design_rule":"essential visual information is spoken","primary_metric":"comprehension_without_screen","artifact":"OPCION-28_AUDIO-GUIA/propuesta-28.png","approval_status":"approved"},
+    {"id":"T29","name":"Ritmo y recuerdo","access_need":"working-memory and processing support","design_rule":"idea example pause recap and action","primary_metric":"idea_recall_after_example","artifact":"OPCION-29_RITMO-Y-RECUERDO/propuesta-29.png","approval_status":"approved"},
+    {"id":"T30","name":"Múltiples puertas","access_need":"multimodal access and choice","design_rule":"one idea through text voice symbol and recap","primary_metric":"multimodal_comprehension","artifact":"OPCION-30_MULTIPLES-PUERTAS/propuesta-30.png","approval_status":"approved","revision_note":"2026-09-25: capturas 1 y 3 recibieron contenedores completos y reajuste de módulos para que todos los textos queden dentro de sus figuras; corrección aprobada por el usuario."}
+  ]
+}

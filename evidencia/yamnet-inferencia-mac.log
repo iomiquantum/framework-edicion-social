@@ -1,0 +1,2 @@
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+YAMNet: carga e inferencia local correctas, (1, 521) sin evaluación de escucha humana.

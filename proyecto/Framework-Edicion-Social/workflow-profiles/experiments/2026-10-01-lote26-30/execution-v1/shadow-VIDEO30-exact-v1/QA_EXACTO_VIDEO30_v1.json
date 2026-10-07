@@ -1,0 +1,83 @@
+{
+  "video_id": "VIDEO-30",
+  "export_sha256": "91b60c310a204be58a2b739944dc5676edf57521403257ebd31ccee7fa506cbd",
+  "technical_status": "pass",
+  "visual_sample_review": "pass_with_documented_inner_fade",
+  "exact_frame_count": 477,
+  "duration_s": 15.9,
+  "frame_samples_reviewed": 47,
+  "caption_cues_reviewed": 9,
+  "maximum_caption_lines_observed": 2,
+  "template_fidelity": "T30 five channels retained",
+  "protected_faces_gestures": "unobstructed at reviewed source/export samples",
+  "scene_boundaries": [
+    3.633333333,
+    6.9,
+    10.0,
+    12.0,
+    13.666666667
+  ],
+  "boundary_observation": "At0 and module start3.633/6.9/12, transparent inner0 produces black surrounding presenter for1frame; fade0.16s follows. Caption/media remain. No full-blackframe observed; no ghost title.",
+  "audio": {
+    "status": "pass",
+    "engine_version": "0.8.100",
+    "export_sha256": "91b60c310a204be58a2b739944dc5676edf57521403257ebd31ccee7fa506cbd",
+    "reference_sha256": "808fce4613218a764a365b69f634daa28c514d6b75c4ac1b4a8902f933e80369",
+    "decoded_samples_exact": true,
+    "sample_count_per_channel": 763904,
+    "full_correlation": 1.0,
+    "reference_measurements": [
+      {
+        "true_peak_dbfs": -2.1,
+        "integrated_lufs": -16.0
+      }
+    ],
+    "global_attenuation_db": 0.0,
+    "export_loudness": {
+      "true_peak_dbfs": -2.1,
+      "integrated_lufs": -16.0
+    },
+    "events": [
+      {
+        "id": "sfx-pregunta",
+        "start_s": 0.12,
+        "duration_s": 0.44,
+        "decoded_samples_exact": true,
+        "correlation": 0.9999999999999999
+      },
+      {
+        "id": "sfx-diferencia",
+        "start_s": 10.0,
+        "duration_s": 0.16,
+        "decoded_samples_exact": true,
+        "correlation": 1.0
+      },
+      {
+        "id": "sfx-escogerte",
+        "start_s": 13.72,
+        "duration_s": 0.48,
+        "decoded_samples_exact": true,
+        "correlation": 0.9999999999999998
+      }
+    ],
+    "human_listened": false,
+    "wall_seconds": 0.8967513329698704,
+    "limits": "Technical identity of complete mix and each event; does not establish subjective audibility, naturalness or mobile playback."
+  },
+  "human_listened": false,
+  "continuous_human_playback": false,
+  "physical_mobile_review": false,
+  "platform_certified": false,
+  "editorial_user_approval": "not_inferred",
+  "render_authorization": "../LOTE-26-30-PRODUCCION/AUTORIZACION_Y_ARRANQUE.json",
+  "pending": [
+    "Escucha/naturalidad/audibilidad subjetiva por confirmar",
+    "Previews de plataformas/dispositivo físico por confirmar"
+  ],
+  "evidence": [
+    "qa/post-render-exact-v1",
+    "qa/exact-frames-v1/manifest.json",
+    "qa/final-audio-v1/engine-parity-verified.json",
+    "qa/check-inner-final.json"
+  ]
+}

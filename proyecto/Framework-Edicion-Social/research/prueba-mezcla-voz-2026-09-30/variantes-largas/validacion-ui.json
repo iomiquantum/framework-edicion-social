@@ -1,0 +1,80 @@
+{
+  "date_local": "2026-09-30",
+  "method": "CUA navegador nativo2, tab8; acciones de UI, evaluaciónsolo lectura; reproducción no equivale a escucha.",
+  "six_mix_observations": [
+    {
+      "id": "largo-53",
+      "variant": "A",
+      "duration": 52.93,
+      "time": 35.258947,
+      "paused": false,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "id": "largo-53",
+      "variant": "B",
+      "duration": 52.93,
+      "time": 35.264041,
+      "paused": false,
+      "readyState": 1,
+      "error": null,
+      "followup": {
+        "time": 5.181749,
+        "paused": false,
+        "readyState": 4,
+        "error": null
+      }
+    },
+    {
+      "id": "largo-53",
+      "variant": "C",
+      "duration": 52.93,
+      "time": 35.264041,
+      "paused": false,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "id": "largo-159",
+      "variant": "A",
+      "duration": 158.798,
+      "time": 121.131535,
+      "paused": false,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "id": "largo-159",
+      "variant": "B",
+      "duration": 158.798,
+      "time": 121.153659,
+      "paused": false,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "id": "largo-159",
+      "variant": "C",
+      "duration": 158.798,
+      "time": 121.159167,
+      "paused": false,
+      "readyState": 4,
+      "error": null
+    }
+  ],
+  "layers_short_B": {
+    "music_time": 5.178294,
+    "effects_time": 5.203298,
+    "readyState": 4,
+    "error": null
+  },
+  "long_voice_to_first_mix": {
+    "voice_time": 83.460941,
+    "first_mix_time": 83.46102,
+    "readyState": 4,
+    "error": null
+  },
+  "scope": "Carga/reproducción/seek/conservación de posición; no pruebas perceptuales ni teléfono real.",
+  "human_listening": "por confirmar"
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "id": "MASTER-PROFILE-EDITORIAL-HDR-001",
+  "profile_version": "1.0.0",
+  "label": "Máster editorial mezzanine HDR vertical",
+  "artifact_role": "editorial_mezzanine",
+  "color_intent": "preserve_hdr",
+  "status": "active",
+  "intended_use": [
+    "revisión editorial",
+    "archivo de máxima calidad",
+    "fuente para derivados SDR y por plataforma"
+  ],
+  "forbidden_uses": [
+    "publicación directa sin comprobar compatibilidad HDR",
+    "sustitución silenciosa por un archivo SDR"
+  ],
+  "video": {
+    "file_extensions": [".mov", ".mp4"],
+    "containers": ["mov", "mp4"],
+    "codecs": ["hevc", "prores"],
+    "codec_profiles": [],
+    "pixel_formats": [
+      "yuv420p10le",
+      "yuv422p10le",
+      "yuv444p10le",
+      "yuva444p10le"
+    ],
+    "minimum_bit_depth": 10,
+    "width": 1080,
+    "height": 1920,
+    "fps_target": 30,
+    "fps_tolerance": 0.02,
+    "orientation": "vertical",
+    "aspect_ratio": "9:16",
+    "duration_min_seconds": 1,
+    "duration_max_seconds": 600,
+    "color_primaries": ["bt2020"],
+    "color_transfers": ["arib-std-b67", "smpte2084"],
+    "color_spaces": ["bt2020nc", "bt2020ncl"],
+    "bitrate_min_mbps": 12,
+    "bitrate_max_mbps": null,
+    "bitrate_enforcement": "warning"
+  },
+  "audio": {
+    "required": true,
+    "codecs": ["aac", "pcm_s16le", "pcm_s24le"],
+    "codec_profiles": [],
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "requires_loudness_scan": false,
+    "target_lufs": null,
+    "lufs_tolerance": null,
+    "true_peak_max_dbtp": null
+  },
+  "governance": {
+    "editable_source": true,
+    "upload_ready": false,
+    "requires_approved_source_receipt": false,
+    "required_source_media_role": null,
+    "required_source_profile_id": null,
+    "source_hash_must_differ": false,
+    "requires_visual_review": true,
+    "rules": [
+      "Conservar el rango dinámico y las etiquetas HDR; no reinterpretar como BT.709.",
+      "La conformidad técnica no equivale a aprobación creativa.",
+      "Una aprobación futura debe ligarse al SHA-256 exacto de este archivo."
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "date_local": "2026-09-30",
+  "scope": "Pruebas aisladas de investigación, sin editar VIDEO-13 ni adoptarlas como final.",
+  "status": "technical_pass_pending_user_listening",
+  "human_listening": "por confirmar",
+  "picture_source": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/renders/VIDEO-13-FINAL.mp4",
+  "picture_source_sha256": "6ee143441088f43eb6aa0c318b6bf0505e9c8d8f91f7eaa893bda2f30491893e",
+  "voice_source": "Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/audiciones/prosodia-v2-48k/video-13-voz.wav",
+  "voice_source_sha256": "8fe902e672311504c45f3f7c95a0671e6e028dc5c3f70a91aef61e2a3f5df4d3",
+  "voice_gain_db": 2,
+  "voice_processing_added": "Ninguno: ganancia constante común y duplicación mono unity L/R.",
+  "sample_rate": 48000,
+  "duration_s": 19.5,
+  "sfx_events": [
+    {
+      "id": "apertura",
+      "start": 0.025,
+      "file": "04_soft_pop.wav",
+      "gain": 0.4,
+      "purpose": "Dar presencia a la afirmación inicial y a la aparición del texto.",
+      "source": "Framework-Edicion-Social/library/sfx/04_soft_pop.wav",
+      "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+      "duration_s": 0.16,
+      "peak_dbfs": -17.959,
+      "rms_dbfs": -31.278,
+      "voice_contemporary_rms_dbfs": -46.496,
+      "relative_rms_db": 15.218,
+      "peak_time_s": 0.028916666666666667
+    },
+    {
+      "id": "evidencia",
+      "start": 6.99,
+      "file": "03_ui_tick.wav",
+      "gain": 0.35,
+      "purpose": "Marcar la aparición del apoyo sobre llamadas; no cada elemento de la lista.",
+      "source": "Framework-Edicion-Social/library/sfx/03_ui_tick.wav",
+      "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+      "duration_s": 0.085,
+      "peak_dbfs": -19.119,
+      "rms_dbfs": -38.424,
+      "voice_contemporary_rms_dbfs": -61.661,
+      "relative_rms_db": 23.237,
+      "peak_time_s": 6.992416666666667
+    },
+    {
+      "id": "valor",
+      "start": 13.34,
+      "file": "05_low_accent.wav",
+      "gain": 0.4,
+      "purpose": "Acento previo al cambio de valor; ataque dentro de la pausa medida.",
+      "source": "Framework-Edicion-Social/library/sfx/05_low_accent.wav",
+      "source_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+      "duration_s": 0.34,
+      "peak_dbfs": -19.959,
+      "rms_dbfs": -34.644,
+      "voice_contemporary_rms_dbfs": -21.098,
+      "relative_rms_db": -13.546,
+      "peak_time_s": 13.344270833333333
+    }
+  ],
+  "music": {
+    "candidate": "BGM-CAND-SB-NEON-NOMELODY",
+    "source_sha256": "af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d",
+    "source_range_s": [
+      45,
+      56.3
+    ],
+    "timeline_s": [
+      2.09,
+      13.39
+    ],
+    "gain": 0.07762716443664579,
+    "fade_in_s": 0.3,
+    "fade_out_s": 0.7,
+    "calibration": "RMS estéreo sin fade18dB bajo mediana de voz activa en ventanas100ms del bloque.",
+    "voice_reference_rms_dbfs": -20.287,
+    "applied_bed_rms_dbfs": -38.555
+  },
+  "mix_method": "Suma de stems float32, sin normalización por variante, compresión ni limiter. Voz idéntica en PCM; AAC se codifica independientemente.",
+  "guard": {
+    "hook_present": true,
+    "distinct_sfx_identities": 3,
+    "source_links_hashes": "pass"
+  },
+  "variants": [
+    {
+      "id": "00-referencia-voz",
+      "description": "Referencia de voz sola; no candidato de entrega final.",
+      "wav": "audiciones/practica-v1/00-referencia-voz.wav",
+      "mp4": "audiciones/practica-v1/00-referencia-voz.mp4",
+      "wav_sha256": "3e80697058ed286a1e3f88d5098f25cf106d20d5fc4ddcca435457b80aa99e72",
+      "mp4_sha256": "c591dc30294d196ea97ec97d253f2cf747a303451dd6b82bba3bd1259e0d6583",
+      "pcm_loudness": {
+        "input_i": "-16.99",
+        "input_tp": "-2.14",
+        "input_lra": "3.90",
+        "input_thresh": "-27.55",
+        "output_i": "-16.49",
+        "output_tp": "-1.59",
+        "output_lra": "2.60",
+        "output_thresh": "-27.05",
+        "normalization_type": "dynamic",
+        "target_offset": "0.49"
+      },
+      "aac_loudness": {
+        "input_i": "-16.99",
+        "input_tp": "-2.14",
+        "input_lra": "3.90",
+        "input_thresh": "-27.56",
+        "output_i": "-16.49",
+        "output_tp": "-1.61",
+        "output_lra": "2.60",
+        "output_thresh": "-27.05",
+        "normalization_type": "dynamic",
+        "target_offset": "0.49"
+      },
+      "video_stream_hash": "SHA256=e4b958ef16f19f22a4e67bc0cdbcfdd7210080d27bbafec33095f4c370b69e1b",
+      "video_probe": {
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p10le",
+        "color_space": "bt2020nc",
+        "color_transfer": "arib-std-b67",
+        "color_primaries": "bt2020",
+        "r_frame_rate": "30/1",
+        "start_time": "0.000000",
+        "duration": "19.500000",
+        "nb_frames": "585"
+      },
+      "full_decode": "pass"
+    },
+    {
+      "id": "01-voz-efectos",
+      "description": "Tres acentos con tres identidades; pregunta sin cama.",
+      "wav": "audiciones/practica-v1/01-voz-efectos.wav",
+      "mp4": "audiciones/practica-v1/01-voz-efectos.mp4",
+      "wav_sha256": "3e6484ad42fdf99ec321e28a161b3180a93b61833cc06f7666d07f8766c3c288",
+      "mp4_sha256": "1728919ca6a0f677cefdeb819cc89879cac2589182a7f016be70cc3e13b84b9a",
+      "pcm_loudness": {
+        "input_i": "-16.99",
+        "input_tp": "-2.14",
+        "input_lra": "3.90",
+        "input_thresh": "-27.55",
+        "output_i": "-16.47",
+        "output_tp": "-1.61",
+        "output_lra": "2.60",
+        "output_thresh": "-27.05",
+        "normalization_type": "dynamic",
+        "target_offset": "0.47"
+      },
+      "aac_loudness": {
+        "input_i": "-16.99",
+        "input_tp": "-2.14",
+        "input_lra": "3.90",
+        "input_thresh": "-27.56",
+        "output_i": "-16.47",
+        "output_tp": "-1.61",
+        "output_lra": "2.60",
+        "output_thresh": "-27.05",
+        "normalization_type": "dynamic",
+        "target_offset": "0.47"
+      },
+      "video_stream_hash": "SHA256=e4b958ef16f19f22a4e67bc0cdbcfdd7210080d27bbafec33095f4c370b69e1b",
+      "video_probe": {
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p10le",
+        "color_space": "bt2020nc",
+        "color_transfer": "arib-std-b67",
+        "color_primaries": "bt2020",
+        "r_frame_rate": "30/1",
+        "start_time": "0.000000",
+        "duration": "19.500000",
+        "nb_frames": "585"
+      },
+      "full_decode": "pass"
+    },
+    {
+      "id": "02-voz-efectos-pulso",
+      "description": "Mismos efectos y pulso solo durante la explicación.",
+      "wav": "audiciones/practica-v1/02-voz-efectos-pulso.wav",
+      "mp4": "audiciones/practica-v1/02-voz-efectos-pulso.mp4",
+      "wav_sha256": "4369cfa66d6c168e1b54a49d3eed2b375f73ce8bafabe60a1da079f07f3ce972",
+      "mp4_sha256": "c59a978b22f9ad0c77e4d157e22a6226b99e9fa1611949bb14622e82b8eb665a",
+      "pcm_loudness": {
+        "input_i": "-16.97",
+        "input_tp": "-2.21",
+        "input_lra": "4.00",
+        "input_thresh": "-27.53",
+        "output_i": "-16.47",
+        "output_tp": "-1.61",
+        "output_lra": "2.50",
+        "output_thresh": "-27.05",
+        "normalization_type": "dynamic",
+        "target_offset": "0.47"
+      },
+      "aac_loudness": {
+        "input_i": "-16.98",
+        "input_tp": "-2.22",
+        "input_lra": "4.00",
+        "input_thresh": "-27.54",
+        "output_i": "-16.46",
+        "output_tp": "-1.62",
+        "output_lra": "2.50",
+        "output_thresh": "-27.05",
+        "normalization_type": "dynamic",
+        "target_offset": "0.46"
+      },
+      "video_stream_hash": "SHA256=e4b958ef16f19f22a4e67bc0cdbcfdd7210080d27bbafec33095f4c370b69e1b",
+      "video_probe": {
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p10le",
+        "color_space": "bt2020nc",
+        "color_transfer": "arib-std-b67",
+        "color_primaries": "bt2020",
+        "r_frame_rate": "30/1",
+        "start_time": "0.000000",
+        "duration": "19.500000",
+        "nb_frames": "585"
+      },
+      "full_decode": "pass"
+    }
+  ],
+  "original_unchanged": true,
+  "limits": [
+    "Métricas no prueban audibilidad/inteligibilidad, efecto sobre atención ni aceptación.",
+    "No se ha realizado escucha por el agente; revisar las muestras completas y en teléfono.",
+    "No se ha aplicado esta decisión al editable; si se adopta debe trasladarse a su grafo y validar su export."
+  ]
+}

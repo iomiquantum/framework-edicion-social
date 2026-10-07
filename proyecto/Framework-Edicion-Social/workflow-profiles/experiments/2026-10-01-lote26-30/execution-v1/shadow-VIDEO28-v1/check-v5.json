@@ -1,0 +1,120 @@
+[hyperframes] media proxy pre-resolve: 1/1 ready, 0 failed (0ms)
+{
+  "ok": true,
+  "strict": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "hevc_preview_codec",
+        "severity": "info",
+        "message": "Video file(s) use the HEVC/H.265 codec: assets/video28-working-master-hlg-v1.mov. The render pipeline pre-decodes video with FFmpeg and never uses the browser's video decoder, so these render correctly. Live preview/player playback automatically uses a cached H.264 proxy when the browser cannot decode HEVC. If playback still fails, verify ffmpeg/ffprobe are installed and auto-proxying is enabled.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "If \"assets/video28-working-master-hlg-v1.mov\" fails to play in preview, run hyperframes doctor and confirm media.autoProxy is not false."
+      }
+    ],
+    "filesScanned": 8
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 24.7,
+    "samples": [
+      1.372,
+      4.117,
+      6.861,
+      9.606,
+      12.35,
+      15.094,
+      17.839,
+      20.583,
+      23.328
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.372,
+      6.861,
+      12.35,
+      17.839,
+      23.328
+    ],
+    "checked": 15,
+    "passed": 15
+  },
+  "hdr": {
+    "autoPromotion": {
+      "triggeringAsset": "assets/video28-working-master-hlg-v1.mov",
+      "output": {
+        "colorSpace": "BT.2020",
+        "codec": "HEVC Main10"
+      }
+    },
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      "snapshots/frame-00-at-1.4s.png",
+      "snapshots/frame-01-at-6.9s.png",
+      "snapshots/frame-02-at-12.3s.png",
+      "snapshots/frame-03-at-17.8s.png",
+      "snapshots/frame-04-at-23.3s.png"
+    ],
+    "times": [
+      1.372,
+      6.861,
+      12.35,
+      17.839,
+      23.328
+    ],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.100",
+    "latestVersion": "0.8.99",
+    "updateAvailable": false
+  }
+}

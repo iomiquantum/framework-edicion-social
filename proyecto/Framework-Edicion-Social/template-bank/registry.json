@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-10-06",
+  "templates": [
+    {
+      "id": "T01-editorial-loop",
+      "version": "0.1.0-windows-source",
+      "status": "candidate",
+      "source_project": "plantillas-codigo/T01",
+      "artifact_approval": {
+        "video_id": null,
+        "status": "not_applicable",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "Lightweight code reference only. Original artifact decision is retained in evidencia/historico-v1/template-bank-original.json, outside the active registry."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "No render approval inherited. Design proposals retain their separate documented approval."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T02-clean-authority",
+      "version": "0.1.1-windows-source",
+      "status": "candidate",
+      "source_project": "plantillas-codigo/T02",
+      "artifact_approval": {
+        "video_id": null,
+        "status": "not_applicable",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "Lightweight code reference only. Original artifact decision is retained in evidencia/historico-v1/template-bank-original.json, outside the active registry."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "No render approval inherited. Design proposals retain their separate documented approval."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T03-proprietary-knowledge-map",
+      "version": "0.1.0-windows-source",
+      "status": "candidate",
+      "source_project": "plantillas-codigo/T03",
+      "artifact_approval": {
+        "video_id": null,
+        "status": "not_applicable",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "Lightweight code reference only. Original artifact decision is retained in evidencia/historico-v1/template-bank-original.json, outside the active registry."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "No render approval inherited. Design proposals retain their separate documented approval."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T04-process-chaos-diagnostic",
+      "version": "0.1.0-windows-source",
+      "status": "candidate",
+      "source_project": "plantillas-codigo/T04",
+      "artifact_approval": {
+        "video_id": null,
+        "status": "not_applicable",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "Lightweight code reference only. Original artifact decision is retained in evidencia/historico-v1/template-bank-original.json, outside the active registry."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "No render approval inherited. Design proposals retain their separate documented approval."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T05-criterion-versus-delegation",
+      "version": "0.1.0-windows-source",
+      "status": "candidate",
+      "source_project": "plantillas-codigo/T05",
+      "artifact_approval": {
+        "video_id": null,
+        "status": "not_applicable",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "Lightweight code reference only. Original artifact decision is retained in evidencia/historico-v1/template-bank-original.json, outside the active registry."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "No render approval inherited. Design proposals retain their separate documented approval."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T06-knowledge-vault",
+      "version": "0.1.0-windows-source",
+      "status": "candidate",
+      "source_project": "plantillas-codigo/T06",
+      "artifact_approval": {
+        "video_id": null,
+        "status": "not_applicable",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "Lightweight code reference only. Original artifact decision is retained in evidencia/historico-v1/template-bank-original.json, outside the active registry."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "No render approval inherited. Design proposals retain their separate documented approval."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T07-seed-spotlight",
+      "version": "0.1.0-windows-source",
+      "status": "candidate",
+      "source_project": "plantillas-codigo/T07",
+      "artifact_approval": {
+        "video_id": null,
+        "status": "not_applicable",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "Lightweight code reference only. Original artifact decision is retained in evidencia/historico-v1/template-bank-original.json, outside the active registry."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "No render approval inherited. Design proposals retain their separate documented approval."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T08-target-rings",
+      "version": "0.1.0-windows-source",
+      "status": "candidate",
+      "source_project": "plantillas-codigo/T08",
+      "artifact_approval": {
+        "video_id": null,
+        "status": "not_applicable",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "Lightweight code reference only. Original artifact decision is retained in evidencia/historico-v1/template-bank-original.json, outside the active registry."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "No render approval inherited. Design proposals retain their separate documented approval."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T09-signal-noise",
+      "version": "0.1.0-windows-source",
+      "status": "candidate",
+      "source_project": "plantillas-codigo/T09",
+      "artifact_approval": {
+        "video_id": null,
+        "status": "not_applicable",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "Lightweight code reference only. Original artifact decision is retained in evidencia/historico-v1/template-bank-original.json, outside the active registry."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "No render approval inherited. Design proposals retain their separate documented approval."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T10-searchlight-diagnosis",
+      "version": "0.1.0-windows-source",
+      "status": "candidate",
+      "source_project": "plantillas-codigo/T10",
+      "artifact_approval": {
+        "video_id": null,
+        "status": "not_applicable",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "Lightweight code reference only. Original artifact decision is retained in evidencia/historico-v1/template-bank-original.json, outside the active registry."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "No render approval inherited. Design proposals retain their separate documented approval."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "at_utc": "2026-10-01T05:10:45.109684+00:00",
+  "video_id": "VIDEO-28",
+  "reviewer": "/root/auditoria_flujos_26_30",
+  "export": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/entrega/VIDEO-28-ENTREGA-HLG-v1.mp4",
+    "sha256": "8399ba8e285f0c1a57e28711b82e104507f84aad063807cbc413034998acf64a",
+    "size_bytes": 9403496
+  },
+  "status": "sampled_visual_and_technical_pass",
+  "exact_frame_samples_inspected": 42,
+  "contact_sheets_inspected": 5,
+  "caption_cues_covered": 13,
+  "scope": "All provided exact export contact sheets inspected + sourceboard/fidelity and exactAAC parity receipts; not continuous playback or listen",
+  "evidence": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/entrega/VIDEO-28-ENTREGA-HLG-v1.mp4",
+      "sha256": "8399ba8e285f0c1a57e28711b82e104507f84aad063807cbc413034998acf64a",
+      "size_bytes": 9403496
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/QA_FIDELIDAD_PLANTILLA.md",
+      "sha256": "3773d50b3e35d62154530efe25dce783317a84ea43d12510eb5bc0d12a5bf6b0",
+      "size_bytes": 3575
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/final-audio-v1/engine-parity-verified.json",
+      "sha256": "64a0d46038ea2a783eee7f9b6a1d0e085af5ff91b23dac4ba89ea1054b2c27eb",
+      "size_bytes": 1255
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/exact-frames-v1/contact-3.jpg",
+      "sha256": "8aa51206269a684296664b79fe88733fe8b303434a84f442a02d4e41420a576f",
+      "size_bytes": 299099
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/exact-frames-v1/contact-2.jpg",
+      "sha256": "d07c5cb5c50b751959d53bec78cd8557e0a138336e39e15e66a5f5f8c63eff84",
+      "size_bytes": 272266
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/exact-frames-v1/contact-1.jpg",
+      "sha256": "3dd276f8095df0c1cbae9b0beb83830c6b2d04e3260be37dc965c56be6e867b8",
+      "size_bytes": 259580
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/exact-frames-v1/contact-5.jpg",
+      "sha256": "cd5ea4abcedf699d57b19a647fdc62311a05b10dc57074c27070f36e7d7338e2",
+      "size_bytes": 163432
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/exact-frames-v1/contact-4.jpg",
+      "sha256": "771c6e52f502a86f10556b76bb2365e8b854907e5e942ec0ca71825ed08209b5",
+      "size_bytes": 254351
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/exact-frames-v1/coverage.json",
+      "sha256": "1bcca863ad75e841a5ad426fa152e89f80f4b93cb37c7e13b5085e54f76d303b",
+      "size_bytes": 4902
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/local-delivery-receipt-v1.json",
+      "sha256": "86746624700198de5d9b1b18871d42ced67ef84a10eff088683d9731250823b3",
+      "size_bytes": 465
+    }
+  ],
+  "observations": [
+    "Quéaccent corrected visibly at17.233/17.933; normalizedlexical65words match",
+    "Cueboundaries2.13/5.715/11.525/20.052/23.151 no doublecaption in actualframepairs",
+    "Image15.85–17.95 andfocus18.2–20.3 returnclean; titles hardkill no ghost in sampledexitstates",
+    "Face/captionlanes separate, observedhandsnot covered, <=2captionlines; finalframe intact"
+  ],
+  "defects_escaped_shadow": [],
+  "human_listened": false,
+  "continuous_playback": false,
+  "platform_physical_mobile": "por confirmar",
+  "editorial_user_approval": "not inferred"
+}

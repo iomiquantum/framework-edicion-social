@@ -1,0 +1,30 @@
+Collecting demucs==4.0.1
+  Using cached demucs-4.0.1-py3-none-any.whl
+Collecting dora-search==0.1.12
+  Using cached dora_search-0.1.12-py3-none-any.whl
+Collecting julius==0.2.7
+  Downloading julius-0.2.7.tar.gz (59 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting lameenc==1.8.1
+  Downloading lameenc-1.8.1-cp311-cp311-macosx_11_0_arm64.whl.metadata (9.9 kB)
+Collecting openunmix==1.3.0
+  Using cached openunmix-1.3.0-py3-none-any.whl.metadata (17 kB)
+Downloading lameenc-1.8.1-cp311-cp311-macosx_11_0_arm64.whl (182 kB)
+Using cached openunmix-1.3.0-py3-none-any.whl (40 kB)
+Building wheels for collected packages: julius
+  Building wheel for julius (pyproject.toml): started
+  Building wheel for julius (pyproject.toml): finished with status 'done'
+  Created wheel for julius: filename=julius-0.2.7-py3-none-any.whl size=21966 sha256=09ce6e39251e9537cfd1b39d183ec4f57099397b3e0bd2d2c44545f3a4776417
+  Stored in directory: /Users/iomijhondavid/Library/Caches/pip/wheels/16/15/d4/edd724cefe78050a6ba3344b8b0c6672db829a799dbb9f81ff
+Successfully built julius
+Installing collected packages: lameenc, openunmix, julius, dora-search, demucs
+
+Successfully installed demucs-4.0.1 dora-search-0.1.12 julius-0.2.7 lameenc-1.8.1 openunmix-1.3.0
+
+[notice] A new release of pip is available: 26.0.1 -> 26.2.1
+[notice] To update, run: /private/tmp/codex-referencia-mezcla-20260930/bin/python -m pip install --upgrade pip

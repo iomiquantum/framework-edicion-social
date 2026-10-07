@@ -1,0 +1,308 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/learning-recommendation-report.schema.json",
+  "title": "Non-binding contextual portfolio recommendations",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "report_id",
+    "generated_at",
+    "input",
+    "governance",
+    "candidates",
+    "portfolio",
+    "warnings"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "report_id": {"type": "string", "pattern": "^LR-[A-F0-9]{16}$"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "input": {
+      "type": "object",
+      "required": [
+        "events_sha256",
+        "policy_id",
+        "policy_sha256",
+        "event_count",
+        "active_event_count",
+        "superseded_event_count"
+      ],
+      "properties": {
+        "events_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "policy_id": {"type": "string", "minLength": 1},
+        "policy_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "event_count": {"type": "integer", "minimum": 0},
+        "active_event_count": {"type": "integer", "minimum": 0},
+        "superseded_event_count": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "governance": {
+      "type": "object",
+      "required": [
+        "automatic_promotion",
+        "registry_write_permitted",
+        "human_review_required",
+        "scope_escalation_allowed",
+        "single_template_winner",
+        "recommendations_non_binding"
+      ],
+      "properties": {
+        "automatic_promotion": {"const": false},
+        "registry_write_permitted": {"const": false},
+        "human_review_required": {"const": true},
+        "scope_escalation_allowed": {"const": false},
+        "single_template_winner": {"const": false},
+        "recommendations_non_binding": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "candidate_id",
+          "pattern_key",
+          "pattern_value",
+          "decision_domain",
+          "variant_axis",
+          "template_family_id",
+          "variant_id",
+          "variation_mode",
+          "applicability",
+          "scope",
+          "lifecycle_status",
+          "evidence_level",
+          "recommendation",
+          "evidence",
+          "blockers",
+          "safeguards",
+          "human_review"
+        ],
+        "properties": {
+          "candidate_id": {"type": "string", "pattern": "^LC-[A-F0-9]{16}$"},
+          "pattern_key": {"type": "string", "minLength": 1},
+          "pattern_value": {},
+          "decision_domain": {"enum": ["editorial_choice", "technical_contract"]},
+          "variant_axis": {
+            "enum": [
+              "structure",
+              "format",
+              "style",
+              "rhythm",
+              "transitions",
+              "audio",
+              "captions",
+              "assets",
+              "technical",
+              "workflow",
+              "other"
+            ]
+          },
+          "template_family_id": {"type": ["string", "null"]},
+          "variant_id": {"type": ["string", "null"]},
+          "variation_mode": {
+            "enum": ["baseline", "controlled_variant", "exploratory"]
+          },
+          "applicability": {
+            "type": "object",
+            "required": ["content_type", "platform", "audience_goal", "source_format", "duration_band", "language"],
+            "properties": {
+              "content_type": {"type": "string", "minLength": 1},
+              "platform": {"type": "string", "minLength": 1},
+              "audience_goal": {"type": "string", "minLength": 1},
+              "source_format": {"type": "string", "minLength": 1},
+              "duration_band": {"type": "string", "minLength": 1},
+              "language": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          },
+          "scope": {
+            "type": "object",
+            "required": ["level", "id"],
+            "properties": {
+              "level": {"enum": ["asset", "video", "series", "style", "creator", "account", "global"]},
+              "id": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          },
+          "lifecycle_status": {"enum": ["active", "actively_revoked"]},
+          "evidence_level": {
+            "enum": ["insufficient", "observed", "repeated", "triangulated", "promotion_candidate", "deprecated"]
+          },
+          "recommendation": {
+            "enum": ["observe", "test_more", "blocked", "do_not_promote", "retire", "eligible_for_portfolio_review"]
+          },
+          "evidence": {
+            "type": "object",
+            "required": [
+              "active_event_count",
+              "support_contexts",
+              "oppose_contexts",
+              "conflicted_contexts",
+              "neutral_contexts",
+              "revocation_count",
+              "actively_revoked",
+              "hard_gate_passes",
+              "hard_gate_failures",
+              "hard_gate_not_run",
+              "hard_gate_ids",
+              "support_weight",
+              "opposition_weight",
+              "positive_ratio",
+              "alternative_margin",
+              "relative_rank_within_variant_context",
+              "competing_value_count",
+              "unique_videos",
+              "unique_projects",
+              "unique_series",
+              "evidence_types",
+              "explicit_human_supports",
+              "explicit_human_oppositions",
+              "measured_supports",
+              "performance_sample_size",
+              "source_event_ids",
+              "superseded_event_ids"
+            ],
+            "properties": {
+              "active_event_count": {"type": "integer", "minimum": 0},
+              "support_contexts": {"type": "integer", "minimum": 0},
+              "oppose_contexts": {"type": "integer", "minimum": 0},
+              "conflicted_contexts": {"type": "integer", "minimum": 0},
+              "neutral_contexts": {"type": "integer", "minimum": 0},
+              "revocation_count": {"type": "integer", "minimum": 0},
+              "actively_revoked": {"type": "boolean"},
+              "hard_gate_passes": {"type": "integer", "minimum": 0},
+              "hard_gate_failures": {"type": "integer", "minimum": 0},
+              "hard_gate_not_run": {"type": "integer", "minimum": 0},
+              "hard_gate_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+              "support_weight": {"type": "number", "minimum": 0},
+              "opposition_weight": {"type": "number", "minimum": 0},
+              "positive_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+              "alternative_margin": {"type": "number", "minimum": 0, "maximum": 1},
+              "relative_rank_within_variant_context": {"type": "integer", "minimum": 1},
+              "competing_value_count": {"type": "integer", "minimum": 1},
+              "unique_videos": {"type": "integer", "minimum": 0},
+              "unique_projects": {"type": "integer", "minimum": 0},
+              "unique_series": {"type": "integer", "minimum": 0},
+              "evidence_types": {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {"enum": ["technical", "creative", "preference", "performance"]}
+              },
+              "explicit_human_supports": {"type": "integer", "minimum": 0},
+              "explicit_human_oppositions": {"type": "integer", "minimum": 0},
+              "measured_supports": {"type": "integer", "minimum": 0},
+              "performance_sample_size": {"type": "integer", "minimum": 0},
+              "source_event_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+              "superseded_event_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
+            },
+            "additionalProperties": false
+          },
+          "blockers": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {"type": "string"}
+          },
+          "safeguards": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {"type": "string"}
+          },
+          "human_review": {
+            "type": "object",
+            "required": ["required", "status", "decision_options", "questions"],
+            "properties": {
+              "required": {"const": true},
+              "status": {"const": "pending"},
+              "decision_options": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 3,
+                "uniqueItems": true,
+                "items": {
+                  "enum": [
+                    "approve_for_exact_scope",
+                    "continue_testing",
+                    "reject_candidate",
+                    "confirm_retirement",
+                    "reinstate_with_new_evidence",
+                    "reject_recommendation"
+                  ]
+                }
+              },
+              "questions": {
+                "type": "array",
+                "minItems": 1,
+                "items": {"type": "string"}
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "portfolio": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "portfolio_key",
+          "template_family_id",
+          "applicability",
+          "variation_axes",
+          "candidate_ids",
+          "eligible_for_human_review_ids"
+        ],
+        "properties": {
+          "portfolio_key": {"type": "string", "pattern": "^LP-[A-F0-9]{16}$"},
+          "template_family_id": {"type": ["string", "null"]},
+          "applicability": {
+            "type": "object",
+            "required": ["content_type", "platform", "audience_goal", "source_format", "duration_band", "language"],
+            "properties": {
+              "content_type": {"type": "string", "minLength": 1},
+              "platform": {"type": "string", "minLength": 1},
+              "audience_goal": {"type": "string", "minLength": 1},
+              "source_format": {"type": "string", "minLength": 1},
+              "duration_band": {"type": "string", "minLength": 1},
+              "language": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          },
+          "variation_axes": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "structure",
+                "format",
+                "style",
+                "rhythm",
+                "transitions",
+                "audio",
+                "captions",
+                "assets",
+                "technical",
+                "workflow",
+                "other"
+              ]
+            }
+          },
+          "candidate_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+          "eligible_for_human_review_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string"}
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,4 @@
+Chat GPT puede saber muchísimo de marketing y casi nada de tu cliente.
+No escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte.
+Antes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.
+A veces, tu mejor prompt empieza en una conversación real con un cliente.

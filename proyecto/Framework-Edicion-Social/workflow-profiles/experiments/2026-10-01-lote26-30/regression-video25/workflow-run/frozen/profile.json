@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "version": "0.1.0",
+  "default": false,
+  "safety_floor_required": true,
+  "qa_passes": [
+    "visual_editorial",
+    "audio_rhythm",
+    "final_integration"
+  ],
+  "exact_export_qa_required": true,
+  "render_approval_required": true,
+  "specialized_voice_cleanup": "explicit_request_only",
+  "automatic_promotion": false,
+  "timing_helper": "scripts/medir_fases_edicion.py",
+  "process_timer": "scripts/medir_proceso.py",
+  "reuse_guard": "scripts/qa_reuse_context.py",
+  "evidence_report": "scripts/workflow_run.py",
+  "limits": "Execution profile selection does not approve media, authorize publication, or prove speed/quality. Existing skills and project rules remain applicable.",
+  "profile_id": "flujo-2",
+  "name": "Optimizado",
+  "status": "experimental_ready_for_pilot",
+  "creative_scope": "same_intent_and_coverage_as_flow1",
+  "execution": [
+    "Read shared batch receipts once, then changed requirements",
+    "Resolve contextual design/media/SFX/captions before final check",
+    "Directed checks during build; final integral check per stable candidate",
+    "Reuse only proven unchanged dependencies with intact QA evidence and current contexts",
+    "Run independent checks in parallel within current workload limits",
+    "Generate one timing/evidence index and link mandatory documentation"
+  ],
+  "full_check_target": "one_per_stable_candidate_not_a_hard_limit"
+}

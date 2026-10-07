@@ -1,0 +1,2753 @@
+{
+  "voice_sha256": "db677202633f2c8e3619e7e3bba9afe965a5d5ad5bb26a89e41ef98ae32ea31f",
+  "transcript_sha256": "b21815715ea3e685bd537c14998fd485f552d4e87f64ed52b3f5fa514b9b22fa",
+  "duration_s": 21.375,
+  "sections": [
+    {
+      "start_s": 0,
+      "end_s": 2.113,
+      "text": "La IA no te está ahorrando tiempo.",
+      "words": 6,
+      "words_per_minute": 170.3738760056791,
+      "estimated_voiced_pitch_samples": 20,
+      "voiced_rms_median_dbfs": -18.53054520768864,
+      "voiced_rms_p10_p90_dbfs": [
+        -26.947950515145674,
+        -12.038704353285823
+      ],
+      "pitch_median_hz": 128.51612903225805,
+      "pitch_p10_p90_hz": [
+        112.59726189303655,
+        226.3463131731566
+      ],
+      "pitch_span_semitones": 12.088320752667888
+    },
+    {
+      "start_s": 2.113,
+      "end_s": 6.142,
+      "text": "Hay gente utilizando inteligencia artificial y trabajando más que antes.",
+      "words": 6,
+      "words_per_minute": 89.35219657483248,
+      "estimated_voiced_pitch_samples": 29,
+      "voiced_rms_median_dbfs": -20.27855794258986,
+      "voiced_rms_p10_p90_dbfs": [
+        -27.0012340041405,
+        -15.257679156065869
+      ],
+      "pitch_median_hz": 136.75213675213675,
+      "pitch_p10_p90_hz": [
+        115.94202898550725,
+        228.57142857142858
+      ],
+      "pitch_span_semitones": 11.750897277998432
+    },
+    {
+      "start_s": 6.142,
+      "end_s": 11.695,
+      "text": "Generan algo, corrigen, vuelven a pedirlo, revisan otra vez.",
+      "words": 8,
+      "words_per_minute": 86.4397622906537,
+      "estimated_voiced_pitch_samples": 43,
+      "voiced_rms_median_dbfs": -17.39165385209032,
+      "voiced_rms_p10_p90_dbfs": [
+        -26.867875735352552,
+        -13.607483683148734
+      ],
+      "pitch_median_hz": 136.75213675213675,
+      "pitch_p10_p90_hz": [
+        123.07692307692308,
+        215.63963963963965
+      ],
+      "pitch_span_semitones": 9.708745462846778
+    },
+    {
+      "start_s": 11.695,
+      "end_s": 13.194,
+      "text": "Eso no es automatizar.",
+      "words": 4,
+      "words_per_minute": 160.10673782521675,
+      "estimated_voiced_pitch_samples": 8,
+      "voiced_rms_median_dbfs": -20.442391361972973,
+      "voiced_rms_p10_p90_dbfs": [
+        -29.952212092109168,
+        -15.380192667639644
+      ],
+      "pitch_median_hz": 135.02350092579405,
+      "pitch_p10_p90_hz": [
+        127.86570743405277,
+        144.84755578266055
+      ],
+      "pitch_span_semitones": 2.1588713211143706
+    },
+    {
+      "start_s": 13.194,
+      "end_s": 17.561,
+      "text": "Si la IA te da más trabajo del que te quita, todavía no tienes un sistema.",
+      "words": 6,
+      "words_per_minute": 82.43645523242502,
+      "estimated_voiced_pitch_samples": 34,
+      "voiced_rms_median_dbfs": -18.25222351244752,
+      "voiced_rms_p10_p90_dbfs": [
+        -28.968870009184737,
+        -12.736351342487051
+      ],
+      "pitch_median_hz": 140.36167756829548,
+      "pitch_p10_p90_hz": [
+        124.24908424908425,
+        218.28952239911143
+      ],
+      "pitch_span_semitones": 9.75609198996142
+    },
+    {
+      "start_s": 17.561,
+      "end_s": 21.375,
+      "text": "¿La IA te está ahorrando tiempo o te está dando más trabajo?",
+      "words": 14,
+      "words_per_minute": 220.24121657052962,
+      "estimated_voiced_pitch_samples": 25,
+      "voiced_rms_median_dbfs": -19.276201978374246,
+      "voiced_rms_p10_p90_dbfs": [
+        -26.669899061036492,
+        -13.609305705485738
+      ],
+      "pitch_median_hz": 134.45378151260505,
+      "pitch_p10_p90_hz": [
+        110.34482758620689,
+        248.46153846153848
+      ],
+      "pitch_span_semitones": 14.052042441516512
+    }
+  ],
+  "quiet_gaps": [
+    {
+      "start_s": 0.0,
+      "end_s": 0.15,
+      "duration_s": 0.15
+    },
+    {
+      "start_s": 1.9,
+      "end_s": 2.25,
+      "duration_s": 0.35
+    },
+    {
+      "start_s": 5.75,
+      "end_s": 6.3,
+      "duration_s": 0.55
+    },
+    {
+      "start_s": 7.15,
+      "end_s": 7.5,
+      "duration_s": 0.35
+    },
+    {
+      "start_s": 8.25,
+      "end_s": 8.7,
+      "duration_s": 0.45
+    },
+    {
+      "start_s": 9.75,
+      "end_s": 10.15,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 11.2,
+      "end_s": 11.6,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 13.0,
+      "end_s": 13.4,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 15.75,
+      "end_s": 15.95,
+      "duration_s": 0.2
+    },
+    {
+      "start_s": 17.4,
+      "end_s": 17.8,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 18.2,
+      "end_s": 18.4,
+      "duration_s": 0.2
+    },
+    {
+      "start_s": 20.0,
+      "end_s": 20.15,
+      "duration_s": 0.15
+    },
+    {
+      "start_s": 21.25,
+      "end_s": 21.375,
+      "duration_s": 0.125
+    }
+  ],
+  "frames": [
+    {
+      "time_s": 0.0,
+      "rms_dbfs": -73.93081679430543,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 0.05,
+      "rms_dbfs": -70.99550333535949,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 0.1,
+      "rms_dbfs": -54.573519458422524,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 0.15,
+      "rms_dbfs": -27.594858496184113,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 0.2,
+      "rms_dbfs": -16.447362386315465,
+      "pitch_hz": 112.67605633802818,
+      "pitch_confidence": 0.6739613633963434
+    },
+    {
+      "time_s": 0.25,
+      "rms_dbfs": -11.78153367520126,
+      "pitch_hz": 110.34482758620689,
+      "pitch_confidence": 0.6861774526993015
+    },
+    {
+      "time_s": 0.3,
+      "rms_dbfs": -13.494255386492961,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 0.35,
+      "rms_dbfs": -11.751647080326478,
+      "pitch_hz": 131.14754098360655,
+      "pitch_confidence": 0.8255013991553128
+    },
+    {
+      "time_s": 0.4,
+      "rms_dbfs": -9.776345501505705,
+      "pitch_hz": 296.2962962962963,
+      "pitch_confidence": 0.8136350078705152
+    },
+    {
+      "time_s": 0.45,
+      "rms_dbfs": -7.794501075035699,
+      "pitch_hz": 152.38095238095238,
+      "pitch_confidence": 0.8949446837912236
+    },
+    {
+      "time_s": 0.5,
+      "rms_dbfs": -12.63876926881647,
+      "pitch_hz": 146.78899082568807,
+      "pitch_confidence": 0.7440181755625987
+    },
+    {
+      "time_s": 0.55,
+      "rms_dbfs": -17.509805454522343,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 0.6,
+      "rms_dbfs": -25.57256875478967,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 0.65,
+      "rms_dbfs": -23.633360361983044,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 0.7,
+      "rms_dbfs": -17.81203902564233,
+      "pitch_hz": 124.03100775193798,
+      "pitch_confidence": 0.8632933463715965
+    },
+    {
+      "time_s": 0.75,
+      "rms_dbfs": -14.14215214842245,
+      "pitch_hz": 128.0,
+      "pitch_confidence": 0.8284305464508129
+    },
+    {
+      "time_s": 0.8,
+      "rms_dbfs": -20.578648458524928,
+      "pitch_hz": 129.03225806451613,
+      "pitch_confidence": 0.8303942517569176
+    },
+    {
+      "time_s": 0.85,
+      "rms_dbfs": -29.693216465697727,
+      "pitch_hz": 131.14754098360655,
+      "pitch_confidence": 0.672915790124453
+    },
+    {
+      "time_s": 0.9,
+      "rms_dbfs": -24.532162794531057,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 0.95,
+      "rms_dbfs": -27.5371934250427,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 1.0,
+      "rms_dbfs": -37.51976035252897,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 1.05,
+      "rms_dbfs": -17.998523594097453,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 1.1,
+      "rms_dbfs": -16.045219318727796,
+      "pitch_hz": 121.21212121212122,
+      "pitch_confidence": 0.7709443587876361
+    },
+    {
+      "time_s": 1.15,
+      "rms_dbfs": -18.583120389702383,
+      "pitch_hz": 123.07692307692308,
+      "pitch_confidence": 0.8368564897042071
+    },
+    {
+      "time_s": 1.2,
+      "rms_dbfs": -19.84153447590517,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 1.25,
+      "rms_dbfs": -19.097370720339107,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 1.3,
+      "rms_dbfs": -16.74697271081657,
+      "pitch_hz": 118.51851851851852,
+      "pitch_confidence": 0.7469413098678369
+    },
+    {
+      "time_s": 1.35,
+      "rms_dbfs": -18.477970025674896,
+      "pitch_hz": 120.30075187969925,
+      "pitch_confidence": 0.8322031929626087
+    },
+    {
+      "time_s": 1.4,
+      "rms_dbfs": -17.780781120640484,
+      "pitch_hz": 225.35211267605635,
+      "pitch_confidence": 0.6890384111824377
+    },
+    {
+      "time_s": 1.45,
+      "rms_dbfs": -19.519880656033063,
+      "pitch_hz": 210.52631578947367,
+      "pitch_confidence": 0.7302621492747033
+    },
+    {
+      "time_s": 1.5,
+      "rms_dbfs": -29.899545343518334,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 1.55,
+      "rms_dbfs": -22.078198454648465,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 1.6,
+      "rms_dbfs": -17.680633559501686,
+      "pitch_hz": 111.8881118881119,
+      "pitch_confidence": 0.7911252544352548
+    },
+    {
+      "time_s": 1.65,
+      "rms_dbfs": -18.016956635746915,
+      "pitch_hz": 235.2941176470588,
+      "pitch_confidence": 0.7759508410671803
+    },
+    {
+      "time_s": 1.7,
+      "rms_dbfs": -24.444826467529552,
+      "pitch_hz": 122.13740458015268,
+      "pitch_confidence": 0.746557312218766
+    },
+    {
+      "time_s": 1.75,
+      "rms_dbfs": -25.57305039205261,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 1.8,
+      "rms_dbfs": -21.571918389094034,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 1.85,
+      "rms_dbfs": -25.54864872989464,
+      "pitch_hz": 186.04651162790697,
+      "pitch_confidence": 0.8024624321331533
+    },
+    {
+      "time_s": 1.9,
+      "rms_dbfs": -35.64528320579085,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 1.95,
+      "rms_dbfs": -47.30337337009008,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 2.0,
+      "rms_dbfs": -52.29269162662134,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 2.05,
+      "rms_dbfs": -56.01840624199716,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 2.1,
+      "rms_dbfs": -67.70897317672987,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 2.15,
+      "rms_dbfs": -67.86809339584215,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 2.2,
+      "rms_dbfs": -70.09798909076271,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 2.25,
+      "rms_dbfs": -32.77058615950088,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 2.3,
+      "rms_dbfs": -20.311328350480856,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 2.35,
+      "rms_dbfs": -17.804933202874164,
+      "pitch_hz": 136.75213675213675,
+      "pitch_confidence": 0.8322746542729452
+    },
+    {
+      "time_s": 2.4,
+      "rms_dbfs": -21.62183742647794,
+      "pitch_hz": 140.35087719298247,
+      "pitch_confidence": 0.7042128805386307
+    },
+    {
+      "time_s": 2.45,
+      "rms_dbfs": -25.26824206718725,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 2.5,
+      "rms_dbfs": -18.37491136471612,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 2.55,
+      "rms_dbfs": -15.150403619571533,
+      "pitch_hz": 164.94845360824743,
+      "pitch_confidence": 0.7740257800861935
+    },
+    {
+      "time_s": 2.6,
+      "rms_dbfs": -21.341406639407268,
+      "pitch_hz": 163.26530612244898,
+      "pitch_confidence": 0.8805724232930633
+    },
+    {
+      "time_s": 2.65,
+      "rms_dbfs": -25.963092175036373,
+      "pitch_hz": 161.6161616161616,
+      "pitch_confidence": 0.7051656339953544
+    },
+    {
+      "time_s": 2.7,
+      "rms_dbfs": -16.480882485048667,
+      "pitch_hz": 175.82417582417582,
+      "pitch_confidence": 0.8496923083432961
+    },
+    {
+      "time_s": 2.75,
+      "rms_dbfs": -20.245787534698863,
+      "pitch_hz": 160.0,
+      "pitch_confidence": 0.760268409376974
+    },
+    {
+      "time_s": 2.8,
+      "rms_dbfs": -26.092902533678448,
+      "pitch_hz": 168.42105263157896,
+      "pitch_confidence": 0.8038459916769449
+    },
+    {
+      "time_s": 2.85,
+      "rms_dbfs": -14.411868350046856,
+      "pitch_hz": 290.90909090909093,
+      "pitch_confidence": 0.683368086199765
+    },
+    {
+      "time_s": 2.9,
+      "rms_dbfs": -15.92172912383459,
+      "pitch_hz": 125.98425196850394,
+      "pitch_confidence": 0.8080010981896
+    },
+    {
+      "time_s": 2.95,
+      "rms_dbfs": -19.312946847758855,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.0,
+      "rms_dbfs": -24.934984560302244,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.05,
+      "rms_dbfs": -19.852961362715902,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.1,
+      "rms_dbfs": -15.140899064137667,
+      "pitch_hz": 130.08130081300814,
+      "pitch_confidence": 0.6712522174809786
+    },
+    {
+      "time_s": 3.15,
+      "rms_dbfs": -17.384585811082435,
+      "pitch_hz": 130.08130081300814,
+      "pitch_confidence": 0.8390358934507549
+    },
+    {
+      "time_s": 3.2,
+      "rms_dbfs": -16.10361609807146,
+      "pitch_hz": 131.14754098360655,
+      "pitch_confidence": 0.8623181099445711
+    },
+    {
+      "time_s": 3.25,
+      "rms_dbfs": -15.364954692560204,
+      "pitch_hz": 126.98412698412699,
+      "pitch_confidence": 0.8614804300457672
+    },
+    {
+      "time_s": 3.3,
+      "rms_dbfs": -21.016086774982533,
+      "pitch_hz": 131.14754098360655,
+      "pitch_confidence": 0.8400886719691602
+    },
+    {
+      "time_s": 3.35,
+      "rms_dbfs": -20.539482953029513,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.4,
+      "rms_dbfs": -17.50736069246346,
+      "pitch_hz": 115.94202898550725,
+      "pitch_confidence": 0.6591646284600572
+    },
+    {
+      "time_s": 3.45,
+      "rms_dbfs": -19.168444899973853,
+      "pitch_hz": 228.57142857142858,
+      "pitch_confidence": 0.7499656822769937
+    },
+    {
+      "time_s": 3.5,
+      "rms_dbfs": -23.62764320986026,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.55,
+      "rms_dbfs": -20.936630965199736,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.6,
+      "rms_dbfs": -18.313958013779768,
+      "pitch_hz": 116.78832116788321,
+      "pitch_confidence": 0.845634682505423
+    },
+    {
+      "time_s": 3.65,
+      "rms_dbfs": -23.89807950836739,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.7,
+      "rms_dbfs": -21.093538578181,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.75,
+      "rms_dbfs": -18.696484923991562,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.8,
+      "rms_dbfs": -24.28887629958766,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.85,
+      "rms_dbfs": -30.19793998051204,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.9,
+      "rms_dbfs": -23.364838960088903,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 3.95,
+      "rms_dbfs": -31.67055394341436,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.0,
+      "rms_dbfs": -25.160330043316712,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.05,
+      "rms_dbfs": -25.23327994299636,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.1,
+      "rms_dbfs": -25.70161702548441,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.15,
+      "rms_dbfs": -27.357725263576054,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.2,
+      "rms_dbfs": -15.019015116397586,
+      "pitch_hz": 168.42105263157896,
+      "pitch_confidence": 0.6888599278963629
+    },
+    {
+      "time_s": 4.25,
+      "rms_dbfs": -15.67420683875409,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.3,
+      "rms_dbfs": -19.88239406182634,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.35,
+      "rms_dbfs": -28.206077563861427,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.4,
+      "rms_dbfs": -34.472646659342246,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.45,
+      "rms_dbfs": -22.536459550072525,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.5,
+      "rms_dbfs": -18.81847298886648,
+      "pitch_hz": 238.80597014925374,
+      "pitch_confidence": 0.7432132492603545
+    },
+    {
+      "time_s": 4.55,
+      "rms_dbfs": -27.394689744233588,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.6,
+      "rms_dbfs": -15.56815665065933,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.65,
+      "rms_dbfs": -13.0561482300423,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.7,
+      "rms_dbfs": -11.84557415330472,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.75,
+      "rms_dbfs": -11.414127015577964,
+      "pitch_hz": 114.28571428571429,
+      "pitch_confidence": 0.7070352250320747
+    },
+    {
+      "time_s": 4.8,
+      "rms_dbfs": -19.080595244330983,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.85,
+      "rms_dbfs": -27.762316990508552,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.9,
+      "rms_dbfs": -23.605632606718252,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 4.95,
+      "rms_dbfs": -17.809370215183037,
+      "pitch_hz": 115.94202898550725,
+      "pitch_confidence": 0.6567565961446826
+    },
+    {
+      "time_s": 5.0,
+      "rms_dbfs": -18.721978192401213,
+      "pitch_hz": 124.03100775193798,
+      "pitch_confidence": 0.8419531845567025
+    },
+    {
+      "time_s": 5.05,
+      "rms_dbfs": -17.643685161338027,
+      "pitch_hz": 124.03100775193798,
+      "pitch_confidence": 0.870832227870398
+    },
+    {
+      "time_s": 5.1,
+      "rms_dbfs": -17.264990731459772,
+      "pitch_hz": 119.40298507462687,
+      "pitch_confidence": 0.7967060885590036
+    },
+    {
+      "time_s": 5.15,
+      "rms_dbfs": -17.118600950073102,
+      "pitch_hz": 228.57142857142858,
+      "pitch_confidence": 0.8656206413897723
+    },
+    {
+      "time_s": 5.2,
+      "rms_dbfs": -16.260923444565456,
+      "pitch_hz": 222.22222222222223,
+      "pitch_confidence": 0.876839401749321
+    },
+    {
+      "time_s": 5.25,
+      "rms_dbfs": -19.47838939249023,
+      "pitch_hz": 213.33333333333334,
+      "pitch_confidence": 0.7103987817891547
+    },
+    {
+      "time_s": 5.3,
+      "rms_dbfs": -23.956463106834928,
+      "pitch_hz": 108.84353741496598,
+      "pitch_confidence": 0.6618047582630798
+    },
+    {
+      "time_s": 5.35,
+      "rms_dbfs": -26.64474274470495,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.4,
+      "rms_dbfs": -33.978606656170314,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.45,
+      "rms_dbfs": -22.364401372045513,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.5,
+      "rms_dbfs": -21.695313134538374,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.55,
+      "rms_dbfs": -22.734354901725837,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.6,
+      "rms_dbfs": -24.962207355899583,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.65,
+      "rms_dbfs": -27.806886696119353,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.7,
+      "rms_dbfs": -32.51673086936039,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.75,
+      "rms_dbfs": -38.391612175067976,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.8,
+      "rms_dbfs": -38.00840574960712,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.85,
+      "rms_dbfs": -37.68100961818546,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.9,
+      "rms_dbfs": -37.33328300684878,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 5.95,
+      "rms_dbfs": -41.869509338060816,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 6.0,
+      "rms_dbfs": -51.84855626011897,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 6.05,
+      "rms_dbfs": -61.47732963737886,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 6.1,
+      "rms_dbfs": -67.771610674778,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 6.15,
+      "rms_dbfs": -63.30789670329598,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 6.2,
+      "rms_dbfs": -48.63282508502006,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 6.25,
+      "rms_dbfs": -44.02071932193707,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 6.3,
+      "rms_dbfs": -22.7404900426691,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 6.35,
+      "rms_dbfs": -17.46603668088625,
+      "pitch_hz": 235.2941176470588,
+      "pitch_confidence": 0.8650125970325262
+    },
+    {
+      "time_s": 6.4,
+      "rms_dbfs": -14.508583869165188,
+      "pitch_hz": 125.0,
+      "pitch_confidence": 0.8069444829080402
+    },
+    {
+      "time_s": 6.45,
+      "rms_dbfs": -13.66628312662092,
+      "pitch_hz": 130.08130081300814,
+      "pitch_confidence": 0.802418573332568
+    },
+    {
+      "time_s": 6.5,
+      "rms_dbfs": -13.630893783366131,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 6.55,
+      "rms_dbfs": -15.872028221733338,
+      "pitch_hz": 123.07692307692308,
+      "pitch_confidence": 0.7425625573563918
+    },
+    {
+      "time_s": 6.6,
+      "rms_dbfs": -15.269143018546167,
+      "pitch_hz": 124.03100775193798,
+      "pitch_confidence": 0.8734068385130468
+    },
+    {
+      "time_s": 6.65,
+      "rms_dbfs": -11.762851338824202,
+      "pitch_hz": 126.98412698412699,
+      "pitch_confidence": 0.6790948051974066
+    },
+    {
+      "time_s": 6.7,
+      "rms_dbfs": -9.683795089378807,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 6.75,
+      "rms_dbfs": -11.80552702515631,
+      "pitch_hz": 139.1304347826087,
+      "pitch_confidence": 0.671033858642747
+    },
+    {
+      "time_s": 6.8,
+      "rms_dbfs": -12.057146586494431,
+      "pitch_hz": 152.38095238095238,
+      "pitch_confidence": 0.844447605036318
+    },
+    {
+      "time_s": 6.85,
+      "rms_dbfs": -19.000728480430457,
+      "pitch_hz": 153.84615384615384,
+      "pitch_confidence": 0.7338394874469392
+    },
+    {
+      "time_s": 6.9,
+      "rms_dbfs": -16.671625182650544,
+      "pitch_hz": 161.6161616161616,
+      "pitch_confidence": 0.8662856884808676
+    },
+    {
+      "time_s": 6.95,
+      "rms_dbfs": -17.130329484857278,
+      "pitch_hz": 160.0,
+      "pitch_confidence": 0.9125751966139207
+    },
+    {
+      "time_s": 7.0,
+      "rms_dbfs": -14.923938451798586,
+      "pitch_hz": 155.3398058252427,
+      "pitch_confidence": 0.8935917696854351
+    },
+    {
+      "time_s": 7.05,
+      "rms_dbfs": -18.97835615322519,
+      "pitch_hz": 153.84615384615384,
+      "pitch_confidence": 0.8619977937404695
+    },
+    {
+      "time_s": 7.1,
+      "rms_dbfs": -30.01490390376256,
+      "pitch_hz": 155.3398058252427,
+      "pitch_confidence": 0.8444223197863517
+    },
+    {
+      "time_s": 7.15,
+      "rms_dbfs": -36.393609453930445,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.2,
+      "rms_dbfs": -43.88223709360677,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.25,
+      "rms_dbfs": -47.83870844132022,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.3,
+      "rms_dbfs": -53.11481445959427,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.35,
+      "rms_dbfs": -68.79983486097734,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.4,
+      "rms_dbfs": -71.38556841975533,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.45,
+      "rms_dbfs": -71.02124498873337,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.5,
+      "rms_dbfs": -30.598975371187954,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.55,
+      "rms_dbfs": -19.506233890107115,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.6,
+      "rms_dbfs": -21.21467438773031,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.65,
+      "rms_dbfs": -22.084097498379947,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.7,
+      "rms_dbfs": -18.654136606659712,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.75,
+      "rms_dbfs": -13.584073582931337,
+      "pitch_hz": 133.33333333333334,
+      "pitch_confidence": 0.8348366499318227
+    },
+    {
+      "time_s": 7.8,
+      "rms_dbfs": -15.914000543276874,
+      "pitch_hz": 137.93103448275863,
+      "pitch_confidence": 0.7584261389652422
+    },
+    {
+      "time_s": 7.85,
+      "rms_dbfs": -20.985188779113347,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.9,
+      "rms_dbfs": -27.828367501964042,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 7.95,
+      "rms_dbfs": -25.139412265590302,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.0,
+      "rms_dbfs": -15.574691732768152,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.05,
+      "rms_dbfs": -17.812895223889747,
+      "pitch_hz": 129.03225806451613,
+      "pitch_confidence": 0.839275217616958
+    },
+    {
+      "time_s": 8.1,
+      "rms_dbfs": -18.34513429157542,
+      "pitch_hz": 131.14754098360655,
+      "pitch_confidence": 0.8794121481418423
+    },
+    {
+      "time_s": 8.15,
+      "rms_dbfs": -21.97720202736921,
+      "pitch_hz": 134.45378151260505,
+      "pitch_confidence": 0.8730525438047454
+    },
+    {
+      "time_s": 8.2,
+      "rms_dbfs": -26.59972414331837,
+      "pitch_hz": 134.45378151260505,
+      "pitch_confidence": 0.8814684982890651
+    },
+    {
+      "time_s": 8.25,
+      "rms_dbfs": -35.0840067826041,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.3,
+      "rms_dbfs": -38.90150459619311,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.35,
+      "rms_dbfs": -48.43733993581086,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.4,
+      "rms_dbfs": -55.26564425130489,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.45,
+      "rms_dbfs": -54.921084125467196,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.5,
+      "rms_dbfs": -56.58501915476183,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.55,
+      "rms_dbfs": -60.450728899898614,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.6,
+      "rms_dbfs": -63.827573772296766,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.65,
+      "rms_dbfs": -43.49483261623416,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.7,
+      "rms_dbfs": -30.741737067352307,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 8.75,
+      "rms_dbfs": -15.685459194339117,
+      "pitch_hz": 228.57142857142858,
+      "pitch_confidence": 0.6590255939089381
+    },
+    {
+      "time_s": 8.8,
+      "rms_dbfs": -14.33311643311354,
+      "pitch_hz": 123.07692307692308,
+      "pitch_confidence": 0.6696198024474311
+    },
+    {
+      "time_s": 8.85,
+      "rms_dbfs": -14.02070639583041,
+      "pitch_hz": 132.23140495867767,
+      "pitch_confidence": 0.7327753455343464
+    },
+    {
+      "time_s": 8.9,
+      "rms_dbfs": -17.622658155750397,
+      "pitch_hz": 129.03225806451613,
+      "pitch_confidence": 0.6547706902272895
+    },
+    {
+      "time_s": 8.95,
+      "rms_dbfs": -11.183403473684049,
+      "pitch_hz": 149.53271028037383,
+      "pitch_confidence": 0.8055910109400758
+    },
+    {
+      "time_s": 9.0,
+      "rms_dbfs": -13.938937620441788,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.05,
+      "rms_dbfs": -14.387638817036825,
+      "pitch_hz": 130.08130081300814,
+      "pitch_confidence": 0.6716413983672164
+    },
+    {
+      "time_s": 9.1,
+      "rms_dbfs": -14.18096626432553,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.15,
+      "rms_dbfs": -24.388630343699255,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.2,
+      "rms_dbfs": -21.75664022455972,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.25,
+      "rms_dbfs": -14.432408119235728,
+      "pitch_hz": 216.21621621621622,
+      "pitch_confidence": 0.7578700465366885
+    },
+    {
+      "time_s": 9.3,
+      "rms_dbfs": -19.876206467069327,
+      "pitch_hz": 108.10810810810811,
+      "pitch_confidence": 0.7734463434000267
+    },
+    {
+      "time_s": 9.35,
+      "rms_dbfs": -16.073452393726384,
+      "pitch_hz": 125.98425196850394,
+      "pitch_confidence": 0.8083232540605605
+    },
+    {
+      "time_s": 9.4,
+      "rms_dbfs": -12.903532194821775,
+      "pitch_hz": 137.93103448275863,
+      "pitch_confidence": 0.8272752171167363
+    },
+    {
+      "time_s": 9.45,
+      "rms_dbfs": -12.901094303082747,
+      "pitch_hz": 421.05263157894734,
+      "pitch_confidence": 0.7616656144204421
+    },
+    {
+      "time_s": 9.5,
+      "rms_dbfs": -18.732039930135645,
+      "pitch_hz": 140.35087719298247,
+      "pitch_confidence": 0.7751443167478361
+    },
+    {
+      "time_s": 9.55,
+      "rms_dbfs": -17.659932009248017,
+      "pitch_hz": 136.75213675213675,
+      "pitch_confidence": 0.8730951415114344
+    },
+    {
+      "time_s": 9.6,
+      "rms_dbfs": -16.371066645745888,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.65,
+      "rms_dbfs": -20.810601235613415,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.7,
+      "rms_dbfs": -28.318694656457737,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.75,
+      "rms_dbfs": -35.6559476244687,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.8,
+      "rms_dbfs": -45.5021849688723,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.85,
+      "rms_dbfs": -47.59494639235518,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.9,
+      "rms_dbfs": -48.15072945156284,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 9.95,
+      "rms_dbfs": -52.05989808794175,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.0,
+      "rms_dbfs": -54.38398470325411,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.05,
+      "rms_dbfs": -59.61553261157074,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.1,
+      "rms_dbfs": -35.1066067465102,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.15,
+      "rms_dbfs": -24.40885010374094,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.2,
+      "rms_dbfs": -18.718386639816863,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.25,
+      "rms_dbfs": -14.852056097066997,
+      "pitch_hz": 213.33333333333334,
+      "pitch_confidence": 0.7778662693009688
+    },
+    {
+      "time_s": 10.3,
+      "rms_dbfs": -17.78762651589798,
+      "pitch_hz": 106.66666666666667,
+      "pitch_confidence": 0.7367181565540227
+    },
+    {
+      "time_s": 10.35,
+      "rms_dbfs": -14.676295257324913,
+      "pitch_hz": 250.0,
+      "pitch_confidence": 0.7894375125452094
+    },
+    {
+      "time_s": 10.4,
+      "rms_dbfs": -13.842598135213986,
+      "pitch_hz": 139.1304347826087,
+      "pitch_confidence": 0.6615931662112369
+    },
+    {
+      "time_s": 10.45,
+      "rms_dbfs": -17.0867004401903,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.5,
+      "rms_dbfs": -23.104057207455043,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.55,
+      "rms_dbfs": -16.717518693506968,
+      "pitch_hz": 150.9433962264151,
+      "pitch_confidence": 0.6981796791409215
+    },
+    {
+      "time_s": 10.6,
+      "rms_dbfs": -17.317271023294396,
+      "pitch_hz": 129.03225806451613,
+      "pitch_confidence": 0.7012883299484933
+    },
+    {
+      "time_s": 10.65,
+      "rms_dbfs": -16.95127542282802,
+      "pitch_hz": 123.07692307692308,
+      "pitch_confidence": 0.7312376966465373
+    },
+    {
+      "time_s": 10.7,
+      "rms_dbfs": -22.770171068231114,
+      "pitch_hz": 116.78832116788321,
+      "pitch_confidence": 0.6668326960943666
+    },
+    {
+      "time_s": 10.75,
+      "rms_dbfs": -30.33969929046598,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.8,
+      "rms_dbfs": -18.375300487582283,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.85,
+      "rms_dbfs": -15.907642219726874,
+      "pitch_hz": 108.84353741496598,
+      "pitch_confidence": 0.7319048197809666
+    },
+    {
+      "time_s": 10.9,
+      "rms_dbfs": -16.622067184056608,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 10.95,
+      "rms_dbfs": -14.86704244341265,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.0,
+      "rms_dbfs": -15.58601170645974,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.05,
+      "rms_dbfs": -21.046593044007654,
+      "pitch_hz": 156.86274509803923,
+      "pitch_confidence": 0.7602361507396719
+    },
+    {
+      "time_s": 11.1,
+      "rms_dbfs": -27.136027327386735,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.15,
+      "rms_dbfs": -30.846317957880103,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.2,
+      "rms_dbfs": -41.80123779529286,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.25,
+      "rms_dbfs": -48.61990942152769,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.3,
+      "rms_dbfs": -53.93902371699721,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.35,
+      "rms_dbfs": -62.819873581231356,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.4,
+      "rms_dbfs": -66.3671040849267,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.45,
+      "rms_dbfs": -67.52351714907691,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.5,
+      "rms_dbfs": -68.27907082776768,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.55,
+      "rms_dbfs": -65.4992329547654,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.6,
+      "rms_dbfs": -25.992375304633303,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.65,
+      "rms_dbfs": -21.810904538700676,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.7,
+      "rms_dbfs": -21.26182252778891,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.75,
+      "rms_dbfs": -18.391549616252973,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 11.8,
+      "rms_dbfs": -17.74903490774663,
+      "pitch_hz": 140.35087719298247,
+      "pitch_confidence": 0.7903675624187045
+    },
+    {
+      "time_s": 11.85,
+      "rms_dbfs": -16.248675368233656,
+      "pitch_hz": 134.45378151260505,
+      "pitch_confidence": 0.8864639247722189
+    },
+    {
+      "time_s": 11.9,
+      "rms_dbfs": -15.01305159429877,
+      "pitch_hz": 134.45378151260505,
+      "pitch_confidence": 0.8270717775940142
+    },
+    {
+      "time_s": 11.95,
+      "rms_dbfs": -16.756478916865923,
+      "pitch_hz": 133.33333333333334,
+      "pitch_confidence": 0.8846491621556212
+    },
+    {
+      "time_s": 12.0,
+      "rms_dbfs": -17.422650213798978,
+      "pitch_hz": 135.59322033898306,
+      "pitch_confidence": 0.7892926348269125
+    },
+    {
+      "time_s": 12.05,
+      "rms_dbfs": -15.641817288227834,
+      "pitch_hz": 139.1304347826087,
+      "pitch_confidence": 0.8072131309265829
+    },
+    {
+      "time_s": 12.1,
+      "rms_dbfs": -15.118568047051454,
+      "pitch_hz": 155.3398058252427,
+      "pitch_confidence": 0.7394731518656755
+    },
+    {
+      "time_s": 12.15,
+      "rms_dbfs": -18.636985649313033,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.2,
+      "rms_dbfs": -22.301943087020526,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.25,
+      "rms_dbfs": -14.994624484605684,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.3,
+      "rms_dbfs": -17.587746969741687,
+      "pitch_hz": 115.10791366906474,
+      "pitch_confidence": 0.6681438953319797
+    },
+    {
+      "time_s": 12.35,
+      "rms_dbfs": -26.814517869941344,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.4,
+      "rms_dbfs": -27.334908933895964,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.45,
+      "rms_dbfs": -22.338969318257533,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.5,
+      "rms_dbfs": -19.622960196157038,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.55,
+      "rms_dbfs": -19.559470059675633,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.6,
+      "rms_dbfs": -30.59910141609074,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.65,
+      "rms_dbfs": -31.55467712808602,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.7,
+      "rms_dbfs": -27.335158955017977,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.75,
+      "rms_dbfs": -30.005531941742824,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.8,
+      "rms_dbfs": -26.9823196682766,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.85,
+      "rms_dbfs": -22.19561510906411,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.9,
+      "rms_dbfs": -22.379350497965834,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 12.95,
+      "rms_dbfs": -29.89889224247551,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.0,
+      "rms_dbfs": -36.864450536127,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.05,
+      "rms_dbfs": -47.1996919464469,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.1,
+      "rms_dbfs": -50.14843992352723,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.15,
+      "rms_dbfs": -61.82208013145594,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.2,
+      "rms_dbfs": -70.91536026005262,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.25,
+      "rms_dbfs": -70.75433878756076,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.3,
+      "rms_dbfs": -71.41648314035696,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.35,
+      "rms_dbfs": -47.78416235165308,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.4,
+      "rms_dbfs": -33.82485205460282,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.45,
+      "rms_dbfs": -28.166404058722616,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.5,
+      "rms_dbfs": -16.17732026706424,
+      "pitch_hz": 134.45378151260505,
+      "pitch_confidence": 0.7420264455392233
+    },
+    {
+      "time_s": 13.55,
+      "rms_dbfs": -14.449792928497725,
+      "pitch_hz": 134.45378151260505,
+      "pitch_confidence": 0.6886468359926695
+    },
+    {
+      "time_s": 13.6,
+      "rms_dbfs": -10.493059709189671,
+      "pitch_hz": 326.53061224489795,
+      "pitch_confidence": 0.7509288702695665
+    },
+    {
+      "time_s": 13.65,
+      "rms_dbfs": -12.490264882851639,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.7,
+      "rms_dbfs": -14.74907112329017,
+      "pitch_hz": 170.2127659574468,
+      "pitch_confidence": 0.676194051185458
+    },
+    {
+      "time_s": 13.75,
+      "rms_dbfs": -12.842615624355753,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.8,
+      "rms_dbfs": -10.11018307010984,
+      "pitch_hz": 210.52631578947367,
+      "pitch_confidence": 0.820109494695026
+    },
+    {
+      "time_s": 13.85,
+      "rms_dbfs": -17.312010767418283,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.9,
+      "rms_dbfs": -22.126612094548342,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 13.95,
+      "rms_dbfs": -30.150088872973765,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 14.0,
+      "rms_dbfs": -36.21477890203703,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 14.05,
+      "rms_dbfs": -44.280632268628835,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 14.1,
+      "rms_dbfs": -13.168195088396065,
+      "pitch_hz": 142.85714285714286,
+      "pitch_confidence": 0.7693364895381632
+    },
+    {
+      "time_s": 14.15,
+      "rms_dbfs": -12.772474033760437,
+      "pitch_hz": 136.75213675213675,
+      "pitch_confidence": 0.8543893364658537
+    },
+    {
+      "time_s": 14.2,
+      "rms_dbfs": -13.399021992133783,
+      "pitch_hz": 150.9433962264151,
+      "pitch_confidence": 0.7509842175212509
+    },
+    {
+      "time_s": 14.25,
+      "rms_dbfs": -13.384525953207955,
+      "pitch_hz": 155.3398058252427,
+      "pitch_confidence": 0.8578339725117535
+    },
+    {
+      "time_s": 14.3,
+      "rms_dbfs": -12.06638525168632,
+      "pitch_hz": 153.84615384615384,
+      "pitch_confidence": 0.8863393963609195
+    },
+    {
+      "time_s": 14.35,
+      "rms_dbfs": -11.972216432298762,
+      "pitch_hz": 155.3398058252427,
+      "pitch_confidence": 0.8519890494792752
+    },
+    {
+      "time_s": 14.4,
+      "rms_dbfs": -16.76109861147651,
+      "pitch_hz": 155.3398058252427,
+      "pitch_confidence": 0.8316002572321589
+    },
+    {
+      "time_s": 14.45,
+      "rms_dbfs": -24.71808258686454,
+      "pitch_hz": 155.3398058252427,
+      "pitch_confidence": 0.8625773525794556
+    },
+    {
+      "time_s": 14.5,
+      "rms_dbfs": -15.997636423962675,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 14.55,
+      "rms_dbfs": -14.25171386378902,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 14.6,
+      "rms_dbfs": -12.597916729738415,
+      "pitch_hz": 130.08130081300814,
+      "pitch_confidence": 0.80154037881566
+    },
+    {
+      "time_s": 14.65,
+      "rms_dbfs": -14.784906636742557,
+      "pitch_hz": 133.33333333333334,
+      "pitch_confidence": 0.810234497582503
+    },
+    {
+      "time_s": 14.7,
+      "rms_dbfs": -11.608744333305363,
+      "pitch_hz": 131.14754098360655,
+      "pitch_confidence": 0.7501091915472964
+    },
+    {
+      "time_s": 14.75,
+      "rms_dbfs": -12.751732966125788,
+      "pitch_hz": 120.30075187969925,
+      "pitch_confidence": 0.6638788642809612
+    },
+    {
+      "time_s": 14.8,
+      "rms_dbfs": -16.757130602523425,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 14.85,
+      "rms_dbfs": -28.183816177249163,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 14.9,
+      "rms_dbfs": -28.91440391639289,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 14.95,
+      "rms_dbfs": -18.1462805837085,
+      "pitch_hz": 219.17808219178082,
+      "pitch_confidence": 0.7018444914466897
+    },
+    {
+      "time_s": 15.0,
+      "rms_dbfs": -16.459150599043067,
+      "pitch_hz": 432.43243243243245,
+      "pitch_confidence": 0.7092305692807673
+    },
+    {
+      "time_s": 15.05,
+      "rms_dbfs": -18.837069939745092,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.1,
+      "rms_dbfs": -25.1953244625486,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.15,
+      "rms_dbfs": -24.70659721737271,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.2,
+      "rms_dbfs": -19.87681155407484,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.25,
+      "rms_dbfs": -28.89076345779859,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.3,
+      "rms_dbfs": -20.914470222125267,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.35,
+      "rms_dbfs": -27.985086463595287,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.4,
+      "rms_dbfs": -30.33118270063197,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.45,
+      "rms_dbfs": -23.955332345325573,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.5,
+      "rms_dbfs": -30.724852077549002,
+      "pitch_hz": 141.5929203539823,
+      "pitch_confidence": 0.6647740462900531
+    },
+    {
+      "time_s": 15.55,
+      "rms_dbfs": -30.444325112755415,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.6,
+      "rms_dbfs": -19.30474127773167,
+      "pitch_hz": 153.84615384615384,
+      "pitch_confidence": 0.7982941500525746
+    },
+    {
+      "time_s": 15.65,
+      "rms_dbfs": -24.40633849867266,
+      "pitch_hz": 153.84615384615384,
+      "pitch_confidence": 0.8584567313277255
+    },
+    {
+      "time_s": 15.7,
+      "rms_dbfs": -33.37262179727598,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.75,
+      "rms_dbfs": -42.431022817343816,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.8,
+      "rms_dbfs": -48.25571286369179,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.85,
+      "rms_dbfs": -52.36394229690056,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.9,
+      "rms_dbfs": -57.28574574859985,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 15.95,
+      "rms_dbfs": -24.915314049611634,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 16.0,
+      "rms_dbfs": -17.210785882013944,
+      "pitch_hz": 119.40298507462687,
+      "pitch_confidence": 0.8153454163710855
+    },
+    {
+      "time_s": 16.05,
+      "rms_dbfs": -15.205897946967452,
+      "pitch_hz": 123.07692307692308,
+      "pitch_confidence": 0.8260898529618228
+    },
+    {
+      "time_s": 16.1,
+      "rms_dbfs": -16.664688717081834,
+      "pitch_hz": 122.13740458015268,
+      "pitch_confidence": 0.7431803974903787
+    },
+    {
+      "time_s": 16.15,
+      "rms_dbfs": -14.523075015806812,
+      "pitch_hz": 139.1304347826087,
+      "pitch_confidence": 0.8271877864921758
+    },
+    {
+      "time_s": 16.2,
+      "rms_dbfs": -16.10592790773084,
+      "pitch_hz": 139.1304347826087,
+      "pitch_confidence": 0.725091615896604
+    },
+    {
+      "time_s": 16.25,
+      "rms_dbfs": -16.209391791365405,
+      "pitch_hz": 135.59322033898306,
+      "pitch_confidence": 0.8732967836401965
+    },
+    {
+      "time_s": 16.3,
+      "rms_dbfs": -16.953476373441255,
+      "pitch_hz": 131.14754098360655,
+      "pitch_confidence": 0.7684413516670404
+    },
+    {
+      "time_s": 16.35,
+      "rms_dbfs": -18.358166441186544,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 16.4,
+      "rms_dbfs": -25.65787375283085,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 16.45,
+      "rms_dbfs": -31.7548488662218,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 16.5,
+      "rms_dbfs": -15.481177490716473,
+      "pitch_hz": 258.06451612903226,
+      "pitch_confidence": 0.7799816449772566
+    },
+    {
+      "time_s": 16.55,
+      "rms_dbfs": -16.12487563278371,
+      "pitch_hz": 133.33333333333334,
+      "pitch_confidence": 0.8322049032646064
+    },
+    {
+      "time_s": 16.6,
+      "rms_dbfs": -22.109977236644824,
+      "pitch_hz": 134.45378151260505,
+      "pitch_confidence": 0.8232239127020266
+    },
+    {
+      "time_s": 16.65,
+      "rms_dbfs": -16.414193961456597,
+      "pitch_hz": 126.98412698412699,
+      "pitch_confidence": 0.7964586178702918
+    },
+    {
+      "time_s": 16.7,
+      "rms_dbfs": -17.540818093740885,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 16.75,
+      "rms_dbfs": -25.41666553771167,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 16.8,
+      "rms_dbfs": -24.59402822191256,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 16.85,
+      "rms_dbfs": -19.67192905669547,
+      "pitch_hz": 216.21621621621622,
+      "pitch_confidence": 0.8487266480934534
+    },
+    {
+      "time_s": 16.9,
+      "rms_dbfs": -23.691427378656442,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 16.95,
+      "rms_dbfs": -21.520690795552323,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.0,
+      "rms_dbfs": -29.459064844311378,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.05,
+      "rms_dbfs": -27.738834209373216,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.1,
+      "rms_dbfs": -34.40483725652403,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.15,
+      "rms_dbfs": -31.75235419116765,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.2,
+      "rms_dbfs": -21.131723741178586,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.25,
+      "rms_dbfs": -26.814054194345868,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.3,
+      "rms_dbfs": -28.117647038424252,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.35,
+      "rms_dbfs": -33.40063635012676,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.4,
+      "rms_dbfs": -39.39054555964803,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.45,
+      "rms_dbfs": -52.22057850706562,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.5,
+      "rms_dbfs": -56.29124668825626,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.55,
+      "rms_dbfs": -66.82788640301132,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.6,
+      "rms_dbfs": -71.85666422448728,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.65,
+      "rms_dbfs": -72.37678776097906,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.7,
+      "rms_dbfs": -37.282254965125205,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.75,
+      "rms_dbfs": -42.6759320130754,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.8,
+      "rms_dbfs": -27.392374101635703,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.85,
+      "rms_dbfs": -18.80359523157636,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 17.9,
+      "rms_dbfs": -25.261203692813375,
+      "pitch_hz": 126.98412698412699,
+      "pitch_confidence": 0.688081845692124
+    },
+    {
+      "time_s": 17.95,
+      "rms_dbfs": -33.5187706000622,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.0,
+      "rms_dbfs": -13.989768720811249,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.05,
+      "rms_dbfs": -11.927687928598694,
+      "pitch_hz": 250.0,
+      "pitch_confidence": 0.7494467742075395
+    },
+    {
+      "time_s": 18.1,
+      "rms_dbfs": -17.478364026166847,
+      "pitch_hz": 258.06451612903226,
+      "pitch_confidence": 0.7079245120896105
+    },
+    {
+      "time_s": 18.15,
+      "rms_dbfs": -26.954843213282217,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.2,
+      "rms_dbfs": -36.266169041972034,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.25,
+      "rms_dbfs": -45.1905514309884,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.3,
+      "rms_dbfs": -50.151026360837314,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.35,
+      "rms_dbfs": -44.48926511867278,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.4,
+      "rms_dbfs": -32.59482007278318,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.45,
+      "rms_dbfs": -19.342411702878465,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.5,
+      "rms_dbfs": -14.056563296776988,
+      "pitch_hz": 110.34482758620689,
+      "pitch_confidence": 0.7038745503709116
+    },
+    {
+      "time_s": 18.55,
+      "rms_dbfs": -13.080068534348012,
+      "pitch_hz": 235.2941176470588,
+      "pitch_confidence": 0.6664540695461836
+    },
+    {
+      "time_s": 18.6,
+      "rms_dbfs": -14.356336746230474,
+      "pitch_hz": 125.0,
+      "pitch_confidence": 0.7317500389413163
+    },
+    {
+      "time_s": 18.65,
+      "rms_dbfs": -15.748583849338827,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.7,
+      "rms_dbfs": -17.961562942729884,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.75,
+      "rms_dbfs": -22.541250360315388,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.8,
+      "rms_dbfs": -33.54175791140084,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.85,
+      "rms_dbfs": -40.12929291570181,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.9,
+      "rms_dbfs": -22.897377595473465,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 18.95,
+      "rms_dbfs": -22.301153223086878,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 19.0,
+      "rms_dbfs": -29.07440050463821,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 19.05,
+      "rms_dbfs": -18.90463273456011,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 19.1,
+      "rms_dbfs": -10.953908031186783,
+      "pitch_hz": 132.23140495867767,
+      "pitch_confidence": 0.7051772225040243
+    },
+    {
+      "time_s": 19.15,
+      "rms_dbfs": -13.228842690160228,
+      "pitch_hz": 148.14814814814815,
+      "pitch_confidence": 0.7768722311584648
+    },
+    {
+      "time_s": 19.2,
+      "rms_dbfs": -12.709917078293868,
+      "pitch_hz": 149.53271028037383,
+      "pitch_confidence": 0.808788782915567
+    },
+    {
+      "time_s": 19.25,
+      "rms_dbfs": -15.192597194396726,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 19.3,
+      "rms_dbfs": -12.555944031924682,
+      "pitch_hz": 145.45454545454547,
+      "pitch_confidence": 0.8558639020122212
+    },
+    {
+      "time_s": 19.35,
+      "rms_dbfs": -17.859402217701902,
+      "pitch_hz": 142.85714285714286,
+      "pitch_confidence": 0.7882238535690667
+    },
+    {
+      "time_s": 19.4,
+      "rms_dbfs": -17.49439265000426,
+      "pitch_hz": 134.45378151260505,
+      "pitch_confidence": 0.7914862560162671
+    },
+    {
+      "time_s": 19.45,
+      "rms_dbfs": -15.023565148401858,
+      "pitch_hz": 129.03225806451613,
+      "pitch_confidence": 0.7084854956336883
+    },
+    {
+      "time_s": 19.5,
+      "rms_dbfs": -23.29026606208634,
+      "pitch_hz": 131.14754098360655,
+      "pitch_confidence": 0.673301708740336
+    },
+    {
+      "time_s": 19.55,
+      "rms_dbfs": -30.122879643571807,
+      "pitch_hz": 131.14754098360655,
+      "pitch_confidence": 0.6562447249820927
+    },
+    {
+      "time_s": 19.6,
+      "rms_dbfs": -16.814652106173156,
+      "pitch_hz": 275.86206896551727,
+      "pitch_confidence": 0.7145263793035956
+    },
+    {
+      "time_s": 19.65,
+      "rms_dbfs": -17.413139736175395,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 19.7,
+      "rms_dbfs": -15.745663998787958,
+      "pitch_hz": 183.90804597701148,
+      "pitch_confidence": 0.8896526285722685
+    },
+    {
+      "time_s": 19.75,
+      "rms_dbfs": -16.846015465651817,
+      "pitch_hz": 183.90804597701148,
+      "pitch_confidence": 0.9163441540687521
+    },
+    {
+      "time_s": 19.8,
+      "rms_dbfs": -23.263716133376413,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 19.85,
+      "rms_dbfs": -20.40463972161586,
+      "pitch_hz": 246.15384615384616,
+      "pitch_confidence": 0.8770817046173923
+    },
+    {
+      "time_s": 19.9,
+      "rms_dbfs": -26.384954908790768,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 19.95,
+      "rms_dbfs": -33.053702967409905,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.0,
+      "rms_dbfs": -43.51286782838892,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.05,
+      "rms_dbfs": -49.8165180812384,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.1,
+      "rms_dbfs": -58.900617856761066,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.15,
+      "rms_dbfs": -19.958844082589827,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.2,
+      "rms_dbfs": -17.912977631757336,
+      "pitch_hz": 125.98425196850394,
+      "pitch_confidence": 0.7008149899033087
+    },
+    {
+      "time_s": 20.25,
+      "rms_dbfs": -24.530047530459107,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.3,
+      "rms_dbfs": -20.449410452062303,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.35,
+      "rms_dbfs": -21.320176649044402,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.4,
+      "rms_dbfs": -31.17067868344582,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.45,
+      "rms_dbfs": -21.07016505344027,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.5,
+      "rms_dbfs": -14.146026728759082,
+      "pitch_hz": 111.8881118881119,
+      "pitch_confidence": 0.7944691774239859
+    },
+    {
+      "time_s": 20.55,
+      "rms_dbfs": -15.419593489793114,
+      "pitch_hz": 108.10810810810811,
+      "pitch_confidence": 0.7235791248500053
+    },
+    {
+      "time_s": 20.6,
+      "rms_dbfs": -16.404681540274332,
+      "pitch_hz": 110.34482758620689,
+      "pitch_confidence": 0.8148158825538532
+    },
+    {
+      "time_s": 20.65,
+      "rms_dbfs": -17.438435028691156,
+      "pitch_hz": 216.21621621621622,
+      "pitch_confidence": 0.8460313772121298
+    },
+    {
+      "time_s": 20.7,
+      "rms_dbfs": -21.24157974837857,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.75,
+      "rms_dbfs": -20.901656378200236,
+      "pitch_hz": 100.62893081761007,
+      "pitch_confidence": 0.7606881596426016
+    },
+    {
+      "time_s": 20.8,
+      "rms_dbfs": -19.20999225387003,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.85,
+      "rms_dbfs": -21.62759657291042,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.9,
+      "rms_dbfs": -28.728319325209604,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 20.95,
+      "rms_dbfs": -25.07994745891025,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 21.0,
+      "rms_dbfs": -20.536656032235527,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 21.05,
+      "rms_dbfs": -21.277564309882,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 21.1,
+      "rms_dbfs": -23.820525784857285,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 21.15,
+      "rms_dbfs": -25.49986005282372,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 21.2,
+      "rms_dbfs": -33.845562458484345,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 21.25,
+      "rms_dbfs": -43.46728054325406,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    },
+    {
+      "time_s": 21.3,
+      "rms_dbfs": -61.24201137254326,
+      "pitch_hz": null,
+      "pitch_confidence": null
+    }
+  ],
+  "limits": "Profile of edited voice stem. ASR word times remain provisional. 60ms windows/50ms step; F0 80–444Hz with correlation>=0.65; octave/formant mistakes possible. RMS thresholds are local review presets. No hearing, emotion, interpretation or naturalness certified. Compare within this same speaker and validate intent against words/context."
+}

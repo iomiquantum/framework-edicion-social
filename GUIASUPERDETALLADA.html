@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Guía superdetallada · Tu primera edición</title>
+<style>
+:root{--paper:#f7f6ef;--card:#fffefa;--ink:#203c38;--muted:#586863;--line:#d7ded5;--green:#225f51;--tint:#e7eee4;--orange:#a84221;--warm:#faeadc;--radius:18px}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,textarea,select{font:inherit}button,a,input,textarea,summary{touch-action:manipulation}button{cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:11px 16px;background:var(--card);color:var(--ink);font-weight:650;line-height:1.35}button:hover{background:var(--tint)}button:disabled{opacity:.5;cursor:default}button.primary{background:var(--green);color:white;border-color:var(--green)}button.primary:hover{background:#174d41}button.quiet{background:transparent}a{color:var(--green);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #b05125;outline-offset:4px}button[aria-pressed=true]{background:var(--green);color:white;border-color:var(--green)}[hidden]{display:none!important}.skip{position:absolute;left:10px;top:-100px;z-index:10;background:white;padding:10px}.skip:focus{top:10px}
+.top{max-width:1360px;margin:auto;padding:26px 38px 21px;display:flex;align-items:center;justify-content:space-between;gap:18px;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:-.7px;font-size:21px}.brand span{font-weight:400;color:var(--muted)}.edition{font-size:12px;letter-spacing:1.8px;text-transform:uppercase;color:var(--muted)}.badge{border:1px solid var(--line);border-radius:30px;padding:5px 12px;font-size:13px;white-space:nowrap}
+.layout{max-width:1360px;margin:auto;display:grid;grid-template-columns:288px minmax(0,1fr);gap:48px;padding:34px 38px 70px}.sidebar{min-width:0}.sidebar-inner{position:sticky;top:24px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:1.8px;font-weight:800;color:var(--green);margin:0 0 8px}.system-buttons{display:flex;gap:8px;margin:8px 0 18px}.system-buttons button{flex:1;font-size:15px}.progress-label{display:flex;justify-content:space-between;font-size:14px}.meter{height:7px;background:#dce3d9;border-radius:12px;margin:9px 0 11px;overflow:hidden}.meter span{display:block;height:100%;width:0;background:var(--green);transition:width .18s}.save-status{font-size:12px;line-height:1.5;color:var(--muted);margin-bottom:15px}.sidebar details>summary{font-size:14px;font-weight:700;cursor:pointer}.step-list{list-style:none;padding:8px 0 0;margin:0}.step-list li{margin:2px 0}.step-list button{border:0;background:transparent;width:100%;text-align:left;display:flex;align-items:center;gap:11px;font-size:13px;font-weight:500;padding:7px 8px}.step-list button[aria-current=step]{background:var(--tint);font-weight:750}.step-list .num{border:1px solid #abbcaf;border-radius:50%;height:24px;width:24px;flex:0 0 24px;display:grid;place-items:center;font-size:11px}.step-list .done .num{background:var(--green);color:white;border-color:var(--green)}.step-list .done .nav-name{text-decoration:line-through;text-decoration-color:#749284}.sidebar-tools{border-top:1px solid var(--line);margin-top:20px;padding-top:16px;display:grid;gap:8px}.sidebar-tools button{font-size:13px;text-align:left;padding:9px 10px}.muted{color:var(--muted)}.small{font-size:13px;line-height:1.55}.content{min-width:0;max-width:880px}.step-top{display:flex;gap:10px;justify-content:space-between;align-items:center}.pill{background:var(--warm);color:#853b22;padding:4px 10px;font-size:12px;font-weight:700;border-radius:20px}.step-heading{font-size:clamp(30px,4vw,48px);line-height:1.08;letter-spacing:-1.8px;font-weight:750;margin:19px 0 19px;max-width:780px}.step-heading:focus{outline:none}.intro{font-size:19px;line-height:1.55;color:var(--muted);margin:0 0 26px;max-width:720px}.hero{display:grid;grid-template-columns:1fr auto;gap:18px;padding:27px;background:var(--green);border-radius:var(--radius);color:white;margin:24px 0}.hero p{margin:8px 0 0;color:#e5ece3}.hero strong{font-size:22px;letter-spacing:-.5px}.hero .big-number{font-size:66px;line-height:1;font-weight:350;letter-spacing:-4px;align-self:center}.hero .big-number small{display:block;font-size:11px;text-transform:uppercase;letter-spacing:1.2px;margin-top:8px;text-align:center}.card{border:1px solid var(--line);background:var(--card);border-radius:var(--radius);padding:24px;margin:20px 0}.card h2,.checks h2{font-size:20px;line-height:1.3;margin:0 0 14px}.card h3{font-size:17px;margin:20px 0 8px}.card p:first-child{margin-top:0}.card p:last-child{margin-bottom:0}p{margin:12px 0}ol.instructions{padding-left:27px;margin:0}ol.instructions li{padding-left:8px;margin:0 0 17px}ol.instructions li:last-child{margin-bottom:0}ul{padding-left:23px}li{margin-bottom:8px}code,.filename{background:#ecf0e8;border-radius:5px;padding:3px 6px;font:14px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere;word-break:break-word;color:#234c41}.file-box{display:block;padding:12px 14px;margin:12px 0;border:1px dashed #9aada0;border-radius:10px;background:#f1f4ec;font-size:14px;overflow-wrap:anywhere}.expected{display:flex;gap:12px;background:var(--tint);padding:18px 20px;border-radius:12px;margin:22px 0;font-size:15px}.expected .icon{font-size:22px}.expected strong{display:block}.help{border-top:1px solid var(--line);padding:17px 0;margin:12px 0}.help summary{cursor:pointer;font-size:15px;font-weight:700}.help p,.help li{font-size:15px}.note{border-left:3px solid var(--orange);background:#fff4e8;padding:13px 17px;margin:20px 0;font-size:14px}.checks{margin:28px 0 12px}.check-row{display:flex;align-items:flex-start;gap:12px;padding:15px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px;margin:9px 0;cursor:pointer;font-size:15px}.check-row input{flex:0 0 20px;width:20px;height:20px;margin:3px 0 0;accent-color:var(--green)}.check-row:has(input:checked){background:var(--tint)}.check-row:has(input:checked) span{text-decoration:line-through;text-decoration-color:#799784}.note-label{display:block;font-size:14px;font-weight:650;margin-bottom:7px}textarea{width:100%;display:block;border:1px solid #aabaae;background:var(--card);border-radius:10px;min-height:94px;padding:12px;font-size:15px;resize:vertical;color:var(--ink)}.footer-controls{display:flex;align-items:center;justify-content:space-between;gap:14px;border-top:1px solid var(--line);margin-top:28px;padding-top:22px}.footer-controls div{display:flex;gap:9px}.bottom-note{font-size:12px;margin:14px 0 0;color:var(--muted)}.toolbar{display:flex;gap:8px;flex-wrap:wrap}.toolbar button{font-size:13px}.notice{padding:15px 18px;border:1px solid #ceab78;background:#fff0d9;border-radius:12px;margin:0 0 22px;font-size:14px}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);z-index:20;background:#183d33;color:white;box-shadow:0 5px 25px #16382922;border-radius:12px;padding:14px 22px;max-width:min(90vw,620px);font-size:14px}.dictionary{font-size:14px}.dictionary dt{font-weight:700;margin-top:12px}.dictionary dd{margin:2px 0 0}.report-only{display:none}dialog{max-width:580px;width:calc(100% - 30px);border:1px solid var(--line);border-radius:18px;padding:26px;background:var(--card);color:var(--ink)}dialog::backdrop{background:#0d2b2966}dialog h2{margin:0 0 15px;font-size:25px}dialog .toolbar{justify-content:flex-end;margin-top:24px}.link-row{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;margin-top:26px}
+@media(max-width:960px){.layout{gap:25px;grid-template-columns:230px minmax(0,1fr);padding:28px 24px 55px}.top{padding:20px 24px}.step-heading{font-size:36px}}
+@media(max-width:720px){.top{padding:17px 18px;align-items:flex-start}.brand{font-size:18px}.brand span{display:block;font-size:14px}.badge{font-size:11px}.layout{display:block;padding:20px 18px 40px}.sidebar-inner{position:static}.sidebar{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:26px}.system-buttons{max-width:340px;margin:8px 0 13px}.save-status{margin-bottom:10px}.sidebar-tools{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;padding-top:12px}.sidebar-tools button{font-size:12px}.step-list{max-height:260px;overflow:auto}.step-heading{font-size:34px;letter-spacing:-1.2px}.intro{font-size:17px}.card{padding:20px}.hero{padding:20px;gap:12px}.hero strong{font-size:19px}.hero .big-number{font-size:54px}.footer-controls{flex-wrap:wrap}.footer-controls>div{flex:1;justify-content:flex-end}.footer-controls button{font-size:14px}.edition{font-size:10px}.check-row{font-size:14px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+@media print{body{font-size:11pt;background:white;color:black}.top,.sidebar,.content,.toast,dialog{display:none!important}.layout{display:block;padding:0}.report-only{display:block}.report-step{break-inside:avoid;border-bottom:1px solid #bbb;padding:10px 0}.report-step h2{font-size:14pt}.report-only h1{font-size:22pt}.report-only p{white-space:pre-wrap;overflow-wrap:anywhere}.report-only li{margin:5px 0}}
+</style>
+</head>
+<body>
+<a class="skip" href="#step-heading">Ir al paso actual</a>
+<header class="top"><div><div class="brand">Tu estudio de video <span>/ guía para alumnos</span></div><div class="edition">GUIASUPERDETALLADA · edición 2.1</div></div><span class="badge">Se puede leer sin internet</span></header>
+<noscript><div class="card">Activa JavaScript en tu navegador para usar los pasos y guardar el progreso. También puedes abrir el documento «INICIO Y CONFIGURACION DE FRAMEWORK.md» con un editor de texto.</div></noscript>
+<div class="layout">
+<aside class="sidebar" aria-label="Recorrido y progreso"><div class="sidebar-inner">
+<p class="eyebrow">01 / Tu computadora</p>
+<div class="system-buttons" role="group" aria-label="Elegir sistema"><button id="os-windows" aria-pressed="false">Windows</button><button id="os-mac" aria-pressed="false">Mac</button></div>
+<div class="progress-label"><strong id="progress-label">Elige tu sistema</strong><span id="progress-percent">0%</span></div>
+<div class="meter" role="progressbar" aria-label="Pasos marcados por ti" aria-valuemin="0" aria-valuemax="15" aria-valuenow="0"><span id="meter-fill"></span></div>
+<p class="save-status" id="save-status" role="status">El inicio normal guarda el progreso en MI-PROGRESO, dentro de esta carpeta.</p>
+<details id="nav-details" open><summary>Ver los 15 pasos</summary><nav aria-label="Pasos de la guía"><ol class="step-list" id="step-list"></ol></nav></details>
+<div class="sidebar-tools"><button id="pending">↪ Primer paso pendiente</button><button id="export">↓ Guardar copia del progreso</button><button id="import">↑ Recuperar una copia</button><button id="report">▤ Informe para mi profesor</button><button id="reset" class="quiet">Reiniciar este recorrido…</button></div>
+<input type="file" id="import-file" accept=".json,application/json" aria-label="Archivo de progreso para recuperar" hidden>
+<p class="small muted">Las marcas de Windows y Mac se guardan por separado. Si cambias de computadora, vuelve a comprobar sus programas.</p>
+</div></aside>
+<main class="content" id="main">
+<div id="folder-notice" class="notice" role="status"><b id="folder-status">Conectando con el guardado de la carpeta…</b><p id="folder-detail"></p><div class="toolbar"><a id="open-recording" href="GUIA_GRABACION_MASTER.html" target="framework-grabacion" rel="noopener">GUÍA VISUAL DE GRABACIÓN →</a><a id="open-assistant" hidden target="framework-asistente" rel="noopener" href="#">ABRIR ASISTENTE →</a><button id="retry-folder" hidden>Reintentar guardado</button></div></div>
+<div id="storage-warning" class="notice" hidden>Este navegador no permite guardar de forma automática. Puedes seguir usando la guía, pero descarga una copia del progreso antes de cerrarla.</div>
+<div id="load-warning" class="notice" hidden></div>
+<div class="step-top"><p class="eyebrow" id="step-index">Paso 01 de 15</p><span class="pill" id="phase">Antes de empezar</span></div>
+<h1 id="step-heading" class="step-heading" tabindex="-1"></h1>
+<p class="intro" id="step-intro"></p>
+<div id="step-content"></div>
+<section class="checks" aria-labelledby="checks-title"><h2 id="checks-title">Tacha lo que ya hiciste</h2><div id="checks"></div><p class="small muted">Marca solo lo que comprobaste. «Siguiente» permite leer más, pero no completa las casillas.</p></section>
+<div><label class="note-label" for="notes">Mi nota para retomar este paso</label><textarea id="notes" maxlength="3000" placeholder="Por ejemplo: falta descargar FFmpeg; volver a intentar con internet."></textarea><p class="small muted">No escribas contraseñas ni claves. Estas notas se incluyen si descargas tu progreso o informe.</p></div>
+<div class="footer-controls"><button id="previous">← Anterior</button><div><button id="next" class="primary">Siguiente →</button></div></div>
+<p class="bottom-note" id="step-state"></p>
+<details class="help"><summary>Diccionario: ¿qué significan estas palabras?</summary><dl class="dictionary"><dt>Framework</dt><dd>La carpeta con las plantillas, herramientas y reglas para editar.</dd><dt>Asistente</dt><dd>La ventana que revisa tu equipo y prepara el trabajo. Se abre con el archivo INICIO.</dd><dt>Terminal</dt><dd>Ventana de texto que muestra lo que está ejecutando la computadora. No necesitas programar.</dd><dt>Master</dt><dd>Tu grabación original, todavía sin editar.</dd><dt>Ruta</dt><dd>La dirección completa de un archivo dentro de tu computadora.</dd><dt>Lote</dt><dd>Un grupo de videos que vas a preparar juntos.</dd><dt>Render</dt><dd>El proceso que convierte el montaje en un archivo de video, por ejemplo MP4.</dd><dt>QA</dt><dd>Revisión de calidad de imagen, texto, sonido y funcionamiento.</dd></dl></details>
+<div class="link-row"><a href="INICIO%20Y%20CONFIGURACION%20DE%20FRAMEWORK.md" target="_blank" rel="noopener">Referencia completa de la entrega</a><a href="LEEME.md" target="_blank" rel="noopener">Contenido de la carpeta</a></div>
+</main>
+<section class="report-only" id="print-report" aria-label="Informe de progreso"></section>
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+<dialog id="copies-dialog" aria-labelledby="copies-title"><h2 id="copies-title">Recuperar mi progreso</h2><p id="copies-message">Buscando copias en esta carpeta…</p><label for="copies-list">Elige una copia guardada</label><select id="copies-list" style="width:100%;padding:12px;margin:12px 0"></select><div class="toolbar"><button id="copies-close">Cerrar</button><button id="copies-file">Elegir archivo externo…</button><button id="copies-recover" class="primary">Recuperar copia elegida</button></div></dialog>
+<dialog id="confirm-dialog" aria-labelledby="dialog-title"><h2 id="dialog-title"></h2><p id="dialog-text"></p><div class="toolbar"><button id="dialog-cancel">Cancelar</button><button id="dialog-ok" class="primary">Continuar</button></div></dialog>
+<script src="asistente/progreso.js"></script>
+<script id="guide-content">
+// Contenido local: no descarga recursos ni ejecuta instalaciones.
+const link=(url,label)=>`<a href="${url}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`;
+const box=(title,body)=>`<section class="card"><h2>${title}</h2>${body}</section>`;
+const stepsList=items=>`<ol class="instructions">${items.map(s=>`<li>${s}</li>`).join('')}</ol>`;
+const expected=text=>`<div class="expected"><span class="icon" aria-hidden="true">✓</span><div><strong>Así sabes que vas bien</strong>${text}</div></div>`;
+const help=(title,text)=>`<details class="help"><summary>${title}</summary>${text}</details>`;
+const note=text=>`<div class="note">${text}</div>`;
+function guideSteps(os){
+ const win=os==='windows', launch=`INICIO Y CONFIGURACION DE FRAMEWORK.${win?'cmd':'command'}`;
+ const fileManager=win?'Explorador de archivos':'Finder';
+ return [
+ {id:'welcome',short:'Elige tu computadora',phase:'Antes de empezar',title:'Una cosa a la vez. Tú puedes seguir el recorrido.',intro:'Esta guía te acompaña desde abrir la carpeta hasta entregar a Codex la primera edición. No necesitas saber programar.',html:
+ `<div class="hero"><div><strong>Lee. Hazlo. Márcalo.</strong><p>Vuelve mañana al mismo paso.<br>Las instalaciones se autorizan en el asistente.</p></div><div class="big-number">30<small>plantillas</small></div></div>`+
+ box('Dos ventanas, una tarea',stepsList(['Elige <b>Windows</b> o <b>Mac</b> en «Tu computadora». Si no lo sabes: Windows suele tener el botón de Inicio; el Mac tiene el menú  en la esquina superior izquierda.','Mantén <b>esta guía</b> abierta para leer y tachar. Más adelante abrirás <b>el asistente</b> en otra ventana para revisar programas y preparar videos.','Lee las instrucciones del paso. Hazlas en tu computadora. Marca las casillas de abajo y pulsa <b>Siguiente</b>. Puedes volver con <b>Anterior</b>.','Antes de detenerte, espera a ver <b>Guardado en MI-PROGRESO</b>. Puedes usar también <b>Guardar copia del progreso</b>. Con INICIO, la copia queda en <b>MI-PROGRESO/copias</b>. En modo lectura se solicita una descarga al navegador. Al regresar, abre INICIO desde esta misma carpeta; cargará lo guardado aunque cambie el navegador. Para restaurar una copia adicional, usa <b>Recuperar una copia</b>.']))+
+ note('La guía puede leerse con doble clic. Para guardar automáticamente en la carpeta, ábrela mediante INICIO WINDOWS.cmd o INICIO MAC.command. Para descargar programas y acceder a Codex sí necesitas internet y tu cuenta. La primera preparación puede requerir varios GB adicionales y permisos del equipo; su duración depende de las descargas y de la computadora.')+
+ help('¿Se guarda todo lo que escribo en el asistente?','<p>Las casillas de esta guía y los datos del asistente son cosas separadas. La guía guarda tus marcas y notas; el asistente conserva también el cuestionario, colores, plantillas y rutas. En modo de lectura directa del HTML solo hay guardado del navegador; abre INICIO para guardar en la carpeta. Al abrir con INICIO, ambos se guardan en MI-PROGRESO dentro de esta carpeta. La copia descargable sirve de respaldo adicional.</p>'),checks:['Elegí el sistema de esta computadora.','Sé que debo hacer cada acción en el asistente y después marcarla aquí.']},
+ {id:'folder',short:'Coloca la carpeta',phase:'Preparar la carpeta',title:'Guarda todo junto, en un lugar fácil de encontrar.',intro:'Necesitas la carpeta completa que te entregó tu profesor. No basta con descargar esta página HTML.',html:
+ box('Haz esto en tu computadora',stepsList(['En el enlace de GitHub que te dio tu profesor, abre <b>Code → Download ZIP</b>. No necesitas instalar Git ni descargar los archivos uno por uno.',win?'Si recibiste un archivo <b>.zip</b>, haz clic derecho sobre él → <b>Extraer todo</b> → elige una ubicación → <b>Extraer</b>. Abre la carpeta extraída, no el ZIP.':'Si recibiste un archivo <b>.zip</b>, haz doble clic sobre él. Finder creará una carpeta. Trabaja dentro de esa carpeta extraída.',
+ 'Guarda la carpeta completa (puede llamarse como el repositorio seguido de <code>-main</code> o <code>Entrega-Windows-v1</code>) en una ubicación local donde puedas crear archivos. Puedes crear una carpeta «Curso de video» dentro de tu carpeta de usuario. Evita carpetas protegidas, unidades de solo lectura o sincronización activa entre varias computadoras.',
+ 'Dentro debes ver <code>proyecto</code>, <code>tools</code>, <code>asistente</code>, esta guía y los archivos <code>INICIO Y CONFIGURACION DE FRAMEWORK</code>. No separes esas piezas.',
+ 'Haz doble clic en <b>INICIO WINDOWS.cmd</b> o <b>INICIO MAC.command</b>. La guía se abrirá automáticamente cuando el asistente esté listo. Si ya la ves con «Guardado en MI-PROGRESO», no vuelvas a abrir otro INICIO.']))+
+ expected('La guía abre en tu navegador y las carpetas del framework siguen juntas.')+
+ help('Solo veo código o texto en pantalla','<p>En '+fileManager+', haz clic derecho sobre <code>GUIASUPERDETALLADA.html</code> → <b>Abrir con</b> → elige un navegador (Edge, Chrome o Safari). No lo abras con el editor de texto.</p>')+
+ help('¿Tengo que copiar los videos viejos?','<p>No. Esta entrega conserva plantillas, recursos y reglas sin las grabaciones ni renders de los trabajos anteriores. Solo necesitas tus nuevos masters. Si continúas un trabajo activo de otra computadora, sí debes llevar sus archivos y actualizar las rutas.</p>'),checks:['Tengo la carpeta completa, extraída y en una ubicación local.','Veo proyecto, tools, asistente y los archivos INICIO.']},
+ {id:'launcher',short:'Abre el archivo INICIO',phase:'Abrir el asistente',title:'Encuentra el archivo correcto y ábrelo.',intro:'Hay varios archivos con el mismo nombre. La terminación del nombre indica cuál usar.',html:
+ box('Tu archivo de inicio',`<code class="file-box">${launch}</code>`+stepsList([win?'Para ver la terminación: abre el Explorador de archivos → <b>Ver → Mostrar → Extensiones de nombre de archivo</b>. Esto permite distinguir .cmd, .command y .md.':'En Finder, selecciona el archivo y pulsa <b>Comando + I</b>. En «Nombre y extensión» comprueba que termina en <b>.command</b>. No cambies el nombre.',
+ `Abre <b>INICIO ${win?'WINDOWS.cmd':'MAC.command'}</b> (también sirve <b>${launch}</b>). Se abrirá una ventana de texto. No necesitas escribir comandos si el inicio funciona.`,
+ 'Si aparece una pregunta para descargar <b>uv y Python</b>, son las herramientas que abren el asistente. Lee el origen y el destino. Si estás de acuerdo, escribe <b>SI</b> (sin tilde) y pulsa Enter. Si ya están disponibles, puede no preguntarlo.',
+ 'Espera a que abra esta guía en el navegador y muestre el estado del guardado en <b>MI-PROGRESO</b>. Pulsa <b>ABRIR ASISTENTE</b> para ver las herramientas en otra pestaña. Deja abierta la ventana de texto mientras trabajas.']))+
+ expected('La guía confirma conexión. Tras pulsar ABRIR ASISTENTE ves «Todo empieza aquí» y las secciones Equipo, Contexto, Colores, Plantillas, Masters y Empezar.')+
+ help('El archivo no se ejecuta',win?'<p>Comprueba que abriste el <b>.cmd</b>, fuera del ZIP. Si Windows o el antivirus bloquean la descarga, verifica con tu profesor que recibiste la carpeta correcta. Si es un equipo administrado, el administrador puede tener que autorizarla. No desactives el antivirus ni cambies las protecciones generales.</p>':'<p>Si solo falta permiso para ejecutar el archivo: abre Spotlight con <b>Comando + Espacio</b>, busca <b>Terminal</b> y ábrelo. Escribe <code>bash </code> (con un espacio al final), arrastra el archivo <b>.command</b> desde Finder a esa ventana y pulsa Enter. No copies una ruta de otra persona.</p><p>Si macOS indica que el archivo está dañado, es peligroso o lo bloquea por seguridad, detente y consulta al profesor. Esta alternativa no es una instrucción para omitir una alerta de seguridad.</p>')+
+ help('La terminal se queda abierta, pero no abre el navegador','<p>Abre la carpeta <b>MI-PROGRESO</b>, haz doble clic en <b>ABRIR GUIA.html</b> y pulsa <b>ABRIR GUÍA E INICIAR</b>. Ese acceso se crea al arrancar. Si no existe, abre <b>INICIO.html</b> en la carpeta principal para ver las instrucciones de rescate.</p><p>Como alternativa, busca en la terminal la dirección que comienza por <code>http://127.0.0.1:</code>. Copia la dirección completa, incluido lo que sigue al símbolo <code>#</code>, y pégala en la barra de direcciones del navegador. Usa la de esta ejecución: el número y la sesión pueden cambiar. No compartas esa dirección completa.</p>')+
+ help('Falla la descarga de Python o no tengo internet','<p>Revisa la conexión y vuelve a abrir INICIO. Si el error persiste, copia el mensaje en tus notas y pide ayuda. Como alternativa existe el instalador oficial de '+link('https://www.python.org/downloads/','Python')+'; el asistente necesita Python 3.11 o posterior. Después de instalarlo, cierra y vuelve a abrir INICIO. No marques el paso hasta que veas el asistente.</p>')+
+ (win?`<p class="small">Referencia: ${link('https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows','Microsoft: mostrar extensiones')}</p>`:''),checks:['Abrí el archivo de inicio correspondiente a mi sistema.','Veo el asistente en el navegador y dejé su terminal abierta.']},
+ {id:'diagnosis',short:'Revisa lo que falta',phase:'Asistente · Equipo',title:'Deja que el asistente revise tu computadora.',intro:'Aquí se comprueba qué programas existen y qué falta. Un aviso pendiente no significa que perdiste el trabajo.',html:
+ box('Dentro del asistente, abre Equipo',stepsList(['Pulsa <b>Revisar mi equipo</b> y espera a que termine. Mira los datos de memoria, procesador, gráfica y espacio libre.',
+ 'Lee los resultados. Anota aquí los elementos que aparecen como faltantes o con error. No necesitas instalar de nuevo lo que ya funciona.',
+ 'Pulsa <b>Consultar versiones actuales</b>. Necesita internet. Esta acción consulta versiones; todavía no autoriza instalaciones.',
+ 'Deja abiertas la guía y el asistente. En los próximos pasos resolverás los faltantes uno por uno.']))+
+ expected('Tienes una lista de comprobaciones y sabes cuáles están pendientes.')+
+ note('Esta guía no inspecciona tu computadora. Sus casillas solo registran lo que tú hiciste. El diagnóstico real está en el asistente.')+
+ help('No hay espacio o aparece «permiso denegado»','<p>Guarda la entrega en una carpeta donde tu usuario pueda escribir. Si falta espacio, revisa Descargas y archivos personales con cuidado; no borres carpetas del framework ni los masters activos. El tamaño de la entrega no incluye todos los programas, modelos ni videos futuros. Vuelve a revisar el equipo después de resolverlo.</p>')+
+ help('Falló la consulta de versiones','<p>Comprueba internet, fecha y hora del sistema. Vuelve a pulsar «Consultar versiones actuales». Si aparece un error de certificado, guarda el mensaje para tu profesor; no desactives la verificación de seguridad de las conexiones.</p>'),checks:['Ejecuté Revisar mi equipo y leí los pendientes.','Consulté las versiones actuales con conexión a internet.']},
+ {id:'manager',short:'Si falta el gestor',phase:'Solo si lo pide el asistente',title:win?'Si falta winget, prepara el instalador de Windows.':'Si falta Homebrew, prepara el instalador de Mac.',intro:'Este paso solo hace falta si el asistente indica que no encuentra el gestor necesario para FFmpeg. Si ya está disponible, no lo reinstales.',html:
+ box(win?'Windows · Instalador de aplicaciones':'Mac · Homebrew',win?stepsList(['Si el asistente no muestra un error de <b>winget</b>, puedes continuar al siguiente paso y volver aquí si aparece.',
+ 'Si sí aparece: abre <b>Microsoft Store</b> desde Inicio. Busca <b>Instalador de aplicaciones / App Installer</b> publicado por <b>Microsoft Corporation</b>. Instálalo o actualízalo según lo que muestre la tienda.',
+ 'Al terminar, cierra el asistente y su terminal. Abre de nuevo el archivo INICIO. Pulsa <b>Revisar mi equipo</b> y <b>Consultar versiones actuales</b>. Vuelve a intentar la instalación de FFmpeg del próximo paso.'])+
+ `<p class="small">Fuente y acceso al instalador: ${link('https://learn.microsoft.com/es-es/windows/package-manager/winget/','Microsoft · instalar winget')}</p>`:
+ stepsList(['Si el asistente no muestra un error de <b>Homebrew</b>, continúa al siguiente paso y vuelve aquí si lo pide.',
+ 'Si falta: abre '+link('https://brew.sh/','brew.sh, sitio oficial de Homebrew')+'. Homebrew es una herramienta para instalar programas. Lee sus requisitos de macOS; si tu sistema no es compatible, pide ayuda antes de seguir.',
+ 'En la página oficial, localiza el comando de instalación y cópialo con su botón. Abre <b>Terminal</b> desde Spotlight (Comando + Espacio). Pega el comando con <b>Comando + V</b>, lee lo que hará y pulsa Enter si autorizas la instalación.',
+ 'Sigue las indicaciones: puede pedir Enter, la contraseña de tu usuario administrador o herramientas de Apple. Al escribir la contraseña en Terminal es normal que no aparezcan puntos ni letras; escribe y pulsa Enter. Si no tienes permisos, pide ayuda al administrador.',
+ 'Al terminar, lee <b>Next steps</b> («siguientes pasos»). Si muestra comandos para activar Homebrew, copia y ejecuta uno a la vez los que aparecen en TU terminal. Después cierra el asistente y su terminal, abre INICIO y vuelve a revisar el equipo.'])+
+ `<p class="small">Detalles y requisitos: ${link('https://docs.brew.sh/Installation','documentación oficial de Homebrew')}</p>`)+
+ expected('El gestor ya estaba disponible o la instalación de FFmpeg deja de indicar que falta winget/Homebrew.')+
+ help('No puedo instalarlo o pide un administrador','<p>En un equipo de empresa, escuela o familia, quien lo administra puede tener que autorizar la instalación. No hay una casilla en esta guía que sustituya ese permiso. Escribe el mensaje exacto en tus notas y usa «Informe para mi profesor».</p>'),checks:[win?'winget no figura como faltante, o ya resolví el aviso.':'Homebrew no figura como faltante, o ya resolví el aviso.']},
+ {id:'install',short:'Instala los faltantes',phase:'Asistente · Equipo',title:'Instala de uno en uno y en este orden.',intro:'En cada tarjeta que necesites, pulsa «Preparar instalación». Lee la propuesta. Solo «Autorizar e instalar» inicia la descarga.',html:
+ box('Orden recomendado',stepsList(['<b>Node.js.</b> Es el motor para HyperFrames. Instálalo primero si falta y espera el mensaje de finalización.',
+ '<b>FFmpeg completo.</b> Permite procesar video y sonido. Si falta winget/Homebrew, vuelve al paso anterior. Puede aparecer una autorización del sistema.',
+ '<b>HyperFrames + Chrome.</b> Prepara la herramienta de montaje y el navegador que genera los fotogramas. Requiere Node.js.',
+ '<b>Audio y transcripción.</b> Prepara las librerías compatibles para sonido y reconocimiento de voz. Conserva versiones de audio ya calibradas; no las cambies a mano solo porque exista otra más nueva.',
+ '<b>Modelo de transcripción.</b> Hazlo después de instalar Audio y transcripción. Descarga el modelo para convertir la voz en texto; es un archivo grande y puede tardar.',
+ win?'<b>Microsoft Visual C++.</b> Si aparece como faltante, usa su tarjeta y sigue el instalador oficial. Si pide reiniciar Windows, guarda tu progreso y vuelve a abrir INICIO después.':'<b>Vuelve a revisar el equipo.</b> Si una herramienta terminó de instalar pero aún aparece pendiente, cierra INICIO, ábrelo otra vez y repite la revisión.',
+ '<b>Codex.</b> Si ya tienes la app y puedes iniciar sesión, úsala. Si no, obtén la app desde '+link('https://learn.chatgpt.com/docs/quickstart','la guía oficial de Codex')+' o instala <b>Codex CLI · opcional</b>, la alternativa dentro de una terminal. La CLI necesita Node.js. Inicia sesión personalmente.']))+
+ note('No pulses varias instalaciones al mismo tiempo. Deja la computadora conectada a la corriente y espera el resultado. Las herramientas pueden ocupar varios GB. Si no estás de acuerdo con una propuesta, pulsa Cancelar; ese requisito seguirá pendiente.')+
+ help('«Consulta versiones» o «plan caducado»','<p>Las propuestas de instalación caducan. Pulsa de nuevo <b>Consultar versiones actuales</b> y vuelve a <b>Preparar instalación</b> en la tarjeta. Comprueba la nueva propuesta antes de autorizar.</p>')+
+ help('Hay un error o parece detenido','<p>Lee el mensaje del asistente y de la terminal. Guarda el nombre de la tarjeta y el error, sin claves de sesión. Comprueba internet y espacio. Si informa un fallo, corrige su causa y vuelve a preparar esa instalación. No abras otro instalador en paralelo ni borres runtime para probar.</p>')+
+ help('¿Es gratuita la cuenta de Codex?','<p>El acceso, los límites y los planes pueden cambiar. Revisa los requisitos vigentes en la guía oficial antes de contratar nada. Este paquete no incluye cuentas, suscripciones ni créditos. No envíes tu contraseña al profesor ni la escribas en estas notas.</p>'),checks:['Node, FFmpeg e HyperFrames/Chrome ya están disponibles, según el asistente.','Audio, modelo de transcripción y bibliotecas necesarias están disponibles.','Tengo una forma de abrir Codex (app o alternativa de terminal).']},
+ {id:'verify',short:'Comprueba el equipo',phase:'Asistente · Equipo',title:'Antes de editar, haz una prueba real.',intro:'Las instalaciones terminadas todavía necesitan una comprobación. El asistente puede crear un video técnico de un segundo para probar el recorrido.',html:
+ box('Haz estas comprobaciones',stepsList(['Pulsa <b>Revisar mi equipo</b> otra vez. Resuelve los pendientes que bloquen la edición.',
+ 'Pulsa <b>Ejecutar prueba de render</b>. Espera el resultado. Esta prueba usa un video de prueba con movimiento y audio; no utiliza tus masters.',
+ 'Abre Codex e inicia sesión con tu propia cuenta. Si elegiste la CLI, abre <code>ABRIR CODEX.'+(win?'cmd':'command')+'</code> en la carpeta de la entrega y sigue el acceso indicado.',
+ 'Vuelve a Equipo y marca <b>Ya abrí Codex en este equipo e inicié sesión.</b> únicamente si lo hiciste.',
+ 'Pulsa <b>Comprobar si está todo listo</b>. Lee la respuesta completa. Si quedan pendientes, vuelve al paso correspondiente.']))+
+ expected('El asistente confirma que las comprobaciones necesarias están completas en ESTA computadora.')+
+ note('Puedes preparar contexto y colores mientras resuelves un pendiente, pero eso no significa que el equipo ya pueda editar. Las casillas de esta guía no aprueban el diagnóstico ni el render.')+
+ help('La prueba falla aunque todo aparece instalado','<p>Guarda el error exacto, el sistema y la herramienta señalada. Vuelve a revisar el equipo. Si persiste, comparte el informe con tu profesor antes de trabajar con un master largo. Una prueba en otra computadora no verifica la tuya.</p>'),checks:['El diagnóstico terminó sin pendientes que impidan editar.','La prueba de render terminó correctamente en esta computadora.','Inicié sesión en Codex y el asistente confirmó que está todo listo.']},
+ {id:'context',short:'Cuenta qué vas a editar',phase:'Asistente · Contexto',title:'Explica la idea antes de elegir el aspecto.',intro:'Ahora trabaja en «Contexto» dentro del asistente. Cuanto más claro sea el mensaje, mejor podrá adaptarse la edición.',html:
+ box('Completa el cuestionario',stepsList(['Escribe un <b>Nombre del lote</b> fácil de reconocer. Ejemplo: «Consejos para mi primer negocio». Un lote es un grupo de videos del mismo trabajo.',
+ 'Completa <b>¿De qué tratan los videos?</b> y <b>¿A quién quieres llegar?</b>. Estos campos y el nombre son obligatorios. Ejemplo de público: «Personas que venden por internet por primera vez».',
+ 'Indica la red social, lo que quieres que entiendan o hagan, el tono, cuánto movimiento buscas y la llamada a la acción. Evita pedir muchos efectos si no ayudan a explicar la idea.',
+ 'En marca y restricciones, escribe tus colores obligatorios y cuáles quieres evitar. Explica si no quieres que se parezca a trabajos anteriores.',
+ 'Pega el guion o tus notas. Si tienes documentos, coloca sus rutas completas en <b>Archivos de guion o referencias</b>, una por línea. Si aún no sabes copiar rutas, consulta el paso Masters.',
+ 'Pulsa <b>Siguiente</b> dentro del asistente para pasar a Colores.']))+
+ expected('El contexto describe tema, público y objetivo; los guiones o referencias importantes quedaron incluidos.')+
+ help('No tengo guion','<p>Puedes describir el tema y señalar qué partes de tu grabación te interesan. Más adelante Codex analizará el master y propondrá una estructura. No inventes una transcripción ni marques una revisión de voz que todavía no ocurrió.</p>'),checks:['Completé nombre, tema, público, objetivo y preferencias.','Añadí mi guion o contexto suficiente para empezar.']},
+ {id:'palette',short:'Elige tus colores',phase:'Asistente · Colores',title:'Una paleta propia para este trabajo.',intro:'El asistente propone cinco opciones a partir del contexto. Puedes elegir una y ajustar sus colores.',html:
+ box('Prueba y elige',stepsList(['En <b>Colores</b>, pulsa <b>Sugerir cinco paletas</b> si todavía no ves opciones.',
+ 'Elige una propuesta. <b>Tinta</b> es el color principal para texto; <b>Papel</b>, el fondo; <b>Acento</b>, el énfasis; <b>Apoyo</b>, un color complementario.',
+ 'Si necesitas colores de tu marca, cámbialos en sus controles. Si te equivocas, pulsa <b>Restaurar paleta elegida</b>. Procura que tinta y papel se lean claramente.',
+ 'Pasa a <b>Plantillas</b> para ver los tableros con esa paleta. Puedes volver a Colores y ajustar antes de crear el lote.']))+
+ expected('Elegiste una paleta y el texto se distingue del fondo. Las fotografías conservan sus colores originales.')+
+ help('Me dice que el contraste es insuficiente','<p>Oscurece la tinta o aclara el papel (o al revés) y vuelve a intentar. La comprobación de contraste se aplica al crear el lote. No basta con que dos colores sean diferentes si ambos son demasiado claros.</p>')+
+ note('Las sugerencias son propuestas locales según el contexto; no garantizan que nunca se parezcan a otro video. Puedes especificar qué combinaciones deseas evitar.'),checks:['Elegí o ajusté los colores para este trabajo.','Revisé que tinta y papel se distinguen con claridad.']},
+ {id:'templates',short:'Mira las 30 plantillas',phase:'Asistente · Plantillas',title:'Elige cómo se contará la historia.',intro:'Los tableros muestran las 30 propuestas. Son referencias visuales: el video se adaptará después a tu grabación.',html:
+ box('Compara sin prisa',stepsList(['Explora las propuestas. Puedes buscar por tema o estructura y filtrar la colección.',
+ 'Pulsa <b>Ver tablero</b> en las que te interesen. Mira dónde aparece la persona, cómo se distribuye el texto y qué gráficos o elementos explican la idea.',
+ 'Activa <b>Ver colores originales</b> si quieres comparar. Desactívalo para volver a tu paleta.',
+ 'Pulsa <b>Elegir</b> en una o varias propuestas. La selección aparecerá marcada. Revisa también <b>Estilos y reglas que acompañan a las plantillas</b>.',
+ 'Continúa a <b>Masters</b>. Codex revisará la voz y confirmará cómo adaptar las propuestas antes de montar.']))+
+ expected('Tienes al menos una plantilla seleccionada y sabes por qué ayuda a comunicar tu idea.')+
+ note('Un tablero estático no reproduce las animaciones. Cambiar solo colores no crea una plantilla diferente: también importan composición, recursos y movimiento. La elección es provisional hasta revisar el material.'),checks:['Abrí y revisé los tableros que me interesan.','Elegí al menos una plantilla para el lote.']},
+ {id:'recording',short:'Graba con marcadores',phase:'Antes de entregar el master',title:'Separa lo que dices de las instrucciones de edición.',intro:'Abre la guía visual de grabación con el enlace de arriba. Los bloques naranjas son marcadores, los claros son el guion y los azules son acciones que no se leen.',html:
+ box('Antes de pulsar REC',stepsList(['Abre <b>GUÍA VISUAL DE GRABACIÓN</b>. Revisa el dibujo de encuadre y haz una prueba corta de imagen y voz.','Elige el número de video y de toma. Los ejemplos comienzan en 31 porque esta entrega ya conserva referencias 01–30. Confirma la numeración del lote antes de grabar.','Ensaya los cuatro ejemplos: toma correcta, corrección de última frase, toma descartada y varios videos en un master. Puedes poner tu propio guion e imprimir la secuencia.','Graba el contenido y los marcadores dentro del mismo original. No los recortes antes de entregar el master. Cierra cada toma con Aprobada o Descartar y la sesión con Fin de sesión.']))+
+ expected('Puedes distinguir qué decir en voz alta, qué conservará la edición y cuándo repetir una frase o toda la toma.')+
+ note('Si ya tienes el master, revisa qué marcadores contiene y anota cualquier omisión. No hace falta inventarlos ni volver a grabar automáticamente: una toma ambigua queda pendiente de revisión.'),checks:['Revisé la guía visual y entiendo los cinco marcadores.','Grabé o revisé el master y anoté las excepciones reales.']},
+ {id:'masters',short:'Indica tus grabaciones',phase:'Asistente · Masters',title:'Dile al asistente dónde está tu video original.',intro:'No necesitas subirlo a esta guía ni duplicarlo. El asistente guarda la dirección del archivo en tu computadora.',html:
+ note('Antes de grabar, abre <b>GUÍA VISUAL DE GRABACIÓN</b> en la parte superior. Verás guion, marcadores y pausas separados, con ejemplos de corrección y repetición. Conserva los marcadores dentro del original.')+box('Localiza y nombra tus archivos',stepsList(['Usa tus grabaciones nuevas. Puedes dejarlas en una carpeta local o guardarlas en <code>entrada-masters</code> dentro de la entrega. Si están en una nube, asegúrate de descargarlas por completo al equipo.',
+ 'Antes de crear el lote, pon nombres claros: <code>MASTER-01-tema.mp4</code>, <code>MASTER-02-tema.mov</code>. No cambies la terminación para fingir otro formato; si es .mov, conserva .mov.',
+ win?'Haz clic derecho sobre el archivo de video → <b>Copiar como ruta</b>. Si no aparece, prueba Mayúsculas + clic derecho o «Mostrar más opciones».':'Selecciona el archivo de video en Finder y pulsa <b>Opción + Comando + C</b> (⌥⌘C) para copiar su ruta completa.',
+ 'Vuelve al asistente → <b>Masters</b> → <b>Rutas completas de los masters</b>. Pega con '+(win?'Ctrl + V':'Comando + V')+'. Repite, una ruta por línea, si hay varios. Debe terminar en el nombre del archivo de video, no solo en el nombre de una carpeta.',
+ 'Elige cuántos videos preparar (1 a 30) y su duración orientativa (30, 45 o 60 segundos). Un master puede servir para varios videos.',
+ win?'Revisa <b>Equipo de trabajo</b>. PC A corresponde al i7 de 9.ª / 8 GB / GTX 1660 Ti; PC B al i7-8550U / 16 GB / UHD 620. Si tu computadora es distinta, anota sus datos y pide al profesor que confirme el perfil antes del primer render.':'En <b>Equipo de trabajo</b>, elige <b>Mac · configuración conservadora</b>. El inicio trabaja con un render a la vez.']))+
+ expected('Cada línea contiene una ruta a un video que existe. No se creó otra copia del master.')+
+ help('No encuentra el archivo','<p>Vuelve a copiar la ruta desde el archivo real, no escribas solamente su nombre. Comprueba que la unidad externa esté conectada y que el archivo no sea solo un acceso directo o una descarga pendiente. Los espacios en la ruta son válidos.</p>')+
+ note('Después de crear el lote, conserva el nombre y ubicación de los masters. Si cambias de computadora, lleva los archivos del trabajo activo y actualiza sus rutas. Dos equipos pueden avanzar con lotes distintos; no suman automáticamente su potencia para un mismo render.'),checks:['Pegué rutas completas a mis masters reales.','Elegí cantidad, duración y revisé el perfil del equipo.']},
+ {id:'batch',short:'Crea el lote',phase:'Asistente · Empezar',title:'Guarda las decisiones y prepara las carpetas.',intro:'Esta acción organiza el trabajo. La edición de los videos comienza después, en Codex.',html:
+ box('Confirma el resumen',stepsList(['En <b>Empezar</b>, revisa nombre, tema, paleta, plantillas, masters y cantidad de videos. Si algo está mal, vuelve al paso correspondiente del asistente.',
+ 'Pulsa una sola vez <b>Crear carpetas y contexto del lote</b>. Espera a que aparezca <b>Carpetas preparadas</b>.',
+ 'Anota el nombre y ubicación del lote en tus notas de abajo. Conserva la instrucción que aparece. También queda guardada dentro del lote como <code>ABRIR_EN_CODEX.txt</code>.',
+ 'Pulsa <b>Copiar instrucción para Codex</b>. Si tu navegador no permite copiar automáticamente, selecciona el texto y usa '+(win?'Ctrl + C':'Comando + C')+'.']))+
+ box('Lo que encontrarás después','<p><code>proyecto/Lotes/…</code> guarda el contexto, las rutas de los masters, el guion y una carpeta de ingesta compartida.</p><p><code>proyecto/Nuevos-Videos/VIDEO-31/</code> y los números siguientes guardan la selección, la paleta, las revisiones pendientes y los espacios para el editable y sus entregas. El número aumenta al preparar nuevos videos.</p>')+
+ expected('Aparece la ubicación del lote y la instrucción para continuar. No confundas estas carpetas con un video terminado.')+
+ help('Cerré la ventana y no sé si se creó','<p>Mira <code>proyecto/Lotes</code> y localiza el nombre/fecha del trabajo. Si existe, abre <code>ABRIR_EN_CODEX.txt</code> y continúa desde él. No pulses crear otra vez para «recuperarlo»: podrías preparar otro lote.</p>'),checks:['Revisé el resumen y vi Carpetas preparadas.','Guardé la ubicación del lote y tengo su instrucción para Codex.']},
+ {id:'codex',short:'Empieza en Codex',phase:'Edición acompañada',title:'Abre el proyecto y entrega el contexto a Codex.',intro:'Ya tienes las decisiones iniciales y los masters localizados. Ahora comienza el análisis y montaje del contenido.',html:
+ box('En Codex',stepsList(['Abre la app e inicia sesión. Usa la opción de añadir o abrir un proyecto/carpeta y elige <b>la carpeta proyecto que está dentro de esta entrega</b>. No selecciones la carpeta del framework original de otra computadora.',
+ 'Si usas la alternativa de terminal, abre <code>ABRIR CODEX.'+(win?'cmd':'command')+'</code>; el lanzador la abre en la carpeta proyecto.',
+ 'Crea un chat para este lote y pega la instrucción generada. Si la perdiste, abre <code>ABRIR_EN_CODEX.txt</code> dentro del lote y copia su contenido. Envíala.',
+ 'Codex debe leer las reglas y la memoria, comprobar los masters, reutilizar la ingesta/transcripción y proponer la adaptación a tu voz y plantilla. Revisa lo que te muestre y contesta sus dudas concretas.',
+ 'Revisa la maqueta, los encuadres, el texto y los recursos antes del montaje completo. Después revisa el video exportado: imagen, captions, música/SFX, sincronía y voz. Da tu aprobación cuando realmente lo hayas revisado.']))+
+ expected('Codex trabaja en el lote correcto y conoce tu contexto, paleta y selección de plantillas.')+
+ note('No hace falta repetir las reglas generales: acompañan al proyecto. Un diagnóstico técnico no sustituye la revisión creativa ni tu aprobación. El flujo conserva protección de rostro/gestos, fidelidad de plantilla y QA de audio; la limpieza especializada de voz se pide expresamente.')+
+ help('Codex abre otra carpeta o no encuentra las reglas','<p>Comprueba que el proyecto abierto sea <b>esta entrega → proyecto</b> y que exista <code>AGENTS.md</code> allí. Reabre la carpeta correcta y pega la instrucción del lote. No copies rutas históricas que mencionen otra Mac.</p>')+
+ `<p class="small">Ayuda oficial de acceso: ${link('https://learn.chatgpt.com/docs/quickstart','primeros pasos con Codex')}</p>`,checks:['Abrí la carpeta proyecto de esta entrega en Codex.','Envié la instrucción del lote y comprobé que corresponde a mi trabajo.']},
+ {id:'return',short:'Guarda y retoma',phase:'Tu siguiente sesión',title:'Deja una pista clara para tu próxima sesión.',intro:'Tu primera preparación queda organizada. Conserva el progreso para saber qué falta sin empezar de cero.',html:
+ box('Antes de cerrar',stepsList(['Escribe abajo dónde quedaste: nombre del lote, último paso y pendiente concreto. Evita contraseñas, claves o la dirección de sesión del asistente.',
+ 'Pulsa <b>Guardar copia del progreso</b>. Con el asistente abierto, se guardará otra copia en <b>MI-PROGRESO/copias</b>. En modo lectura se intentará una descarga al navegador. Comprueba el mensaje para saber dónde quedó. Para retomarlo usa <b>Recuperar una copia</b>.',
+ 'Si una acción está trabajando, espera a que termine. Para cerrar el asistente cuando esté libre, vuelve a su terminal y pulsa <b>Ctrl + C</b>. Antes de cerrar comprueba que diga <b>Guardado en MI-PROGRESO</b>; si indica error o «Guardando», no cierres todavía. Puedes descargar una copia adicional de emergencia.',
+ 'Para continuar el mismo lote otro día, abre la carpeta proyecto en Codex y retoma el chat o usa el <code>ABRIR_EN_CODEX.txt</code> de ese lote. No necesitas crearlo otra vez.',
+ 'Para un lote nuevo, abre INICIO, revisa el equipo y vuelve a Contexto, Colores, Plantillas y Masters. No reinstales todo cada vez. Si cambias de computadora, repite su diagnóstico y la prueba técnica.']))+
+ expected('Tienes una copia descargable de tus marcas y sabes cómo abrir el lote que ya existe.')+
+ box('Si necesitas ayuda de tu profesor','<p>Usa <b>Informe para mi profesor</b> para imprimir o guardar un PDF con sistema, pasos marcados, pendientes y notas. Anota qué botón pulsaste, el mensaje exacto y qué esperabas ver. Revisa tus notas antes de compartir el informe: puede incluir rutas personales.</p><p>El informe registra lo que tú marcaste; no es un certificado de instalación ni de calidad de los videos.</p>')+
+ help('Quiero empezar de nuevo con las casillas vacías','<p>Descarga primero tu progreso. Después pulsa <b>Reiniciar este recorrido</b> y confirma. Solo se reinician las marcas y notas de este sistema en la guía; se guarda ese cambio en MI-PROGRESO cuando hay conexión. No se borran programas, carpetas, lotes ni videos.</p>')+
+ note('Si todas las casillas están marcadas, completaste tu lista personal. La preparación real debe haber pasado en el asistente. La primera instalación limpia en Windows y Mac y el recorrido con alumnos todavía deben comprobarse; no se promete el mismo tiempo o rendimiento en todos los equipos.'),checks:['Anoté dónde continuar y guardé una copia de mi progreso.','Sé cómo continuar un lote existente o preparar uno nuevo.']}
+ ];
+}
+</script>
+<script id="guide-state">
+'use strict';
+const STORAGE_KEY='framework-guia-superdetallada-v1';
+const GUIDE_SCHEMA='framework.guia.progreso';
+const SYSTEMS=['windows','mac'];
+function emptyPath(){return {step:'welcome',checks:{},notes:{},updatedAt:null};}
+function freshState(){return {schema:GUIDE_SCHEMA,version:1,activeOS:'',paths:{windows:emptyPath(),mac:emptyPath()}};}
+// Whitelist the entire imported object; nothing in a progress file becomes HTML or code.
+function validateState(input){
+ if(!input||typeof input!=='object'||input.schema!==GUIDE_SCHEMA||input.version!==1||!['',...SYSTEMS].includes(input.activeOS))throw Error('No es una copia de progreso compatible de esta guía.');
+ const clean=freshState();clean.activeOS=input.activeOS;
+ for(const os of SYSTEMS){
+  const src=input.paths?.[os],dest=clean.paths[os],steps=guideSteps(os);
+  if(!src||typeof src!=='object'||!steps.some(s=>s.id===src.step)||!src.checks||typeof src.checks!=='object'||!src.notes||typeof src.notes!=='object')throw Error('El archivo de progreso está incompleto.');
+  dest.step=src.step;
+  if(typeof src.updatedAt==='string'&&!Number.isNaN(Date.parse(src.updatedAt)))dest.updatedAt=new Date(src.updatedAt).toISOString();
+  for(const step of steps){
+   const values=src.checks[step.id];
+   if(values!==undefined&&(!Array.isArray(values)||values.length!==step.checks.length||values.some(v=>typeof v!=='boolean')))throw Error('El archivo contiene casillas inválidas.');
+   if(values)dest.checks[step.id]=[...values];
+   const n=src.notes[step.id];
+   if(n!==undefined&&(typeof n!=='string'||n.length>3000))throw Error('El archivo contiene notas inválidas o demasiado largas.');
+   if(n!==undefined)dest.notes[step.id]=n;
+  }
+ }
+ return clean;
+}
+function stepDone(path,step){return step.checks.every((_,i)=>path.checks[step.id]?.[i]===true);}
+function completedCount(path,steps){return steps.filter(s=>stepDone(path,s)).length;}
+function firstPending(path,steps){return steps.find(s=>!stepDone(path,s))?.id||steps[steps.length-1].id;}
+</script>
+<script id="guide-ui">
+const $=id=>document.getElementById(id);
+document.querySelector('.skip').onclick=e=>{e.preventDefault();$('step-heading').focus();};
+let state=freshState(),storageOK=true,toastTimer,confirmation=null,folderClient=null,folderLoading=false;
+const folderMode=location.protocol==='http:'&&location.hostname==='127.0.0.1'&&Boolean(location.hash.slice(1));
+try{const raw=folderMode?null:localStorage.getItem(STORAGE_KEY);if(raw)state=validateState(JSON.parse(raw));if(!folderMode)localStorage.setItem(STORAGE_KEY,JSON.stringify(state));}
+catch(e){storageOK=false;$('load-warning').hidden=false;$('load-warning').textContent='No se pudo recuperar o guardar el progreso automático. Conserva cualquier copia anterior y usa «Recuperar una copia» si la tienes. No se ha certificado ningún paso.';}
+function activeSteps(){return guideSteps(state.activeOS||'windows');}
+function currentPath(){return state.paths[state.activeOS||'windows'];}
+function currentStep(){return activeSteps().find(s=>s.id===currentPath().step)||activeSteps()[0];}
+function toast(message){clearTimeout(toastTimer);$('toast').textContent=message;$('toast').hidden=false;toastTimer=setTimeout(()=>$('toast').hidden=true,6500);}
+function save(){
+ if(state.activeOS)currentPath().updatedAt=new Date().toISOString();
+ if(folderMode){if(folderClient?.loaded)folderClient.queue(state);}else{try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));storageOK=true;}catch(e){storageOK=false;}}
+ updateSaveStatus();
+}
+function updateSaveStatus(){
+ $('storage-warning').hidden=folderMode||storageOK;
+ const stamp=currentPath().updatedAt;
+ $('save-status').textContent=folderMode?$('folder-status').textContent:!storageOK?'Sin guardado automático · descarga tu progreso.':stamp?'Copia en navegador (modo lectura) · '+new Date(stamp).toLocaleString('es',{dateStyle:'short',timeStyle:'short'}):'Modo lectura · usa INICIO para guardar en la carpeta.';
+}
+function updateProgress(){
+ const steps=activeSteps(),path=currentPath(),count=state.activeOS?completedCount(path,steps):0;
+ $('progress-label').textContent=state.activeOS?`${count} de ${steps.length} pasos marcados`:'Elige tu sistema';
+ const percent=Math.round(count/steps.length*100);$('progress-percent').textContent=percent+'%';$('meter-fill').style.width=percent+'%';
+ document.querySelector('[role=progressbar]').setAttribute('aria-valuenow',String(count));
+ document.querySelector('[role=progressbar]').setAttribute('aria-valuemax',String(steps.length));
+ for(const b of $('step-list').querySelectorAll('button')){const s=steps.find(s=>s.id===b.dataset.step);const done=!!state.activeOS&&stepDone(path,s);b.classList.toggle('done',done);b.querySelector('.num').textContent=done?'✓':String(steps.indexOf(s)+1).padStart(2,'0');b.setAttribute('aria-label',`${steps.indexOf(s)+1}. ${s.short}. ${done?'Marcado':'Pendiente'}`);}
+ const step=currentStep(),values=path.checks[step.id]||[],marked=state.activeOS?values.filter(Boolean).length:0;
+ $('step-state').textContent=`${marked} de ${step.checks.length} acciones marcadas en este paso. `+(count===steps.length?'Completaste tu lista personal; la verificación técnica corresponde al asistente.':'Puedes continuar leyendo y volver a lo pendiente.');
+ updateSaveStatus();
+}
+function render(focus=false){
+ const steps=activeSteps(),path=currentPath(),step=currentStep(),index=steps.findIndex(s=>s.id===step.id);
+ for(const os of SYSTEMS){$('os-'+os).setAttribute('aria-pressed',String(state.activeOS===os));$('os-'+os).disabled=folderLoading;}
+ $('step-index').textContent=`Paso ${String(index+1).padStart(2,'0')} de ${steps.length}${state.activeOS?' · '+(state.activeOS==='mac'?'Mac':'Windows'):''}`;
+ $('phase').textContent=step.phase;$('step-heading').textContent=step.title;$('step-intro').textContent=step.intro;$('step-content').innerHTML=step.html;
+ $('step-list').replaceChildren(...steps.map((s,i)=>{const li=document.createElement('li'),b=document.createElement('button'),num=document.createElement('span'),name=document.createElement('span');b.dataset.step=s.id;num.className='num';name.className='nav-name';name.textContent=s.short;b.append(num,name);if(i===index)b.setAttribute('aria-current','step');b.disabled=!state.activeOS&&i>0;b.onclick=()=>navigate(s.id);li.append(b);return li;}));
+ $('checks').replaceChildren(...step.checks.map((label,i)=>{const row=document.createElement('label'),input=document.createElement('input'),text=document.createElement('span');row.className='check-row';input.type='checkbox';input.checked=!!state.activeOS&&path.checks[step.id]?.[i]===true;input.disabled=!state.activeOS||folderLoading;text.textContent=label;input.onchange=()=>{if(!path.checks[step.id])path.checks[step.id]=step.checks.map(()=>false);path.checks[step.id][i]=input.checked;save();updateProgress();};row.append(input,text);return row;}));
+ $('notes').value=state.activeOS?(path.notes[step.id]||''):'';$('notes').disabled=!state.activeOS||folderLoading;
+ $('previous').disabled=index===0||!state.activeOS;$('next').disabled=!state.activeOS;$('next').textContent=index===steps.length-1?'Ver lo que falta ↗':'Siguiente →';
+ for(const id of ['pending','export','report','reset'])$(id).disabled=!state.activeOS;
+ updateProgress();
+ if(focus){$('step-heading').focus({preventScroll:true});$('main').scrollIntoView({block:'start',behavior:'instant'});}
+}
+function navigate(id){if(folderLoading){toast('Primero hay que recuperar el progreso de la carpeta.');return;}if(!state.activeOS){toast('Elige Windows o Mac para comenzar.');return;}currentPath().step=id;save();render(true);}
+for(const os of SYSTEMS)$('os-'+os).onclick=()=>{state.activeOS=os;save();render(true);toast('Recorrido de '+(os==='mac'?'Mac':'Windows')+' seleccionado. Cada sistema conserva sus propias marcas.');};
+$('notes').addEventListener('input',()=>{if(!state.activeOS)return;currentPath().notes[currentStep().id]=$('notes').value;save();});
+$('previous').onclick=()=>{const s=activeSteps(),i=s.findIndex(s=>s.id===currentStep().id);navigate(s[Math.max(0,i-1)].id);};
+$('next').onclick=()=>{const s=activeSteps(),i=s.findIndex(s=>s.id===currentStep().id);if(i===s.length-1){const id=firstPending(currentPath(),s);if(completedCount(currentPath(),s)===s.length){toast('Tu lista está completa. Guarda una copia; el asistente es quien comprueba el equipo.');return;}navigate(id);}else navigate(s[i+1].id);};
+$('pending').onclick=()=>navigate(firstPending(currentPath(),activeSteps()));
+function download(content,name,type){const blob=new Blob([content],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
+$('export').onclick=async()=>{
+ if(folderMode){try{const r=await fetch('/api/progress-backup',{method:'POST',headers:{'X-Setup-Token':folderClient.token,'Content-Type':'application/json'},body:JSON.stringify({kind:'guia',data:state}),signal:AbortSignal.timeout(10000)});const out=await r.json();if(!r.ok)throw Error(out.error);$('load-warning').hidden=false;$('load-warning').textContent='Copia guardada en esta carpeta: '+out.relative_path+'. Para recuperarla, elige ese archivo con Recuperar una copia.';toast('Copia de respaldo guardada dentro de MI-PROGRESO/copias.');return;}catch(e){toast('No se pudo guardar la copia en la carpeta. Se intentará una descarga manual; comprueba que aparezca en Descargas.');}}
+ download(JSON.stringify({...state,exportedAt:new Date().toISOString()},null,2),'PROGRESO-FRAMEWORK-'+state.activeOS+'-'+new Date().toISOString().replaceAll(':','-').slice(0,19)+'.json','application/json');
+ if(!folderMode)toast('Se solicitó la descarga. Comprueba Descargas y conserva el archivo .json.');
+};
+function confirmAction(title,message,label,action){$('dialog-title').textContent=title;$('dialog-text').textContent=message;$('dialog-ok').textContent=label;confirmation=action;$('confirm-dialog').showModal();}
+$('dialog-cancel').onclick=()=>{confirmation=null;$('confirm-dialog').close();};
+$('confirm-dialog').addEventListener('cancel',()=>{confirmation=null;});
+$('dialog-ok').onclick=()=>{const action=confirmation;confirmation=null;$('confirm-dialog').close();if(action)action();};
+async function copyAPI(path){const r=await fetch('/api/'+path,{headers:{'X-Setup-Token':folderClient.token},signal:AbortSignal.timeout(10000)});const out=await r.json();if(!r.ok)throw Error(out.error||'No se pudo leer la copia.');return out;}
+function proposeRestore(restored){confirmAction('¿Recuperar este progreso?','Se sustituirán las marcas y notas de Windows y Mac de esta guía por las de la copia elegida. No cambia programas ni videos. Si necesitas conservar lo actual, cancela y guarda otra copia primero.','Recuperar progreso',()=>{state=restored;save();$('load-warning').hidden=true;render(true);toast('Progreso recuperado. Si estás en otra computadora, repite sus comprobaciones técnicas.');});}
+$('import').onclick=async()=>{
+ if(!folderMode){$('import-file').value='';$('import-file').click();return;}
+ $('copies-list').replaceChildren();$('copies-recover').disabled=true;$('copies-message').textContent='Buscando copias en MI-PROGRESO/copias…';$('copies-dialog').showModal();
+ try{const names=await copyAPI('progress-copies');for(const name of names){const option=document.createElement('option');option.value=name;option.textContent=name;$('copies-list').append(option);}$('copies-message').textContent=names.length?'Estas copias están en la misma carpeta. La más reciente aparece primero.':'Todavía no hay copias adicionales. Cierra y pulsa Guardar copia del progreso para crear una.';$('copies-recover').disabled=!names.length;}catch(e){$('copies-message').textContent='No se pudieron leer las copias. Comprueba que INICIO sigue abierto. '+e.message;}
+};
+$('copies-close').onclick=()=>$('copies-dialog').close();
+$('copies-file').onclick=()=>{$('copies-dialog').close();$('import-file').value='';$('import-file').click();};
+$('copies-recover').onclick=async()=>{try{const restored=validateState(await copyAPI('progress-copy?name='+encodeURIComponent($('copies-list').value)));$('copies-dialog').close();proposeRestore(restored);}catch(e){$('copies-message').textContent=e.message;}};
+$('import-file').onchange=async()=>{
+ const file=$('import-file').files[0];if(!file)return;
+ try{
+  if(file.size>250000)throw Error('El archivo es demasiado grande. Selecciona la copia .json descargada desde esta guía.');
+  const restored=validateState(JSON.parse(await file.text()));
+  confirmAction('¿Recuperar este progreso?','Se sustituirán las marcas y notas de Windows y Mac de esta guía por las del archivo elegido. No cambia programas ni videos. Si necesitas conservar el progreso actual, cancela y descarga una copia primero.','Recuperar progreso',()=>{state=restored;save();$('load-warning').hidden=true;render(true);toast('Progreso recuperado. Si estás en otra computadora, repite sus comprobaciones técnicas.');});
+ }catch(e){toast('No se importó nada. '+(e instanceof SyntaxError?'El archivo no contiene un JSON válido de progreso.':e.message));}
+};
+$('reset').onclick=()=>confirmAction('¿Reiniciar el recorrido de '+(state.activeOS==='mac'?'Mac':'Windows')+'?','Se borrarán solamente sus marcas y notas en esta guía. El otro sistema, los programas y los videos no cambian. El reinicio se guardará también en MI-PROGRESO. Descarga una copia primero si quieres conservarlo.','Reiniciar recorrido',()=>{state.paths[state.activeOS]=emptyPath();save();render(true);toast('Recorrido reiniciado. Tus programas y videos siguen en su lugar.');});
+function makeReport(){
+ const root=$('print-report');root.replaceChildren();const h=document.createElement('h1');h.textContent='Mi recorrido · Framework de edición';root.append(h);
+ const p=document.createElement('p');p.textContent='Sistema: '+(state.activeOS==='mac'?'Mac':'Windows')+' · '+new Date().toLocaleString('es')+'\n'+completedCount(currentPath(),activeSteps())+' de 15 pasos marcados por el alumno. No certifica la instalación ni la calidad de un video.';root.append(p);
+ for(const step of activeSteps()){const section=document.createElement('section');section.className='report-step';const title=document.createElement('h2');title.textContent=(activeSteps().findIndex(s=>s.id===step.id)+1)+'. '+step.short;section.append(title);const list=document.createElement('ul');step.checks.forEach((text,i)=>{const li=document.createElement('li');li.textContent=(currentPath().checks[step.id]?.[i]?'[Hecho] ':'[Pendiente] ')+text;list.append(li);});section.append(list);if(currentPath().notes[step.id]){const note=document.createElement('p');note.textContent='Mi nota: '+currentPath().notes[step.id];section.append(note);}root.append(section);}
+}
+$('report').onclick=()=>{makeReport();window.print();};
+window.addEventListener('beforeprint',makeReport);
+// Show a collision rather than silently overwriting a newer tab's marks.
+window.addEventListener('storage',event=>{if(!folderMode&&event.key===STORAGE_KEY){$('load-warning').hidden=false;$('load-warning').textContent='El progreso cambió en otra pestaña. Para evitar mezclar marcas, deja de escribir aquí y recarga esta página para recuperar lo más reciente. Si necesitas conservar estas notas, descarga primero una copia.';}});
+if(window.matchMedia('(max-width:720px)').matches)$('nav-details').open=false;
+function folderStatus(status,message){
+ $('folder-status').textContent=message;
+ $('folder-detail').textContent=status==='error'?'Tus cambios no están confirmados en la carpeta. No cierres esta página: puedes descargar una copia. Si otra ventana cambió el progreso, recarga después de conservar tus notas.':'Las marcas, las notas y el último paso quedan en MI-PROGRESO/guia.json. Deja la terminal abierta y espera la confirmación de guardado antes de cerrar.';
+ $('retry-folder').hidden=status!=='error';updateSaveStatus();
+}
+async function loadFolder(){
+ folderLoading=true;render();
+ try{const data=await folderClient.load();state=data?validateState(data):freshState();folderLoading=false;render();}
+ catch(e){folderStatus('error',e.message);}
+}
+if(folderMode&&typeof FolderProgress!=='undefined'){
+ folderClient=new FolderProgress('guia',folderStatus);
+ $('open-recording').href='/grabacion#'+location.hash.slice(1);$('open-assistant').href='/#'+location.hash.slice(1);$('open-assistant').hidden=false;
+ $('retry-folder').onclick=()=>folderClient.loaded?folderClient.flush():loadFolder();
+ window.addEventListener('beforeunload',e=>{if(folderClient.dirty){e.preventDefault();e.returnValue='Hay cambios sin guardar en la carpeta.';}});
+ loadFolder();
+}else{
+ $('folder-status').textContent='Modo lectura · todavía no se guarda en la carpeta';
+ $('folder-detail').textContent='Para activar el guardado automático, vuelve a la carpeta y abre INICIO WINDOWS.cmd o INICIO MAC.command. Si el navegador no abre, usa MI-PROGRESO/ABRIR GUIA.html después de iniciar. Desde aquí puedes leer y descargar una copia manual; un HTML abierto solo no puede escribir automáticamente en tus carpetas.';
+ render();
+}
+</script>
+</body>
+</html>

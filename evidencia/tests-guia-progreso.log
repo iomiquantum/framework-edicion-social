@@ -1,0 +1,61 @@
+test_api_cannot_write_last_lot_or_arbitrary_file (test_progreso.ProgressHTTPTests.test_api_cannot_write_last_lot_or_arbitrary_file) ... ok
+test_api_roundtrip_conflict_and_authentication (test_progreso.ProgressHTTPTests.test_api_roundtrip_conflict_and_authentication) ... ok
+test_backup_api_can_restore_without_browser_file_dialog (test_progreso.ProgressHTTPTests.test_backup_api_can_restore_without_browser_file_dialog) ... ok
+test_pages_and_shared_script_are_served (test_progreso.ProgressHTTPTests.test_pages_and_shared_script_are_served) ... ok
+test_bad_recording_numbers_and_case_rejected (test_progreso.ProgressTests.test_bad_recording_numbers_and_case_rejected) ... ok
+test_corrupt_both_preserved_for_help (test_progreso.ProgressTests.test_corrupt_both_preserved_for_help) ... ok
+test_corrupt_current_recovers_previous (test_progreso.ProgressTests.test_corrupt_current_recovers_previous) ... ok
+test_draft_stores_text_palette_templates_and_step (test_progreso.ProgressTests.test_draft_stores_text_palette_templates_and_step) ... ok
+test_explicit_backup_is_importable_and_does_not_replace_work (test_progreso.ProgressTests.test_explicit_backup_is_importable_and_does_not_replace_work) ... ok
+test_failed_atomic_replace_keeps_current_and_removes_temp (test_progreso.ProgressTests.test_failed_atomic_replace_keeps_current_and_removes_temp) ... ok
+test_invalid_checkboxes_do_not_replace_valid_state (test_progreso.ProgressTests.test_invalid_checkboxes_do_not_replace_valid_state) ... ok
+test_recording_script_and_checklist_roundtrip (test_progreso.ProgressTests.test_recording_script_and_checklist_roundtrip) ... ok
+test_roundtrip_and_previous_revision (test_progreso.ProgressTests.test_roundtrip_and_previous_revision) ... ok
+test_two_windows_cannot_silently_overwrite (test_progreso.ProgressTests.test_two_windows_cannot_silently_overwrite) ... ok
+test_unknown_paths_rejected (test_progreso.ProgressTests.test_unknown_paths_rejected) ... ok
+test_windows_mac_and_recording_steps_are_independent (test_progreso.ProgressTests.test_windows_mac_and_recording_steps_are_independent) ... ok
+test_duplicate_master_blocked (test_asistente.BatchTests.test_duplicate_master_blocked) ... ok
+test_existing_folder_is_not_overwritten (test_asistente.BatchTests.test_existing_folder_is_not_overwritten) ... ok
+test_failed_build_does_not_commit_partial_registry (test_asistente.BatchTests.test_failed_build_does_not_commit_partial_registry) ... ok
+test_missing_master_makes_no_project (test_asistente.BatchTests.test_missing_master_makes_no_project) ... ok
+test_prepares_shared_master_no_copy_no_approval (test_asistente.BatchTests.test_prepares_shared_master_no_copy_no_approval) ... ok
+test_readable_palette_history_avoids_recent (test_asistente.BatchTests.test_readable_palette_history_avoids_recent) ... ok
+test_arbitrary_files_are_not_served (test_asistente.HTTPTests.test_arbitrary_files_are_not_served) ... ok
+test_catalog_access_and_five_suggestions (test_asistente.HTTPTests.test_catalog_access_and_five_suggestions) ... ok
+test_no_ready_without_real_checks (test_asistente.HTTPTests.test_no_ready_without_real_checks) ... ok
+test_no_token_and_cross_origin_cannot_mutate (test_asistente.HTTPTests.test_no_token_and_cross_origin_cannot_mutate) ... ok
+test_token_needed_for_local_paths (test_asistente.HTTPTests.test_token_needed_for_local_paths) ... ok
+test_all_boards_preserve_nodes_and_embedded_photos (test_asistente.PaletteTests.test_all_boards_preserve_nodes_and_embedded_photos) ... ok
+test_bad_colors_block_creation (test_asistente.PaletteTests.test_bad_colors_block_creation) ... ok
+test_five_distinct_palettes_and_readable_pairs (test_asistente.PaletteTests.test_five_distinct_palettes_and_readable_pairs) ... ok
+test_unchanged_palette_keeps_identity_for_history (test_asistente.PaletteTests.test_unchanged_palette_keeps_identity_for_history) ... ok
+test_unknown_template_blocked (test_asistente.PaletteTests.test_unknown_template_blocked) ... ok
+test_doctor_payload_false_is_not_success (test_asistente.SetupTests.test_doctor_payload_false_is_not_success) ... ok
+test_expired_plan_never_runs (test_asistente.SetupTests.test_expired_plan_never_runs) ... ok
+test_install_without_consent_never_runs (test_asistente.SetupTests.test_install_without_consent_never_runs) ... ok
+test_missing_latest_release_does_not_install_guessed_version (test_asistente.SetupTests.test_missing_latest_release_does_not_install_guessed_version) ... ok
+test_no_network_returns_explicit_unknown_versions (test_asistente.SetupTests.test_no_network_returns_explicit_unknown_versions) ... ok
+test_copy_receipt_keeps_distinct_source_and_adapted_hashes (test_windows_kit.PortableKitTests.test_copy_receipt_keeps_distinct_source_and_adapted_hashes) ... ok
+test_invalid_hook_does_not_pass_project_loading (test_windows_kit.PortableKitTests.test_invalid_hook_does_not_pass_project_loading) ... ok
+test_manifest_cannot_redirect_to_mac_or_parent (test_windows_kit.PortableKitTests.test_manifest_cannot_redirect_to_mac_or_parent) ... ok
+test_missing_sfx_plan_blocks_before_mix (test_windows_kit.PortableKitTests.test_missing_sfx_plan_blocks_before_mix) ... ok
+test_new_video_uses_design_without_inheriting_old_media_or_approval (test_windows_kit.PortableKitTests.test_new_video_uses_design_without_inheriting_old_media_or_approval) ... ok
+test_real_process_exclusion_and_release (test_windows_kit.PortableKitTests.test_real_process_exclusion_and_release) ... ok
+test_unknown_template_cannot_create_project (test_windows_kit.PortableKitTests.test_unknown_template_cannot_create_project) ... ok
+test_windows_branch_nonblocking_conflict (test_windows_kit.PortableKitTests.test_windows_branch_nonblocking_conflict) ... ok
+test_windows_branch_restores_position_and_unlocks (test_windows_kit.PortableKitTests.test_windows_branch_restores_position_and_unlocks) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 2.041s
+
+OK
+{
+  "project": "/var/folders/6l/43qq3fx50zvg_fpvlxhh3ttm0000gp/T/tmp07yvvewk/proyecto/Nuevos-Videos/VIDEO-31",
+  "template": "Comic pop",
+  "stage": "prepared_not_composed"
+}
+{
+  "project": "/var/folders/6l/43qq3fx50zvg_fpvlxhh3ttm0000gp/T/tmpkf1lfzyp/proyecto/Nuevos-Videos/VIDEO-31",
+  "template": "Comic pop",
+  "stage": "prepared_not_composed"
+}

@@ -1,0 +1,15 @@
+..............................
+----------------------------------------------------------------------
+Ran 30 tests in 1.506s
+
+OK
+{
+  "project": "/var/folders/6l/43qq3fx50zvg_fpvlxhh3ttm0000gp/T/tmp_ve3ljn7/proyecto/Nuevos-Videos/VIDEO-31",
+  "template": "Comic pop",
+  "stage": "prepared_not_composed"
+}
+{
+  "project": "/var/folders/6l/43qq3fx50zvg_fpvlxhh3ttm0000gp/T/tmpxsy4sueb/proyecto/Nuevos-Videos/VIDEO-31",
+  "template": "Comic pop",
+  "stage": "prepared_not_composed"
+}

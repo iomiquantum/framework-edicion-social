@@ -1,0 +1,235 @@
+{
+  "checked_at_utc": "2026-10-01T00:20:04.722829+00:00",
+  "status": "pass",
+  "checks": [
+    {
+      "id": "JSON_PARSE",
+      "status": "pass",
+      "count": 7
+    },
+    {
+      "id": "CATALOG_TEMPLATE_CONTRACT",
+      "status": "pass",
+      "formats": [
+        "CAP-ENFASIS-SEMANTICO-001",
+        "CAP-FRASE-EDITORIAL-001",
+        "CAP-IMPACTO-INTEGRADO-001",
+        "CAP-RESALTADO-PROGRESIVO-001"
+      ],
+      "placements": 3
+    },
+    {
+      "id": "NEW_RULES_FIELDS_ENUMS_AND_OLD_RULES_PRESERVED",
+      "status": "pass",
+      "new_rules": 3,
+      "method": "Required fields/enums from schema plus ID/version/date checks; not a general JSON Schema engine."
+    },
+    {
+      "id": "SOURCE_LINKAGE_AND_OLD_VERIFICATION_DATE_PRESERVED",
+      "status": "pass",
+      "new_sources": 10
+    },
+    {
+      "id": "WORKFLOW_REFERENCES",
+      "status": "pass",
+      "documents": 6
+    },
+    {
+      "id": "LOCAL_MARKDOWN_LINKS",
+      "status": "pass",
+      "count": 19
+    },
+    {
+      "id": "EXPORT_AND_SAMPLE_INTEGRITY",
+      "status": "pass",
+      "exports": 18,
+      "frames": 54
+    },
+    {
+      "id": "V16_EXISTING_APPROVAL_BINDING",
+      "status": "pass",
+      "prior_approval_preserved": true
+    }
+  ],
+  "unchanged_media": [
+    {
+      "video_id": "VIDEO-01",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-01/deliveries/VIDEO-01-instagram-reels.mp4",
+      "sha256": "760a291da58418e7585b6d4c41db867e2edfed1b52719918ba89a620d26913c1",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-02",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-02/VIDEO-02_REVISION_v3.mp4",
+      "sha256": "469aaa4221d5f65e2f5f1faf516b0033342b9fbc380214241084a9a88fc67ae4",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-03",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-03/VIDEO-03_REVISION_v3.mp4",
+      "sha256": "47edaa87e3d75ffd4c944381a0b92995c1ea352e45a5b03083f2bdcd30722d8a",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-04",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-04/VIDEO-04_REVISION_v2.mp4",
+      "sha256": "9b13dedd96ddc5452e7180b89c3db28734caf72cab23bb18bb5a32023658db8c",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-05",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-05/VIDEO-05_REVISION_v2.mp4",
+      "sha256": "3ce6c676b6f9c0bc27003b4cf03804f8c715bc361e4f7c97a31552c5cf21d61e",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-06",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-06/VIDEO-06_REVISION_v3.mp4",
+      "sha256": "9ab9dbcddee82b6835d3fcfa4d6c6ea1c8bdc2dd8e862ef45ef4fa38e98c4f4d",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-07",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-07/VIDEO-07_REVISION_v3.mp4",
+      "sha256": "d36ff711d86c695f53ca1eb184d9633d972232801cb230eae6553239ac84b3ff",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-08",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-08/VIDEO-08_REVISION_v3.mp4",
+      "sha256": "fb52786819ab22952343ea2f6cd01ee690ce3f56861e406f2317ac5a1ffc8275",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-09",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-09/VIDEO-09_REVISION_v7.mp4",
+      "sha256": "8f1896e7a159b6ebe04fbeecf7893f97203d6a175762b4d2d98a362495f70393",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-10",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-10/VIDEO-10_REVISION_v3.mp4",
+      "sha256": "1d2f678b4b7483582f23bae7f4a734bde7127d31a79d24813557fb0a9e3d8deb",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-11",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/renders/VIDEO-11-FINAL.mp4",
+      "sha256": "1d3c1a09480a21fcb15334173fb30f955c34d0cb289ee517573586d738201a3e",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-12",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/renders/VIDEO-12-FINAL.mp4",
+      "sha256": "c0f584d19986cf931ae038a4690d086e993e8efd40eacf5470424edb42b193e8",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-13",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/renders/VIDEO-13-FINAL.mp4",
+      "sha256": "6ee143441088f43eb6aa0c318b6bf0505e9c8d8f91f7eaa893bda2f30491893e",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-14",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/renders/VIDEO-14-FINAL.mp4",
+      "sha256": "76c87c7416646ec53f4f16dccdebd421069e046dc5fe6ab53c63a0ac4fca2840",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-15",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/renders/VIDEO-15-FINAL.mp4",
+      "sha256": "b778b8bfdc79f88d651612f3a581c6661b32312edc287e51f477bfaf116a26f2",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-16",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-16/VIDEO-16-PARA-APROBACION-v4.mp4",
+      "sha256": "df5b836f43fb38c6378dcdb34ee2ed78d2eb2e037133bffc3dc9af817f82804e",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-21",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/renders/VIDEO-21-ENTREGA-HLG-v2.mp4",
+      "sha256": "73b68b1b51acf49269cfe9ef1f76a05ceca469e40ebb9dabb637df20bf7ef79a",
+      "unchanged": true
+    },
+    {
+      "video_id": "VIDEO-22",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-22/entrega/VIDEO-22-ENTREGA-HLG-v2-audio-conservado.mp4",
+      "sha256": "c1fcbfa0efe6a362f7d8c1600356603cb1c682b9a0caeee17d4d311937bb185e",
+      "unchanged": true
+    }
+  ],
+  "scope": "Documentation/catalog/link/schema/hash verification, not full video QA or live UI.",
+  "visual_comparison_review": "Six-sample contact sheet visually inspected by Codex root after generation.",
+  "physical_phone_test": false,
+  "full_muted_playback_in_this_audit": false,
+  "live_platform_preview": false,
+  "files": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/captions/catalog.json",
+      "sha256": "8173615e78335d8991e754513ec8440146bdb32fda93a8be7ea6e441b20dd172"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/templates/caption-decision.json",
+      "sha256": "d68e5cee04af3f596354e80380309f9e9303ef711b846d4d6ef73d8f0f292347"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/rules/registry.json",
+      "sha256": "8122b3d82df051693f0ff10c940d5d7935cbe2b2644b15a6c63a889444962ed2"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/sources/catalog.json",
+      "sha256": "f8f32728ec740189fc6130dc519815bd9d1033a50164079550dc3b50cee42bf7"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/source-notes.json",
+      "sha256": "d8c3912a76b9e9123e042eb4c3be7bc2318b6d610b504421c09bbe3bc2aa225e"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/export-audit.json",
+      "sha256": "7401b78cbe1cbeb11bded3a2e3c172902aaeec5ada7054cc182930581d0d2b40"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/export-audit.before-visual-review.json",
+      "sha256": "d862c15d15e3dcfba71a61ca54ebf41ca4793a683ca8e2e9abeefb45acf41b15"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/README.md",
+      "sha256": "e10ca01f529a89d41cc09887662c3ff0e2970e2fa9b1da319e5e5eef6db7a217"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/PROMPT_EDICION_INDIVIDUAL.md",
+      "sha256": "c5a65c0fe565b5d3dd70ebfd735bfebdc363a0de77d03211269bbb740a6c8fd1"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/QA_PROFESIONAL.md",
+      "sha256": "b7346173d198b9276743f71611dd53f1a76151ad50bf2d6a3591931c1701dfd4"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/PROMPT_INGESTA_Y_EDICION.md",
+      "sha256": "170bb62a87f3599d569634c98a203d00a33c868ceabb811761d9384b38d037c2"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/PROMPT_DERIVADOS_PLATAFORMA.md",
+      "sha256": "0d0f223876ec837a4fd350b2739e34cb5772845f1acc2965732281b3dc81302d"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/AGENTS.md",
+      "sha256": "2d6532aebe938e7e9d19efe82e8b6ff9e412c108430bafb05ab85cbad87b130c"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/SUBTITULOS_CONTEXTO_Y_LECTURA.md",
+      "sha256": "a74f51c735a5781fb241ba39faed4f0ee46094e5a9c54636fc9c5ce09e13aa08"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/INFORME.md",
+      "sha256": "c3a21baba7fa2422af9add867c6564371cfe6da95b73559e9ca4029dad6067da"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/subtitulos-2026-09-30/COMPARACION_6_EXPORTACIONES.png",
+      "sha256": "06cbd067c340c80b2baae2c8eb2c01227eb302ceb86707276c01ec5d662a6903"
+    }
+  ]
+}

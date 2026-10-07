@@ -1,0 +1,34 @@
+{
+  "sections": [
+    {
+      "start_s": 0,
+      "end_s": 2.113,
+      "text": "La IA no te está ahorrando tiempo."
+    },
+    {
+      "start_s": 2.113,
+      "end_s": 6.142,
+      "text": "Hay gente utilizando inteligencia artificial y trabajando más que antes."
+    },
+    {
+      "start_s": 6.142,
+      "end_s": 11.695,
+      "text": "Generan algo, corrigen, vuelven a pedirlo, revisan otra vez."
+    },
+    {
+      "start_s": 11.695,
+      "end_s": 13.194,
+      "text": "Eso no es automatizar."
+    },
+    {
+      "start_s": 13.194,
+      "end_s": 17.561,
+      "text": "Si la IA te da más trabajo del que te quita, todavía no tienes un sistema."
+    },
+    {
+      "start_s": 17.561,
+      "end_s": 21.375,
+      "text": "¿La IA te está ahorrando tiempo o te está dando más trabajo?"
+    }
+  ]
+}

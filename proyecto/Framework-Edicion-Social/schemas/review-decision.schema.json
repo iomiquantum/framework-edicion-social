@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/review-decision.schema.json",
+  "title": "Atomic review decision set",
+  "type": "object",
+  "required": ["schema_version", "project_id", "review_id", "overall_decision", "approved_layers", "changes", "requires_full_editorial_recheck", "requires_new_full_render"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "project_id": {"type": "string"},
+    "review_id": {"type": "string"},
+    "reviewed_at": {"type": "string"},
+    "review_artifact": {"type": "string"},
+    "source_manifest_sha256": {"type": "string"},
+    "overall_decision": {"enum": ["pending", "approved", "changes_requested", "rejected"]},
+    "approved_layers": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "changes": {"type": "array"},
+    "preference_candidates": {"type": "array"},
+    "requires_full_editorial_recheck": {"type": "boolean"},
+    "requires_new_full_render": {"type": "boolean"},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

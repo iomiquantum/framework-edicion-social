@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/master-profile.schema.json",
+  "title": "Editorial and delivery master profile",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "profile_version",
+    "label",
+    "artifact_role",
+    "color_intent",
+    "status",
+    "intended_use",
+    "forbidden_uses",
+    "video",
+    "audio",
+    "governance"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0.0"},
+    "id": {
+      "type": "string",
+      "pattern": "^MASTER-PROFILE-[A-Z0-9-]+-[0-9]{3}$"
+    },
+    "profile_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "label": {"type": "string", "minLength": 1},
+    "artifact_role": {
+      "enum": ["editorial_mezzanine", "social_delivery_master"]
+    },
+    "color_intent": {"enum": ["preserve_hdr", "normalize_sdr_bt709"]},
+    "status": {"enum": ["active", "testing", "deprecated"]},
+    "intended_use": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "forbidden_uses": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "video": {
+      "type": "object",
+      "required": [
+        "file_extensions",
+        "containers",
+        "codecs",
+        "codec_profiles",
+        "pixel_formats",
+        "minimum_bit_depth",
+        "width",
+        "height",
+        "fps_target",
+        "fps_tolerance",
+        "orientation",
+        "aspect_ratio",
+        "duration_min_seconds",
+        "duration_max_seconds",
+        "color_primaries",
+        "color_transfers",
+        "color_spaces",
+        "bitrate_min_mbps",
+        "bitrate_max_mbps",
+        "bitrate_enforcement"
+      ],
+      "properties": {
+        "file_extensions": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^\\.[a-z0-9]+$"},
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "containers": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "codecs": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "codec_profiles": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "pixel_formats": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "minimum_bit_depth": {"type": "integer", "minimum": 8, "maximum": 16},
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "fps_target": {"type": "number", "exclusiveMinimum": 0},
+        "fps_tolerance": {"type": "number", "minimum": 0},
+        "orientation": {"enum": ["vertical", "horizontal", "square"]},
+        "aspect_ratio": {"type": "string", "pattern": "^[0-9]+:[0-9]+$"},
+        "duration_min_seconds": {"type": "number", "minimum": 0},
+        "duration_max_seconds": {"type": "number", "exclusiveMinimum": 0},
+        "color_primaries": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "color_transfers": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "color_spaces": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "bitrate_min_mbps": {"type": ["number", "null"], "minimum": 0},
+        "bitrate_max_mbps": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "bitrate_enforcement": {"enum": ["warning", "error"]}
+      },
+      "additionalProperties": false
+    },
+    "audio": {
+      "type": "object",
+      "required": [
+        "required",
+        "codecs",
+        "codec_profiles",
+        "sample_rate_hz",
+        "channels",
+        "requires_loudness_scan",
+        "target_lufs",
+        "lufs_tolerance",
+        "true_peak_max_dbtp"
+      ],
+      "properties": {
+        "required": {"type": "boolean"},
+        "codecs": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "codec_profiles": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "sample_rate_hz": {"type": "integer", "minimum": 1},
+        "channels": {"type": "integer", "minimum": 1},
+        "requires_loudness_scan": {"type": "boolean"},
+        "target_lufs": {"type": ["number", "null"]},
+        "lufs_tolerance": {"type": ["number", "null"], "minimum": 0},
+        "true_peak_max_dbtp": {"type": ["number", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "governance": {
+      "type": "object",
+      "required": [
+        "editable_source",
+        "upload_ready",
+        "requires_approved_source_receipt",
+        "required_source_media_role",
+        "required_source_profile_id",
+        "source_hash_must_differ",
+        "requires_visual_review",
+        "rules"
+      ],
+      "properties": {
+        "editable_source": {"type": "boolean"},
+        "upload_ready": {"type": "boolean"},
+        "requires_approved_source_receipt": {"type": "boolean"},
+        "required_source_media_role": {"type": ["string", "null"]},
+        "required_source_profile_id": {
+          "type": ["string", "null"],
+          "pattern": "^MASTER-PROFILE-[A-Z0-9-]+-[0-9]{3}$"
+        },
+        "source_hash_must_differ": {"type": "boolean"},
+        "requires_visual_review": {"type": "boolean"},
+        "rules": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,18 @@
+# Student data and machine-specific installations never belong in the course repository.
+/MI-PROGRESO/
+/runtime/
+/runtime.local.json
+/resultados/
+/entrada-masters/*
+!/entrada-masters/.gitkeep
+/proyecto/Lotes/
+/proyecto/Nuevos-Videos/
+/asistente/historial-paletas.json
+/proyectos.json
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+node_modules/
+.venv/

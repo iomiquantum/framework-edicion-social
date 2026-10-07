@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/learning-promotion-policy.schema.json",
+  "title": "Conservative promotion policy for the editorial learning engine",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "policy_id",
+    "updated_at",
+    "governance",
+    "safeguards",
+    "scope_thresholds"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "policy_id": {"type": "string", "minLength": 1},
+    "updated_at": {"type": "string", "format": "date"},
+    "governance": {
+      "type": "object",
+      "required": [
+        "automatic_promotion",
+        "registry_write_permitted",
+        "human_review_required",
+        "scope_escalation_allowed",
+        "single_template_winner",
+        "recommendations_non_binding"
+      ],
+      "properties": {
+        "automatic_promotion": {"const": false},
+        "registry_write_permitted": {"const": false},
+        "human_review_required": {"const": true},
+        "scope_escalation_allowed": {"const": false},
+        "single_template_winner": {"const": false},
+        "recommendations_non_binding": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "safeguards": {
+      "type": "object",
+      "required": [
+        "performance_alone_may_promote",
+        "exploratory_variants_may_promote",
+        "require_exact_context_match",
+        "min_directional_performance_sample_size",
+        "controlled_variation_axes",
+        "require_template_family_for_axes",
+        "evidence_type_weights"
+      ],
+      "properties": {
+        "performance_alone_may_promote": {"const": false},
+        "exploratory_variants_may_promote": {"const": false},
+        "require_exact_context_match": {"const": true},
+        "min_directional_performance_sample_size": {"type": "integer", "minimum": 2},
+        "controlled_variation_axes": {
+          "type": "array",
+          "minItems": 6,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["structure", "format", "style", "rhythm", "transitions", "audio"]
+          }
+        },
+        "require_template_family_for_axes": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "structure",
+              "format",
+              "style",
+              "rhythm",
+              "transitions",
+              "audio",
+              "captions",
+              "assets",
+              "technical",
+              "workflow",
+              "other"
+            ]
+          }
+        },
+        "evidence_type_weights": {
+          "type": "object",
+          "required": ["technical", "creative", "preference", "performance"],
+          "properties": {
+            "technical": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+            "creative": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+            "preference": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+            "performance": {"type": "number", "exclusiveMinimum": 0, "maximum": 1}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "scope_thresholds": {
+      "type": "object",
+      "required": ["asset", "video", "series", "style", "creator", "account", "global"],
+      "properties": {
+        "asset": {
+          "type": "object",
+          "required": ["min_support_contexts", "min_unique_videos", "min_unique_projects", "min_unique_series", "min_evidence_types", "min_explicit_human_supports", "min_positive_ratio", "min_alternative_margin"],
+          "properties": {
+            "min_support_contexts": {"type": "integer", "minimum": 1},
+            "min_unique_videos": {"type": "integer", "minimum": 0},
+            "min_unique_projects": {"type": "integer", "minimum": 0},
+            "min_unique_series": {"type": "integer", "minimum": 0},
+            "min_evidence_types": {"type": "integer", "minimum": 1},
+            "min_explicit_human_supports": {"type": "integer", "minimum": 0},
+            "min_positive_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+            "min_alternative_margin": {"type": "number", "minimum": 0, "maximum": 1}
+          },
+          "additionalProperties": false
+        },
+        "video": {
+          "type": "object",
+          "required": ["min_support_contexts", "min_unique_videos", "min_unique_projects", "min_unique_series", "min_evidence_types", "min_explicit_human_supports", "min_positive_ratio", "min_alternative_margin"],
+          "properties": {
+            "min_support_contexts": {"type": "integer", "minimum": 1},
+            "min_unique_videos": {"type": "integer", "minimum": 0},
+            "min_unique_projects": {"type": "integer", "minimum": 0},
+            "min_unique_series": {"type": "integer", "minimum": 0},
+            "min_evidence_types": {"type": "integer", "minimum": 1},
+            "min_explicit_human_supports": {"type": "integer", "minimum": 0},
+            "min_positive_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+            "min_alternative_margin": {"type": "number", "minimum": 0, "maximum": 1}
+          },
+          "additionalProperties": false
+        },
+        "series": {
+          "type": "object",
+          "required": ["min_support_contexts", "min_unique_videos", "min_unique_projects", "min_unique_series", "min_evidence_types", "min_explicit_human_supports", "min_positive_ratio", "min_alternative_margin"],
+          "properties": {
+            "min_support_contexts": {"type": "integer", "minimum": 1},
+            "min_unique_videos": {"type": "integer", "minimum": 0},
+            "min_unique_projects": {"type": "integer", "minimum": 0},
+            "min_unique_series": {"type": "integer", "minimum": 0},
+            "min_evidence_types": {"type": "integer", "minimum": 1},
+            "min_explicit_human_supports": {"type": "integer", "minimum": 0},
+            "min_positive_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+            "min_alternative_margin": {"type": "number", "minimum": 0, "maximum": 1}
+          },
+          "additionalProperties": false
+        },
+        "style": {
+          "type": "object",
+          "required": ["min_support_contexts", "min_unique_videos", "min_unique_projects", "min_unique_series", "min_evidence_types", "min_explicit_human_supports", "min_positive_ratio", "min_alternative_margin"],
+          "properties": {
+            "min_support_contexts": {"type": "integer", "minimum": 1},
+            "min_unique_videos": {"type": "integer", "minimum": 0},
+            "min_unique_projects": {"type": "integer", "minimum": 0},
+            "min_unique_series": {"type": "integer", "minimum": 0},
+            "min_evidence_types": {"type": "integer", "minimum": 1},
+            "min_explicit_human_supports": {"type": "integer", "minimum": 0},
+            "min_positive_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+            "min_alternative_margin": {"type": "number", "minimum": 0, "maximum": 1}
+          },
+          "additionalProperties": false
+        },
+        "creator": {
+          "type": "object",
+          "required": ["min_support_contexts", "min_unique_videos", "min_unique_projects", "min_unique_series", "min_evidence_types", "min_explicit_human_supports", "min_positive_ratio", "min_alternative_margin"],
+          "properties": {
+            "min_support_contexts": {"type": "integer", "minimum": 1},
+            "min_unique_videos": {"type": "integer", "minimum": 0},
+            "min_unique_projects": {"type": "integer", "minimum": 0},
+            "min_unique_series": {"type": "integer", "minimum": 0},
+            "min_evidence_types": {"type": "integer", "minimum": 1},
+            "min_explicit_human_supports": {"type": "integer", "minimum": 0},
+            "min_positive_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+            "min_alternative_margin": {"type": "number", "minimum": 0, "maximum": 1}
+          },
+          "additionalProperties": false
+        },
+        "account": {
+          "type": "object",
+          "required": ["min_support_contexts", "min_unique_videos", "min_unique_projects", "min_unique_series", "min_evidence_types", "min_explicit_human_supports", "min_positive_ratio", "min_alternative_margin"],
+          "properties": {
+            "min_support_contexts": {"type": "integer", "minimum": 1},
+            "min_unique_videos": {"type": "integer", "minimum": 0},
+            "min_unique_projects": {"type": "integer", "minimum": 0},
+            "min_unique_series": {"type": "integer", "minimum": 0},
+            "min_evidence_types": {"type": "integer", "minimum": 1},
+            "min_explicit_human_supports": {"type": "integer", "minimum": 0},
+            "min_positive_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+            "min_alternative_margin": {"type": "number", "minimum": 0, "maximum": 1}
+          },
+          "additionalProperties": false
+        },
+        "global": {
+          "type": "object",
+          "required": ["min_support_contexts", "min_unique_videos", "min_unique_projects", "min_unique_series", "min_evidence_types", "min_explicit_human_supports", "min_positive_ratio", "min_alternative_margin"],
+          "properties": {
+            "min_support_contexts": {"type": "integer", "minimum": 1},
+            "min_unique_videos": {"type": "integer", "minimum": 0},
+            "min_unique_projects": {"type": "integer", "minimum": 0},
+            "min_unique_series": {"type": "integer", "minimum": 0},
+            "min_evidence_types": {"type": "integer", "minimum": 1},
+            "min_explicit_human_supports": {"type": "integer", "minimum": 0},
+            "min_positive_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+            "min_alternative_margin": {"type": "number", "minimum": 0, "maximum": 1}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

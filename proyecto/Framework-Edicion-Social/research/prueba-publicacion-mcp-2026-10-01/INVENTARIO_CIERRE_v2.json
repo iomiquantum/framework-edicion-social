@@ -1,0 +1,570 @@
+{
+  "version": 2,
+  "recordedDate": "2026-10-01",
+  "sourceReceipt": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_PROGRAMACION_v1.json",
+  "sourceReceiptSha256AtClosure": "aa39b9683c5a88d2c14307a67053211a1789ea7dfd4a724bf3ae41fdeba39490",
+  "followupReceipt": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_SEGUIMIENTO_v1.json",
+  "followupReceiptSha256AtClosure": "54251776e039afab83b59c2aa469d83e5ef7d90669879f579651711017c3dcbf",
+  "cases": 11,
+  "destinations": 17,
+  "csvRows": 11,
+  "providerState": "PENDING",
+  "publishedVerified": false,
+  "allDraftFalse": true,
+  "allGlobalAutoPublishTrue": true,
+  "allSelectedInstagramAutoPublishTrue": true,
+  "timezoneDiscrepancyHours": 7,
+  "timezoneDiscrepancyStatus": "causa del editor por confirmar; MCP/Calendario/Listado coinciden",
+  "followup": {
+    "id": "comprobar-piloto-metricool-de-todos-los-formatos",
+    "status": "ACTIVE",
+    "runLocal": "2026-10-02T18:15:00-05:00",
+    "actualRunVerified": false
+  },
+  "copiedFiles": [
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_01_1080x1350.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_01_1080x1350.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_01_1080x1350.jpg",
+      "pilotRelativePath": "assets/carrusel_01_1080x1350.jpg",
+      "bytes": 96007,
+      "sha256": "947cfa6c42f8fb90c3b281c198d2a9266a6bfe1e7716dba262969a70f143f001"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_01_1080x1350.png",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_01_1080x1350.png",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_01_1080x1350.png",
+      "pilotRelativePath": "assets/carrusel_01_1080x1350.png",
+      "bytes": 45503,
+      "sha256": "c82b80ac031acd7c51a9b663263bf7409b5c3ab2ec47753f1aea42da4e10c194"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_01_1080x1350.svg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_01_1080x1350.svg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_01_1080x1350.svg",
+      "pilotRelativePath": "assets/carrusel_01_1080x1350.svg",
+      "bytes": 1534,
+      "sha256": "672c6fc07d2f1f3f533df61774d5418c981aa3a44ae33f241b8a2ce264400a50"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_02_1080x1350.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_02_1080x1350.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_02_1080x1350.jpg",
+      "pilotRelativePath": "assets/carrusel_02_1080x1350.jpg",
+      "bytes": 98041,
+      "sha256": "c0147e04ef8896e2d4903f38a18873c99b315a5856ed8a34425810fdd42fc5f0"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_02_1080x1350.png",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_02_1080x1350.png",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_02_1080x1350.png",
+      "pilotRelativePath": "assets/carrusel_02_1080x1350.png",
+      "bytes": 47015,
+      "sha256": "f8c59b2e857873557e43a9d4393f77c11521dc7b03bd995b0795aec811d58e3d"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_02_1080x1350.svg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_02_1080x1350.svg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_02_1080x1350.svg",
+      "pilotRelativePath": "assets/carrusel_02_1080x1350.svg",
+      "bytes": 1534,
+      "sha256": "eb4a7cc0d8d11e1c12bbb3cdf02af7f3444c20697cac1d977b5c3d9f3bbfe627"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_03_1080x1350.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_03_1080x1350.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_03_1080x1350.jpg",
+      "pilotRelativePath": "assets/carrusel_03_1080x1350.jpg",
+      "bytes": 98466,
+      "sha256": "b8e59dd12df98bda454d1af32cb88f013731c8c7649f61a572d2c8ac53de3d92"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_03_1080x1350.png",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_03_1080x1350.png",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_03_1080x1350.png",
+      "pilotRelativePath": "assets/carrusel_03_1080x1350.png",
+      "bytes": 44782,
+      "sha256": "0a2036959f4bd16bc804c8d0aba06f4e64edcd1b0f9857da646c6ea0fde53bdf"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/carrusel_03_1080x1350.svg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_03_1080x1350.svg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/carrusel_03_1080x1350.svg",
+      "pilotRelativePath": "assets/carrusel_03_1080x1350.svg",
+      "bytes": 1534,
+      "sha256": "3949cbadfa315d4e86046bb95b06ec915214eab68c75150cd4fe49c089e742bd"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/contacto_tarjetas_prueba.png",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/contacto_tarjetas_prueba.png",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/contacto_tarjetas_prueba.png",
+      "pilotRelativePath": "assets/contacto_tarjetas_prueba.png",
+      "bytes": 146715,
+      "sha256": "44017bc3b8f54d873ee6eb14985aac55483c722650c62dcb2079186763599058"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_cuadrado_1080x1080.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_cuadrado_1080x1080.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_cuadrado_1080x1080.jpg",
+      "pilotRelativePath": "assets/feed_cuadrado_1080x1080.jpg",
+      "bytes": 76973,
+      "sha256": "93d23e69cf05928bc929f66c3741d2f6364c2f6185ab6abdcd9325a2e250b5d4"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_cuadrado_1080x1080.png",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_cuadrado_1080x1080.png",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_cuadrado_1080x1080.png",
+      "pilotRelativePath": "assets/feed_cuadrado_1080x1080.png",
+      "bytes": 36082,
+      "sha256": "132e0ab6235856eed16520f7ffbfbd2f28601bbefded8bcf04be443f0e4f8dd5"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_cuadrado_1080x1080.svg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_cuadrado_1080x1080.svg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_cuadrado_1080x1080.svg",
+      "pilotRelativePath": "assets/feed_cuadrado_1080x1080.svg",
+      "bytes": 1507,
+      "sha256": "1755cdabd6a2a9fcf2f53c249cfd26db4062f8c5f7ed3fd69e9376f05f3c4303"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_vertical_1080x1350.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_vertical_1080x1350.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_vertical_1080x1350.jpg",
+      "pilotRelativePath": "assets/feed_vertical_1080x1350.jpg",
+      "bytes": 84786,
+      "sha256": "dbf3c6320dffe55d6bc59227c8d05475703dab72305c478298555f4f8f6afc55"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_vertical_1080x1350.png",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_vertical_1080x1350.png",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_vertical_1080x1350.png",
+      "pilotRelativePath": "assets/feed_vertical_1080x1350.png",
+      "bytes": 41080,
+      "sha256": "3e5258bb87572cd6dc4796acf23a732937a81b5c8eb88789e037f0c34328a922"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/feed_vertical_1080x1350.svg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_vertical_1080x1350.svg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/feed_vertical_1080x1350.svg",
+      "pilotRelativePath": "assets/feed_vertical_1080x1350.svg",
+      "bytes": 1508,
+      "sha256": "d2fcd12f0356b66281044d6e21e6c87ca1e8a64ebdf14e165953d4d90caf7521"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/historia_1080x1920.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/historia_1080x1920.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/historia_1080x1920.jpg",
+      "pilotRelativePath": "assets/historia_1080x1920.jpg",
+      "bytes": 135837,
+      "sha256": "44a2179b5885fb936f918a0f21f95171ee017d59df3a260494c32552ebda5f11"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/historia_1080x1920.png",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/historia_1080x1920.png",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/historia_1080x1920.png",
+      "pilotRelativePath": "assets/historia_1080x1920.png",
+      "bytes": 70107,
+      "sha256": "3faddb23cf8629a2e9f61905dc88f6e25dc538df6649137df62a236b4e154109"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/historia_1080x1920.svg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/historia_1080x1920.svg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/historia_1080x1920.svg",
+      "pilotRelativePath": "assets/historia_1080x1920.svg",
+      "bytes": 2396,
+      "sha256": "17f22c33d39ed32f7fe251213d240f523a2bca3f053bc6a2ee18781b610b1cce"
+    },
+    {
+      "kind": "asset",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/assets/manifest_tarjetas_prueba.json",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/manifest_tarjetas_prueba.json",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/manifest_tarjetas_prueba.json",
+      "pilotRelativePath": "assets/manifest_tarjetas_prueba.json",
+      "bytes": 21153,
+      "sha256": "dd71813b78c55fea3abbd26a99d41e72cd8d1905494c79fb577b0329b523d552"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P03-carrusel-borrador.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P03-carrusel-borrador.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P03-carrusel-borrador.jpg",
+      "pilotRelativePath": "evidencias/P03-carrusel-borrador.jpg",
+      "bytes": 105857,
+      "sha256": "f0c80b7a64e612ee13acc438eb1be60bae7cc9a111f9e2244fddb453b1efd9c1"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P03-programado.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P03-programado.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P03-programado.jpg",
+      "pilotRelativePath": "evidencias/P03-programado.jpg",
+      "bytes": 109502,
+      "sha256": "18b0a1bdf33b7ed1844551566d5922a1066940665af5088dfc7e74192ce7c9de"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P04-borrador.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P04-borrador.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P04-borrador.jpg",
+      "pilotRelativePath": "evidencias/P04-borrador.jpg",
+      "bytes": 115009,
+      "sha256": "d9f5effa90a62f7805a8d3b4dcf210b24b4aeefd43d6c46ae9d63cb555583989"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P04-programado.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P04-programado.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P04-programado.jpg",
+      "pilotRelativePath": "evidencias/P04-programado.jpg",
+      "bytes": 108105,
+      "sha256": "d04eed9241654ba84e53367e54b7aa7bbfb6bfce578ae8b57706e793ae54d132"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P05-borrador.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P05-borrador.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P05-borrador.jpg",
+      "pilotRelativePath": "evidencias/P05-borrador.jpg",
+      "bytes": 95661,
+      "sha256": "f17c406b84fce61e5dca312174f283f1352f849edbf34bd6e1affd39503c284d"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P05-programado.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P05-programado.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P05-programado.jpg",
+      "pilotRelativePath": "evidencias/P05-programado.jpg",
+      "bytes": 100303,
+      "sha256": "d61384b78bbafc3ff64538bfc26ddba248fd0ac4f302f7b50cccefb74fbe57fd"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P06-borrador.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P06-borrador.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P06-borrador.jpg",
+      "pilotRelativePath": "evidencias/P06-borrador.jpg",
+      "bytes": 121163,
+      "sha256": "d2db9ffc860daa50f0a74509650a7ce13f2ffe1b388defb618473a23ea8c9876"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P06-reel-programado.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P06-reel-programado.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P06-reel-programado.jpg",
+      "pilotRelativePath": "evidencias/P06-reel-programado.jpg",
+      "bytes": 111037,
+      "sha256": "8af776cfff883e6b1e9694e700ae5ab2785d098ab708995d5ac1bafb6248f3c7"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P07-borrador.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P07-borrador.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P07-borrador.jpg",
+      "pilotRelativePath": "evidencias/P07-borrador.jpg",
+      "bytes": 104964,
+      "sha256": "16526066e584c5d145a1380648ccd62cb1d8cd06329ea3b4afec2cd4a63f5652"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P08-borrador.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P08-borrador.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P08-borrador.jpg",
+      "pilotRelativePath": "evidencias/P08-borrador.jpg",
+      "bytes": 88523,
+      "sha256": "9ebe94159d9aee086c7a65d5475843030f04b4c122e485bdf151fed6c78d44e3"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P09-borrador.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P09-borrador.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P09-borrador.jpg",
+      "pilotRelativePath": "evidencias/P09-borrador.jpg",
+      "bytes": 92133,
+      "sha256": "26d3b9f027dfae6aae88e51874ec9dc6bc1096e8630201627be49223ab7f861c"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P09-programado.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P09-programado.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P09-programado.jpg",
+      "pilotRelativePath": "evidencias/P09-programado.jpg",
+      "bytes": 95721,
+      "sha256": "6f3484ea76ff894e5aaf16340f2010bae015ab7bc2f61d67855c82309becdaf7"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P10-borrador.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P10-borrador.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P10-borrador.jpg",
+      "pilotRelativePath": "evidencias/P10-borrador.jpg",
+      "bytes": 98650,
+      "sha256": "c9e7b45d6bee8b284d0198482e7814ff43c67f065648f0e5274c52d772bd1dbf"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P11-borrador.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P11-borrador.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P11-borrador.jpg",
+      "pilotRelativePath": "evidencias/P11-borrador.jpg",
+      "bytes": 102033,
+      "sha256": "5f748f13f706a02b7cb16c6842f0bba852493fa45dcfe0a7093b7fe2920d8cab"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/P11-programado.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P11-programado.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P11-programado.jpg",
+      "pilotRelativePath": "evidencias/P11-programado.jpg",
+      "bytes": 100816,
+      "sha256": "7c62bd3d867c4733f71a36d679844cb353b003ac3401559d4c5a42681dab2a4e"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/listado-final-dom.txt",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/listado-final-dom.txt",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/listado-final-dom.txt",
+      "pilotRelativePath": "evidencias/listado-final-dom.txt",
+      "bytes": 15906,
+      "sha256": "fb976704b877f0aef710b99db33cf38e015855f97ed2f03c3eca247f7f269b91"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/listado-programado-02-oct.jpg",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/listado-programado-02-oct.jpg",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/listado-programado-02-oct.jpg",
+      "pilotRelativePath": "evidencias/listado-programado-02-oct.jpg",
+      "bytes": 258650,
+      "sha256": "a3a4a87831730eeb799676cd65caadaa5a16d8fd15316d14e8cc348f0075323b"
+    },
+    {
+      "kind": "evidence",
+      "source": "/Users/iomijhondavid/.codex/visualizations/2026/10/01/01a0f584-b2be-7902-ace4-4ad3575c75b3/outputs/prueba-todos-formatos-2026-10-01/evidencias/verificacion-ui.json",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/verificacion-ui.json",
+      "projectRelativePath": "Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/verificacion-ui.json",
+      "pilotRelativePath": "evidencias/verificacion-ui.json",
+      "bytes": 38057,
+      "sha256": "c8c90b1291dbeed5ed92a67c7413b3f13b8b8708d3e7a848d4d92ecede3fbe78"
+    }
+  ],
+  "copiedAssetsCount": 20,
+  "copiedEvidenceCount": 18,
+  "videoOriginal": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-18/VIDEO-18-PARA-APROBACION-v1.mp4",
+    "sha256Receipt": "7978d638f464ebccd8d68b1cd54e2c939cbc3a9e0acb5a800fd0307f6f2cb960",
+    "sha256Before": "7978d638f464ebccd8d68b1cd54e2c939cbc3a9e0acb5a800fd0307f6f2cb960",
+    "sha256After": "7978d638f464ebccd8d68b1cd54e2c939cbc3a9e0acb5a800fd0307f6f2cb960",
+    "unchanged": true
+  },
+  "caseChecks": [
+    {
+      "case": "P01",
+      "destinations": 2,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    },
+    {
+      "case": "P02",
+      "destinations": 2,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    },
+    {
+      "case": "P03",
+      "destinations": 2,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    },
+    {
+      "case": "P04",
+      "destinations": 2,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    },
+    {
+      "case": "P05",
+      "destinations": 2,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    },
+    {
+      "case": "P06",
+      "destinations": 2,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    },
+    {
+      "case": "P07",
+      "destinations": 1,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    },
+    {
+      "case": "P08",
+      "destinations": 1,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    },
+    {
+      "case": "P09",
+      "destinations": 1,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    },
+    {
+      "case": "P10",
+      "destinations": 1,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    },
+    {
+      "case": "P11",
+      "destinations": 1,
+      "draft": false,
+      "autoPublish": true,
+      "allPending": true,
+      "timezoneDiscrepancyHours": 7,
+      "localSourcesExist": true,
+      "plannerUrlMatchesReceipt": true
+    }
+  ],
+  "localReportLinksValidated": [
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_PROGRAMACION_v1.json",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_VERIFICACION_HORA_v2.json",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/listado-final-dom.txt",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/listado-programado-02-oct.jpg",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/CASOS_PROGRAMADOS_v2.csv",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/CASOS_PROGRAMADOS_v1.csv",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/contacto_tarjetas_prueba.png",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/assets/manifest_tarjetas_prueba.json",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/INVENTARIO_CIERRE_v2.json",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-18/VIDEO-18-PARA-APROBACION-v1.mp4",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/verificacion-ui.json",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P06-reel-programado.jpg",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P04-programado.jpg",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P05-programado.jpg",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P03-programado.jpg",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P09-programado.jpg",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P11-programado.jpg",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/evidencias/P04-programado.jpg",
+    "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_SEGUIMIENTO_v1.json"
+  ],
+  "logsUpdated": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/BITACORA_CURSO_EDICION.md",
+      "lock": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/.BITACORA_CURSO_EDICION.md.lock",
+      "entry_added": true,
+      "marker": "### 2026-10-01 — Piloto real de publicación MCP: 11 casos y 17 destinos programados",
+      "sha256_after": "48590744bdeb780bb949466b640d97edbffa6c3fc8af6a04643dbf8150946529"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/CHANGELOG.md",
+      "lock": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/.CHANGELOG.md.lock",
+      "entry_added": true,
+      "marker": "## 2026-10-01 — Piloto real Metricool MCP: 11 casos / 17 destinos",
+      "sha256_after": "f8d2064607af4445ed7db9cb375020150976b87d6de381936b4e0c3faeaaeab6"
+    }
+  ],
+  "qa": {
+    "jsonValid": true,
+    "csvRows": 11,
+    "csvDestinationSum": 17,
+    "sourceCopyHashesMatch": true,
+    "pngJpegModeDimensionsMatch": true,
+    "svgXmlValid": true,
+    "priorGraphicDraftsNotCopied": true,
+    "allReportLocalLinksExist": true,
+    "noNewHumanAudioListening": true,
+    "noProjectSourceVideoOrApprovedStaticWrites": true
+  },
+  "validationNote": "Se repitió la comprobación de enlaces tras crear el inventario y se contó el snapshot actual de evidencias (18). Todas las verificaciones finales pasan.",
+  "previousInventory": "INVENTARIO_CIERRE_v1.json",
+  "hourVerificationReceipt": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-publicacion-mcp-2026-10-01/RECIBO_VERIFICACION_HORA_v2.json",
+  "hourVerificationReceiptSha256": "5881fe729e46dcac17f5fc5703e87a3096b8174849c981d99135f15e87025b9e",
+  "csv": "CASOS_PROGRAMADOS_v2.csv",
+  "timeConcordance": {
+    "mcp": "09:00–10:40",
+    "calendar": "09:00–10:40",
+    "listado": "09:00–10:40",
+    "date": "2026-10-02",
+    "timezone": "America/Guayaquil",
+    "agrees": true
+  },
+  "timezoneDiscrepancyScope": "individual editor only",
+  "followupPromptUpdatedForV2": true,
+  "followupNewMonitorCreated": false,
+  "logsUpdatedV2": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/BITACORA_CURSO_EDICION.md",
+      "lock": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/.BITACORA_CURSO_EDICION.md.lock",
+      "entry_added": true,
+      "marker": "### 2026-10-01 — Piloto MCP: Calendario/Listado confirman horas y aíslan anomalía del editor",
+      "sha256_after": "9a85fef4a8862d66598fd6a0e47e2065d702a2c970e8850f317ca956286c2e43"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/CHANGELOG.md",
+      "lock": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/.CHANGELOG.md.lock",
+      "entry_added": true,
+      "marker": "## 2026-10-01 — Piloto MCP: horas confirmadas en Calendario/Listado, recibo v2",
+      "sha256_after": "139d957b7de827149f45a8fc3036fbc0f0544f2e1cdc75bcf15a9218f4907b0e"
+    }
+  ]
+}

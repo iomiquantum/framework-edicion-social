@@ -1,0 +1,66 @@
+{
+  "repo": "giangndm/qwen2.5-omni-7b-mlx-4bit",
+  "revision": "cc80234b9ea0dc4461ad15a4c45e76d85b703b03",
+  "cache": "/Users/iomijhondavid/.cache/codex-audio-perceptual/2026-10-01/models/qwen2.5-omni-7b-4bit",
+  "license_base": "Apache-2.0 (Qwen/Qwen2.5-Omni-7B/LICENSE)",
+  "remote_model_code": false,
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 1378,
+      "sha256": "5a4245c60a338c3d1a1c7606e6f5d8a78fa1f6b33b98555b4a31e4b194f4e749",
+      "upstream_sha256": null
+    },
+    {
+      "name": "added_tokens.json",
+      "bytes": 579,
+      "sha256": "e81a2cc3bd867a1217019eed202d1d8a07e1063ece716f22060dda14f6cc07d8",
+      "upstream_sha256": null
+    },
+    {
+      "name": "config.json",
+      "bytes": 16181,
+      "sha256": "fe6f2c6c36c9cc832104df9cfe2f4a1e5d3d7b92c8e118f8c089364d148f837e",
+      "upstream_sha256": null
+    },
+    {
+      "name": "merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "upstream_sha256": null
+    },
+    {
+      "name": "model.safetensors",
+      "bytes": 4652749012,
+      "sha256": "dd73a1681de32cf91ced82166583617635f12d1e55da068dbaf3962764ffac35",
+      "upstream_sha256": "dd73a1681de32cf91ced82166583617635f12d1e55da068dbaf3962764ffac35"
+    },
+    {
+      "name": "special_tokens_map.json",
+      "bytes": 833,
+      "sha256": "db7fd39f5dc9ee37998c3ed04e3a3386989182a550064d2a2a9af16822cf22f4",
+      "upstream_sha256": null
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 11421870,
+      "sha256": "8441917e39ae0244e06d704b95b3124795cec478e297f9afac39ba670d7e9d99",
+      "upstream_sha256": "8441917e39ae0244e06d704b95b3124795cec478e297f9afac39ba670d7e9d99"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 6470,
+      "sha256": "138a1def693a650d810b128b05f83e2109289c5cb354193b7646b41febf9f356",
+      "upstream_sha256": null
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "upstream_sha256": null
+    }
+  ],
+  "completed_utc": "2026-10-01T05:50:26.585650+00:00",
+  "elapsed_seconds": 204.4050207089167,
+  "free_gib_after": 9.744697570800781
+}

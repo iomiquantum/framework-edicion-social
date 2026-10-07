@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;color:#F8F3E8;font-family:Inter,Arial,sans-serif;pointer-events:none}.cue{position:absolute;left:54px;right:54px;bottom:480px;min-height:132px;padding:24px 32px 26px;background:rgba(14,27,43,.96);border:4px solid #2F66FF;border-radius:28px;font-size:64px;font-weight:900;line-height:1.01;text-align:center;letter-spacing:-1.4px;opacity:0;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;column-gap:.22em;row-gap:0}.cue::after{content:"";position:absolute;left:74px;bottom:-24px;width:0;height:0;border-style:solid;border-width:24px 28px 0 0;border-color:#2F66FF transparent transparent transparent}.cue.long{font-size:60px}.cue>span,.cue>b{display:inline-block}.cue b{color:#FF7A45;font-weight:900;text-decoration:none}.cue .blue{color:#72A0FF}
+</style>
+<div data-hf-id="hf-tvh8" id="root" data-composition-id="captions-es" data-duration="23.26" data-width="1080" data-height="1920" data-layout-allow-caption-zone>
+  <div data-hf-id="hf-14p4" id="v14-cap-1" class="cue"><span>Tu mejor prompt puede ser</span><b>una conversación.</b></div>
+  <div data-hf-id="hf-b8it" id="v14-cap-2" class="cue"><span>Tu mejor prompt de</span><b>marketing</b></div>
+  <div data-hf-id="hf-2mph" id="v14-cap-3" class="cue long"><span>puede no estar dentro de</span><b>ChatGPT.</b></div>
+  <div data-hf-id="hf-fcpn" id="v14-cap-4" class="cue long"><span>Puede estar en una</span><b>conversación real</b></div>
+  <div data-hf-id="hf-qeq5" id="v14-cap-5" class="cue long"><span>donde un cliente te dice exactamente</span></div>
+  <div data-hf-id="hf-58xm" id="v14-cap-6" class="cue long"><span>qué le preocupa, qué quiere y</span><b>qué no entiende.</b></div>
+  <div data-hf-id="hf-8gsb" id="v14-cap-7" class="cue"><span>El buen marketing muchas veces</span></div>
+  <div data-hf-id="hf-orax" id="v14-cap-8" class="cue"><span>empieza</span><b class="blue">escuchando mejor.</b></div>
+  <div data-hf-id="hf-8uzp" id="v14-cap-9" class="cue long"><span>¿Cuándo fue la última vez que hablaste con un cliente</span></div>
+  <div data-hf-id="hf-orxn" id="v14-cap-10" class="cue long"><span>intentando</span><b>no venderle?</b></div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  const cues=[["#v14-cap-1",.20,2.50],["#v14-cap-2",3.09,4.65],["#v14-cap-3",4.65,6.15],["#v14-cap-4",6.72,9.10],["#v14-cap-5",9.10,11.00],["#v14-cap-6",11.00,13.30],["#v14-cap-7",13.92,15.80],["#v14-cap-8",15.80,17.82],["#v14-cap-9",18.50,20.85],["#v14-cap-10",20.85,22.95]];
+  cues.forEach(([id,a,b])=>{tl.fromTo(id,{opacity:0,y:20,scale:.98},{opacity:1,y:0,scale:1,duration:.10,ease:"power1.out"},a).to(id,{opacity:0,y:-8,duration:.10,ease:"power1.in"},Math.max(a,b-.10))});
+  window.__timelines["captions-es"]=tl;
+</script>
+</template></body></html>

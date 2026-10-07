@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/rule.schema.json",
+  "title": "Editorial rule",
+  "type": "object",
+  "required": ["id", "version", "kind", "status", "instruction", "scope", "confidence", "review_due_at"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "kind": {"enum": ["principle", "platform_requirement", "editorial_hypothesis", "trend", "validated_local_rule"]},
+    "status": {"enum": ["candidate", "testing", "adopted", "rejected", "needs_review", "deprecated", "expired"]},
+    "instruction": {"type": "string", "minLength": 1},
+    "scope": {"type": "object"},
+    "confidence": {"enum": ["low", "provisional", "medium", "high"]},
+    "review_due_at": {"type": "string", "format": "date"},
+    "expires_at": {"type": ["string", "null"], "format": "date"},
+    "evidence": {"type": "array"},
+    "experiment_ids": {"type": "array", "items": {"type": "string"}},
+    "approval": {"type": ["object", "null"]}
+  },
+  "additionalProperties": true
+}

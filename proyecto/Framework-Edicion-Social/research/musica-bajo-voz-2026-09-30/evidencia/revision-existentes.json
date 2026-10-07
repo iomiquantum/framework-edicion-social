@@ -1,0 +1,3422 @@
+[
+  {
+    "id": "VIDEO-01",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "01-10",
+    "timeline_duration_s": 21.375,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video01-silence-cut-speed104-v4.mp4",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 21.375
+      },
+      {
+        "id": "music",
+        "src": "assets/audio/music-bed-214s.wav",
+        "volume": 0.11,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 21.375
+      },
+      {
+        "id": "sfx-hook",
+        "src": ".media/audio/sfx/sfx_002.wav",
+        "volume": 0.38,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.1,
+        "absEnd": 0.44
+      },
+      {
+        "id": "sfx-cycle",
+        "src": ".media/audio/sfx/sfx_003.wav",
+        "volume": 0.34,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 6.142,
+        "absEnd": 6.622
+      },
+      {
+        "id": "sfx-tick-a",
+        "src": ".media/audio/sfx/sfx_001.wav",
+        "volume": 0.28,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 7.74,
+        "absEnd": 7.83
+      },
+      {
+        "id": "sfx-tick-b",
+        "src": ".media/audio/sfx/sfx_001.wav",
+        "volume": 0.24,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 9.712,
+        "absEnd": 9.802
+      },
+      {
+        "id": "sfx-resolve",
+        "src": ".media/audio/sfx/sfx_004.wav",
+        "volume": 0.36,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 17.635,
+        "absEnd": 18.475
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-01/VIDEO-01_REVISION_v2.mp4",
+    "render_sha256": "3caa435b4848a93295a366c06f203031a86bebb94c8f25f246c23b8399d269c4",
+    "duration_s": 21.4,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.39",
+      "input_tp": "-1.48",
+      "input_lra": "2.20",
+      "input_thresh": "-26.75",
+      "output_i": "-16.19",
+      "output_tp": "-1.50",
+      "output_lra": "2.00",
+      "output_thresh": "-26.61",
+      "normalization_type": "dynamic",
+      "target_offset": "0.19"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-01-0.25.jpg",
+      "evidencia/VIDEO-01-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xc6ec4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-01-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xc85060380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-01-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-02",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "01-10",
+    "timeline_duration_s": 18.303,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video02-master-hdr.mp4",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 18.303
+      },
+      {
+        "id": "music",
+        "src": "assets/audio/music-bed-18s.wav",
+        "volume": 0.095,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 18.303
+      },
+      {
+        "id": "sfx-pop",
+        "src": ".media/audio/sfx/04_soft_pop.wav",
+        "volume": 0.34,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.16,
+        "absEnd": 0.32
+      },
+      {
+        "id": "sfx-slide",
+        "src": ".media/audio/sfx/motion_warm_slide_soft_v01.wav",
+        "volume": 0.36,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 8.85,
+        "absEnd": 9.29
+      },
+      {
+        "id": "sfx-accent",
+        "src": ".media/audio/sfx/05_low_accent.wav",
+        "volume": 0.32,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 11.16,
+        "absEnd": 11.5
+      },
+      {
+        "id": "sfx-resolve",
+        "src": ".media/audio/sfx/08_resolve.wav",
+        "volume": 0.32,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 14.3,
+        "absEnd": 15.14
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-02/VIDEO-02_REVISION_v3.mp4",
+    "render_sha256": "469aaa4221d5f65e2f5f1faf516b0033342b9fbc380214241084a9a88fc67ae4",
+    "duration_s": 18.333008,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.90",
+      "input_tp": "-1.40",
+      "input_lra": "1.20",
+      "input_thresh": "-27.36",
+      "output_i": "-16.41",
+      "output_tp": "-1.50",
+      "output_lra": "1.30",
+      "output_thresh": "-26.90",
+      "normalization_type": "dynamic",
+      "target_offset": "0.41"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-02-0.25.jpg",
+      "evidencia/VIDEO-02-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0x7f6c4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-02-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0x8bec0c580] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-02-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-03",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "01-10",
+    "timeline_duration_s": 20.267,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video03-voice-normalized.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 20.267
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.34,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.08,
+        "absEnd": 0.42
+      },
+      {
+        "id": "sfx-hook-keyword",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.22,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.43,
+        "absEnd": 0.59
+      },
+      {
+        "id": "sfx-clientes",
+        "src": "assets/03_ui_tick.wav",
+        "volume": 0.25,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 11.38,
+        "absEnd": 11.47
+      },
+      {
+        "id": "sfx-datos",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.25,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 12.55,
+        "absEnd": 12.71
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.28,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 17.08,
+        "absEnd": 17.92
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-03/VIDEO-03_REVISION_v3.mp4",
+    "render_sha256": "47edaa87e3d75ffd4c944381a0b92995c1ea352e45a5b03083f2bdcd30722d8a",
+    "duration_s": 20.3,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.91",
+      "input_tp": "-2.01",
+      "input_lra": "2.40",
+      "input_thresh": "-27.28",
+      "output_i": "-16.23",
+      "output_tp": "-1.50",
+      "output_lra": "2.10",
+      "output_thresh": "-26.61",
+      "normalization_type": "dynamic",
+      "target_offset": "0.23"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-03-0.25.jpg",
+      "evidencia/VIDEO-03-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0x7ed060380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-03-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xb5f060380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-03-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-04",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "01-10",
+    "timeline_duration_s": 18.833,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video04-voice-normalized.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 18.833
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.34,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.06,
+        "absEnd": 0.4
+      },
+      {
+        "id": "sfx-hook-keyword",
+        "src": "assets/motion_warm_slide_soft_v01.wav",
+        "volume": 0.18,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.43,
+        "absEnd": 0.87
+      },
+      {
+        "id": "sfx-sequence",
+        "src": "assets/06_sequence.wav",
+        "volume": 0.25,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 6.28,
+        "absEnd": 6.78
+      },
+      {
+        "id": "sfx-slide",
+        "src": "assets/motion_warm_slide_soft_v01.wav",
+        "volume": 0.25,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 11.6,
+        "absEnd": 12.04
+      },
+      {
+        "id": "sfx-resolve",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.27,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 15.31,
+        "absEnd": 16.15
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-04/VIDEO-04_REVISION_v2.mp4",
+    "render_sha256": "9b13dedd96ddc5452e7180b89c3db28734caf72cab23bb18bb5a32023658db8c",
+    "duration_s": 18.833333,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.70",
+      "input_tp": "-1.85",
+      "input_lra": "3.10",
+      "input_thresh": "-27.21",
+      "output_i": "-15.85",
+      "output_tp": "-1.50",
+      "output_lra": "2.40",
+      "output_thresh": "-26.32",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.15"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-04-0.25.jpg",
+      "evidencia/VIDEO-04-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xb3ec4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-04-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xb7ec4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-04-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-05",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "01-10",
+    "timeline_duration_s": 19.533,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video05-voice-normalized.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 19.533
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.34,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.06,
+        "absEnd": 0.4
+      },
+      {
+        "id": "sfx-hook-keyword",
+        "src": "assets/entry_velvet_bloom_soft_v01.wav",
+        "volume": 0.18,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.42,
+        "absEnd": 0.98
+      },
+      {
+        "id": "sfx-entry",
+        "src": "assets/entry_velvet_bloom_soft_v01.wav",
+        "volume": 0.25,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 5.7,
+        "absEnd": 6.26
+      },
+      {
+        "id": "sfx-sequence",
+        "src": "assets/06_sequence.wav",
+        "volume": 0.24,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 6.08,
+        "absEnd": 6.58
+      },
+      {
+        "id": "sfx-resolve",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.27,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 15.99,
+        "absEnd": 16.83
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-05/VIDEO-05_REVISION_v2.mp4",
+    "render_sha256": "3ce6c676b6f9c0bc27003b4cf03804f8c715bc361e4f7c97a31552c5cf21d61e",
+    "duration_s": 19.533333,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-17.05",
+      "input_tp": "-1.91",
+      "input_lra": "3.50",
+      "input_thresh": "-27.53",
+      "output_i": "-16.17",
+      "output_tp": "-1.50",
+      "output_lra": "3.00",
+      "output_thresh": "-26.73",
+      "normalization_type": "dynamic",
+      "target_offset": "0.17"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-05-0.25.jpg",
+      "evidencia/VIDEO-05-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xb98c4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-05-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xa90c4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-05-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-06",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "01-10",
+    "timeline_duration_s": 19.6,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video06-voice-normalized.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 19.6
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.75,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.04,
+        "absEnd": 0.38
+      },
+      {
+        "id": "sfx-concept",
+        "src": "assets/06_sequence.wav",
+        "volume": 0.7,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 4.4,
+        "absEnd": 4.9
+      },
+      {
+        "id": "sfx-support",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.62,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 9.6,
+        "absEnd": 9.94
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.82,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 14.8,
+        "absEnd": 15.64
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-06/VIDEO-06_REVISION_v3.mp4",
+    "render_sha256": "9ab9dbcddee82b6835d3fcfa4d6c6ea1c8bdc2dd8e862ef45ef4fa38e98c4f4d",
+    "duration_s": 19.6,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.92",
+      "input_tp": "-1.55",
+      "input_lra": "2.80",
+      "input_thresh": "-27.27",
+      "output_i": "-16.11",
+      "output_tp": "-1.50",
+      "output_lra": "2.70",
+      "output_thresh": "-26.45",
+      "normalization_type": "dynamic",
+      "target_offset": "0.11"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-06-0.25.jpg",
+      "evidencia/VIDEO-06-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xb3f060380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-06-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xabcc0c580] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-06-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-07",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "01-10",
+    "timeline_duration_s": 18.7,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video07-voice-normalized.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 18.7
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.62,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.04,
+        "absEnd": 0.22
+      },
+      {
+        "id": "sfx-concept",
+        "src": "assets/03_ui_tick.wav",
+        "volume": 0.68,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 4.4,
+        "absEnd": 4.485
+      },
+      {
+        "id": "sfx-support",
+        "src": "assets/06_sequence.wav",
+        "volume": 0.72,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 9.6,
+        "absEnd": 10.1
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.82,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 14.8,
+        "absEnd": 15.64
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-07/VIDEO-07_REVISION_v3.mp4",
+    "render_sha256": "d36ff711d86c695f53ca1eb184d9633d972232801cb230eae6553239ac84b3ff",
+    "duration_s": 18.7,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.92",
+      "input_tp": "-1.43",
+      "input_lra": "3.70",
+      "input_thresh": "-27.38",
+      "output_i": "-16.07",
+      "output_tp": "-1.50",
+      "output_lra": "2.20",
+      "output_thresh": "-26.49",
+      "normalization_type": "dynamic",
+      "target_offset": "0.07"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-07-0.25.jpg",
+      "evidencia/VIDEO-07-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xc12c5c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-07-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xb8ac0c500] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-07-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-08",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "01-10",
+    "timeline_duration_s": 18.9,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video08-voice-normalized.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 18.9
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.75,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.04,
+        "absEnd": 0.38
+      },
+      {
+        "id": "sfx-concept",
+        "src": "assets/03_ui_tick.wav",
+        "volume": 0.68,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 4.4,
+        "absEnd": 4.485
+      },
+      {
+        "id": "sfx-support",
+        "src": "assets/06_sequence.wav",
+        "volume": 0.72,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 9.6,
+        "absEnd": 10.1
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.82,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 14.8,
+        "absEnd": 15.64
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-08/VIDEO-08_REVISION_v3.mp4",
+    "render_sha256": "fb52786819ab22952343ea2f6cd01ee690ce3f56861e406f2317ac5a1ffc8275",
+    "duration_s": 18.9,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.87",
+      "input_tp": "-1.58",
+      "input_lra": "3.60",
+      "input_thresh": "-27.28",
+      "output_i": "-16.31",
+      "output_tp": "-1.50",
+      "output_lra": "1.60",
+      "output_thresh": "-26.71",
+      "normalization_type": "dynamic",
+      "target_offset": "0.31"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-08-0.25.jpg",
+      "evidencia/VIDEO-08-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xbe7060380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-08-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xaf6c4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-08-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-09",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "01-10",
+    "timeline_duration_s": 20.1,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video09-voice-normalized.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 20.1
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.75,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.04,
+        "absEnd": 0.38
+      },
+      {
+        "id": "sfx-concept",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.72,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 4.4,
+        "absEnd": 5.24
+      },
+      {
+        "id": "sfx-support",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.62,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 9.6,
+        "absEnd": 9.94
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.82,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 14.8,
+        "absEnd": 15.64
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-09/VIDEO-09_REVISION_v7.mp4",
+    "render_sha256": "8f1896e7a159b6ebe04fbeecf7893f97203d6a175762b4d2d98a362495f70393",
+    "duration_s": 20.2,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-17.04",
+      "input_tp": "-1.56",
+      "input_lra": "2.20",
+      "input_thresh": "-27.39",
+      "output_i": "-16.24",
+      "output_tp": "-1.50",
+      "output_lra": "1.70",
+      "output_thresh": "-26.57",
+      "normalization_type": "dynamic",
+      "target_offset": "0.24"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-09-0.25.jpg",
+      "evidencia/VIDEO-09-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0x76cc5c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-09-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xb74c4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-09-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-10",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "01-10",
+    "timeline_duration_s": 21.3,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video10-voice-normalized.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 21.3
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.75,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.04,
+        "absEnd": 0.38
+      },
+      {
+        "id": "sfx-concept",
+        "src": "assets/03_ui_tick.wav",
+        "volume": 0.68,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 4.4,
+        "absEnd": 4.485
+      },
+      {
+        "id": "sfx-support",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.62,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 9.6,
+        "absEnd": 9.94
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.82,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 14.8,
+        "absEnd": 15.64
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-10/VIDEO-10_REVISION_v3.mp4",
+    "render_sha256": "1d2f678b4b7483582f23bae7f4a734bde7127d31a79d24813557fb0a9e3d8deb",
+    "duration_s": 21.3,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.63",
+      "input_tp": "-1.64",
+      "input_lra": "3.60",
+      "input_thresh": "-27.13",
+      "output_i": "-15.99",
+      "output_tp": "-1.50",
+      "output_lra": "3.40",
+      "output_thresh": "-26.41",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.01"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-10-0.25.jpg",
+      "evidencia/VIDEO-10-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0x7c3060380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-10-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xba2c3c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-10-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-11",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "11-22",
+    "timeline_duration_s": 29.1,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video11-voice-normalized.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 29.1
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.34,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.08,
+        "absEnd": 0.24
+      },
+      {
+        "id": "sfx-acceleration",
+        "src": "assets/03_ui_tick.wav",
+        "volume": 0.3,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 8.27,
+        "absEnd": 8.37
+      },
+      {
+        "id": "sfx-contrast",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.3,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 13.56,
+        "absEnd": 13.72
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/03_ui_tick.wav",
+        "volume": 0.28,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 20.1,
+        "absEnd": 20.2
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/renders/VIDEO-11-FINAL.mp4",
+    "render_sha256": "1d3c1a09480a21fcb15334173fb30f955c34d0cb289ee517573586d738201a3e",
+    "duration_s": 29.1,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.59",
+      "input_tp": "-1.45",
+      "input_lra": "4.80",
+      "input_thresh": "-27.27",
+      "output_i": "-16.46",
+      "output_tp": "-1.50",
+      "output_lra": "3.30",
+      "output_thresh": "-27.15",
+      "normalization_type": "dynamic",
+      "target_offset": "0.46"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-11-0.25.jpg",
+      "evidencia/VIDEO-11-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0x832c4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-11-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xaa2c58380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-11-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-12",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "11-22",
+    "timeline_duration_s": 19.7,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video12-voice-normalized-v1.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 19.7
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.34,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.08,
+        "absEnd": 0.24
+      },
+      {
+        "id": "sfx-contrast",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.24,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 11.46,
+        "absEnd": 11.8
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.3,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 15.02,
+        "absEnd": 15.18
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/renders/VIDEO-12-FINAL.mp4",
+    "render_sha256": "c0f584d19986cf931ae038a4690d086e993e8efd40eacf5470424edb42b193e8",
+    "duration_s": 19.7,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.34",
+      "input_tp": "-1.44",
+      "input_lra": "3.60",
+      "input_thresh": "-26.57",
+      "output_i": "-16.04",
+      "output_tp": "-1.50",
+      "output_lra": "2.40",
+      "output_thresh": "-26.21",
+      "normalization_type": "dynamic",
+      "target_offset": "0.04"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-12-0.25.jpg",
+      "evidencia/VIDEO-12-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xaf8c4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-12-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xc15060380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-12-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-13",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "11-22",
+    "timeline_duration_s": 19.47,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video13-voice-normalized-v1.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 19.47
+      },
+      {
+        "id": "sfx-entry",
+        "src": "assets/entry_warm_breath_lift_soft_v01.wav",
+        "volume": 0.32,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.04,
+        "absEnd": 0.76
+      },
+      {
+        "id": "sfx-listen",
+        "src": "assets/03_ui_tick.wav",
+        "volume": 0.3,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 7.18,
+        "absEnd": 7.265
+      },
+      {
+        "id": "sfx-value",
+        "src": "assets/03_ui_tick.wav",
+        "volume": 0.26,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 13.56,
+        "absEnd": 13.645
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/03_ui_tick.wav",
+        "volume": 0.28,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 16.52,
+        "absEnd": 16.605
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/renders/VIDEO-13-FINAL.mp4",
+    "render_sha256": "6ee143441088f43eb6aa0c318b6bf0505e9c8d8f91f7eaa893bda2f30491893e",
+    "duration_s": 19.5,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.82",
+      "input_tp": "-1.57",
+      "input_lra": "4.00",
+      "input_thresh": "-27.25",
+      "output_i": "-16.54",
+      "output_tp": "-1.50",
+      "output_lra": "2.50",
+      "output_thresh": "-26.98",
+      "normalization_type": "dynamic",
+      "target_offset": "0.54"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-13-0.25.jpg",
+      "evidencia/VIDEO-13-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xbe6c0c580] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-13-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xaf2c4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-13-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-14",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "11-22",
+    "timeline_duration_s": 23.26,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video14-master-hdr-v1.mp4",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 23.26
+      },
+      {
+        "id": "sfx-conversation",
+        "src": "assets/motion_warm_slide_soft_v01.wav",
+        "volume": 0.22,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 6.41,
+        "absEnd": 6.85
+      },
+      {
+        "id": "sfx-listen",
+        "src": "assets/motion_warm_slide_soft_v01.wav",
+        "volume": 0.16,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 13.61,
+        "absEnd": 14.05
+      },
+      {
+        "id": "sfx-resolve",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 18.16,
+        "absEnd": 19
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/renders/VIDEO-14-FINAL.mp4",
+    "render_sha256": "76c87c7416646ec53f4f16dccdebd421069e046dc5fe6ab53c63a0ac4fca2840",
+    "duration_s": 23.3,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.47",
+      "input_tp": "-1.50",
+      "input_lra": "4.10",
+      "input_thresh": "-26.92",
+      "output_i": "-16.47",
+      "output_tp": "-1.50",
+      "output_lra": "2.60",
+      "output_thresh": "-26.92",
+      "normalization_type": "dynamic",
+      "target_offset": "0.47"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-14-0.25.jpg",
+      "evidencia/VIDEO-14-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xa7ec4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-14-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0x754c58380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-14-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-15",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "11-22",
+    "timeline_duration_s": 21.072,
+    "audio_layers": [
+      {
+        "id": "voice-a",
+        "src": "assets/video15-voice-normalized-v1.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 2.1
+      },
+      {
+        "id": "sfx-open",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.36,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.08,
+        "absEnd": 0.24
+      },
+      {
+        "id": "voice-b",
+        "src": "assets/video15-voice-normalized-v1.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 2.1,
+        "absEnd": 8.587
+      },
+      {
+        "id": "sfx-error",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.32,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 2.44,
+        "absEnd": 2.6
+      },
+      {
+        "id": "voice-c",
+        "src": "assets/video15-voice-normalized-v1.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 8.588,
+        "absEnd": 15.939
+      },
+      {
+        "id": "sfx-inspect",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.3,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 8.63,
+        "absEnd": 8.79
+      },
+      {
+        "id": "sfx-loop",
+        "src": "assets/07_loop_return.wav",
+        "volume": 0.36,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 12.77,
+        "absEnd": 13.25
+      },
+      {
+        "id": "voice-d",
+        "src": "assets/video15-voice-normalized-v1.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 15.939,
+        "absEnd": 21.072
+      },
+      {
+        "id": "sfx-return",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.3,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 16.09,
+        "absEnd": 16.25
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/renders/VIDEO-15-FINAL.mp4",
+    "render_sha256": "b778b8bfdc79f88d651612f3a581c6661b32312edc287e51f477bfaf116a26f2",
+    "duration_s": 21.1,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.53",
+      "input_tp": "-1.31",
+      "input_lra": "3.20",
+      "input_thresh": "-26.95",
+      "output_i": "-16.43",
+      "output_tp": "-1.50",
+      "output_lra": "3.00",
+      "output_thresh": "-26.82",
+      "normalization_type": "dynamic",
+      "target_offset": "0.43"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-15-0.25.jpg",
+      "evidencia/VIDEO-15-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0x800c0c580] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-15-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0x798c4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-15-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-16",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-16/editable-hyperframes-video-16",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "11-22",
+    "timeline_duration_s": 28.5,
+    "audio_layers": [
+      {
+        "id": "voice16",
+        "src": "assets/video16-voice-level-v1.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 28.5
+      },
+      {
+        "id": "sfx-open",
+        "src": "assets/entry_velvet_bloom_soft_v01.wav",
+        "volume": 1.56,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.04,
+        "absEnd": 0.62
+      },
+      {
+        "id": "sfx-same",
+        "src": "assets/03_ui_tick.wav",
+        "volume": 0.45,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 14.43,
+        "absEnd": 14.515
+      },
+      {
+        "id": "sfx-value",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.3,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 23.28,
+        "absEnd": 24.12
+      },
+      {
+        "id": "sfx-question",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.95,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 24.45,
+        "absEnd": 24.61
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-16/VIDEO-16-PARA-APROBACION-v4.mp4",
+    "render_sha256": "df5b836f43fb38c6378dcdb34ee2ed78d2eb2e037133bffc3dc9af817f82804e",
+    "duration_s": 28.5,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "bt709"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-15.31",
+      "input_tp": "-1.67",
+      "input_lra": "5.10",
+      "input_thresh": "-26.02",
+      "output_i": "-16.20",
+      "output_tp": "-2.27",
+      "output_lra": "4.30",
+      "output_thresh": "-26.92",
+      "normalization_type": "dynamic",
+      "target_offset": "0.20"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-16-0.25.jpg",
+      "evidencia/VIDEO-16-0.70.jpg"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-21",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "11-22",
+    "timeline_duration_s": 21.633333,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video21-voice-denoised-normalized-v1.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 21.633
+      },
+      {
+        "id": "sfx-myth",
+        "src": "assets/entry-velvet.wav",
+        "volume": 3.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 5.167,
+        "absEnd": 5.747
+      },
+      {
+        "id": "sfx-understand",
+        "src": "assets/entry-velvet.wav",
+        "volume": 2.6,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 9,
+        "absEnd": 9.58
+      },
+      {
+        "id": "sfx-limit",
+        "src": "assets/entry-velvet.wav",
+        "volume": 2.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 17.933,
+        "absEnd": 18.513
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/renders/VIDEO-21-ENTREGA-HLG-v2.mp4",
+    "render_sha256": "73b68b1b51acf49269cfe9ef1f76a05ceca469e40ebb9dabb637df20bf7ef79a",
+    "duration_s": 21.633333,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.19",
+      "input_tp": "-1.46",
+      "input_lra": "3.40",
+      "input_thresh": "-26.62",
+      "output_i": "-16.12",
+      "output_tp": "-1.65",
+      "output_lra": "2.40",
+      "output_thresh": "-26.52",
+      "normalization_type": "dynamic",
+      "target_offset": "0.12"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-21-0.25.jpg",
+      "evidencia/VIDEO-21-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xba2c38380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-21-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xcb6c58380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-21-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "VIDEO-22",
+    "project": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "11-22",
+    "timeline_duration_s": 25.266667,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video22-voice-clean-normalized-v1.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 25.267
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/entry-breath.wav",
+        "volume": 3.754151,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.05,
+        "absEnd": 0.77
+      },
+      {
+        "id": "sfx-contrast",
+        "src": "assets/entry-breath.wav",
+        "volume": 3.843535,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 3.333,
+        "absEnd": 4.053
+      },
+      {
+        "id": "sfx-example",
+        "src": "assets/entry-breath.wav",
+        "volume": 1.961535,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 13.583,
+        "absEnd": 14.303
+      },
+      {
+        "id": "sfx-experience",
+        "src": "assets/resolve.wav",
+        "volume": 1.8,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 21.067,
+        "absEnd": 21.907
+      }
+    ],
+    "render": "Serie-IA-Negocios-10-Videos/VIDEO-22/entrega/VIDEO-22-ENTREGA-HLG-v2-audio-conservado.mp4",
+    "render_sha256": "c1fcbfa0efe6a362f7d8c1600356603cb1c682b9a0caeee17d4d311937bb185e",
+    "duration_s": 25.266667,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.00",
+      "input_tp": "-0.99",
+      "input_lra": "4.00",
+      "input_thresh": "-26.40",
+      "output_i": "-15.84",
+      "output_tp": "-1.50",
+      "output_lra": "4.30",
+      "output_thresh": "-26.27",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.16"
+    },
+    "sample_frames": [
+      "evidencia/VIDEO-22-0.25.jpg",
+      "evidencia/VIDEO-22-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xa68c0c580] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-22-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xcaac4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/VIDEO-22-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "MIGUEL-PILOTO",
+    "project": "Miguel-Reel-Piloto/editables/hyperframes-piloto",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "otras-familias",
+    "timeline_duration_s": 14.44,
+    "audio_layers": [
+      {
+        "id": "voice-track",
+        "src": "assets/pilot_base.mp4",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 14.38
+      }
+    ],
+    "render": "Miguel-Reel-Piloto/outputs/MIGUEL_REEL_PILOTO_FASE2.mp4",
+    "render_sha256": "fa7518f698778b88cc23f5cbea8c22fe590538f1dfdd1814aa58e52972999bb7",
+    "duration_s": 14.466667,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "bt709"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.37",
+      "input_tp": "-2.92",
+      "input_lra": "1.30",
+      "input_thresh": "-26.37",
+      "output_i": "-16.16",
+      "output_tp": "-2.89",
+      "output_lra": "1.10",
+      "output_thresh": "-26.16",
+      "normalization_type": "dynamic",
+      "target_offset": "0.16"
+    },
+    "sample_frames": [
+      "evidencia/MIGUEL-PILOTO-0.25.jpg",
+      "evidencia/MIGUEL-PILOTO-0.70.jpg"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "MIGUEL-V2",
+    "project": "Miguel-Reel-Piloto/editables/hyperframes-full-v2",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "otras-familias",
+    "timeline_duration_s": 60,
+    "audio_layers": [
+      {
+        "id": "voice-track",
+        "src": "assets/full_base.mp4",
+        "volume": 1,
+        "audioGroup": "voiceover",
+        "role": null,
+        "absStart": 0,
+        "absEnd": 60
+      },
+      {
+        "id": "music-01",
+        "src": "assets/audio/music/tech_pulse_114bpm_8bars.wav",
+        "volume": 0.95,
+        "audioGroup": "music",
+        "role": null,
+        "absStart": 0,
+        "absEnd": 16.842
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/audio/sfx/05_low_accent.wav",
+        "volume": 1.4,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 0,
+        "absEnd": 0.34
+      },
+      {
+        "id": "sfx-hook-b",
+        "src": "assets/audio/sfx/04_soft_pop.wav",
+        "volume": 1.2,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 1.18,
+        "absEnd": 1.34
+      },
+      {
+        "id": "sfx-reveal",
+        "src": "assets/audio/sfx/01_airy_in.wav",
+        "volume": 1.3,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 2.64,
+        "absEnd": 3.08
+      },
+      {
+        "id": "sfx-topic",
+        "src": "assets/audio/sfx/03_ui_tick.wav",
+        "volume": 1.15,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 3.18,
+        "absEnd": 3.265
+      },
+      {
+        "id": "sfx-agent-card",
+        "src": "assets/audio/sfx/04_soft_pop.wav",
+        "volume": 1.2,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 7.32,
+        "absEnd": 7.48
+      },
+      {
+        "id": "sfx-brand-claude",
+        "src": "assets/audio/sfx/03_ui_tick.wav",
+        "volume": 1.05,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 12.55,
+        "absEnd": 12.635
+      },
+      {
+        "id": "sfx-brand-openai",
+        "src": "assets/audio/sfx/03_ui_tick.wav",
+        "volume": 1.05,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 12.78,
+        "absEnd": 12.865
+      },
+      {
+        "id": "sfx-agent-cutaway",
+        "src": "assets/audio/sfx/02_soft_whoosh.wav",
+        "volume": 1.35,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 15.39,
+        "absEnd": 15.69
+      },
+      {
+        "id": "music-02",
+        "src": "assets/audio/music/tech_pulse_114bpm_8bars.wav",
+        "volume": 0.95,
+        "audioGroup": "music",
+        "role": null,
+        "absStart": 16.842,
+        "absEnd": 33.684
+      },
+      {
+        "id": "sfx-loop-card",
+        "src": "assets/audio/sfx/07_loop_return.wav",
+        "volume": 1.55,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 19.72,
+        "absEnd": 20.2
+      },
+      {
+        "id": "sfx-music-cutaway",
+        "src": "assets/audio/sfx/02_soft_whoosh.wav",
+        "volume": 1.35,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 23.87,
+        "absEnd": 24.17
+      },
+      {
+        "id": "sfx-music-card",
+        "src": "assets/audio/sfx/04_soft_pop.wav",
+        "volume": 1.2,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 28.24,
+        "absEnd": 28.4
+      },
+      {
+        "id": "sfx-sequence",
+        "src": "assets/audio/sfx/06_sequence.wav",
+        "volume": 1.55,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 32.04,
+        "absEnd": 32.54
+      },
+      {
+        "id": "sfx-repeat",
+        "src": "assets/audio/sfx/07_loop_return.wav",
+        "volume": 1.55,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 33.12,
+        "absEnd": 33.6
+      },
+      {
+        "id": "music-03",
+        "src": "assets/audio/music/tech_pulse_114bpm_8bars.wav",
+        "volume": 0.95,
+        "audioGroup": "music",
+        "role": null,
+        "absStart": 33.684,
+        "absEnd": 50.526
+      },
+      {
+        "id": "sfx-prompt-card",
+        "src": "assets/audio/sfx/04_soft_pop.wav",
+        "volume": 1.15,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 34.24,
+        "absEnd": 34.4
+      },
+      {
+        "id": "sfx-workflow-cutaway",
+        "src": "assets/audio/sfx/02_soft_whoosh.wav",
+        "volume": 1.4,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 41.07,
+        "absEnd": 41.37
+      },
+      {
+        "id": "sfx-numbers-card",
+        "src": "assets/audio/sfx/02_soft_whoosh.wav",
+        "volume": 1.25,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 46.85,
+        "absEnd": 47.15
+      },
+      {
+        "id": "sfx-num10",
+        "src": "assets/audio/sfx/03_ui_tick.wav",
+        "volume": 1.05,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 48.58,
+        "absEnd": 48.665
+      },
+      {
+        "id": "sfx-num12",
+        "src": "assets/audio/sfx/03_ui_tick.wav",
+        "volume": 1.05,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 49.32,
+        "absEnd": 49.405
+      },
+      {
+        "id": "sfx-num20",
+        "src": "assets/audio/sfx/03_ui_tick.wav",
+        "volume": 1.1,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 50.06,
+        "absEnd": 50.145
+      },
+      {
+        "id": "music-04",
+        "src": "assets/audio/music/tech_pulse_114bpm_8bars.wav",
+        "volume": 0.95,
+        "audioGroup": "music",
+        "role": null,
+        "absStart": 50.526,
+        "absEnd": 60
+      },
+      {
+        "id": "sfx-work-card",
+        "src": "assets/audio/sfx/02_soft_whoosh.wav",
+        "volume": 1.35,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 52.59,
+        "absEnd": 52.89
+      },
+      {
+        "id": "sfx-work-icons",
+        "src": "assets/audio/sfx/06_sequence.wav",
+        "volume": 1.45,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 53.16,
+        "absEnd": 53.66
+      },
+      {
+        "id": "sfx-resolve",
+        "src": "assets/audio/sfx/08_resolve.wav",
+        "volume": 1.75,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 58.8,
+        "absEnd": 59.64
+      }
+    ],
+    "render": "Miguel-Reel-Piloto/outputs/MIGUEL_REEL_COMPLETO_PRO_V2.mp4",
+    "render_sha256": "978a9d73ff8cfc4cd953367c70a49c11d7b8291eb2288cb0ff0294365c41aedf",
+    "duration_s": 60.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "bt709"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-15.80",
+      "input_tp": "-2.44",
+      "input_lra": "2.10",
+      "input_thresh": "-25.90",
+      "output_i": "-15.88",
+      "output_tp": "-2.60",
+      "output_lra": "1.80",
+      "output_thresh": "-25.93",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.12"
+    },
+    "sample_frames": [
+      "evidencia/MIGUEL-V2-0.25.jpg",
+      "evidencia/MIGUEL-V2-0.70.jpg"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "WELLNESS",
+    "project": "WhatsApp-Reel-Prueba-Fuego/editables/hyperframes-wellness-v1",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "otras-familias",
+    "timeline_duration_s": 33.035,
+    "audio_layers": [
+      {
+        "id": "voice-track",
+        "src": "assets/video/master.mp4",
+        "volume": 2.8,
+        "audioGroup": "voiceover",
+        "role": null,
+        "absStart": 0,
+        "absEnd": 33.035
+      },
+      {
+        "id": "music-bed",
+        "src": "assets/audio/music/ambient_breathing_pad_34s.wav",
+        "volume": 0.66,
+        "audioGroup": "music",
+        "role": null,
+        "absStart": 0,
+        "absEnd": 33.035
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/audio/sfx/01_airy_in.wav",
+        "volume": 1.1,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 0,
+        "absEnd": 0.44
+      },
+      {
+        "id": "sfx-eyes",
+        "src": "assets/audio/sfx/02_soft_whoosh.wav",
+        "volume": 0.86,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 1.66,
+        "absEnd": 1.96
+      },
+      {
+        "id": "sfx-headphones",
+        "src": "assets/audio/sfx/02_soft_whoosh.wav",
+        "volume": 1,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 5.25,
+        "absEnd": 5.55
+      },
+      {
+        "id": "sfx-headphones-set",
+        "src": "assets/audio/sfx/04_soft_pop.wav",
+        "volume": 0.82,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 6.86,
+        "absEnd": 7.02
+      },
+      {
+        "id": "sfx-breathe",
+        "src": "assets/audio/sfx/01_airy_in.wav",
+        "volume": 0.96,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 7.62,
+        "absEnd": 8.06
+      },
+      {
+        "id": "sfx-release",
+        "src": "assets/audio/sfx/08_resolve.wav",
+        "volume": 0.92,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 13.44,
+        "absEnd": 14.28
+      },
+      {
+        "id": "sfx-space",
+        "src": "assets/audio/sfx/02_soft_whoosh.wav",
+        "volume": 0.92,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 14.1,
+        "absEnd": 14.4
+      },
+      {
+        "id": "sfx-return",
+        "src": "assets/audio/sfx/01_airy_in.wav",
+        "volume": 0.88,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 18.77,
+        "absEnd": 19.21
+      },
+      {
+        "id": "sfx-surround",
+        "src": "assets/audio/sfx/02_soft_whoosh.wav",
+        "volume": 1,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 21.4,
+        "absEnd": 21.7
+      },
+      {
+        "id": "sfx-binaural",
+        "src": "assets/audio/sfx/06_sequence.wav",
+        "volume": 0.92,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 23.6,
+        "absEnd": 24.1
+      },
+      {
+        "id": "sfx-pause",
+        "src": "assets/audio/sfx/08_resolve.wav",
+        "volume": 0.82,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 26.1,
+        "absEnd": 26.94
+      },
+      {
+        "id": "sfx-return-self",
+        "src": "assets/audio/sfx/05_low_accent.wav",
+        "volume": 0.68,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 29.6,
+        "absEnd": 29.94
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/audio/sfx/03_ui_tick.wav",
+        "volume": 0.98,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 31.25,
+        "absEnd": 31.335
+      },
+      {
+        "id": "sfx-final",
+        "src": "assets/audio/sfx/08_resolve.wav",
+        "volume": 0.72,
+        "audioGroup": "sfx",
+        "role": null,
+        "absStart": 32.12,
+        "absEnd": 32.96
+      }
+    ],
+    "render": "WhatsApp-Reel-Prueba-Fuego/outputs/PRUEBA_FUEGO_IMMERSIVE_WELLNESS_V1.mp4",
+    "render_sha256": "dea24b41739cffc91993d756913fa3fd1530acd5b4fb0906bbdb9ebb0470dcae",
+    "duration_s": 33.066667,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "bt709"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-17.33",
+      "input_tp": "-3.28",
+      "input_lra": "11.80",
+      "input_thresh": "-28.68",
+      "output_i": "-16.54",
+      "output_tp": "-1.50",
+      "output_lra": "9.40",
+      "output_thresh": "-27.42",
+      "normalization_type": "dynamic",
+      "target_offset": "0.54"
+    },
+    "sample_frames": [
+      "evidencia/WELLNESS-0.25.jpg",
+      "evidencia/WELLNESS-0.70.jpg"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "EXPLAINER-V1",
+    "project": "NUEVO-EXPLAINER-HYPERFRAMES-2026-09-26/videos/retrabajo-acelerado",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "otras-familias",
+    "timeline_duration_s": 52.93,
+    "audio_layers": [
+      {
+        "id": "el-01-el-tiempo-vuelve-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-01.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 4.975
+      },
+      {
+        "id": "el-sfx-0",
+        "src": "assets/sfx/click-soft.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.2,
+        "absEnd": 0.57
+      },
+      {
+        "id": "el-sfx-1",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 2.9,
+        "absEnd": 3.47
+      },
+      {
+        "id": "el-02-pedir-corregir-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-02.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 4.975,
+        "absEnd": 8.218
+      },
+      {
+        "id": "el-sfx-2",
+        "src": "assets/sfx/typing.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 5.025,
+        "absEnd": 6.525
+      },
+      {
+        "id": "el-sfx-3",
+        "src": "assets/sfx/pop.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 7.025,
+        "absEnd": 7.745
+      },
+      {
+        "id": "el-03-otra-version-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-03.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 8.218,
+        "absEnd": 11.147
+      },
+      {
+        "id": "el-sfx-4",
+        "src": "assets/sfx/pop.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 9.018,
+        "absEnd": 9.738
+      },
+      {
+        "id": "el-sfx-5",
+        "src": "assets/sfx/click.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 10.168,
+        "absEnd": 10.538
+      },
+      {
+        "id": "el-04-el-bucle-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-04.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 11.147,
+        "absEnd": 16.378
+      },
+      {
+        "id": "el-sfx-6",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 12.597,
+        "absEnd": 13.167
+      },
+      {
+        "id": "el-sfx-7",
+        "src": "assets/sfx/error.mp3",
+        "volume": 0.14,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 14.797,
+        "absEnd": 16.417
+      },
+      {
+        "id": "el-05-no-es-velocidad-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-05.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 16.378,
+        "absEnd": 19.161
+      },
+      {
+        "id": "el-sfx-8",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 17.478,
+        "absEnd": 18.048
+      },
+      {
+        "id": "el-sfx-9",
+        "src": "assets/sfx/impact-bass-1.mp3",
+        "volume": 0.14,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 17.628,
+        "absEnd": 19.748
+      },
+      {
+        "id": "el-06-anatomia-sistema-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-06.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 19.161,
+        "absEnd": 25.118
+      },
+      {
+        "id": "el-sfx-10",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 20.461,
+        "absEnd": 21.031
+      },
+      {
+        "id": "el-sfx-11",
+        "src": "assets/sfx/click-soft.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 23.511,
+        "absEnd": 23.881
+      },
+      {
+        "id": "el-07-asistencia-extremo-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-07.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 25.118,
+        "absEnd": 33.311
+      },
+      {
+        "id": "el-sfx-12",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 25.568,
+        "absEnd": 26.138
+      },
+      {
+        "id": "el-sfx-13",
+        "src": "assets/sfx/click-soft.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 29.918,
+        "absEnd": 30.288
+      },
+      {
+        "id": "el-08-retrabajo-acelerado-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-08.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 33.311,
+        "absEnd": 35.107
+      },
+      {
+        "id": "el-sfx-14",
+        "src": "assets/sfx/impact-bass-1.mp3",
+        "volume": 0.14,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 33.961,
+        "absEnd": 36.081
+      },
+      {
+        "id": "el-09-la-prueba-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-09.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 35.107,
+        "absEnd": 39.146
+      },
+      {
+        "id": "el-sfx-15",
+        "src": "assets/sfx/pop.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 36.357,
+        "absEnd": 37.077
+      },
+      {
+        "id": "el-sfx-16",
+        "src": "assets/sfx/click-soft.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 37.857,
+        "absEnd": 38.227
+      },
+      {
+        "id": "el-10-comprobar-continuar-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-10.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 39.146,
+        "absEnd": 47.746
+      },
+      {
+        "id": "el-sfx-17",
+        "src": "assets/sfx/click-soft.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 40.946,
+        "absEnd": 41.316
+      },
+      {
+        "id": "el-sfx-18",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 43.346,
+        "absEnd": 43.916
+      },
+      {
+        "id": "el-11-avanza-o-regresa-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-11.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 47.746,
+        "absEnd": 52.93
+      },
+      {
+        "id": "el-sfx-19",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 49.296,
+        "absEnd": 49.866
+      },
+      {
+        "id": "el-sfx-20",
+        "src": "assets/sfx/impact-bass-2.mp3",
+        "volume": 0.14,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 51.196,
+        "absEnd": 53.786
+      }
+    ],
+    "render": "NUEVO-EXPLAINER-HYPERFRAMES-2026-09-26/videos/retrabajo-acelerado/renders/video-delivery.mp4",
+    "render_sha256": "7d864c071debd8bbabf629606013a8c408faaece6b5410cbbd5a0f07874bf096",
+    "duration_s": 53.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "bt709"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-15.93",
+      "input_tp": "-3.31",
+      "input_lra": "1.20",
+      "input_thresh": "-26.01",
+      "output_i": "-15.92",
+      "output_tp": "-3.34",
+      "output_lra": "1.10",
+      "output_thresh": "-26.00",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.08"
+    },
+    "sample_frames": [
+      "evidencia/EXPLAINER-V1-0.25.jpg",
+      "evidencia/EXPLAINER-V1-0.70.jpg"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "EXPLAINER-V2",
+    "project": "NUEVO-EXPLAINER-HYPERFRAMES-2026-09-26/videos/retrabajo-acelerado-v2",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "otras-familias",
+    "timeline_duration_s": 52.93,
+    "audio_layers": [
+      {
+        "id": "el-01-el-tiempo-vuelve-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-01.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 4.975
+      },
+      {
+        "id": "el-sfx-0",
+        "src": "assets/sfx/click-soft.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.2,
+        "absEnd": 0.57
+      },
+      {
+        "id": "el-sfx-1",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 2.9,
+        "absEnd": 3.47
+      },
+      {
+        "id": "el-02-pedir-corregir-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-02.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 4.975,
+        "absEnd": 8.218
+      },
+      {
+        "id": "el-sfx-2",
+        "src": "assets/sfx/typing.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 5.025,
+        "absEnd": 6.525
+      },
+      {
+        "id": "el-sfx-3",
+        "src": "assets/sfx/pop.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 7.025,
+        "absEnd": 7.745
+      },
+      {
+        "id": "el-03-otra-version-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-03.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 8.218,
+        "absEnd": 11.147
+      },
+      {
+        "id": "el-sfx-4",
+        "src": "assets/sfx/pop.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 9.018,
+        "absEnd": 9.738
+      },
+      {
+        "id": "el-sfx-5",
+        "src": "assets/sfx/click.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 10.168,
+        "absEnd": 10.538
+      },
+      {
+        "id": "el-04-el-bucle-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-04.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 11.147,
+        "absEnd": 16.378
+      },
+      {
+        "id": "el-sfx-6",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 12.597,
+        "absEnd": 13.167
+      },
+      {
+        "id": "el-sfx-7",
+        "src": "assets/sfx/error.mp3",
+        "volume": 0.14,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 14.797,
+        "absEnd": 16.417
+      },
+      {
+        "id": "el-05-no-es-velocidad-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-05.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 16.378,
+        "absEnd": 19.161
+      },
+      {
+        "id": "el-sfx-8",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 17.478,
+        "absEnd": 18.048
+      },
+      {
+        "id": "el-sfx-9",
+        "src": "assets/sfx/impact-bass-1.mp3",
+        "volume": 0.14,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 17.628,
+        "absEnd": 19.748
+      },
+      {
+        "id": "el-06-anatomia-sistema-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-06.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 19.161,
+        "absEnd": 25.118
+      },
+      {
+        "id": "el-sfx-10",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 20.461,
+        "absEnd": 21.031
+      },
+      {
+        "id": "el-sfx-11",
+        "src": "assets/sfx/click-soft.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 23.511,
+        "absEnd": 23.881
+      },
+      {
+        "id": "el-07-asistencia-extremo-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-07.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 25.118,
+        "absEnd": 33.311
+      },
+      {
+        "id": "el-sfx-12",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 25.568,
+        "absEnd": 26.138
+      },
+      {
+        "id": "el-sfx-13",
+        "src": "assets/sfx/click-soft.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 29.918,
+        "absEnd": 30.288
+      },
+      {
+        "id": "el-08-retrabajo-acelerado-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-08.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 33.311,
+        "absEnd": 35.107
+      },
+      {
+        "id": "el-sfx-14",
+        "src": "assets/sfx/impact-bass-1.mp3",
+        "volume": 0.14,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 33.961,
+        "absEnd": 36.081
+      },
+      {
+        "id": "el-09-la-prueba-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-09.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 35.107,
+        "absEnd": 39.146
+      },
+      {
+        "id": "el-sfx-15",
+        "src": "assets/sfx/pop.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 36.357,
+        "absEnd": 37.077
+      },
+      {
+        "id": "el-sfx-16",
+        "src": "assets/sfx/click-soft.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 37.857,
+        "absEnd": 38.227
+      },
+      {
+        "id": "el-10-comprobar-continuar-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-10.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 39.146,
+        "absEnd": 47.746
+      },
+      {
+        "id": "el-sfx-17",
+        "src": "assets/sfx/click-soft.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 40.946,
+        "absEnd": 41.316
+      },
+      {
+        "id": "el-sfx-18",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 43.346,
+        "absEnd": 43.916
+      },
+      {
+        "id": "el-11-avanza-o-regresa-voice",
+        "src": "assets/audio/voice-generic-master-lines/frame-11.wav",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 47.746,
+        "absEnd": 52.93
+      },
+      {
+        "id": "el-sfx-19",
+        "src": "assets/sfx/whoosh-short.mp3",
+        "volume": 0.2,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 49.296,
+        "absEnd": 49.866
+      },
+      {
+        "id": "el-sfx-20",
+        "src": "assets/sfx/impact-bass-2.mp3",
+        "volume": 0.14,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 51.196,
+        "absEnd": 53.786
+      }
+    ],
+    "render": "NUEVO-EXPLAINER-HYPERFRAMES-2026-09-26/videos/retrabajo-acelerado-v2/renders/video-v2-delivery.mp4",
+    "render_sha256": "1873e0cd0ffa965ffa3fc6db2966c4e32123ff33eeae0b527d72cf7a53e13a5f",
+    "duration_s": 52.958333,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "bt709"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-14.13",
+      "input_tp": "-1.52",
+      "input_lra": "1.20",
+      "input_thresh": "-24.21",
+      "output_i": "-15.91",
+      "output_tp": "-3.32",
+      "output_lra": "1.20",
+      "output_thresh": "-25.99",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.09"
+    },
+    "sample_frames": [
+      "evidencia/EXPLAINER-V2-0.25.jpg",
+      "evidencia/EXPLAINER-V2-0.70.jpg"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "MUSE-06",
+    "project": "PRUEBAS-MUSE/VIDEO-06-VARIANTE-01/editable-hyperframes-video-06",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "otras-familias",
+    "timeline_duration_s": 19.6,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video06-voice-normalized.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 19.6
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.75,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.04,
+        "absEnd": 0.38
+      },
+      {
+        "id": "sfx-concept",
+        "src": "assets/06_sequence.wav",
+        "volume": 0.7,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 4.4,
+        "absEnd": 4.9
+      },
+      {
+        "id": "sfx-support",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.62,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 9.6,
+        "absEnd": 9.94
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.82,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 14.8,
+        "absEnd": 15.64
+      }
+    ],
+    "render": "PRUEBAS-MUSE/VIDEO-06-VARIANTE-01/VIDEO-06_REVISION_v3.mp4",
+    "render_sha256": "9ab9dbcddee82b6835d3fcfa4d6c6ea1c8bdc2dd8e862ef45ef4fa38e98c4f4d",
+    "duration_s": 19.6,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.92",
+      "input_tp": "-1.55",
+      "input_lra": "2.80",
+      "input_thresh": "-27.27",
+      "output_i": "-16.11",
+      "output_tp": "-1.50",
+      "output_lra": "2.70",
+      "output_thresh": "-26.45",
+      "normalization_type": "dynamic",
+      "target_offset": "0.11"
+    },
+    "sample_frames": [
+      "evidencia/MUSE-06-0.25.jpg",
+      "evidencia/MUSE-06-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0x96ec4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/MUSE-06-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xc15060380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/MUSE-06-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "MUSE-12",
+    "project": "PRUEBAS-MUSE/VIDEO-12-EDICION-01/editable-video12-v4",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "otras-familias",
+    "timeline_duration_s": 20.81,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video12-v4-voice.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 20.81
+      },
+      {
+        "id": "sfx-hook",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.34,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0.08,
+        "absEnd": 0.24
+      },
+      {
+        "id": "sfx-contrast",
+        "src": "assets/05_low_accent.wav",
+        "volume": 0.24,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 12.11,
+        "absEnd": 12.45
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/04_soft_pop.wav",
+        "volume": 0.3,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 15.66,
+        "absEnd": 15.82
+      }
+    ],
+    "render": "PRUEBAS-MUSE/VIDEO-12-EDICION-01/VIDEO-12_MUSE_V4.mp4",
+    "render_sha256": "9ce86d23300706ce4e05e64df674e1df307d6d44511ab2d62a6de25dccebe373",
+    "duration_s": 20.833333,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-15.74",
+      "input_tp": "-1.51",
+      "input_lra": "3.30",
+      "input_thresh": "-26.09",
+      "output_i": "-16.05",
+      "output_tp": "-1.50",
+      "output_lra": "2.20",
+      "output_thresh": "-26.37",
+      "normalization_type": "dynamic",
+      "target_offset": "0.05"
+    },
+    "sample_frames": [
+      "evidencia/MUSE-12-0.25.jpg",
+      "evidencia/MUSE-12-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0xb1d060380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/MUSE-12-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0x704c4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/MUSE-12-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  },
+  {
+    "id": "MUSE-14",
+    "project": "PRUEBAS-MUSE/VIDEO-14-EDICION-01/editable-video14",
+    "visual_review": "inspected_two_frames_in_contact_sheet",
+    "human_listening": "por confirmar",
+    "group": "otras-familias",
+    "timeline_duration_s": 21.01,
+    "audio_layers": [
+      {
+        "id": "voice",
+        "src": "assets/video14-voice.m4a",
+        "volume": 1,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 0,
+        "absEnd": 21.01
+      },
+      {
+        "id": "sfx-idea",
+        "src": "assets/motion_warm_slide_soft_v01.wav",
+        "volume": 0.35,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 5.49,
+        "absEnd": 5.93
+      },
+      {
+        "id": "sfx-contrast",
+        "src": "assets/motion_warm_slide_soft_v01.wav",
+        "volume": 0.35,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 12.17,
+        "absEnd": 12.61
+      },
+      {
+        "id": "sfx-cta",
+        "src": "assets/08_resolve.wav",
+        "volume": 0.32,
+        "audioGroup": null,
+        "role": null,
+        "absStart": 16.47,
+        "absEnd": 17.31
+      }
+    ],
+    "render": "PRUEBAS-MUSE/VIDEO-14-EDICION-01/VIDEO-14_MUSE_V1.mp4",
+    "render_sha256": "3a31351f9cf712856becf759a5ae506a7f9b34be155341da29a648e26ed42825",
+    "duration_s": 21.033333,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "hevc",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "sample_rate": null,
+        "channels": null,
+        "color_transfer": "arib-std-b67"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "width": null,
+        "height": null,
+        "r_frame_rate": "0/0",
+        "sample_rate": "48000",
+        "channels": 2,
+        "color_transfer": null
+      }
+    ],
+    "program_loudness": {
+      "input_i": "-16.54",
+      "input_tp": "-1.61",
+      "input_lra": "3.20",
+      "input_thresh": "-26.63",
+      "output_i": "-16.20",
+      "output_tp": "-1.68",
+      "output_lra": "2.40",
+      "output_thresh": "-26.28",
+      "normalization_type": "dynamic",
+      "target_offset": "0.20"
+    },
+    "sample_frames": [
+      "evidencia/MUSE-14-0.25.jpg",
+      "evidencia/MUSE-14-0.70.jpg"
+    ],
+    "capture_errors_initial": [
+      "[AVFilterGraph @ 0x9eac4c380] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/MUSE-14-0.25.jpg.\nError opening output files: Filter not found\n",
+      "[AVFilterGraph @ 0xc1cc0c580] No such filter: 'zscale'\nError opening output file /Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/evidencia/MUSE-14-0.70.jpg.\nError opening output files: Filter not found\n"
+    ],
+    "capture_status": "pass",
+    "visual_review_scope": "Dos muestras al 25 y 70 por ciento del render; no revisión completa del movimiento ni escucha."
+  }
+]

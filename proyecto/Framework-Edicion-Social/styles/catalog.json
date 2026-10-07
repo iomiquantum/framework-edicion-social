@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "selection_weights": {
+    "topic_and_intent": 0.3,
+    "narrative_rhythm": 0.25,
+    "source_geometry": 0.2,
+    "platform_fit": 0.15,
+    "brand_tone": 0.1
+  },
+  "swap_contract": {
+    "reuse": [
+      "edit_points",
+      "voice",
+      "caption_timing",
+      "semantic_plan",
+      "approved_assets",
+      "face_safe_zones"
+    ],
+    "style_owned": [
+      "palette",
+      "typography",
+      "cards",
+      "motion",
+      "transitions",
+      "relative_mix"
+    ],
+    "requires_editorial_revision": [
+      "script_meaning",
+      "shot_order",
+      "source_cuts",
+      "claims",
+      "new_brands"
+    ]
+  },
+  "styles": [
+    {
+      "id": "STYLE_001_TECH_EDITORIAL_GOLD",
+      "status": "testing",
+      "version": "0.1.0",
+      "canonical_path": "styles/STYLE_001_TECH_EDITORIAL_GOLD",
+      "package_sha256": "99ea95baa8134ae765476a7f3ff0bd5961054bb1b83e6d6a48f4ed5d9e911f97",
+      "best_for": [
+        "technology",
+        "ai_education",
+        "talking_head",
+        "high_contrast_editorial"
+      ],
+      "avoid_for": [
+        "wellness",
+        "somber_testimony",
+        "soft_luxury"
+      ]
+    },
+    {
+      "id": "STYLE_002_TECH_EDITORIAL_COLOR",
+      "status": "testing",
+      "version": "1.1.0",
+      "canonical_path": "styles/STYLE_002_TECH_EDITORIAL_COLOR",
+      "package_sha256": "3e9ee6f5787b5b393ac0dc3c9a93d80f4a247ec1cda85ccf0f61585d6868ca7f",
+      "best_for": [
+        "technology",
+        "ai_education",
+        "process_explanation",
+        "full_length_reel"
+      ],
+      "avoid_for": [
+        "meditation",
+        "somber_testimony",
+        "unverified_data_story"
+      ]
+    },
+    {
+      "id": "STYLE_003_IMMERSIVE_WELLNESS",
+      "status": "testing",
+      "version": "1.0.0",
+      "canonical_path": "styles/STYLE_003_IMMERSIVE_WELLNESS",
+      "package_sha256": "ba09ca5866a0df0adc0037183cddf95bcf72ddc5440d72139e2aa1c83715b6db",
+      "best_for": [
+        "wellness",
+        "breathing",
+        "introspection",
+        "sensory_experience",
+        "intentional_pause"
+      ],
+      "avoid_for": [
+        "urgent_news",
+        "hard_sell",
+        "dense_financial_reporting",
+        "medical_claims"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "source_sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+  "start_s": 59.005,
+  "end_s": 83.449,
+  "input_sha256": "5efab73c4e35d810e07342878198ac0b8ae202530120f48fe46d51fed3e8290c",
+  "elapsed_seconds": 5.855077459011227,
+  "settings": "large-v3/es/4threads/defaults/no prompt; independent pre-existing acts"
+}

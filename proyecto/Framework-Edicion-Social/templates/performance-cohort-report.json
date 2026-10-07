@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "report_id": "COHORT-REPORT-B46DDBC0B25F23D4",
+  "generated_at": "2026-09-25T00:00:00Z",
+  "source_store_id": "PERFORMANCE-STORE-MAIN",
+  "source_store_sha256": "61fcb33876b0872e3c7b1f814f732e97631dd9537a32b00090f27a9dd5e23bec",
+  "observation_count": 0,
+  "production_record_ids": [],
+  "analysis_parameters": {
+    "aggregation_version": "2.0.0",
+    "window_tolerance_hours": {
+      "24": 2,
+      "72": 4,
+      "168": 8
+    },
+    "minimum_comparable_publications": 3,
+    "creative_dimensions": [
+      "primary_family_id",
+      "recipe_id",
+      "hook_id",
+      "structure_id",
+      "visual_system_id",
+      "motion_id",
+      "sound_id",
+      "cta_id"
+    ],
+    "cohort_unit": "unique_publication",
+    "effective_sample_rule": "intersection_of_all_core_metrics",
+    "material_confounder_strength_cap": "exploratory",
+    "production_comparison_status": "verified_only"
+  },
+  "cohorts": [],
+  "separation_notice": "El rendimiento creativo y la eficiencia de produccion se informan por separado; no se combinan en una puntuacion causal.",
+  "governance": {
+    "causal_claim_allowed": false,
+    "automatic_rule_promotion": false,
+    "minimum_comparable_publications": 3,
+    "human_interpretation_required": true
+  }
+}

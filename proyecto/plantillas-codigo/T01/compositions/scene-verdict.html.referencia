@@ -1,0 +1,7 @@
+<!doctype html><html><body><template>
+<style>
+#root{position:absolute;inset:0;color:#f6f4ee;font-family:"Arial Black",Arial,sans-serif;pointer-events:none}.card{position:absolute;top:235px;left:64px;width:952px;padding:50px 54px 48px;border-radius:34px;background:rgba(16,19,33,.92);box-shadow:0 28px 90px rgba(0,0,0,.30);overflow:hidden}.bar{position:absolute;left:0;top:0;width:18px;height:100%;background:#ff6b6b}.small{font:700 24px SFMono-Regular,monospace;color:#ff6b6b;letter-spacing:.13em}.big{margin-top:16px;font-size:78px;line-height:.98;letter-spacing:-.05em}.big span{color:#2ed3c7}
+</style>
+<div id="root" data-composition-id="scene-verdict" data-width="1080" data-height="1920"><div class="card"><div class="bar"></div><div class="small">VEREDICTO</div><div class="big">ESO <span>NO</span> ES<br>AUTOMATIZAR</div></div></div>
+<script>const tl=gsap.timeline({paused:true});tl.fromTo(".card",{opacity:0,x:-90},{opacity:1,x:0,duration:.38,ease:"power3.out"},.03).fromTo(".bar",{scaleY:0,transformOrigin:"50% 0"},{scaleY:1,duration:.42,ease:"power2.out"},.18).fromTo(".big span",{scale:.68,display:"inline-block"},{scale:1,duration:.38,ease:"back.out(2)"},.43).to(".card",{opacity:0,y:-20,duration:.18},1.25);window.__timelines["scene-verdict"]=tl;</script>
+</template></body></html>

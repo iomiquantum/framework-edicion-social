@@ -1,0 +1,44 @@
+<!doctype html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;background:#181217;color:#181217;font-family:Inter,sans-serif;pointer-events:none}
+  .paper{position:absolute;inset:0;background:#EEDFC8}
+  .rail{position:absolute;left:0;top:0;bottom:0;width:18px;background:#7C3AED}.rail.r{left:auto;right:0;background:#DD596F}
+  .card{position:absolute;left:46px;right:46px;top:62px;background:#F4E7D3;border:5px solid #181217;box-shadow:14px 14px 0 #DD596F;padding:38px 38px 34px}
+  .title{font:700 116px/.86 "Bebas Neue",Impact,sans-serif;letter-spacing:-1px}.title b{color:#DD596F}.sub{font:900 46px/.98 Inter,sans-serif;margin-top:22px}
+  .manager{position:absolute;left:46px;right:46px;top:382px;height:760px;background:#F4E7D3;border:5px solid #181217;box-shadow:14px 14px 0 #7C3AED;overflow:hidden}
+  .manager-head{height:112px;background:#181217;color:#F4E7D3;display:flex;align-items:center;justify-content:space-between;padding:0 34px}
+  .manager-title{font:900 49px/.9 Inter,sans-serif}.live{background:#2A9D8F;color:#181217;border:3px solid #F4E7D3;padding:12px 16px;font:900 40px/.9 Inter,sans-serif}
+  .campaigns{padding:18px 28px 8px;display:grid;gap:12px}.campaign{height:94px;border:4px solid #181217;display:grid;grid-template-columns:1fr 190px;align-items:center;padding:0 22px;background:#FFF8EC}
+  .campaign-name{font:900 42px/.92 Inter,sans-serif}.status{justify-self:end;font:900 42px/.9 Inter,sans-serif;padding:8px 10px;border:3px solid #181217;background:#DD596F}.status.ok{background:#2A9D8F}.status.zero{background:#F4E7D3;color:#DD596F}
+  .creative-title{margin:12px 30px 10px;font:900 42px/.9 Inter,sans-serif;display:flex;justify-content:space-between}.creative-title span{color:#7C3AED}
+  .creatives{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding:0 28px}.creative{height:216px;border:4px solid #181217;background:#FFF8EC;position:relative;overflow:hidden;padding:18px}
+  .ad-tag{display:inline-flex;align-items:center;justify-content:center;width:74px;height:58px;background:#181217;color:#F4E7D3;font:900 44px/.9 Inter,sans-serif}.ad-head{font:900 50px/.88 Inter,sans-serif;margin-top:20px}.ad-button{position:absolute;left:18px;bottom:18px;width:130px;height:27px;background:#DD596F;border:3px solid #181217}
+  .creative.two{background:#DD596F}.creative.two .ad-tag{background:#F4E7D3;color:#181217}.creative.three{background:#2A9D8F}.creative.three .ad-button{background:#7C3AED}
+</style>
+<div data-hf-id="hf-v12-contrast-root" id="root" data-composition-id="scene-contrast" data-duration="3.56" data-width="1080" data-height="1920">
+  <div class="paper"></div><div class="rail"></div><div class="rail r"></div>
+  <div class="card" id="card"><div class="title">BONITA <b>NO BASTA</b></div><div class="sub">SI LA OFERTA NO CONVENCE</div></div>
+  <div class="manager" id="manager">
+    <div class="manager-head"><div class="manager-title">CENTRO DE CAMPAÑAS</div><div class="live">3 ACTIVAS</div></div>
+    <div class="campaigns">
+      <div class="campaign"><div class="campaign-name">LANZAMIENTO</div><div class="status ok">ACTIVA</div></div>
+      <div class="campaign"><div class="campaign-name">TRÁFICO</div><div class="status ok">ACTIVA</div></div>
+      <div class="campaign"><div class="campaign-name">VENTAS</div><div class="status zero">0 VENTAS</div></div>
+    </div>
+    <div class="creative-title">CREATIVOS <span>MUY BONITOS</span></div>
+    <div class="creatives">
+      <div class="creative"><div class="ad-tag">01</div><div class="ad-head">IDEA</div><div class="ad-button"></div></div>
+      <div class="creative two"><div class="ad-tag">02</div><div class="ad-head">DISEÑO</div><div class="ad-button"></div></div>
+      <div class="creative three"><div class="ad-tag">03</div><div class="ad-head">COLOR</div><div class="ad-button"></div></div>
+    </div>
+  </div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#card",{scale:0,opacity:0,y:24},{scale:1,opacity:1,y:0,duration:.48,ease:"power3.out"},.06)
+    .fromTo("#manager",{y:50,opacity:0},{y:0,opacity:1,duration:.48,ease:"power3.out"},.24)
+    .fromTo(".campaign",{x:-34,opacity:0},{x:0,opacity:1,duration:.30,stagger:.08,ease:"power2.out"},.48)
+    .fromTo(".creative",{scale:0,opacity:0},{scale:1,opacity:1,duration:.34,stagger:.08,ease:"power3.out"},.70);
+  window.__timelines["scene-contrast"]=tl;
+</script>
+</template></body></html>

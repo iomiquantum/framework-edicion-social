@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-23",
+  "scope": {"country": "EC", "region_fallback": "LATAM", "language": "es", "niche": "ai_education"},
+  "status": "insufficient_sample_for_weekly_viral_claim",
+  "platform_changes": [
+    {
+      "id": "OBS-2026-09-23-YT-TRENDS",
+      "kind": "platform_change",
+      "claim": "YouTube documenta búsquedas, breakout videos y content gaps para Shorts dentro de Trends, sujeto a disponibilidad.",
+      "source_id": "YOUTUBE_TRENDS_TAB",
+      "observed_at": "2026-09-23",
+      "evidence_level": "A",
+      "limitations": ["No demuestra que un estilo de edición concreto sea viral."]
+    }
+  ],
+  "observed_patterns": [],
+  "notes": ["No se auditó todavía una muestra suficiente de publicaciones recientes para declarar una práctica viral específica esta semana."]
+}

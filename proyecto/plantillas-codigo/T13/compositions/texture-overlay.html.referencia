@@ -1,0 +1,9 @@
+<!doctype html><html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;pointer-events:none;mix-blend-mode:multiply}.grain{position:absolute;inset:-20%;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.78' numOctaves='3' seed='13'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.40'/%3E%3C/svg%3E");opacity:.10}.scratch{position:absolute;top:0;bottom:0;width:2px;background:rgba(243,231,207,.20)}.s1{left:13%}.s2{left:78%;opacity:.45}
+</style>
+<div data-hf-id="hf-v13-texture-root" id="root" data-composition-id="texture-overlay" data-duration="19.47" data-width="1080" data-height="1920"><div class="grain"></div><div class="scratch s1"></div><div class="scratch s2"></div></div>
+<script>
+  const tl=gsap.timeline({paused:true});tl.fromTo(".grain",{x:-8,y:-5},{x:9,y:6,duration:19.47,ease:"none"},0);window.__timelines["texture-overlay"]=tl;
+</script>
+</template></body></html>

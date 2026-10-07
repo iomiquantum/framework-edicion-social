@@ -1,0 +1,24 @@
+<!doctype html><html><body><template>
+<style>
+#root{position:absolute;inset:0;color:#f6f4ee;font-family:"Arial Black",Arial,sans-serif;pointer-events:none}.cue{position:absolute;left:74px;bottom:255px;width:932px;padding:22px 28px 24px;border-radius:24px;background:rgba(16,19,33,.92);box-shadow:0 18px 55px rgba(0,0,0,.28);font-size:49px;line-height:1.08;text-align:center;letter-spacing:-.025em;opacity:0}.cue em{font-style:normal;color:#2ed3c7}.cue strong{color:#ff8787}
+</style>
+<div id="root" data-composition-id="captions-es" data-width="1080" data-height="1920">
+  <div id="c1" class="cue">La IA <strong>no</strong> te está ahorrando tiempo.</div>
+  <div id="c2" class="cue">Hay gente utilizando inteligencia artificial</div>
+  <div id="c3" class="cue">y trabajando <strong>más que antes.</strong></div>
+  <div id="c4" class="cue"><em>Generan algo,</em> corrigen,</div>
+  <div id="c5" class="cue">vuelven a pedirlo, revisan otra vez.</div>
+  <div id="c6" class="cue">Eso <strong>no es automatizar.</strong></div>
+  <div id="c7" class="cue">Si la IA te da más trabajo</div>
+  <div id="c8" class="cue">del que te quita,</div>
+  <div id="c9" class="cue">todavía no tienes <em>un sistema.</em></div>
+  <div id="c10" class="cue">A ti,</div>
+  <div id="c11" class="cue">¿la IA te está <em>ahorrando tiempo</em></div>
+  <div id="c12" class="cue">o te está dando <strong>más trabajo?</strong></div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+const cues=[["#c1",.175,1.939],["#c2",2.286,4.615],["#c3",4.615,5.968],["#c4",6.314,8.292],["#c5",8.683,11.218],["#c6",11.610,13.021],["#c7",13.367,15.192],["#c8",15.192,15.962],["#c9",15.962,17.387],["#c10",17.734,18.200],["#c11",18.269,19.942],["#c12",19.942,21.262]];
+cues.forEach(([id,a,b])=>{tl.fromTo(id,{opacity:0,y:18},{opacity:1,y:0,duration:.10,ease:"power1.out"},a).to(id,{opacity:0,y:-10,duration:.10,ease:"power1.in"},b-.10)});window.__timelines["captions-es"]=tl;
+</script>
+</template></body></html>

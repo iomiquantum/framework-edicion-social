@@ -1,0 +1,195 @@
+{
+  "recorded_at_utc": "2026-10-01T03:58:27.143122+00:00",
+  "status": "pass_documentation_only",
+  "policy_version": "1.1.0",
+  "shared_QA_version": "0.1.2",
+  "preservation_checks": [
+    {
+      "file": "AGENTS.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Serie-IA-Negocios-10-Videos/AGENTS.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Serie-IA-Negocios-10-Videos/ESTANDAR_QA_PREAPROBACION.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Framework-Edicion-Social/README.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Framework-Edicion-Social/QA_PROFESIONAL.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Framework-Edicion-Social/styles/README.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Framework-Edicion-Social/PROMPT_EDICION_INDIVIDUAL.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Framework-Edicion-Social/PROMPT_INGESTA_Y_EDICION.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Framework-Edicion-Social/workflow-profiles/QA_COMUN.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Framework-Edicion-Social/workflow-profiles/GUIA.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Framework-Edicion-Social/profiles/creative_preferences.json",
+      "unrelated_preferences_preserved": true
+    },
+    {
+      "file": "Framework-Edicion-Social/CHANGELOG.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "Framework-Edicion-Social/workflow-profiles/CHANGELOG.md",
+      "unrelated_previous_content_preserved": true
+    },
+    {
+      "file": "BITACORA_CURSO_EDICION.md",
+      "unrelated_previous_content_preserved": true
+    }
+  ],
+  "local_links": [
+    {
+      "file": "Serie-IA-Negocios-10-Videos/ESTANDAR_QA_PREAPROBACION.md",
+      "target": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/FIDELIDAD_Y_DIVERSIDAD_PLANTILLAS.md",
+      "exists": true
+    },
+    {
+      "file": "Framework-Edicion-Social/README.md",
+      "target": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/FIDELIDAD_Y_DIVERSIDAD_PLANTILLAS.md",
+      "exists": true
+    },
+    {
+      "file": "Framework-Edicion-Social/README.md",
+      "target": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/templates/template-fidelity-review.md",
+      "exists": true
+    },
+    {
+      "file": "Framework-Edicion-Social/QA_PROFESIONAL.md",
+      "target": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/FIDELIDAD_Y_DIVERSIDAD_PLANTILLAS.md",
+      "exists": true
+    },
+    {
+      "file": "Framework-Edicion-Social/QA_PROFESIONAL.md",
+      "target": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/templates/template-fidelity-review.md",
+      "exists": true
+    },
+    {
+      "file": "Framework-Edicion-Social/styles/README.md",
+      "target": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/FIDELIDAD_Y_DIVERSIDAD_PLANTILLAS.md",
+      "exists": true
+    },
+    {
+      "file": "Framework-Edicion-Social/styles/README.md",
+      "target": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/templates/template-fidelity-review.md",
+      "exists": true
+    },
+    {
+      "file": "Framework-Edicion-Social/workflow-profiles/QA_COMUN.md",
+      "target": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/FIDELIDAD_Y_DIVERSIDAD_PLANTILLAS.md",
+      "exists": true
+    },
+    {
+      "file": "Framework-Edicion-Social/workflow-profiles/GUIA.md",
+      "target": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/FIDELIDAD_Y_DIVERSIDAD_PLANTILLAS.md",
+      "exists": true
+    }
+  ],
+  "approved_MP4_unchanged": [
+    {
+      "video": 16,
+      "sha256": "6270e92db04824f3b5c40ed630c639c35794e567123a8e82db71f41a8b7c8ad1",
+      "unchanged": true
+    },
+    {
+      "video": 18,
+      "sha256": "7978d638f464ebccd8d68b1cd54e2c939cbc3a9e0acb5a800fd0307f6f2cb960",
+      "unchanged": true
+    },
+    {
+      "video": 19,
+      "sha256": "65db6e694d3d384b190e40082dfa19005178384a51d88b4624aa4e5f8317adc4",
+      "unchanged": true
+    }
+  ],
+  "current_files": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/AGENTS.md",
+      "sha256": "ffe607556ab0d63c89f2979de8b1e9b3126ceec443883277466ca18be6dc034b"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/AGENTS.md",
+      "sha256": "3aed1b67a0dea9734b384c14667dce61f482b575fdfcde7e98502bbe36348d70"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/ESTANDAR_QA_PREAPROBACION.md",
+      "sha256": "2f9178c8d3fd8389947207dd49fc02eff682ccd4c6ef215ab8f42044a8dbb66e"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/README.md",
+      "sha256": "eed9c54fa6e3da63a5034f8ae8d23ec008b62d528f5c4c913e79b7b586568f69"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/QA_PROFESIONAL.md",
+      "sha256": "29305fd68a62cbc57124090ddfe867be57d4efc4a41b392cb235b3ead0c9244a"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/styles/README.md",
+      "sha256": "8fada271fa556980efcac346ba6b0735bdda2f39c2f629250cf2adfd7a7d7fc2"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/PROMPT_EDICION_INDIVIDUAL.md",
+      "sha256": "76c174434812a6d8e7166c66ea13cf639ca9c61cfa1d7079068fdbedfe111bb3"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/PROMPT_INGESTA_Y_EDICION.md",
+      "sha256": "8d077ee25e157fd7d1a7dfc999debb74f209e234b1a6164be72c791c161b8426"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/QA_COMUN.md",
+      "sha256": "95e3665626843ddf0cc1446c3c252b30bb385cc0919f938f226be9aaec86dbcb"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/GUIA.md",
+      "sha256": "0ab0d85c062fb625fbf90828f0fbd7dae252308ade0170660a9b9012a5664e5f"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/profiles/creative_preferences.json",
+      "sha256": "37e239108b8c1ba07808b682d991085b4943885af19cdba00e2edffdc4950227"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/CHANGELOG.md",
+      "sha256": "d707779963ef72a76c3d49c62ffac8dceb69ce5be5eb60b5f4da2bdf11716305"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/CHANGELOG.md",
+      "sha256": "73b843c03d2312d274b904cc2916c44bf07a4048911a07cb8e8f7dfdd7aa5642"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/BITACORA_CURSO_EDICION.md",
+      "sha256": "1eca90df9d80a9bea8d0a28ec76e9904aa9bf7cba2c62b2b90daed45d49ce35b"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/FIDELIDAD_Y_DIVERSIDAD_PLANTILLAS.md",
+      "sha256": "1b76ade3247fe45dcc6b7f1ad865caed57b85e031c476c73f876e8cae77fe386"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/templates/template-fidelity-review.md",
+      "sha256": "aed6abd9e798107c7587d6e245f7eac3fcb271e3d1851d5fadd35dd618980664"
+    }
+  ],
+  "scope": "Document/JSON/link/integrity checks only; no render, audiovisual review or automated template-fidelity detector executed."
+}

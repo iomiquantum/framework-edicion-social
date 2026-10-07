@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.1.0",
+  "project_id": "",
+  "source": {
+    "id": "",
+    "path": "",
+    "sha256": "",
+    "fps": 30,
+    "audio_stream_index": null
+  },
+  "transcript": {
+    "path": "",
+    "sha256": "",
+    "language": "es",
+    "engine": "",
+    "word_timestamps": true
+  },
+  "marker_protocol": "compact_v2",
+  "videos": [],
+  "qa": {
+    "marker_count": 0,
+    "unknown_markers": [],
+    "orphan_decision_markers": [],
+    "orphan_correction_markers": [],
+    "correction_markers": 0,
+    "unresolved_corrections": [],
+    "approved_takes": 0,
+    "discarded_takes": 0,
+    "ambiguous_takes": 0,
+    "multiple_approved_videos": [],
+    "duplicate_take_ids": [],
+    "human_review_required": true,
+    "human_review_completed": false,
+    "notes": []
+  },
+  "generated_at": "",
+  "updated_at": ""
+}

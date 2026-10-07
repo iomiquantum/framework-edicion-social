@@ -1,0 +1,20 @@
+test_cli_fail_closed_report_and_no_overwrite (test_qa_reuse_context.ReuseContextTests.test_cli_fail_closed_report_and_no_overwrite) ... ok
+test_context_change_rejects_all_reuse (test_qa_reuse_context.ReuseContextTests.test_context_change_rejects_all_reuse) ... ok
+test_current_file_missing_or_changed_rejects_stale_snapshot (test_qa_reuse_context.ReuseContextTests.test_current_file_missing_or_changed_rejects_stale_snapshot) ... ok
+test_current_spec_is_required_and_byte_bound (test_qa_reuse_context.ReuseContextTests.test_current_spec_is_required_and_byte_bound) ... ok
+test_directory_duplicate_path_and_missing_file_rejected (test_qa_reuse_context.ReuseContextTests.test_directory_duplicate_path_and_missing_file_rejected) ... ok
+test_each_family_has_expected_scope_dependencies (test_qa_reuse_context.ReuseContextTests.test_each_family_has_expected_scope_dependencies) ... ok
+test_engine_change_invalidates_every_scope (test_qa_reuse_context.ReuseContextTests.test_engine_change_invalidates_every_scope) ... ok
+test_historical_sources_not_rehashed_when_replaced (test_qa_reuse_context.ReuseContextTests.test_historical_sources_not_rehashed_when_replaced) ... ok
+test_optional_empty_groups_allowed_but_unlisted_dependencies_not_certified (test_qa_reuse_context.ReuseContextTests.test_optional_empty_groups_allowed_but_unlisted_dependencies_not_certified) ... ok
+test_paths_relative_to_spec_and_order_independent_group_hash (test_qa_reuse_context.ReuseContextTests.test_paths_relative_to_spec_and_order_independent_group_hash) ... ok
+test_tampered_snapshot_and_resealed_unknown_inventory_rejected (test_qa_reuse_context.ReuseContextTests.test_tampered_snapshot_and_resealed_unknown_inventory_rejected) ... ok
+test_unchanged_is_only_candidate_not_qa_or_approval (test_qa_reuse_context.ReuseContextTests.test_unchanged_is_only_candidate_not_qa_or_approval) ... ok
+test_unknown_or_missing_groups_and_empty_required_groups_rejected (test_qa_reuse_context.ReuseContextTests.test_unknown_or_missing_groups_and_empty_required_groups_rejected) ... ok
+test_visual_asset_change_preserves_audio_candidate (test_qa_reuse_context.ReuseContextTests.test_visual_asset_change_preserves_audio_candidate) ... ok
+test_visual_style_html_text_change_invalidates_semantics (test_qa_reuse_context.ReuseContextTests.test_visual_style_html_text_change_invalidates_semantics) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.183s
+
+OK

@@ -1,0 +1,177 @@
+{
+  "status": "TECHNICAL_PASS",
+  "date_local": "2026-09-30",
+  "references": [
+    {
+      "id": "ref-01",
+      "source": "/Users/iomijhondavid/Downloads/65B73BD5-A22A-4DC4-A9C5-D132C7C03C04.MP4",
+      "source_sha256": "91782481c65c77dd7edab238317814b16d9f5260baf4939dcfc0c96ee44ef555",
+      "source_unchanged": true,
+      "source_preview_full_decode": "PASS",
+      "preview_audio_packets_identical": true,
+      "aac_payload_hash": "SHA256=9e52044236cbb0c8150d80c89ad85128faabcfadf2c8ed44288f3e710e320d28",
+      "audio_extraction_max_pcm_error": 1.1896190699189901e-07,
+      "blocks_in_range": 14,
+      "asr_segments_in_range": 31,
+      "stems": [
+        {
+          "name": "drums",
+          "hash_shape_finite_float": "PASS"
+        },
+        {
+          "name": "bass",
+          "hash_shape_finite_float": "PASS"
+        },
+        {
+          "name": "other",
+          "hash_shape_finite_float": "PASS"
+        },
+        {
+          "name": "vocals",
+          "hash_shape_finite_float": "PASS"
+        }
+      ],
+      "reconstruction_correlation_consistency_only": 0.999829745339392,
+      "dense_frames_generated": 139,
+      "human_listening_by_agent": false
+    },
+    {
+      "id": "ref-02",
+      "source": "/Users/iomijhondavid/Downloads/31DAFCE4-1F8C-452E-B66D-489909CDBF67.MP4",
+      "source_sha256": "f6569b1301e24be422ac41f359f083d9e60f7d8c4f27bb7935ad0947dac39420",
+      "source_unchanged": true,
+      "source_preview_full_decode": "PASS",
+      "preview_audio_packets_identical": true,
+      "aac_payload_hash": "SHA256=da8a590dad545003c2b6f55ee64ce1f3d72fb067170075d43db16441770974b7",
+      "audio_extraction_max_pcm_error": 1.1896736396010965e-07,
+      "blocks_in_range": 13,
+      "asr_segments_in_range": 30,
+      "stems": [
+        {
+          "name": "drums",
+          "hash_shape_finite_float": "PASS"
+        },
+        {
+          "name": "bass",
+          "hash_shape_finite_float": "PASS"
+        },
+        {
+          "name": "other",
+          "hash_shape_finite_float": "PASS"
+        },
+        {
+          "name": "vocals",
+          "hash_shape_finite_float": "PASS"
+        }
+      ],
+      "reconstruction_correlation_consistency_only": 0.9996070425467103,
+      "dense_frames_generated": 133,
+      "human_listening_by_agent": false
+    }
+  ],
+  "D": {
+    "C_preserved": true,
+    "picture_source_unchanged": true,
+    "picture_payload_identical": true,
+    "prefix_4_05_s_pcm_error": 1.1920928955078125e-07,
+    "voice_sfx_invariance_pcm_error": 1.1920928955078125e-07,
+    "aac_pcm_correlation": 0.9999939829921899,
+    "full_decode": "PASS",
+    "user_listening": "por confirmar"
+  },
+  "local_links": [
+    {
+      "page": "practica.html",
+      "href": "referencias.html",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "href": "audiciones/practica-v1/02-voz-efectos-pulso.mp4",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "href": "audiciones/practica-v1/02-voz-efectos-pulso.wav",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "href": "evidencia/practica-v1/manifest.json",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "href": "APLICACION_PRACTICA.md",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "href": "../../library/music/candidates/2026-09-30-prueba-ritmica/CREDITOS.txt",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "href": "voz.html",
+      "exists": true
+    },
+    {
+      "page": "practica.html",
+      "href": "banco.html",
+      "exists": true
+    },
+    {
+      "page": "referencias.html",
+      "href": "practica.html",
+      "exists": true
+    },
+    {
+      "page": "referencias.html",
+      "href": "referencias-usuario/ref-02/preview.mp4",
+      "exists": true
+    },
+    {
+      "page": "referencias.html",
+      "href": "referencias-usuario/ref-02/niveles-estimados.png",
+      "exists": true
+    },
+    {
+      "page": "referencias.html",
+      "href": "ANALISIS_REFERENCIAS_SONORAS.md",
+      "exists": true
+    },
+    {
+      "page": "referencias.html",
+      "href": "referencias-usuario/validacion.json",
+      "exists": true
+    },
+    {
+      "page": "referencias.html",
+      "href": "practica.html",
+      "exists": true
+    },
+    {
+      "page": "referencias.html",
+      "href": "practica.html",
+      "exists": true
+    },
+    {
+      "page": "referencias.html",
+      "href": "voz.html",
+      "exists": true
+    }
+  ],
+  "runtime_packages": {
+    "demucs": "4.0.1",
+    "torch": "2.5.1",
+    "torchaudio": "2.5.1",
+    "numpy": "1.26.4",
+    "soundfile": "0.12.1"
+  },
+  "limits": [
+    "Separación aproximada; consistencia de suma no demuestra pureza de stems.",
+    "ASR por frase es provisional; no certifica palabras ni alineación fonética.",
+    "Nombres de canciones/SFX y faders originales por confirmar.",
+    "Reproducción técnica no equivale a escucha humana ni aprobación."
+  ]
+}

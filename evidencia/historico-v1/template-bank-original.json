@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-25",
+  "templates": [
+    {
+      "id": "T01-editorial-loop",
+      "version": "0.1.0-candidate",
+      "status": "candidate",
+      "source_project": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01",
+      "artifact_approval": {
+        "video_id": "VIDEO-01",
+        "status": "approved",
+        "receipt_path": "Serie-IA-Negocios-10-Videos/VIDEO-01/approval-receipt.json",
+        "scope": "whole_artifact",
+        "reason": "El render editorial exacto de VIDEO-01 está aprobado y ligado a un recibo verificable; esta decisión no autoriza por sí sola reutilizar la plantilla."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "La aprobación del video no autoriza por sí sola reutilizar la plantilla como default."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T02-clean-authority",
+      "version": "0.1.1-candidate",
+      "status": "candidate",
+      "source_project": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02",
+      "artifact_approval": {
+        "video_id": "VIDEO-02",
+        "status": "pending_review",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "VIDEO-02 todavía no tiene una versión final aprobada y ligada a un recibo verificable."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "Esperando una revisión aprobada del artefacto y evidencia adicional de reutilización."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T03-proprietary-knowledge-map",
+      "version": "0.1.0-candidate",
+      "status": "candidate",
+      "source_project": "Serie-IA-Negocios-10-Videos/VIDEO-03/editable-hyperframes-video-03",
+      "artifact_approval": {
+        "video_id": "VIDEO-03",
+        "status": "pending_review",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "VIDEO-03 ya tiene un artefacto candidato y QA completa; falta aprobación humana del render exacto."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "Esperando aprobación del artefacto y evidencia de rendimiento antes de autorizar reutilización."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T04-process-chaos-diagnostic",
+      "version": "0.1.0-candidate",
+      "status": "candidate",
+      "source_project": "Serie-IA-Negocios-10-Videos/VIDEO-04/editable-hyperframes-video-04",
+      "artifact_approval": {
+        "video_id": "VIDEO-04",
+        "status": "pending_review",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "VIDEO-04 ya tiene un artefacto candidato y QA completa; falta aprobación humana del render exacto."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "Esperando aprobación del artefacto y evidencia de rendimiento antes de autorizar reutilización."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T05-criterion-versus-delegation",
+      "version": "0.1.0-candidate",
+      "status": "candidate",
+      "source_project": "Serie-IA-Negocios-10-Videos/VIDEO-05/editable-hyperframes-video-05",
+      "artifact_approval": {
+        "video_id": "VIDEO-05",
+        "status": "pending_review",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "VIDEO-05 tiene proyecto candidato y preflight completo; el render exacto requiere revisión humana."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "Esperando aprobación del artefacto y evidencia de rendimiento antes de autorizar reutilización."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T06-knowledge-vault",
+      "version": "0.1.0-candidate",
+      "status": "candidate",
+      "source_project": "Serie-IA-Negocios-10-Videos/VIDEO-06/editable-hyperframes-video-06",
+      "artifact_approval": {
+        "video_id": "VIDEO-06",
+        "status": "pending_review",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "VIDEO-06 tiene render de revisión y QA técnica completa; falta aprobación humana del artefacto exacto."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "La familia permanece candidata y no se promueve sin aprobación y evidencia comparable."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T07-seed-spotlight",
+      "version": "0.1.0-candidate",
+      "status": "candidate",
+      "source_project": "Serie-IA-Negocios-10-Videos/VIDEO-07/editable-hyperframes-video-07",
+      "artifact_approval": {
+        "video_id": "VIDEO-07",
+        "status": "pending_review",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "VIDEO-07 tiene render de revisión y QA técnica completa; falta aprobación humana del artefacto exacto."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "La familia permanece candidata y no se promueve sin aprobación y evidencia comparable."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T08-target-rings",
+      "version": "0.1.0-candidate",
+      "status": "candidate",
+      "source_project": "Serie-IA-Negocios-10-Videos/VIDEO-08/editable-hyperframes-video-08",
+      "artifact_approval": {
+        "video_id": "VIDEO-08",
+        "status": "pending_review",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "VIDEO-08 tiene render de revisión y QA técnica completa; falta aprobación humana del artefacto exacto."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "La familia permanece candidata y no se promueve sin aprobación y evidencia comparable."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T09-signal-noise",
+      "version": "0.1.0-candidate",
+      "status": "candidate",
+      "source_project": "Serie-IA-Negocios-10-Videos/VIDEO-09/editable-hyperframes-video-09",
+      "artifact_approval": {
+        "video_id": "VIDEO-09",
+        "status": "pending_review",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "VIDEO-09 tiene render de revisión y QA técnica completa; falta aprobación humana del artefacto exacto."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "La familia permanece candidata y no se promueve sin aprobación y evidencia comparable."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    },
+    {
+      "id": "T10-searchlight-diagnosis",
+      "version": "0.1.0-candidate",
+      "status": "candidate",
+      "source_project": "Serie-IA-Negocios-10-Videos/VIDEO-10/editable-hyperframes-video-10",
+      "artifact_approval": {
+        "video_id": "VIDEO-10",
+        "status": "pending_review",
+        "receipt_path": null,
+        "scope": null,
+        "reason": "VIDEO-10 tiene render de revisión y QA técnica completa; falta aprobación humana del artefacto exacto."
+      },
+      "template_reuse": {
+        "status": "pending",
+        "scope": null,
+        "authorization_basis": "none",
+        "authorization_ref": null,
+        "evidence_video_ids": [],
+        "reason": "La familia permanece candidata y no se promueve sin aprobación y evidencia comparable."
+      },
+      "performance": {
+        "status": "no_data",
+        "network_tests": 0,
+        "review_refs": []
+      }
+    }
+  ]
+}

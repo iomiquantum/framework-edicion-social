@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0.0",
+  "series_id": "example-series",
+  "status": "draft",
+  "seed_policy": {
+    "seed_fingerprint_ids": [
+      "FP-VIDEO-01-000000000000"
+    ],
+    "rule": "reference_not_law",
+    "automatic_enforcement": false
+  },
+  "promotion_policy": {
+    "default_minimum_approved_videos": 2,
+    "approvals_must_be_distinct_videos": true,
+    "matching_evidence_required": true,
+    "explicit_instruction_can_promote": true,
+    "creative_dimensions_never_collapse_to_single_value": true
+  },
+  "recalibration_policy": {
+    "minimum_approved_videos": 3,
+    "interval_approved_videos": 3,
+    "mode": "review_before_apply",
+    "last_recalibrated_approved_count": 0
+  },
+  "quality_policy": {
+    "similarity_is_quality_score": false,
+    "similarity_can_fail_quality": false,
+    "human_creative_review_required": true,
+    "technical_qa_required": true,
+    "creative_variation_required": true
+  },
+  "family_policy": {
+    "single_global_winner": false,
+    "preserve_multiple_families": true,
+    "selection_basis": "content_audience_platform_fit",
+    "minimum_active_families_target": 2
+  },
+  "dimensions": [
+    {
+      "dimension_id": "DIM-ASPECT-RATIO",
+      "selector": "technical.aspect_ratio",
+      "value_source": "fields",
+      "classification": "locked",
+      "scope": "series",
+      "family_ids": [],
+      "state": "seed",
+      "enforcement": "observe",
+      "comparison": "exact",
+      "expected": {
+        "exact_values": ["9:16"],
+        "allowed_values": [],
+        "minimum": null,
+        "maximum": null,
+        "rotation": null
+      },
+      "source": "seed_observation",
+      "evidence": [
+        {
+          "video_id": "VIDEO-01",
+          "fingerprint_id": "FP-VIDEO-01-000000000000",
+          "approval_ref": null,
+          "instruction_ref": null
+        }
+      ],
+      "rationale": "El primer video aporta una referencia de formato, no una regla hasta reunir aprobación suficiente o recibir una instrucción explícita."
+    },
+    {
+      "dimension_id": "DIM-PLAYBACK-SPEED",
+      "selector": "edit.speed",
+      "value_source": "fields",
+      "classification": "bounded",
+      "scope": "series",
+      "family_ids": [],
+      "state": "candidate",
+      "enforcement": "observe",
+      "comparison": "numeric_range",
+      "expected": {
+        "exact_values": [],
+        "allowed_values": [],
+        "minimum": 1.0,
+        "maximum": 1.05,
+        "rotation": null
+      },
+      "source": "manual",
+      "evidence": [],
+      "rationale": "Rango inicial para conservar naturalidad; debe ajustarse según dicción, respiración y revisión humana."
+    },
+    {
+      "dimension_id": "DIM-NARRATIVE-ARCHETYPE",
+      "selector": "creative.archetype_id",
+      "value_source": "fields",
+      "classification": "rotating",
+      "scope": "series",
+      "family_ids": [],
+      "state": "candidate",
+      "enforcement": "warn",
+      "comparison": "rotation",
+      "expected": {
+        "exact_values": [],
+        "allowed_values": [],
+        "minimum": null,
+        "maximum": null,
+        "rotation": {
+          "window": 3,
+          "max_consecutive": 2,
+          "max_occurrences_in_window": 2,
+          "minimum_unique_in_window": 2
+        }
+      },
+      "source": "manual",
+      "evidence": [],
+      "rationale": "La estructura narrativa rota deliberadamente para desarrollar varias familias útiles, no una única plantilla ganadora."
+    },
+    {
+      "dimension_id": "DIM-VISUAL-PALETTE",
+      "selector": "palette",
+      "value_source": "traits",
+      "classification": "rotating",
+      "scope": "series",
+      "family_ids": [],
+      "state": "candidate",
+      "enforcement": "warn",
+      "comparison": "rotation",
+      "expected": {
+        "exact_values": [],
+        "allowed_values": [],
+        "minimum": null,
+        "maximum": null,
+        "rotation": {
+          "window": 3,
+          "max_consecutive": 2,
+          "max_occurrences_in_window": 2,
+          "minimum_unique_in_window": 2
+        }
+      },
+      "source": "manual",
+      "evidence": [],
+      "rationale": "Mantener armonía sin repetir automáticamente la misma cromática en todos los videos."
+    },
+    {
+      "dimension_id": "DIM-SEMANTIC-TAGS",
+      "selector": "semantic_tags",
+      "value_source": "traits",
+      "classification": "free",
+      "scope": "series",
+      "family_ids": [],
+      "state": "candidate",
+      "enforcement": "observe",
+      "comparison": "none",
+      "expected": {
+        "exact_values": [],
+        "allowed_values": [],
+        "minimum": null,
+        "maximum": null,
+        "rotation": null
+      },
+      "source": "manual",
+      "evidence": [],
+      "rationale": "Las etiquetas describen el significado del episodio actual; se registran sin convertir el tema en una restricción."
+    }
+  ],
+  "template_families": [
+    {
+      "family_id": "FAMILY-EDITORIAL-LOOP",
+      "name": "Editorial Loop",
+      "archetype_id": "ARCH-CONTRARIAN-LOOP",
+      "status": "candidate",
+      "lineage": {
+        "parent_family_id": null,
+        "derived_from_video_ids": ["VIDEO-01"],
+        "change_hypothesis": "Un hook contrarian seguido de un ciclo visual hace tangible un problema repetitivo."
+      },
+      "intended_for": ["mito-versus-realidad", "procesos-repetitivos", "problema-solucion"],
+      "preserved_dimensions": ["DIM-ASPECT-RATIO", "DIM-PLAYBACK-SPEED", "DIM-NARRATIVE-ARCHETYPE"],
+      "controlled_dimensions": ["DIM-VISUAL-PALETTE"],
+      "novelty_budget": {
+        "comparison_window": 3,
+        "minimum_changed_rotating_dimensions": 1,
+        "maximum_changed_locked_dimensions": 0,
+        "target_similarity_minimum": 0.25,
+        "target_similarity_maximum": 0.82
+      }
+    },
+    {
+      "family_id": "FAMILY-CLEAN-AUTHORITY",
+      "name": "Clean Authority",
+      "archetype_id": "ARCH-CLAIM-PROOF-ACTION",
+      "status": "experimental",
+      "lineage": {
+        "parent_family_id": "FAMILY-EDITORIAL-LOOP",
+        "derived_from_video_ids": ["VIDEO-02"],
+        "change_hypothesis": "Reducir decoración y variar la estructura hacia afirmación, evidencia y acción puede aumentar claridad sin perder ritmo."
+      },
+      "intended_for": ["consejo-directo", "autoridad", "accion-practica"],
+      "preserved_dimensions": ["DIM-ASPECT-RATIO", "DIM-PLAYBACK-SPEED", "DIM-NARRATIVE-ARCHETYPE"],
+      "controlled_dimensions": ["DIM-VISUAL-PALETTE"],
+      "novelty_budget": {
+        "comparison_window": 3,
+        "minimum_changed_rotating_dimensions": 1,
+        "maximum_changed_locked_dimensions": 0,
+        "target_similarity_minimum": 0.2,
+        "target_similarity_maximum": 0.78
+      }
+    }
+  ]
+}

@@ -1,0 +1,1085 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo maestro de 30 sistemas visuales para videos verticales.">
+  <title>Biblioteca visual · 30 plantillas</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23161318'/%3E%3Cpath d='M16 16h14v14H16zm18 0h14v14H34zM16 34h14v14H16zm18 0h14v14H34z' fill='%23f7f1e8'/%3E%3C/svg%3E">
+  <style>
+    :root { color-scheme: dark; --ink:#161318; --paper:#f4eee5; --muted:#a9a2aa; --line:#363039; --focus:#fff16a; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--ink); color:var(--paper); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size:16px; line-height:1.5; }
+    a { color:inherit; }
+    button, input { font:inherit; }
+    .shell { width:min(1500px, calc(100% - 40px)); margin:0 auto; }
+    .masthead { padding:36px 0 24px; border-bottom:1px solid var(--line); }
+    .eyebrow { margin:0 0 8px; color:#ffcc73; font-size:.78rem; font-weight:800; letter-spacing:.15em; text-transform:uppercase; }
+    h1 { margin:0; max-width:900px; font-family:Georgia, "Times New Roman", serif; font-size:clamp(2.3rem, 7vw, 6rem); line-height:.93; font-weight:500; letter-spacing:-.045em; }
+    .intro { max-width:850px; margin:22px 0 0; color:#d2ccd2; font-size:clamp(1rem, 2vw, 1.18rem); }
+    .stats { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+    .stat { padding:8px 13px; border:1px solid var(--line); border-radius:999px; color:#ddd6dc; font-size:.88rem; }
+    .stat strong { color:white; }
+    .toolbar-wrap { position:sticky; top:0; z-index:10; background:rgba(22,19,24,.94); backdrop-filter:blur(14px); border-bottom:1px solid var(--line); }
+    .toolbar { display:grid; grid-template-columns:minmax(280px, 1fr) auto; gap:12px 14px; padding:16px 0; align-items:center; }
+    .search { width:100%; min-height:46px; padding:0 16px; color:white; background:#211d23; border:1px solid #4a434d; border-radius:10px; outline:none; }
+    .search:focus { border-color:var(--focus); box-shadow:0 0 0 3px rgba(255,241,106,.18); }
+    .filters { display:flex; gap:8px; flex-wrap:wrap; }
+    .filter { min-height:42px; padding:0 13px; border:1px solid #4a434d; border-radius:999px; background:#211d23; color:#d8d1d8; cursor:pointer; }
+    .filter:hover { border-color:#77707a; }
+    .filter[aria-pressed="true"] { background:var(--paper); border-color:var(--paper); color:var(--ink); font-weight:800; }
+    .smart-topics { grid-column:1 / -1; display:flex; align-items:center; gap:8px; overflow-x:auto; padding-top:2px; scrollbar-width:thin; }
+    .smart-label { flex:0 0 auto; margin-right:2px; color:#a9a2aa; font-size:.76rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+    .smart-topic { flex:0 0 auto; min-height:34px; padding:0 11px; border:1px solid #4a434d; border-radius:999px; background:transparent; color:#d8d1d8; cursor:pointer; font-size:.82rem; }
+    .smart-topic:hover, .smart-topic:focus-visible { border-color:#ffcc73; color:#fff; }
+    .result-line { display:flex; justify-content:space-between; gap:20px; padding:24px 0 12px; color:var(--muted); font-size:.88rem; }
+    .grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:22px; padding:0 0 70px; }
+    .card { min-width:0; overflow:hidden; background:#211d23; border:1px solid var(--line); border-top:5px solid var(--accent); border-radius:14px; box-shadow:0 14px 38px rgba(0,0,0,.18); }
+    .card[hidden] { display:none; }
+    .preview-link { display:block; background:#0f0d10; overflow:hidden; }
+    .preview-link img { display:block; width:100%; height:auto; aspect-ratio:16 / 7; object-fit:cover; transition:transform .25s ease, opacity .25s ease; }
+    .preview-link:hover img { transform:scale(1.015); opacity:.9; }
+    .card-body { padding:18px 20px 20px; }
+    .card-topline { display:flex; align-items:center; justify-content:space-between; gap:10px; }
+    .template-number { display:grid; place-items:center; width:44px; height:44px; border:1px solid var(--accent); border-radius:50%; color:var(--accent); font-family:Georgia, serif; font-size:1.2rem; }
+    .status { padding:5px 9px; border-radius:999px; font-size:.73rem; font-weight:800; letter-spacing:.04em; text-transform:uppercase; }
+    .status-approved { background:#d8ffe9; color:#07562c; }
+    .status-por_confirmar { background:#fff0bd; color:#644900; }
+    .status-pending { background:#343039; color:#c9c2cb; }
+    .collection-label { margin:18px 0 5px; color:var(--accent); font-size:.76rem; font-weight:850; letter-spacing:.12em; text-transform:uppercase; }
+    .card h2 { margin:0; font-family:Georgia, "Times New Roman", serif; font-size:clamp(1.55rem, 3vw, 2.1rem); font-weight:500; line-height:1.05; }
+    .concept { min-height:3em; margin:12px 0 18px; color:#d3cdd4; }
+    .topics { display:flex; flex-wrap:wrap; gap:6px; margin:-4px 0 18px; }
+    .topics span { padding:4px 8px; border:1px solid #413a44; border-radius:999px; color:#bdb6be; font-size:.72rem; }
+    details { border-top:1px solid var(--line); }
+    summary { padding:14px 0 0; color:#fff; font-weight:750; cursor:pointer; list-style-position:outside; }
+    summary:focus-visible, .preview-link:focus-visible, .filter:focus-visible, .smart-topic:focus-visible { outline:3px solid var(--focus); outline-offset:3px; }
+    dl { margin:18px 0 0; }
+    dl div { display:grid; grid-template-columns:145px 1fr; gap:14px; padding:11px 0; border-top:1px solid #342e36; }
+    dt { color:var(--accent); font-size:.76rem; font-weight:850; letter-spacing:.07em; text-transform:uppercase; }
+    dd { margin:0; color:#d7d1d7; }
+    .empty { display:none; padding:70px 0 90px; text-align:center; color:#c5bec6; }
+    .empty.visible { display:block; }
+    footer { padding:28px 0 50px; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+    @media (max-width: 980px) { .toolbar { grid-template-columns:1fr; } .grid { grid-template-columns:1fr; } .concept { min-height:auto; } }
+    @media (max-width: 620px) { .shell { width:min(100% - 24px, 1500px); } .masthead { padding-top:24px; } .filters { flex-wrap:nowrap; overflow-x:auto; padding-bottom:4px; } .filter { flex:0 0 auto; } .smart-topics { margin-right:-12px; } .result-line { align-items:flex-end; } dl div { grid-template-columns:1fr; gap:4px; } .card-body { padding:16px; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } *, *::before, *::after { transition:none !important; } }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell">
+      <p class="eyebrow">Archivo creativo · edición 2026</p>
+      <h1>30 sistemas para contar una idea.</h1>
+      <p class="intro">Biblioteca operativa de composiciones para videos verticales. Cada ficha conserva su ángulo de comunicación, reglas de construcción, accesibilidad y métrica de aprendizaje.</p>
+      <div class="stats" aria-label="Resumen del catálogo">
+        <span class="stat"><strong>30</strong> plantillas</span>
+        <span class="stat"><strong>4</strong> colecciones</span>
+        <span class="stat"><strong>5</strong> capturas por tablero</span>
+        <span class="stat">Fuente maestra: <strong>JSON normalizado</strong></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar-wrap">
+    <div class="shell toolbar" aria-label="Controles del catálogo">
+      <label>
+        <span style="position:absolute;clip:rect(0 0 0 0);clip-path:inset(50%);width:1px;height:1px;overflow:hidden">Buscar plantillas</span>
+        <input class="search" id="search" type="search" placeholder="Describe lo que necesitas: marketing, ventas, productos…" autocomplete="off">
+      </label>
+      <div class="filters" role="group" aria-label="Filtrar por colección">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">Todas</button>
+        <button class="filter" type="button" data-filter="fundamentos" aria-pressed="false">01–05 Fundamentos</button>
+        <button class="filter" type="button" data-filter="angulos" aria-pressed="false">06–10 Ángulos</button>
+        <button class="filter" type="button" data-filter="mundos" aria-pressed="false">11–20 Mundos</button>
+        <button class="filter" type="button" data-filter="inclusivo" aria-pressed="false">21–30 Inclusivo</button>
+      </div>
+      <div class="smart-topics" aria-label="Búsquedas sugeridas">
+        <span class="smart-label">Búsqueda inteligente</span>
+        <button class="smart-topic" type="button" data-query="marketing">Marketing</button>
+        <button class="smart-topic" type="button" data-query="ventas">Ventas</button>
+        <button class="smart-topic" type="button" data-query="productos">Productos</button>
+        <button class="smart-topic" type="button" data-query="IA">IA</button>
+        <button class="smart-topic" type="button" data-query="educación">Educación</button>
+        <button class="smart-topic" type="button" data-query="storytelling">Storytelling</button>
+        <button class="smart-topic" type="button" data-query="accesibilidad">Accesibilidad</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="shell">
+    <div class="result-line" aria-live="polite">
+      <span id="count">Mostrando 30 de 30</span>
+      <span id="order-label">Orden fijo T01 → T30</span>
+    </div>
+    <section class="grid" id="catalog" aria-label="Plantillas visuales">
+      
+    <article class="card" data-index="1" data-collection="fundamentos" data-status="approved" data-topics="marketing|marca|contenido|autoridad|educación" data-search="t01 editorial impreso fundamentos 01–05 convierte una idea educativa en una portada y una secuencia editorial de alta autoridad. claridad editorial y autoridad. comprensión y confianza. retícula de revista, placas oscuras, titulares grandes y acentos rosa/cian. explicaciones, datos, opinión profesional y educación de negocio. marketing marca contenido autoridad educación" style="--accent:#ff596f">
+      <a class="preview-link" href="../OPCION-01_EDITORIAL-IMPRESO/propuesta-01.png" target="_blank" aria-label="Abrir tablero completo de T01 Editorial impreso">
+        <img src="../OPCION-01_EDITORIAL-IMPRESO/propuesta-01.png" alt="Tablero horizontal con cinco capturas de la plantilla T01 Editorial impreso" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">01</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Fundamentos</p>
+        <h2>Editorial impreso</h2>
+        <p class="concept">Convierte una idea educativa en una portada y una secuencia editorial de alta autoridad.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>marketing</span><span>marca</span><span>contenido</span><span>autoridad</span><span>educación</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Claridad editorial y autoridad.</dd></div>
+            <div><dt>Motivación</dt><dd>Comprensión y confianza.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Retícula de revista, placas oscuras, titulares grandes y acentos rosa/cian.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Pregunta frontal → dato o tensión → contraste → síntesis → llamada a la acción.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Añadir páginas como portada, dato, cita, ejemplo, síntesis y cierre sin cambiar la retícula.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Explicaciones, datos, opinión profesional y educación de negocio.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Retención por bloque y guardados.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="2" data-collection="fundamentos" data-status="approved" data-topics="marketing|redes sociales|campañas|tendencias|viralidad" data-search="t02 internet nativo fundamentos 01–05 habla el lenguaje de interfaz y reacción de las plataformas sin imitar una red específica. interrupción controlada y participación. novedad y reacción rápida. ventanas, badges, gráficos, barras y acentos neón sobre fondos digitales. mitos, tendencias, comparativas y preguntas de comunidad. marketing redes sociales campañas tendencias viralidad" style="--accent:#ff596f">
+      <a class="preview-link" href="../OPCION-02_INTERNET-NATIVO/propuesta-02.png" target="_blank" aria-label="Abrir tablero completo de T02 Internet nativo">
+        <img src="../OPCION-02_INTERNET-NATIVO/propuesta-02.png" alt="Tablero horizontal con cinco capturas de la plantilla T02 Internet nativo" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">02</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Fundamentos</p>
+        <h2>Internet nativo</h2>
+        <p class="concept">Habla el lenguaje de interfaz y reacción de las plataformas sin imitar una red específica.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>marketing</span><span>redes sociales</span><span>campañas</span><span>tendencias</span><span>viralidad</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Interrupción controlada y participación.</dd></div>
+            <div><dt>Motivación</dt><dd>Novedad y reacción rápida.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Ventanas, badges, gráficos, barras y acentos neón sobre fondos digitales.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Hook disruptivo → reacción → prueba visual → intervención del presentador → CTA social.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Alternar módulos de reacción, encuesta, comparación, comentario y resultado.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Mitos, tendencias, comparativas y preguntas de comunidad.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Elección de ver, comentarios y retención inicial.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="3" data-collection="fundamentos" data-status="approved" data-topics="storytelling|marca personal|testimonios|servicios|confianza" data-search="t03 minidocumental humano fundamentos 01–05 presenta el aprendizaje como una pequeña historia observacional y cercana. curiosidad progresiva y cercanía. empatía y reflexión. fotografía protagonista, rótulos sobrios, aire cinematográfico y textos contenidos. historias reales, procesos, errores y transformaciones. storytelling marca personal testimonios servicios confianza" style="--accent:#ff596f">
+      <a class="preview-link" href="../OPCION-03_MINIDOCUMENTAL-HUMANO/propuesta-03.png" target="_blank" aria-label="Abrir tablero completo de T03 Minidocumental humano">
+        <img src="../OPCION-03_MINIDOCUMENTAL-HUMANO/propuesta-03.png" alt="Tablero horizontal con cinco capturas de la plantilla T03 Minidocumental humano" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">03</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Fundamentos</p>
+        <h2>Minidocumental humano</h2>
+        <p class="concept">Presenta el aprendizaje como una pequeña historia observacional y cercana.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>storytelling</span><span>marca personal</span><span>testimonios</span><span>servicios</span><span>confianza</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Curiosidad progresiva y cercanía.</dd></div>
+            <div><dt>Motivación</dt><dd>Empatía y reflexión.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Fotografía protagonista, rótulos sobrios, aire cinematográfico y textos contenidos.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Situación humana → tensión → hallazgo → significado → pregunta reflexiva.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Añadir escenas por momentos reales: contexto, gesto, dificultad, decisión y consecuencia.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Historias reales, procesos, errores y transformaciones.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Retención narrativa y comentarios de identificación.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="4" data-collection="fundamentos" data-status="approved" data-topics="productos|procesos|estrategia|educación|software" data-search="t04 sistema claro fundamentos 01–05 hace visible un mecanismo complejo mediante piezas, relaciones y decisiones ordenadas. explicación lógica y decisión visual. orden y control. diagramas modulares, tarjetas, flechas y comparaciones de lectura rápida. procesos, frameworks, tutoriales y decisiones técnicas. productos procesos estrategia educación software" style="--accent:#ff596f">
+      <a class="preview-link" href="../OPCION-04_SISTEMA-CLARO/propuesta-04.png" target="_blank" aria-label="Abrir tablero completo de T04 Sistema claro">
+        <img src="../OPCION-04_SISTEMA-CLARO/propuesta-04.png" alt="Tablero horizontal con cinco capturas de la plantilla T04 Sistema claro" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">04</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Fundamentos</p>
+        <h2>Sistema claro</h2>
+        <p class="concept">Hace visible un mecanismo complejo mediante piezas, relaciones y decisiones ordenadas.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>productos</span><span>procesos</span><span>estrategia</span><span>educación</span><span>software</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Explicación lógica y decisión visual.</dd></div>
+            <div><dt>Motivación</dt><dd>Orden y control.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Diagramas modulares, tarjetas, flechas y comparaciones de lectura rápida.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Problema → mecanismo → comparación → ventaja → criterio de decisión.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Sumar pasos numerados, bifurcaciones, ejemplos o verificaciones dentro del mismo sistema.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Procesos, frameworks, tutoriales y decisiones técnicas.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Guardados y retención hasta la solución.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="5" data-collection="fundamentos" data-status="approved" data-topics="marketing|comunidad|humor|redes sociales|engagement" data-search="t05 cómic pop fundamentos 01–05 transforma una explicación en diálogo expresivo, exagerado y fácil de compartir. diálogo expresivo y entretenimiento. energía social y juego. globos, viñetas, onomatopeyas, contornos gruesos y contraste pop. objeciones, conversaciones, humor y verdades incómodas. marketing comunidad humor redes sociales engagement" style="--accent:#ff596f">
+      <a class="preview-link" href="../OPCION-05_COMIC-POP/propuesta-05.png" target="_blank" aria-label="Abrir tablero completo de T05 Cómic pop">
+        <img src="../OPCION-05_COMIC-POP/propuesta-05.png" alt="Tablero horizontal con cinco capturas de la plantilla T05 Cómic pop" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">05</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Fundamentos</p>
+        <h2>Cómic pop</h2>
+        <p class="concept">Transforma una explicación en diálogo expresivo, exagerado y fácil de compartir.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>marketing</span><span>comunidad</span><span>humor</span><span>redes sociales</span><span>engagement</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Diálogo expresivo y entretenimiento.</dd></div>
+            <div><dt>Motivación</dt><dd>Energía social y juego.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Globos, viñetas, onomatopeyas, contornos gruesos y contraste pop.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Pregunta → diálogo → reacción → contraste → desafío final.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Agregar viñetas como réplicas, reacciones, ejemplos y remates sin romper el lenguaje gráfico.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Objeciones, conversaciones, humor y verdades incómodas.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Compartidos, comentarios y retención en el remate.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="6" data-collection="angulos" data-status="approved" data-topics="storytelling|marca personal|ventas|servicios|confianza" data-search="t06 confesión cruda ángulos de comunicación 06–10 una admisión concreta abre una historia honesta y convierte el error en aprendizaje. vulnerabilidad y aprendizaje. identificación y confianza. papel crema, líneas de diario, tinta borgoña, tachados y notas personales. errores propios, lecciones difíciles y detrás de cámaras. storytelling marca personal ventas servicios confianza" style="--accent:#ffb22e">
+      <a class="preview-link" href="../OPCION-06_CONFESION-CRUDA/propuesta-06.png" target="_blank" aria-label="Abrir tablero completo de T06 Confesión cruda">
+        <img src="../OPCION-06_CONFESION-CRUDA/propuesta-06.png" alt="Tablero horizontal con cinco capturas de la plantilla T06 Confesión cruda" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">06</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Ángulos</p>
+        <h2>Confesión cruda</h2>
+        <p class="concept">Una admisión concreta abre una historia honesta y convierte el error en aprendizaje.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>storytelling</span><span>marca personal</span><span>ventas</span><span>servicios</span><span>confianza</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Vulnerabilidad y aprendizaje.</dd></div>
+            <div><dt>Motivación</dt><dd>Identificación y confianza.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Papel crema, líneas de diario, tinta borgoña, tachados y notas personales.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Admisión → creencia equivocada → consecuencia → descubrimiento → aprendizaje.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Continuar con entradas de diario, pruebas, costos, cambio de criterio y conclusión.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Errores propios, lecciones difíciles y detrás de cámaras.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Retención después de la admisión y comentarios personales.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="7" data-collection="angulos" data-status="approved" data-topics="productos|ventas|comparación|evidencia|auditoría" data-search="t07 caso abierto ángulos de comunicación 06–10 organiza el contenido como una investigación cuya conclusión se gana con evidencia. investigación y evidencia visible. verificación y reducción de incertidumbre. archivo negro/blanco/rojo, fichas, listas, sellos, comparación y prueba. desmontar afirmaciones, auditorías, casos y comparativas. productos ventas comparación evidencia auditoría" style="--accent:#ffb22e">
+      <a class="preview-link" href="../OPCION-07_CASO-ABIERTO/propuesta-07.png" target="_blank" aria-label="Abrir tablero completo de T07 Caso abierto">
+        <img src="../OPCION-07_CASO-ABIERTO/propuesta-07.png" alt="Tablero horizontal con cinco capturas de la plantilla T07 Caso abierto" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">07</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Ángulos</p>
+        <h2>Caso abierto</h2>
+        <p class="concept">Organiza el contenido como una investigación cuya conclusión se gana con evidencia.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>productos</span><span>ventas</span><span>comparación</span><span>evidencia</span><span>auditoría</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Investigación y evidencia visible.</dd></div>
+            <div><dt>Motivación</dt><dd>Verificación y reducción de incertidumbre.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Archivo negro/blanco/rojo, fichas, listas, sellos, comparación y prueba.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Pregunta del caso → pistas → contraste → verificación → veredicto.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Añadir evidencia numerada, fuente, descarte, comparación y conclusión provisional.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Desmontar afirmaciones, auditorías, casos y comparativas.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Guardados y retención hasta el criterio de verificación.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="8" data-collection="angulos" data-status="approved" data-topics="marketing|ventas|objeciones|debate|comunidad" data-search="t08 duelo de ideas ángulos de comunicación 06–10 pone dos posturas legítimas frente a frente y obliga a elegir con criterio. contraste y toma de postura. elección y expresión pública. pantalla dividida rojo/azul, versus, columnas opuestas y marcador de decisión. debates, métodos alternativos y decisiones con trade-offs. marketing ventas objeciones debate comunidad" style="--accent:#ffb22e">
+      <a class="preview-link" href="../OPCION-08_DUELO-DE-IDEAS/propuesta-08.png" target="_blank" aria-label="Abrir tablero completo de T08 Duelo de ideas">
+        <img src="../OPCION-08_DUELO-DE-IDEAS/propuesta-08.png" alt="Tablero horizontal con cinco capturas de la plantilla T08 Duelo de ideas" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">08</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Ángulos</p>
+        <h2>Duelo de ideas</h2>
+        <p class="concept">Pone dos posturas legítimas frente a frente y obliga a elegir con criterio.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>marketing</span><span>ventas</span><span>objeciones</span><span>debate</span><span>comunidad</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Contraste y toma de postura.</dd></div>
+            <div><dt>Motivación</dt><dd>Elección y expresión pública.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Pantalla dividida rojo/azul, versus, columnas opuestas y marcador de decisión.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Tesis A vs. tesis B → argumento A → argumento B → matiz → elección.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Agregar rondas comparables con el mismo número de argumentos y un cierre no engañoso.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Debates, métodos alternativos y decisiones con trade-offs.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Comentarios con postura y compartidos.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="9" data-collection="angulos" data-status="approved" data-topics="marketing|branding|marca personal|posicionamiento|autoridad" data-search="t09 manifiesto de autor ángulos de comunicación 06–10 convierte una idea en declaración de identidad y posicionamiento reconocible. identidad reconocible y aspiración. diferenciación y expresión personal. verde oscuro, crema y oro; composición editorial premium y firma de autor. marca personal, visión, valores y posicionamiento. marketing branding marca personal posicionamiento autoridad" style="--accent:#ffb22e">
+      <a class="preview-link" href="../OPCION-09_MANIFIESTO-DE-AUTOR/propuesta-09.png" target="_blank" aria-label="Abrir tablero completo de T09 Manifiesto de autor">
+        <img src="../OPCION-09_MANIFIESTO-DE-AUTOR/propuesta-09.png" alt="Tablero horizontal con cinco capturas de la plantilla T09 Manifiesto de autor" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">09</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Ángulos</p>
+        <h2>Manifiesto de autor</h2>
+        <p class="concept">Convierte una idea en declaración de identidad y posicionamiento reconocible.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>marketing</span><span>branding</span><span>marca personal</span><span>posicionamiento</span><span>autoridad</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Identidad reconocible y aspiración.</dd></div>
+            <div><dt>Motivación</dt><dd>Diferenciación y expresión personal.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Verde oscuro, crema y oro; composición editorial premium y firma de autor.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Declaración → aquello que se rechaza → principio → conducta → firma.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Sumar principios, frases bandera, ejemplos y compromisos manteniendo voz y sello.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Marca personal, visión, valores y posicionamiento.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Compartidos, guardados y comentarios sobre identidad.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="10" data-collection="angulos" data-status="approved" data-topics="ventas|leads|participación|reto|formación" data-search="t10 reto de autor ángulos de comunicación 06–10 convierte el mensaje en una prueba breve que la audiencia puede realizar y reportar. autoevaluación y participación. autonomía, competencia y progreso. coral, turquesa y crema; checklist, números grandes y tarjetas de reto. ejercicios, diagnósticos no clínicos, hábitos y desafíos. ventas leads participación reto formación" style="--accent:#ffb22e">
+      <a class="preview-link" href="../OPCION-10_RETO-DE-AUTOR/propuesta-10.png" target="_blank" aria-label="Abrir tablero completo de T10 Reto de autor">
+        <img src="../OPCION-10_RETO-DE-AUTOR/propuesta-10.png" alt="Tablero horizontal con cinco capturas de la plantilla T10 Reto de autor" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">10</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Ángulos</p>
+        <h2>Reto de autor</h2>
+        <p class="concept">Convierte el mensaje en una prueba breve que la audiencia puede realizar y reportar.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>ventas</span><span>leads</span><span>participación</span><span>reto</span><span>formación</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Autoevaluación y participación.</dd></div>
+            <div><dt>Motivación</dt><dd>Autonomía, competencia y progreso.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Coral, turquesa y crema; checklist, números grandes y tarjetas de reto.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Promesa → instrucción 1 → instrucción 2 → instrucción 3 → resultado/CTA.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Agregar pasos solo si cada uno es realizable, verificable y tiene retroalimentación.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Ejercicios, diagnósticos no clínicos, hábitos y desafíos.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Respuestas numeradas y retención hasta el resultado.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="11" data-collection="mundos" data-status="approved" data-topics="marketing|creatividad|innovación|campañas|tendencias" data-search="t11 realidad deformada mundos visuales 11–20 una idea cotidiana cruza un portal y revela una lectura inesperada. sorpresa visual y reencuadre. curiosidad y descubrimiento. portales, escalas imposibles, círculos, masas flotantes y espacio surreal. reencuadres, paradojas, futuro e ideas contraintuitivas. marketing creatividad innovación campañas tendencias" style="--accent:#7a6cff">
+      <a class="preview-link" href="../OPCION-11_REALIDAD-DEFORMADA/propuesta-11.png" target="_blank" aria-label="Abrir tablero completo de T11 Realidad deformada">
+        <img src="../OPCION-11_REALIDAD-DEFORMADA/propuesta-11.png" alt="Tablero horizontal con cinco capturas de la plantilla T11 Realidad deformada" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">11</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Mundos visuales</p>
+        <h2>Realidad deformada</h2>
+        <p class="concept">Una idea cotidiana cruza un portal y revela una lectura inesperada.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>marketing</span><span>creatividad</span><span>innovación</span><span>campañas</span><span>tendencias</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Sorpresa visual y reencuadre.</dd></div>
+            <div><dt>Motivación</dt><dd>Curiosidad y descubrimiento.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Portales, escalas imposibles, círculos, masas flotantes y espacio surreal.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Realidad conocida → anomalía → cruce → nueva lectura → regreso con pregunta.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Crear nuevos portales o transformaciones, una por beat, conservando el ancla narrativa.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Reencuadres, paradojas, futuro e ideas contraintuitivas.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Repetición y retención después del portal.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="12" data-collection="mundos" data-status="approved" data-topics="IA|prompts|herramientas|software|productos" data-search="t12 prompt playground mundos visuales 11–20 el aprendizaje ocurre manipulando una interfaz creativa, no solo escuchando una explicación. proceso visible y experimentación. descubrimiento y control. ventanas retro, cursores, archivos, selecciones, comandos y guardado. ia, prompts, herramientas y procesos iterativos. ia prompts herramientas software productos" style="--accent:#7a6cff">
+      <a class="preview-link" href="../OPCION-12_PROMPT-PLAYGROUND/propuesta-12.png" target="_blank" aria-label="Abrir tablero completo de T12 Prompt Playground">
+        <img src="../OPCION-12_PROMPT-PLAYGROUND/propuesta-12.png" alt="Tablero horizontal con cinco capturas de la plantilla T12 Prompt Playground" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">12</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Mundos visuales</p>
+        <h2>Prompt Playground</h2>
+        <p class="concept">El aprendizaje ocurre manipulando una interfaz creativa, no solo escuchando una explicación.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>IA</span><span>prompts</span><span>herramientas</span><span>software</span><span>productos</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Proceso visible y experimentación.</dd></div>
+            <div><dt>Motivación</dt><dd>Descubrimiento y control.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Ventanas retro, cursores, archivos, selecciones, comandos y guardado.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Prompt inicial → ajuste → respuesta → comparación → guardar/aplicar.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Añadir iteraciones como ventanas nuevas sin ocultar el antes/después.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>IA, prompts, herramientas y procesos iterativos.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Guardados, finalización y comentarios sobre el proceso.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="13" data-collection="mundos" data-status="approved" data-topics="educación|estrategia|investigación|servicios|storytelling" data-search="t13 explorecore mundos visuales 11–20 la idea se descubre recorriendo un mapa con hitos y observaciones de campo. exploración guiada y pausa. curiosidad y calma. mapa, brújula, ruta, sellos, coordenadas y cuaderno de campo. procesos de descubrimiento, investigación y aprendizaje gradual. educación estrategia investigación servicios storytelling" style="--accent:#7a6cff">
+      <a class="preview-link" href="../OPCION-13_EXPLORECORE/propuesta-13.png" target="_blank" aria-label="Abrir tablero completo de T13 Explorecore">
+        <img src="../OPCION-13_EXPLORECORE/propuesta-13.png" alt="Tablero horizontal con cinco capturas de la plantilla T13 Explorecore" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">13</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Mundos visuales</p>
+        <h2>Explorecore</h2>
+        <p class="concept">La idea se descubre recorriendo un mapa con hitos y observaciones de campo.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>educación</span><span>estrategia</span><span>investigación</span><span>servicios</span><span>storytelling</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Exploración guiada y pausa.</dd></div>
+            <div><dt>Motivación</dt><dd>Curiosidad y calma.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Mapa, brújula, ruta, sellos, coordenadas y cuaderno de campo.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Destino → salida → hallazgo → desvío útil → aprendizaje del viaje.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Agregar hitos, no pantallas arbitrarias; cada hito debe cambiar la comprensión.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Procesos de descubrimiento, investigación y aprendizaje gradual.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Porcentaje visto, guardados y respuestas reflexivas.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="14" data-collection="mundos" data-status="approved" data-topics="productos|diseño|innovación|creatividad|demostración" data-search="t14 texture check mundos visuales 11–20 usa cambios materiales para volver tangible una idea abstracta. metáfora sensorial y transformación. curiosidad táctil. vidrio, arcilla, volumen, transparencias, sombras blandas y superficies. conceptos abstractos, cambio, resistencia y construcción. productos diseño innovación creatividad demostración" style="--accent:#7a6cff">
+      <a class="preview-link" href="../OPCION-14_TEXTURE-CHECK/propuesta-14.png" target="_blank" aria-label="Abrir tablero completo de T14 Texture Check">
+        <img src="../OPCION-14_TEXTURE-CHECK/propuesta-14.png" alt="Tablero horizontal con cinco capturas de la plantilla T14 Texture Check" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">14</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Mundos visuales</p>
+        <h2>Texture Check</h2>
+        <p class="concept">Usa cambios materiales para volver tangible una idea abstracta.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>productos</span><span>diseño</span><span>innovación</span><span>creatividad</span><span>demostración</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Metáfora sensorial y transformación.</dd></div>
+            <div><dt>Motivación</dt><dd>Curiosidad táctil.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Vidrio, arcilla, volumen, transparencias, sombras blandas y superficies.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Materia inicial → presión → deformación → nueva forma → significado.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Introducir una sola cualidad material nueva por beat y relacionarla con la idea.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Conceptos abstractos, cambio, resistencia y construcción.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Replays y recuerdo visual cualitativo.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="15" data-collection="mundos" data-status="approved" data-topics="marketing|redes sociales|marca personal|contenido|autenticidad" data-search="t15 notes app chic mundos visuales 11–20 presenta el mensaje como registro personal capturado en el momento. intimidad de proceso y autenticidad. cercanía e identificación. carrete, nota, audio, checklist, recortes y anotaciones personales. rutinas, aprendizajes personales, making-of y confesiones ligeras. marketing redes sociales marca personal contenido autenticidad" style="--accent:#7a6cff">
+      <a class="preview-link" href="../OPCION-15_NOTES-APP-CHIC/propuesta-15.png" target="_blank" aria-label="Abrir tablero completo de T15 Notes App Chic">
+        <img src="../OPCION-15_NOTES-APP-CHIC/propuesta-15.png" alt="Tablero horizontal con cinco capturas de la plantilla T15 Notes App Chic" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">15</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Mundos visuales</p>
+        <h2>Notes App Chic</h2>
+        <p class="concept">Presenta el mensaje como registro personal capturado en el momento.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>marketing</span><span>redes sociales</span><span>marca personal</span><span>contenido</span><span>autenticidad</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Intimidad de proceso y autenticidad.</dd></div>
+            <div><dt>Motivación</dt><dd>Cercanía e identificación.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Carrete, nota, audio, checklist, recortes y anotaciones personales.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Captura → nota personal → prueba → audio/recordatorio → decisión.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Añadir registros fechados, fotos, listas y notas de voz con función narrativa.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Rutinas, aprendizajes personales, making-of y confesiones ligeras.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Comentarios de identificación y compartidos privados.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="16" data-collection="mundos" data-status="approved" data-topics="servicios|premium|bienestar|marca|claridad" data-search="t16 opt-out mundos visuales 11–20 reduce el estímulo para que una sola idea tenga espacio y peso. silencio visual y foco. alivio cognitivo y claridad. mucho espacio negativo, tipografía contenida y una idea por pantalla. mensajes profundos, premium, reflexión y temas sensibles. servicios premium bienestar marca claridad" style="--accent:#7a6cff">
+      <a class="preview-link" href="../OPCION-16_OPT-OUT/propuesta-16.png" target="_blank" aria-label="Abrir tablero completo de T16 Opt-Out">
+        <img src="../OPCION-16_OPT-OUT/propuesta-16.png" alt="Tablero horizontal con cinco capturas de la plantilla T16 Opt-Out" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">16</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Mundos visuales</p>
+        <h2>Opt-Out</h2>
+        <p class="concept">Reduce el estímulo para que una sola idea tenga espacio y peso.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>servicios</span><span>premium</span><span>bienestar</span><span>marca</span><span>claridad</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Silencio visual y foco.</dd></div>
+            <div><dt>Motivación</dt><dd>Alivio cognitivo y claridad.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Mucho espacio negativo, tipografía contenida y una idea por pantalla.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Pausa → idea → respiración → matiz → cierre limpio.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Añadir beats solo cuando la idea anterior haya concluido; no acumular tarjetas.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Mensajes profundos, premium, reflexión y temas sensibles.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Finalización frente a plantillas densas.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="17" data-collection="mundos" data-status="approved" data-topics="marketing|storytelling|ventas|lanzamientos|expectativa" data-search="t17 drama club mundos visuales 11–20 construye el contenido como una escena dramática con conflicto y giro. tensión emocional y revelación. expectativa y emoción. cortinas, spotlight, actos, rótulos teatrales y contraste escénico. storytelling, dilemas, errores y transformaciones. marketing storytelling ventas lanzamientos expectativa" style="--accent:#7a6cff">
+      <a class="preview-link" href="../OPCION-17_DRAMA-CLUB/propuesta-17.png" target="_blank" aria-label="Abrir tablero completo de T17 Drama Club">
+        <img src="../OPCION-17_DRAMA-CLUB/propuesta-17.png" alt="Tablero horizontal con cinco capturas de la plantilla T17 Drama Club" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">17</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Mundos visuales</p>
+        <h2>Drama Club</h2>
+        <p class="concept">Construye el contenido como una escena dramática con conflicto y giro.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>marketing</span><span>storytelling</span><span>ventas</span><span>lanzamientos</span><span>expectativa</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Tensión emocional y revelación.</dd></div>
+            <div><dt>Motivación</dt><dd>Expectativa y emoción.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Cortinas, spotlight, actos, rótulos teatrales y contraste escénico.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Personaje/tesis → conflicto → escalada → giro → decisión.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Agregar actos, nunca relleno; cada acto debe elevar o resolver la tensión.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Storytelling, dilemas, errores y transformaciones.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Retención hasta el giro y comentarios con postura.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="18" data-collection="mundos" data-status="approved" data-topics="negocios|ventas|comercio local|comunidad|emprendimiento" data-search="t18 rótulo popular mundos visuales 11–20 da al mensaje la calidez y memorabilidad de una gráfica cotidiana hecha a mano. cercanía cultural y oficio. familiaridad y pertenencia. rótulos pintados, color cálido, marcos decorativos y señal urbana. consejos directos, cultura emprendedora y saber práctico. negocios ventas comercio local comunidad emprendimiento" style="--accent:#7a6cff">
+      <a class="preview-link" href="../OPCION-18_ROTULO-POPULAR/propuesta-18.png" target="_blank" aria-label="Abrir tablero completo de T18 Rótulo popular">
+        <img src="../OPCION-18_ROTULO-POPULAR/propuesta-18.png" alt="Tablero horizontal con cinco capturas de la plantilla T18 Rótulo popular" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">18</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Mundos visuales</p>
+        <h2>Rótulo popular</h2>
+        <p class="concept">Da al mensaje la calidez y memorabilidad de una gráfica cotidiana hecha a mano.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>negocios</span><span>ventas</span><span>comercio local</span><span>comunidad</span><span>emprendimiento</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Cercanía cultural y oficio.</dd></div>
+            <div><dt>Motivación</dt><dd>Familiaridad y pertenencia.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Rótulos pintados, color cálido, marcos decorativos y señal urbana.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Llamado → refrán/idea → ejemplo cotidiano → aprendizaje → invitación.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Añadir letreros como escenas y mantener legibilidad sobre la ornamentación.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Consejos directos, cultura emprendedora y saber práctico.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Compartidos y reconocimiento cultural cualitativo.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="19" data-collection="mundos" data-status="approved" data-topics="educación|gamificación|productos|onboarding|participación" data-search="t19 pixel quest mundos visuales 11–20 convierte el aprendizaje en misión con progreso, elecciones y recompensa. gamificación de una decisión. competencia y avance. pixel art, mapa de misión, inventario, diálogo y marcador de progreso. retos, procesos por niveles, hábitos y participación. educación gamificación productos onboarding participación" style="--accent:#7a6cff">
+      <a class="preview-link" href="../OPCION-19_PIXEL-QUEST/propuesta-19.png" target="_blank" aria-label="Abrir tablero completo de T19 Pixel Quest">
+        <img src="../OPCION-19_PIXEL-QUEST/propuesta-19.png" alt="Tablero horizontal con cinco capturas de la plantilla T19 Pixel Quest" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">19</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Mundos visuales</p>
+        <h2>Pixel Quest</h2>
+        <p class="concept">Convierte el aprendizaje en misión con progreso, elecciones y recompensa.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>educación</span><span>gamificación</span><span>productos</span><span>onboarding</span><span>participación</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Gamificación de una decisión.</dd></div>
+            <div><dt>Motivación</dt><dd>Competencia y avance.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Pixel art, mapa de misión, inventario, diálogo y marcador de progreso.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Misión → obstáculo → opción → acción → recompensa/desbloqueo.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Agregar niveles o ítems solo si representan pasos reales del aprendizaje.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Retos, procesos por niveles, hábitos y participación.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Respuestas 1–2–3, finalización y replays.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="20" data-collection="mundos" data-status="approved" data-topics="educación|estrategia|hábitos|comunidad|crecimiento" data-search="t20 jardín de ideas mundos visuales 11–20 representa el conocimiento como algo que se planta, cuida y cosecha. crecimiento orgánico y proceso. propósito y progreso. semilla, raíz, brote, hojas, etiquetas botánicas y textura natural. hábitos, aprendizaje, estrategia de largo plazo y comunidad. educación estrategia hábitos comunidad crecimiento" style="--accent:#7a6cff">
+      <a class="preview-link" href="../OPCION-20_JARDIN-DE-IDEAS/propuesta-20.png" target="_blank" aria-label="Abrir tablero completo de T20 Jardín de ideas">
+        <img src="../OPCION-20_JARDIN-DE-IDEAS/propuesta-20.png" alt="Tablero horizontal con cinco capturas de la plantilla T20 Jardín de ideas" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">20</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Mundos visuales</p>
+        <h2>Jardín de ideas</h2>
+        <p class="concept">Representa el conocimiento como algo que se planta, cuida y cosecha.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>educación</span><span>estrategia</span><span>hábitos</span><span>comunidad</span><span>crecimiento</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Crecimiento orgánico y proceso.</dd></div>
+            <div><dt>Motivación</dt><dd>Propósito y progreso.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Semilla, raíz, brote, hojas, etiquetas botánicas y textura natural.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Semilla → raíz → cuidado → brote → cosecha/aplicación.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Añadir etapas orgánicas o ramas, manteniendo visible la relación causa–crecimiento.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Texto esencial sobre superficie estable, jerarquía clara, información no dependiente solo del color, subtítulos revisados y movimiento reducible.</dd></div>
+            <div><dt>Ideal para</dt><dd>Hábitos, aprendizaje, estrategia de largo plazo y comunidad.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Guardados, finalización y aplicación reportada.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="21" data-collection="inclusivo" data-status="approved" data-topics="educación|tutoriales|productividad|foco|procesos" data-search="t21 ruta de foco diseño inclusivo 21–30 guía la atención con una sola prioridad y un próximo paso inequívoco. atención guiada y priorización. reducir competencia entre estímulos. ruta visible, foco central, señal de avance y zonas despejadas. tutoriales, instrucciones y llamadas a la acción secuenciales. educación tutoriales productividad foco procesos" style="--accent:#17b897">
+      <a class="preview-link" href="../OPCION-21_RUTA-DE-FOCO/propuesta-21.png" target="_blank" aria-label="Abrir tablero completo de T21 Ruta de foco">
+        <img src="../OPCION-21_RUTA-DE-FOCO/propuesta-21.png" alt="Tablero horizontal con cinco capturas de la plantilla T21 Ruta de foco" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">21</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Diseño inclusivo</p>
+        <h2>Ruta de foco</h2>
+        <p class="concept">Guía la atención con una sola prioridad y un próximo paso inequívoco.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>educación</span><span>tutoriales</span><span>productividad</span><span>foco</span><span>procesos</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Atención guiada y priorización.</dd></div>
+            <div><dt>Motivación</dt><dd>Reducir competencia entre estímulos.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Ruta visible, foco central, señal de avance y zonas despejadas.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Objetivo → paso actual → ejemplo → confirmación → siguiente paso.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Una pieza nueva por paso; nunca mostrar simultáneamente todos los caminos.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Una idea y un siguiente paso visibles; no presupone una preferencia universal asociada al TDAH.</dd></div>
+            <div><dt>Ideal para</dt><dd>Tutoriales, instrucciones y llamadas a la acción secuenciales.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Finalización de secuencia.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="22" data-collection="inclusivo" data-status="approved" data-topics="productos|onboarding|procesos|educación|cursos" data-search="t22 camino predecible diseño inclusivo 21–30 hace visible dónde estamos, qué sigue y cuándo cambia la estructura. orientación y anticipación. seguridad cognitiva y continuidad. zonas estables, barra de progreso, pasos nombrados y aviso de transición. cursos, explicaciones largas, onboarding y procesos. productos onboarding procesos educación cursos" style="--accent:#17b897">
+      <a class="preview-link" href="../OPCION-22_CAMINO-PREDECIBLE/propuesta-22.png" target="_blank" aria-label="Abrir tablero completo de T22 Camino predecible">
+        <img src="../OPCION-22_CAMINO-PREDECIBLE/propuesta-22.png" alt="Tablero horizontal con cinco capturas de la plantilla T22 Camino predecible" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">22</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Diseño inclusivo</p>
+        <h2>Camino predecible</h2>
+        <p class="concept">Hace visible dónde estamos, qué sigue y cuándo cambia la estructura.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>productos</span><span>onboarding</span><span>procesos</span><span>educación</span><span>cursos</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Orientación y anticipación.</dd></div>
+            <div><dt>Motivación</dt><dd>Seguridad cognitiva y continuidad.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Zonas estables, barra de progreso, pasos nombrados y aviso de transición.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Mapa previo → paso 1 → paso 2 → recapitulación → próximo destino.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Repetir posiciones y numeración; avisar cualquier excepción antes de introducirla.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Estructura estable y anticipación; no presupone que todas las personas autistas rechacen la sorpresa.</dd></div>
+            <div><dt>Ideal para</dt><dd>Cursos, explicaciones largas, onboarding y procesos.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Orientación correcta entre pasos.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="23" data-collection="inclusivo" data-status="approved" data-topics="bienestar|salud|sensibilidad|educación|calma" data-search="t23 pausa sensorial diseño inclusivo 21–30 protege el mensaje con espacio, pocos estímulos y transiciones suaves. menor carga visual y sonora. comodidad y permanencia. paleta tenue, fondos serenos, pocos elementos y respiración amplia. temas sensibles, bienestar, reflexión y explicaciones densas. bienestar salud sensibilidad educación calma" style="--accent:#17b897">
+      <a class="preview-link" href="../OPCION-23_PAUSA-SENSORIAL/propuesta-23.png" target="_blank" aria-label="Abrir tablero completo de T23 Pausa sensorial">
+        <img src="../OPCION-23_PAUSA-SENSORIAL/propuesta-23.png" alt="Tablero horizontal con cinco capturas de la plantilla T23 Pausa sensorial" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">23</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Diseño inclusivo</p>
+        <h2>Pausa sensorial</h2>
+        <p class="concept">Protege el mensaje con espacio, pocos estímulos y transiciones suaves.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>bienestar</span><span>salud</span><span>sensibilidad</span><span>educación</span><span>calma</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Menor carga visual y sonora.</dd></div>
+            <div><dt>Motivación</dt><dd>Comodidad y permanencia.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Paleta tenue, fondos serenos, pocos elementos y respiración amplia.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Entrada suave → idea → pausa → ejemplo → cierre sin sobresalto.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Alternar idea y descanso; evitar capas simultáneas, flashes o sobresaturación sonora.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Carga sensorial moderada y variante de movimiento reducido; no elimina energía de toda la colección.</dd></div>
+            <div><dt>Ideal para</dt><dd>Temas sensibles, bienestar, reflexión y explicaciones densas.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Comodidad sensorial reportada y finalización.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="24" data-collection="inclusivo" data-status="approved" data-topics="accesibilidad|marketing|campañas|datos|móvil" data-search="t24 contraste xl diseño inclusivo 21–30 prioriza lectura inmediata en pantallas pequeñas mediante pocas palabras de gran escala. legibilidad extrema. acceso visual rápido. tipografía extra grande, contraste reforzado, fondos sólidos y síntesis. mensajes esenciales, hooks, pasos breves y cifras. accesibilidad marketing campañas datos móvil" style="--accent:#17b897">
+      <a class="preview-link" href="../OPCION-24_CONTRASTE-XL/propuesta-24.png" target="_blank" aria-label="Abrir tablero completo de T24 Contraste XL">
+        <img src="../OPCION-24_CONTRASTE-XL/propuesta-24.png" alt="Tablero horizontal con cinco capturas de la plantilla T24 Contraste XL" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">24</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Diseño inclusivo</p>
+        <h2>Contraste XL</h2>
+        <p class="concept">Prioriza lectura inmediata en pantallas pequeñas mediante pocas palabras de gran escala.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>accesibilidad</span><span>marketing</span><span>campañas</span><span>datos</span><span>móvil</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Legibilidad extrema.</dd></div>
+            <div><dt>Motivación</dt><dd>Acceso visual rápido.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Tipografía extra grande, contraste reforzado, fondos sólidos y síntesis.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Palabra clave → frase breve → dato → conclusión → acción.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Dividir el guion en más pantallas antes que reducir el tamaño tipográfico.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Apoya baja visión y móvil, pero no sustituye ampliación real ni audiodescripción.</dd></div>
+            <div><dt>Ideal para</dt><dd>Mensajes esenciales, hooks, pasos breves y cifras.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Precisión de lectura en móvil.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="25" data-collection="inclusivo" data-status="approved" data-topics="productos|datos|dashboards|accesibilidad|comparación" data-search="t25 forma + señal diseño inclusivo 21–30 repite cada diferencia mediante color, forma, símbolo y palabra. significado redundante y verificable. comprensión independiente del color. formas geométricas, iconos, patrones, etiquetas y color secundario. comparaciones, estados, semáforos, dashboards y decisiones. productos datos dashboards accesibilidad comparación" style="--accent:#17b897">
+      <a class="preview-link" href="../OPCION-25_FORMA-MAS-SENAL/propuesta-25.png" target="_blank" aria-label="Abrir tablero completo de T25 Forma + señal">
+        <img src="../OPCION-25_FORMA-MAS-SENAL/propuesta-25.png" alt="Tablero horizontal con cinco capturas de la plantilla T25 Forma + señal" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">25</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Diseño inclusivo</p>
+        <h2>Forma + señal</h2>
+        <p class="concept">Repite cada diferencia mediante color, forma, símbolo y palabra.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>productos</span><span>datos</span><span>dashboards</span><span>accesibilidad</span><span>comparación</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Significado redundante y verificable.</dd></div>
+            <div><dt>Motivación</dt><dd>Comprensión independiente del color.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Formas geométricas, iconos, patrones, etiquetas y color secundario.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Código visual → opción A → opción B → comparación → elección.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Cada nuevo estado recibe una forma, un símbolo y una etiqueta consistentes.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Nunca codifica una diferencia solo por color; no propone una paleta universal.</dd></div>
+            <div><dt>Ideal para</dt><dd>Comparaciones, estados, semáforos, dashboards y decisiones.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Comprensión sin información cromática.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="26" data-collection="inclusivo" data-status="approved" data-topics="educación|comunicación pública|accesibilidad|cursos|claridad" data-search="t26 lectura fácil diseño inclusivo 21–30 reduce la carga lingüística sin infantilizar el contenido. lenguaje literal y lectura progresiva. comprensión con menor esfuerzo. frases cortas, alineación izquierda, interlineado amplio y bloques claros. información pública, educación básica y conceptos nuevos. educación comunicación pública accesibilidad cursos claridad" style="--accent:#17b897">
+      <a class="preview-link" href="../OPCION-26_LECTURA-FACIL/propuesta-26.png" target="_blank" aria-label="Abrir tablero completo de T26 Lectura fácil">
+        <img src="../OPCION-26_LECTURA-FACIL/propuesta-26.png" alt="Tablero horizontal con cinco capturas de la plantilla T26 Lectura fácil" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">26</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Diseño inclusivo</p>
+        <h2>Lectura fácil</h2>
+        <p class="concept">Reduce la carga lingüística sin infantilizar el contenido.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>educación</span><span>comunicación pública</span><span>accesibilidad</span><span>cursos</span><span>claridad</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Lenguaje literal y lectura progresiva.</dd></div>
+            <div><dt>Motivación</dt><dd>Comprensión con menor esfuerzo.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Frases cortas, alineación izquierda, interlineado amplio y bloques claros.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Idea simple → ejemplo concreto → consecuencia → resumen → acción.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Una oración por bloque; definir términos antes de agregar excepciones.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Apoya comprensión y carga de lectura; no depende de una supuesta fuente universal para dislexia.</dd></div>
+            <div><dt>Ideal para</dt><dd>Información pública, educación básica y conceptos nuevos.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Comprensión literal.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="27" data-collection="inclusivo" data-status="approved" data-topics="marketing|redes sociales|entrevistas|accesibilidad|subtítulos" data-search="t27 subtítulo primero diseño inclusivo 21–30 diseña desde el texto hablado para que el video funcione plenamente sin audio. acceso auditivo y seguimiento del diálogo. comprensión silenciosa. subtítulos protagonistas, voz identificada, cortes por sentido y sonidos relevantes. entrevistas, conversación, tutoriales y consumo sin sonido. marketing redes sociales entrevistas accesibilidad subtítulos" style="--accent:#17b897">
+      <a class="preview-link" href="../OPCION-27_SUBTITULO-PRIMERO/propuesta-27.png" target="_blank" aria-label="Abrir tablero completo de T27 Subtítulo primero">
+        <img src="../OPCION-27_SUBTITULO-PRIMERO/propuesta-27.png" alt="Tablero horizontal con cinco capturas de la plantilla T27 Subtítulo primero" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">27</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Diseño inclusivo</p>
+        <h2>Subtítulo primero</h2>
+        <p class="concept">Diseña desde el texto hablado para que el video funcione plenamente sin audio.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>marketing</span><span>redes sociales</span><span>entrevistas</span><span>accesibilidad</span><span>subtítulos</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Acceso auditivo y seguimiento del diálogo.</dd></div>
+            <div><dt>Motivación</dt><dd>Comprensión silenciosa.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Subtítulos protagonistas, voz identificada, cortes por sentido y sonidos relevantes.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Voz identificada → idea subtitulada → énfasis → sonido significativo → resumen.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Cada nueva voz conserva etiqueta; todo sonido narrativamente útil se describe.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Subtítulos completos y revisados, sin cubrir rostro ni demostración; no transcribe ruido irrelevante.</dd></div>
+            <div><dt>Ideal para</dt><dd>Entrevistas, conversación, tutoriales y consumo sin sonido.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Comprensión sin audio.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="28" data-collection="inclusivo" data-status="approved" data-topics="productos|demostración|datos|accesibilidad|audio" data-search="t28 audio guía diseño inclusivo 21–30 integra en la narración todos los datos y cambios visuales indispensables. acceso a información visual esencial. comprensión sin mirar la pantalla. onda de audio, foco narrativo, descripciones breves y señales de cambio. datos, demostraciones, transformaciones y contenido de escucha. productos demostración datos accesibilidad audio" style="--accent:#17b897">
+      <a class="preview-link" href="../OPCION-28_AUDIO-GUIA/propuesta-28.png" target="_blank" aria-label="Abrir tablero completo de T28 Audio guía">
+        <img src="../OPCION-28_AUDIO-GUIA/propuesta-28.png" alt="Tablero horizontal con cinco capturas de la plantilla T28 Audio guía" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">28</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Diseño inclusivo</p>
+        <h2>Audio guía</h2>
+        <p class="concept">Integra en la narración todos los datos y cambios visuales indispensables.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>productos</span><span>demostración</span><span>datos</span><span>accesibilidad</span><span>audio</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Acceso a información visual esencial.</dd></div>
+            <div><dt>Motivación</dt><dd>Comprensión sin mirar la pantalla.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Onda de audio, foco narrativo, descripciones breves y señales de cambio.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Contexto hablado → dato visual verbalizado → acción → cambio → conclusión.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Antes de sumar una imagen, decidir qué debe verbalizarse y qué es decoración.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>La información visual esencial se expresa en audio; evita describir decoración irrelevante.</dd></div>
+            <div><dt>Ideal para</dt><dd>Datos, demostraciones, transformaciones y contenido de escucha.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Comprensión sin pantalla.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="29" data-collection="inclusivo" data-status="approved" data-topics="educación|formación|memoria|accesibilidad|tutoriales" data-search="t29 ritmo y recuerdo diseño inclusivo 21–30 protege la memoria de trabajo mediante ejemplo, pausa y recapitulación útil. procesamiento gradual y refuerzo. recordar sin saturación. ciclos visibles, marcadores de pausa, recap y una progresión estable. clases, instrucciones, listas y conceptos encadenados. educación formación memoria accesibilidad tutoriales" style="--accent:#17b897">
+      <a class="preview-link" href="../OPCION-29_RITMO-Y-RECUERDO/propuesta-29.png" target="_blank" aria-label="Abrir tablero completo de T29 Ritmo y recuerdo">
+        <img src="../OPCION-29_RITMO-Y-RECUERDO/propuesta-29.png" alt="Tablero horizontal con cinco capturas de la plantilla T29 Ritmo y recuerdo" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">29</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Diseño inclusivo</p>
+        <h2>Ritmo y recuerdo</h2>
+        <p class="concept">Protege la memoria de trabajo mediante ejemplo, pausa y recapitulación útil.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>educación</span><span>formación</span><span>memoria</span><span>accesibilidad</span><span>tutoriales</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Procesamiento gradual y refuerzo.</dd></div>
+            <div><dt>Motivación</dt><dd>Recordar sin saturación.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Ciclos visibles, marcadores de pausa, recap y una progresión estable.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Idea → ejemplo → pausa → recapitulación → acción.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Repetir el ciclo con una sola idea nueva; la recapitulación resume, no duplica.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>Apoya memoria de trabajo y procesamiento sin repetir mecánicamente cada frase.</dd></div>
+            <div><dt>Ideal para</dt><dd>Clases, instrucciones, listas y conceptos encadenados.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Recuerdo de la idea después del ejemplo.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+
+    <article class="card" data-index="30" data-collection="inclusivo" data-status="approved" data-topics="marketing|productos|educación|campañas|accesibilidad" data-search="t30 múltiples puertas diseño inclusivo 21–30 entrega la misma idea por varios canales para permitir distintas rutas de acceso. acceso multimodal y elección. autonomía de comprensión. texto, voz, símbolo y resumen en módulos coordinados y claramente delimitados. contenido educativo, campañas públicas y piezas de alcance amplio. marketing productos educación campañas accesibilidad" style="--accent:#17b897">
+      <a class="preview-link" href="../OPCION-30_MULTIPLES-PUERTAS/propuesta-30.png" target="_blank" aria-label="Abrir tablero completo de T30 Múltiples puertas">
+        <img src="../OPCION-30_MULTIPLES-PUERTAS/propuesta-30.png" alt="Tablero horizontal con cinco capturas de la plantilla T30 Múltiples puertas" loading="lazy" width="3200" height="1400">
+      </a>
+      <div class="card-body">
+        <div class="card-topline">
+          <span class="template-number">30</span>
+          <span class="status status-approved">Aprobada</span>
+        </div>
+        <p class="collection-label">Diseño inclusivo</p>
+        <h2>Múltiples puertas</h2>
+        <p class="concept">Entrega la misma idea por varios canales para permitir distintas rutas de acceso.</p>
+        <div class="topics" aria-label="Temas recomendados"><span>marketing</span><span>productos</span><span>educación</span><span>campañas</span><span>accesibilidad</span></div>
+        <details>
+          <summary>Ver características</summary>
+          <dl>
+            <div><dt>Ángulo</dt><dd>Acceso multimodal y elección.</dd></div>
+            <div><dt>Motivación</dt><dd>Autonomía de comprensión.</dd></div>
+            <div><dt>Lenguaje visual</dt><dd>Texto, voz, símbolo y resumen en módulos coordinados y claramente delimitados.</dd></div>
+            <div><dt>Estructura narrativa</dt><dd>Idea central → versión textual → versión sonora → símbolo/ejemplo → resumen.</dd></div>
+            <div><dt>Regla para extender</dt><dd>Cada canal debe comunicar la misma idea, no añadir información crítica exclusiva.</dd></div>
+            <div><dt>Accesibilidad</dt><dd>La idea llega por texto, voz, símbolo y recap; no afirma que una sola versión sirva a todas las personas.</dd></div>
+            <div><dt>Ideal para</dt><dd>Contenido educativo, campañas públicas y piezas de alcance amplio.</dd></div>
+            <div><dt>Métrica principal</dt><dd>Comprensión multimodal.</dd></div>
+          </dl>
+        </details>
+      </div>
+    </article>
+    </section>
+    <p class="empty" id="empty">No hay plantillas que coincidan con esa búsqueda.</p>
+  </main>
+
+  <footer>
+    <div class="shell">Catálogo local del proyecto · 30 plantillas aprobadas el 25 de septiembre de 2026 · La búsqueda inteligente funciona sin enviar datos fuera del equipo.</div>
+  </footer>
+
+  <script>
+    const search = document.querySelector('#search');
+    const cards = [...document.querySelectorAll('.card')];
+    const filters = [...document.querySelectorAll('.filter')];
+    const smartTopics = [...document.querySelectorAll('.smart-topic')];
+    const count = document.querySelector('#count');
+    const empty = document.querySelector('#empty');
+    const catalog = document.querySelector('#catalog');
+    const orderLabel = document.querySelector('#order-label');
+    let activeCollection = 'all';
+
+    const stopWords = new Set(['para', 'como', 'algo', 'quiero', 'necesito', 'una', 'uno', 'unos', 'unas', 'que', 'con', 'por', 'del', 'las', 'los', 'video', 'videos', 'plantilla', 'plantillas', 'hacer', 'sobre']);
+    const intents = {
+      marketing: ['marketing', 'mercadeo', 'marca', 'branding', 'campana', 'campanas', 'contenido', 'redes', 'social media', 'audiencia', 'engagement', 'posicionamiento', 'viralidad'],
+      ventas: ['ventas', 'venta', 'vender', 'conversion', 'comercial', 'cliente', 'clientes', 'oferta', 'objecion', 'objeciones', 'leads', 'negocio', 'negocios'],
+      productos: ['producto', 'productos', 'software', 'herramienta', 'herramientas', 'demostracion', 'demo', 'lanzamiento', 'lanzamientos', 'onboarding'],
+      ia: ['ia', 'inteligencia artificial', 'prompt', 'prompts', 'automatizacion', 'chatgpt'],
+      educacion: ['educacion', 'educativo', 'educativa', 'curso', 'cursos', 'ensenar', 'ensenanza', 'formacion', 'tutorial', 'tutoriales', 'aprendizaje'],
+      storytelling: ['storytelling', 'historia', 'historias', 'narrativa', 'testimonio', 'testimonios', 'emocion', 'relato'],
+      accesibilidad: ['accesibilidad', 'inclusivo', 'inclusion', 'subtitulos', 'baja vision', 'daltonismo', 'lectura facil', 'audio descripcion', 'neurodiversidad'],
+      servicios: ['servicio', 'servicios', 'consultoria', 'asesoria', 'profesional', 'premium']
+    };
+
+    function normalize(value) {
+      return value.toLocaleLowerCase('es').normalize('NFD').replace(/[̀-ͯ]/g, '');
+    }
+
+    function analyzeQuery(rawQuery) {
+      const query = normalize(rawQuery.trim());
+      const tokens = query.split(/[^a-z0-9]+/).filter((token) => (token.length > 2 || token === 'ia') && !stopWords.has(token));
+      const matchedIntents = Object.entries(intents).filter(([, aliases]) => aliases.some((alias) => query.includes(alias)));
+      return { query, tokens, matchedIntents };
+    }
+
+    function scoreCard(card, analysis) {
+      if (!analysis.query) return 1;
+      const haystack = normalize(card.dataset.search);
+      const topics = normalize(card.dataset.topics);
+      const topicList = topics.split('|');
+      let score = 0;
+      analysis.tokens.forEach((token) => {
+        const directMatch = token === 'ia' ? topicList.includes('ia') : haystack.includes(token);
+        if (directMatch) score += 2;
+      });
+      analysis.matchedIntents.forEach(([intent]) => {
+        if (topicList.includes(intent)) score += 10;
+      });
+      const exactPhraseMatch = analysis.query === 'ia' ? topicList.includes('ia') : haystack.includes(analysis.query);
+      if (exactPhraseMatch) score += 6;
+      return score;
+    }
+
+    function update() {
+      const analysis = analyzeQuery(search.value);
+      let visible = 0;
+      const ranked = [];
+      cards.forEach((card) => {
+        const collectionMatch = activeCollection === 'all' || card.dataset.collection === activeCollection;
+        const score = scoreCard(card, analysis);
+        const searchMatch = !analysis.query || score > 0;
+        card.hidden = !(collectionMatch && searchMatch);
+        if (!card.hidden) {
+          visible += 1;
+          ranked.push({ card, score, index: Number(card.dataset.index) });
+        }
+      });
+      const ordered = analysis.query
+        ? [...ranked].sort((a, b) => b.score - a.score || a.index - b.index)
+        : [...ranked].sort((a, b) => a.index - b.index);
+      ordered.forEach(({ card }) => catalog.appendChild(card));
+      count.textContent = analysis.query
+        ? visible + (visible === 1 ? ' recomendación para “' : ' recomendaciones para “') + search.value.trim() + '”'
+        : 'Mostrando ' + visible + ' de ' + cards.length;
+      orderLabel.textContent = analysis.query ? 'Ordenadas por relevancia inteligente' : 'Orden fijo T01 → T30';
+      empty.classList.toggle('visible', visible === 0);
+    }
+
+    filters.forEach((button) => button.addEventListener('click', () => {
+      activeCollection = button.dataset.filter;
+      filters.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
+      update();
+    }));
+    smartTopics.forEach((button) => button.addEventListener('click', () => {
+      search.value = button.dataset.query;
+      update();
+      search.focus();
+    }));
+    search.addEventListener('input', update);
+  </script>
+</body>
+</html>

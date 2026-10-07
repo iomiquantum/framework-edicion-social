@@ -1,0 +1,29 @@
+{
+  "status": "tooling_regression_pass",
+  "cases": [
+    {
+      "case": "before",
+      "returncode": 0,
+      "expected": 0
+    },
+    {
+      "case": "after",
+      "returncode": 0,
+      "expected": 0
+    },
+    {
+      "case": "unchanged",
+      "returncode": 0,
+      "expected": 0
+    },
+    {
+      "case": "missing-current",
+      "returncode": 2,
+      "expected": 2
+    }
+  ],
+  "video25_frozen_files_count": 24,
+  "files_unchanged": true,
+  "new_render": false,
+  "limits": "This tests context tooling only; does not rerun video25QA or demonstrate new profile creative equivalence or time savings. Engineinventory here captures config/scripts for integrity regression, not a claim of full runtimebinarycoverage."
+}

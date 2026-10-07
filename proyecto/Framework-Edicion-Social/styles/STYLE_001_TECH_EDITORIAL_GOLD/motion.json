@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1.0",
+  "style_id": "STYLE_001_TECH_EDITORIAL_GOLD",
+  "version": "0.1.0",
+  "presets": {
+    "image_enter_right_pop": {
+      "duration_s": 0.36,
+      "from": {"opacity": 0, "x": 34, "scale": 0.62, "rotation_deg": 10},
+      "to": {"opacity": 1, "x": 0, "scale": 1, "rotation_deg": 0},
+      "ease": "back.out(1.6)"
+    },
+    "image_exit_right_soft": {
+      "duration_s": 0.24,
+      "to": {"opacity": 0, "x": 22, "scale": 0.88},
+      "ease": "power2.in"
+    },
+    "semantic_pulse": {
+      "duration_s": 0.22,
+      "scale": 1.06,
+      "yoyo": true,
+      "repeat": 1,
+      "ease": "power2.inOut"
+    },
+    "icon_pop": {
+      "duration_s": 0.30,
+      "from": {"opacity": 0, "y": -8, "scale": 0.68, "rotation_deg": 8},
+      "to": {"opacity": 1, "y": 0, "scale": 1, "rotation_deg": 0},
+      "ease": "back.out(1.7)"
+    },
+    "speaker_micro_zoom_in": {
+      "duration_s_range": [2.0, 4.0],
+      "scale_range_tight_shot": [1.018, 1.03],
+      "ease": "sine.inOut",
+      "trigger": "semantic_emphasis_or_resolution"
+    },
+    "speaker_micro_zoom_return": {
+      "duration_s_range": [0.18, 0.30],
+      "target_scale": 1,
+      "ease": "power2.out",
+      "trigger": "idea_change_or_visual_reset"
+    }
+  },
+  "rules": {
+    "max_face_crossing_transition_s": 0.4,
+    "continuous_spin_allowed": false,
+    "randomness_allowed": false,
+    "motion_must_have_semantic_trigger": true,
+    "fixed_interval_zooms_allowed": false,
+    "max_scale_tight_shot": 1.03
+  }
+}

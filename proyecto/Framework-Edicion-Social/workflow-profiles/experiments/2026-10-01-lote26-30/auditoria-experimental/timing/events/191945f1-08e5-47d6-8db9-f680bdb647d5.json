@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "191945f1-08e5-47d6-8db9-f680bdb647d5",
+  "sequence": 14,
+  "action": "stop",
+  "interval_id": "e372b2e5-26bb-4b43-9a64-2d4261147d3c",
+  "phase": "qa_post_render",
+  "kind": "experiment_audit",
+  "at_epoch_seconds": 1790832089.2596638,
+  "at_utc": "2026-10-01T05:21:29.259664+00:00",
+  "note": null,
+  "measurement_method": "utc_wall_clock_time_time_cross_process"
+}

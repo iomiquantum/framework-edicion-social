@@ -1,0 +1,18 @@
+{
+  "method": "Ideas segmentadas con ASR local; tiempos de audio antes de corregir offset al video. No exactitud por palabra.",
+  "blocks": [
+    {"start":0,"end":8.22,"label":"Resultado inicial y promesa de tres cosas"},
+    {"start":8.22,"end":9.64,"label":"Uno: lanzamiento de marca"},
+    {"start":9.64,"end":18.48,"label":"Definir marca, nicho y sector"},
+    {"start":18.48,"end":20.02,"label":"Dos: formatos de video"},
+    {"start":20.02,"end":29.64,"label":"Creencia de solo encender la cámara / repetir formato"},
+    {"start":29.64,"end":33.76,"label":"Ejemplos POV, cámara y entrevista"},
+    {"start":33.76,"end":39.70,"label":"Puente al truco y cambio de interlocutor"},
+    {"start":39.70,"end":41.64,"label":"Tres: método de videos virales"},
+    {"start":41.64,"end":44.10,"label":"Plan y metodología"},
+    {"start":44.10,"end":48.12,"label":"Interrupción: ¿vas a contar eso aquí?"},
+    {"start":48.12,"end":57.06,"label":"Propuesta de clase privada"},
+    {"start":57.06,"end":62.18,"label":"Acción: comentar VIRAL"},
+    {"start":62.18,"end":66.32,"label":"Cola de la grabación de pantalla"}
+  ]
+}

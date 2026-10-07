@@ -1,0 +1,13 @@
+{
+  "id": "pc-a-gtx1660ti",
+  "description": "i7 9a generacion (modelo pendiente), RAM 8 GB, GTX 1660 Ti 6 GB, Windows 11 Home",
+  "role": "Montaje y render principal; ampliar RAM a 16 GB si el equipo lo admite",
+  "render_workers": 1,
+  "low_memory": true,
+  "max_heavy_jobs": 1,
+  "gpu_encode_default": false,
+  "gpu_encode_candidate": "NVENC: prueba opcional separada, nunca activado solo por nombre de GPU",
+  "browser_gpu": "auto",
+  "quality_policy": "Mismas reglas editoriales, misma resolucion y QA que PC B",
+  "benchmark_verified": false
+}

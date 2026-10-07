@@ -1,0 +1,122 @@
+{
+  "trial_id": "LOTE-26-30-FLUJOS-001",
+  "created_at_utc": "2026-10-01T04:12:06.141909+00:00",
+  "status": "executing_shared_intake_assignment_pending",
+  "user_authorization_quote": "Perfecto entonces vamos a trabajar en la edicion del lote LOTE-VIDEOS-26-30-ORIGINAL, esta ya en la carpeta el master completo, empecemos a editarlo asi como me recomendaste para que hagamos la prueba de optimizacion. Quiero que me entregues los 5 videos listos, trabaja todo tu sin pedirme nada creo que ya estas super entrenada con todo lo que hemos hecho videos anteriores reglas y todo. Quiero el resultado final de los videos ya renderizados. y emitido el informe final de los flujos, vas a trabajar con SOL 6.1 MEDIO todo este trabajo. Despliega la cantidad de agentes que veas necesarios, quiero que pongas algo que no permita al computador bloquearse para que puedas trabajar con el computador activo lo voy a dejar conectado a la luz. Ojo revisa esto y recuerda adutitar todo elproceso medir tiempos medir todo lo que deba medir para que lleguemos a la conclusion de los flujos que queremos crear.",
+  "authorization_scope": [
+    "edit five videos",
+    "render final local deliverables",
+    "no routine user questions",
+    "deploy agents",
+    "keep computer awake",
+    "audit and final workflow report"
+  ],
+  "not_claimed": [
+    "specific editorial approval of unseen video",
+    "publication",
+    "human listening",
+    "speed savings"
+  ],
+  "model_requested": "gpt-6.1-sol",
+  "reasoning_requested": "medium",
+  "parent_and_child_settings_evidence": "Parent NEW_TASK requested model/reasoning; child tool spawn settings verification belongs to parent. No token/cost metrics exposed here.",
+  "model_observed_runtime": null,
+  "allocation": {
+    "flujo-1": 2,
+    "flujo-2": 2,
+    "flujo-3": 1
+  },
+  "assignment": null,
+  "profiles_versions": {
+    "flujo-1": "1.0.0",
+    "flujo-2": "0.1.0",
+    "flujo-3": "0.1.0"
+  },
+  "qa_common_version": "0.1.2",
+  "fidelity_version": "1.1.0",
+  "defaults_changed": false,
+  "sources_consulted": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "ffe607556ab0d63c89f2979de8b1e9b3126ceec443883277466ca18be6dc034b",
+      "size_bytes": 7018
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/AGENTS.md",
+      "sha256": "3aed1b67a0dea9734b384c14667dce61f482b575fdfcde7e98502bbe36348d70",
+      "size_bytes": 14511
+    },
+    {
+      "path": "Framework-Edicion-Social/workflow-profiles/GUIA.md",
+      "sha256": "0ab0d85c062fb625fbf90828f0fbd7dae252308ade0170660a9b9012a5664e5f",
+      "size_bytes": 10048
+    },
+    {
+      "path": "Framework-Edicion-Social/workflow-profiles/QA_COMUN.md",
+      "sha256": "95e3665626843ddf0cc1446c3c252b30bb385cc0919f938f226be9aaec86dbcb",
+      "size_bytes": 3772
+    },
+    {
+      "path": "Framework-Edicion-Social/FIDELIDAD_Y_DIVERSIDAD_PLANTILLAS.md",
+      "sha256": "1b76ade3247fe45dcc6b7f1ad865caed57b85e031c476c73f876e8cae77fe386",
+      "size_bytes": 11536
+    },
+    {
+      "path": "Framework-Edicion-Social/workflow-profiles/catalog.json",
+      "sha256": "17636d881093bb9d0cdb9f801b27669594f45d5200d77f737125e4dfb60e1f7d",
+      "size_bytes": 401
+    },
+    {
+      "path": "Framework-Edicion-Social/workflow-profiles/flujo-1.json",
+      "sha256": "fab5a60dc18e91211a192f32a7daaab3946a68dbf660d5f2e6d34a1f39411d03",
+      "size_bytes": 985
+    },
+    {
+      "path": "Framework-Edicion-Social/workflow-profiles/flujo-2.json",
+      "sha256": "39ee24c2b9fbb6bcb7c6f01db74144fdfce376d9f7a6fdb36572e8c85d8323a4",
+      "size_bytes": 1418
+    },
+    {
+      "path": "Framework-Edicion-Social/workflow-profiles/flujo-3.json",
+      "sha256": "2a440d9849bce7eed622043a5d52d293e654809ee6f8bb6688fcc8092083630f",
+      "size_bytes": 1558
+    },
+    {
+      "path": "Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/plan.json",
+      "sha256": "fb12bf2d52c2095e4bc090c682d066b32f431bcb39853e5a2f3e2f2fa8d8d3b2",
+      "size_bytes": 2601
+    },
+    {
+      "path": "Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/PRUEBA.md",
+      "sha256": "1302e654be7bb1ed3932b140a0895607214ceffb9f034ce3b1644aa2d70fc51e",
+      "size_bytes": 4469
+    },
+    {
+      "path": "Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/initial-inventory.json",
+      "sha256": "7b0b5204c37937e358cc105b8bf965cefad51c16d357a206d0dbfef8d6055f60",
+      "size_bytes": 13489
+    },
+    {
+      "path": "Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/evaluation-template.json",
+      "sha256": "5d24e483b1facd4b64caacf41d74d85bc3eef8e400e45c7c2a214401b0bf8864",
+      "size_bytes": 4126
+    }
+  ],
+  "historical_preproduction_policy": {
+    "file_count": 52,
+    "cost_before_this_execution_seconds": null,
+    "excluded_from_current_production_cost": true,
+    "new_fit_validation_counted": true,
+    "resource_availability_is_not_approval": true
+  },
+  "timing_policy": {
+    "shared_ingest_once": true,
+    "audit_separate": true,
+    "unmeasured": null,
+    "wall_clock_parallel_sum_is_not_elapsed": true,
+    "commands_nested_not_double_counted": true,
+    "initial_agent_reading_before_timer": "not_measured: includes initial setup due to rejected timer invocation; experiment_audit is kind, not phase",
+    "no_zero_filling": true
+  },
+  "assignment_gate": "After shared intake and before full assembly: record duration, ambiguous cuts, narrative/visual complexity, existing asset fit; F3 eligible fidelity-preserving case and two matched F1/F2 pairs; freeze assignment-v1 once, do not alter after times observed."
+}

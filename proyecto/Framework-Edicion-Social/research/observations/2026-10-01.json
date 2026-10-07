@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-01",
+  "consulted_at": "2026-10-01T09:01:57-05:00",
+  "scope": {
+    "format": "video_vertical_corto",
+    "topics": [
+      "tecnologia",
+      "inteligencia_artificial"
+    ],
+    "language": "es",
+    "primary_market": "Ecuador",
+    "proxy_market": "LATAM"
+  },
+  "status": "no_material_change",
+  "platform_changes": [],
+  "observed_patterns": [],
+  "deduplication": {
+    "compared_with": "research/observations/2026-09-30.json",
+    "duplicates_discarded": [
+      "El tratamiento de Content ID para Shorts de 61 a 179 segundos ya fue registrado el 2026-09-24.",
+      "Shorts Series, publicaciones en el feed y edición conversacional ya fueron registrados y consolidados en 2026-W40.",
+      "Los cambios de monetización de YouTube para 2027, las etiquetas de IA y las guías históricas de TikTok y Meta no aportan una acción editorial nueva para esta ejecución."
+    ],
+    "material_items_kept": 0
+  },
+  "coverage": {
+    "official_sources_checked": [
+      "YouTube Help: Creator updates, monetización y three-minute Shorts",
+      "YouTube Community: Made on YouTube 2026 y etiquetas de IA",
+      "TikTok Newsroom ES-LATAM",
+      "Meta Newsroom y archivo Reels"
+    ],
+    "ecuador_specific_sample": "No disponible con muestra suficiente en esta ejecución.",
+    "latam_proxy": "No se encontró una señal reciente y reproducible con muestra suficiente para elevarla a patrón observado."
+  },
+  "notes": [
+    "No se verificó un cambio oficial nuevo y aplicable desde la consulta anterior.",
+    "YouTube conserva las novedades ya registradas sin un delta fechado el 2026-10-01 que altere el flujo editorial o técnico del proyecto.",
+    "TikTok ES-LATAM no mostró una actualización reciente aplicable al video vertical orgánico de tecnología e IA.",
+    "Meta no mostró una actualización reciente aplicable a Reels orgánicos dentro del alcance estudiado.",
+    "No se modificaron reglas, perfiles, experimentos ni renders."
+  ]
+}

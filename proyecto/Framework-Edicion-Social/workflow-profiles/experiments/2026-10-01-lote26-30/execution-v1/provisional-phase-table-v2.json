@@ -1,0 +1,86 @@
+{
+  "at_utc": "2026-10-01T05:16:25.677848+00:00",
+  "status": "interim_no_speed_conclusion",
+  "rows": [
+    {
+      "video": 26,
+      "flow": 1,
+      "operational_closed_seconds": 1917.7368688583374,
+      "elapsed_closed_span_seconds": 1918.1850361824036,
+      "unmeasured_gaps_seconds": 0.4481673240661621,
+      "open_interval": null,
+      "phase_seconds": {
+        "semantic_lock": 577.4821653366089,
+        "resources": 256.1210069656372,
+        "assembly": 412.03183698654175,
+        "qa_pre_render": 273.2236614227295,
+        "render": 261.41712522506714,
+        "qa_post_render": 137.46107292175293,
+        "documentation": null,
+        "coordination": null,
+        "review_changes": null
+      },
+      "phase_interpretation": "observed wallinterval attribution; phases mixed, processes nested never sum again"
+    },
+    {
+      "video": 28,
+      "flow": 2,
+      "operational_closed_seconds": 1957.6308345794678,
+      "elapsed_closed_span_seconds": 1971.6240501403809,
+      "unmeasured_gaps_seconds": 13.993215560913086,
+      "open_interval": null,
+      "phase_seconds": {
+        "semantic_lock": 262.0201849937439,
+        "resources": 253.0738401412964,
+        "assembly": 262.1540288925171,
+        "qa_pre_render": 519.8307700157166,
+        "render": 490.17304039001465,
+        "qa_post_render": 147.06295204162598,
+        "documentation": 23.316018104553223,
+        "coordination": null,
+        "review_changes": null
+      },
+      "phase_interpretation": "observed wallinterval attribution; phases mixed, processes nested never sum again"
+    },
+    {
+      "video": 30,
+      "flow": 3,
+      "operational_closed_seconds": 2841.087568759918,
+      "elapsed_closed_span_seconds": 3048.609700202942,
+      "unmeasured_gaps_seconds": 207.52213144302368,
+      "open_interval": {
+        "schema_version": 1,
+        "event_id": "68679d49-d8b0-4849-8dc0-5b035b111b66",
+        "sequence": 25,
+        "action": "start",
+        "interval_id": "68679d49-d8b0-4849-8dc0-5b035b111b66",
+        "phase": "documentation",
+        "kind": "work",
+        "at_epoch_seconds": 1790831744.126996,
+        "at_utc": "2026-10-01T05:15:44.126996+00:00",
+        "note": "V2 hashes,entrega ycomparación de costo",
+        "measurement_method": "utc_wall_clock_time_time_cross_process"
+      },
+      "phase_seconds": {
+        "semantic_lock": 318.7088739871979,
+        "resources": 506.15420508384705,
+        "assembly": 240.56012606620789,
+        "qa_pre_render": 1002.2198858261108,
+        "render": 353.18723487854004,
+        "qa_post_render": 259.378849029541,
+        "documentation": 86.97862505912781,
+        "coordination": 30.654435873031616,
+        "review_changes": 43.24533295631409
+      },
+      "phase_interpretation": "observed wallinterval attribution; phases mixed, processes nested never sum again"
+    }
+  ],
+  "limitations": [
+    "26QApost137.461s includesvisualreview/docs/coord; helper4.101s not allQA",
+    "28render490.173s phase includes command/wait/retry scope; finalrender193.384s fromowner",
+    "30semantic_lock318.709s includes sharedrepairwithouttimersplit; resources506.154s includesfirstauthoring/maqueta, assemblychecks andqa_pre mixed",
+    "29resources547s reported mixedassembly+26coord pendingrealclock",
+    "30v2secondfinalrender counted; imagecreation/preproductioncosts outside/inside distinguish",
+    "Parallel operational sums not overallbatchelapsed; no causalranking from2pairs1essentialclip"
+  ]
+}

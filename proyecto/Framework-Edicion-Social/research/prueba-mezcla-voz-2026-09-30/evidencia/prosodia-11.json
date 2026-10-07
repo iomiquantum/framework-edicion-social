@@ -1,0 +1,173 @@
+{
+  "id": "11",
+  "voice_file_sha256": "05772fad4d4ff1a75442987c786ca2153532f81ba938e2e42a77f010ec77c36f",
+  "transcript_binding": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/transcript.json",
+  "transcript_sha256": "63fa85ffe3ac4ab968b42a4689f90265204e8aae2908dd3f259f65670a31fd20",
+  "method": {
+    "rms_window_s": 0.05,
+    "low_energy_threshold_dbfs": -35.82,
+    "pitch": "Praat autocorrelation75–400Hz,20ms; octave errors possible",
+    "interpretation": "Texto/contexto editorial; métricas no prueban emoción, defecto ni percepción."
+  },
+  "global": {
+    "start_s": 0,
+    "end_s": 29.1,
+    "text": "",
+    "words_per_s": 0.0,
+    "active_rms_median_dbfs": -20.51,
+    "active_rms_range_p90_p10_db": 15.39,
+    "f0_median_hz": 154.4,
+    "f0_p90_p10_semitones": 10.56,
+    "low_energy_fraction": 0.263
+  },
+  "low_energy_intervals_s": [
+    [
+      0,
+      0.2
+    ],
+    [
+      2.65,
+      3.05
+    ],
+    [
+      4.05,
+      4.2
+    ],
+    [
+      5.6,
+      6.2
+    ],
+    [
+      8.15,
+      9.0
+    ],
+    [
+      9.4,
+      9.6
+    ],
+    [
+      11.15,
+      11.4
+    ],
+    [
+      12.15,
+      12.3
+    ],
+    [
+      13.5,
+      14.3
+    ],
+    [
+      16.1,
+      16.8
+    ],
+    [
+      18.25,
+      18.4
+    ],
+    [
+      20.0,
+      20.2
+    ],
+    [
+      20.55,
+      21.05
+    ],
+    [
+      23.25,
+      23.9
+    ],
+    [
+      25.5,
+      26.55
+    ],
+    [
+      27.4,
+      27.75
+    ],
+    [
+      28.9,
+      29.1
+    ]
+  ],
+  "phrases": [
+    {
+      "start_s": 0.12,
+      "end_s": 2.82,
+      "text": "La IA está llenando internet de contenido genérico.",
+      "words_per_s": 2.96,
+      "active_rms_median_dbfs": -19.46,
+      "active_rms_range_p90_p10_db": 12.28,
+      "f0_median_hz": 146.2,
+      "f0_p90_p10_semitones": 9.54,
+      "low_energy_fraction": 0.093
+    },
+    {
+      "start_s": 2.88,
+      "end_s": 8.76,
+      "text": "Mientras más fácil sea crear contenido con IA, menos va a valer el contenido promedio.",
+      "words_per_s": 2.55,
+      "active_rms_median_dbfs": -20.55,
+      "active_rms_range_p90_p10_db": 13.66,
+      "f0_median_hz": 141.0,
+      "f0_p90_p10_semitones": 9.26,
+      "low_energy_fraction": 0.256
+    },
+    {
+      "start_s": 8.97,
+      "end_s": 14.08,
+      "text": "Porque todos podremos publicar más, más rápido y cada vez más bonito.",
+      "words_per_s": 2.35,
+      "active_rms_median_dbfs": -20.55,
+      "active_rms_range_p90_p10_db": 15.68,
+      "f0_median_hz": 203.8,
+      "f0_p90_p10_semitones": 6.59,
+      "low_energy_fraction": 0.262
+    },
+    {
+      "start_s": 14.08,
+      "end_s": 19.9,
+      "text": "La ventaja ya no será producir más, será tener algo propio que decir algo original.",
+      "words_per_s": 2.58,
+      "active_rms_median_dbfs": -20.81,
+      "active_rms_range_p90_p10_db": 17.13,
+      "f0_median_hz": 151.9,
+      "f0_p90_p10_semitones": 8.91,
+      "low_energy_fraction": 0.19
+    },
+    {
+      "start_s": 20.04,
+      "end_s": 26.36,
+      "text": "Ytú,¿ya distingues cuando un contenido fue pensado y cuando un contenido fue generado?",
+      "words_per_s": 2.06,
+      "active_rms_median_dbfs": -20.23,
+      "active_rms_range_p90_p10_db": 14.87,
+      "f0_median_hz": 149.3,
+      "f0_p90_p10_semitones": 8.21,
+      "low_energy_fraction": 0.341
+    },
+    {
+      "start_s": 26.36,
+      "end_s": 27.6,
+      "text": "Dos diferencias¿no?",
+      "words_per_s": 1.61,
+      "active_rms_median_dbfs": -24.58,
+      "active_rms_range_p90_p10_db": 10.34,
+      "f0_median_hz": 148.4,
+      "f0_p90_p10_semitones": 8.52,
+      "low_energy_fraction": 0.32
+    },
+    {
+      "start_s": 27.6,
+      "end_s": 29,
+      "text": "Pensado y generado.",
+      "words_per_s": 2.14,
+      "active_rms_median_dbfs": -21.77,
+      "active_rms_range_p90_p10_db": 9.6,
+      "f0_median_hz": 159.7,
+      "f0_p90_p10_semitones": 11.38,
+      "low_energy_fraction": 0.286
+    }
+  ],
+  "human_listening": "por confirmar"
+}

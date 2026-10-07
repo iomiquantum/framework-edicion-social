@@ -1,0 +1,135 @@
+load_backend: loaded BLAS backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-blas.so
+ggml_metal_device_init: tensor API disabled for pre-M5 and pre-A19 devices
+ggml_metal_library_init: using embedded metal library
+ggml_metal_library_compile_all: compiled 'fa' library in 0.042 sec
+ggml_metal_library_compile_all: compiled 'mul_mv' library in 0.010 sec
+ggml_metal_library_compile_all: compiled 'mul_mm' library in 0.049 sec
+ggml_metal_library_compile_all: compiled 'quantize' library in 0.046 sec
+ggml_metal_library_compile_all: compiled 'softmax' library in 0.043 sec
+ggml_metal_library_compile_all: compiled 'norm' library in 0.043 sec
+ggml_metal_library_compile_all: compiled 'unary' library in 0.006 sec
+ggml_metal_library_compile_all: compiled 'binbcast' library in 0.005 sec
+ggml_metal_library_compile_all: compiled 'reduce' library in 0.043 sec
+ggml_metal_library_compile_all: compiled 'tri' library in 0.043 sec
+ggml_metal_library_compile_all: compiled 'ssm' library in 0.044 sec
+ggml_metal_library_compile_all: compiled 'wkv' library in 0.004 sec
+ggml_metal_library_compile_all: compiled 'gated_delta_net' library in 0.044 sec
+ggml_metal_library_compile_all: compiled 'solve_tri' library in 0.004 sec
+ggml_metal_library_compile_all: compiled 'rope' library in 0.042 sec
+ggml_metal_library_compile_all: compiled 'conv' library in 0.042 sec
+ggml_metal_library_compile_all: compiled 'upscale' library in 0.004 sec
+ggml_metal_library_compile_all: compiled 'argsort' library in 0.043 sec
+ggml_metal_library_compile_all: compiled 'pool' library in 0.004 sec
+ggml_metal_library_compile_all: compiled 'misc' library in 0.005 sec
+ggml_metal_library_compile_all: loaded 20 libraries from embedded data in 0.049 sec (max single = 0.049 sec)
+ggml_metal_rsets_init: creating a residency set collection (keep_alive = 180 s)
+ggml_metal_device_init: GPU name:   MTL0 (Apple M4)
+ggml_metal_device_init: GPU family: MTLGPUFamilyApple9  (1009)
+ggml_metal_device_init: GPU family: MTLGPUFamilyCommon3 (3003)
+ggml_metal_device_init: GPU family: MTLGPUFamilyMetal4  (5002)
+ggml_metal_device_init: simdgroup reduction   = true
+ggml_metal_device_init: simdgroup matrix mul. = true
+ggml_metal_device_init: has unified memory    = true
+ggml_metal_device_init: has bfloat            = true
+ggml_metal_device_init: has tensor            = false
+ggml_metal_device_init: use residency sets    = true
+ggml_metal_device_init: use shared buffers    = true
+ggml_metal_device_init: recommendedMaxWorkingSetSize  = 12713.12 MB
+load_backend: loaded MTL backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-metal.so
+load_backend: loaded CPU backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-cpu-apple_m4.so
+whisper_init_from_file_with_params_no_state: loading model from '/Users/iomijhondavid/.cache/hyperframes/whisper/models/ggml-large-v3.bin'
+whisper_init_with_params_no_state: use gpu    = 1
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 0
+whisper_init_with_params_no_state: dtw        = 0
+whisper_init_with_params_no_state: devices    = 3
+whisper_init_with_params_no_state: backends   = 3
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 32
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  3094.36 MB
+whisper_model_load: model size    = 3094.36 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+ggml_metal_init: allocating
+ggml_metal_init: found device: Apple M4
+ggml_metal_init: picking default device: Apple M4
+ggml_metal_init: use fusion         = true
+ggml_metal_init: use concurrency    = true
+ggml_metal_init: use graph optimize = true
+whisper_backend_init: using BLAS backend
+whisper_init_state: kv self size  =   83.89 MB
+whisper_init_state: kv cross size =  251.66 MB
+whisper_init_state: kv pad  size  =    7.86 MB
+whisper_init_state: compute buffer (conv)   =   37.69 MB
+whisper_init_state: compute buffer (encode) =   67.49 MB
+whisper_init_state: compute buffer (cross)  =  132.15 MB
+whisper_init_state: compute buffer (decode) =  100.04 MB
+read_audio_data: reading audio data from 'Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/referencias-usuario/ref-02/asr-16k.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 4 / 10 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing 'Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/referencias-usuario/ref-02/asr-16k.wav' (1060888 samples, 66.3 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = auto, task = transcribe, timestamps = 1 ...
+
+whisper_full_with_state: auto-detected language: es (p = 0.990884)
+
+[00:00:00.000 --> 00:00:02.340]   Solo cinco días tenía 10.000 seguidores.
+[00:00:02.680 --> 00:00:05.200]   Y esta mañana se despertó con 150.000 seguidores
+[00:00:05.200 --> 00:00:08.020]   y en este vídeo te voy a explicar las tres cosas que hicimos para crecer su cuenta.
+[00:00:08.220 --> 00:00:09.480]   Uno, lanzamiento de marca.
+[00:00:09.640 --> 00:00:12.260]   Llevaba años queriendo crear una marca personal y no sabía cómo.
+[00:00:12.540 --> 00:00:14.680]   Así que primero definimos el nicho de Cristian,
+[00:00:14.760 --> 00:00:18.420]   que en su caso, como se dedica a la inversión en bolsa, es el sector finanzas.
+[00:00:18.480 --> 00:00:19.800]   Dos, formatos de vídeo.
+[00:00:20.020 --> 00:00:24.100]   Yo pensaba que para crecer en redes sociales solamente tenías que encender la cámara y ponerte a grabar.
+[00:00:24.280 --> 00:00:27.720]   Y esa es la razón por la que el 99% de la gente nunca considera que hacen redes sociales
+[00:00:27.720 --> 00:00:29.640]   porque utilizan siempre el mismo formato.
+[00:00:29.640 --> 00:00:33.640]   Por ejemplo, es el formato POV, formato hablando a cámara, formato entrevista.
+[00:00:33.760 --> 00:00:35.800]   Pero Víctor, tú sabes que no solo hemos hecho eso,
+[00:00:36.060 --> 00:00:38.300]   que hay un truquito último para que los vídeos peguen.
+[00:00:38.380 --> 00:00:38.900]   Díselo a la gente.
+[00:00:38.960 --> 00:00:39.600]   Ok, ven, mírame.
+[00:00:39.700 --> 00:00:41.620]   Tres, método de vídeos virales.
+[00:00:41.640 --> 00:00:44.100]   Que se basa en un plan de contenidos y una metodología para hacer vídeos virales.
+[00:00:44.100 --> 00:00:44.920]   Víctor, espera.
+[00:00:45.280 --> 00:00:46.120]   ¿Pero vas a contar eso aquí?
+[00:00:46.360 --> 00:00:46.640]   ¿Por qué?
+[00:00:46.960 --> 00:00:47.760]   Porque es muy valioso.
+[00:00:48.120 --> 00:00:48.700]   Vamos a hacer una cosa.
+[00:00:48.800 --> 00:00:50.620]   Para toda la gente que comente viral en este vídeo,
+[00:00:50.720 --> 00:00:53.840]   voy a enviarles una clase privada en la que explico cómo creé esos vídeos
+[00:00:53.840 --> 00:00:56.900]   y cómo llevamos a 150.000 seguidores en menos de una semana.
+[00:00:57.060 --> 00:00:57.740]   ¿Y qué tienen que hacer?
+[00:00:57.740 --> 00:00:59.920]   Simplemente comentar viral en este vídeo.
+[00:01:00.020 --> 00:01:01.260]   Comentar viral y os lo mando.
+[00:01:01.700 --> 00:01:02.180]   Perfecto.
+output_txt: saving output to 'Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/referencias-usuario/ref-02/transcripcion.txt'
+output_srt: saving output to 'Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/referencias-usuario/ref-02/transcripcion.srt'
+output_json: saving output to 'Framework-Edicion-Social/research/musica-bajo-voz-2026-09-30/referencias-usuario/ref-02/transcripcion.json'
+
+whisper_print_timings:     load time =  1886.79 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    31.58 ms
+whisper_print_timings:   sample time =   893.31 ms /  2171 runs (     0.41 ms per run)
+whisper_print_timings:   encode time =  5329.03 ms /     4 runs (  1332.26 ms per run)
+whisper_print_timings:   decode time =    74.58 ms /     2 runs (    37.29 ms per run)
+whisper_print_timings:   batchd time = 17364.11 ms /  2163 runs (     8.03 ms per run)
+whisper_print_timings:   prompt time =   506.09 ms /   416 runs (     1.22 ms per run)
+whisper_print_timings:    total time = 26392.59 ms
+ggml_metal_free: deallocating

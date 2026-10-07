@@ -1,0 +1,46 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/WhatsApp-Reel-Prueba-Fuego/outputs/PRUEBA_FUEGO_IMMERSIVE_WELLNESS_V1.mp4':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.0.0-dev
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.12.102
+  Duration: 00:00:33.07, start: 0.000000, bitrate: 6002 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280 [SAR 1:1 DAR 9:16], 5802 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc62.28.102 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 193 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    minor_version   : 512
+    major_brand     : isom
+    compatible_brands: isomiso2avc1mp41
+    hyperframes_version: 0.0.0-dev
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf62.12.102
+  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+      handler_name    : SoundHandler
+[Parsed_loudnorm_0 @ 0x9bac50a80] 
+{
+	"input_i" : "-17.33",
+	"input_tp" : "-3.28",
+	"input_lra" : "11.80",
+	"input_thresh" : "-28.68",
+	"output_i" : "-16.54",
+	"output_tp" : "-1.50",
+	"output_lra" : "9.40",
+	"output_thresh" : "-27.42",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.54"
+}
+[out#0/null @ 0x9bac50300] video:0KiB audio:24784KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:33.10 bitrate=N/A speed=49.2x elapsed=0:00:00.67    

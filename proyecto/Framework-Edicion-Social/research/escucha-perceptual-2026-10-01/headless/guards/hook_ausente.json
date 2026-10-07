@@ -1,0 +1,112 @@
+{
+  "schema": "audio-multimedia/v1",
+  "id": "piloto-headless-01",
+  "voice": {
+    "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-voz-sola.wav",
+    "sha256": "db677202633f2c8e3619e7e3bba9afe965a5d5ad5bb26a89e41ef98ae32ea31f",
+    "gain_db": 0
+  },
+  "hook_window_s": [
+    0,
+    2
+  ],
+  "music": [
+    {
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/library/music/candidates/2026-09-30-prueba-ritmica/neon-no-melody.mp3",
+      "sha256": "af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d",
+      "license": "CC BY 4.0",
+      "credit": "'Neon' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au. https://www.scottbuckley.com.au/library/neon/ · https://creativecommons.org/licenses/by/4.0/.",
+      "reason": "Pulso para el bucle; retirada en idea clave y pregunta, según capítulos ya existentes. Candidato de implementación, no aprobación de canción.",
+      "start_s": 0,
+      "duration_s": 21.375,
+      "source_start_s": 45,
+      "level_mode": "voice_relative",
+      "gain_db_points": [
+        [
+          0,
+          -14
+        ],
+        [
+          0.5,
+          -13
+        ],
+        [
+          5.8,
+          -17
+        ],
+        [
+          6.15,
+          -12
+        ],
+        [
+          10.8,
+          -14
+        ],
+        [
+          11.5,
+          -18
+        ],
+        [
+          16.9,
+          -18
+        ],
+        [
+          17.55,
+          -21
+        ],
+        [
+          21.375,
+          -22
+        ]
+      ],
+      "fade_in_s": 0.1,
+      "fade_out_s": 0.35,
+      "width": 0.86
+    }
+  ],
+  "sfx": [
+    {
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/aire_breve.wav",
+      "sha256": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+      "license": "CC0 1.0",
+      "credit": "Síntesis procedural original con semilla9302026, sin muestras externas.",
+      "reason": "Apertura: señalar el problema sin alargar una cola sobre palabras.",
+      "start_s": 0.04,
+      "duration_s": 0.34,
+      "level_mode": "voice_relative",
+      "gain_db": -10,
+      "hook": false,
+      "tail_protect_fraction": 0.2,
+      "pan": -0.1
+    },
+    {
+      "file": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/library/sfx/candidates/2026-09-30-musicalizacion/clic_calido.wav",
+      "sha256": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+      "license": "CC0 1.0",
+      "credit": "Síntesis procedural original con semilla9302026, sin muestras externas.",
+      "reason": "Puntuar la idea clave existente, sin llenar cada palabra.",
+      "start_s": 11.7,
+      "duration_s": 0.105,
+      "level_mode": "voice_relative",
+      "gain_db": -12,
+      "hook": false,
+      "tail_protect_fraction": 0.2,
+      "pan": 0.1
+    }
+  ],
+  "music_bus": {
+    "highpass_hz": 80,
+    "lowpass_hz": 9500,
+    "carve_fraction": 0.35,
+    "carve_band_hz": [
+      400,
+      4000
+    ],
+    "duck_max_db": 4.5,
+    "duck_lookahead_s": 0.15,
+    "duck_release_s": 0.35,
+    "speech_margin_db": 10.5,
+    "cap_max_db": 8
+  },
+  "notes": "Prueba de funcionamiento totalmente por código. Misma voz guía del banco; no reemplaza VIDEO-01."
+}

@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-01T03:26:25.976899+00:00",
+  "scope": "Cinco pruebas de musicalización: tres voces20–30s y dos voces largas existentes. No cambia editables ni renders de origen.",
+  "instructions": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "2170ce64bc1a3fa92e8836e1265738c63388a582488078ade6ed4cc7e89c1be6"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/AGENTS.md",
+      "sha256": "2da6305339086b852c32e0eca8a583517430b068ada73283b5f2e9c62c094988"
+    },
+    {
+      "path": "BITACORA_CURSO_EDICION.md",
+      "sha256": "f7877718cc82abe17113e44eeb02d5af03c712d3e23847ebc3f5e8296d669567"
+    },
+    {
+      "path": "Framework-Edicion-Social/AUDIO_DIRECCION_Y_PROSODIA.md",
+      "sha256": "5e47f0d69c85808ecb23f3783c0b1de570e70277fd8c6970d9db638da88bd270"
+    },
+    {
+      "path": "Framework-Edicion-Social/CHANGELOG.md",
+      "sha256": "384b96eae9e8b258c416853549f2bb75483e321efb2c33393ccaaa7f876db116"
+    }
+  ],
+  "user_feedback": "Pistas recientes con sonidos fuertes: sin veredicto definitivo. Una o dos músicas en cortos según contexto, biblioteca reutilizable por función. Inicio/dirección C favorable, mezcla final pendiente.",
+  "method": "Análisis de texto, prosodia, medidas de señal y reproducción nativa; sin escucha perceptual del agente.",
+  "human_review": "por confirmar",
+  "catalog_search": "HeyGen UNAUTHORIZED; continúa con descarga pública oficial Incompetech, sin enviar voces."
+}

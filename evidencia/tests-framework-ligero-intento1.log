@@ -1,0 +1,74 @@
+........................................................................................................................................................................................................................................................................................................................EEF..FF.........
+======================================================================
+ERROR: test_approved_artifact_can_remain_pending_for_template_reuse (test_validate_framework.TemplateBankValidationTests.test_approved_artifact_can_remain_pending_for_template_reuse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 428, in test_approved_artifact_can_remain_pending_for_template_reuse
+    MODULE.validate_template_bank(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        registry,
+        ^^^^^^^^^
+        self.registry_schema,
+        ^^^^^^^^^^^^^^^^^^^^^
+        self.approval_schema,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/validate_framework.py", line 582, in validate_template_bank
+    raise ValueError(f"{label}: decided artifact state requires video_id and receipt_path")
+ValueError: template-bank entry T01-editorial-loop: decided artifact state requires video_id and receipt_path
+
+======================================================================
+ERROR: test_approved_artifact_requires_existing_receipt (test_validate_framework.TemplateBankValidationTests.test_approved_artifact_requires_existing_receipt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 329, in test_approved_artifact_requires_existing_receipt
+    MODULE.validate_template_bank(registry, self.registry_schema, self.approval_schema)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/validate_framework.py", line 582, in validate_template_bank
+    raise ValueError(f"{label}: decided artifact state requires video_id and receipt_path")
+ValueError: template-bank entry T01-editorial-loop: decided artifact state requires video_id and receipt_path
+
+======================================================================
+FAIL: test_artifact_receipt_cannot_authorize_template_reuse (test_validate_framework.TemplateBankValidationTests.test_artifact_receipt_cannot_authorize_template_reuse)
+----------------------------------------------------------------------
+ValueError: template-bank entry T01-editorial-loop: template reuse requires an independently approved source artifact
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 365, in test_artifact_receipt_cannot_authorize_template_reuse
+    with self.assertRaisesRegex(ValueError, "artifact receipt cannot authorize template reuse"):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "artifact receipt cannot authorize template reuse" does not match "template-bank entry T01-editorial-loop: template reuse requires an independently approved source artifact"
+
+======================================================================
+FAIL: test_tampered_or_rebound_receipt_is_rejected (test_validate_framework.TemplateBankValidationTests.test_tampered_or_rebound_receipt_is_rejected)
+----------------------------------------------------------------------
+ValueError: template-bank entry T01-editorial-loop: not_applicable artifact cannot carry video, receipt, or scope
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 481, in test_tampered_or_rebound_receipt_is_rejected
+    with self.assertRaisesRegex(ValueError, "artifact binding failed: hash_mismatch"):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "artifact binding failed: hash_mismatch" does not match "template-bank entry T01-editorial-loop: not_applicable artifact cannot carry video, receipt, or scope"
+
+======================================================================
+FAIL: test_template_default_requires_approved_source_artifact (test_validate_framework.TemplateBankValidationTests.test_template_default_requires_approved_source_artifact)
+----------------------------------------------------------------------
+ValueError: template-bank entry T01-editorial-loop: pending artifact state requires video_id
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Entrega-Windows-v1/proyecto/Framework-Edicion-Social/scripts/tests/test_validate_framework.py", line 350, in test_template_default_requires_approved_source_artifact
+    with self.assertRaisesRegex(ValueError, "independently approved source artifact"):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "independently approved source artifact" does not match "template-bank entry T01-editorial-loop: pending artifact state requires video_id"
+
+----------------------------------------------------------------------
+Ran 328 tests in 6.032s
+
+FAILED (failures=3, errors=2)

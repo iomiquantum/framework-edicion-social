@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-30",
+  "consulted_at": "2026-09-30T09:16:01-05:00",
+  "scope": {
+    "format": "video_vertical_corto",
+    "topics": [
+      "tecnologia",
+      "inteligencia_artificial"
+    ],
+    "language": "es",
+    "primary_market": "Ecuador",
+    "proxy_market": "LATAM"
+  },
+  "status": "no_material_change",
+  "platform_changes": [],
+  "observed_patterns": [],
+  "deduplication": {
+    "compared_with": "research/observations/2026-09-29.json",
+    "duplicates_discarded": [
+      "El tratamiento de Content ID para Shorts de 61 a 179 segundos ya fue registrado el 2026-09-24.",
+      "Shorts Series, publicaciones en el feed y edición conversacional pertenecen al anuncio Made on YouTube del 2026-09-23 ya registrado y consolidado.",
+      "Los cambios de monetización de YouTube para 2027, las guías históricas de Meta y las noticias comerciales de TikTok no aportan hoy un cambio de edición orgánica dentro del alcance."
+    ],
+    "material_items_kept": 0
+  },
+  "coverage": {
+    "official_sources_checked": [
+      "YouTube Help: three-minute Shorts y Creator updates",
+      "YouTube Community: Made on YouTube 2026",
+      "YouTube Blog",
+      "TikTok Newsroom ES-LATAM y global",
+      "Meta Newsroom y archivo Reels"
+    ],
+    "ecuador_specific_sample": "No disponible con muestra suficiente en esta ejecución.",
+    "latam_proxy": "No se encontró una señal reciente y reproducible con muestra suficiente para elevarla a patrón observado."
+  },
+  "notes": [
+    "No se verificó un cambio oficial nuevo y aplicable desde la consulta anterior.",
+    "Las páginas oficiales de YouTube mantienen los anuncios ya registrados sin un delta fechado posterior para la edición vertical del proyecto.",
+    "La noticia nueva localizada en TikTok corresponde a una transmisión LIVE de museo en Estados Unidos y no cambia el flujo de videos verticales orgánicos de tecnología e IA en español.",
+    "Meta no mostró una actualización reciente aplicable a Reels orgánicos desde la observación anterior.",
+    "No se modificaron reglas, perfiles, experimentos ni renders."
+  ]
+}

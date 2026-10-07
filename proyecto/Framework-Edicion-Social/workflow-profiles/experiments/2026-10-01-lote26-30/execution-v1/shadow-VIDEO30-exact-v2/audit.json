@@ -1,0 +1,72 @@
+{
+  "at_utc": "2026-10-01T05:16:25.677848+00:00",
+  "reviewer": "/root/auditoria_flujos_26_30",
+  "video": "VIDEO-30",
+  "export": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/entrega/VIDEO-30-ENTREGA-HLG-v2.mp4",
+    "sha256": "512deb7bbe4b53cde69dd76ba6921b0bab3dc20b6dcb020ef93ea6e1fbf9aa31"
+  },
+  "status": "sampled_visual_and_technical_pass",
+  "scope": "24directed exactMP4critical frames across all sceneentries/image/return/end,2contactsheets + v1full47samplecoverage and unchangedsubcomposition/assets/source verified; no continuouswatch/listen",
+  "evidence": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/entrega/VIDEO-30-ENTREGA-HLG-v2.mp4",
+      "sha256": "512deb7bbe4b53cde69dd76ba6921b0bab3dc20b6dcb020ef93ea6e1fbf9aa31"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/background-only-diff-v2.json",
+      "sha256": "adb7f995d1b653c171c917d5011b921ef8f7b4ba799c1586968ae3632aacd111"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/exact-frames-v2/manifest.json",
+      "sha256": "ca00c784d7afb438ef126991c8d66368343217ddbf4b54e8d3ac65415733b984"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/final-audio-v2/engine-parity-verified.json",
+      "sha256": "9d49582f65b880ac9e0fe2d676854cb54cae52a932ca88ef56da4add82dde912"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/post-render-exact-v2/summary.json",
+      "sha256": "23caca8ddc1fa9a2a4a04e68b4cfb65e72b68e92006c793d0b1bb27d90e27932"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/exact-frames-v2/contact-2.jpg",
+      "sha256": "c770bcc52c8cabc38f9f0c961156117af8a0e98eec67c7f74ce45db3223e17fd"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/exact-frames-v2/contact-1.jpg",
+      "sha256": "b2f02e0724f77a036af26e2b8f59d85269a1c7571403aa83026be9ccfe4b288f"
+    }
+  ],
+  "candidate_manifest_dependency_changes": [
+    {
+      "path": "index.html",
+      "before": "1f9cc9f770646613d48df359df7749dad0fcf74e04764c8aecabe678babd361c",
+      "current": "53cf719e42f7d9293828b04c38990860e1eebe37d65555033bc3a4df806aaae6"
+    }
+  ],
+  "unchanged_render_source_dependencies": 14,
+  "resolved_defect": {
+    "id": "T30-BG-01",
+    "prior_export_preserved": true,
+    "resolution": "Rootpersistentnavybehindanimatedinner; no blacksurround in24v2criticalframesinspected",
+    "critical_times_s": [
+      0,
+      3.633,
+      6.9,
+      12
+    ],
+    "status": "resolved_in_exact_v2"
+  },
+  "observations": [
+    "Navy remains atzeroandmoduleboundary; fade nowinterpolatesnavy tointendedlilac/teal, no suddenblack",
+    "Presenter/captions maintain geometry and9cuecontent; clean image10s and return12s",
+    "No prior-titleghost observed in transitions, closure/lastframe intact",
+    "AAC fullsamplecorrelation1 and3eventsexact, -16LUFS/-2.1TP from exactparityreceipt"
+  ],
+  "human_listened": false,
+  "continuous_playback": false,
+  "platformreview": "por confirmar",
+  "usereditorialapproval": "not inferred",
+  "final_creator_receipt": "not yet present at auditread; technical/visual evidence exists independently"
+}

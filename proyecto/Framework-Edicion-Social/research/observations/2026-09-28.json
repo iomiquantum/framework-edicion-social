@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-28",
+  "consulted_at": "2026-09-28T09:07:06-05:00",
+  "scope": {
+    "format": "video_vertical_corto",
+    "topics": [
+      "tecnologia",
+      "inteligencia_artificial"
+    ],
+    "language": "es",
+    "primary_market": "Ecuador",
+    "proxy_market": "LATAM"
+  },
+  "status": "no_material_change",
+  "platform_changes": [],
+  "observed_patterns": [],
+  "deduplication": {
+    "compared_with": "research/observations/2026-09-27.json",
+    "duplicates_discarded": [
+      "El cambio de Content ID para Shorts de más de un minuto ya fue registrado el 2026-09-24.",
+      "Las herramientas de edición conversacional y pruebas de cortes anunciadas por YouTube ya fueron registradas el 2026-09-24.",
+      "Shorts Series y las publicaciones dentro del feed de Shorts ya fueron registradas el 2026-09-25.",
+      "Meta One fue publicado fuera de la ventana primaria y no introduce hoy una obligación de edición orgánica verificable para el proyecto."
+    ],
+    "material_items_kept": 0
+  },
+  "coverage": {
+    "official_sources_checked": [
+      "YouTube Help: Creator updates",
+      "YouTube Help: three-minute Shorts",
+      "YouTube Community: Made on YouTube 2026",
+      "Meta Newsroom y archivo Reels",
+      "TikTok Newsroom ES-LATAM"
+    ],
+    "ecuador_specific_sample": "No disponible con muestra suficiente en esta ejecución.",
+    "latam_proxy": "No se encontró una señal reciente y reproducible con muestra suficiente para elevarla a patrón observado."
+  },
+  "notes": [
+    "No se verificó un cambio oficial nuevo y aplicable desde la consulta anterior.",
+    "Las novedades vigentes de YouTube dentro de la ventana de siete días se consolidan en el informe semanal 2026-W40 y permanecen deduplicadas en el registro diario.",
+    "TikTok ES-LATAM no mostró una actualización reciente que cambie la edición o publicación orgánica del alcance estudiado.",
+    "Meta no aportó una novedad nueva para Reels orgánicos desde la observación anterior; Meta One conserva variación por región y cuenta y no justifica cambiar el máster.",
+    "No se modificaron reglas, perfiles, experimentos ni renders."
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "trial_id": "LOTE-26-30-FLUJOS-001",
+  "frozen_at_utc": "2026-10-01T04:21:50.912102+00:00",
+  "frozen_before_full_creative_assembly": "root explicit NEW_TASK states no creative built yet; source/proxy files exist",
+  "status": "frozen",
+  "allocation": {
+    "flujo-1": 2,
+    "flujo-2": 2,
+    "flujo-3": 1
+  },
+  "shared_ingest_receipt": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/00-INGESTA/ingest-provisional-26-30.json",
+    "sha256": "6ac6e119602c4798f21b8900f51b877dec40b343151326f0b698e23f05be51c9"
+  },
+  "ingest_status": "provisional_only_not_ingest_ready",
+  "asr_health_status": "fail_missing_VIDEO27_marker_adjudicated_contextually_not_relabelled_pass",
+  "human_review_completed": false,
+  "assembly_authority": "permanentprovisionalexception + exact user autonomous edit/render instruction; not strict ready or editorial approval",
+  "assignments": [
+    {
+      "video_id": "VIDEO-26",
+      "flow": 1,
+      "profile_id": "flujo-1",
+      "source_duration_s": 28.26666666666668,
+      "segments_count": 6,
+      "complexity_before_edit": "simple–moderada; lectura fácil, reputación de sistemas",
+      "owner": "/root",
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "medium",
+      "model_observed_runtime": null,
+      "model_evidence": "root reports explicit worker spawn settings; not independently verified here",
+      "source_ranges": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/source/video-26-provisional-source-ranges.json",
+        "sha256": "88068e445fd1773bd37464d8925fbec9307f5114c78953f909912135cd90f71b"
+      },
+      "transcript_selected": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/source/video-26-transcript-selected.json",
+        "sha256": "33b5f490c8764310e16762203d2e63ed411bc0a30567aae65435155fefea709a"
+      },
+      "proxy": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/source/video-26-provisional-proxy-hlg.mp4",
+        "sha256": "c37ca9ea86dd9ea495ff13a1e4d8b394f5a30912cc9bb338fa5d4a144d4b8221"
+      },
+      "voice_text": "Puede llegar un momento en que tu próximo cliente no te encuentre, pero quien te encuentre va a ser su vida. Imagínate que alguien le diga, búscame la mejor opción para resolver este problema. IA va a investigar quién eres, qué dicen de ti, qué has publicado, ver si realmente pareces confiable y probablemente le va a recomendar muchas más opciones. Tu reputación digital ya no será solamente para convencer personas. una IA investigara hoy tu negocio, ¿qué encontraría?",
+      "human_listened": false,
+      "intake_pending": [
+        "auditory_naturalness",
+        "gestural_continuity",
+        "hook26_ambiguous_final_term"
+      ]
+    },
+    {
+      "video_id": "VIDEO-27",
+      "flow": 1,
+      "profile_id": "flujo-1",
+      "source_duration_s": 22.033333333333303,
+      "segments_count": 4,
+      "complexity_before_edit": "moderada; captions protagonistas, ciclo aprender campañas",
+      "owner": "/root/direccion_plantillas_26_30",
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "medium",
+      "model_observed_runtime": null,
+      "model_evidence": "root reports explicit worker spawn settings; not independently verified here",
+      "source_ranges": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/source/video-27-provisional-source-ranges.json",
+        "sha256": "d698796beae1e9b11fd26b75958602d8aaa67c72dc54b3a8d248e90c73baca67"
+      },
+      "transcript_selected": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/source/video-27-transcript-selected.json",
+        "sha256": "1457952e0c321f984b5fcd1a20d2a472f98c4ec6adb42c69739773212f507b8d"
+      },
+      "proxy": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/source/video-27-provisional-proxy-hlg.mp4",
+        "sha256": "bbfad5286900f6ccafc3dd67729476f78d31fcf0710aebbca769e041ba8d2d82"
+      },
+      "voice_text": "Dentro de poco, hacer una campaña completa puede ser lo más fácil del marketing. textos, imágenes, vídeos, segmentaciones, la IA puede generar todo eso cada vez más rápido. Entonces saber hacer anuncios deja de ser suficiente, lo difícil va a ser decidir qué idea probar y saber qué pasó. La ventaja no será crear campañas, será aprender de ellas.",
+      "human_listened": false,
+      "intake_pending": [
+        "auditory_naturalness",
+        "gestural_continuity",
+        "missing_start_and_approval_slate27_adjudicated_contextually"
+      ]
+    },
+    {
+      "video_id": "VIDEO-28",
+      "flow": 2,
+      "profile_id": "flujo-2",
+      "source_duration_s": 24.69999999999999,
+      "segments_count": 5,
+      "complexity_before_edit": "simple–moderada; herramientas compartidas/aprendizaje propio",
+      "owner": "/root/direccion_plantillas_26_30",
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "medium",
+      "model_observed_runtime": null,
+      "model_evidence": "root reports explicit worker spawn settings; not independently verified here",
+      "source_ranges": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/source/video-28-provisional-source-ranges.json",
+        "sha256": "f570bfe987831fc4ceb921b69b5af8013bae945baffcadd116fe3767a034aef7"
+      },
+      "transcript_selected": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/source/video-28-transcript-selected.json",
+        "sha256": "2f86c5b4a73c468c291f085209b1960072df178b8a40e93faed7b1d1765a1350"
+      },
+      "proxy": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/source/video-28-provisional-proxy-hlg.mp4",
+        "sha256": "26152974e506213a2390d4901a86e3fe2ce495994da348c9a130a8724781ed12"
+      },
+      "voice_text": "un pequeño problema con decir que tu ventaja competitiva es la IA. competencia también tiene ChatGPT, Claude, Gemini, probablemente las mismas herramientas que tú. Entonces la diferencia no puede ser solamente tener acceso, la diferencia está en qué información tienes y que has aprendido utilizándolas. La herramienta se comparte. El aprendizaje acumulado no. ¿Qué sabe hoy tu negocio que tu competencia no sabe?",
+      "human_listened": false,
+      "intake_pending": [
+        "auditory_naturalness",
+        "gestural_continuity"
+      ]
+    },
+    {
+      "video_id": "VIDEO-29",
+      "flow": 2,
+      "profile_id": "flujo-2",
+      "source_duration_s": 23.966666666666583,
+      "segments_count": 4,
+      "complexity_before_edit": "moderada; ritmo/recap, enseñar y confianza",
+      "owner": "/root",
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "medium",
+      "model_observed_runtime": null,
+      "model_evidence": "root reports explicit worker spawn settings; not independently verified here",
+      "source_ranges": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/source/video-29-provisional-source-ranges.json",
+        "sha256": "511e7a2786ee4014f18a692a7cba5343ba3c3c4a2b525f5bab54d25a1bf4d4db"
+      },
+      "transcript_selected": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/source/video-29-transcript-selected.json",
+        "sha256": "b4fc64bd2dab01a5bd4c47bcab2a7cbe175a5c423e101d30190dc2ed1e0c56ca"
+      },
+      "proxy": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/source/video-29-provisional-proxy-hlg.mp4",
+        "sha256": "016b7d70746288a40bd2cd0c501fd85572d133b286ccdcf42333c752c6407638"
+      },
+      "voice_text": "Si cada vez que apareces en mi pantalla intentas venderme algo probablemente voy a dejar de escucharte. Dame algo útil, cuéntame algo que no había pensado, ayúdame a solucionar un problema, porque cuando llegue el día en que necesite lo que tú vendes, yo ya debería saber quién eres y confiar en ti. La venta empieza mucho antes de pedir dinero. ¿Qué podrías enseñar hoy sin intentar vender nada a tus futuros clientes?",
+      "human_listened": false,
+      "intake_pending": [
+        "auditory_naturalness",
+        "gestural_continuity"
+      ]
+    },
+    {
+      "video_id": "VIDEO-30",
+      "flow": 3,
+      "profile_id": "flujo-3",
+      "source_duration_s": 15.899999999999977,
+      "segments_count": 3,
+      "complexity_before_edit": "esencial compatible; pregunta y cuatro canales T30",
+      "owner": "/root/ingesta_lote26_30",
+      "model_requested": "gpt-6.1-sol",
+      "reasoning_requested": "medium",
+      "model_observed_runtime": null,
+      "model_evidence": "root reports explicit worker spawn settings; not independently verified here",
+      "source_ranges": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/source/video-30-provisional-source-ranges.json",
+        "sha256": "949e1ec4f9a1c2318f6f3a4f8f52075d87e2e887f40615f8a00cee28e00af232"
+      },
+      "transcript_selected": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/source/video-30-transcript-selected.json",
+        "sha256": "e2f959501bf5bee45eb0eccfb56f239353ee4cf9da59de73ab3c3a29b7732d35"
+      },
+      "proxy": {
+        "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/source/video-30-provisional-proxy-hlg.mp4",
+        "sha256": "17565d99b303b5e701c7d243650f6fefa5283d4fc8ecd8a4e41cd11723236c13"
+      },
+      "voice_text": "una pregunta que puede valer más que aprender 100 herramientas Si mañana cualquiera puede crear contenido, anuncios, páginas, productos y hasta negocios usando las mismas herramientas que tú, entonces tienes que preguntarte algo muy incómodo. ¿Por qué alguien debería escogerte a ti?",
+      "human_listened": false,
+      "intake_pending": [
+        "auditory_naturalness",
+        "gestural_continuity"
+      ]
+    }
+  ],
+  "matched_pairs": [
+    {
+      "pair": "A",
+      "F1": "VIDEO-26",
+      "F2": "VIDEO-28",
+      "criterion": "28.267/24.700s, narrative simple–moderate, one presenter plus contextual graphic, prior resources present",
+      "order": "26F1 +28F2 first"
+    },
+    {
+      "pair": "B",
+      "F1": "VIDEO-27",
+      "F2": "VIDEO-29",
+      "criterion": "22.033/23.967s;4segments each, moderate caption/rhythm/recap families with prior resources",
+      "order": "29F2 before27F1"
+    }
+  ],
+  "F3_eligibility": {
+    "video": "VIDEO-30",
+    "duration_s": 15.9,
+    "reason": "Three selected segments: question, shared-tool scenario, specific choice; T30 voice/wave, Aa/captions, contextual symbol and recap reusable modules preserve identity without custom3D or elaborate transition exploration",
+    "constraint": "Do not force four-grid; retain four semantic channels. Scaling needed resources permitted; minimal effort cannot remove family identity.",
+    "not_compared_as_equal_scope": true
+  },
+  "confounders": [
+    "Different video themes/families/word counts",
+    "Different owners and operational workloads",
+    "Historical preproduction was not virgin and time unknown",
+    "Concurrent render queues/caches; process time not additive",
+    "Provisional automated intake; human listen/naturalness pending",
+    "HyperFrames proposed common0.8.100 differs historical21–25 0.8.99",
+    "Root worker model request not independently runtime verified",
+    "Only2 matched pairs +1 simpler-scope observation; not causal or population benchmark"
+  ],
+  "engine": {
+    "new_projects_requested": "HyperFrames0.8.100",
+    "status": "parent proposal; actual engine manifests must verify before render",
+    "historical_reference21_25": "0.8.99 preserved",
+    "ingest_asr": "0.8.99 per parent",
+    "causal_comparison_to_historical": false
+  },
+  "resource_policy": "Create/adapt necessary resources for fidelity and final design; never force reuse; count generated-unused and correction costs",
+  "shadow_audit_required": [
+    "VIDEO-28",
+    "VIDEO-29",
+    "VIDEO-30"
+  ],
+  "defaults_changed": false,
+  "assignment_after_time_results_changes_allowed": false
+}

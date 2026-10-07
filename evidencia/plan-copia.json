@@ -1,0 +1,248 @@
+{
+  "files": 9940,
+  "bytes": 17627070466,
+  "GB_decimal": 17.627,
+  "excluded": [
+    {
+      "path": "Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/scripts/__pycache__",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Framework-Edicion-Social/research/market-intelligence",
+      "reason": "external, directory or broken symlink"
+    },
+    {
+      "path": "Framework-Edicion-Social/scripts/__pycache__",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Framework-Edicion-Social/scripts/tests/__pycache__",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/00-INGESTA/analysis-16-20/__pycache__",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/00-INGESTA/analysis-21-25/runtime",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/scripts/__pycache__",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/scripts/tests/__pycache__",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/node_modules",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-02/editable-hyperframes-video-02/node_modules",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-12/editable-hyperframes-video-12/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-13/editable-hyperframes-video-13/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-15/editable-hyperframes-video-15/renders/work-d3be38a2-28ac-48fa-9e69-70dc11784732-pDhUvm",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-17/editable-hyperframes-video-17/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-18/editable-hyperframes-video-18/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-19/editable-hyperframes-video-19/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-20/editable-hyperframes-video-20/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-21/editable-hyperframes-video-21/__pycache__",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-22/editable-hyperframes-video-22/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-23/editable-hyperframes-video-23/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-24/editable-hyperframes-video-24/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/__pycache__",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/.hyperframes",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/.thumbnails",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/.waveform-cache",
+      "reason": "regenerable cache or Mac runtime"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/__pycache__",
+      "reason": "regenerable cache or Mac runtime"
+    }
+  ],
+  "scope": "Framework, 30 principal editables, six original batches, source/metadata and selected exports. Not entire historical archive."
+}

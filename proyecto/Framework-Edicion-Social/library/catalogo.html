@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Catálogo maestro de recursos</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background:#0b1020; color:#f6f7fb; }
+    * { box-sizing:border-box; } body { margin:0; }
+    header { position:sticky; top:0; z-index:2; padding:24px clamp(18px,4vw,56px); background:rgba(11,16,32,.94); backdrop-filter:blur(18px); border-bottom:1px solid #29314a; }
+    h1 { margin:0 0 7px; font-size:clamp(24px,4vw,42px); } header p { margin:0; color:#abb5ce; }
+    .controls { display:flex; gap:10px; margin-top:18px; } input,select { min-height:44px; border:1px solid #3a4563; border-radius:12px; background:#141b30; color:white; padding:0 14px; font:inherit; } input { flex:1; }
+    main { display:grid; grid-template-columns:repeat(auto-fill,minmax(285px,1fr)); gap:18px; padding:26px clamp(18px,4vw,56px) 60px; }
+    .card { overflow:hidden; border:1px solid #29314a; border-radius:18px; background:#12192c; box-shadow:0 12px 32px rgba(0,0,0,.18); }
+    .preview { min-height:155px; display:grid; place-items:center; background:linear-gradient(135deg,#1b2541,#101629); }
+    .checker { background-color:#e9edf6; background-image:linear-gradient(45deg,#cbd3e2 25%,transparent 25%),linear-gradient(-45deg,#cbd3e2 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#cbd3e2 75%),linear-gradient(-45deg,transparent 75%,#cbd3e2 75%); background-size:24px 24px; background-position:0 0,0 12px,12px -12px,-12px 0; }
+    .preview img { width:110px; height:110px; object-fit:contain; filter:drop-shadow(0 7px 14px rgba(0,0,0,.25)); } audio { width:88%; }
+    .body { padding:18px; } .meta { display:flex; justify-content:space-between; align-items:center; gap:10px; color:#aeb9d5; } .meta b { color:#56d8c7; text-transform:uppercase; font-size:12px; letter-spacing:.08em; }
+    h2 { margin:12px 0 8px; font-size:20px; } .body p { color:#c7cee0; line-height:1.48; min-height:64px; }
+    .tags { display:flex; flex-wrap:wrap; gap:6px; } .tags span { padding:5px 8px; border-radius:999px; background:#232d49; color:#cbd5ee; font-size:12px; }
+    dl { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:16px 0; } dl div { min-width:0; } dt { color:#7f8baa; font-size:11px; } dd { margin:3px 0 0; overflow:hidden; text-overflow:ellipsis; font-size:13px; }
+    a { color:#69d9ff; word-break:break-all; } .hidden { display:none; }
+    @media (max-width:560px) { .controls { flex-direction:column; } dl { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Biblioteca maestra</h1>
+    <p>17 recursos reutilizables · actualización 2026-09-25</p>
+    <div class="controls">
+      <input id="q" type="search" placeholder="Buscar por intención, nombre, ID o etiqueta…" autofocus>
+      <select id="type"><option value="">Todos los tipos</option><option value="bgm">bgm</option><option value="icon">icon</option><option value="sfx">sfx</option></select>
+    </div>
+  </header>
+  <main id="grid">
+        <article class="card" data-type="bgm" data-search="bgm-tech-0001 pulso tecnológico 114 bpm cama instrumental tecnológica discreta, circular y sin voz para explicaciones de ia, procesos o productos digitales. tecnologia tech ai pulso instrumental loop 114 bpm educacion tecnologica ia explicacion de procesos bienestar contemplativo testimonio solemne contenido con musica original">
+          <div class="preview audio"><audio controls preload="none" src="music/tech_pulse_114bpm_8bars.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>BGM-TECH-0001</code><b>bgm</b></div>
+            <h2>Pulso tecnológico 114 BPM</h2>
+            <p>Cama instrumental tecnológica discreta, circular y sin voz para explicaciones de IA, procesos o productos digitales.</p>
+            <div class="tags"><span>tecnologia</span><span>tech</span><span>ai</span><span>pulso</span><span>instrumental</span><span>loop</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>limited</dd></div>
+              <div><dt>Usos</dt><dd>1</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="music/tech_pulse_114bpm_8bars.wav">music/tech_pulse_114bpm_8bars.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="icon" data-search="icon-audio-0001 escucha con audífonos audífonos lineales para indicar escucha, audio inmersivo, podcast o recomendación de utilizar auriculares. audifonos headphones audio escucha podcast inmersivo escucha con audifonos audio inmersivo podcast marca de hardware producto especifico">
+          <div class="preview checker"><img src="icons/headphones.svg" alt=""></div>
+          <div class="body">
+            <div class="meta"><code>ICON-AUDIO-0001</code><b>icon</b></div>
+            <h2>Escucha con audífonos</h2>
+            <p>Audífonos lineales para indicar escucha, audio inmersivo, podcast o recomendación de utilizar auriculares.</p>
+            <div class="tags"><span>audifonos</span><span>headphones</span><span>audio</span><span>escucha</span><span>podcast</span><span>inmersivo</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>unlimited</dd></div>
+              <div><dt>Usos</dt><dd>1</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="icons/headphones.svg">icons/headphones.svg</a>
+          </div>
+        </article>
+        <article class="card" data-type="icon" data-search="icon-audio-0002 ondas y resonancia ondas lineales para representar sonido, frecuencia, resonancia, transmisión o propagación alrededor de una idea. ondas waves sonido frecuencia resonancia signal sonido envolvente frecuencias transmision grafica cientifica dato cuantitativo logo">
+          <div class="preview checker"><img src="icons/waves.svg" alt=""></div>
+          <div class="body">
+            <div class="meta"><code>ICON-AUDIO-0002</code><b>icon</b></div>
+            <h2>Ondas y resonancia</h2>
+            <p>Ondas lineales para representar sonido, frecuencia, resonancia, transmisión o propagación alrededor de una idea.</p>
+            <div class="tags"><span>ondas</span><span>waves</span><span>sonido</span><span>frecuencia</span><span>resonancia</span><span>signal</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>unlimited</dd></div>
+              <div><dt>Usos</dt><dd>1</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="icons/waves.svg">icons/waves.svg</a>
+          </div>
+        </article>
+        <article class="card" data-type="icon" data-search="icon-focus-0001 atención interior ojo lineal para representar cerrar los ojos, concentración, observación o enfoque interior sin implicar evidencia clínica. ojo eye enfoque focus interior atencion cerrar los ojos concentracion introspeccion diagnostico visual vigilancia logo">
+          <div class="preview checker"><img src="icons/eye.svg" alt=""></div>
+          <div class="body">
+            <div class="meta"><code>ICON-FOCUS-0001</code><b>icon</b></div>
+            <h2>Atención interior</h2>
+            <p>Ojo lineal para representar cerrar los ojos, concentración, observación o enfoque interior sin implicar evidencia clínica.</p>
+            <div class="tags"><span>ojo</span><span>eye</span><span>enfoque</span><span>focus</span><span>interior</span><span>atencion</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>unlimited</dd></div>
+              <div><dt>Usos</dt><dd>1</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="icons/eye.svg">icons/eye.svg</a>
+          </div>
+        </article>
+        <article class="card" data-type="icon" data-search="icon-well-0001 respiración guiada icono lineal de respiración para acompañar instrucciones de inhalar, exhalar, pausar o regular el ritmo. respiracion breathing inhalar exhalar pausa wellness respiracion guiada bienestar pausa consciente evidencia medica marca comercial">
+          <div class="preview checker"><img src="icons/breath.svg" alt=""></div>
+          <div class="body">
+            <div class="meta"><code>ICON-WELL-0001</code><b>icon</b></div>
+            <h2>Respiración guiada</h2>
+            <p>Icono lineal de respiración para acompañar instrucciones de inhalar, exhalar, pausar o regular el ritmo.</p>
+            <div class="tags"><span>respiracion</span><span>breathing</span><span>inhalar</span><span>exhalar</span><span>pausa</span><span>wellness</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>unlimited</dd></div>
+              <div><dt>Usos</dt><dd>1</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="icons/breath.svg">icons/breath.svg</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-emphasis-0001 acento grave suave acento breve de mayor peso para una afirmación, cifra o conclusión importante sin convertirse en golpe agresivo. acento grave impacto enfasis conclusion dato afirmacion fuerte dato principal giro importante uso frecuente musica con golpe grave simultaneo contenido ligero">
+          <div class="preview audio"><audio controls preload="none" src="sfx/05_low_accent.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-EMPHASIS-0001</code><b>sfx</b></div>
+            <h2>Acento grave suave</h2>
+            <p>Acento breve de mayor peso para una afirmación, cifra o conclusión importante sin convertirse en golpe agresivo.</p>
+            <div class="tags"><span>acento</span><span>grave</span><span>impacto</span><span>enfasis</span><span>conclusion</span><span>dato</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>rotate</dd></div>
+              <div><dt>Usos</dt><dd>2</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="sfx/05_low_accent.wav">sfx/05_low_accent.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-entry-0001 entrada aérea suave entrada aérea histórica, retirada del uso automático porque su brillo y presencia resultaron fuertes para el oído. entrada airy reveal aparicion suave concepto entrada de concepto revelado sutil inicio de cutaway impacto fuerte alarma pasaje solemne saturado">
+          <div class="preview audio"><audio controls preload="none" src="sfx/01_airy_in.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-ENTRY-0001</code><b>sfx</b></div>
+            <h2>Entrada aérea suave</h2>
+            <p>Entrada aérea histórica, retirada del uso automático porque su brillo y presencia resultaron fuertes para el oído.</p>
+            <div class="tags"><span>entrada</span><span>airy</span><span>reveal</span><span>aparicion</span><span>suave</span><span>concepto</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>do_not_reuse</dd></div>
+              <div><dt>Usos</dt><dd>2</dd></div>
+              <div><dt>Estado</dt><dd>deprecated</dd></div>
+            </dl>
+            <a href="sfx/01_airy_in.wav">sfx/01_airy_in.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-entry-0002 entrada aterciopelada entrada cálida, redondeada y con poco brillo para revelar ideas o imágenes sin sobresalir sobre la voz. entrada bloom aterciopelado calido reveal suave entrada de concepto imagen conceptual revelado discreto impacto fuerte alarma transicion rapida">
+          <div class="preview audio"><audio controls preload="none" src="sfx/candidates/entry_velvet_bloom_soft_v01.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-ENTRY-0002</code><b>sfx</b></div>
+            <h2>Entrada aterciopelada</h2>
+            <p>Entrada cálida, redondeada y con poco brillo para revelar ideas o imágenes sin sobresalir sobre la voz.</p>
+            <div class="tags"><span>entrada</span><span>bloom</span><span>aterciopelado</span><span>calido</span><span>reveal</span><span>suave</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>rotate</dd></div>
+              <div><dt>Usos</dt><dd>1</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="sfx/candidates/entry_velvet_bloom_soft_v01.wav">sfx/candidates/entry_velvet_bloom_soft_v01.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-entry-0003 elevación respirada cálida elevación lenta, respirada y extremadamente discreta para entradas contemplativas debajo de la narración. entrada respirado warm breath lift contemplativo bienestar pausa imagen contemplativa entrada lenta edicion energica impacto movimiento rapido">
+          <div class="preview audio"><audio controls preload="none" src="sfx/candidates/entry_warm_breath_lift_soft_v01.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-ENTRY-0003</code><b>sfx</b></div>
+            <h2>Elevación respirada cálida</h2>
+            <p>Elevación lenta, respirada y extremadamente discreta para entradas contemplativas debajo de la narración.</p>
+            <div class="tags"><span>entrada</span><span>respirado</span><span>warm</span><span>breath</span><span>lift</span><span>contemplativo</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>rotate</dd></div>
+              <div><dt>Usos</dt><dd>1</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="sfx/candidates/entry_warm_breath_lift_soft_v01.wav">sfx/candidates/entry_warm_breath_lift_soft_v01.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-loop-0001 retorno de ciclo gesto sonoro de retorno para reforzar un bucle, repetición, reinicio o regreso visual al punto inicial. loop retorno repeticion ciclo reinicio return diagrama circular repeticion regreso al inicio proceso lineal cierre definitivo musica tonal incompatible">
+          <div class="preview audio"><audio controls preload="none" src="sfx/07_loop_return.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-LOOP-0001</code><b>sfx</b></div>
+            <h2>Retorno de ciclo</h2>
+            <p>Gesto sonoro de retorno para reforzar un bucle, repetición, reinicio o regreso visual al punto inicial.</p>
+            <div class="tags"><span>loop</span><span>retorno</span><span>repeticion</span><span>ciclo</span><span>reinicio</span><span>return</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>rotate</dd></div>
+              <div><dt>Usos</dt><dd>2</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="sfx/07_loop_return.wav">sfx/07_loop_return.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-motion-0001 whoosh corto suave whoosh histórico, retirado del uso automático porque su brillo y ataque resultaron fuertes para el oído. whoosh barrido wipe desplazamiento transicion motion wipe desplazamiento lateral cambio narrativo elemento estatico cada palabra voz muy rapida">
+          <div class="preview audio"><audio controls preload="none" src="sfx/02_soft_whoosh.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-MOTION-0001</code><b>sfx</b></div>
+            <h2>Whoosh corto suave</h2>
+            <p>Whoosh histórico, retirado del uso automático porque su brillo y ataque resultaron fuertes para el oído.</p>
+            <div class="tags"><span>whoosh</span><span>barrido</span><span>wipe</span><span>desplazamiento</span><span>transicion</span><span>motion</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>do_not_reuse</dd></div>
+              <div><dt>Usos</dt><dd>2</dd></div>
+              <div><dt>Estado</dt><dd>deprecated</dd></div>
+            </dl>
+            <a href="sfx/02_soft_whoosh.wav">sfx/02_soft_whoosh.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-motion-0002 barrido de tela barrido mate y redondeado, parecido al roce de una tela, para acompañar desplazamientos sin un whoosh brillante. motion tela swish barrido desplazamiento suave desplazamiento grafico wipe suave cambio de bloque impacto corte seco movimiento muy rapido">
+          <div class="preview audio"><audio controls preload="none" src="sfx/candidates/motion_fabric_swish_soft_v01.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-MOTION-0002</code><b>sfx</b></div>
+            <h2>Barrido de tela</h2>
+            <p>Barrido mate y redondeado, parecido al roce de una tela, para acompañar desplazamientos sin un whoosh brillante.</p>
+            <div class="tags"><span>motion</span><span>tela</span><span>swish</span><span>barrido</span><span>desplazamiento</span><span>suave</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>do_not_reuse</dd></div>
+              <div><dt>Usos</dt><dd>0</dd></div>
+              <div><dt>Estado</dt><dd>deprecated</dd></div>
+            </dl>
+            <a href="sfx/candidates/motion_fabric_swish_soft_v01.wav">sfx/candidates/motion_fabric_swish_soft_v01.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-motion-0003 deslizamiento cálido deslizamiento corto, oscuro y discreto para cambios de bloque que deben sentirse sin llamar la atención. motion slide calido oscuro transicion discreto cambio de bloque tarjeta editorial movimiento bajo voz impacto principal entrada brillante movimiento largo">
+          <div class="preview audio"><audio controls preload="none" src="sfx/candidates/motion_warm_slide_soft_v01.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-MOTION-0003</code><b>sfx</b></div>
+            <h2>Deslizamiento cálido</h2>
+            <p>Deslizamiento corto, oscuro y discreto para cambios de bloque que deben sentirse sin llamar la atención.</p>
+            <div class="tags"><span>motion</span><span>slide</span><span>calido</span><span>oscuro</span><span>transicion</span><span>discreto</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>rotate</dd></div>
+              <div><dt>Usos</dt><dd>1</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="sfx/candidates/motion_warm_slide_soft_v01.wav">sfx/candidates/motion_warm_slide_soft_v01.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-resolve-0001 resolución cálida cola sonora cálida para cerrar una idea, revelar una solución o acompañar un cta con espacio suficiente. cierre resolve solucion cta final calido cierre de idea solucion cta final frase que continua inmediatamente uso repetido musica tonal incompatible">
+          <div class="preview audio"><audio controls preload="none" src="sfx/08_resolve.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-RESOLVE-0001</code><b>sfx</b></div>
+            <h2>Resolución cálida</h2>
+            <p>Cola sonora cálida para cerrar una idea, revelar una solución o acompañar un CTA con espacio suficiente.</p>
+            <div class="tags"><span>cierre</span><span>resolve</span><span>solucion</span><span>cta</span><span>final</span><span>calido</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>rotate</dd></div>
+              <div><dt>Usos</dt><dd>2</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="sfx/08_resolve.wav">sfx/08_resolve.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-sequence-0001 secuencia de tres pasos frase sonora de tres eventos para acompañar diagramas, listas o procesos visuales exactamente de tres pasos. secuencia tres pasos proceso lista diagrama sequence proceso de tres pasos tres nodos lista animada cantidad distinta de tres grafico estatico musica tonal incompatible">
+          <div class="preview audio"><audio controls preload="none" src="sfx/06_sequence.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-SEQUENCE-0001</code><b>sfx</b></div>
+            <h2>Secuencia de tres pasos</h2>
+            <p>Frase sonora de tres eventos para acompañar diagramas, listas o procesos visuales exactamente de tres pasos.</p>
+            <div class="tags"><span>secuencia</span><span>tres pasos</span><span>proceso</span><span>lista</span><span>diagrama</span><span>sequence</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>rotate</dd></div>
+              <div><dt>Usos</dt><dd>2</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="sfx/06_sequence.wav">sfx/06_sequence.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-ui-0001 tick de interfaz tick extremadamente breve para un nodo, marca, selección o detalle puntual sincronizado a una aparición visual. tick ui marcador nodo detalle seleccion nodo de diagrama check aparicion puntual repeticion por palabra momento emotivo impacto principal">
+          <div class="preview audio"><audio controls preload="none" src="sfx/03_ui_tick.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-UI-0001</code><b>sfx</b></div>
+            <h2>Tick de interfaz</h2>
+            <p>Tick extremadamente breve para un nodo, marca, selección o detalle puntual sincronizado a una aparición visual.</p>
+            <div class="tags"><span>tick</span><span>ui</span><span>marcador</span><span>nodo</span><span>detalle</span><span>seleccion</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>rotate</dd></div>
+              <div><dt>Usos</dt><dd>2</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="sfx/03_ui_tick.wav">sfx/03_ui_tick.wav</a>
+          </div>
+        </article>
+        <article class="card" data-type="sfx" data-search="sfx-ui-0002 pop suave pop corto y redondeado para la aparición de una palabra clave, icono o elemento visual pequeño. pop aparicion palabra clave icono badge suave icono palabra clave contador breve cada caption pasaje solemne voz con consonante fuerte simultanea">
+          <div class="preview audio"><audio controls preload="none" src="sfx/04_soft_pop.wav"></audio></div>
+          <div class="body">
+            <div class="meta"><code>SFX-UI-0002</code><b>sfx</b></div>
+            <h2>Pop suave</h2>
+            <p>Pop corto y redondeado para la aparición de una palabra clave, icono o elemento visual pequeño.</p>
+            <div class="tags"><span>pop</span><span>aparicion</span><span>palabra clave</span><span>icono</span><span>badge</span><span>suave</span></div>
+            <dl>
+              <div><dt>Reutilización</dt><dd>rotate</dd></div>
+              <div><dt>Usos</dt><dd>2</dd></div>
+              <div><dt>Estado</dt><dd>approved</dd></div>
+            </dl>
+            <a href="sfx/04_soft_pop.wav">sfx/04_soft_pop.wav</a>
+          </div>
+        </article></main>
+  <script>
+    const q=document.querySelector('#q'), type=document.querySelector('#type'), cards=[...document.querySelectorAll('.card')];
+    function filter() { const term=q.value.trim().toLowerCase(), kind=type.value; cards.forEach(card=>card.classList.toggle('hidden',!!((term&&!card.dataset.search.includes(term))||(kind&&card.dataset.type!==kind)))); }
+    q.addEventListener('input',filter); type.addEventListener('change',filter);
+  </script>
+</body>
+</html>

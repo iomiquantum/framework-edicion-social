@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "style_id": "STYLE_003_IMMERSIVE_WELLNESS",
+  "version": "1.0.0",
+  "presets": {
+    "speaker_punch": {"scale_range": [1.07, 1.09], "attack_s": 0.3, "release_s": 0.4, "ease": "power3.out"},
+    "cutaway_iris": {"duration_s": 0.46, "scale_from_range": [1.09, 1.12], "ease": "power3.out"},
+    "organic_ripple": {"attack_s": 0.18, "release_s": 0.44, "max_scale_range": [4.4, 5.6]},
+    "caption_enter": {"duration_s_range": [0.19, 0.24], "scale_from_range": [0.76, 0.91], "ease": "back.out"}
+  },
+  "rules": {
+    "semantic_trigger_required": true,
+    "fixed_interval_zooms_allowed": false,
+    "glitch_allowed": false,
+    "shake_allowed": false,
+    "preserve_real_gestures": true,
+    "cutaway_ken_burns_required": true
+  }
+}

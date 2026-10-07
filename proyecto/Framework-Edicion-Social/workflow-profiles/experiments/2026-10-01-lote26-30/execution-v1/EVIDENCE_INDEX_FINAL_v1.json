@@ -1,0 +1,197 @@
+{
+  "at_utc": "2026-10-01T06:01:24.426995+00:00",
+  "type": "manual_immutable_final_artifact_index",
+  "does_not_repair_historical_event_hash_failures": true,
+  "artifacts": [
+    {
+      "video": 26,
+      "role": "final_mp4",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/entrega/VIDEO-26-ENTREGA-HLG-v3.mp4",
+      "sha256": "9323f0dcc8182bcf25aaffedb684acb3aef4673464b311bd1f004cb13d178e97"
+    },
+    {
+      "video": 26,
+      "role": "owner_final_qa",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/editable-hyperframes-video-26/qa/final-review-v3.json",
+      "sha256": "b1f29e315b3b875dabf8a5eb3aa3fafff5ea998f5f2d30222f9d5dafcfaa9a10"
+    },
+    {
+      "video": 26,
+      "role": "shadow_final",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/shadow-VIDEO26-exact-v3/audit.json",
+      "sha256": "c31187dbe94b84fe85ced4c6d84ba9fbc9339ccf8b96a968c10fac73413947f7"
+    },
+    {
+      "video": 26,
+      "role": "final_fidelity",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-26/QA_FIDELIDAD_PLANTILLA.md",
+      "sha256": "3d4fe3f4fd21135eaa228428573a06e3d0843ed49e4d2e5ad533c47334aa9649"
+    },
+    {
+      "video": 26,
+      "role": "final_clock_snapshot",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/final-timing-VIDEO26.json",
+      "sha256": "b014fa59352fcf7c7e8b7eb5b4e7874e81cdf0de71b473b334dd6eafc85f98d4"
+    },
+    {
+      "video": 27,
+      "role": "final_mp4",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/entrega/VIDEO-27-ENTREGA-HLG-v2.mp4",
+      "sha256": "ab462f09e2ead4c1fc6cdb5f66627e43f782d1670c041a215c357341045e0a35"
+    },
+    {
+      "video": 27,
+      "role": "owner_final_qa",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/qa/exact-export-review-v2.json",
+      "sha256": "ae2c061ebdb7e4369a66db72174d906cd8194f3754e6808dcca08d7a040fef9c"
+    },
+    {
+      "video": 27,
+      "role": "shadow_final",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/shadow-VIDEO27-exact-v2/audit.json",
+      "sha256": "3dc05a6e7ae80b2915f6806c63794ad5924c8967a72cec8b2ca1653b5b7feee6"
+    },
+    {
+      "video": 27,
+      "role": "final_fidelity",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/QA_FIDELIDAD_PLANTILLA.md",
+      "sha256": "84932318839dc2a95a6c443b5425d01b84be4d8c61dbff9cac6991778f837fe4"
+    },
+    {
+      "video": 27,
+      "role": "final_clock_snapshot",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/final-timing-VIDEO27.json",
+      "sha256": "bd28e0d590a1f3b3427676145ea5e4ee796b036819131639c848c4343272303e"
+    },
+    {
+      "video": 28,
+      "role": "final_mp4",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/entrega/VIDEO-28-ENTREGA-HLG-v1.mp4",
+      "sha256": "8399ba8e285f0c1a57e28711b82e104507f84aad063807cbc413034998acf64a"
+    },
+    {
+      "video": 28,
+      "role": "owner_final_qa",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/editable-hyperframes-video-28/qa/local-delivery-receipt-v1.json",
+      "sha256": "86746624700198de5d9b1b18871d42ced67ef84a10eff088683d9731250823b3"
+    },
+    {
+      "video": 28,
+      "role": "shadow_final",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/shadow-VIDEO28-exact-v1/audit.json",
+      "sha256": "dde940715ac464699973b616548c7341e52df13676fb710a3f9f0110375d1638"
+    },
+    {
+      "video": 28,
+      "role": "final_fidelity",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-28/QA_FIDELIDAD_PLANTILLA.md",
+      "sha256": "3773d50b3e35d62154530efe25dce783317a84ea43d12510eb5bc0d12a5bf6b0"
+    },
+    {
+      "video": 28,
+      "role": "final_clock_snapshot",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/final-timing-VIDEO28.json",
+      "sha256": "2cc6336c722c436692b1b29ec4006cb1232ec0001d6473b325466600c6f75392"
+    },
+    {
+      "video": 29,
+      "role": "final_mp4",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/entrega/VIDEO-29-ENTREGA-HLG-v2.mp4",
+      "sha256": "03f8537f098f38584f8e5b64b7a8fa4aab7a6944a1897824a4c9f3c5c2cf5ed7"
+    },
+    {
+      "video": 29,
+      "role": "owner_final_qa",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/editable-hyperframes-video-29/qa/final-review-v2.json",
+      "sha256": "46755dac244024353fc4bce7666e07d9e31cb285e3d9909768b1bb17243825e2"
+    },
+    {
+      "video": 29,
+      "role": "shadow_final",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/shadow-VIDEO29-exact-v2/audit.json",
+      "sha256": "35a8df9430a24d7634de35ea08a16a425f8c0feb906c38450a08bcb9f197494f"
+    },
+    {
+      "video": 29,
+      "role": "final_fidelity",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-29/QA_FIDELIDAD_PLANTILLA.md",
+      "sha256": "d9d86cc52214b1dcb1f9577cb7534409132b8b24172154703cb2d0b794ba05da"
+    },
+    {
+      "video": 29,
+      "role": "final_clock_snapshot",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/final-timing-VIDEO29.json",
+      "sha256": "db009a5e9520eeb2a21e88889868fb798f30c7ec42758ef22c95fa5ba46e7fa8"
+    },
+    {
+      "video": 30,
+      "role": "final_mp4",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/entrega/VIDEO-30-ENTREGA-HLG-v2.mp4",
+      "sha256": "512deb7bbe4b53cde69dd76ba6921b0bab3dc20b6dcb020ef93ea6e1fbf9aa31"
+    },
+    {
+      "video": 30,
+      "role": "owner_final_qa",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/editable-hyperframes-video-30/qa/QA_EXACTO_VIDEO30_v2.json",
+      "sha256": "87d67f9739edcc0c3c78087d562513e946d8c88fa764a06cd8ac379a07c93d10"
+    },
+    {
+      "video": 30,
+      "role": "shadow_final",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/shadow-VIDEO30-exact-v2/audit.json",
+      "sha256": "c02f90653f2320f1371f2541383151f8a7a7309845db7db7c65a3caf813d65d9"
+    },
+    {
+      "video": 30,
+      "role": "final_fidelity",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/QA_FIDELIDAD_PLANTILLA.md",
+      "sha256": "a5ae1e03236ac36e827d57174a0ae51af305c05dfb29bee73aaeeece0fb9b107"
+    },
+    {
+      "video": 30,
+      "role": "final_clock_snapshot",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/final-timing-VIDEO30.json",
+      "sha256": "ccc204aa8cd5ae90a40e339b77b5b9fa8ff4b39cd491da222999fd0296e9d0a5"
+    },
+    {
+      "role": "experiment_evidence",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/assignment-v1.json",
+      "sha256": "63a619a023e9aced1ffe5f60409ec8d31825ffa0b2211d04cb0b4ad66bc62440"
+    },
+    {
+      "role": "experiment_evidence",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/preproduction-integrity-final-v1.json",
+      "sha256": "a7173d2afe6291a57600b0e2ec8ebfca126b6e6940d4999a0413a335302165d1"
+    },
+    {
+      "role": "experiment_evidence",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/RESULTADOS_FINALES_v1.csv",
+      "sha256": "4b7ca77e6b13c9b3d1bd5879a1349f0fd308e560d50bad0108852665dc0911f3"
+    },
+    {
+      "role": "experiment_evidence",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/RESULTADOS_FINALES_v1.json",
+      "sha256": "ed6aa26539b1b1242b05522b47e9539dd329dcd9fd43436ae64489f6f8524522"
+    },
+    {
+      "role": "experiment_evidence",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/measurement-interim-v1/measurement-method-and-attribution.json",
+      "sha256": "55cbe43995e7986ffa389110d63ea64105c80be06bdb5491c9de7d18506b9f7c"
+    },
+    {
+      "role": "experiment_evidence",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/event-integrity-observed-v1.json",
+      "sha256": "d72383a43e3916e21288b86eaf5eeda4ba7a432fc0c6d45563251e77e25caf7f"
+    },
+    {
+      "role": "final_experiment_report",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/INFORME_FINAL_v1.md",
+      "sha256": "c37f8c2c6c76815ddc0e06ced9c6454fefe4bdf098be99b84bfe5c466a5d5adf"
+    },
+    {
+      "role": "audit_clock",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/experiments/2026-10-01-lote26-30/execution-v1/AUDIT_TIMING_FINAL_v1.json",
+      "sha256": "7193c88a9a0275d49cba6f4b9243368944145b429079938db953cfa3c80f04d1"
+    }
+  ]
+}

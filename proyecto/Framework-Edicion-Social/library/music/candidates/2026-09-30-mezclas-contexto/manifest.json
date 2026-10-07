@@ -1,0 +1,153 @@
+{
+  "date_local": "2026-09-30",
+  "tracks": [
+    {
+      "id": "BGM-CAND-KM-BACKBAY-LOUNGE",
+      "title": "Backbay Lounge",
+      "author": "Kevin MacLeod",
+      "file": "library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+      "sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+      "bytes": 8531962,
+      "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700068",
+      "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Backbay%20Lounge.mp3",
+      "source_record": {
+        "title": "Backbay Lounge",
+        "filename": "Backbay Lounge.mp3",
+        "length": "00:04:27",
+        "instruments": "Piano, Guitar, Drums, Bass",
+        "genre": "11",
+        "bpm": "120",
+        "description": "This is cool. You can walk into a dinner party, grab a glass of prosecco, kiss the host, then casually defuse a large bomb one second before the timer runs out. That level of cool. Maybe you're not that cool, but if you adopt this as your personal theme tune, people will THINK you're that cool.",
+        "feel": "Bright, Grooving, Relaxed",
+        "uploaded": "2017-11-13",
+        "isrc": "USUAN1700068",
+        "collection": "14",
+        "sheetmusic": "Backbay Lounge.pdf",
+        "video": "https://youtu.be/I0gPJrtRHds",
+        "itunes": "https://itunes.apple.com/us/album/backbay-lounge/1312683881?i=1312683882",
+        "filmmusicURL": "https://incompetech.filmmusic.io/song/3408-backbay-lounge/"
+      },
+      "source_html_sha256": "0aaccc3d496fc4ae189e27e3fe2d4f5216266e3bcccf2e0ba77fb1b57a28fa94",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Backbay Lounge — Kevin MacLeod (incompetech.com). CC BY 4.0. https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700068 · https://creativecommons.org/licenses/by/4.0/. Cambios en estas pruebas: extractos, filtros de música, ganancia y automatización.",
+      "roles": [
+        "impulso",
+        "solucion"
+      ],
+      "status": "candidate_in_context_pending_listening",
+      "human_review": "por confirmar",
+      "decode_full": "PASS",
+      "preview": "library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge-preview-20s.wav",
+      "preview_sha256": "42c62ef564b08b23b9494c203435f2124d0c2af1498220357bb868ac988afa7d",
+      "preview_changes": {
+        "source_start_s": 38,
+        "duration_s": 20,
+        "constant_gain_db": -0.9600000000000009,
+        "fade_in_s": 0.1,
+        "fade_out_s": 0.5,
+        "compression": false
+      },
+      "source_html": "library/music/candidates/2026-09-30-mezclas-contexto/licencias/backbay-lounge-fuente.html"
+    },
+    {
+      "id": "BGM-CAND-KM-CLEAN-SOUL",
+      "title": "Clean Soul",
+      "author": "Kevin MacLeod",
+      "file": "library/music/candidates/2026-09-30-mezclas-contexto/clean-soul.mp3",
+      "sha256": "458868c225cf8f6dbaf17300aa2e0839386991be8581d0218554699297d7581c",
+      "bytes": 12271405,
+      "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300033",
+      "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Clean%20Soul.mp3",
+      "source_record": {
+        "title": "Clean Soul",
+        "filename": "Clean Soul.mp3",
+        "length": "00:05:07",
+        "instruments": "Electric Piano, Bass",
+        "genre": "5",
+        "bpm": null,
+        "description": "Very clean soft piece with a lot of space in it.",
+        "feel": "Calming, Mysterious, Relaxed",
+        "uploaded": "2013-06-08",
+        "isrc": "USUAN1300033",
+        "collection": "13",
+        "sheetmusic": null,
+        "video": "https://youtu.be/THihnuQJHF4",
+        "itunes": "https://itunes.apple.com/us/album/clean-soul/id941913727?i=941913735",
+        "filmmusicURL": "https://incompetech.filmmusic.io/song/3514-clean-soul/"
+      },
+      "source_html_sha256": "0aaccc3d496fc4ae189e27e3fe2d4f5216266e3bcccf2e0ba77fb1b57a28fa94",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Clean Soul — Kevin MacLeod (incompetech.com). CC BY 4.0. https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300033 · https://creativecommons.org/licenses/by/4.0/. Cambios en estas pruebas: extractos, filtros de música, ganancia y automatización.",
+      "roles": [
+        "conversacion",
+        "reflexion"
+      ],
+      "status": "candidate_in_context_pending_listening",
+      "human_review": "por confirmar",
+      "decode_full": "PASS",
+      "preview": "library/music/candidates/2026-09-30-mezclas-contexto/clean-soul-preview-20s.wav",
+      "preview_sha256": "5eefab494bf3ca1b1473e12c5fe6b7fc2e1426cd6b923257e77208d9d9a45d30",
+      "preview_changes": {
+        "source_start_s": 31,
+        "duration_s": 20,
+        "constant_gain_db": 6.34,
+        "fade_in_s": 0.1,
+        "fade_out_s": 0.5,
+        "compression": false
+      },
+      "source_html": "library/music/candidates/2026-09-30-mezclas-contexto/licencias/clean-soul-fuente.html"
+    },
+    {
+      "id": "BGM-CAND-KM-CIPHER",
+      "title": "Cipher",
+      "author": "Kevin MacLeod",
+      "file": "library/music/candidates/2026-09-30-mezclas-contexto/cipher.mp3",
+      "sha256": "d3d0614535a61d748e2fd8d5117fc4d781022a7624794802a2462d8af3fdd522",
+      "bytes": 9252699,
+      "source_page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100844",
+      "download_url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Cipher2.mp3",
+      "source_record": {
+        "title": "Cipher",
+        "filename": "Cipher2.mp3",
+        "length": "00:03:51",
+        "instruments": "Synths, Electric Piano, Percussion, Strings",
+        "genre": "7",
+        "bpm": "150",
+        "description": "I've been told this is R&B, but could be a few other things. It is certainly pretty neat. Warning: Very sticky hook.",
+        "feel": "Bright, Grooving, Uplifting",
+        "uploaded": "2011-07-29",
+        "isrc": "USUAN1100844",
+        "collection": null,
+        "sheetmusic": "Cipher.pdf",
+        "video": null,
+        "itunes": "https://itunes.apple.com/us/album/cipher/id945174678?i=945174697",
+        "filmmusicURL": null
+      },
+      "source_html_sha256": "0aaccc3d496fc4ae189e27e3fe2d4f5216266e3bcccf2e0ba77fb1b57a28fa94",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Cipher — Kevin MacLeod (incompetech.com). CC BY 4.0. https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100844 · https://creativecommons.org/licenses/by/4.0/. Cambios en estas pruebas: extractos, filtros de música, ganancia y automatización.",
+      "roles": [
+        "mecanismo",
+        "contraste"
+      ],
+      "status": "candidate_in_context_pending_listening",
+      "human_review": "por confirmar",
+      "decode_full": "PASS",
+      "preview": "library/music/candidates/2026-09-30-mezclas-contexto/cipher-preview-20s.wav",
+      "preview_sha256": "dc6641c9b9389c74245793b696aaa6aa5ac676e5d0c945e1caeea22b0dfa8d7a",
+      "preview_changes": {
+        "source_start_s": 27,
+        "duration_s": 20,
+        "constant_gain_db": -7.880000000000001,
+        "fade_in_s": 0.1,
+        "fade_out_s": 0.5,
+        "compression": false
+      },
+      "source_html": "library/music/candidates/2026-09-30-mezclas-contexto/licencias/cipher-fuente.html"
+    }
+  ],
+  "human_review": "por confirmar"
+}

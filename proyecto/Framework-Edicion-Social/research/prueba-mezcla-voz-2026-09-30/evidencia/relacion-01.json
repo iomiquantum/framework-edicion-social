@@ -1,0 +1,3854 @@
+[
+  {
+    "time_s": 0.025,
+    "active": false,
+    "voice_band_dbfs": -79.52,
+    "music_v1_band_dbfs": -55.63,
+    "music_v2_band_dbfs": -59.35,
+    "music_v2_relative_band_db": 20.17,
+    "secondary_gain_db": -3.56
+  },
+  {
+    "time_s": 0.075,
+    "active": false,
+    "voice_band_dbfs": -76.71,
+    "music_v1_band_dbfs": -54.18,
+    "music_v2_band_dbfs": -58.71,
+    "music_v2_relative_band_db": 18.0,
+    "secondary_gain_db": -4.43
+  },
+  {
+    "time_s": 0.125,
+    "active": false,
+    "voice_band_dbfs": -66.17,
+    "music_v1_band_dbfs": -53.14,
+    "music_v2_band_dbfs": -58.17,
+    "music_v2_relative_band_db": 7.99,
+    "secondary_gain_db": -5.11
+  },
+  {
+    "time_s": 0.175,
+    "active": true,
+    "voice_band_dbfs": -43.88,
+    "music_v1_band_dbfs": -52.33,
+    "music_v2_band_dbfs": -57.64,
+    "music_v2_relative_band_db": -13.76,
+    "secondary_gain_db": -5.37
+  },
+  {
+    "time_s": 0.225,
+    "active": true,
+    "voice_band_dbfs": -24.77,
+    "music_v1_band_dbfs": -50.29,
+    "music_v2_band_dbfs": -55.31,
+    "music_v2_relative_band_db": -30.54,
+    "secondary_gain_db": -5.11
+  },
+  {
+    "time_s": 0.275,
+    "active": true,
+    "voice_band_dbfs": -15.14,
+    "music_v1_band_dbfs": -50.78,
+    "music_v2_band_dbfs": -55.05,
+    "music_v2_relative_band_db": -39.92,
+    "secondary_gain_db": -4.41
+  },
+  {
+    "time_s": 0.325,
+    "active": true,
+    "voice_band_dbfs": -17.14,
+    "music_v1_band_dbfs": -47.76,
+    "music_v2_band_dbfs": -51.3,
+    "music_v2_relative_band_db": -34.15,
+    "secondary_gain_db": -3.48
+  },
+  {
+    "time_s": 0.375,
+    "active": true,
+    "voice_band_dbfs": -21.99,
+    "music_v1_band_dbfs": -50.72,
+    "music_v2_band_dbfs": -53.35,
+    "music_v2_relative_band_db": -31.36,
+    "secondary_gain_db": -2.6
+  },
+  {
+    "time_s": 0.425,
+    "active": true,
+    "voice_band_dbfs": -19.56,
+    "music_v1_band_dbfs": -48.3,
+    "music_v2_band_dbfs": -50.24,
+    "music_v2_relative_band_db": -30.68,
+    "secondary_gain_db": -1.95
+  },
+  {
+    "time_s": 0.475,
+    "active": true,
+    "voice_band_dbfs": -15.66,
+    "music_v1_band_dbfs": -49.46,
+    "music_v2_band_dbfs": -51.16,
+    "music_v2_relative_band_db": -35.5,
+    "secondary_gain_db": -1.63
+  },
+  {
+    "time_s": 0.525,
+    "active": true,
+    "voice_band_dbfs": -17.68,
+    "music_v1_band_dbfs": -49.99,
+    "music_v2_band_dbfs": -51.66,
+    "music_v2_relative_band_db": -33.98,
+    "secondary_gain_db": -1.64
+  },
+  {
+    "time_s": 0.575,
+    "active": true,
+    "voice_band_dbfs": -23.52,
+    "music_v1_band_dbfs": -51.16,
+    "music_v2_band_dbfs": -53.07,
+    "music_v2_relative_band_db": -29.55,
+    "secondary_gain_db": -1.91
+  },
+  {
+    "time_s": 0.625,
+    "active": true,
+    "voice_band_dbfs": -31.8,
+    "music_v1_band_dbfs": -52.69,
+    "music_v2_band_dbfs": -55.05,
+    "music_v2_relative_band_db": -23.25,
+    "secondary_gain_db": -2.37
+  },
+  {
+    "time_s": 0.675,
+    "active": true,
+    "voice_band_dbfs": -37.18,
+    "music_v1_band_dbfs": -50.9,
+    "music_v2_band_dbfs": -53.86,
+    "music_v2_relative_band_db": -16.68,
+    "secondary_gain_db": -2.97
+  },
+  {
+    "time_s": 0.725,
+    "active": true,
+    "voice_band_dbfs": -31.84,
+    "music_v1_band_dbfs": -51.44,
+    "music_v2_band_dbfs": -55.01,
+    "music_v2_relative_band_db": -23.17,
+    "secondary_gain_db": -3.6
+  },
+  {
+    "time_s": 0.775,
+    "active": true,
+    "voice_band_dbfs": -22.99,
+    "music_v1_band_dbfs": -52.25,
+    "music_v2_band_dbfs": -56.37,
+    "music_v2_relative_band_db": -33.37,
+    "secondary_gain_db": -4.16
+  },
+  {
+    "time_s": 0.825,
+    "active": true,
+    "voice_band_dbfs": -32.84,
+    "music_v1_band_dbfs": -54.64,
+    "music_v2_band_dbfs": -59.11,
+    "music_v2_relative_band_db": -26.27,
+    "secondary_gain_db": -4.51
+  },
+  {
+    "time_s": 0.875,
+    "active": true,
+    "voice_band_dbfs": -37.75,
+    "music_v1_band_dbfs": -52.94,
+    "music_v2_band_dbfs": -57.42,
+    "music_v2_relative_band_db": -19.67,
+    "secondary_gain_db": -4.55
+  },
+  {
+    "time_s": 0.925,
+    "active": true,
+    "voice_band_dbfs": -33.22,
+    "music_v1_band_dbfs": -53.26,
+    "music_v2_band_dbfs": -57.44,
+    "music_v2_relative_band_db": -24.22,
+    "secondary_gain_db": -4.23
+  },
+  {
+    "time_s": 0.975,
+    "active": true,
+    "voice_band_dbfs": -35.75,
+    "music_v1_band_dbfs": -52.62,
+    "music_v2_band_dbfs": -56.27,
+    "music_v2_relative_band_db": -20.53,
+    "secondary_gain_db": -3.61
+  },
+  {
+    "time_s": 1.025,
+    "active": true,
+    "voice_band_dbfs": -47.97,
+    "music_v1_band_dbfs": -52.28,
+    "music_v2_band_dbfs": -55.01,
+    "music_v2_relative_band_db": -7.04,
+    "secondary_gain_db": -2.83
+  },
+  {
+    "time_s": 1.075,
+    "active": true,
+    "voice_band_dbfs": -23.42,
+    "music_v1_band_dbfs": -51.91,
+    "music_v2_band_dbfs": -54.11,
+    "music_v2_relative_band_db": -30.69,
+    "secondary_gain_db": -2.05
+  },
+  {
+    "time_s": 1.125,
+    "active": true,
+    "voice_band_dbfs": -19.2,
+    "music_v1_band_dbfs": -56.01,
+    "music_v2_band_dbfs": -57.49,
+    "music_v2_relative_band_db": -38.29,
+    "secondary_gain_db": -1.42
+  },
+  {
+    "time_s": 1.175,
+    "active": true,
+    "voice_band_dbfs": -22.12,
+    "music_v1_band_dbfs": -50.64,
+    "music_v2_band_dbfs": -51.73,
+    "music_v2_relative_band_db": -29.61,
+    "secondary_gain_db": -1.06
+  },
+  {
+    "time_s": 1.225,
+    "active": true,
+    "voice_band_dbfs": -22.95,
+    "music_v1_band_dbfs": -50.66,
+    "music_v2_band_dbfs": -51.71,
+    "music_v2_relative_band_db": -28.75,
+    "secondary_gain_db": -1.02
+  },
+  {
+    "time_s": 1.275,
+    "active": true,
+    "voice_band_dbfs": -24.7,
+    "music_v1_band_dbfs": -51.65,
+    "music_v2_band_dbfs": -53.03,
+    "music_v2_relative_band_db": -28.33,
+    "secondary_gain_db": -1.32
+  },
+  {
+    "time_s": 1.325,
+    "active": true,
+    "voice_band_dbfs": -20.77,
+    "music_v1_band_dbfs": -51.97,
+    "music_v2_band_dbfs": -53.88,
+    "music_v2_relative_band_db": -33.11,
+    "secondary_gain_db": -1.89
+  },
+  {
+    "time_s": 1.375,
+    "active": true,
+    "voice_band_dbfs": -27.27,
+    "music_v1_band_dbfs": -55.81,
+    "music_v2_band_dbfs": -58.45,
+    "music_v2_relative_band_db": -31.18,
+    "secondary_gain_db": -2.65
+  },
+  {
+    "time_s": 1.425,
+    "active": true,
+    "voice_band_dbfs": -26.01,
+    "music_v1_band_dbfs": -52.79,
+    "music_v2_band_dbfs": -56.18,
+    "music_v2_relative_band_db": -30.18,
+    "secondary_gain_db": -3.48
+  },
+  {
+    "time_s": 1.475,
+    "active": true,
+    "voice_band_dbfs": -24.14,
+    "music_v1_band_dbfs": -51.78,
+    "music_v2_band_dbfs": -56.05,
+    "music_v2_relative_band_db": -31.91,
+    "secondary_gain_db": -4.23
+  },
+  {
+    "time_s": 1.525,
+    "active": true,
+    "voice_band_dbfs": -38.23,
+    "music_v1_band_dbfs": -53.18,
+    "music_v2_band_dbfs": -57.92,
+    "music_v2_relative_band_db": -19.69,
+    "secondary_gain_db": -4.81
+  },
+  {
+    "time_s": 1.575,
+    "active": true,
+    "voice_band_dbfs": -34.35,
+    "music_v1_band_dbfs": -54.85,
+    "music_v2_band_dbfs": -59.95,
+    "music_v2_relative_band_db": -25.6,
+    "secondary_gain_db": -5.15
+  },
+  {
+    "time_s": 1.625,
+    "active": true,
+    "voice_band_dbfs": -27.69,
+    "music_v1_band_dbfs": -52.54,
+    "music_v2_band_dbfs": -57.77,
+    "music_v2_relative_band_db": -30.08,
+    "secondary_gain_db": -5.25
+  },
+  {
+    "time_s": 1.675,
+    "active": true,
+    "voice_band_dbfs": -30.59,
+    "music_v1_band_dbfs": -51.62,
+    "music_v2_band_dbfs": -56.76,
+    "music_v2_relative_band_db": -26.17,
+    "secondary_gain_db": -5.15
+  },
+  {
+    "time_s": 1.725,
+    "active": true,
+    "voice_band_dbfs": -39.73,
+    "music_v1_band_dbfs": -49.91,
+    "music_v2_band_dbfs": -54.78,
+    "music_v2_relative_band_db": -15.04,
+    "secondary_gain_db": -4.89
+  },
+  {
+    "time_s": 1.775,
+    "active": true,
+    "voice_band_dbfs": -37.14,
+    "music_v1_band_dbfs": -51.0,
+    "music_v2_band_dbfs": -55.48,
+    "music_v2_relative_band_db": -18.34,
+    "secondary_gain_db": -4.49
+  },
+  {
+    "time_s": 1.825,
+    "active": true,
+    "voice_band_dbfs": -29.18,
+    "music_v1_band_dbfs": -50.89,
+    "music_v2_band_dbfs": -54.86,
+    "music_v2_relative_band_db": -25.68,
+    "secondary_gain_db": -3.97
+  },
+  {
+    "time_s": 1.875,
+    "active": true,
+    "voice_band_dbfs": -38.41,
+    "music_v1_band_dbfs": -50.94,
+    "music_v2_band_dbfs": -54.19,
+    "music_v2_relative_band_db": -15.78,
+    "secondary_gain_db": -3.34
+  },
+  {
+    "time_s": 1.925,
+    "active": true,
+    "voice_band_dbfs": -49.22,
+    "music_v1_band_dbfs": -48.06,
+    "music_v2_band_dbfs": -50.76,
+    "music_v2_relative_band_db": -1.55,
+    "secondary_gain_db": -2.67
+  },
+  {
+    "time_s": 1.975,
+    "active": false,
+    "voice_band_dbfs": -59.3,
+    "music_v1_band_dbfs": -47.74,
+    "music_v2_band_dbfs": -49.79,
+    "music_v2_relative_band_db": 9.51,
+    "secondary_gain_db": -1.99
+  },
+  {
+    "time_s": 2.025,
+    "active": false,
+    "voice_band_dbfs": -66.04,
+    "music_v1_band_dbfs": -47.68,
+    "music_v2_band_dbfs": -49.12,
+    "music_v2_relative_band_db": 16.92,
+    "secondary_gain_db": -1.39
+  },
+  {
+    "time_s": 2.075,
+    "active": false,
+    "voice_band_dbfs": -72.22,
+    "music_v1_band_dbfs": -49.0,
+    "music_v2_band_dbfs": -49.94,
+    "music_v2_relative_band_db": 22.28,
+    "secondary_gain_db": -0.91
+  },
+  {
+    "time_s": 2.125,
+    "active": false,
+    "voice_band_dbfs": -74.54,
+    "music_v1_band_dbfs": -45.62,
+    "music_v2_band_dbfs": -46.25,
+    "music_v2_relative_band_db": 28.29,
+    "secondary_gain_db": -0.59
+  },
+  {
+    "time_s": 2.175,
+    "active": false,
+    "voice_band_dbfs": -71.83,
+    "music_v1_band_dbfs": -47.79,
+    "music_v2_band_dbfs": -48.24,
+    "music_v2_relative_band_db": 23.59,
+    "secondary_gain_db": -0.43
+  },
+  {
+    "time_s": 2.225,
+    "active": false,
+    "voice_band_dbfs": -75.77,
+    "music_v1_band_dbfs": -45.07,
+    "music_v2_band_dbfs": -45.51,
+    "music_v2_relative_band_db": 30.26,
+    "secondary_gain_db": -0.43
+  },
+  {
+    "time_s": 2.275,
+    "active": false,
+    "voice_band_dbfs": -46.95,
+    "music_v1_band_dbfs": -48.83,
+    "music_v2_band_dbfs": -49.41,
+    "music_v2_relative_band_db": -2.46,
+    "secondary_gain_db": -0.57
+  },
+  {
+    "time_s": 2.325,
+    "active": true,
+    "voice_band_dbfs": -24.31,
+    "music_v1_band_dbfs": -46.54,
+    "music_v2_band_dbfs": -47.44,
+    "music_v2_relative_band_db": -23.13,
+    "secondary_gain_db": -0.86
+  },
+  {
+    "time_s": 2.375,
+    "active": true,
+    "voice_band_dbfs": -24.14,
+    "music_v1_band_dbfs": -46.24,
+    "music_v2_band_dbfs": -47.52,
+    "music_v2_relative_band_db": -23.38,
+    "secondary_gain_db": -1.35
+  },
+  {
+    "time_s": 2.425,
+    "active": true,
+    "voice_band_dbfs": -31.74,
+    "music_v1_band_dbfs": -47.02,
+    "music_v2_band_dbfs": -49.09,
+    "music_v2_relative_band_db": -17.35,
+    "secondary_gain_db": -2.11
+  },
+  {
+    "time_s": 2.475,
+    "active": true,
+    "voice_band_dbfs": -29.61,
+    "music_v1_band_dbfs": -45.6,
+    "music_v2_band_dbfs": -48.75,
+    "music_v2_relative_band_db": -19.14,
+    "secondary_gain_db": -3.23
+  },
+  {
+    "time_s": 2.525,
+    "active": true,
+    "voice_band_dbfs": -34.96,
+    "music_v1_band_dbfs": -46.5,
+    "music_v2_band_dbfs": -51.19,
+    "music_v2_relative_band_db": -16.22,
+    "secondary_gain_db": -4.65
+  },
+  {
+    "time_s": 2.575,
+    "active": true,
+    "voice_band_dbfs": -26.09,
+    "music_v1_band_dbfs": -48.29,
+    "music_v2_band_dbfs": -54.47,
+    "music_v2_relative_band_db": -28.39,
+    "secondary_gain_db": -6.15
+  },
+  {
+    "time_s": 2.625,
+    "active": true,
+    "voice_band_dbfs": -32.98,
+    "music_v1_band_dbfs": -43.81,
+    "music_v2_band_dbfs": -51.07,
+    "music_v2_relative_band_db": -18.08,
+    "secondary_gain_db": -7.37
+  },
+  {
+    "time_s": 2.675,
+    "active": true,
+    "voice_band_dbfs": -39.14,
+    "music_v1_band_dbfs": -44.26,
+    "music_v2_band_dbfs": -52.19,
+    "music_v2_relative_band_db": -13.05,
+    "secondary_gain_db": -8.05
+  },
+  {
+    "time_s": 2.725,
+    "active": true,
+    "voice_band_dbfs": -29.23,
+    "music_v1_band_dbfs": -49.43,
+    "music_v2_band_dbfs": -57.47,
+    "music_v2_relative_band_db": -28.24,
+    "secondary_gain_db": -8.09
+  },
+  {
+    "time_s": 2.775,
+    "active": true,
+    "voice_band_dbfs": -30.42,
+    "music_v1_band_dbfs": -44.66,
+    "music_v2_band_dbfs": -52.22,
+    "music_v2_relative_band_db": -21.8,
+    "secondary_gain_db": -7.57
+  },
+  {
+    "time_s": 2.825,
+    "active": true,
+    "voice_band_dbfs": -38.55,
+    "music_v1_band_dbfs": -46.92,
+    "music_v2_band_dbfs": -53.47,
+    "music_v2_relative_band_db": -14.92,
+    "secondary_gain_db": -6.68
+  },
+  {
+    "time_s": 2.875,
+    "active": true,
+    "voice_band_dbfs": -23.0,
+    "music_v1_band_dbfs": -46.34,
+    "music_v2_band_dbfs": -52.01,
+    "music_v2_relative_band_db": -29.01,
+    "secondary_gain_db": -5.64
+  },
+  {
+    "time_s": 2.925,
+    "active": true,
+    "voice_band_dbfs": -27.81,
+    "music_v1_band_dbfs": -46.42,
+    "music_v2_band_dbfs": -51.05,
+    "music_v2_relative_band_db": -23.24,
+    "secondary_gain_db": -4.59
+  },
+  {
+    "time_s": 2.975,
+    "active": true,
+    "voice_band_dbfs": -30.5,
+    "music_v1_band_dbfs": -46.72,
+    "music_v2_band_dbfs": -50.3,
+    "music_v2_relative_band_db": -19.8,
+    "secondary_gain_db": -3.64
+  },
+  {
+    "time_s": 3.025,
+    "active": true,
+    "voice_band_dbfs": -34.09,
+    "music_v1_band_dbfs": -45.33,
+    "music_v2_band_dbfs": -48.2,
+    "music_v2_relative_band_db": -14.11,
+    "secondary_gain_db": -2.8
+  },
+  {
+    "time_s": 3.075,
+    "active": true,
+    "voice_band_dbfs": -30.1,
+    "music_v1_band_dbfs": -47.39,
+    "music_v2_band_dbfs": -49.62,
+    "music_v2_relative_band_db": -19.52,
+    "secondary_gain_db": -2.06
+  },
+  {
+    "time_s": 3.125,
+    "active": true,
+    "voice_band_dbfs": -20.44,
+    "music_v1_band_dbfs": -44.28,
+    "music_v2_band_dbfs": -45.66,
+    "music_v2_relative_band_db": -25.22,
+    "secondary_gain_db": -1.42
+  },
+  {
+    "time_s": 3.175,
+    "active": true,
+    "voice_band_dbfs": -27.97,
+    "music_v1_band_dbfs": -49.08,
+    "music_v2_band_dbfs": -49.91,
+    "music_v2_relative_band_db": -21.94,
+    "secondary_gain_db": -0.88
+  },
+  {
+    "time_s": 3.225,
+    "active": true,
+    "voice_band_dbfs": -28.41,
+    "music_v1_band_dbfs": -47.24,
+    "music_v2_band_dbfs": -47.77,
+    "music_v2_relative_band_db": -19.36,
+    "secondary_gain_db": -0.49
+  },
+  {
+    "time_s": 3.275,
+    "active": true,
+    "voice_band_dbfs": -27.59,
+    "music_v1_band_dbfs": -43.61,
+    "music_v2_band_dbfs": -43.9,
+    "music_v2_relative_band_db": -16.31,
+    "secondary_gain_db": -0.28
+  },
+  {
+    "time_s": 3.325,
+    "active": true,
+    "voice_band_dbfs": -34.41,
+    "music_v1_band_dbfs": -48.7,
+    "music_v2_band_dbfs": -48.94,
+    "music_v2_relative_band_db": -14.53,
+    "secondary_gain_db": -0.22
+  },
+  {
+    "time_s": 3.375,
+    "active": true,
+    "voice_band_dbfs": -29.35,
+    "music_v1_band_dbfs": -48.2,
+    "music_v2_band_dbfs": -48.52,
+    "music_v2_relative_band_db": -19.17,
+    "secondary_gain_db": -0.3
+  },
+  {
+    "time_s": 3.425,
+    "active": true,
+    "voice_band_dbfs": -26.37,
+    "music_v1_band_dbfs": -45.1,
+    "music_v2_band_dbfs": -45.55,
+    "music_v2_relative_band_db": -19.18,
+    "secondary_gain_db": -0.45
+  },
+  {
+    "time_s": 3.475,
+    "active": true,
+    "voice_band_dbfs": -31.37,
+    "music_v1_band_dbfs": -47.92,
+    "music_v2_band_dbfs": -48.58,
+    "music_v2_relative_band_db": -17.21,
+    "secondary_gain_db": -0.64
+  },
+  {
+    "time_s": 3.525,
+    "active": true,
+    "voice_band_dbfs": -34.36,
+    "music_v1_band_dbfs": -47.31,
+    "music_v2_band_dbfs": -48.22,
+    "music_v2_relative_band_db": -13.87,
+    "secondary_gain_db": -0.9
+  },
+  {
+    "time_s": 3.575,
+    "active": true,
+    "voice_band_dbfs": -32.08,
+    "music_v1_band_dbfs": -48.68,
+    "music_v2_band_dbfs": -49.98,
+    "music_v2_relative_band_db": -17.9,
+    "secondary_gain_db": -1.25
+  },
+  {
+    "time_s": 3.625,
+    "active": true,
+    "voice_band_dbfs": -28.42,
+    "music_v1_band_dbfs": -47.42,
+    "music_v2_band_dbfs": -49.13,
+    "music_v2_relative_band_db": -20.71,
+    "secondary_gain_db": -1.77
+  },
+  {
+    "time_s": 3.675,
+    "active": true,
+    "voice_band_dbfs": -32.71,
+    "music_v1_band_dbfs": -47.69,
+    "music_v2_band_dbfs": -50.21,
+    "music_v2_relative_band_db": -17.5,
+    "secondary_gain_db": -2.54
+  },
+  {
+    "time_s": 3.725,
+    "active": true,
+    "voice_band_dbfs": -28.01,
+    "music_v1_band_dbfs": -49.8,
+    "music_v2_band_dbfs": -53.3,
+    "music_v2_relative_band_db": -25.29,
+    "secondary_gain_db": -3.6
+  },
+  {
+    "time_s": 3.775,
+    "active": true,
+    "voice_band_dbfs": -24.28,
+    "music_v1_band_dbfs": -48.13,
+    "music_v2_band_dbfs": -52.96,
+    "music_v2_relative_band_db": -28.68,
+    "secondary_gain_db": -4.94
+  },
+  {
+    "time_s": 3.825,
+    "active": true,
+    "voice_band_dbfs": -31.88,
+    "music_v1_band_dbfs": -49.85,
+    "music_v2_band_dbfs": -56.11,
+    "music_v2_relative_band_db": -24.23,
+    "secondary_gain_db": -6.41
+  },
+  {
+    "time_s": 3.875,
+    "active": true,
+    "voice_band_dbfs": -42.42,
+    "music_v1_band_dbfs": -51.45,
+    "music_v2_band_dbfs": -59.08,
+    "music_v2_relative_band_db": -16.66,
+    "secondary_gain_db": -7.73
+  },
+  {
+    "time_s": 3.925,
+    "active": true,
+    "voice_band_dbfs": -33.86,
+    "music_v1_band_dbfs": -49.67,
+    "music_v2_band_dbfs": -58.2,
+    "music_v2_relative_band_db": -24.34,
+    "secondary_gain_db": -8.59
+  },
+  {
+    "time_s": 3.975,
+    "active": true,
+    "voice_band_dbfs": -44.34,
+    "music_v1_band_dbfs": -48.81,
+    "music_v2_band_dbfs": -57.51,
+    "music_v2_relative_band_db": -13.17,
+    "secondary_gain_db": -8.79
+  },
+  {
+    "time_s": 4.025,
+    "active": true,
+    "voice_band_dbfs": -38.08,
+    "music_v1_band_dbfs": -48.76,
+    "music_v2_band_dbfs": -57.03,
+    "music_v2_relative_band_db": -18.94,
+    "secondary_gain_db": -8.32
+  },
+  {
+    "time_s": 4.075,
+    "active": true,
+    "voice_band_dbfs": -34.34,
+    "music_v1_band_dbfs": -51.09,
+    "music_v2_band_dbfs": -58.4,
+    "music_v2_relative_band_db": -24.07,
+    "secondary_gain_db": -7.36
+  },
+  {
+    "time_s": 4.125,
+    "active": true,
+    "voice_band_dbfs": -34.54,
+    "music_v1_band_dbfs": -48.19,
+    "music_v2_band_dbfs": -54.36,
+    "music_v2_relative_band_db": -19.81,
+    "secondary_gain_db": -6.27
+  },
+  {
+    "time_s": 4.175,
+    "active": true,
+    "voice_band_dbfs": -33.07,
+    "music_v1_band_dbfs": -47.95,
+    "music_v2_band_dbfs": -53.58,
+    "music_v2_relative_band_db": -20.5,
+    "secondary_gain_db": -5.4
+  },
+  {
+    "time_s": 4.225,
+    "active": true,
+    "voice_band_dbfs": -21.08,
+    "music_v1_band_dbfs": -52.45,
+    "music_v2_band_dbfs": -57.5,
+    "music_v2_relative_band_db": -36.42,
+    "secondary_gain_db": -4.98
+  },
+  {
+    "time_s": 4.275,
+    "active": true,
+    "voice_band_dbfs": -19.41,
+    "music_v1_band_dbfs": -51.46,
+    "music_v2_band_dbfs": -56.46,
+    "music_v2_relative_band_db": -37.05,
+    "secondary_gain_db": -4.98
+  },
+  {
+    "time_s": 4.325,
+    "active": true,
+    "voice_band_dbfs": -25.4,
+    "music_v1_band_dbfs": -49.06,
+    "music_v2_band_dbfs": -54.31,
+    "music_v2_relative_band_db": -28.91,
+    "secondary_gain_db": -5.24
+  },
+  {
+    "time_s": 4.375,
+    "active": true,
+    "voice_band_dbfs": -34.65,
+    "music_v1_band_dbfs": -51.67,
+    "music_v2_band_dbfs": -57.18,
+    "music_v2_relative_band_db": -22.53,
+    "secondary_gain_db": -5.54
+  },
+  {
+    "time_s": 4.425,
+    "active": true,
+    "voice_band_dbfs": -41.53,
+    "music_v1_band_dbfs": -50.68,
+    "music_v2_band_dbfs": -56.36,
+    "music_v2_relative_band_db": -14.83,
+    "secondary_gain_db": -5.7
+  },
+  {
+    "time_s": 4.475,
+    "active": true,
+    "voice_band_dbfs": -35.98,
+    "music_v1_band_dbfs": -48.68,
+    "music_v2_band_dbfs": -54.29,
+    "music_v2_relative_band_db": -18.31,
+    "secondary_gain_db": -5.64
+  },
+  {
+    "time_s": 4.525,
+    "active": true,
+    "voice_band_dbfs": -31.26,
+    "music_v1_band_dbfs": -51.42,
+    "music_v2_band_dbfs": -56.77,
+    "music_v2_relative_band_db": -25.51,
+    "secondary_gain_db": -5.36
+  },
+  {
+    "time_s": 4.575,
+    "active": true,
+    "voice_band_dbfs": -41.35,
+    "music_v1_band_dbfs": -52.78,
+    "music_v2_band_dbfs": -57.69,
+    "music_v2_relative_band_db": -16.34,
+    "secondary_gain_db": -4.92
+  },
+  {
+    "time_s": 4.625,
+    "active": true,
+    "voice_band_dbfs": -19.07,
+    "music_v1_band_dbfs": -52.65,
+    "music_v2_band_dbfs": -57.05,
+    "music_v2_relative_band_db": -37.98,
+    "secondary_gain_db": -4.43
+  },
+  {
+    "time_s": 4.675,
+    "active": true,
+    "voice_band_dbfs": -16.99,
+    "music_v1_band_dbfs": -49.74,
+    "music_v2_band_dbfs": -53.7,
+    "music_v2_relative_band_db": -36.72,
+    "secondary_gain_db": -3.98
+  },
+  {
+    "time_s": 4.725,
+    "active": true,
+    "voice_band_dbfs": -14.92,
+    "music_v1_band_dbfs": -49.19,
+    "music_v2_band_dbfs": -52.82,
+    "music_v2_relative_band_db": -37.9,
+    "secondary_gain_db": -3.63
+  },
+  {
+    "time_s": 4.775,
+    "active": true,
+    "voice_band_dbfs": -14.48,
+    "music_v1_band_dbfs": -50.62,
+    "music_v2_band_dbfs": -54.03,
+    "music_v2_relative_band_db": -39.55,
+    "secondary_gain_db": -3.39
+  },
+  {
+    "time_s": 4.825,
+    "active": true,
+    "voice_band_dbfs": -21.74,
+    "music_v1_band_dbfs": -50.75,
+    "music_v2_band_dbfs": -53.99,
+    "music_v2_relative_band_db": -32.25,
+    "secondary_gain_db": -3.23
+  },
+  {
+    "time_s": 4.875,
+    "active": true,
+    "voice_band_dbfs": -30.61,
+    "music_v1_band_dbfs": -52.54,
+    "music_v2_band_dbfs": -55.61,
+    "music_v2_relative_band_db": -24.99,
+    "secondary_gain_db": -3.07
+  },
+  {
+    "time_s": 4.925,
+    "active": true,
+    "voice_band_dbfs": -30.64,
+    "music_v1_band_dbfs": -50.97,
+    "music_v2_band_dbfs": -53.8,
+    "music_v2_relative_band_db": -23.16,
+    "secondary_gain_db": -2.85
+  },
+  {
+    "time_s": 4.975,
+    "active": true,
+    "voice_band_dbfs": -22.26,
+    "music_v1_band_dbfs": -49.75,
+    "music_v2_band_dbfs": -52.29,
+    "music_v2_relative_band_db": -30.03,
+    "secondary_gain_db": -2.54
+  },
+  {
+    "time_s": 5.025,
+    "active": true,
+    "voice_band_dbfs": -30.61,
+    "music_v1_band_dbfs": -51.17,
+    "music_v2_band_dbfs": -53.3,
+    "music_v2_relative_band_db": -22.69,
+    "secondary_gain_db": -2.14
+  },
+  {
+    "time_s": 5.075,
+    "active": true,
+    "voice_band_dbfs": -31.4,
+    "music_v1_band_dbfs": -52.45,
+    "music_v2_band_dbfs": -54.21,
+    "music_v2_relative_band_db": -22.81,
+    "secondary_gain_db": -1.73
+  },
+  {
+    "time_s": 5.125,
+    "active": true,
+    "voice_band_dbfs": -23.2,
+    "music_v1_band_dbfs": -50.5,
+    "music_v2_band_dbfs": -51.87,
+    "music_v2_relative_band_db": -28.67,
+    "secondary_gain_db": -1.39
+  },
+  {
+    "time_s": 5.175,
+    "active": true,
+    "voice_band_dbfs": -26.33,
+    "music_v1_band_dbfs": -45.57,
+    "music_v2_band_dbfs": -46.75,
+    "music_v2_relative_band_db": -20.41,
+    "secondary_gain_db": -1.16
+  },
+  {
+    "time_s": 5.225,
+    "active": true,
+    "voice_band_dbfs": -30.2,
+    "music_v1_band_dbfs": -48.01,
+    "music_v2_band_dbfs": -49.13,
+    "music_v2_relative_band_db": -18.92,
+    "secondary_gain_db": -1.09
+  },
+  {
+    "time_s": 5.275,
+    "active": true,
+    "voice_band_dbfs": -26.73,
+    "music_v1_band_dbfs": -50.94,
+    "music_v2_band_dbfs": -52.13,
+    "music_v2_relative_band_db": -25.4,
+    "secondary_gain_db": -1.18
+  },
+  {
+    "time_s": 5.325,
+    "active": true,
+    "voice_band_dbfs": -32.57,
+    "music_v1_band_dbfs": -51.25,
+    "music_v2_band_dbfs": -52.71,
+    "music_v2_relative_band_db": -20.13,
+    "secondary_gain_db": -1.42
+  },
+  {
+    "time_s": 5.375,
+    "active": true,
+    "voice_band_dbfs": -35.72,
+    "music_v1_band_dbfs": -49.64,
+    "music_v2_band_dbfs": -51.62,
+    "music_v2_relative_band_db": -15.9,
+    "secondary_gain_db": -1.9
+  },
+  {
+    "time_s": 5.425,
+    "active": true,
+    "voice_band_dbfs": -48.27,
+    "music_v1_band_dbfs": -48.83,
+    "music_v2_band_dbfs": -51.61,
+    "music_v2_relative_band_db": -3.34,
+    "secondary_gain_db": -2.75
+  },
+  {
+    "time_s": 5.475,
+    "active": true,
+    "voice_band_dbfs": -27.25,
+    "music_v1_band_dbfs": -49.95,
+    "music_v2_band_dbfs": -54.02,
+    "music_v2_relative_band_db": -26.77,
+    "secondary_gain_db": -4.12
+  },
+  {
+    "time_s": 5.525,
+    "active": true,
+    "voice_band_dbfs": -26.31,
+    "music_v1_band_dbfs": -51.52,
+    "music_v2_band_dbfs": -57.63,
+    "music_v2_relative_band_db": -31.32,
+    "secondary_gain_db": -6.07
+  },
+  {
+    "time_s": 5.575,
+    "active": true,
+    "voice_band_dbfs": -28.78,
+    "music_v1_band_dbfs": -47.1,
+    "music_v2_band_dbfs": -55.38,
+    "music_v2_relative_band_db": -26.6,
+    "secondary_gain_db": -8.37
+  },
+  {
+    "time_s": 5.625,
+    "active": true,
+    "voice_band_dbfs": -29.84,
+    "music_v1_band_dbfs": -46.8,
+    "music_v2_band_dbfs": -57.33,
+    "music_v2_relative_band_db": -27.5,
+    "secondary_gain_db": -10.61
+  },
+  {
+    "time_s": 5.675,
+    "active": true,
+    "voice_band_dbfs": -40.44,
+    "music_v1_band_dbfs": -44.13,
+    "music_v2_band_dbfs": -56.38,
+    "music_v2_relative_band_db": -15.94,
+    "secondary_gain_db": -12.36
+  },
+  {
+    "time_s": 5.725,
+    "active": true,
+    "voice_band_dbfs": -49.2,
+    "music_v1_band_dbfs": -43.57,
+    "music_v2_band_dbfs": -56.92,
+    "music_v2_relative_band_db": -7.73,
+    "secondary_gain_db": -13.4
+  },
+  {
+    "time_s": 5.775,
+    "active": true,
+    "voice_band_dbfs": -46.48,
+    "music_v1_band_dbfs": -44.36,
+    "music_v2_band_dbfs": -58.0,
+    "music_v2_relative_band_db": -11.52,
+    "secondary_gain_db": -13.72
+  },
+  {
+    "time_s": 5.825,
+    "active": true,
+    "voice_band_dbfs": -43.51,
+    "music_v1_band_dbfs": -45.95,
+    "music_v2_band_dbfs": -59.34,
+    "music_v2_relative_band_db": -15.83,
+    "secondary_gain_db": -13.42
+  },
+  {
+    "time_s": 5.875,
+    "active": true,
+    "voice_band_dbfs": -44.61,
+    "music_v1_band_dbfs": -47.75,
+    "music_v2_band_dbfs": -60.36,
+    "music_v2_relative_band_db": -15.74,
+    "secondary_gain_db": -12.63
+  },
+  {
+    "time_s": 5.925,
+    "active": true,
+    "voice_band_dbfs": -45.21,
+    "music_v1_band_dbfs": -47.73,
+    "music_v2_band_dbfs": -59.1,
+    "music_v2_relative_band_db": -13.89,
+    "secondary_gain_db": -11.38
+  },
+  {
+    "time_s": 5.975,
+    "active": true,
+    "voice_band_dbfs": -49.51,
+    "music_v1_band_dbfs": -48.08,
+    "music_v2_band_dbfs": -57.7,
+    "music_v2_relative_band_db": -8.19,
+    "secondary_gain_db": -9.69
+  },
+  {
+    "time_s": 6.025,
+    "active": false,
+    "voice_band_dbfs": -61.52,
+    "music_v1_band_dbfs": -48.78,
+    "music_v2_band_dbfs": -56.48,
+    "music_v2_relative_band_db": 5.04,
+    "secondary_gain_db": -7.66
+  },
+  {
+    "time_s": 6.075,
+    "active": false,
+    "voice_band_dbfs": -69.72,
+    "music_v1_band_dbfs": -48.2,
+    "music_v2_band_dbfs": -53.71,
+    "music_v2_relative_band_db": 16.01,
+    "secondary_gain_db": -5.53
+  },
+  {
+    "time_s": 6.125,
+    "active": false,
+    "voice_band_dbfs": -74.84,
+    "music_v1_band_dbfs": -45.56,
+    "music_v2_band_dbfs": -49.11,
+    "music_v2_relative_band_db": 25.73,
+    "secondary_gain_db": -3.67
+  },
+  {
+    "time_s": 6.175,
+    "active": false,
+    "voice_band_dbfs": -69.34,
+    "music_v1_band_dbfs": -43.68,
+    "music_v2_band_dbfs": -46.14,
+    "music_v2_relative_band_db": 23.2,
+    "secondary_gain_db": -2.32
+  },
+  {
+    "time_s": 6.225,
+    "active": false,
+    "voice_band_dbfs": -54.3,
+    "music_v1_band_dbfs": -46.42,
+    "music_v2_band_dbfs": -48.0,
+    "music_v2_relative_band_db": 6.3,
+    "secondary_gain_db": -1.51
+  },
+  {
+    "time_s": 6.275,
+    "active": false,
+    "voice_band_dbfs": -46.72,
+    "music_v1_band_dbfs": -45.43,
+    "music_v2_band_dbfs": -46.54,
+    "music_v2_relative_band_db": 0.18,
+    "secondary_gain_db": -1.08
+  },
+  {
+    "time_s": 6.325,
+    "active": true,
+    "voice_band_dbfs": -29.67,
+    "music_v1_band_dbfs": -47.72,
+    "music_v2_band_dbfs": -48.6,
+    "music_v2_relative_band_db": -18.93,
+    "secondary_gain_db": -0.86
+  },
+  {
+    "time_s": 6.375,
+    "active": true,
+    "voice_band_dbfs": -29.59,
+    "music_v1_band_dbfs": -47.59,
+    "music_v2_band_dbfs": -48.3,
+    "music_v2_relative_band_db": -18.71,
+    "secondary_gain_db": -0.71
+  },
+  {
+    "time_s": 6.425,
+    "active": true,
+    "voice_band_dbfs": -23.89,
+    "music_v1_band_dbfs": -46.79,
+    "music_v2_band_dbfs": -47.37,
+    "music_v2_relative_band_db": -23.49,
+    "secondary_gain_db": -0.58
+  },
+  {
+    "time_s": 6.475,
+    "active": true,
+    "voice_band_dbfs": -20.81,
+    "music_v1_band_dbfs": -47.82,
+    "music_v2_band_dbfs": -48.26,
+    "music_v2_relative_band_db": -27.45,
+    "secondary_gain_db": -0.44
+  },
+  {
+    "time_s": 6.525,
+    "active": true,
+    "voice_band_dbfs": -19.16,
+    "music_v1_band_dbfs": -48.5,
+    "music_v2_band_dbfs": -48.81,
+    "music_v2_relative_band_db": -29.66,
+    "secondary_gain_db": -0.31
+  },
+  {
+    "time_s": 6.575,
+    "active": true,
+    "voice_band_dbfs": -21.62,
+    "music_v1_band_dbfs": -48.89,
+    "music_v2_band_dbfs": -49.11,
+    "music_v2_relative_band_db": -27.49,
+    "secondary_gain_db": -0.2
+  },
+  {
+    "time_s": 6.625,
+    "active": true,
+    "voice_band_dbfs": -27.65,
+    "music_v1_band_dbfs": -49.34,
+    "music_v2_band_dbfs": -49.48,
+    "music_v2_relative_band_db": -21.83,
+    "secondary_gain_db": -0.13
+  },
+  {
+    "time_s": 6.675,
+    "active": true,
+    "voice_band_dbfs": -17.52,
+    "music_v1_band_dbfs": -48.68,
+    "music_v2_band_dbfs": -48.81,
+    "music_v2_relative_band_db": -31.29,
+    "secondary_gain_db": -0.12
+  },
+  {
+    "time_s": 6.725,
+    "active": true,
+    "voice_band_dbfs": -13.99,
+    "music_v1_band_dbfs": -48.33,
+    "music_v2_band_dbfs": -48.53,
+    "music_v2_relative_band_db": -34.53,
+    "secondary_gain_db": -0.18
+  },
+  {
+    "time_s": 6.775,
+    "active": true,
+    "voice_band_dbfs": -15.58,
+    "music_v1_band_dbfs": -49.2,
+    "music_v2_band_dbfs": -49.57,
+    "music_v2_relative_band_db": -33.99,
+    "secondary_gain_db": -0.36
+  },
+  {
+    "time_s": 6.825,
+    "active": true,
+    "voice_band_dbfs": -19.03,
+    "music_v1_band_dbfs": -50.0,
+    "music_v2_band_dbfs": -50.7,
+    "music_v2_relative_band_db": -31.67,
+    "secondary_gain_db": -0.69
+  },
+  {
+    "time_s": 6.875,
+    "active": true,
+    "voice_band_dbfs": -26.47,
+    "music_v1_band_dbfs": -51.03,
+    "music_v2_band_dbfs": -52.22,
+    "music_v2_relative_band_db": -25.75,
+    "secondary_gain_db": -1.2
+  },
+  {
+    "time_s": 6.925,
+    "active": true,
+    "voice_band_dbfs": -24.22,
+    "music_v1_band_dbfs": -48.25,
+    "music_v2_band_dbfs": -50.16,
+    "music_v2_relative_band_db": -25.94,
+    "secondary_gain_db": -1.88
+  },
+  {
+    "time_s": 6.975,
+    "active": true,
+    "voice_band_dbfs": -22.01,
+    "music_v1_band_dbfs": -48.26,
+    "music_v2_band_dbfs": -50.91,
+    "music_v2_relative_band_db": -28.9,
+    "secondary_gain_db": -2.67
+  },
+  {
+    "time_s": 7.025,
+    "active": true,
+    "voice_band_dbfs": -19.23,
+    "music_v1_band_dbfs": -49.28,
+    "music_v2_band_dbfs": -52.66,
+    "music_v2_relative_band_db": -33.43,
+    "secondary_gain_db": -3.42
+  },
+  {
+    "time_s": 7.075,
+    "active": true,
+    "voice_band_dbfs": -23.55,
+    "music_v1_band_dbfs": -51.29,
+    "music_v2_band_dbfs": -55.18,
+    "music_v2_relative_band_db": -31.63,
+    "secondary_gain_db": -3.96
+  },
+  {
+    "time_s": 7.125,
+    "active": true,
+    "voice_band_dbfs": -39.47,
+    "music_v1_band_dbfs": -49.83,
+    "music_v2_band_dbfs": -53.93,
+    "music_v2_relative_band_db": -14.46,
+    "secondary_gain_db": -4.16
+  },
+  {
+    "time_s": 7.175,
+    "active": true,
+    "voice_band_dbfs": -46.04,
+    "music_v1_band_dbfs": -44.12,
+    "music_v2_band_dbfs": -48.02,
+    "music_v2_relative_band_db": -1.98,
+    "secondary_gain_db": -3.97
+  },
+  {
+    "time_s": 7.225,
+    "active": false,
+    "voice_band_dbfs": -54.52,
+    "music_v1_band_dbfs": -44.73,
+    "music_v2_band_dbfs": -48.14,
+    "music_v2_relative_band_db": 6.38,
+    "secondary_gain_db": -3.42
+  },
+  {
+    "time_s": 7.275,
+    "active": false,
+    "voice_band_dbfs": -62.63,
+    "music_v1_band_dbfs": -47.42,
+    "music_v2_band_dbfs": -50.17,
+    "music_v2_relative_band_db": 12.46,
+    "secondary_gain_db": -2.68
+  },
+  {
+    "time_s": 7.325,
+    "active": false,
+    "voice_band_dbfs": -67.73,
+    "music_v1_band_dbfs": -51.08,
+    "music_v2_band_dbfs": -53.07,
+    "music_v2_relative_band_db": 14.65,
+    "secondary_gain_db": -1.9
+  },
+  {
+    "time_s": 7.375,
+    "active": false,
+    "voice_band_dbfs": -76.29,
+    "music_v1_band_dbfs": -51.7,
+    "music_v2_band_dbfs": -52.96,
+    "music_v2_relative_band_db": 23.32,
+    "secondary_gain_db": -1.23
+  },
+  {
+    "time_s": 7.425,
+    "active": false,
+    "voice_band_dbfs": -76.76,
+    "music_v1_band_dbfs": -48.61,
+    "music_v2_band_dbfs": -49.37,
+    "music_v2_relative_band_db": 27.39,
+    "secondary_gain_db": -0.75
+  },
+  {
+    "time_s": 7.475,
+    "active": false,
+    "voice_band_dbfs": -77.41,
+    "music_v1_band_dbfs": -47.68,
+    "music_v2_band_dbfs": -48.19,
+    "music_v2_relative_band_db": 29.22,
+    "secondary_gain_db": -0.48
+  },
+  {
+    "time_s": 7.525,
+    "active": true,
+    "voice_band_dbfs": -39.72,
+    "music_v1_band_dbfs": -47.22,
+    "music_v2_band_dbfs": -47.64,
+    "music_v2_relative_band_db": -7.92,
+    "secondary_gain_db": -0.4
+  },
+  {
+    "time_s": 7.575,
+    "active": true,
+    "voice_band_dbfs": -23.89,
+    "music_v1_band_dbfs": -47.96,
+    "music_v2_band_dbfs": -48.47,
+    "music_v2_relative_band_db": -24.57,
+    "secondary_gain_db": -0.48
+  },
+  {
+    "time_s": 7.625,
+    "active": true,
+    "voice_band_dbfs": -24.24,
+    "music_v1_band_dbfs": -48.46,
+    "music_v2_band_dbfs": -49.21,
+    "music_v2_relative_band_db": -24.97,
+    "secondary_gain_db": -0.73
+  },
+  {
+    "time_s": 7.675,
+    "active": true,
+    "voice_band_dbfs": -28.19,
+    "music_v1_band_dbfs": -45.77,
+    "music_v2_band_dbfs": -46.96,
+    "music_v2_relative_band_db": -18.77,
+    "secondary_gain_db": -1.15
+  },
+  {
+    "time_s": 7.725,
+    "active": true,
+    "voice_band_dbfs": -25.12,
+    "music_v1_band_dbfs": -47.1,
+    "music_v2_band_dbfs": -48.82,
+    "music_v2_relative_band_db": -23.71,
+    "secondary_gain_db": -1.75
+  },
+  {
+    "time_s": 7.775,
+    "active": true,
+    "voice_band_dbfs": -23.32,
+    "music_v1_band_dbfs": -49.9,
+    "music_v2_band_dbfs": -52.3,
+    "music_v2_relative_band_db": -28.98,
+    "secondary_gain_db": -2.47
+  },
+  {
+    "time_s": 7.825,
+    "active": true,
+    "voice_band_dbfs": -25.97,
+    "music_v1_band_dbfs": -53.58,
+    "music_v2_band_dbfs": -56.75,
+    "music_v2_relative_band_db": -30.77,
+    "secondary_gain_db": -3.26
+  },
+  {
+    "time_s": 7.875,
+    "active": true,
+    "voice_band_dbfs": -28.78,
+    "music_v1_band_dbfs": -53.65,
+    "music_v2_band_dbfs": -57.63,
+    "music_v2_relative_band_db": -28.85,
+    "secondary_gain_db": -4.01
+  },
+  {
+    "time_s": 7.925,
+    "active": true,
+    "voice_band_dbfs": -33.44,
+    "music_v1_band_dbfs": -51.68,
+    "music_v2_band_dbfs": -56.29,
+    "music_v2_relative_band_db": -22.85,
+    "secondary_gain_db": -4.64
+  },
+  {
+    "time_s": 7.975,
+    "active": true,
+    "voice_band_dbfs": -33.6,
+    "music_v1_band_dbfs": -50.54,
+    "music_v2_band_dbfs": -55.67,
+    "music_v2_relative_band_db": -22.07,
+    "secondary_gain_db": -5.14
+  },
+  {
+    "time_s": 8.025,
+    "active": true,
+    "voice_band_dbfs": -20.51,
+    "music_v1_band_dbfs": -51.0,
+    "music_v2_band_dbfs": -56.51,
+    "music_v2_relative_band_db": -35.99,
+    "secondary_gain_db": -5.53
+  },
+  {
+    "time_s": 8.075,
+    "active": true,
+    "voice_band_dbfs": -27.31,
+    "music_v1_band_dbfs": -51.01,
+    "music_v2_band_dbfs": -56.85,
+    "music_v2_relative_band_db": -29.55,
+    "secondary_gain_db": -5.86
+  },
+  {
+    "time_s": 8.125,
+    "active": true,
+    "voice_band_dbfs": -29.95,
+    "music_v1_band_dbfs": -50.51,
+    "music_v2_band_dbfs": -56.53,
+    "music_v2_relative_band_db": -26.58,
+    "secondary_gain_db": -6.06
+  },
+  {
+    "time_s": 8.175,
+    "active": true,
+    "voice_band_dbfs": -36.58,
+    "music_v1_band_dbfs": -47.72,
+    "music_v2_band_dbfs": -53.72,
+    "music_v2_relative_band_db": -17.14,
+    "secondary_gain_db": -6.03
+  },
+  {
+    "time_s": 8.225,
+    "active": true,
+    "voice_band_dbfs": -41.17,
+    "music_v1_band_dbfs": -48.84,
+    "music_v2_band_dbfs": -54.43,
+    "music_v2_relative_band_db": -13.27,
+    "secondary_gain_db": -5.66
+  },
+  {
+    "time_s": 8.275,
+    "active": true,
+    "voice_band_dbfs": -53.38,
+    "music_v1_band_dbfs": -48.4,
+    "music_v2_band_dbfs": -53.37,
+    "music_v2_relative_band_db": 0.01,
+    "secondary_gain_db": -4.94
+  },
+  {
+    "time_s": 8.325,
+    "active": true,
+    "voice_band_dbfs": -57.02,
+    "music_v1_band_dbfs": -48.81,
+    "music_v2_band_dbfs": -52.78,
+    "music_v2_relative_band_db": 4.24,
+    "secondary_gain_db": -4.0
+  },
+  {
+    "time_s": 8.375,
+    "active": false,
+    "voice_band_dbfs": -62.36,
+    "music_v1_band_dbfs": -51.62,
+    "music_v2_band_dbfs": -54.84,
+    "music_v2_relative_band_db": 7.52,
+    "secondary_gain_db": -3.13
+  },
+  {
+    "time_s": 8.425,
+    "active": false,
+    "voice_band_dbfs": -60.5,
+    "music_v1_band_dbfs": -48.64,
+    "music_v2_band_dbfs": -51.4,
+    "music_v2_relative_band_db": 9.11,
+    "secondary_gain_db": -2.68
+  },
+  {
+    "time_s": 8.475,
+    "active": false,
+    "voice_band_dbfs": -57.91,
+    "music_v1_band_dbfs": -47.04,
+    "music_v2_band_dbfs": -50.13,
+    "music_v2_relative_band_db": 7.77,
+    "secondary_gain_db": -2.99
+  },
+  {
+    "time_s": 8.525,
+    "active": false,
+    "voice_band_dbfs": -60.08,
+    "music_v1_band_dbfs": -47.39,
+    "music_v2_band_dbfs": -51.62,
+    "music_v2_relative_band_db": 8.47,
+    "secondary_gain_db": -4.23
+  },
+  {
+    "time_s": 8.575,
+    "active": false,
+    "voice_band_dbfs": -65.03,
+    "music_v1_band_dbfs": -47.81,
+    "music_v2_band_dbfs": -53.83,
+    "music_v2_relative_band_db": 11.2,
+    "secondary_gain_db": -6.21
+  },
+  {
+    "time_s": 8.625,
+    "active": false,
+    "voice_band_dbfs": -72.25,
+    "music_v1_band_dbfs": -48.6,
+    "music_v2_band_dbfs": -57.03,
+    "music_v2_relative_band_db": 15.22,
+    "secondary_gain_db": -8.42
+  },
+  {
+    "time_s": 8.675,
+    "active": false,
+    "voice_band_dbfs": -72.12,
+    "music_v1_band_dbfs": -46.1,
+    "music_v2_band_dbfs": -56.08,
+    "music_v2_relative_band_db": 16.03,
+    "secondary_gain_db": -10.14
+  },
+  {
+    "time_s": 8.725,
+    "active": true,
+    "voice_band_dbfs": -51.09,
+    "music_v1_band_dbfs": -46.01,
+    "music_v2_band_dbfs": -56.63,
+    "music_v2_relative_band_db": -5.54,
+    "secondary_gain_db": -10.79
+  },
+  {
+    "time_s": 8.775,
+    "active": true,
+    "voice_band_dbfs": -22.05,
+    "music_v1_band_dbfs": -45.14,
+    "music_v2_band_dbfs": -55.15,
+    "music_v2_relative_band_db": -33.09,
+    "secondary_gain_db": -10.16
+  },
+  {
+    "time_s": 8.825,
+    "active": true,
+    "voice_band_dbfs": -18.31,
+    "music_v1_band_dbfs": -46.69,
+    "music_v2_band_dbfs": -55.18,
+    "music_v2_relative_band_db": -36.87,
+    "secondary_gain_db": -8.47
+  },
+  {
+    "time_s": 8.875,
+    "active": true,
+    "voice_band_dbfs": -20.16,
+    "music_v1_band_dbfs": -48.04,
+    "music_v2_band_dbfs": -54.37,
+    "music_v2_relative_band_db": -34.21,
+    "secondary_gain_db": -6.3
+  },
+  {
+    "time_s": 8.925,
+    "active": true,
+    "voice_band_dbfs": -27.7,
+    "music_v1_band_dbfs": -47.93,
+    "music_v2_band_dbfs": -52.3,
+    "music_v2_relative_band_db": -24.61,
+    "secondary_gain_db": -4.35
+  },
+  {
+    "time_s": 8.975,
+    "active": true,
+    "voice_band_dbfs": -17.38,
+    "music_v1_band_dbfs": -48.05,
+    "music_v2_band_dbfs": -51.24,
+    "music_v2_relative_band_db": -33.86,
+    "secondary_gain_db": -3.08
+  },
+  {
+    "time_s": 9.025,
+    "active": true,
+    "voice_band_dbfs": -20.87,
+    "music_v1_band_dbfs": -48.86,
+    "music_v2_band_dbfs": -51.51,
+    "music_v2_relative_band_db": -30.64,
+    "secondary_gain_db": -2.58
+  },
+  {
+    "time_s": 9.075,
+    "active": true,
+    "voice_band_dbfs": -23.09,
+    "music_v1_band_dbfs": -49.59,
+    "music_v2_band_dbfs": -52.26,
+    "music_v2_relative_band_db": -29.17,
+    "secondary_gain_db": -2.66
+  },
+  {
+    "time_s": 9.125,
+    "active": true,
+    "voice_band_dbfs": -20.48,
+    "music_v1_band_dbfs": -47.13,
+    "music_v2_band_dbfs": -50.19,
+    "music_v2_relative_band_db": -29.71,
+    "secondary_gain_db": -3.0
+  },
+  {
+    "time_s": 9.175,
+    "active": true,
+    "voice_band_dbfs": -30.59,
+    "music_v1_band_dbfs": -43.97,
+    "music_v2_band_dbfs": -47.26,
+    "music_v2_relative_band_db": -16.67,
+    "secondary_gain_db": -3.33
+  },
+  {
+    "time_s": 9.225,
+    "active": true,
+    "voice_band_dbfs": -34.93,
+    "music_v1_band_dbfs": -46.77,
+    "music_v2_band_dbfs": -50.19,
+    "music_v2_relative_band_db": -15.26,
+    "secondary_gain_db": -3.46
+  },
+  {
+    "time_s": 9.275,
+    "active": true,
+    "voice_band_dbfs": -18.52,
+    "music_v1_band_dbfs": -47.92,
+    "music_v2_band_dbfs": -51.19,
+    "music_v2_relative_band_db": -32.67,
+    "secondary_gain_db": -3.31
+  },
+  {
+    "time_s": 9.325,
+    "active": true,
+    "voice_band_dbfs": -29.93,
+    "music_v1_band_dbfs": -47.65,
+    "music_v2_band_dbfs": -50.61,
+    "music_v2_relative_band_db": -20.68,
+    "secondary_gain_db": -2.92
+  },
+  {
+    "time_s": 9.375,
+    "active": true,
+    "voice_band_dbfs": -26.7,
+    "music_v1_band_dbfs": -49.16,
+    "music_v2_band_dbfs": -51.64,
+    "music_v2_relative_band_db": -24.95,
+    "secondary_gain_db": -2.43
+  },
+  {
+    "time_s": 9.425,
+    "active": true,
+    "voice_band_dbfs": -19.86,
+    "music_v1_band_dbfs": -48.75,
+    "music_v2_band_dbfs": -50.77,
+    "music_v2_relative_band_db": -30.92,
+    "secondary_gain_db": -2.02
+  },
+  {
+    "time_s": 9.475,
+    "active": true,
+    "voice_band_dbfs": -16.8,
+    "music_v1_band_dbfs": -46.46,
+    "music_v2_band_dbfs": -48.31,
+    "music_v2_relative_band_db": -31.51,
+    "secondary_gain_db": -1.81
+  },
+  {
+    "time_s": 9.525,
+    "active": true,
+    "voice_band_dbfs": -26.68,
+    "music_v1_band_dbfs": -47.56,
+    "music_v2_band_dbfs": -49.44,
+    "music_v2_relative_band_db": -22.76,
+    "secondary_gain_db": -1.87
+  },
+  {
+    "time_s": 9.575,
+    "active": true,
+    "voice_band_dbfs": -27.99,
+    "music_v1_band_dbfs": -48.5,
+    "music_v2_band_dbfs": -50.64,
+    "music_v2_relative_band_db": -22.65,
+    "secondary_gain_db": -2.15
+  },
+  {
+    "time_s": 9.625,
+    "active": true,
+    "voice_band_dbfs": -20.54,
+    "music_v1_band_dbfs": -49.46,
+    "music_v2_band_dbfs": -51.97,
+    "music_v2_relative_band_db": -31.43,
+    "secondary_gain_db": -2.51
+  },
+  {
+    "time_s": 9.675,
+    "active": true,
+    "voice_band_dbfs": -24.99,
+    "music_v1_band_dbfs": -47.78,
+    "music_v2_band_dbfs": -50.58,
+    "music_v2_relative_band_db": -25.59,
+    "secondary_gain_db": -2.82
+  },
+  {
+    "time_s": 9.725,
+    "active": true,
+    "voice_band_dbfs": -34.8,
+    "music_v1_band_dbfs": -48.23,
+    "music_v2_band_dbfs": -51.13,
+    "music_v2_relative_band_db": -16.33,
+    "secondary_gain_db": -2.93
+  },
+  {
+    "time_s": 9.775,
+    "active": true,
+    "voice_band_dbfs": -45.48,
+    "music_v1_band_dbfs": -49.05,
+    "music_v2_band_dbfs": -51.81,
+    "music_v2_relative_band_db": -6.33,
+    "secondary_gain_db": -2.79
+  },
+  {
+    "time_s": 9.825,
+    "active": false,
+    "voice_band_dbfs": -50.7,
+    "music_v1_band_dbfs": -51.39,
+    "music_v2_band_dbfs": -53.85,
+    "music_v2_relative_band_db": -3.15,
+    "secondary_gain_db": -2.43
+  },
+  {
+    "time_s": 9.875,
+    "active": false,
+    "voice_band_dbfs": -51.18,
+    "music_v1_band_dbfs": -51.98,
+    "music_v2_band_dbfs": -53.91,
+    "music_v2_relative_band_db": -2.73,
+    "secondary_gain_db": -1.95
+  },
+  {
+    "time_s": 9.925,
+    "active": false,
+    "voice_band_dbfs": -52.95,
+    "music_v1_band_dbfs": -49.32,
+    "music_v2_band_dbfs": -50.79,
+    "music_v2_relative_band_db": 2.17,
+    "secondary_gain_db": -1.47
+  },
+  {
+    "time_s": 9.975,
+    "active": false,
+    "voice_band_dbfs": -57.24,
+    "music_v1_band_dbfs": -47.3,
+    "music_v2_band_dbfs": -48.41,
+    "music_v2_relative_band_db": 8.83,
+    "secondary_gain_db": -1.09
+  },
+  {
+    "time_s": 10.025,
+    "active": false,
+    "voice_band_dbfs": -60.1,
+    "music_v1_band_dbfs": -49.09,
+    "music_v2_band_dbfs": -49.96,
+    "music_v2_relative_band_db": 10.14,
+    "secondary_gain_db": -0.83
+  },
+  {
+    "time_s": 10.075,
+    "active": false,
+    "voice_band_dbfs": -70.32,
+    "music_v1_band_dbfs": -51.57,
+    "music_v2_band_dbfs": -52.29,
+    "music_v2_relative_band_db": 18.03,
+    "secondary_gain_db": -0.7
+  },
+  {
+    "time_s": 10.125,
+    "active": true,
+    "voice_band_dbfs": -39.64,
+    "music_v1_band_dbfs": -50.1,
+    "music_v2_band_dbfs": -50.75,
+    "music_v2_relative_band_db": -11.1,
+    "secondary_gain_db": -0.64
+  },
+  {
+    "time_s": 10.175,
+    "active": true,
+    "voice_band_dbfs": -28.64,
+    "music_v1_band_dbfs": -49.44,
+    "music_v2_band_dbfs": -50.05,
+    "music_v2_relative_band_db": -21.41,
+    "secondary_gain_db": -0.61
+  },
+  {
+    "time_s": 10.225,
+    "active": true,
+    "voice_band_dbfs": -24.3,
+    "music_v1_band_dbfs": -52.45,
+    "music_v2_band_dbfs": -53.0,
+    "music_v2_relative_band_db": -28.7,
+    "secondary_gain_db": -0.56
+  },
+  {
+    "time_s": 10.275,
+    "active": true,
+    "voice_band_dbfs": -19.21,
+    "music_v1_band_dbfs": -52.46,
+    "music_v2_band_dbfs": -52.95,
+    "music_v2_relative_band_db": -33.74,
+    "secondary_gain_db": -0.49
+  },
+  {
+    "time_s": 10.325,
+    "active": true,
+    "voice_band_dbfs": -24.64,
+    "music_v1_band_dbfs": -53.86,
+    "music_v2_band_dbfs": -54.29,
+    "music_v2_relative_band_db": -29.65,
+    "secondary_gain_db": -0.43
+  },
+  {
+    "time_s": 10.375,
+    "active": true,
+    "voice_band_dbfs": -27.24,
+    "music_v1_band_dbfs": -53.9,
+    "music_v2_band_dbfs": -54.33,
+    "music_v2_relative_band_db": -27.09,
+    "secondary_gain_db": -0.42
+  },
+  {
+    "time_s": 10.425,
+    "active": true,
+    "voice_band_dbfs": -24.76,
+    "music_v1_band_dbfs": -53.35,
+    "music_v2_band_dbfs": -53.9,
+    "music_v2_relative_band_db": -29.14,
+    "secondary_gain_db": -0.53
+  },
+  {
+    "time_s": 10.475,
+    "active": true,
+    "voice_band_dbfs": -27.53,
+    "music_v1_band_dbfs": -52.31,
+    "music_v2_band_dbfs": -53.16,
+    "music_v2_relative_band_db": -25.63,
+    "secondary_gain_db": -0.81
+  },
+  {
+    "time_s": 10.525,
+    "active": true,
+    "voice_band_dbfs": -31.59,
+    "music_v1_band_dbfs": -52.72,
+    "music_v2_band_dbfs": -54.02,
+    "music_v2_relative_band_db": -22.43,
+    "secondary_gain_db": -1.32
+  },
+  {
+    "time_s": 10.575,
+    "active": true,
+    "voice_band_dbfs": -24.44,
+    "music_v1_band_dbfs": -55.21,
+    "music_v2_band_dbfs": -57.22,
+    "music_v2_relative_band_db": -32.78,
+    "secondary_gain_db": -2.02
+  },
+  {
+    "time_s": 10.625,
+    "active": true,
+    "voice_band_dbfs": -29.25,
+    "music_v1_band_dbfs": -57.81,
+    "music_v2_band_dbfs": -60.57,
+    "music_v2_relative_band_db": -31.32,
+    "secondary_gain_db": -2.85
+  },
+  {
+    "time_s": 10.675,
+    "active": true,
+    "voice_band_dbfs": -27.6,
+    "music_v1_band_dbfs": -58.86,
+    "music_v2_band_dbfs": -62.52,
+    "music_v2_relative_band_db": -34.93,
+    "secondary_gain_db": -3.67
+  },
+  {
+    "time_s": 10.725,
+    "active": true,
+    "voice_band_dbfs": -30.48,
+    "music_v1_band_dbfs": -59.09,
+    "music_v2_band_dbfs": -63.34,
+    "music_v2_relative_band_db": -32.86,
+    "secondary_gain_db": -4.3
+  },
+  {
+    "time_s": 10.775,
+    "active": true,
+    "voice_band_dbfs": -40.97,
+    "music_v1_band_dbfs": -61.56,
+    "music_v2_band_dbfs": -66.15,
+    "music_v2_relative_band_db": -25.19,
+    "secondary_gain_db": -4.64
+  },
+  {
+    "time_s": 10.825,
+    "active": true,
+    "voice_band_dbfs": -23.54,
+    "music_v1_band_dbfs": -63.8,
+    "music_v2_band_dbfs": -68.44,
+    "music_v2_relative_band_db": -44.9,
+    "secondary_gain_db": -4.66
+  },
+  {
+    "time_s": 10.875,
+    "active": true,
+    "voice_band_dbfs": -19.27,
+    "music_v1_band_dbfs": -67.75,
+    "music_v2_band_dbfs": -72.23,
+    "music_v2_relative_band_db": -52.95,
+    "secondary_gain_db": -4.47
+  },
+  {
+    "time_s": 10.925,
+    "active": true,
+    "voice_band_dbfs": -22.32,
+    "music_v1_band_dbfs": -67.22,
+    "music_v2_band_dbfs": -71.46,
+    "music_v2_relative_band_db": -49.14,
+    "secondary_gain_db": -4.24
+  },
+  {
+    "time_s": 10.975,
+    "active": true,
+    "voice_band_dbfs": -18.85,
+    "music_v1_band_dbfs": -67.39,
+    "music_v2_band_dbfs": -71.53,
+    "music_v2_relative_band_db": -52.68,
+    "secondary_gain_db": -4.12
+  },
+  {
+    "time_s": 11.025,
+    "active": true,
+    "voice_band_dbfs": -19.71,
+    "music_v1_band_dbfs": -70.87,
+    "music_v2_band_dbfs": -75.04,
+    "music_v2_relative_band_db": -55.32,
+    "secondary_gain_db": -4.16
+  },
+  {
+    "time_s": 11.075,
+    "active": true,
+    "voice_band_dbfs": -28.7,
+    "music_v1_band_dbfs": -74.57,
+    "music_v2_band_dbfs": -78.87,
+    "music_v2_relative_band_db": -50.17,
+    "secondary_gain_db": -4.31
+  },
+  {
+    "time_s": 11.125,
+    "active": true,
+    "voice_band_dbfs": -35.17,
+    "music_v1_band_dbfs": -75.36,
+    "music_v2_band_dbfs": -79.77,
+    "music_v2_relative_band_db": -44.6,
+    "secondary_gain_db": -4.43
+  },
+  {
+    "time_s": 11.175,
+    "active": true,
+    "voice_band_dbfs": -38.21,
+    "music_v1_band_dbfs": -72.42,
+    "music_v2_band_dbfs": -76.78,
+    "music_v2_relative_band_db": -38.57,
+    "secondary_gain_db": -4.38
+  },
+  {
+    "time_s": 11.225,
+    "active": true,
+    "voice_band_dbfs": -46.88,
+    "music_v1_band_dbfs": -75.43,
+    "music_v2_band_dbfs": -79.56,
+    "music_v2_relative_band_db": -32.69,
+    "secondary_gain_db": -4.12
+  },
+  {
+    "time_s": 11.275,
+    "active": false,
+    "voice_band_dbfs": -59.6,
+    "music_v1_band_dbfs": -79.06,
+    "music_v2_band_dbfs": -82.78,
+    "music_v2_relative_band_db": -23.18,
+    "secondary_gain_db": -3.71
+  },
+  {
+    "time_s": 11.325,
+    "active": false,
+    "voice_band_dbfs": -67.26,
+    "music_v1_band_dbfs": -82.02,
+    "music_v2_band_dbfs": -85.43,
+    "music_v2_relative_band_db": -18.17,
+    "secondary_gain_db": -3.3
+  },
+  {
+    "time_s": 11.375,
+    "active": false,
+    "voice_band_dbfs": -73.88,
+    "music_v1_band_dbfs": -157.63,
+    "music_v2_band_dbfs": -160.82,
+    "music_v2_relative_band_db": -86.94,
+    "secondary_gain_db": -3.07
+  },
+  {
+    "time_s": 11.425,
+    "active": false,
+    "voice_band_dbfs": -74.73,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.14
+  },
+  {
+    "time_s": 11.475,
+    "active": false,
+    "voice_band_dbfs": -75.16,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.48
+  },
+  {
+    "time_s": 11.525,
+    "active": false,
+    "voice_band_dbfs": -74.17,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.96
+  },
+  {
+    "time_s": 11.575,
+    "active": false,
+    "voice_band_dbfs": -72.54,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -4.35
+  },
+  {
+    "time_s": 11.625,
+    "active": true,
+    "voice_band_dbfs": -35.48,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -4.48
+  },
+  {
+    "time_s": 11.675,
+    "active": true,
+    "voice_band_dbfs": -27.92,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -4.23
+  },
+  {
+    "time_s": 11.725,
+    "active": true,
+    "voice_band_dbfs": -25.73,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.63
+  },
+  {
+    "time_s": 11.775,
+    "active": true,
+    "voice_band_dbfs": -25.91,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -2.84
+  },
+  {
+    "time_s": 11.825,
+    "active": true,
+    "voice_band_dbfs": -24.07,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -2.0
+  },
+  {
+    "time_s": 11.875,
+    "active": true,
+    "voice_band_dbfs": -28.29,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -1.28
+  },
+  {
+    "time_s": 11.925,
+    "active": true,
+    "voice_band_dbfs": -23.21,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -0.77
+  },
+  {
+    "time_s": 11.975,
+    "active": true,
+    "voice_band_dbfs": -22.78,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -0.48
+  },
+  {
+    "time_s": 12.025,
+    "active": true,
+    "voice_band_dbfs": -22.1,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -0.43
+  },
+  {
+    "time_s": 12.075,
+    "active": true,
+    "voice_band_dbfs": -20.43,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -0.6
+  },
+  {
+    "time_s": 12.125,
+    "active": true,
+    "voice_band_dbfs": -21.43,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -1.0
+  },
+  {
+    "time_s": 12.175,
+    "active": true,
+    "voice_band_dbfs": -30.14,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -1.64
+  },
+  {
+    "time_s": 12.225,
+    "active": true,
+    "voice_band_dbfs": -33.61,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -2.48
+  },
+  {
+    "time_s": 12.275,
+    "active": true,
+    "voice_band_dbfs": -20.01,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.43
+  },
+  {
+    "time_s": 12.325,
+    "active": true,
+    "voice_band_dbfs": -23.32,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -4.39
+  },
+  {
+    "time_s": 12.375,
+    "active": true,
+    "voice_band_dbfs": -36.11,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -5.24
+  },
+  {
+    "time_s": 12.425,
+    "active": true,
+    "voice_band_dbfs": -37.64,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -5.88
+  },
+  {
+    "time_s": 12.475,
+    "active": true,
+    "voice_band_dbfs": -29.84,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -6.29
+  },
+  {
+    "time_s": 12.525,
+    "active": true,
+    "voice_band_dbfs": -30.18,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -6.48
+  },
+  {
+    "time_s": 12.575,
+    "active": true,
+    "voice_band_dbfs": -26.01,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -6.5
+  },
+  {
+    "time_s": 12.625,
+    "active": true,
+    "voice_band_dbfs": -38.05,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -6.38
+  },
+  {
+    "time_s": 12.675,
+    "active": true,
+    "voice_band_dbfs": -44.89,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -6.19
+  },
+  {
+    "time_s": 12.725,
+    "active": true,
+    "voice_band_dbfs": -39.63,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -5.97
+  },
+  {
+    "time_s": 12.775,
+    "active": true,
+    "voice_band_dbfs": -38.83,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -5.77
+  },
+  {
+    "time_s": 12.825,
+    "active": true,
+    "voice_band_dbfs": -32.56,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -5.58
+  },
+  {
+    "time_s": 12.875,
+    "active": true,
+    "voice_band_dbfs": -25.88,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -5.39
+  },
+  {
+    "time_s": 12.925,
+    "active": true,
+    "voice_band_dbfs": -26.04,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -5.14
+  },
+  {
+    "time_s": 12.975,
+    "active": true,
+    "voice_band_dbfs": -35.42,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -4.77
+  },
+  {
+    "time_s": 13.025,
+    "active": true,
+    "voice_band_dbfs": -47.73,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -4.28
+  },
+  {
+    "time_s": 13.075,
+    "active": false,
+    "voice_band_dbfs": -57.96,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.74
+  },
+  {
+    "time_s": 13.125,
+    "active": false,
+    "voice_band_dbfs": -65.19,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.27
+  },
+  {
+    "time_s": 13.175,
+    "active": false,
+    "voice_band_dbfs": -74.55,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.03
+  },
+  {
+    "time_s": 13.225,
+    "active": false,
+    "voice_band_dbfs": -76.33,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.11
+  },
+  {
+    "time_s": 13.275,
+    "active": false,
+    "voice_band_dbfs": -76.53,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.48
+  },
+  {
+    "time_s": 13.325,
+    "active": false,
+    "voice_band_dbfs": -77.1,
+    "music_v1_band_dbfs": -240.0,
+    "music_v2_band_dbfs": -240.0,
+    "music_v2_relative_band_db": -240.0,
+    "secondary_gain_db": -3.98
+  },
+  {
+    "time_s": 13.375,
+    "active": false,
+    "voice_band_dbfs": -59.48,
+    "music_v1_band_dbfs": -68.09,
+    "music_v2_band_dbfs": -72.53,
+    "music_v2_relative_band_db": -13.05,
+    "secondary_gain_db": -4.41
+  },
+  {
+    "time_s": 13.425,
+    "active": true,
+    "voice_band_dbfs": -44.4,
+    "music_v1_band_dbfs": -65.88,
+    "music_v2_band_dbfs": -70.4,
+    "music_v2_relative_band_db": -25.99,
+    "secondary_gain_db": -4.57
+  },
+  {
+    "time_s": 13.475,
+    "active": true,
+    "voice_band_dbfs": -35.22,
+    "music_v1_band_dbfs": -61.76,
+    "music_v2_band_dbfs": -66.01,
+    "music_v2_relative_band_db": -30.8,
+    "secondary_gain_db": -4.37
+  },
+  {
+    "time_s": 13.525,
+    "active": true,
+    "voice_band_dbfs": -26.0,
+    "music_v1_band_dbfs": -56.43,
+    "music_v2_band_dbfs": -60.22,
+    "music_v2_relative_band_db": -34.23,
+    "secondary_gain_db": -3.85
+  },
+  {
+    "time_s": 13.575,
+    "active": true,
+    "voice_band_dbfs": -22.36,
+    "music_v1_band_dbfs": -57.39,
+    "music_v2_band_dbfs": -60.59,
+    "music_v2_relative_band_db": -38.23,
+    "secondary_gain_db": -3.15
+  },
+  {
+    "time_s": 13.625,
+    "active": true,
+    "voice_band_dbfs": -13.45,
+    "music_v1_band_dbfs": -58.29,
+    "music_v2_band_dbfs": -60.8,
+    "music_v2_relative_band_db": -47.35,
+    "secondary_gain_db": -2.5
+  },
+  {
+    "time_s": 13.675,
+    "active": true,
+    "voice_band_dbfs": -16.16,
+    "music_v1_band_dbfs": -57.67,
+    "music_v2_band_dbfs": -59.8,
+    "music_v2_relative_band_db": -43.64,
+    "secondary_gain_db": -2.07
+  },
+  {
+    "time_s": 13.725,
+    "active": true,
+    "voice_band_dbfs": -21.7,
+    "music_v1_band_dbfs": -57.69,
+    "music_v2_band_dbfs": -59.75,
+    "music_v2_relative_band_db": -38.04,
+    "secondary_gain_db": -2.01
+  },
+  {
+    "time_s": 13.775,
+    "active": true,
+    "voice_band_dbfs": -22.04,
+    "music_v1_band_dbfs": -56.37,
+    "music_v2_band_dbfs": -58.73,
+    "music_v2_relative_band_db": -36.68,
+    "secondary_gain_db": -2.32
+  },
+  {
+    "time_s": 13.825,
+    "active": true,
+    "voice_band_dbfs": -13.51,
+    "music_v1_band_dbfs": -54.85,
+    "music_v2_band_dbfs": -57.75,
+    "music_v2_relative_band_db": -44.24,
+    "secondary_gain_db": -2.88
+  },
+  {
+    "time_s": 13.875,
+    "active": true,
+    "voice_band_dbfs": -20.66,
+    "music_v1_band_dbfs": -53.66,
+    "music_v2_band_dbfs": -57.15,
+    "music_v2_relative_band_db": -36.49,
+    "secondary_gain_db": -3.52
+  },
+  {
+    "time_s": 13.925,
+    "active": true,
+    "voice_band_dbfs": -25.13,
+    "music_v1_band_dbfs": -54.17,
+    "music_v2_band_dbfs": -58.12,
+    "music_v2_relative_band_db": -33.0,
+    "secondary_gain_db": -4.01
+  },
+  {
+    "time_s": 13.975,
+    "active": true,
+    "voice_band_dbfs": -36.8,
+    "music_v1_band_dbfs": -53.72,
+    "music_v2_band_dbfs": -57.86,
+    "music_v2_relative_band_db": -21.06,
+    "secondary_gain_db": -4.19
+  },
+  {
+    "time_s": 14.025,
+    "active": true,
+    "voice_band_dbfs": -43.7,
+    "music_v1_band_dbfs": -51.62,
+    "music_v2_band_dbfs": -55.56,
+    "music_v2_relative_band_db": -11.87,
+    "secondary_gain_db": -3.98
+  },
+  {
+    "time_s": 14.075,
+    "active": false,
+    "voice_band_dbfs": -53.15,
+    "music_v1_band_dbfs": -52.04,
+    "music_v2_band_dbfs": -55.44,
+    "music_v2_relative_band_db": -2.28,
+    "secondary_gain_db": -3.43
+  },
+  {
+    "time_s": 14.125,
+    "active": true,
+    "voice_band_dbfs": -18.0,
+    "music_v1_band_dbfs": -52.98,
+    "music_v2_band_dbfs": -55.65,
+    "music_v2_relative_band_db": -37.65,
+    "secondary_gain_db": -2.68
+  },
+  {
+    "time_s": 14.175,
+    "active": true,
+    "voice_band_dbfs": -16.94,
+    "music_v1_band_dbfs": -52.99,
+    "music_v2_band_dbfs": -54.86,
+    "music_v2_relative_band_db": -37.91,
+    "secondary_gain_db": -1.89
+  },
+  {
+    "time_s": 14.225,
+    "active": true,
+    "voice_band_dbfs": -17.44,
+    "music_v1_band_dbfs": -53.22,
+    "music_v2_band_dbfs": -54.44,
+    "music_v2_relative_band_db": -37.0,
+    "secondary_gain_db": -1.2
+  },
+  {
+    "time_s": 14.275,
+    "active": true,
+    "voice_band_dbfs": -19.92,
+    "music_v1_band_dbfs": -51.76,
+    "music_v2_band_dbfs": -52.46,
+    "music_v2_relative_band_db": -32.54,
+    "secondary_gain_db": -0.69
+  },
+  {
+    "time_s": 14.325,
+    "active": true,
+    "voice_band_dbfs": -20.68,
+    "music_v1_band_dbfs": -51.96,
+    "music_v2_band_dbfs": -52.33,
+    "music_v2_relative_band_db": -31.64,
+    "secondary_gain_db": -0.35
+  },
+  {
+    "time_s": 14.375,
+    "active": true,
+    "voice_band_dbfs": -17.35,
+    "music_v1_band_dbfs": -50.1,
+    "music_v2_band_dbfs": -50.29,
+    "music_v2_relative_band_db": -32.94,
+    "secondary_gain_db": -0.18
+  },
+  {
+    "time_s": 14.425,
+    "active": true,
+    "voice_band_dbfs": -29.58,
+    "music_v1_band_dbfs": -52.88,
+    "music_v2_band_dbfs": -53.01,
+    "music_v2_relative_band_db": -23.42,
+    "secondary_gain_db": -0.11
+  },
+  {
+    "time_s": 14.475,
+    "active": true,
+    "voice_band_dbfs": -37.53,
+    "music_v1_band_dbfs": -52.79,
+    "music_v2_band_dbfs": -52.95,
+    "music_v2_relative_band_db": -15.42,
+    "secondary_gain_db": -0.14
+  },
+  {
+    "time_s": 14.525,
+    "active": true,
+    "voice_band_dbfs": -23.06,
+    "music_v1_band_dbfs": -51.7,
+    "music_v2_band_dbfs": -51.97,
+    "music_v2_relative_band_db": -28.91,
+    "secondary_gain_db": -0.27
+  },
+  {
+    "time_s": 14.575,
+    "active": true,
+    "voice_band_dbfs": -18.45,
+    "music_v1_band_dbfs": -51.74,
+    "music_v2_band_dbfs": -52.3,
+    "music_v2_relative_band_db": -33.84,
+    "secondary_gain_db": -0.55
+  },
+  {
+    "time_s": 14.625,
+    "active": true,
+    "voice_band_dbfs": -15.8,
+    "music_v1_band_dbfs": -53.61,
+    "music_v2_band_dbfs": -54.62,
+    "music_v2_relative_band_db": -38.82,
+    "secondary_gain_db": -1.0
+  },
+  {
+    "time_s": 14.675,
+    "active": true,
+    "voice_band_dbfs": -18.99,
+    "music_v1_band_dbfs": -55.01,
+    "music_v2_band_dbfs": -56.67,
+    "music_v2_relative_band_db": -37.69,
+    "secondary_gain_db": -1.65
+  },
+  {
+    "time_s": 14.725,
+    "active": true,
+    "voice_band_dbfs": -15.08,
+    "music_v1_band_dbfs": -54.93,
+    "music_v2_band_dbfs": -57.43,
+    "music_v2_relative_band_db": -42.35,
+    "secondary_gain_db": -2.48
+  },
+  {
+    "time_s": 14.775,
+    "active": true,
+    "voice_band_dbfs": -16.08,
+    "music_v1_band_dbfs": -54.11,
+    "music_v2_band_dbfs": -57.45,
+    "music_v2_relative_band_db": -41.37,
+    "secondary_gain_db": -3.4
+  },
+  {
+    "time_s": 14.825,
+    "active": true,
+    "voice_band_dbfs": -19.33,
+    "music_v1_band_dbfs": -54.8,
+    "music_v2_band_dbfs": -59.01,
+    "music_v2_relative_band_db": -39.68,
+    "secondary_gain_db": -4.27
+  },
+  {
+    "time_s": 14.875,
+    "active": true,
+    "voice_band_dbfs": -30.65,
+    "music_v1_band_dbfs": -56.27,
+    "music_v2_band_dbfs": -61.16,
+    "music_v2_relative_band_db": -30.5,
+    "secondary_gain_db": -4.96
+  },
+  {
+    "time_s": 14.925,
+    "active": true,
+    "voice_band_dbfs": -40.65,
+    "music_v1_band_dbfs": -56.54,
+    "music_v2_band_dbfs": -61.86,
+    "music_v2_relative_band_db": -21.21,
+    "secondary_gain_db": -5.39
+  },
+  {
+    "time_s": 14.975,
+    "active": true,
+    "voice_band_dbfs": -22.8,
+    "music_v1_band_dbfs": -57.91,
+    "music_v2_band_dbfs": -63.44,
+    "music_v2_relative_band_db": -40.64,
+    "secondary_gain_db": -5.56
+  },
+  {
+    "time_s": 15.025,
+    "active": true,
+    "voice_band_dbfs": -20.86,
+    "music_v1_band_dbfs": -57.66,
+    "music_v2_band_dbfs": -63.18,
+    "music_v2_relative_band_db": -42.33,
+    "secondary_gain_db": -5.53
+  },
+  {
+    "time_s": 15.075,
+    "active": true,
+    "voice_band_dbfs": -23.47,
+    "music_v1_band_dbfs": -58.71,
+    "music_v2_band_dbfs": -64.16,
+    "music_v2_relative_band_db": -40.69,
+    "secondary_gain_db": -5.44
+  },
+  {
+    "time_s": 15.125,
+    "active": true,
+    "voice_band_dbfs": -32.93,
+    "music_v1_band_dbfs": -56.79,
+    "music_v2_band_dbfs": -62.18,
+    "music_v2_relative_band_db": -29.25,
+    "secondary_gain_db": -5.38
+  },
+  {
+    "time_s": 15.175,
+    "active": true,
+    "voice_band_dbfs": -29.97,
+    "music_v1_band_dbfs": -57.79,
+    "music_v2_band_dbfs": -63.26,
+    "music_v2_relative_band_db": -33.29,
+    "secondary_gain_db": -5.44
+  },
+  {
+    "time_s": 15.225,
+    "active": true,
+    "voice_band_dbfs": -25.04,
+    "music_v1_band_dbfs": -56.98,
+    "music_v2_band_dbfs": -62.65,
+    "music_v2_relative_band_db": -37.61,
+    "secondary_gain_db": -5.66
+  },
+  {
+    "time_s": 15.275,
+    "active": true,
+    "voice_band_dbfs": -40.12,
+    "music_v1_band_dbfs": -57.14,
+    "music_v2_band_dbfs": -63.2,
+    "music_v2_relative_band_db": -23.07,
+    "secondary_gain_db": -6.04
+  },
+  {
+    "time_s": 15.325,
+    "active": true,
+    "voice_band_dbfs": -27.91,
+    "music_v1_band_dbfs": -56.34,
+    "music_v2_band_dbfs": -62.93,
+    "music_v2_relative_band_db": -35.02,
+    "secondary_gain_db": -6.58
+  },
+  {
+    "time_s": 15.375,
+    "active": true,
+    "voice_band_dbfs": -36.73,
+    "music_v1_band_dbfs": -56.93,
+    "music_v2_band_dbfs": -64.14,
+    "music_v2_relative_band_db": -27.41,
+    "secondary_gain_db": -7.25
+  },
+  {
+    "time_s": 15.425,
+    "active": true,
+    "voice_band_dbfs": -36.03,
+    "music_v1_band_dbfs": -57.2,
+    "music_v2_band_dbfs": -65.22,
+    "music_v2_relative_band_db": -29.19,
+    "secondary_gain_db": -7.94
+  },
+  {
+    "time_s": 15.475,
+    "active": true,
+    "voice_band_dbfs": -35.28,
+    "music_v1_band_dbfs": -55.47,
+    "music_v2_band_dbfs": -64.13,
+    "music_v2_relative_band_db": -28.84,
+    "secondary_gain_db": -8.57
+  },
+  {
+    "time_s": 15.525,
+    "active": true,
+    "voice_band_dbfs": -44.08,
+    "music_v1_band_dbfs": -49.01,
+    "music_v2_band_dbfs": -58.09,
+    "music_v2_relative_band_db": -14.02,
+    "secondary_gain_db": -9.08
+  },
+  {
+    "time_s": 15.575,
+    "active": true,
+    "voice_band_dbfs": -43.06,
+    "music_v1_band_dbfs": -51.09,
+    "music_v2_band_dbfs": -60.48,
+    "music_v2_relative_band_db": -17.43,
+    "secondary_gain_db": -9.45
+  },
+  {
+    "time_s": 15.625,
+    "active": true,
+    "voice_band_dbfs": -23.21,
+    "music_v1_band_dbfs": -51.98,
+    "music_v2_band_dbfs": -61.62,
+    "music_v2_relative_band_db": -38.41,
+    "secondary_gain_db": -9.67
+  },
+  {
+    "time_s": 15.675,
+    "active": true,
+    "voice_band_dbfs": -31.92,
+    "music_v1_band_dbfs": -50.33,
+    "music_v2_band_dbfs": -59.99,
+    "music_v2_relative_band_db": -28.07,
+    "secondary_gain_db": -9.69
+  },
+  {
+    "time_s": 15.725,
+    "active": true,
+    "voice_band_dbfs": -43.51,
+    "music_v1_band_dbfs": -47.63,
+    "music_v2_band_dbfs": -57.03,
+    "music_v2_relative_band_db": -13.52,
+    "secondary_gain_db": -9.42
+  },
+  {
+    "time_s": 15.775,
+    "active": false,
+    "voice_band_dbfs": -52.33,
+    "music_v1_band_dbfs": -49.77,
+    "music_v2_band_dbfs": -58.55,
+    "music_v2_relative_band_db": -6.22,
+    "secondary_gain_db": -8.81
+  },
+  {
+    "time_s": 15.825,
+    "active": false,
+    "voice_band_dbfs": -57.45,
+    "music_v1_band_dbfs": -49.14,
+    "music_v2_band_dbfs": -57.0,
+    "music_v2_relative_band_db": 0.45,
+    "secondary_gain_db": -7.89
+  },
+  {
+    "time_s": 15.875,
+    "active": false,
+    "voice_band_dbfs": -67.01,
+    "music_v1_band_dbfs": -47.88,
+    "music_v2_band_dbfs": -54.66,
+    "music_v2_relative_band_db": 12.34,
+    "secondary_gain_db": -6.78
+  },
+  {
+    "time_s": 15.925,
+    "active": false,
+    "voice_band_dbfs": -74.05,
+    "music_v1_band_dbfs": -49.27,
+    "music_v2_band_dbfs": -54.98,
+    "music_v2_relative_band_db": 19.07,
+    "secondary_gain_db": -5.65
+  },
+  {
+    "time_s": 15.975,
+    "active": true,
+    "voice_band_dbfs": -32.72,
+    "music_v1_band_dbfs": -51.59,
+    "music_v2_band_dbfs": -56.26,
+    "music_v2_relative_band_db": -23.54,
+    "secondary_gain_db": -4.65
+  },
+  {
+    "time_s": 16.025,
+    "active": true,
+    "voice_band_dbfs": -22.16,
+    "music_v1_band_dbfs": -49.07,
+    "music_v2_band_dbfs": -52.89,
+    "music_v2_relative_band_db": -30.72,
+    "secondary_gain_db": -3.79
+  },
+  {
+    "time_s": 16.075,
+    "active": true,
+    "voice_band_dbfs": -20.01,
+    "music_v1_band_dbfs": -48.23,
+    "music_v2_band_dbfs": -51.32,
+    "music_v2_relative_band_db": -31.31,
+    "secondary_gain_db": -3.08
+  },
+  {
+    "time_s": 16.125,
+    "active": true,
+    "voice_band_dbfs": -22.51,
+    "music_v1_band_dbfs": -49.14,
+    "music_v2_band_dbfs": -51.75,
+    "music_v2_relative_band_db": -29.24,
+    "secondary_gain_db": -2.56
+  },
+  {
+    "time_s": 16.175,
+    "active": true,
+    "voice_band_dbfs": -23.99,
+    "music_v1_band_dbfs": -50.39,
+    "music_v2_band_dbfs": -52.74,
+    "music_v2_relative_band_db": -28.75,
+    "secondary_gain_db": -2.3
+  },
+  {
+    "time_s": 16.225,
+    "active": true,
+    "voice_band_dbfs": -21.62,
+    "music_v1_band_dbfs": -49.51,
+    "music_v2_band_dbfs": -51.91,
+    "music_v2_relative_band_db": -30.29,
+    "secondary_gain_db": -2.37
+  },
+  {
+    "time_s": 16.275,
+    "active": true,
+    "voice_band_dbfs": -27.61,
+    "music_v1_band_dbfs": -49.35,
+    "music_v2_band_dbfs": -52.09,
+    "music_v2_relative_band_db": -24.48,
+    "secondary_gain_db": -2.77
+  },
+  {
+    "time_s": 16.325,
+    "active": true,
+    "voice_band_dbfs": -25.72,
+    "music_v1_band_dbfs": -52.04,
+    "music_v2_band_dbfs": -55.35,
+    "music_v2_relative_band_db": -29.63,
+    "secondary_gain_db": -3.39
+  },
+  {
+    "time_s": 16.375,
+    "active": true,
+    "voice_band_dbfs": -28.45,
+    "music_v1_band_dbfs": -50.91,
+    "music_v2_band_dbfs": -55.0,
+    "music_v2_relative_band_db": -26.55,
+    "secondary_gain_db": -4.07
+  },
+  {
+    "time_s": 16.425,
+    "active": true,
+    "voice_band_dbfs": -36.96,
+    "music_v1_band_dbfs": -50.34,
+    "music_v2_band_dbfs": -54.89,
+    "music_v2_relative_band_db": -17.93,
+    "secondary_gain_db": -4.62
+  },
+  {
+    "time_s": 16.475,
+    "active": true,
+    "voice_band_dbfs": -40.54,
+    "music_v1_band_dbfs": -49.79,
+    "music_v2_band_dbfs": -54.68,
+    "music_v2_relative_band_db": -14.14,
+    "secondary_gain_db": -4.91
+  },
+  {
+    "time_s": 16.525,
+    "active": true,
+    "voice_band_dbfs": -27.37,
+    "music_v1_band_dbfs": -49.83,
+    "music_v2_band_dbfs": -54.74,
+    "music_v2_relative_band_db": -27.37,
+    "secondary_gain_db": -4.93
+  },
+  {
+    "time_s": 16.575,
+    "active": true,
+    "voice_band_dbfs": -24.96,
+    "music_v1_band_dbfs": -52.95,
+    "music_v2_band_dbfs": -57.69,
+    "music_v2_relative_band_db": -32.72,
+    "secondary_gain_db": -4.75
+  },
+  {
+    "time_s": 16.625,
+    "active": true,
+    "voice_band_dbfs": -32.12,
+    "music_v1_band_dbfs": -51.02,
+    "music_v2_band_dbfs": -55.55,
+    "music_v2_relative_band_db": -23.43,
+    "secondary_gain_db": -4.52
+  },
+  {
+    "time_s": 16.675,
+    "active": true,
+    "voice_band_dbfs": -28.26,
+    "music_v1_band_dbfs": -51.55,
+    "music_v2_band_dbfs": -55.94,
+    "music_v2_relative_band_db": -27.68,
+    "secondary_gain_db": -4.37
+  },
+  {
+    "time_s": 16.725,
+    "active": true,
+    "voice_band_dbfs": -28.01,
+    "music_v1_band_dbfs": -51.04,
+    "music_v2_band_dbfs": -55.41,
+    "music_v2_relative_band_db": -27.4,
+    "secondary_gain_db": -4.36
+  },
+  {
+    "time_s": 16.775,
+    "active": true,
+    "voice_band_dbfs": -30.29,
+    "music_v1_band_dbfs": -51.88,
+    "music_v2_band_dbfs": -56.35,
+    "music_v2_relative_band_db": -26.06,
+    "secondary_gain_db": -4.47
+  },
+  {
+    "time_s": 16.825,
+    "active": true,
+    "voice_band_dbfs": -39.92,
+    "music_v1_band_dbfs": -52.72,
+    "music_v2_band_dbfs": -57.37,
+    "music_v2_relative_band_db": -17.45,
+    "secondary_gain_db": -4.64
+  },
+  {
+    "time_s": 16.875,
+    "active": true,
+    "voice_band_dbfs": -32.44,
+    "music_v1_band_dbfs": -54.29,
+    "music_v2_band_dbfs": -59.08,
+    "music_v2_relative_band_db": -26.64,
+    "secondary_gain_db": -4.8
+  },
+  {
+    "time_s": 16.925,
+    "active": true,
+    "voice_band_dbfs": -32.85,
+    "music_v1_band_dbfs": -55.13,
+    "music_v2_band_dbfs": -60.02,
+    "music_v2_relative_band_db": -27.18,
+    "secondary_gain_db": -4.9
+  },
+  {
+    "time_s": 16.975,
+    "active": true,
+    "voice_band_dbfs": -26.46,
+    "music_v1_band_dbfs": -56.39,
+    "music_v2_band_dbfs": -61.35,
+    "music_v2_relative_band_db": -34.89,
+    "secondary_gain_db": -4.96
+  },
+  {
+    "time_s": 17.025,
+    "active": true,
+    "voice_band_dbfs": -35.35,
+    "music_v1_band_dbfs": -55.55,
+    "music_v2_band_dbfs": -60.54,
+    "music_v2_relative_band_db": -25.19,
+    "secondary_gain_db": -4.99
+  },
+  {
+    "time_s": 17.075,
+    "active": true,
+    "voice_band_dbfs": -34.55,
+    "music_v1_band_dbfs": -56.02,
+    "music_v2_band_dbfs": -61.06,
+    "music_v2_relative_band_db": -26.52,
+    "secondary_gain_db": -5.04
+  },
+  {
+    "time_s": 17.125,
+    "active": true,
+    "voice_band_dbfs": -40.99,
+    "music_v1_band_dbfs": -56.27,
+    "music_v2_band_dbfs": -61.42,
+    "music_v2_relative_band_db": -20.42,
+    "secondary_gain_db": -5.14
+  },
+  {
+    "time_s": 17.175,
+    "active": true,
+    "voice_band_dbfs": -46.21,
+    "music_v1_band_dbfs": -56.53,
+    "music_v2_band_dbfs": -61.8,
+    "music_v2_relative_band_db": -15.59,
+    "secondary_gain_db": -5.29
+  },
+  {
+    "time_s": 17.225,
+    "active": true,
+    "voice_band_dbfs": -25.65,
+    "music_v1_band_dbfs": -57.6,
+    "music_v2_band_dbfs": -63.05,
+    "music_v2_relative_band_db": -37.4,
+    "secondary_gain_db": -5.47
+  },
+  {
+    "time_s": 17.275,
+    "active": true,
+    "voice_band_dbfs": -31.63,
+    "music_v1_band_dbfs": -57.75,
+    "music_v2_band_dbfs": -63.32,
+    "music_v2_relative_band_db": -31.69,
+    "secondary_gain_db": -5.59
+  },
+  {
+    "time_s": 17.325,
+    "active": true,
+    "voice_band_dbfs": -40.04,
+    "music_v1_band_dbfs": -57.31,
+    "music_v2_band_dbfs": -62.85,
+    "music_v2_relative_band_db": -22.81,
+    "secondary_gain_db": -5.56
+  },
+  {
+    "time_s": 17.375,
+    "active": true,
+    "voice_band_dbfs": -46.37,
+    "music_v1_band_dbfs": -57.12,
+    "music_v2_band_dbfs": -62.44,
+    "music_v2_relative_band_db": -16.07,
+    "secondary_gain_db": -5.31
+  },
+  {
+    "time_s": 17.425,
+    "active": true,
+    "voice_band_dbfs": -52.27,
+    "music_v1_band_dbfs": -61.13,
+    "music_v2_band_dbfs": -65.95,
+    "music_v2_relative_band_db": -13.68,
+    "secondary_gain_db": -4.84
+  },
+  {
+    "time_s": 17.475,
+    "active": false,
+    "voice_band_dbfs": -65.17,
+    "music_v1_band_dbfs": -57.71,
+    "music_v2_band_dbfs": -61.93,
+    "music_v2_relative_band_db": 3.24,
+    "secondary_gain_db": -4.24
+  },
+  {
+    "time_s": 17.525,
+    "active": false,
+    "voice_band_dbfs": -73.29,
+    "music_v1_band_dbfs": -54.22,
+    "music_v2_band_dbfs": -57.91,
+    "music_v2_relative_band_db": 15.37,
+    "secondary_gain_db": -3.67
+  },
+  {
+    "time_s": 17.575,
+    "active": false,
+    "voice_band_dbfs": -76.56,
+    "music_v1_band_dbfs": -55.26,
+    "music_v2_band_dbfs": -58.64,
+    "music_v2_relative_band_db": 17.92,
+    "secondary_gain_db": -3.33
+  },
+  {
+    "time_s": 17.625,
+    "active": false,
+    "voice_band_dbfs": -77.59,
+    "music_v1_band_dbfs": -56.5,
+    "music_v2_band_dbfs": -59.9,
+    "music_v2_relative_band_db": 17.69,
+    "secondary_gain_db": -3.35
+  },
+  {
+    "time_s": 17.675,
+    "active": false,
+    "voice_band_dbfs": -77.08,
+    "music_v1_band_dbfs": -57.71,
+    "music_v2_band_dbfs": -61.4,
+    "music_v2_relative_band_db": 15.68,
+    "secondary_gain_db": -3.73
+  },
+  {
+    "time_s": 17.725,
+    "active": true,
+    "voice_band_dbfs": -40.72,
+    "music_v1_band_dbfs": -59.44,
+    "music_v2_band_dbfs": -63.8,
+    "music_v2_relative_band_db": -23.07,
+    "secondary_gain_db": -4.36
+  },
+  {
+    "time_s": 17.775,
+    "active": false,
+    "voice_band_dbfs": -44.67,
+    "music_v1_band_dbfs": -57.43,
+    "music_v2_band_dbfs": -62.49,
+    "music_v2_relative_band_db": -17.82,
+    "secondary_gain_db": -5.07
+  },
+  {
+    "time_s": 17.825,
+    "active": true,
+    "voice_band_dbfs": -35.95,
+    "music_v1_band_dbfs": -58.67,
+    "music_v2_band_dbfs": -64.3,
+    "music_v2_relative_band_db": -28.35,
+    "secondary_gain_db": -5.69
+  },
+  {
+    "time_s": 17.875,
+    "active": true,
+    "voice_band_dbfs": -22.39,
+    "music_v1_band_dbfs": -58.08,
+    "music_v2_band_dbfs": -64.14,
+    "music_v2_relative_band_db": -41.75,
+    "secondary_gain_db": -6.09
+  },
+  {
+    "time_s": 17.925,
+    "active": true,
+    "voice_band_dbfs": -32.94,
+    "music_v1_band_dbfs": -58.85,
+    "music_v2_band_dbfs": -65.06,
+    "music_v2_relative_band_db": -32.12,
+    "secondary_gain_db": -6.24
+  },
+  {
+    "time_s": 17.975,
+    "active": true,
+    "voice_band_dbfs": -40.96,
+    "music_v1_band_dbfs": -58.86,
+    "music_v2_band_dbfs": -64.94,
+    "music_v2_relative_band_db": -23.99,
+    "secondary_gain_db": -6.12
+  },
+  {
+    "time_s": 18.025,
+    "active": true,
+    "voice_band_dbfs": -23.51,
+    "music_v1_band_dbfs": -58.32,
+    "music_v2_band_dbfs": -64.05,
+    "music_v2_relative_band_db": -40.54,
+    "secondary_gain_db": -5.76
+  },
+  {
+    "time_s": 18.075,
+    "active": true,
+    "voice_band_dbfs": -23.21,
+    "music_v1_band_dbfs": -58.23,
+    "music_v2_band_dbfs": -63.44,
+    "music_v2_relative_band_db": -40.23,
+    "secondary_gain_db": -5.21
+  },
+  {
+    "time_s": 18.125,
+    "active": true,
+    "voice_band_dbfs": -27.88,
+    "music_v1_band_dbfs": -57.61,
+    "music_v2_band_dbfs": -62.12,
+    "music_v2_relative_band_db": -34.25,
+    "secondary_gain_db": -4.53
+  },
+  {
+    "time_s": 18.175,
+    "active": true,
+    "voice_band_dbfs": -39.87,
+    "music_v1_band_dbfs": -58.19,
+    "music_v2_band_dbfs": -61.95,
+    "music_v2_relative_band_db": -22.08,
+    "secondary_gain_db": -3.78
+  },
+  {
+    "time_s": 18.225,
+    "active": true,
+    "voice_band_dbfs": -46.93,
+    "music_v1_band_dbfs": -60.14,
+    "music_v2_band_dbfs": -63.16,
+    "music_v2_relative_band_db": -16.22,
+    "secondary_gain_db": -3.01
+  },
+  {
+    "time_s": 18.275,
+    "active": false,
+    "voice_band_dbfs": -58.43,
+    "music_v1_band_dbfs": -58.09,
+    "music_v2_band_dbfs": -60.38,
+    "music_v2_relative_band_db": -1.95,
+    "secondary_gain_db": -2.28
+  },
+  {
+    "time_s": 18.325,
+    "active": false,
+    "voice_band_dbfs": -63.24,
+    "music_v1_band_dbfs": -58.52,
+    "music_v2_band_dbfs": -60.12,
+    "music_v2_relative_band_db": 3.12,
+    "secondary_gain_db": -1.63
+  },
+  {
+    "time_s": 18.375,
+    "active": false,
+    "voice_band_dbfs": -72.44,
+    "music_v1_band_dbfs": -56.99,
+    "music_v2_band_dbfs": -58.14,
+    "music_v2_relative_band_db": 14.3,
+    "secondary_gain_db": -1.13
+  },
+  {
+    "time_s": 18.425,
+    "active": true,
+    "voice_band_dbfs": -50.85,
+    "music_v1_band_dbfs": -56.8,
+    "music_v2_band_dbfs": -57.67,
+    "music_v2_relative_band_db": -6.81,
+    "secondary_gain_db": -0.81
+  },
+  {
+    "time_s": 18.475,
+    "active": true,
+    "voice_band_dbfs": -26.72,
+    "music_v1_band_dbfs": -55.36,
+    "music_v2_band_dbfs": -56.13,
+    "music_v2_relative_band_db": -29.4,
+    "secondary_gain_db": -0.73
+  },
+  {
+    "time_s": 18.525,
+    "active": true,
+    "voice_band_dbfs": -17.39,
+    "music_v1_band_dbfs": -54.24,
+    "music_v2_band_dbfs": -55.15,
+    "music_v2_relative_band_db": -37.75,
+    "secondary_gain_db": -0.91
+  },
+  {
+    "time_s": 18.575,
+    "active": true,
+    "voice_band_dbfs": -16.85,
+    "music_v1_band_dbfs": -57.5,
+    "music_v2_band_dbfs": -58.9,
+    "music_v2_relative_band_db": -42.05,
+    "secondary_gain_db": -1.36
+  },
+  {
+    "time_s": 18.625,
+    "active": true,
+    "voice_band_dbfs": -22.45,
+    "music_v1_band_dbfs": -55.59,
+    "music_v2_band_dbfs": -57.66,
+    "music_v2_relative_band_db": -35.2,
+    "secondary_gain_db": -2.06
+  },
+  {
+    "time_s": 18.675,
+    "active": true,
+    "voice_band_dbfs": -21.99,
+    "music_v1_band_dbfs": -60.44,
+    "music_v2_band_dbfs": -63.22,
+    "music_v2_relative_band_db": -41.22,
+    "secondary_gain_db": -2.92
+  },
+  {
+    "time_s": 18.725,
+    "active": true,
+    "voice_band_dbfs": -21.61,
+    "music_v1_band_dbfs": -58.34,
+    "music_v2_band_dbfs": -62.16,
+    "music_v2_relative_band_db": -40.55,
+    "secondary_gain_db": -3.8
+  },
+  {
+    "time_s": 18.775,
+    "active": true,
+    "voice_band_dbfs": -25.04,
+    "music_v1_band_dbfs": -58.06,
+    "music_v2_band_dbfs": -62.59,
+    "music_v2_relative_band_db": -37.55,
+    "secondary_gain_db": -4.54
+  },
+  {
+    "time_s": 18.825,
+    "active": true,
+    "voice_band_dbfs": -36.83,
+    "music_v1_band_dbfs": -59.51,
+    "music_v2_band_dbfs": -64.47,
+    "music_v2_relative_band_db": -27.64,
+    "secondary_gain_db": -5.0
+  },
+  {
+    "time_s": 18.875,
+    "active": true,
+    "voice_band_dbfs": -44.39,
+    "music_v1_band_dbfs": -59.65,
+    "music_v2_band_dbfs": -64.74,
+    "music_v2_relative_band_db": -20.35,
+    "secondary_gain_db": -5.13
+  },
+  {
+    "time_s": 18.925,
+    "active": true,
+    "voice_band_dbfs": -29.53,
+    "music_v1_band_dbfs": -60.8,
+    "music_v2_band_dbfs": -65.73,
+    "music_v2_relative_band_db": -36.2,
+    "secondary_gain_db": -4.94
+  },
+  {
+    "time_s": 18.975,
+    "active": true,
+    "voice_band_dbfs": -31.72,
+    "music_v1_band_dbfs": -61.3,
+    "music_v2_band_dbfs": -65.81,
+    "music_v2_relative_band_db": -34.09,
+    "secondary_gain_db": -4.52
+  },
+  {
+    "time_s": 19.025,
+    "active": true,
+    "voice_band_dbfs": -37.46,
+    "music_v1_band_dbfs": -61.4,
+    "music_v2_band_dbfs": -65.37,
+    "music_v2_relative_band_db": -27.91,
+    "secondary_gain_db": -3.96
+  },
+  {
+    "time_s": 19.075,
+    "active": true,
+    "voice_band_dbfs": -31.93,
+    "music_v1_band_dbfs": -61.21,
+    "music_v2_band_dbfs": -64.55,
+    "music_v2_relative_band_db": -32.62,
+    "secondary_gain_db": -3.34
+  },
+  {
+    "time_s": 19.125,
+    "active": true,
+    "voice_band_dbfs": -13.84,
+    "music_v1_band_dbfs": -60.02,
+    "music_v2_band_dbfs": -62.77,
+    "music_v2_relative_band_db": -48.93,
+    "secondary_gain_db": -2.74
+  },
+  {
+    "time_s": 19.175,
+    "active": true,
+    "voice_band_dbfs": -17.02,
+    "music_v1_band_dbfs": -62.12,
+    "music_v2_band_dbfs": -64.41,
+    "music_v2_relative_band_db": -47.39,
+    "secondary_gain_db": -2.21
+  },
+  {
+    "time_s": 19.225,
+    "active": true,
+    "voice_band_dbfs": -16.25,
+    "music_v1_band_dbfs": -62.11,
+    "music_v2_band_dbfs": -63.97,
+    "music_v2_relative_band_db": -47.72,
+    "secondary_gain_db": -1.83
+  },
+  {
+    "time_s": 19.275,
+    "active": true,
+    "voice_band_dbfs": -18.97,
+    "music_v1_band_dbfs": -62.94,
+    "music_v2_band_dbfs": -64.66,
+    "music_v2_relative_band_db": -45.69,
+    "secondary_gain_db": -1.68
+  },
+  {
+    "time_s": 19.325,
+    "active": true,
+    "voice_band_dbfs": -15.9,
+    "music_v1_band_dbfs": -61.63,
+    "music_v2_band_dbfs": -63.51,
+    "music_v2_relative_band_db": -47.61,
+    "secondary_gain_db": -1.82
+  },
+  {
+    "time_s": 19.375,
+    "active": true,
+    "voice_band_dbfs": -22.96,
+    "music_v1_band_dbfs": -62.29,
+    "music_v2_band_dbfs": -64.49,
+    "music_v2_relative_band_db": -41.54,
+    "secondary_gain_db": -2.25
+  },
+  {
+    "time_s": 19.425,
+    "active": true,
+    "voice_band_dbfs": -27.94,
+    "music_v1_band_dbfs": -63.34,
+    "music_v2_band_dbfs": -66.24,
+    "music_v2_relative_band_db": -38.3,
+    "secondary_gain_db": -2.89
+  },
+  {
+    "time_s": 19.475,
+    "active": true,
+    "voice_band_dbfs": -20.04,
+    "music_v1_band_dbfs": -61.54,
+    "music_v2_band_dbfs": -65.16,
+    "music_v2_relative_band_db": -45.13,
+    "secondary_gain_db": -3.6
+  },
+  {
+    "time_s": 19.525,
+    "active": true,
+    "voice_band_dbfs": -33.11,
+    "music_v1_band_dbfs": -57.25,
+    "music_v2_band_dbfs": -61.42,
+    "music_v2_relative_band_db": -28.31,
+    "secondary_gain_db": -4.2
+  },
+  {
+    "time_s": 19.575,
+    "active": true,
+    "voice_band_dbfs": -37.53,
+    "music_v1_band_dbfs": -59.31,
+    "music_v2_band_dbfs": -63.83,
+    "music_v2_relative_band_db": -26.3,
+    "secondary_gain_db": -4.58
+  },
+  {
+    "time_s": 19.625,
+    "active": true,
+    "voice_band_dbfs": -26.2,
+    "music_v1_band_dbfs": -60.72,
+    "music_v2_band_dbfs": -65.38,
+    "music_v2_relative_band_db": -39.18,
+    "secondary_gain_db": -4.69
+  },
+  {
+    "time_s": 19.675,
+    "active": true,
+    "voice_band_dbfs": -25.13,
+    "music_v1_band_dbfs": -59.99,
+    "music_v2_band_dbfs": -64.62,
+    "music_v2_relative_band_db": -39.49,
+    "secondary_gain_db": -4.62
+  },
+  {
+    "time_s": 19.725,
+    "active": true,
+    "voice_band_dbfs": -30.53,
+    "music_v1_band_dbfs": -63.42,
+    "music_v2_band_dbfs": -67.94,
+    "music_v2_relative_band_db": -37.41,
+    "secondary_gain_db": -4.52
+  },
+  {
+    "time_s": 19.775,
+    "active": true,
+    "voice_band_dbfs": -35.2,
+    "music_v1_band_dbfs": -61.41,
+    "music_v2_band_dbfs": -65.93,
+    "music_v2_relative_band_db": -30.73,
+    "secondary_gain_db": -4.5
+  },
+  {
+    "time_s": 19.825,
+    "active": true,
+    "voice_band_dbfs": -36.19,
+    "music_v1_band_dbfs": -63.23,
+    "music_v2_band_dbfs": -67.88,
+    "music_v2_relative_band_db": -31.69,
+    "secondary_gain_db": -4.64
+  },
+  {
+    "time_s": 19.875,
+    "active": true,
+    "voice_band_dbfs": -29.02,
+    "music_v1_band_dbfs": -61.92,
+    "music_v2_band_dbfs": -66.75,
+    "music_v2_relative_band_db": -37.73,
+    "secondary_gain_db": -4.84
+  },
+  {
+    "time_s": 19.925,
+    "active": true,
+    "voice_band_dbfs": -30.31,
+    "music_v1_band_dbfs": -62.34,
+    "music_v2_band_dbfs": -67.3,
+    "music_v2_relative_band_db": -36.99,
+    "secondary_gain_db": -4.99
+  },
+  {
+    "time_s": 19.975,
+    "active": true,
+    "voice_band_dbfs": -36.74,
+    "music_v1_band_dbfs": -65.67,
+    "music_v2_band_dbfs": -70.58,
+    "music_v2_relative_band_db": -33.84,
+    "secondary_gain_db": -4.95
+  },
+  {
+    "time_s": 20.025,
+    "active": false,
+    "voice_band_dbfs": -48.1,
+    "music_v1_band_dbfs": -61.84,
+    "music_v2_band_dbfs": -66.43,
+    "music_v2_relative_band_db": -18.33,
+    "secondary_gain_db": -4.64
+  },
+  {
+    "time_s": 20.075,
+    "active": false,
+    "voice_band_dbfs": -56.88,
+    "music_v1_band_dbfs": -62.87,
+    "music_v2_band_dbfs": -67.0,
+    "music_v2_relative_band_db": -10.12,
+    "secondary_gain_db": -4.14
+  },
+  {
+    "time_s": 20.125,
+    "active": false,
+    "voice_band_dbfs": -71.65,
+    "music_v1_band_dbfs": -64.2,
+    "music_v2_band_dbfs": -67.78,
+    "music_v2_relative_band_db": 3.87,
+    "secondary_gain_db": -3.56
+  },
+  {
+    "time_s": 20.175,
+    "active": true,
+    "voice_band_dbfs": -25.41,
+    "music_v1_band_dbfs": -63.91,
+    "music_v2_band_dbfs": -67.03,
+    "music_v2_relative_band_db": -41.62,
+    "secondary_gain_db": -3.1
+  },
+  {
+    "time_s": 20.225,
+    "active": true,
+    "voice_band_dbfs": -23.63,
+    "music_v1_band_dbfs": -62.09,
+    "music_v2_band_dbfs": -64.99,
+    "music_v2_relative_band_db": -41.36,
+    "secondary_gain_db": -2.86
+  },
+  {
+    "time_s": 20.275,
+    "active": true,
+    "voice_band_dbfs": -29.72,
+    "music_v1_band_dbfs": -62.16,
+    "music_v2_band_dbfs": -65.04,
+    "music_v2_relative_band_db": -35.32,
+    "secondary_gain_db": -2.86
+  },
+  {
+    "time_s": 20.325,
+    "active": true,
+    "voice_band_dbfs": -28.02,
+    "music_v1_band_dbfs": -62.63,
+    "music_v2_band_dbfs": -65.66,
+    "music_v2_relative_band_db": -37.65,
+    "secondary_gain_db": -3.03
+  },
+  {
+    "time_s": 20.375,
+    "active": true,
+    "voice_band_dbfs": -27.73,
+    "music_v1_band_dbfs": -62.85,
+    "music_v2_band_dbfs": -66.08,
+    "music_v2_relative_band_db": -38.35,
+    "secondary_gain_db": -3.22
+  },
+  {
+    "time_s": 20.425,
+    "active": true,
+    "voice_band_dbfs": -39.88,
+    "music_v1_band_dbfs": -61.38,
+    "music_v2_band_dbfs": -64.67,
+    "music_v2_relative_band_db": -24.8,
+    "secondary_gain_db": -3.32
+  },
+  {
+    "time_s": 20.475,
+    "active": true,
+    "voice_band_dbfs": -32.34,
+    "music_v1_band_dbfs": -62.9,
+    "music_v2_band_dbfs": -66.09,
+    "music_v2_relative_band_db": -33.75,
+    "secondary_gain_db": -3.22
+  },
+  {
+    "time_s": 20.525,
+    "active": true,
+    "voice_band_dbfs": -17.78,
+    "music_v1_band_dbfs": -60.36,
+    "music_v2_band_dbfs": -63.34,
+    "music_v2_relative_band_db": -45.57,
+    "secondary_gain_db": -2.94
+  },
+  {
+    "time_s": 20.575,
+    "active": true,
+    "voice_band_dbfs": -19.57,
+    "music_v1_band_dbfs": -66.74,
+    "music_v2_band_dbfs": -69.28,
+    "music_v2_relative_band_db": -49.71,
+    "secondary_gain_db": -2.53
+  },
+  {
+    "time_s": 20.625,
+    "active": true,
+    "voice_band_dbfs": -21.02,
+    "music_v1_band_dbfs": -65.04,
+    "music_v2_band_dbfs": -67.18,
+    "music_v2_relative_band_db": -46.16,
+    "secondary_gain_db": -2.14
+  },
+  {
+    "time_s": 20.675,
+    "active": true,
+    "voice_band_dbfs": -29.51,
+    "music_v1_band_dbfs": -66.1,
+    "music_v2_band_dbfs": -68.03,
+    "music_v2_relative_band_db": -38.52,
+    "secondary_gain_db": -1.89
+  },
+  {
+    "time_s": 20.725,
+    "active": true,
+    "voice_band_dbfs": -30.09,
+    "music_v1_band_dbfs": -64.41,
+    "music_v2_band_dbfs": -66.32,
+    "music_v2_relative_band_db": -36.23,
+    "secondary_gain_db": -1.87
+  },
+  {
+    "time_s": 20.775,
+    "active": true,
+    "voice_band_dbfs": -30.96,
+    "music_v1_band_dbfs": -66.55,
+    "music_v2_band_dbfs": -68.7,
+    "music_v2_relative_band_db": -37.73,
+    "secondary_gain_db": -2.12
+  },
+  {
+    "time_s": 20.825,
+    "active": true,
+    "voice_band_dbfs": -25.53,
+    "music_v1_band_dbfs": -67.98,
+    "music_v2_band_dbfs": -70.53,
+    "music_v2_relative_band_db": -45.01,
+    "secondary_gain_db": -2.58
+  },
+  {
+    "time_s": 20.875,
+    "active": true,
+    "voice_band_dbfs": -26.56,
+    "music_v1_band_dbfs": -69.58,
+    "music_v2_band_dbfs": -72.71,
+    "music_v2_relative_band_db": -46.16,
+    "secondary_gain_db": -3.16
+  },
+  {
+    "time_s": 20.925,
+    "active": true,
+    "voice_band_dbfs": -38.78,
+    "music_v1_band_dbfs": -72.1,
+    "music_v2_band_dbfs": -75.83,
+    "music_v2_relative_band_db": -37.05,
+    "secondary_gain_db": -3.78
+  },
+  {
+    "time_s": 20.975,
+    "active": true,
+    "voice_band_dbfs": -34.62,
+    "music_v1_band_dbfs": -75.01,
+    "music_v2_band_dbfs": -79.32,
+    "music_v2_relative_band_db": -44.7,
+    "secondary_gain_db": -4.37
+  },
+  {
+    "time_s": 21.025,
+    "active": true,
+    "voice_band_dbfs": -24.41,
+    "music_v1_band_dbfs": -74.46,
+    "music_v2_band_dbfs": -79.32,
+    "music_v2_relative_band_db": -54.91,
+    "secondary_gain_db": -4.88
+  },
+  {
+    "time_s": 21.075,
+    "active": true,
+    "voice_band_dbfs": -24.35,
+    "music_v1_band_dbfs": -77.8,
+    "music_v2_band_dbfs": -83.03,
+    "music_v2_relative_band_db": -58.69,
+    "secondary_gain_db": -5.28
+  },
+  {
+    "time_s": 21.125,
+    "active": true,
+    "voice_band_dbfs": -27.67,
+    "music_v1_band_dbfs": -78.85,
+    "music_v2_band_dbfs": -84.33,
+    "music_v2_relative_band_db": -56.67,
+    "secondary_gain_db": -5.52
+  },
+  {
+    "time_s": 21.175,
+    "active": true,
+    "voice_band_dbfs": -28.49,
+    "music_v1_band_dbfs": -83.79,
+    "music_v2_band_dbfs": -89.29,
+    "music_v2_relative_band_db": -60.79,
+    "secondary_gain_db": -5.53
+  },
+  {
+    "time_s": 21.225,
+    "active": true,
+    "voice_band_dbfs": -36.71,
+    "music_v1_band_dbfs": -84.67,
+    "music_v2_band_dbfs": -89.88,
+    "music_v2_relative_band_db": -53.17,
+    "secondary_gain_db": -5.25
+  },
+  {
+    "time_s": 21.275,
+    "active": false,
+    "voice_band_dbfs": -46.35,
+    "music_v1_band_dbfs": -84.89,
+    "music_v2_band_dbfs": -89.56,
+    "music_v2_relative_band_db": -43.21,
+    "secondary_gain_db": -4.68
+  },
+  {
+    "time_s": 21.325,
+    "active": false,
+    "voice_band_dbfs": -63.67,
+    "music_v1_band_dbfs": -87.11,
+    "music_v2_band_dbfs": -91.09,
+    "music_v2_relative_band_db": -27.42,
+    "secondary_gain_db": -3.87
+  },
+  {
+    "time_s": 21.375,
+    "active": false,
+    "voice_band_dbfs": -140.54,
+    "music_v1_band_dbfs": -102.48,
+    "music_v2_band_dbfs": -105.77,
+    "music_v2_relative_band_db": 34.77,
+    "secondary_gain_db": -2.94
+  }
+]

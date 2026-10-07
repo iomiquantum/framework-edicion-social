@@ -1,0 +1,1979 @@
+{
+  "status": "PASS",
+  "variants": 6,
+  "files_verified": 42,
+  "records": [
+    {
+      "id": "largo-53",
+      "variant": "A",
+      "files": [
+        {
+          "file": "variantes-largas/largo-53/A/musica.m4a",
+          "sha256": "a2ee24bdcda30d8f4c0eb7e1d72128589d0bbea0d651e4fa8382fd903f831df4",
+          "duration_s": 52.93,
+          "rms_dbfs": -45.14869393342906,
+          "sample_peak_dbfs": -23.62863910894238,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/A/mezcla.m4a",
+          "sha256": "671c5f23822be643bbbb48a483123d45bc27b8fe59c424c97b5bdadbf14f4de2",
+          "duration_s": 52.93,
+          "rms_dbfs": -21.026362255085786,
+          "sample_peak_dbfs": -5.872302949136018,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/A/mezcla.wav",
+          "sha256": "31c9df0e43a0053f928e16c4f4b075f08568d44c55f0742cc0a89990e0d73a94",
+          "duration_s": 52.93,
+          "rms_dbfs": -21.020268827055425,
+          "sample_peak_dbfs": -5.828011760309409,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/A/musica.wav",
+          "sha256": "b6a2315f3bcd82077a782d0e44fc3b10df1f15dbc203ede01ac28a43f4f7e5dc",
+          "duration_s": 52.93,
+          "rms_dbfs": -45.12659808683309,
+          "sample_peak_dbfs": -23.632090176672623,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/A/mezcla-v1.wav",
+          "sha256": "698428986cf1e19bb43b1bab032f1cc6fb3c81471a5f40eee6b227c206185b3e",
+          "duration_s": 52.93,
+          "rms_dbfs": -21.007411292476917,
+          "sample_peak_dbfs": -5.688426203199883,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/A/efectos.wav",
+          "sha256": "895a97a3f4e1b25b47723479f78cbbd233a80088f9c80a27b758ca803e519b39",
+          "duration_s": 52.93,
+          "rms_dbfs": -49.970716487276704,
+          "sample_peak_dbfs": -19.053312137234773,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/A/efectos.m4a",
+          "sha256": "aa4e915ef8823f31274990967b2ef1ce7a0e0eb76827565f7a5c46d18e505c32",
+          "duration_s": 52.93,
+          "rms_dbfs": -49.98605677496479,
+          "sample_peak_dbfs": -19.056545720335127,
+          "finite_decode_nonzero": "PASS"
+        }
+      ],
+      "file_count": 7,
+      "voice_recovered_max_abs_error": 2.384185791015625e-07,
+      "aac_pcm_correlation": 0.9999810577137873,
+      "mono_mix_rms_change_db": -0.0056263674457217965,
+      "bandlimited_mono_stress": {
+        "file": "variantes-largas/largo-53/A/qa-mono-banda-limitada.m4a",
+        "sha256": "0a0c332e9a50c6fab2d0001b328fc64360c6cb8dcdff508cdbde7eac5c4d6cdf",
+        "rms_dbfs": -22.037330798978793,
+        "sample_peak_dbfs": -3.9424354312809373,
+        "not_physical_phone": true
+      },
+      "sfx_events": [
+        {
+          "start_s": 0.025,
+          "duration_s": 0.34,
+          "identity": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+          "rms_dbfs": -35.20174331899439,
+          "sample_peak_dbfs": -20.43819311020163,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 4.79,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -36.87585901102926,
+          "sample_peak_dbfs": -23.35579803924281,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 7.86,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -38.54982279945307,
+          "sample_peak_dbfs": -25.463975761623225,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 10.96,
+          "duration_s": 0.32,
+          "identity": "cdf817df3efeac07185df5703fe304dbeb2045e79931595c4ddb04e7fbf55a08",
+          "rms_dbfs": -38.48437711917735,
+          "sample_peak_dbfs": -19.053312137234773,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 16.21,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -37.81516637001725,
+          "sample_peak_dbfs": -23.72286887545503,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 19.01,
+          "duration_s": 0.55,
+          "identity": "d408aa51bf045ceb4ceb8559f73f9fb55509436f6de3c6b148001b56ed506370",
+          "rms_dbfs": -36.666670109988814,
+          "sample_peak_dbfs": -24.328578994375665,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 24.88,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -38.42628131694575,
+          "sample_peak_dbfs": -26.72797687930711,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 33.04,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -35.81045358403388,
+          "sample_peak_dbfs": -24.119356349258304,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 34.93,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -35.27739807553802,
+          "sample_peak_dbfs": -22.22656227313938,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 38.94,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -39.22058994159927,
+          "sample_peak_dbfs": -25.700718843233886,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 43.17,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -39.93022244060838,
+          "sample_peak_dbfs": -26.404696192250423,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 47.56,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -41.27037183422044,
+          "sample_peak_dbfs": -27.178891157743735,
+          "bind_presence_pcm": "PASS"
+        }
+      ],
+      "cue_edges": [
+        {
+          "time_s": 0,
+          "inter_sample_jump_mix": 1.1920928955078125e-07,
+          "inter_sample_jump_accompaniment": 1.1920928955078125e-07
+        },
+        {
+          "time_s": 0.025,
+          "inter_sample_jump_mix": 0.00012767314910888672,
+          "inter_sample_jump_accompaniment": 0.00014519691467285156
+        },
+        {
+          "time_s": 4.79,
+          "inter_sample_jump_mix": 0.0007517337799072266,
+          "inter_sample_jump_accompaniment": 0.0007517337799072266
+        },
+        {
+          "time_s": 7.86,
+          "inter_sample_jump_mix": 0.0004659891128540039,
+          "inter_sample_jump_accompaniment": 0.0004659891128540039
+        },
+        {
+          "time_s": 10.96,
+          "inter_sample_jump_mix": 0.0003647804260253906,
+          "inter_sample_jump_accompaniment": 0.0003647804260253906
+        },
+        {
+          "time_s": 16.21,
+          "inter_sample_jump_mix": 1.1920928955078125e-06,
+          "inter_sample_jump_accompaniment": 1.1920928955078125e-06
+        },
+        {
+          "time_s": 16.24,
+          "inter_sample_jump_mix": 0.0012716054916381836,
+          "inter_sample_jump_accompaniment": 0.0012716054916381836
+        },
+        {
+          "time_s": 19.0,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 19.01,
+          "inter_sample_jump_mix": 1.049041748046875e-05,
+          "inter_sample_jump_accompaniment": 1.049041748046875e-05
+        },
+        {
+          "time_s": 24.88,
+          "inter_sample_jump_mix": 4.6133995056152344e-05,
+          "inter_sample_jump_accompaniment": 4.6133995056152344e-05
+        },
+        {
+          "time_s": 32.77,
+          "inter_sample_jump_mix": 0.002999424934387207,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 33.04,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 34.93,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 35.06,
+          "inter_sample_jump_mix": 0.00034606456756591797,
+          "inter_sample_jump_accompaniment": 0.00034606456756591797
+        },
+        {
+          "time_s": 38.94,
+          "inter_sample_jump_mix": 3.743171691894531e-05,
+          "inter_sample_jump_accompaniment": 3.743171691894531e-05
+        },
+        {
+          "time_s": 43.17,
+          "inter_sample_jump_mix": 0.12747526168823242,
+          "inter_sample_jump_accompaniment": 0.0001989603042602539
+        },
+        {
+          "time_s": 47.56,
+          "inter_sample_jump_mix": 0.00016450881958007812,
+          "inter_sample_jump_accompaniment": 0.00016450881958007812
+        },
+        {
+          "time_s": 52.93,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        }
+      ],
+      "dynamic_clock_finite": true,
+      "status": "PASS",
+      "human_listening": "por confirmar"
+    },
+    {
+      "id": "largo-53",
+      "variant": "B",
+      "files": [
+        {
+          "file": "variantes-largas/largo-53/B/musica.m4a",
+          "sha256": "714c17e5d5edc94eebb7e6717cb03729e93858b078673009928309cddc11619c",
+          "duration_s": 52.93,
+          "rms_dbfs": -47.84838994394234,
+          "sample_peak_dbfs": -27.00805128702043,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/B/mezcla.m4a",
+          "sha256": "53a0b690214552bbc3672ba3093cb6c7ff0db8eeaf1e0bebf583f64b510cf8b4",
+          "duration_s": 52.93,
+          "rms_dbfs": -21.035311884498075,
+          "sample_peak_dbfs": -5.927483701035323,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/B/mezcla.wav",
+          "sha256": "8fe0c41d7fbaee79ceffe6365d2e65a516b77b73271bdf2909ebbf6db00fad4d",
+          "duration_s": 52.93,
+          "rms_dbfs": -21.029768870182316,
+          "sample_peak_dbfs": -5.91334725426421,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/B/musica.wav",
+          "sha256": "0d1299bb8ca7540f000317b1db65433c33273e60561ee3854d217071a968672b",
+          "duration_s": 52.93,
+          "rms_dbfs": -47.833265757392375,
+          "sample_peak_dbfs": -27.0125115823038,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/B/mezcla-v1.wav",
+          "sha256": "3263a2ff6f7a9da0a9c0b3a595fc51c52e4ce69abeb56239e985f2ab56e90bf9",
+          "duration_s": 52.93,
+          "rms_dbfs": -21.022247607832018,
+          "sample_peak_dbfs": -5.731307435872512,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/B/efectos.wav",
+          "sha256": "3074c023b631b8bb2d51c685120bcd84e62fb7e7ac01c1a7755cfe40200b0ac7",
+          "duration_s": 52.93,
+          "rms_dbfs": -50.58501868086631,
+          "sample_peak_dbfs": -19.053312137234773,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/B/efectos.m4a",
+          "sha256": "4bc4088552c7cf630cf6bf8a68f31512e1cb269f09b9839314962304f843d372",
+          "duration_s": 52.93,
+          "rms_dbfs": -50.602954500973894,
+          "sample_peak_dbfs": -19.056545720335127,
+          "finite_decode_nonzero": "PASS"
+        }
+      ],
+      "file_count": 7,
+      "voice_recovered_max_abs_error": 2.384185791015625e-07,
+      "aac_pcm_correlation": 0.9999887021971217,
+      "mono_mix_rms_change_db": -0.002604509800551486,
+      "bandlimited_mono_stress": {
+        "file": "variantes-largas/largo-53/B/qa-mono-banda-limitada.m4a",
+        "sha256": "36c2bcf8d2641b05ed4ea14a6417389f5dc1cd31dc97dac18ce513f05bafc1c4",
+        "rms_dbfs": -22.038589646476048,
+        "sample_peak_dbfs": -3.973497688800614,
+        "not_physical_phone": true
+      },
+      "sfx_events": [
+        {
+          "start_s": 0.025,
+          "duration_s": 0.34,
+          "identity": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+          "rms_dbfs": -35.20174331899439,
+          "sample_peak_dbfs": -20.43819311020163,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 4.79,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -36.87585901102926,
+          "sample_peak_dbfs": -23.35579803924281,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 10.96,
+          "duration_s": 0.32,
+          "identity": "cdf817df3efeac07185df5703fe304dbeb2045e79931595c4ddb04e7fbf55a08",
+          "rms_dbfs": -38.48437711917735,
+          "sample_peak_dbfs": -19.053312137234773,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 16.21,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -37.81516637001725,
+          "sample_peak_dbfs": -23.72286887545503,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 19.01,
+          "duration_s": 0.55,
+          "identity": "d408aa51bf045ceb4ceb8559f73f9fb55509436f6de3c6b148001b56ed506370",
+          "rms_dbfs": -36.666670109988814,
+          "sample_peak_dbfs": -24.328578994375665,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 33.04,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -35.81045358403388,
+          "sample_peak_dbfs": -24.119356349258304,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 34.93,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -35.27739807553802,
+          "sample_peak_dbfs": -22.22656227313938,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 38.94,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -39.22058994159927,
+          "sample_peak_dbfs": -25.700718843233886,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 47.56,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -41.27037183422044,
+          "sample_peak_dbfs": -27.178891157743735,
+          "bind_presence_pcm": "PASS"
+        }
+      ],
+      "cue_edges": [
+        {
+          "time_s": 0,
+          "inter_sample_jump_mix": 1.1920928955078125e-07,
+          "inter_sample_jump_accompaniment": 1.1920928955078125e-07
+        },
+        {
+          "time_s": 0.025,
+          "inter_sample_jump_mix": 0.00023984909057617188,
+          "inter_sample_jump_accompaniment": 0.0002573728561401367
+        },
+        {
+          "time_s": 4.79,
+          "inter_sample_jump_mix": 0.0004405975341796875,
+          "inter_sample_jump_accompaniment": 0.0004405975341796875
+        },
+        {
+          "time_s": 10.96,
+          "inter_sample_jump_mix": 4.4465065002441406e-05,
+          "inter_sample_jump_accompaniment": 4.4465065002441406e-05
+        },
+        {
+          "time_s": 16.18,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 16.21,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 16.26,
+          "inter_sample_jump_mix": 0.003112316131591797,
+          "inter_sample_jump_accompaniment": 0.003112316131591797
+        },
+        {
+          "time_s": 19.01,
+          "inter_sample_jump_mix": 0.00023293495178222656,
+          "inter_sample_jump_accompaniment": 0.00023293495178222656
+        },
+        {
+          "time_s": 32.72,
+          "inter_sample_jump_mix": 0.0057533979415893555,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 33.04,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 34.93,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 35.08,
+          "inter_sample_jump_mix": 0.00026607513427734375,
+          "inter_sample_jump_accompaniment": 0.00026607513427734375
+        },
+        {
+          "time_s": 38.94,
+          "inter_sample_jump_mix": 2.2649765014648438e-05,
+          "inter_sample_jump_accompaniment": 2.2649765014648438e-05
+        },
+        {
+          "time_s": 47.45,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 47.56,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 47.7,
+          "inter_sample_jump_mix": 0.00020492076873779297,
+          "inter_sample_jump_accompaniment": 0.00020492076873779297
+        },
+        {
+          "time_s": 52.93,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        }
+      ],
+      "dynamic_clock_finite": true,
+      "status": "PASS",
+      "human_listening": "por confirmar"
+    },
+    {
+      "id": "largo-53",
+      "variant": "C",
+      "files": [
+        {
+          "file": "variantes-largas/largo-53/C/musica.m4a",
+          "sha256": "997fa13f627bdc42ee2aed645c05a63f3565edc08cc8a11a2ae2cac1487fed68",
+          "duration_s": 52.93,
+          "rms_dbfs": -46.75732406205471,
+          "sample_peak_dbfs": -21.143463538209126,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/C/mezcla.m4a",
+          "sha256": "a082c0fed9f913e194c6f58ada64d11743c9e3b5eb7f54789f7e8146a5cb799b",
+          "duration_s": 52.93,
+          "rms_dbfs": -21.03153852516094,
+          "sample_peak_dbfs": -5.851992934399387,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/C/mezcla.wav",
+          "sha256": "4e8ba57cfd359b35d924e208530d3368bf8256dc9eb6b0e97f36c3d59aa80952",
+          "duration_s": 52.93,
+          "rms_dbfs": -21.025778981292614,
+          "sample_peak_dbfs": -5.8412805916623745,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/C/musica.wav",
+          "sha256": "b54b40b032abcbe56b18d3d6af3edfb8632993bd619291e80be4dd2f20990b51",
+          "duration_s": 52.93,
+          "rms_dbfs": -46.731213706193714,
+          "sample_peak_dbfs": -21.209411385138427,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/C/mezcla-v1.wav",
+          "sha256": "7e491c368efd83b1636bd7ab106e1f868448c82b68d5056a1b1ae34428b34a70",
+          "duration_s": 52.93,
+          "rms_dbfs": -21.016963787999003,
+          "sample_peak_dbfs": -5.73411815672479,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/C/efectos.wav",
+          "sha256": "f19071fbb390dec523535d3fd0bf26bdbccaf0c93c50e83861d4b52b73d7c17c",
+          "duration_s": 52.93,
+          "rms_dbfs": -49.45691562309762,
+          "sample_peak_dbfs": -19.053312137234773,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-53/C/efectos.m4a",
+          "sha256": "2f1f53dcf4650884d4024f0187f0f5f3a83a170a5e693ce03c9945bae4f577bc",
+          "duration_s": 52.93,
+          "rms_dbfs": -49.481872308368594,
+          "sample_peak_dbfs": -19.18113754519653,
+          "finite_decode_nonzero": "PASS"
+        }
+      ],
+      "file_count": 7,
+      "voice_recovered_max_abs_error": 2.384185791015625e-07,
+      "aac_pcm_correlation": 0.9999865253331447,
+      "mono_mix_rms_change_db": -0.0013054501923837677,
+      "bandlimited_mono_stress": {
+        "file": "variantes-largas/largo-53/C/qa-mono-banda-limitada.m4a",
+        "sha256": "2e06791a9ea51f780aec860d1bc6c951879a26dd13d2473ddbe10c4d4afe2879",
+        "rms_dbfs": -22.035069137473158,
+        "sample_peak_dbfs": -3.965303257530513,
+        "not_physical_phone": true
+      },
+      "sfx_events": [
+        {
+          "start_s": 0.025,
+          "duration_s": 0.34,
+          "identity": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+          "rms_dbfs": -35.63525758053482,
+          "sample_peak_dbfs": -20.43819311020163,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 4.43,
+          "duration_s": 0.44,
+          "identity": "657b99f58c93a8b69f8fea8f428e278a93025e5eac0d9fe9a677cef71fe43edd",
+          "rms_dbfs": -40.75429071816839,
+          "sample_peak_dbfs": -21.225934215434524,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 4.79,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -35.80245981846198,
+          "sample_peak_dbfs": -21.225934215434524,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 7.86,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -38.98333729095996,
+          "sample_peak_dbfs": -25.463975761623225,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 10.96,
+          "duration_s": 0.32,
+          "identity": "cdf817df3efeac07185df5703fe304dbeb2045e79931595c4ddb04e7fbf55a08",
+          "rms_dbfs": -38.9178914582576,
+          "sample_peak_dbfs": -19.053312137234773,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 16.21,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -38.24868068399189,
+          "sample_peak_dbfs": -23.72286887545503,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 18.6,
+          "duration_s": 0.44,
+          "identity": "657b99f58c93a8b69f8fea8f428e278a93025e5eac0d9fe9a677cef71fe43edd",
+          "rms_dbfs": -38.8383281107685,
+          "sample_peak_dbfs": -21.8234792454048,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 19.01,
+          "duration_s": 0.55,
+          "identity": "d408aa51bf045ceb4ceb8559f73f9fb55509436f6de3c6b148001b56ed506370",
+          "rms_dbfs": -37.03429973156294,
+          "sample_peak_dbfs": -21.8234792454048,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 24.88,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -38.859795580346535,
+          "sample_peak_dbfs": -26.72797687930711,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 33.04,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -36.24396787421033,
+          "sample_peak_dbfs": -24.119356349258304,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 34.57,
+          "duration_s": 0.44,
+          "identity": "657b99f58c93a8b69f8fea8f428e278a93025e5eac0d9fe9a677cef71fe43edd",
+          "rms_dbfs": -37.66183519592645,
+          "sample_peak_dbfs": -20.454652829991346,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 34.93,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -34.71658453335336,
+          "sample_peak_dbfs": -20.454652829991346,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 38.94,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -39.65410389371235,
+          "sample_peak_dbfs": -25.700718843233886,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 43.17,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -40.36373709673772,
+          "sample_peak_dbfs": -26.404696192250423,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 46.78,
+          "duration_s": 0.55,
+          "identity": "d408aa51bf045ceb4ceb8559f73f9fb55509436f6de3c6b148001b56ed506370",
+          "rms_dbfs": -40.391801468047284,
+          "sample_peak_dbfs": -27.257737965552074,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 47.56,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -41.70388598993949,
+          "sample_peak_dbfs": -27.178891157743735,
+          "bind_presence_pcm": "PASS"
+        }
+      ],
+      "cue_edges": [
+        {
+          "time_s": 0,
+          "inter_sample_jump_mix": 1.1920928955078125e-07,
+          "inter_sample_jump_accompaniment": 1.1920928955078125e-07
+        },
+        {
+          "time_s": 0.025,
+          "inter_sample_jump_mix": 0.00021910667419433594,
+          "inter_sample_jump_accompaniment": 0.0002015829086303711
+        },
+        {
+          "time_s": 4.43,
+          "inter_sample_jump_mix": 0.01286935806274414,
+          "inter_sample_jump_accompaniment": 0.001239776611328125
+        },
+        {
+          "time_s": 4.79,
+          "inter_sample_jump_mix": 0.007342815399169922,
+          "inter_sample_jump_accompaniment": 0.007342815399169922
+        },
+        {
+          "time_s": 7.86,
+          "inter_sample_jump_mix": 0.0002275705337524414,
+          "inter_sample_jump_accompaniment": 0.0002275705337524414
+        },
+        {
+          "time_s": 10.78,
+          "inter_sample_jump_mix": 0.001596212387084961,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 10.96,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 11.16,
+          "inter_sample_jump_mix": 8.606910705566406e-05,
+          "inter_sample_jump_accompaniment": 6.842613220214844e-05
+        },
+        {
+          "time_s": 16.14,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 16.21,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 18.6,
+          "inter_sample_jump_mix": 0.00045609474182128906,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 18.99,
+          "inter_sample_jump_mix": 0.0070084333419799805,
+          "inter_sample_jump_accompaniment": 0.0070084333419799805
+        },
+        {
+          "time_s": 19.01,
+          "inter_sample_jump_mix": 0.010465741157531738,
+          "inter_sample_jump_accompaniment": 0.010465741157531738
+        },
+        {
+          "time_s": 24.88,
+          "inter_sample_jump_mix": 3.600120544433594e-05,
+          "inter_sample_jump_accompaniment": 3.600120544433594e-05
+        },
+        {
+          "time_s": 32.8,
+          "inter_sample_jump_mix": 0.004788637161254883,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 33.04,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 34.57,
+          "inter_sample_jump_mix": 0.0005261898040771484,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 34.93,
+          "inter_sample_jump_mix": 0.010682344436645508,
+          "inter_sample_jump_accompaniment": 0.010682344436645508
+        },
+        {
+          "time_s": 35.04,
+          "inter_sample_jump_mix": 0.00020062923431396484,
+          "inter_sample_jump_accompaniment": 0.00020062923431396484
+        },
+        {
+          "time_s": 38.94,
+          "inter_sample_jump_mix": 0.0004717111587524414,
+          "inter_sample_jump_accompaniment": 0.0004717111587524414
+        },
+        {
+          "time_s": 43.17,
+          "inter_sample_jump_mix": 0.12753939628601074,
+          "inter_sample_jump_accompaniment": 0.0002847909927368164
+        },
+        {
+          "time_s": 46.78,
+          "inter_sample_jump_mix": 0.003058910369873047,
+          "inter_sample_jump_accompaniment": 7.68899917602539e-05
+        },
+        {
+          "time_s": 47.55,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 47.56,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 48,
+          "inter_sample_jump_mix": 0.024416804313659668,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 52.93,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        }
+      ],
+      "dynamic_clock_finite": true,
+      "status": "PASS",
+      "human_listening": "por confirmar"
+    },
+    {
+      "id": "largo-159",
+      "variant": "A",
+      "files": [
+        {
+          "file": "variantes-largas/largo-159/A/musica.m4a",
+          "sha256": "e4df28b5dd0b2332abe62f5da57c20fae5bc4b85c40f0350dd98cbe4d07d36b1",
+          "duration_s": 158.798,
+          "rms_dbfs": -47.73014464039561,
+          "sample_peak_dbfs": -24.495068386693617,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/A/mezcla.m4a",
+          "sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+          "duration_s": 158.798,
+          "rms_dbfs": -21.17829604571277,
+          "sample_peak_dbfs": -5.901897139874683,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/A/mezcla.wav",
+          "sha256": "a6b68f145362af5613d6484873945874be6081dab1ca5513d46bcb9571c082cc",
+          "duration_s": 158.798,
+          "rms_dbfs": -21.174227072665364,
+          "sample_peak_dbfs": -5.889605307691392,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/A/musica.wav",
+          "sha256": "bbde60f86b7be41d9ee2733f33d7e6ae47fe910b0e84851007161873dfb5e1b7",
+          "duration_s": 158.798,
+          "rms_dbfs": -47.71039447237208,
+          "sample_peak_dbfs": -24.39964973554308,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/A/mezcla-v1.wav",
+          "sha256": "a87fa40bd7a6d6fa46240ca5f11a754e29fc733e4af7049ce56bfe448fa677c2",
+          "duration_s": 158.798,
+          "rms_dbfs": -21.167520449063055,
+          "sample_peak_dbfs": -5.806988578446893,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/A/efectos.wav",
+          "sha256": "260e0acdf165682d1216a550d8f503cbcb2f95ea1bd3af8adfe7dcd20ebfe2e6",
+          "duration_s": 158.798,
+          "rms_dbfs": -56.44635201532472,
+          "sample_peak_dbfs": -20.53219188910141,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/A/efectos.m4a",
+          "sha256": "4cb42babe7aac78be83cd599a0876e6b94df8fcd2b6486e667593a6efe6d5b75",
+          "duration_s": 158.798,
+          "rms_dbfs": -56.460170785490774,
+          "sample_peak_dbfs": -20.52387608508859,
+          "finite_decode_nonzero": "PASS"
+        }
+      ],
+      "file_count": 7,
+      "voice_recovered_max_abs_error": 2.384185791015625e-07,
+      "aac_pcm_correlation": 0.9999910987085071,
+      "mono_mix_rms_change_db": -0.0026847960309703527,
+      "bandlimited_mono_stress": {
+        "file": "variantes-largas/largo-159/A/qa-mono-banda-limitada.m4a",
+        "sha256": "acf8179d87ca5d81015842aec24eac411e88fba648a10e3c117ebe9bc0bc2b0b",
+        "rms_dbfs": -21.977681046530428,
+        "sample_peak_dbfs": -4.438715221434639,
+        "not_physical_phone": true
+      },
+      "sfx_events": [
+        {
+          "start_s": 0.025,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -36.52278491948196,
+          "sample_peak_dbfs": -23.485178691702103,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 5.48,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -41.97946194402591,
+          "sample_peak_dbfs": -30.301503568267965,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 13.1,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -41.98030800777845,
+          "sample_peak_dbfs": -28.459575222649885,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 24.2,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -38.97928471567137,
+          "sample_peak_dbfs": -24.86493013276684,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 33.35,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -41.980090234622836,
+          "sample_peak_dbfs": -28.942526961454462,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 37.02,
+          "duration_s": 0.34,
+          "identity": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+          "rms_dbfs": -41.97927727160525,
+          "sample_peak_dbfs": -27.17555532184024,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 48.46,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -40.97927802271215,
+          "sample_peak_dbfs": -27.45957173569029,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 58.93,
+          "duration_s": 0.55,
+          "identity": "d408aa51bf045ceb4ceb8559f73f9fb55509436f6de3c6b148001b56ed506370",
+          "rms_dbfs": -38.03833721699243,
+          "sample_peak_dbfs": -26.15206334524156,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 69.55,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -41.9792779943561,
+          "sample_peak_dbfs": -30.301503568267965,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 83.32,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -40.97927982375714,
+          "sample_peak_dbfs": -29.301494213591464,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 93.27,
+          "duration_s": 0.32,
+          "identity": "cdf817df3efeac07185df5703fe304dbeb2045e79931595c4ddb04e7fbf55a08",
+          "rms_dbfs": -39.9796963592677,
+          "sample_peak_dbfs": -20.53219188910141,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 107.46,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -42.97927901753223,
+          "sample_peak_dbfs": -29.459580442492964,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 120.81,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -38.98450995949137,
+          "sample_peak_dbfs": -24.869808170310957,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 126.4,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -41.9917181259617,
+          "sample_peak_dbfs": -28.942526961454462,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 135.96,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -41.979277761826175,
+          "sample_peak_dbfs": -28.459575222649885,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 142.19,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -38.97927858645257,
+          "sample_peak_dbfs": -25.9425359185604,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 146.01,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -42.979556872060485,
+          "sample_peak_dbfs": -28.8650637946041,
+          "bind_presence_pcm": "PASS"
+        }
+      ],
+      "cue_edges": [
+        {
+          "time_s": 0,
+          "inter_sample_jump_mix": 1.1920928955078125e-07,
+          "inter_sample_jump_accompaniment": 1.1920928955078125e-07
+        },
+        {
+          "time_s": 0.025,
+          "inter_sample_jump_mix": 3.528594970703125e-05,
+          "inter_sample_jump_accompaniment": 3.528594970703125e-05
+        },
+        {
+          "time_s": 5.48,
+          "inter_sample_jump_mix": 8.809566497802734e-05,
+          "inter_sample_jump_accompaniment": 7.343292236328125e-05
+        },
+        {
+          "time_s": 13.1,
+          "inter_sample_jump_mix": 0.0008935928344726562,
+          "inter_sample_jump_accompaniment": 0.00027060508728027344
+        },
+        {
+          "time_s": 24.17,
+          "inter_sample_jump_mix": 7.748603820800781e-06,
+          "inter_sample_jump_accompaniment": 1.0013580322265625e-05
+        },
+        {
+          "time_s": 24.2,
+          "inter_sample_jump_mix": 0.00023806095123291016,
+          "inter_sample_jump_accompaniment": 0.00023806095123291016
+        },
+        {
+          "time_s": 24.4,
+          "inter_sample_jump_mix": 0.00016605854034423828,
+          "inter_sample_jump_accompaniment": 0.00011813640594482422
+        },
+        {
+          "time_s": 33.35,
+          "inter_sample_jump_mix": 0.00010216236114501953,
+          "inter_sample_jump_accompaniment": 0.0001195669174194336
+        },
+        {
+          "time_s": 37.02,
+          "inter_sample_jump_mix": 1.430511474609375e-06,
+          "inter_sample_jump_accompaniment": 1.1920928955078125e-06
+        },
+        {
+          "time_s": 37.1,
+          "inter_sample_jump_mix": 0.0026410818099975586,
+          "inter_sample_jump_accompaniment": 0.0026262998580932617
+        },
+        {
+          "time_s": 37.19,
+          "inter_sample_jump_mix": 0.00478518009185791,
+          "inter_sample_jump_accompaniment": 0.004802346229553223
+        },
+        {
+          "time_s": 48.46,
+          "inter_sample_jump_mix": 0.00015151500701904297,
+          "inter_sample_jump_accompaniment": 0.00015246868133544922
+        },
+        {
+          "time_s": 58.93,
+          "inter_sample_jump_mix": 0.0014325380325317383,
+          "inter_sample_jump_accompaniment": 3.5762786865234375e-07
+        },
+        {
+          "time_s": 58.96,
+          "inter_sample_jump_mix": 0.0007483959197998047,
+          "inter_sample_jump_accompaniment": 0.0008897781372070312
+        },
+        {
+          "time_s": 58.99,
+          "inter_sample_jump_mix": 0.002133607864379883,
+          "inter_sample_jump_accompaniment": 0.001993894577026367
+        },
+        {
+          "time_s": 69.55,
+          "inter_sample_jump_mix": 0.0006412267684936523,
+          "inter_sample_jump_accompaniment": 0.0006072521209716797
+        },
+        {
+          "time_s": 83.32,
+          "inter_sample_jump_mix": 1.5497207641601562e-06,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 93.27,
+          "inter_sample_jump_mix": 3.504753112792969e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 93.32,
+          "inter_sample_jump_mix": 0.00034499168395996094,
+          "inter_sample_jump_accompaniment": 0.0003790855407714844
+        },
+        {
+          "time_s": 107.46,
+          "inter_sample_jump_mix": 0.0006192922592163086,
+          "inter_sample_jump_accompaniment": 0.000603795051574707
+        },
+        {
+          "time_s": 120.77,
+          "inter_sample_jump_mix": 0.0009528398513793945,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 120.8,
+          "inter_sample_jump_mix": 0.00013494491577148438,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 120.81,
+          "inter_sample_jump_mix": 8.571147918701172e-05,
+          "inter_sample_jump_accompaniment": 2.1457672119140625e-06
+        },
+        {
+          "time_s": 126.4,
+          "inter_sample_jump_mix": 0.00698244571685791,
+          "inter_sample_jump_accompaniment": 0.00030422210693359375
+        },
+        {
+          "time_s": 135.96,
+          "inter_sample_jump_mix": 0.0003190040588378906,
+          "inter_sample_jump_accompaniment": 0.00030517578125
+        },
+        {
+          "time_s": 142.19,
+          "inter_sample_jump_mix": 1.1324882507324219e-05,
+          "inter_sample_jump_accompaniment": 1.3470649719238281e-05
+        },
+        {
+          "time_s": 146.01,
+          "inter_sample_jump_mix": 5.352497100830078e-05,
+          "inter_sample_jump_accompaniment": 1.1920928955078125e-06
+        },
+        {
+          "time_s": 146.05,
+          "inter_sample_jump_mix": 0.000446319580078125,
+          "inter_sample_jump_accompaniment": 0.0004627704620361328
+        },
+        {
+          "time_s": 146.1,
+          "inter_sample_jump_mix": 0.0031543970108032227,
+          "inter_sample_jump_accompaniment": 0.0031687021255493164
+        },
+        {
+          "time_s": 158.798,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        }
+      ],
+      "dynamic_clock_finite": true,
+      "status": "PASS",
+      "human_listening": "por confirmar"
+    },
+    {
+      "id": "largo-159",
+      "variant": "B",
+      "files": [
+        {
+          "file": "variantes-largas/largo-159/B/musica.m4a",
+          "sha256": "9fae4324ec2ed8e2adf96dab2f7af03b5e1b4e125a47f1aaf023ef22b07fb5c7",
+          "duration_s": 158.798,
+          "rms_dbfs": -49.469502704070756,
+          "sample_peak_dbfs": -28.35159282635456,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/B/mezcla.m4a",
+          "sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+          "duration_s": 158.798,
+          "rms_dbfs": -21.180461468027598,
+          "sample_peak_dbfs": -5.936183143794809,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/B/mezcla.wav",
+          "sha256": "9456b94d9cd7d18c9efa7c3290dfbef81fdba963b3c0b99f030c069b4da7b6ce",
+          "duration_s": 158.798,
+          "rms_dbfs": -21.17653790151313,
+          "sample_peak_dbfs": -5.93452109017294,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/B/musica.wav",
+          "sha256": "7e1c837cb0b033be0fc2a2dbca6d9e03f123f54cd0c95c394ebdbc62ad58db24",
+          "duration_s": 158.798,
+          "rms_dbfs": -49.45658718064404,
+          "sample_peak_dbfs": -28.279293137471342,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/B/mezcla-v1.wav",
+          "sha256": "d4113efc6c581eb82f3dc18110d457efa152b729a5f02e94fc8ad0f2f5c73158",
+          "duration_s": 158.798,
+          "rms_dbfs": -21.17180377538397,
+          "sample_peak_dbfs": -5.772571791742752,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/B/efectos.wav",
+          "sha256": "eaaa1a3d064574290a490fb2be8915872bd641d92841af239cefde58f42f6989",
+          "duration_s": 158.798,
+          "rms_dbfs": -57.31373673757065,
+          "sample_peak_dbfs": -20.53219188910141,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/B/efectos.m4a",
+          "sha256": "dd5200fd4d73fc5d558058013352b6c546b24f3d82ee301bda7e246b0dcfb2f6",
+          "duration_s": 158.798,
+          "rms_dbfs": -57.32844039779706,
+          "sample_peak_dbfs": -20.52387608508859,
+          "finite_decode_nonzero": "PASS"
+        }
+      ],
+      "file_count": 7,
+      "voice_recovered_max_abs_error": 2.384185791015625e-07,
+      "aac_pcm_correlation": 0.9999935922918203,
+      "mono_mix_rms_change_db": -0.0014128013068481675,
+      "bandlimited_mono_stress": {
+        "file": "variantes-largas/largo-159/B/qa-mono-banda-limitada.m4a",
+        "sha256": "3c0c8786fb222d272b95f2e05c02deba97156b4543a693f707881755372f022c",
+        "rms_dbfs": -21.97931602887948,
+        "sample_peak_dbfs": -4.465496852609072,
+        "not_physical_phone": true
+      },
+      "sfx_events": [
+        {
+          "start_s": 0.025,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -36.52278491948196,
+          "sample_peak_dbfs": -23.485178691702103,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 24.2,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -38.97928471567137,
+          "sample_peak_dbfs": -24.86493013276684,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 37.02,
+          "duration_s": 0.34,
+          "identity": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+          "rms_dbfs": -41.97927727160525,
+          "sample_peak_dbfs": -27.17555532184024,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 48.46,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -40.97927802271215,
+          "sample_peak_dbfs": -27.45957173569029,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 58.93,
+          "duration_s": 0.55,
+          "identity": "d408aa51bf045ceb4ceb8559f73f9fb55509436f6de3c6b148001b56ed506370",
+          "rms_dbfs": -38.03833721699243,
+          "sample_peak_dbfs": -26.15206334524156,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 83.32,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -40.97927982375714,
+          "sample_peak_dbfs": -29.301494213591464,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 93.27,
+          "duration_s": 0.32,
+          "identity": "cdf817df3efeac07185df5703fe304dbeb2045e79931595c4ddb04e7fbf55a08",
+          "rms_dbfs": -39.9796963592677,
+          "sample_peak_dbfs": -20.53219188910141,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 120.81,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -38.98450995949137,
+          "sample_peak_dbfs": -24.869808170310957,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 135.96,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -41.979277761826175,
+          "sample_peak_dbfs": -28.459575222649885,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 142.19,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -38.97927858645257,
+          "sample_peak_dbfs": -25.9425359185604,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 146.01,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -42.979556872060485,
+          "sample_peak_dbfs": -28.8650637946041,
+          "bind_presence_pcm": "PASS"
+        }
+      ],
+      "cue_edges": [
+        {
+          "time_s": 0,
+          "inter_sample_jump_mix": 1.1920928955078125e-07,
+          "inter_sample_jump_accompaniment": 1.1920928955078125e-07
+        },
+        {
+          "time_s": 0.025,
+          "inter_sample_jump_mix": 0.00016415119171142578,
+          "inter_sample_jump_accompaniment": 0.00016415119171142578
+        },
+        {
+          "time_s": 24.15,
+          "inter_sample_jump_mix": 1.4066696166992188e-05,
+          "inter_sample_jump_accompaniment": 2.1457672119140625e-06
+        },
+        {
+          "time_s": 24.2,
+          "inter_sample_jump_mix": 4.7326087951660156e-05,
+          "inter_sample_jump_accompaniment": 4.7326087951660156e-05
+        },
+        {
+          "time_s": 24.39,
+          "inter_sample_jump_mix": 3.886222839355469e-05,
+          "inter_sample_jump_accompaniment": 2.0265579223632812e-05
+        },
+        {
+          "time_s": 37.02,
+          "inter_sample_jump_mix": 0.0001392364501953125,
+          "inter_sample_jump_accompaniment": 0.00013899803161621094
+        },
+        {
+          "time_s": 48.46,
+          "inter_sample_jump_mix": 0.00016188621520996094,
+          "inter_sample_jump_accompaniment": 0.0001609325408935547
+        },
+        {
+          "time_s": 58.93,
+          "inter_sample_jump_mix": 0.001432657241821289,
+          "inter_sample_jump_accompaniment": 1.1920928955078125e-07
+        },
+        {
+          "time_s": 58.94,
+          "inter_sample_jump_mix": 0.0036603212356567383,
+          "inter_sample_jump_accompaniment": 0.003384113311767578
+        },
+        {
+          "time_s": 59,
+          "inter_sample_jump_mix": 0.000670313835144043,
+          "inter_sample_jump_accompaniment": 0.0007413625717163086
+        },
+        {
+          "time_s": 83.32,
+          "inter_sample_jump_mix": 1.5497207641601562e-06,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 83.33,
+          "inter_sample_jump_mix": 0.0007796287536621094,
+          "inter_sample_jump_accompaniment": 0.0007805824279785156
+        },
+        {
+          "time_s": 93.27,
+          "inter_sample_jump_mix": 3.504753112792969e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 94.2,
+          "inter_sample_jump_mix": 0.002977609634399414,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 120.71,
+          "inter_sample_jump_mix": 0.0009174346923828125,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 120.81,
+          "inter_sample_jump_mix": 8.356571197509766e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 120.9,
+          "inter_sample_jump_mix": 0.004966616630554199,
+          "inter_sample_jump_accompaniment": 0.0050171613693237305
+        },
+        {
+          "time_s": 135.96,
+          "inter_sample_jump_mix": 0.0002989768981933594,
+          "inter_sample_jump_accompaniment": 0.00031280517578125
+        },
+        {
+          "time_s": 141.98,
+          "inter_sample_jump_mix": 1.704692840576172e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 142.19,
+          "inter_sample_jump_mix": 2.1457672119140625e-06,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 146.01,
+          "inter_sample_jump_mix": 5.233287811279297e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 146.22,
+          "inter_sample_jump_mix": 1.823902130126953e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 158.798,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        }
+      ],
+      "dynamic_clock_finite": true,
+      "status": "PASS",
+      "human_listening": "por confirmar"
+    },
+    {
+      "id": "largo-159",
+      "variant": "C",
+      "files": [
+        {
+          "file": "variantes-largas/largo-159/C/musica.m4a",
+          "sha256": "3bee3284d9550c20b907c695baea34e287245bb579ec0c99510b63dbe91ff77e",
+          "duration_s": 158.798,
+          "rms_dbfs": -49.14462596334652,
+          "sample_peak_dbfs": -25.417648082047748,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/C/mezcla.m4a",
+          "sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+          "duration_s": 158.798,
+          "rms_dbfs": -21.180173621836364,
+          "sample_peak_dbfs": -5.858500876499825,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/C/mezcla.wav",
+          "sha256": "631be91bd0fc0691418aad7004220a38d5637d11469b20f493aa22606cfeb73a",
+          "duration_s": 158.798,
+          "rms_dbfs": -21.17606745098334,
+          "sample_peak_dbfs": -5.860512355648993,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/C/musica.wav",
+          "sha256": "04eb70cc969b7dded21d2bbaf9ec5900d51fdf92ebd426fb6e158c5983489a77",
+          "duration_s": 158.798,
+          "rms_dbfs": -49.12330976795217,
+          "sample_peak_dbfs": -25.43878145932316,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/C/mezcla-v1.wav",
+          "sha256": "6a698ac682709e1e31196a57f4d834839b789d762704b7018a7ec54c996afaed",
+          "duration_s": 158.798,
+          "rms_dbfs": -21.171079203047192,
+          "sample_peak_dbfs": -5.823115563342133,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/C/efectos.wav",
+          "sha256": "a5bafcd8d0e2696de4556414255b90d59fc27561ae7ac0b7064cb42767888055",
+          "duration_s": 158.798,
+          "rms_dbfs": -55.94781640576896,
+          "sample_peak_dbfs": -20.53219188910141,
+          "finite_decode_nonzero": "PASS"
+        },
+        {
+          "file": "variantes-largas/largo-159/C/efectos.m4a",
+          "sha256": "07ce938178728ba509a0cf9a02181575453a443f85b5a30451f5118d17e3ec5c",
+          "duration_s": 158.798,
+          "rms_dbfs": -55.97641965402359,
+          "sample_peak_dbfs": -20.54089445559908,
+          "finite_decode_nonzero": "PASS"
+        }
+      ],
+      "file_count": 7,
+      "voice_recovered_max_abs_error": 2.384185791015625e-07,
+      "aac_pcm_correlation": 0.9999918961875123,
+      "mono_mix_rms_change_db": -0.0012691903882424966,
+      "bandlimited_mono_stress": {
+        "file": "variantes-largas/largo-159/C/qa-mono-banda-limitada.m4a",
+        "sha256": "48ed7d334f9b1507d694763cd39a1730d8f879375544ee25807ab0ce7cc14d71",
+        "rms_dbfs": -21.9798314286461,
+        "sample_peak_dbfs": -4.4703210271333695,
+        "not_physical_phone": true
+      },
+      "sfx_events": [
+        {
+          "start_s": 0.025,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -36.956299231353206,
+          "sample_peak_dbfs": -23.485178691702103,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 5.48,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -42.412976021620736,
+          "sample_peak_dbfs": -30.301503568267965,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 13.1,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -42.41382276784599,
+          "sample_peak_dbfs": -28.459575222649885,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 23.86,
+          "duration_s": 0.44,
+          "identity": "657b99f58c93a8b69f8fea8f428e278a93025e5eac0d9fe9a677cef71fe43edd",
+          "rms_dbfs": -42.59156811794219,
+          "sample_peak_dbfs": -25.335895704931147,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 24.2,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -38.192339477230156,
+          "sample_peak_dbfs": -24.86493013276684,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 33.35,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -42.41360472358383,
+          "sample_peak_dbfs": -28.942526961454462,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 36.7,
+          "duration_s": 0.44,
+          "identity": "657b99f58c93a8b69f8fea8f428e278a93025e5eac0d9fe9a677cef71fe43edd",
+          "rms_dbfs": -45.073973555449385,
+          "sample_peak_dbfs": -28.09688887795388,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 37.02,
+          "duration_s": 0.34,
+          "identity": "a20c8bc63c91b5804225c181c20ee45f6eaa54f388b1274513ebb6083c2d8ae5",
+          "rms_dbfs": -41.14797254856795,
+          "sample_peak_dbfs": -27.17555532184024,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 48.46,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -41.41279205963162,
+          "sample_peak_dbfs": -27.45957173569029,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 54.32,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -44.412841520393954,
+          "sample_peak_dbfs": -30.942550831885068,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 58.52,
+          "duration_s": 0.44,
+          "identity": "657b99f58c93a8b69f8fea8f428e278a93025e5eac0d9fe9a677cef71fe43edd",
+          "rms_dbfs": -41.120578604399974,
+          "sample_peak_dbfs": -24.11920661161617,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 58.93,
+          "duration_s": 0.55,
+          "identity": "d408aa51bf045ceb4ceb8559f73f9fb55509436f6de3c6b148001b56ed506370",
+          "rms_dbfs": -38.42967873669325,
+          "sample_peak_dbfs": -24.11920661161617,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 69.55,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -42.41279233871559,
+          "sample_peak_dbfs": -30.301503568267965,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 73.64,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -43.54157888112124,
+          "sample_peak_dbfs": -29.58709260774849,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 83.32,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -41.412793930336804,
+          "sample_peak_dbfs": -29.301494213591464,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 92.92,
+          "duration_s": 0.44,
+          "identity": "657b99f58c93a8b69f8fea8f428e278a93025e5eac0d9fe9a677cef71fe43edd",
+          "rms_dbfs": -46.05205417048229,
+          "sample_peak_dbfs": -29.663865581169237,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 93.27,
+          "duration_s": 0.32,
+          "identity": "cdf817df3efeac07185df5703fe304dbeb2045e79931595c4ddb04e7fbf55a08",
+          "rms_dbfs": -39.73534077671366,
+          "sample_peak_dbfs": -20.53219188910141,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 107.46,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -43.41279240365264,
+          "sample_peak_dbfs": -29.459580442492964,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 115.49,
+          "duration_s": 0.24,
+          "identity": "190144a0abe62ed193687e051e17daeaaa5dcc4ee07673b22b810bcc41f27631",
+          "rms_dbfs": -44.555205729847785,
+          "sample_peak_dbfs": -32.30148541450279,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 120.36,
+          "duration_s": 0.44,
+          "identity": "657b99f58c93a8b69f8fea8f428e278a93025e5eac0d9fe9a677cef71fe43edd",
+          "rms_dbfs": -46.27216919602975,
+          "sample_peak_dbfs": -30.17740505855199,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 120.81,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -39.418024296275725,
+          "sample_peak_dbfs": -24.869808170310957,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 126.4,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -42.42523230900048,
+          "sample_peak_dbfs": -28.942526961454462,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 135.96,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -42.41279260897059,
+          "sample_peak_dbfs": -28.459575222649885,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 142.19,
+          "duration_s": 0.18,
+          "identity": "a2bae244898171f03a981022563c8ace3be6036d22c040cdb30fd573f70096b5",
+          "rms_dbfs": -39.41279260095214,
+          "sample_peak_dbfs": -25.9425359185604,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 143.29,
+          "duration_s": 0.105,
+          "identity": "aaf05cebe288d71763510fdfa4ad83386eca480ee9b9f920b27dc300d9a2bc88",
+          "rms_dbfs": -43.188364858589736,
+          "sample_peak_dbfs": -29.234708172744806,
+          "bind_presence_pcm": "PASS"
+        },
+        {
+          "start_s": 146.01,
+          "duration_s": 0.19,
+          "identity": "9579acea6592809d60d12e8f5f5c323ac31e3e15f2f46e56b0ad587c0606e20e",
+          "rms_dbfs": -43.41307148046972,
+          "sample_peak_dbfs": -28.8650637946041,
+          "bind_presence_pcm": "PASS"
+        }
+      ],
+      "cue_edges": [
+        {
+          "time_s": 0,
+          "inter_sample_jump_mix": 1.1920928955078125e-07,
+          "inter_sample_jump_accompaniment": 1.1920928955078125e-07
+        },
+        {
+          "time_s": 0.025,
+          "inter_sample_jump_mix": 0.00013506412506103516,
+          "inter_sample_jump_accompaniment": 0.00013506412506103516
+        },
+        {
+          "time_s": 5.48,
+          "inter_sample_jump_mix": 0.0005693435668945312,
+          "inter_sample_jump_accompaniment": 0.0005509853363037109
+        },
+        {
+          "time_s": 13.1,
+          "inter_sample_jump_mix": 0.0008772611618041992,
+          "inter_sample_jump_accompaniment": 0.0002542734146118164
+        },
+        {
+          "time_s": 23.86,
+          "inter_sample_jump_mix": 0.0005986690521240234,
+          "inter_sample_jump_accompaniment": 1.4781951904296875e-05
+        },
+        {
+          "time_s": 24.17,
+          "inter_sample_jump_mix": 0.0013736486434936523,
+          "inter_sample_jump_accompaniment": 0.001386880874633789
+        },
+        {
+          "time_s": 24.2,
+          "inter_sample_jump_mix": 0.016718626022338867,
+          "inter_sample_jump_accompaniment": 0.016718626022338867
+        },
+        {
+          "time_s": 24.37,
+          "inter_sample_jump_mix": 0.00043714046478271484,
+          "inter_sample_jump_accompaniment": 0.0004233121871948242
+        },
+        {
+          "time_s": 33.35,
+          "inter_sample_jump_mix": 1.8715858459472656e-05,
+          "inter_sample_jump_accompaniment": 2.7179718017578125e-05
+        },
+        {
+          "time_s": 36.7,
+          "inter_sample_jump_mix": 0.0013636350631713867,
+          "inter_sample_jump_accompaniment": 5.2928924560546875e-05
+        },
+        {
+          "time_s": 37.02,
+          "inter_sample_jump_mix": 0.0033943653106689453,
+          "inter_sample_jump_accompaniment": 0.003394603729248047
+        },
+        {
+          "time_s": 48.46,
+          "inter_sample_jump_mix": 7.021427154541016e-05,
+          "inter_sample_jump_accompaniment": 6.92605972290039e-05
+        },
+        {
+          "time_s": 54.32,
+          "inter_sample_jump_mix": 5.257129669189453e-05,
+          "inter_sample_jump_accompaniment": 1.9669532775878906e-05
+        },
+        {
+          "time_s": 58.52,
+          "inter_sample_jump_mix": 0.002264738082885742,
+          "inter_sample_jump_accompaniment": 2.7418136596679688e-06
+        },
+        {
+          "time_s": 58.93,
+          "inter_sample_jump_mix": 0.008610248565673828,
+          "inter_sample_jump_accompaniment": 0.007177472114562988
+        },
+        {
+          "time_s": 58.96,
+          "inter_sample_jump_mix": 0.0007483959197998047,
+          "inter_sample_jump_accompaniment": 0.0008897781372070312
+        },
+        {
+          "time_s": 59.02,
+          "inter_sample_jump_mix": 0.001376509666442871,
+          "inter_sample_jump_accompaniment": 0.0013616085052490234
+        },
+        {
+          "time_s": 69.55,
+          "inter_sample_jump_mix": 0.0003458261489868164,
+          "inter_sample_jump_accompaniment": 0.00031185150146484375
+        },
+        {
+          "time_s": 73.64,
+          "inter_sample_jump_mix": 0.00011873245239257812,
+          "inter_sample_jump_accompaniment": 6.771087646484375e-05
+        },
+        {
+          "time_s": 83.31,
+          "inter_sample_jump_mix": 5.269050598144531e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 83.32,
+          "inter_sample_jump_mix": 1.5497207641601562e-06,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 92.92,
+          "inter_sample_jump_mix": 0.003335118293762207,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 93.27,
+          "inter_sample_jump_mix": 0.0022405385971069336,
+          "inter_sample_jump_accompaniment": 0.0022755861282348633
+        },
+        {
+          "time_s": 93.4,
+          "inter_sample_jump_mix": 0.0010967254638671875,
+          "inter_sample_jump_accompaniment": 0.0010982751846313477
+        },
+        {
+          "time_s": 107.46,
+          "inter_sample_jump_mix": 0.00010251998901367188,
+          "inter_sample_jump_accompaniment": 0.00011372566223144531
+        },
+        {
+          "time_s": 115.49,
+          "inter_sample_jump_mix": 0.0022011995315551758,
+          "inter_sample_jump_accompaniment": 1.7881393432617188e-06
+        },
+        {
+          "time_s": 115.52,
+          "inter_sample_jump_mix": 0.0007326602935791016,
+          "inter_sample_jump_accompaniment": 0.0001480579376220703
+        },
+        {
+          "time_s": 120.36,
+          "inter_sample_jump_mix": 0.0014928579330444336,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 120.81,
+          "inter_sample_jump_mix": 8.356571197509766e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 120.85,
+          "inter_sample_jump_mix": 0.0007711648941040039,
+          "inter_sample_jump_accompaniment": 0.0007333755493164062
+        },
+        {
+          "time_s": 126.4,
+          "inter_sample_jump_mix": 0.006785869598388672,
+          "inter_sample_jump_accompaniment": 0.0001302957534790039
+        },
+        {
+          "time_s": 135.96,
+          "inter_sample_jump_mix": 0.00018322467803955078,
+          "inter_sample_jump_accompaniment": 0.00016939640045166016
+        },
+        {
+          "time_s": 142.05,
+          "inter_sample_jump_mix": 1.919269561767578e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 142.19,
+          "inter_sample_jump_mix": 2.1457672119140625e-06,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 143.29,
+          "inter_sample_jump_mix": 0.0037827491760253906,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 146.01,
+          "inter_sample_jump_mix": 5.233287811279297e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 146.22,
+          "inter_sample_jump_mix": 1.823902130126953e-05,
+          "inter_sample_jump_accompaniment": 0.0
+        },
+        {
+          "time_s": 158.798,
+          "inter_sample_jump_mix": 0.0,
+          "inter_sample_jump_accompaniment": 0.0
+        }
+      ],
+      "dynamic_clock_finite": true,
+      "status": "PASS",
+      "human_listening": "por confirmar"
+    }
+  ],
+  "voice_shared_exact_same_gain": true,
+  "native_48k_stereo": true,
+  "source_and_music_and_sfx_hashes": true,
+  "human_listening": "por confirmar"
+}

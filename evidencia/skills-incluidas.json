@@ -1,0 +1,73 @@
+[
+  {
+    "name": "hyperframes",
+    "source": "/Users/iomijhondavid/.agents/skills/hyperframes",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "hyperframes-core",
+    "source": "/Users/iomijhondavid/.agents/skills/hyperframes-core",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "hyperframes-cli",
+    "source": "/Users/iomijhondavid/.agents/skills/hyperframes-cli",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "hyperframes-animation",
+    "source": "/Users/iomijhondavid/.agents/skills/hyperframes-animation",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "hyperframes-audio",
+    "source": "/Users/iomijhondavid/.agents/skills/hyperframes-audio",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "hyperframes-keyframes",
+    "source": "/Users/iomijhondavid/.agents/skills/hyperframes-keyframes",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "hyperframes-creative",
+    "source": "/Users/iomijhondavid/.agents/skills/hyperframes-creative",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "hyperframes-registry",
+    "source": "/Users/iomijhondavid/.agents/skills/hyperframes-registry",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "hyperframes-studio",
+    "source": "/Users/iomijhondavid/.agents/skills/hyperframes-studio",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "media-use",
+    "source": "/Users/iomijhondavid/.agents/skills/media-use",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "general-video",
+    "source": "/Users/iomijhondavid/.agents/skills/general-video",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "faceless-explainer",
+    "source": "/Users/iomijhondavid/.agents/skills/faceless-explainer",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "visual-quality-director",
+    "source": "/Users/iomijhondavid/.codex/skills/visual-quality-director",
+    "snapshot_date": "2026-10-06"
+  },
+  {
+    "name": "revisar-limpiar-voz",
+    "source": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz",
+    "snapshot_date": "2026-10-06",
+    "activation": "explicit request only"
+  }
+]

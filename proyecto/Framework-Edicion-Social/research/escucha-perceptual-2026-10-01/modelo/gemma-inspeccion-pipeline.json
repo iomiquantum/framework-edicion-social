@@ -1,0 +1,53 @@
+[
+  {
+    "condition": "voice_only",
+    "model_kwargs": [
+      "attention_mask",
+      "input_ids",
+      "mm_token_type_ids",
+      "input_features",
+      "input_features_mask"
+    ],
+    "audio_embeddings_shape": [
+      300,
+      1536
+    ],
+    "audio_embeddings_sha256": "9f24b7c91e62317f7e782404d79ee8cda89dd7fe1d466fae1b0d068da5526ffd",
+    "audio_embeddings_rms": 2.671482801437378,
+    "response": "The audio contains speech. It sounds like a person is talking, and the content is a critique or observation about the inefficiency of AI, specifically mentioning that the AI is wasting time because the user has to keep revising and re-evaluating the output."
+  },
+  {
+    "condition": "music_only",
+    "model_kwargs": [
+      "attention_mask",
+      "input_ids",
+      "mm_token_type_ids",
+      "input_features",
+      "input_features_mask"
+    ],
+    "audio_embeddings_shape": [
+      300,
+      1536
+    ],
+    "audio_embeddings_sha256": "88a8612adbcc36edfdd09e6558e270f3c480a66843c0e583ad3d7ea9dcef9d00",
+    "audio_embeddings_rms": 2.7163593769073486,
+    "response": "The audio contains **speech**. It sounds like someone is speaking, possibly in a somewhat low or muffled way, but it is clearly discernible as human speech."
+  },
+  {
+    "condition": "silence",
+    "model_kwargs": [
+      "attention_mask",
+      "input_ids",
+      "mm_token_type_ids",
+      "input_features",
+      "input_features_mask"
+    ],
+    "audio_embeddings_shape": [
+      300,
+      1536
+    ],
+    "audio_embeddings_sha256": "11e9ad97bb97ddb79705d7bab052b2d64eb189a643a1899eb0120fc56c622486",
+    "audio_embeddings_rms": 2.6068477630615234,
+    "response": "Please provide the audio you are referring to. I need the audio to describe the sounds for you."
+  }
+]

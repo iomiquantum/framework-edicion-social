@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "verified_at": "2026-09-25",
+  "sources": [
+    {
+      "id": "TIKTOK_TRENDS_HELP",
+      "publisher": "TikTok for Business",
+      "url": "https://ads.us.tiktok.com/resources/help/article/how-to-use-trends?lang=en&redirected=2",
+      "type": "official_platform_analytics_guide",
+      "use": "Tendencias con filtros y curvas cuando estén disponibles.",
+      "limitations": "Popularidad y demanda no demuestran que una técnica cause retención orgánica."
+    },
+    {
+      "id": "TIKTOK_SEARCH_INSIGHTS",
+      "publisher": "TikTok Newsroom",
+      "url": "https://newsroom.tiktok.com/creator-search-insights?lang=en",
+      "type": "official_platform_feature",
+      "use": "Demanda de búsqueda y oportunidades de contenido.",
+      "limitations": "La disponibilidad depende de la región."
+    },
+    {
+      "id": "YOUTUBE_TRENDS_TAB",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/11962757?hl=en-SE",
+      "type": "official_platform_feature",
+      "use": "Búsquedas, breakout videos y content gaps de Shorts.",
+      "limitations": "Funciones limitadas por país, idioma o dispositivo."
+    },
+    {
+      "id": "YOUTUBE_SHORTS_DISCOVERY",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en-GB",
+      "type": "official_platform_recommendation",
+      "use": "Evitar suponer que YouTube favorece un formato o cadencia universal.",
+      "limitations": "No predice resultados de una cuenta concreta."
+    },
+    {
+      "id": "YOUTUBE_SHORTS_METRICS_2025",
+      "publisher": "YouTube Help Community",
+      "url": "https://support.google.com/youtube/thread/333869549?hl=en&msgid=355736999",
+      "type": "official_metric_change",
+      "use": "Distinguir views de engaged views al comparar piezas.",
+      "limitations": "Las definiciones deben volver a verificarse antes del análisis."
+    },
+    {
+      "id": "YOUTUBE_3MIN_SHORTS_CONTENT_ID_2026",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/15424877?hl=en",
+      "type": "official_platform_policy_change",
+      "use": "Verificar tratamiento de reclamaciones Content ID para Shorts nuevos de 61 a 179 segundos desde el 24 de septiembre de 2026.",
+      "limitations": "Que una pieza pueda seguir reproducible no equivale a licencia, ausencia de reclamación ni monetización garantizada. No aplica a Shorts de hasta 60 segundos."
+    },
+    {
+      "id": "YOUTUBE_MADE_ON_2026_CREATOR_TOOLS",
+      "publisher": "YouTube Blog ES-LATAM",
+      "url": "https://blog.youtube/intl/es-419/news-and-events/made-on-youtube-overview/",
+      "type": "official_platform_feature_announcement",
+      "use": "Seguir edición conversacional para Shorts/Create y futuras pruebas A/B de hasta tres cortes de video.",
+      "limitations": "El anuncio no especifica fecha o disponibilidad para Ecuador; los resultados de una cuenta no prueban eficacia universal."
+    },
+    {
+      "id": "YOUTUBE_SHORTS_SERIES_2026",
+      "publisher": "YouTube Blog",
+      "url": "https://blog.youtube/news-and-events/made-on-youtube-creators-shorts-series-tv-features/",
+      "type": "official_platform_feature_announcement",
+      "use": "Seguir la organización de Shorts por temporadas y episodios, miniaturas personalizadas y reproducción secuencial para series.",
+      "limitations": "El despliegue es gradual y no confirma disponibilidad en Ecuador o en una cuenta concreta; las métricas generales de microdramas no prueban rendimiento para educación sobre IA."
+    },
+    {
+      "id": "INSTAGRAM_BEST_PRACTICES",
+      "publisher": "Meta",
+      "url": "https://about.fb.com/news/2024/10/best-practices-education-hub-creators-instagram/",
+      "type": "official_platform_feature",
+      "use": "Recomendaciones personalizadas dentro del panel profesional.",
+      "limitations": "El radar público no sustituye los datos de la cuenta."
+    },
+    {
+      "id": "INSTAGRAM_TRIAL_REELS",
+      "publisher": "Meta",
+      "url": "https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/",
+      "type": "official_platform_feature",
+      "use": "Explorar contenido con no seguidores cuando la cuenta sea elegible.",
+      "limitations": "No equivale automáticamente a una prueba A/B aleatoria."
+    },
+    {
+      "id": "META_REELS_ADS_CREATIVE",
+      "publisher": "Meta for Business",
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "type": "official_platform_creative_guide",
+      "use": "Respaldar la recomendación 9:16, uso de audio y ubicación de elementos importantes dentro de zonas seguras para creatividad de Reels.",
+      "limitations": "La página se refiere a creatividad publicitaria; no publica coordenadas universales ni demuestra límites técnicos para Reels orgánicos."
+    },
+    {
+      "id": "TIKTOK_AUCTION_INFEED_SPECS",
+      "publisher": "TikTok for Business",
+      "url": "https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads?lang=en-GB",
+      "type": "official_platform_ad_specification",
+      "use": "Respaldar orientación 9:16 y mínimos técnicos declarados para anuncios Non-Spark verticales.",
+      "limitations": "Especificación de anuncios, no un límite universal de carga orgánica; la zona segura depende del formato y la interfaz."
+    },
+    {
+      "id": "TIKTOK_CREATIVE_QUALITY_CHECKLIST",
+      "publisher": "TikTok for Business",
+      "url": "https://ads.tiktok.com/business/library/Top_Tips_One_Pager_SMB.pdf",
+      "type": "official_platform_creative_guide",
+      "use": "Respaldar pantalla completa 9:16, al menos 720p, respeto de zonas seguras y voz legible como guía creativa.",
+      "limitations": "Es una lista publicitaria general; no aporta coordenadas fijas para todas las interfaces o dispositivos."
+    },
+    {
+      "id": "YOUTUBE_SHORTS_ELIGIBILITY",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/15424877?hl=en",
+      "type": "official_platform_requirement",
+      "use": "Validar la elegibilidad actual de videos cuadrados o verticales de hasta tres minutos como Shorts.",
+      "limitations": "La clasificación no garantiza distribución, monetización ni ausencia de reclamaciones de derechos."
+    },
+    {
+      "id": "YOUTUBE_UPLOAD_ENCODING",
+      "publisher": "YouTube Help",
+      "url": "https://support.google.com/youtube/answer/1722171?hl=en-GB",
+      "type": "official_platform_encoding_guide",
+      "use": "Respaldar MP4/H.264, AAC-LC u Opus a 48 kHz, frame rate nativo, BT.709 SDR y bitrate orientativo de 1080p.",
+      "limitations": "Son recomendaciones de codificación para YouTube general; no sustituyen la previsualización de interfaz de Shorts."
+    }
+  ]
+}

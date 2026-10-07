@@ -1,0 +1,13 @@
+test_backwards_clock_rejected_without_losing_open_interval (test_medir_fases_edicion.PhaseMeasurements.test_backwards_clock_rejected_without_losing_open_interval) ... ok
+test_concurrent_cli_starts_allow_only_one_open_interval (test_medir_fases_edicion.PhaseMeasurements.test_concurrent_cli_starts_allow_only_one_open_interval) ... ok
+test_empty_summary_and_invalid_journal_fail_explicitly (test_medir_fases_edicion.PhaseMeasurements.test_empty_summary_and_invalid_journal_fail_explicitly) ... ok
+test_holes_waits_audit_and_unmeasured_phases_are_distinct (test_medir_fases_edicion.PhaseMeasurements.test_holes_waits_audit_and_unmeasured_phases_are_distinct) ... ok
+test_invalid_phase_kind_or_clock_cannot_commit_an_event (test_medir_fases_edicion.PhaseMeasurements.test_invalid_phase_kind_or_clock_cannot_commit_an_event) ... ok
+test_journal_recovers_stale_state_and_open_time_is_not_counted (test_medir_fases_edicion.PhaseMeasurements.test_journal_recovers_stale_state_and_open_time_is_not_counted) ... ok
+test_lifecycle_append_only_and_preserves_run_metadata (test_medir_fases_edicion.PhaseMeasurements.test_lifecycle_append_only_and_preserves_run_metadata) ... ok
+test_union_does_not_double_count_and_rejects_invalid_intervals (test_medir_fases_edicion.PhaseMeasurements.test_union_does_not_double_count_and_rejects_invalid_intervals) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.140s
+
+OK

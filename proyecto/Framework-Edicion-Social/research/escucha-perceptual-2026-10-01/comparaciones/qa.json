@@ -1,0 +1,505 @@
+{
+  "status": "LISTA_PARA_ESCUCHA_CON_EVALUACION_ASISTIDA_PARCIAL",
+  "source_audit": [
+    {
+      "id": "01-primera",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-voz-sola.wav",
+      "sha256": "db677202633f2c8e3619e7e3bba9afe965a5d5ad5bb26a89e41ef98ae32ea31f",
+      "unchanged": true
+    },
+    {
+      "id": "01-primera",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-mezcla.m4a",
+      "sha256": "abde2a62b3a364fad96858e412b897c790f27807eb5b6bc264f26c1c07c326d2",
+      "unchanged": true
+    },
+    {
+      "id": "01-primera",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-musica.wav",
+      "sha256": "0e68e74bb02bc5f0670dad0d38cc4ee16582872bfc5f78c6f15bd5a536505e9d",
+      "unchanged": true
+    },
+    {
+      "id": "01-primera",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/01-efectos.wav",
+      "sha256": "3bd48350351887e74d04abb6f8366235075a3fb7459f8bcbb93e8c6f31096b69",
+      "unchanged": true
+    },
+    {
+      "id": "11-primera",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/11-voz-sola.wav",
+      "sha256": "6ae69c44eb89bf67aeef962a9eb5624a5227e9a721397805a8704ab996267524",
+      "unchanged": true
+    },
+    {
+      "id": "11-primera",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/11-mezcla.m4a",
+      "sha256": "e3c9a11df6df6ee8d47b429e1aee9d5639c89232162145959293f63c2d6189b3",
+      "unchanged": true
+    },
+    {
+      "id": "11-primera",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/11-musica.wav",
+      "sha256": "3c4e1e898568db180715e1cc3b360b77916ef50d5eda0619c6e7e3f60f0b464e",
+      "unchanged": true
+    },
+    {
+      "id": "11-primera",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/11-efectos.wav",
+      "sha256": "7b7b789575dc57aae50c3a2058f7fdc46f90e1e273049d61118f8af38526a75a",
+      "unchanged": true
+    },
+    {
+      "id": "14-primera",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/14-voz-sola.wav",
+      "sha256": "28b0193e9360c77295e90e6a93fda020cfe5d79e130b349a31ff2e8abbd3f087",
+      "unchanged": true
+    },
+    {
+      "id": "14-primera",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/14-mezcla.m4a",
+      "sha256": "aabe0d8435521928f3e05e8d553587335f03fff80d68efaf4e46f2defbee915f",
+      "unchanged": true
+    },
+    {
+      "id": "14-primera",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/14-musica.wav",
+      "sha256": "b57822098b846a3092594ac49fad35479f30f48337fdd412175d243306b4c137",
+      "unchanged": true
+    },
+    {
+      "id": "14-primera",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/14-efectos.wav",
+      "sha256": "a1552bd71952e01a8c186dae6f8122fa456a23c19338c1ed86f54348d8662d74",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-primera",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-voz-sola.wav",
+      "sha256": "845d7d20e233fa7dc724616ff6e561285f168976bf0b63cc6e7e9671b5dc9b4f",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-primera",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-mezcla.m4a",
+      "sha256": "516e9c93c3a0135b8322d942b3558a27c14b6147d0b9df6ca3e82fb7dd431a35",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-primera",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-musica.wav",
+      "sha256": "fc5cdc7ec39528ca49d6bd2fe24a9591c31a86b8c52b6a4652b608186cfefb58",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-primera",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-efectos.wav",
+      "sha256": "122c7737f4a601033b144766fe92ebb01d4997fae028c67895d56557d8585f78",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-primera",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-voz-sola.wav",
+      "sha256": "29e7a580bc2d12a31ff284a10d502d6ae1fba3159df5bd1d9124e6adb59f9d1b",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-primera",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-mezcla.m4a",
+      "sha256": "b8ad0b713998ce7d58c81b9b68982849094ef54e6783fb5e1030423ef6048ed1",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-primera",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-musica.wav",
+      "sha256": "c1171b2475888f0d4b724abe0d2f9b952a80b6763b701ace93476e5a95326960",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-primera",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-efectos.wav",
+      "sha256": "59eb6051917a1c6b8fc25c0d28fb939234acade0d3416e891f624f2841ec8c8c",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-A",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-voz-sola.wav",
+      "sha256": "845d7d20e233fa7dc724616ff6e561285f168976bf0b63cc6e7e9671b5dc9b4f",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-A",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/A/mezcla.m4a",
+      "sha256": "671c5f23822be643bbbb48a483123d45bc27b8fe59c424c97b5bdadbf14f4de2",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-A",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/A/musica.wav",
+      "sha256": "b6a2315f3bcd82077a782d0e44fc3b10df1f15dbc203ede01ac28a43f4f7e5dc",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-A",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/A/efectos.wav",
+      "sha256": "895a97a3f4e1b25b47723479f78cbbd233a80088f9c80a27b758ca803e519b39",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-B",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-voz-sola.wav",
+      "sha256": "845d7d20e233fa7dc724616ff6e561285f168976bf0b63cc6e7e9671b5dc9b4f",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-B",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/B/mezcla.m4a",
+      "sha256": "53a0b690214552bbc3672ba3093cb6c7ff0db8eeaf1e0bebf583f64b510cf8b4",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-B",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/B/musica.wav",
+      "sha256": "0d1299bb8ca7540f000317b1db65433c33273e60561ee3854d217071a968672b",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-B",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/B/efectos.wav",
+      "sha256": "3074c023b631b8bb2d51c685120bcd84e62fb7e7ac01c1a7755cfe40200b0ac7",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-C",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-53-voz-sola.wav",
+      "sha256": "845d7d20e233fa7dc724616ff6e561285f168976bf0b63cc6e7e9671b5dc9b4f",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-C",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/C/mezcla.m4a",
+      "sha256": "a082c0fed9f913e194c6f58ada64d11743c9e3b5eb7f54789f7e8146a5cb799b",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-C",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/C/musica.wav",
+      "sha256": "b54b40b032abcbe56b18d3d6af3edfb8632993bd619291e80be4dd2f20990b51",
+      "unchanged": true
+    },
+    {
+      "id": "largo-53-C",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-53/C/efectos.wav",
+      "sha256": "f19071fbb390dec523535d3fd0bf26bdbccaf0c93c50e83861d4b52b73d7c17c",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-A",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-voz-sola.wav",
+      "sha256": "29e7a580bc2d12a31ff284a10d502d6ae1fba3159df5bd1d9124e6adb59f9d1b",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-A",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/A/mezcla.m4a",
+      "sha256": "9a0cf86c57df17fc1464dd90d6b9ccfd6412d2f5f33d24f3dd1f954b4ebb31e7",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-A",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/A/musica.wav",
+      "sha256": "bbde60f86b7be41d9ee2733f33d7e6ae47fe910b0e84851007161873dfb5e1b7",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-A",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/A/efectos.wav",
+      "sha256": "260e0acdf165682d1216a550d8f503cbcb2f95ea1bd3af8adfe7dcd20ebfe2e6",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-B",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-voz-sola.wav",
+      "sha256": "29e7a580bc2d12a31ff284a10d502d6ae1fba3159df5bd1d9124e6adb59f9d1b",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-B",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/B/mezcla.m4a",
+      "sha256": "045c9195b5d88b0f383aba06cbe7be5328f15813fdb90c2c0d44a9d5eacb9e71",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-B",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/B/musica.wav",
+      "sha256": "7e1c837cb0b033be0fc2a2dbca6d9e03f123f54cd0c95c394ebdbc62ad58db24",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-B",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/B/efectos.wav",
+      "sha256": "eaaa1a3d064574290a490fb2be8915872bd641d92841af239cefde58f42f6989",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-C",
+      "role": "voice",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/renders/v2/largo-159-voz-sola.wav",
+      "sha256": "29e7a580bc2d12a31ff284a10d502d6ae1fba3159df5bd1d9124e6adb59f9d1b",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-C",
+      "role": "mix",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/C/mezcla.m4a",
+      "sha256": "ea931bb3a2c3a2d964c327e7ceafc80e0548ff3f664561e81536695c30955701",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-C",
+      "role": "music",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/C/musica.wav",
+      "sha256": "04eb70cc969b7dded21d2bbaf9ec5900d51fdf92ebd426fb6e158c5983489a77",
+      "unchanged": true
+    },
+    {
+      "id": "largo-159-C",
+      "role": "sfx",
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/largo-159/C/efectos.wav",
+      "sha256": "a5bafcd8d0e2696de4556414255b90d59fc27561ae7ac0b7064cb42767888055",
+      "unchanged": true
+    }
+  ],
+  "checks_pass": true,
+  "results": [
+    {
+      "piece": "largo-53",
+      "duration_pcm_s": 52.93,
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "id": "0x1",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 2540640,
+            "duration": "52.930000",
+            "bit_rate": "245603",
+            "nb_frames": "2483",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-53/mezcla.m4a",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "52.930000",
+          "size": "1636385",
+          "bit_rate": "247328",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "M4A ",
+            "minor_version": "512",
+            "compatible_brands": "M4A isomiso2",
+            "encoder": "Lavf63.1.102"
+          }
+        }
+      },
+      "voice_reconstruction_written_max_error": 2.735760062932968e-08,
+      "aac_pcm_mono_correlation": 0.9999876330572582,
+      "aac_extra_samples": 0,
+      "mono_rms_change_db": -0.001648836775560532,
+      "hook_extra_written_db": 2.500000346005475,
+      "hook_audibility": "por confirmar",
+      "yamnet_frame_count": 111,
+      "yamnet_headline": {
+        "Speech": 0.935670018196106,
+        "Music": 0.10575028508901596,
+        "Silence": 0.0011261261533945799
+      },
+      "human_listening": false
+    },
+    {
+      "piece": "largo-159",
+      "duration_pcm_s": 158.798,
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "id": "0x1",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 7622304,
+            "duration": "158.798000",
+            "bit_rate": "247235",
+            "nb_frames": "7445",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/escucha-perceptual-2026-10-01/comparaciones/largo-159/mezcla.m4a",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "158.798000",
+          "size": "4938878",
+          "bit_rate": "248813",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "M4A ",
+            "minor_version": "512",
+            "compatible_brands": "M4A isomiso2",
+            "encoder": "Lavf63.1.102"
+          }
+        }
+      },
+      "voice_reconstruction_written_max_error": 2.7939677238464355e-08,
+      "aac_pcm_mono_correlation": 0.9999927633467395,
+      "aac_extra_samples": 0,
+      "mono_rms_change_db": -0.001250980448363546,
+      "hook_extra_written_db": 2.500000346626427,
+      "hook_audibility": "por confirmar",
+      "yamnet_frame_count": 331,
+      "yamnet_headline": {
+        "Speech": 0.943034827709198,
+        "Music": 0.04183581843972206,
+        "Silence": 0.0015931834932416677
+      },
+      "human_listening": false
+    }
+  ],
+  "elapsed_seconds": 2.560890584019944,
+  "limitations": [
+    "No human perception or creative approval inferred.",
+    "YAMNet scores do not assess SFX audibility or prescribe gain."
+  ]
+}

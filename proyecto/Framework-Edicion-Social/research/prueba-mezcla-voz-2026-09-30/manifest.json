@@ -1,0 +1,1918 @@
+[
+  {
+    "id": "01",
+    "title": "La IA y el retrabajo",
+    "duration_s": 21.375,
+    "voice_kind": "humana",
+    "native_duration_s": 21.374,
+    "terminal_silence_padding_s": 0.001,
+    "source": "Serie-IA-Negocios-10-Videos/VIDEO-01/editable-hyperframes-video-01/assets/video01-silence-cut-speed104-v4.mp4",
+    "source_sha256": "1e2db6b21f6f23cb96f78464cafa5ea2d0c6d986d6efaf2565affe5cdf4adbda",
+    "voice_fixed_gain_db": -1.7200000000000002,
+    "global_headroom_gain_db": 0.0,
+    "aac_correction_db": 0,
+    "voice_change": "Solo ganancia constante compartida con control. Sin alterar palabras/ritmo/timbre.",
+    "direction": "Pulso de mecanismo que desaparece en el veredicto. Retorno más discreto para sistema y retirada en la pregunta. Una pista; contraste mediante arreglo/nivel.",
+    "chapters": [
+      [
+        0,
+        "El problema"
+      ],
+      [
+        6.142,
+        "El bucle"
+      ],
+      [
+        11.695,
+        "La idea clave"
+      ],
+      [
+        17.561,
+        "La pregunta"
+      ]
+    ],
+    "music_clips": [
+      {
+        "music": "neon",
+        "start": 0,
+        "end": 11.35,
+        "source_start": 45,
+        "relative_db_points": [
+          [
+            0,
+            -26
+          ],
+          [
+            0.3,
+            -19
+          ],
+          [
+            1.6,
+            -25
+          ],
+          [
+            2.1,
+            -21
+          ],
+          [
+            3,
+            -24
+          ],
+          [
+            5.8,
+            -21
+          ],
+          [
+            6.3,
+            -19
+          ],
+          [
+            8.1,
+            -24
+          ],
+          [
+            8.6,
+            -19
+          ],
+          [
+            10.5,
+            -25
+          ],
+          [
+            11.35,
+            -55
+          ]
+        ],
+        "role": "Repetición; baja antes de las colas suaves.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-prueba-ritmica/neon-no-melody.mp3",
+        "source_sha256": "af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d",
+        "excerpt_duration_s": 11.35,
+        "excerpt_rms_before_manual_dbfs": -21.911860522019055,
+        "normalization_gain_db": -2.0921181645919105
+      },
+      {
+        "music": "neon",
+        "start": 13.35,
+        "end": 21.375,
+        "source_start": 70,
+        "relative_db_points": [
+          [
+            13.35,
+            -36
+          ],
+          [
+            13.9,
+            -23
+          ],
+          [
+            15,
+            -27
+          ],
+          [
+            16,
+            -23
+          ],
+          [
+            17.2,
+            -29
+          ],
+          [
+            17.7,
+            -31
+          ],
+          [
+            19.8,
+            -34
+          ],
+          [
+            20.8,
+            -38
+          ],
+          [
+            21.375,
+            -60
+          ]
+        ],
+        "role": "Sistema sin celebrar; pregunta queda al frente.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-prueba-ritmica/neon-no-melody.mp3",
+        "source_sha256": "af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d",
+        "excerpt_duration_s": 8.025,
+        "excerpt_rms_before_manual_dbfs": -21.911860808437442,
+        "normalization_gain_db": -2.8694799797707224
+      }
+    ],
+    "sfx_events": [
+      {
+        "start": 0.025,
+        "file": "04_soft_pop.wav",
+        "reason": "Hook: acento corto antes de la entrada vocal.",
+        "target_relative_rms_db": -12,
+        "source": "Framework-Edicion-Social/library/sfx/04_soft_pop.wav",
+        "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+        "duration_s": 0.16,
+        "gain_db": -9.764316327449409,
+        "peak_dbfs": -19.764319018963935,
+        "rms_dbfs": -33.08400719104809,
+        "voice_same_event_rms_dbfs": -45.99198505178285,
+        "voice_context_rms_dbfs": -21.084006936802133,
+        "band_relative_same_event_db": 23.150887501769585,
+        "peak_time_s": 0.028916666666666667
+      },
+      {
+        "start": 6.05,
+        "file": "02_soft_whoosh.wav",
+        "reason": "Entrada del bucle; transición dentro de pausa.",
+        "target_relative_rms_db": -12,
+        "source": "Framework-Edicion-Social/library/sfx/02_soft_whoosh.wav",
+        "source_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+        "duration_s": 0.3,
+        "gain_db": -9.1650845970291,
+        "peak_dbfs": -21.165088868913756,
+        "rms_dbfs": -34.6246543055011,
+        "voice_same_event_rms_dbfs": -34.7008690007242,
+        "voice_context_rms_dbfs": -22.624654595913913,
+        "band_relative_same_event_db": 0.49698772118386114,
+        "peak_time_s": 6.181166666666666
+      },
+      {
+        "start": 8.42,
+        "file": "03_ui_tick.wav",
+        "reason": "Una corrección del proceso, no cada palabra.",
+        "target_relative_rms_db": -12,
+        "source": "Framework-Edicion-Social/library/sfx/03_ui_tick.wav",
+        "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+        "duration_s": 0.085,
+        "gain_db": -9.799222406515328,
+        "peak_dbfs": -19.799222192088493,
+        "rms_dbfs": -39.104607215554594,
+        "voice_same_event_rms_dbfs": -57.52742918353607,
+        "voice_context_rms_dbfs": -27.104606850081755,
+        "band_relative_same_event_db": 18.664481583295128,
+        "peak_time_s": 8.422416666666667
+      },
+      {
+        "start": 9.85,
+        "file": "07_loop_return.wav",
+        "reason": "Último retorno del bucle en pausa; cola protegida.",
+        "target_relative_rms_db": -15,
+        "source": "Framework-Edicion-Social/library/sfx/07_loop_return.wav",
+        "source_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+        "duration_s": 0.48,
+        "gain_db": -12.190993694228121,
+        "peak_dbfs": -26.190996030382884,
+        "rms_dbfs": -37.365667424991095,
+        "voice_same_event_rms_dbfs": -24.705906021011547,
+        "voice_context_rms_dbfs": -22.36566716256374,
+        "band_relative_same_event_db": -10.574502231164402,
+        "peak_time_s": 10.116458333333332
+      },
+      {
+        "start": 13.13,
+        "file": "08_resolve.wav",
+        "reason": "Salir del bucle y presentar sistema.",
+        "target_relative_rms_db": -16,
+        "source": "Framework-Edicion-Social/library/sfx/08_resolve.wav",
+        "source_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+        "duration_s": 0.84,
+        "gain_db": -7.330607359493618,
+        "peak_dbfs": -22.330612060354497,
+        "rms_dbfs": -37.0840068378313,
+        "voice_same_event_rms_dbfs": -18.990843314860943,
+        "voice_context_rms_dbfs": -21.084006936802133,
+        "band_relative_same_event_db": -16.765391739412905,
+        "peak_time_s": 13.263791666666668
+      }
+    ],
+    "processing_music_only": {
+      "highpass_hz": 70,
+      "lowpass_hz": 9000,
+      "subtract_band_hz": [
+        400,
+        4000
+      ],
+      "band_subtraction_fraction": 0.6,
+      "secondary_downward_only_db_range": [
+        -15,
+        0
+      ],
+      "voice_band_margin_target_db": 14,
+      "soft_word_gain_used_db_min": -13.72
+    },
+    "mix_loudness_aac": {
+      "input_i": -18.06,
+      "input_tp": -3.21,
+      "input_lra": 2.2,
+      "input_thresh": -28.39
+    },
+    "aac_pcm_correlation": 0.9998033863442025,
+    "stems_sum_max_abs_error": 2.384185791015625e-07,
+    "voice_constant_gain_max_abs_error": 0.0,
+    "files": {
+      "renders/v2/01-mezcla.wav": {
+        "sha256": "f182ff2bde11b03d8511fa7a400e4f9d930bf86fe4d35c84af5412dfc27b01fa",
+        "bytes": 6156044
+      },
+      "renders/v2/01-mezcla.m4a": {
+        "sha256": "abde2a62b3a364fad96858e412b897c790f27807eb5b6bc264f26c1c07c326d2",
+        "bytes": 698055
+      },
+      "renders/v2/01-voz-sola.wav": {
+        "sha256": "db677202633f2c8e3619e7e3bba9afe965a5d5ad5bb26a89e41ef98ae32ea31f",
+        "bytes": 6156044
+      },
+      "renders/v2/01-musica.wav": {
+        "sha256": "0e68e74bb02bc5f0670dad0d38cc4ee16582872bfc5f78c6f15bd5a536505e9d",
+        "bytes": 6156044
+      },
+      "renders/v2/01-efectos.wav": {
+        "sha256": "3bd48350351887e74d04abb6f8366235075a3fb7459f8bcbb93e8c6f31096b69",
+        "bytes": 6156044
+      },
+      "renders/v1/01-mezcla.wav": {
+        "sha256": "1d5da1c955a07f340451e0d45db794960fd1d503b91bc838ee626d2bf0350804",
+        "bytes": 6156044
+      },
+      "renders/v2/01-voz-sola.m4a": {
+        "sha256": "c658cd11fce24882548b9db66d116bef1e693bdff1a6860b5d235b64d214b53f",
+        "bytes": 698609
+      },
+      "renders/v2/01-musica.m4a": {
+        "sha256": "b2156ebf9fcfaada60c3be92c4400fd82ca04a547c363a08834019f6b9f839b7",
+        "bytes": 614689
+      },
+      "renders/v2/01-efectos.m4a": {
+        "sha256": "ba70df073a1bc840c2d05f5fadbecc6e562d71e13d95411913d30b8777bbb08d",
+        "bytes": 43253
+      }
+    },
+    "nonzero_rms": {
+      "voice": 0.08785813420046674,
+      "music": 0.0035632996455818838,
+      "sfx": 0.004562559155690168,
+      "mix": 0.08803716846399512
+    },
+    "sfx_hook": "pass",
+    "sfx_identities": 5,
+    "native_playback": "pending",
+    "human_listening": "por confirmar",
+    "elapsed_mix_seconds": 2.12
+  },
+  {
+    "id": "11",
+    "title": "Contenido propio",
+    "duration_s": 29.1,
+    "voice_kind": "humana",
+    "native_duration_s": 29.0838125,
+    "terminal_silence_padding_s": 0.0161875,
+    "source": "Serie-IA-Negocios-10-Videos/VIDEO-11/editable-hyperframes-video-11/assets/video11-voice-normalized.m4a",
+    "source_sha256": "7dbe30dbc0b71573caccb8a81d9f4afcd3a66b73e1f031ee5fad134956e989ba",
+    "voice_fixed_gain_db": -1.7800000000000002,
+    "global_headroom_gain_db": 0.0,
+    "aac_correction_db": 0,
+    "voice_change": "Solo ganancia constante compartida con control. Sin alterar palabras/ritmo/timbre.",
+    "direction": "Un único groove contenido. Más impulso durante la enumeración; retirada antes de originalidad. El remate pensado/generado tiene espacio.",
+    "chapters": [
+      [
+        0,
+        "Contenido genérico"
+      ],
+      [
+        8.97,
+        "Cantidad y velocidad"
+      ],
+      [
+        14.08,
+        "Algo propio"
+      ],
+      [
+        20.04,
+        "Pensado o generado"
+      ]
+    ],
+    "music_clips": [
+      {
+        "music": "cipher",
+        "start": 0,
+        "end": 13.75,
+        "source_start": 27,
+        "relative_db_points": [
+          [
+            0,
+            -27
+          ],
+          [
+            0.35,
+            -21
+          ],
+          [
+            2,
+            -26
+          ],
+          [
+            2.9,
+            -22
+          ],
+          [
+            5.3,
+            -26
+          ],
+          [
+            6.4,
+            -24
+          ],
+          [
+            8.2,
+            -28
+          ],
+          [
+            8.9,
+            -19
+          ],
+          [
+            10.5,
+            -21
+          ],
+          [
+            12.3,
+            -24
+          ],
+          [
+            13.3,
+            -29
+          ],
+          [
+            13.75,
+            -60
+          ]
+        ],
+        "role": "Cantidad/velocidad; crecimiento limitado, no aceleración artificial.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/cipher.mp3",
+        "source_sha256": "d3d0614535a61d748e2fd8d5117fc4d781022a7624794802a2462d8af3fdd522",
+        "excerpt_duration_s": 13.75,
+        "excerpt_rms_before_manual_dbfs": -22.004319434827067,
+        "normalization_gain_db": -0.5718925988735206
+      },
+      {
+        "music": "cipher",
+        "start": 16.7,
+        "end": 26.05,
+        "source_start": 59,
+        "relative_db_points": [
+          [
+            16.7,
+            -36
+          ],
+          [
+            17.3,
+            -24
+          ],
+          [
+            19,
+            -29
+          ],
+          [
+            20,
+            -30
+          ],
+          [
+            22,
+            -27
+          ],
+          [
+            23.1,
+            -33
+          ],
+          [
+            23.9,
+            -30
+          ],
+          [
+            25.2,
+            -36
+          ],
+          [
+            26.05,
+            -60
+          ]
+        ],
+        "role": "Vuelve detrás de lo propio, desaparece para el último contraste.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/cipher.mp3",
+        "source_sha256": "d3d0614535a61d748e2fd8d5117fc4d781022a7624794802a2462d8af3fdd522",
+        "excerpt_duration_s": 9.35,
+        "excerpt_rms_before_manual_dbfs": -22.004319567685442,
+        "normalization_gain_db": -0.32307587130208315
+      }
+    ],
+    "sfx_events": [
+      {
+        "start": 0.025,
+        "file": "01_airy_in.wav",
+        "reason": "Hook con entrada suave, sin impacto grave.",
+        "target_relative_rms_db": -14,
+        "source": "Framework-Edicion-Social/library/sfx/01_airy_in.wav",
+        "source_sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+        "duration_s": 0.44,
+        "gain_db": -9.28433919613847,
+        "peak_dbfs": -21.284340015737783,
+        "rms_dbfs": -35.17646583043911,
+        "voice_same_event_rms_dbfs": -18.829307259852385,
+        "voice_context_rms_dbfs": -21.176465630546698,
+        "band_relative_same_event_db": -17.242760545933645,
+        "peak_time_s": 0.23133333333333334
+      },
+      {
+        "start": 8.53,
+        "file": "03_ui_tick.wav",
+        "reason": "Preparar enumeración en pausa.",
+        "target_relative_rms_db": -14,
+        "source": "Framework-Edicion-Social/library/sfx/03_ui_tick.wav",
+        "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+        "duration_s": 0.085,
+        "gain_db": -11.891681100259891,
+        "peak_dbfs": -21.891680355659325,
+        "rms_dbfs": -41.19706588814385,
+        "voice_same_event_rms_dbfs": -60.277636583836475,
+        "voice_context_rms_dbfs": -27.197065543826323,
+        "band_relative_same_event_db": 19.034592205096835,
+        "peak_time_s": 8.532416666666666
+      },
+      {
+        "start": 13.6,
+        "file": "05_low_accent.wav",
+        "reason": "El giro de cantidad a originalidad, con retirada musical.",
+        "target_relative_rms_db": -16,
+        "source": "Framework-Edicion-Social/library/sfx/05_low_accent.wav",
+        "source_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+        "duration_s": 0.34,
+        "gain_db": -16.511609962942043,
+        "peak_dbfs": -28.511610255432775,
+        "rms_dbfs": -43.197065654274866,
+        "voice_same_event_rms_dbfs": -64.20169732431881,
+        "voice_context_rms_dbfs": -27.197065543826323,
+        "band_relative_same_event_db": 21.241816611166765,
+        "peak_time_s": 13.604270833333333
+      },
+      {
+        "start": 20.73,
+        "file": "04_soft_pop.wav",
+        "reason": "Pregunta en pausa medida, suave.",
+        "target_relative_rms_db": -15,
+        "source": "Framework-Edicion-Social/library/sfx/04_soft_pop.wav",
+        "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+        "duration_s": 0.16,
+        "gain_db": -14.13756131785406,
+        "peak_dbfs": -24.13756349969287,
+        "rms_dbfs": -37.457251678604074,
+        "voice_same_event_rms_dbfs": -54.69039884143582,
+        "voice_context_rms_dbfs": -22.457251927206784,
+        "band_relative_same_event_db": 22.59415170253986,
+        "peak_time_s": 20.733916666666666
+      }
+    ],
+    "processing_music_only": {
+      "highpass_hz": 70,
+      "lowpass_hz": 9000,
+      "subtract_band_hz": [
+        400,
+        4000
+      ],
+      "band_subtraction_fraction": 0.6,
+      "secondary_downward_only_db_range": [
+        -15,
+        0
+      ],
+      "voice_band_margin_target_db": 14,
+      "soft_word_gain_used_db_min": -7.0
+    },
+    "mix_loudness_aac": {
+      "input_i": -18.31,
+      "input_tp": -2.99,
+      "input_lra": 4.9,
+      "input_thresh": -29.01
+    },
+    "aac_pcm_correlation": 0.9999278404133619,
+    "stems_sum_max_abs_error": 2.384185791015625e-07,
+    "voice_constant_gain_max_abs_error": 0.0,
+    "files": {
+      "renders/v2/11-mezcla.wav": {
+        "sha256": "03d2ef66a66b1adc57f9291f71b33d81144e4a95d32207774c0f3a07ad500b24",
+        "bytes": 8380844
+      },
+      "renders/v2/11-mezcla.m4a": {
+        "sha256": "e3c9a11df6df6ee8d47b429e1aee9d5639c89232162145959293f63c2d6189b3",
+        "bytes": 948654
+      },
+      "renders/v2/11-voz-sola.wav": {
+        "sha256": "6ae69c44eb89bf67aeef962a9eb5624a5227e9a721397805a8704ab996267524",
+        "bytes": 8380844
+      },
+      "renders/v2/11-musica.wav": {
+        "sha256": "3c4e1e898568db180715e1cc3b360b77916ef50d5eda0619c6e7e3f60f0b464e",
+        "bytes": 8380844
+      },
+      "renders/v2/11-efectos.wav": {
+        "sha256": "7b7b789575dc57aae50c3a2058f7fdc46f90e1e273049d61118f8af38526a75a",
+        "bytes": 8380844
+      },
+      "renders/v1/11-mezcla.wav": {
+        "sha256": "5f280dfa8477e54d28406943cf709febffa8a3652519e65285e236521a09e344",
+        "bytes": 8380844
+      },
+      "renders/v2/11-voz-sola.m4a": {
+        "sha256": "71d1faff6fb6fdba02a5c1252f6f3cc2aff208c0b1a5d2142e9fff220a38ca09",
+        "bytes": 935054
+      },
+      "renders/v2/11-musica.m4a": {
+        "sha256": "b1e7bcd51e59d94f2b26048d6c5048e12d800a08ffefc5dfe7b80a70110909be",
+        "bytes": 755768
+      },
+      "renders/v2/11-efectos.m4a": {
+        "sha256": "62de5f1e946eda19a39d55a33bca23271c3234a6880c8c9b138e6ef95ec7133e",
+        "bytes": 37894
+      }
+    },
+    "nonzero_rms": {
+      "voice": 0.08567071992246778,
+      "music": 0.003186372227684671,
+      "sfx": 0.002521866521072596,
+      "mix": 0.0857753258488497
+    },
+    "sfx_hook": "pass",
+    "sfx_identities": 4,
+    "native_playback": "pending",
+    "human_listening": "por confirmar",
+    "elapsed_mix_seconds": 2.58
+  },
+  {
+    "id": "14",
+    "title": "Escuchar al cliente",
+    "duration_s": 23.26,
+    "voice_kind": "humana",
+    "native_duration_s": 23.26,
+    "terminal_silence_padding_s": 0.0,
+    "source": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/assets/video14-master-hdr-v1.mp4",
+    "source_sha256": "a8c261e2d480dac8953278db4ca4c2dbabfc412fdf9eaa82f89712c63c48811c",
+    "voice_fixed_gain_db": 4.39,
+    "global_headroom_gain_db": 0.0,
+    "aac_correction_db": 0,
+    "voice_change": "Solo ganancia constante compartida con control. Sin alterar palabras/ritmo/timbre.",
+    "direction": "Una música de conversación con movimiento suave. Baja durante las necesidades del cliente y se retira en escuchar mejor. Pregunta final casi desnuda.",
+    "chapters": [
+      [
+        0,
+        "Una conversación"
+      ],
+      [
+        6.48,
+        "Lo que dice el cliente"
+      ],
+      [
+        13.6,
+        "Escuchar mejor"
+      ],
+      [
+        18.46,
+        "La pregunta"
+      ]
+    ],
+    "music_clips": [
+      {
+        "music": "backbay",
+        "start": 0,
+        "end": 13.52,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            0,
+            -28
+          ],
+          [
+            0.35,
+            -22
+          ],
+          [
+            1.8,
+            -27
+          ],
+          [
+            2.6,
+            -23
+          ],
+          [
+            4.1,
+            -26
+          ],
+          [
+            5.7,
+            -29
+          ],
+          [
+            6.35,
+            -23
+          ],
+          [
+            8.3,
+            -26
+          ],
+          [
+            9.5,
+            -27
+          ],
+          [
+            10.4,
+            -31
+          ],
+          [
+            11.7,
+            -29
+          ],
+          [
+            12.8,
+            -33
+          ],
+          [
+            13.52,
+            -60
+          ]
+        ],
+        "role": "Movimiento humano; se abre espacio para qué preocupa/quiere/no entiende.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+        "source_sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+        "excerpt_duration_s": 13.52,
+        "excerpt_rms_before_manual_dbfs": -22.741645896695232,
+        "normalization_gain_db": 2.7788666900409416
+      },
+      {
+        "music": "backbay",
+        "start": 18.3,
+        "end": 23.26,
+        "source_start": 56.3,
+        "relative_db_points": [
+          [
+            18.3,
+            -39
+          ],
+          [
+            18.9,
+            -30
+          ],
+          [
+            20,
+            -33
+          ],
+          [
+            21.5,
+            -36
+          ],
+          [
+            22.4,
+            -38
+          ],
+          [
+            23.26,
+            -60
+          ]
+        ],
+        "role": "Cola tenue durante pregunta; no subir en cada pausa.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+        "source_sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+        "excerpt_duration_s": 4.96,
+        "excerpt_rms_before_manual_dbfs": -22.741645964149754,
+        "normalization_gain_db": 1.5910601122153465
+      }
+    ],
+    "sfx_events": [
+      {
+        "start": 0.03,
+        "file": "04_soft_pop.wav",
+        "reason": "Hook: pregunta implícita sobre el prompt.",
+        "target_relative_rms_db": -12,
+        "source": "Framework-Edicion-Social/library/sfx/04_soft_pop.wav",
+        "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+        "duration_s": 0.16,
+        "gain_db": -14.243770166229709,
+        "peak_dbfs": -24.243772596261767,
+        "rms_dbfs": -37.563460946385845,
+        "voice_same_event_rms_dbfs": -62.5922119383207,
+        "voice_context_rms_dbfs": -25.563460775582428,
+        "band_relative_same_event_db": 27.244163986692854,
+        "peak_time_s": 0.033916666666666664
+      },
+      {
+        "start": 6.37,
+        "file": "02_soft_whoosh.wav",
+        "reason": "Pasar de herramienta a conversación real.",
+        "target_relative_rms_db": -15,
+        "source": "Framework-Edicion-Social/library/sfx/02_soft_whoosh.wav",
+        "source_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+        "duration_s": 0.3,
+        "gain_db": -11.454222133526091,
+        "peak_dbfs": -23.454227093210637,
+        "rms_dbfs": -36.91379255739846,
+        "voice_same_event_rms_dbfs": -69.97361699889625,
+        "voice_context_rms_dbfs": -21.913792132410904,
+        "band_relative_same_event_db": 34.26907983982759,
+        "peak_time_s": 6.501166666666666
+      },
+      {
+        "start": 13.5,
+        "file": "03_ui_tick.wav",
+        "reason": "Inicio de la tesis escuchar mejor; único punto de puntuación.",
+        "target_relative_rms_db": -15,
+        "source": "Framework-Edicion-Social/library/sfx/03_ui_tick.wav",
+        "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+        "duration_s": 0.085,
+        "gain_db": -13.6290076021241,
+        "peak_dbfs": -23.629006659571473,
+        "rms_dbfs": -42.93439212935944,
+        "voice_same_event_rms_dbfs": -64.52696266414506,
+        "voice_context_rms_dbfs": -27.93439204569053,
+        "band_relative_same_event_db": 31.46380336970938,
+        "peak_time_s": 13.502416666666667
+      }
+    ],
+    "processing_music_only": {
+      "highpass_hz": 70,
+      "lowpass_hz": 9000,
+      "subtract_band_hz": [
+        400,
+        4000
+      ],
+      "band_subtraction_fraction": 0.6,
+      "secondary_downward_only_db_range": [
+        -15,
+        0
+      ],
+      "voice_band_margin_target_db": 14,
+      "soft_word_gain_used_db_min": -6.92
+    },
+    "mix_loudness_aac": {
+      "input_i": -19.01,
+      "input_tp": -3.21,
+      "input_lra": 4.7,
+      "input_thresh": -29.46
+    },
+    "aac_pcm_correlation": 0.9999414720718066,
+    "stems_sum_max_abs_error": 2.384185791015625e-07,
+    "voice_constant_gain_max_abs_error": 0.0,
+    "files": {
+      "renders/v2/14-mezcla.wav": {
+        "sha256": "6aead571a79e1fffaae6e6c6e0a4247cfb2ff4f2893317e0f57e30e872f8f282",
+        "bytes": 6698924
+      },
+      "renders/v2/14-mezcla.m4a": {
+        "sha256": "aabe0d8435521928f3e05e8d553587335f03fff80d68efaf4e46f2defbee915f",
+        "bytes": 745442
+      },
+      "renders/v2/14-voz-sola.wav": {
+        "sha256": "28b0193e9360c77295e90e6a93fda020cfe5d79e130b349a31ff2e8abbd3f087",
+        "bytes": 6698924
+      },
+      "renders/v2/14-musica.wav": {
+        "sha256": "b57822098b846a3092594ac49fad35479f30f48337fdd412175d243306b4c137",
+        "bytes": 6698924
+      },
+      "renders/v2/14-efectos.wav": {
+        "sha256": "a1552bd71952e01a8c186dae6f8122fa456a23c19338c1ed86f54348d8662d74",
+        "bytes": 6698924
+      },
+      "renders/v1/14-mezcla.wav": {
+        "sha256": "75882b26fd62feabbb3231ba7e00e7bd08e3711256de6a1770688525d865bfc9",
+        "bytes": 6698924
+      },
+      "renders/v2/14-voz-sola.m4a": {
+        "sha256": "3b1a575ace53e1a40a1770d43511ac8a646d6723a57cbe9c5fb5876aefc9f6a0",
+        "bytes": 744618
+      },
+      "renders/v2/14-musica.m4a": {
+        "sha256": "6b9d51e4a400abb18d830db64d66f605220bf55083e8140ddec44f0fcc9ce188",
+        "bytes": 564954
+      },
+      "renders/v2/14-efectos.m4a": {
+        "sha256": "d282bcbc6ef0ced9e593c2480696ced970799bcddcd81132f37ac998871563dc",
+        "bytes": 28017
+      }
+    },
+    "nonzero_rms": {
+      "voice": 0.0823011140474135,
+      "music": 0.002031468300205931,
+      "sfx": 0.002004107875777272,
+      "mix": 0.08235641280441655
+    },
+    "sfx_hook": "pass",
+    "sfx_identities": 3,
+    "native_playback": "pending",
+    "human_listening": "por confirmar",
+    "elapsed_mix_seconds": 2.08
+  },
+  {
+    "id": "largo-53",
+    "title": "Retrabajo acelerado",
+    "duration_s": 52.93,
+    "voice_kind": "Kokoro ef_dora",
+    "native_duration_s": 52.93,
+    "terminal_silence_padding_s": 0.0,
+    "source": "NUEVO-EXPLAINER-HYPERFRAMES-2026-09-26/videos/retrabajo-acelerado/assets/audio/voice-generic-kokoro-master.wav",
+    "source_sha256": "498b2f0cfa8375abc15e1f6b358337fa47ba09121e172f5811aa8a6299c91d47",
+    "voice_fixed_gain_db": -4.8100000000000005,
+    "global_headroom_gain_db": 0.0,
+    "aac_correction_db": 0,
+    "voice_change": "Solo ganancia constante compartida con control. Sin alterar palabras/ritmo/timbre.",
+    "direction": "Dos temas: mecanismo en el bucle, groove práctico al explicar flujo y acción. Retirada en la tesis, contraste por sentido; la pregunta final respira.",
+    "chapters": [
+      [
+        0,
+        "El retrabajo"
+      ],
+      [
+        4.975,
+        "El bucle"
+      ],
+      [
+        16.378,
+        "Diseñar un flujo"
+      ],
+      [
+        33.311,
+        "La tesis"
+      ],
+      [
+        35.107,
+        "Prueba práctica"
+      ],
+      [
+        47.746,
+        "La pregunta"
+      ]
+    ],
+    "music_clips": [
+      {
+        "music": "neon",
+        "start": 0,
+        "end": 16.27,
+        "source_start": 45,
+        "relative_db_points": [
+          [
+            0,
+            -27
+          ],
+          [
+            0.45,
+            -21
+          ],
+          [
+            3.4,
+            -28
+          ],
+          [
+            4.8,
+            -22
+          ],
+          [
+            5.4,
+            -20
+          ],
+          [
+            7.7,
+            -24
+          ],
+          [
+            8.4,
+            -21
+          ],
+          [
+            10.2,
+            -27
+          ],
+          [
+            11.2,
+            -23
+          ],
+          [
+            13.8,
+            -28
+          ],
+          [
+            15.4,
+            -32
+          ],
+          [
+            16.27,
+            -60
+          ]
+        ],
+        "role": "El bucle tiene movimiento; se evita un golpe en cada verbo.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-prueba-ritmica/neon-no-melody.mp3",
+        "source_sha256": "af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d",
+        "excerpt_duration_s": 16.27,
+        "excerpt_rms_before_manual_dbfs": -20.438533533843703,
+        "normalization_gain_db": -1.0478099571576378
+      },
+      {
+        "music": "backbay",
+        "start": 18.98,
+        "end": 32.8,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            18.98,
+            -36
+          ],
+          [
+            19.5,
+            -23
+          ],
+          [
+            20.8,
+            -27
+          ],
+          [
+            23,
+            -25
+          ],
+          [
+            24.6,
+            -31
+          ],
+          [
+            25.3,
+            -27
+          ],
+          [
+            29.6,
+            -30
+          ],
+          [
+            31.8,
+            -34
+          ],
+          [
+            32.8,
+            -60
+          ]
+        ],
+        "role": "Sistema con espacio en la lista de requisitos.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+        "source_sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+        "excerpt_duration_s": 13.82,
+        "excerpt_rms_before_manual_dbfs": -20.43853354170709,
+        "normalization_gain_db": 5.033417414762638
+      },
+      {
+        "music": "backbay",
+        "start": 35.06,
+        "end": 52.93,
+        "source_start": 60,
+        "relative_db_points": [
+          [
+            35.06,
+            -36
+          ],
+          [
+            35.7,
+            -23
+          ],
+          [
+            38.4,
+            -29
+          ],
+          [
+            39.2,
+            -26
+          ],
+          [
+            42,
+            -29
+          ],
+          [
+            44,
+            -34
+          ],
+          [
+            46,
+            -28
+          ],
+          [
+            47.6,
+            -30
+          ],
+          [
+            49,
+            -33
+          ],
+          [
+            51.6,
+            -39
+          ],
+          [
+            52.93,
+            -60
+          ]
+        ],
+        "role": "Aplicación; retirada al diseñar primero el sistema y en cierre.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+        "source_sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+        "excerpt_duration_s": 17.87,
+        "excerpt_rms_before_manual_dbfs": -20.438533707131285,
+        "normalization_gain_db": 3.553424636801495
+      }
+    ],
+    "sfx_events": [
+      {
+        "start": 0.025,
+        "file": "01_airy_in.wav",
+        "reason": "Hook: apertura con aire.",
+        "target_relative_rms_db": -14,
+        "source": "Framework-Edicion-Social/library/sfx/01_airy_in.wav",
+        "source_sha256": "009df1cca7a9005c9857133283e10e1a1658a33b230c557dd2ea3f82e4f0fd67",
+        "duration_s": 0.44,
+        "gain_db": -7.718553378231057,
+        "peak_dbfs": -19.71855384623482,
+        "rms_dbfs": -33.6106799613663,
+        "voice_same_event_rms_dbfs": -18.744151117247778,
+        "voice_context_rms_dbfs": -19.610679812639283,
+        "band_relative_same_event_db": -15.172275260086812,
+        "peak_time_s": 0.23133333333333334
+      },
+      {
+        "start": 4.83,
+        "file": "03_ui_tick.wav",
+        "reason": "Comienza el bucle en pausa.",
+        "target_relative_rms_db": -14,
+        "source": "Framework-Edicion-Social/library/sfx/03_ui_tick.wav",
+        "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+        "duration_s": 0.085,
+        "gain_db": -9.703996320567,
+        "peak_dbfs": -19.703995173233693,
+        "rms_dbfs": -39.00938051762213,
+        "voice_same_event_rms_dbfs": -240.0,
+        "voice_context_rms_dbfs": -25.00938076413343,
+        "band_relative_same_event_db": 200.08775453019328,
+        "peak_time_s": 4.832416666666667
+      },
+      {
+        "start": 10.96,
+        "file": "07_loop_return.wav",
+        "reason": "Bucle: un retorno, no cuatro impactos.",
+        "target_relative_rms_db": -16,
+        "source": "Framework-Edicion-Social/library/sfx/07_loop_return.wav",
+        "source_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+        "duration_s": 0.48,
+        "gain_db": -13.87234304733823,
+        "peak_dbfs": -27.8723450036904,
+        "rms_dbfs": -39.04701661831362,
+        "voice_same_event_rms_dbfs": -22.354524519655016,
+        "voice_context_rms_dbfs": -23.04701651567385,
+        "band_relative_same_event_db": -15.375796292426182,
+        "peak_time_s": 11.226458333333333
+      },
+      {
+        "start": 19.01,
+        "file": "08_resolve.wav",
+        "reason": "Del bucle al flujo definido.",
+        "target_relative_rms_db": -17,
+        "source": "Framework-Edicion-Social/library/sfx/08_resolve.wav",
+        "source_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+        "duration_s": 0.84,
+        "gain_db": -8.541034146202083,
+        "peak_dbfs": -23.541039115096215,
+        "rms_dbfs": -38.29443359166249,
+        "voice_same_event_rms_dbfs": -20.29776349651335,
+        "voice_context_rms_dbfs": -21.2944337235106,
+        "band_relative_same_event_db": -14.38081706172449,
+        "peak_time_s": 19.14379166666667
+      },
+      {
+        "start": 33.04,
+        "file": "05_low_accent.wav",
+        "reason": "Tesis retrabajo acelerado, precedida de pausa.",
+        "target_relative_rms_db": -16,
+        "source": "Framework-Edicion-Social/library/sfx/05_low_accent.wav",
+        "source_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+        "duration_s": 0.34,
+        "gain_db": -12.195430354248495,
+        "peak_dbfs": -24.195430424200488,
+        "rms_dbfs": -38.88088570068521,
+        "voice_same_event_rms_dbfs": -29.10265437198931,
+        "voice_context_rms_dbfs": -22.880885935132774,
+        "band_relative_same_event_db": -23.006430068732158,
+        "peak_time_s": 33.044270833333336
+      },
+      {
+        "start": 34.91,
+        "file": "04_soft_pop.wav",
+        "reason": "Prueba práctica.",
+        "target_relative_rms_db": -15,
+        "source": "Framework-Edicion-Social/library/sfx/04_soft_pop.wav",
+        "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+        "duration_s": 0.16,
+        "gain_db": -15.546273936432959,
+        "peak_dbfs": -25.546276170143138,
+        "rms_dbfs": -38.86596440462678,
+        "voice_same_event_rms_dbfs": -240.0,
+        "voice_context_rms_dbfs": -23.86596454578568,
+        "band_relative_same_event_db": 201.06044808119987,
+        "peak_time_s": 34.913916666666665
+      },
+      {
+        "start": 47.57,
+        "file": "03_ui_tick.wav",
+        "reason": "Pregunta final sin crescendo.",
+        "target_relative_rms_db": -17,
+        "source": "Framework-Edicion-Social/library/sfx/03_ui_tick.wav",
+        "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+        "duration_s": 0.085,
+        "gain_db": -13.32589528235248,
+        "peak_dbfs": -23.32589451284963,
+        "rms_dbfs": -42.63127962125143,
+        "voice_same_event_rms_dbfs": -240.0,
+        "voice_context_rms_dbfs": -25.63127972591891,
+        "band_relative_same_event_db": 196.46585541687497,
+        "peak_time_s": 47.57241666666667
+      }
+    ],
+    "processing_music_only": {
+      "highpass_hz": 70,
+      "lowpass_hz": 9000,
+      "subtract_band_hz": [
+        400,
+        4000
+      ],
+      "band_subtraction_fraction": 0.6,
+      "secondary_downward_only_db_range": [
+        -15,
+        0
+      ],
+      "voice_band_margin_target_db": 14,
+      "soft_word_gain_used_db_min": -13.15
+    },
+    "mix_loudness_aac": {
+      "input_i": -18.01,
+      "input_tp": -6.11,
+      "input_lra": 1.1,
+      "input_thresh": -28.07
+    },
+    "aac_pcm_correlation": 0.9999806812276262,
+    "stems_sum_max_abs_error": 2.384185791015625e-07,
+    "voice_constant_gain_max_abs_error": 0.0,
+    "files": {
+      "renders/v2/largo-53-mezcla.wav": {
+        "sha256": "9699add3f79d14fc0711ad6696f9c621b1064795e84f1c05c510f479c88a1ac3",
+        "bytes": 15243884
+      },
+      "renders/v2/largo-53-mezcla.m4a": {
+        "sha256": "516e9c93c3a0135b8322d942b3558a27c14b6147d0b9df6ca3e82fb7dd431a35",
+        "bytes": 1635010
+      },
+      "renders/v2/largo-53-voz-sola.wav": {
+        "sha256": "845d7d20e233fa7dc724616ff6e561285f168976bf0b63cc6e7e9671b5dc9b4f",
+        "bytes": 15243884
+      },
+      "renders/v2/largo-53-musica.wav": {
+        "sha256": "fc5cdc7ec39528ca49d6bd2fe24a9591c31a86b8c52b6a4652b608186cfefb58",
+        "bytes": 15243884
+      },
+      "renders/v2/largo-53-efectos.wav": {
+        "sha256": "122c7737f4a601033b144766fe92ebb01d4997fae028c67895d56557d8585f78",
+        "bytes": 15243884
+      },
+      "renders/v1/largo-53-mezcla.wav": {
+        "sha256": "da98ee9b3753a3da7b43d418a954ccd6961f6593d55dad9c2b4918ebd433bdad",
+        "bytes": 15243884
+      },
+      "renders/v2/largo-53-voz-sola.m4a": {
+        "sha256": "354939c777646eaada9f14b7a0e1a4968e69fcb156e89ba9337518b62f674ff2",
+        "bytes": 1526622
+      },
+      "renders/v2/largo-53-musica.m4a": {
+        "sha256": "9d135c08a3717b82c05ea298bbf459f76b448040254e9e958ddd061c4a33cd56",
+        "bytes": 1483438
+      },
+      "renders/v2/largo-53-efectos.m4a": {
+        "sha256": "3e06bdce4d5419721bf6d13106181eedd8bc55fd2c657c09c2f49280ed89061d",
+        "bytes": 67952
+      }
+    },
+    "nonzero_rms": {
+      "voice": 0.0886943861645856,
+      "music": 0.0028745856631442004,
+      "sfx": 0.0029347093570427953,
+      "mix": 0.08879460687180254
+    },
+    "sfx_hook": "pass",
+    "sfx_identities": 6,
+    "native_playback": "pending",
+    "human_listening": "por confirmar",
+    "elapsed_mix_seconds": 4.4
+  },
+  {
+    "id": "largo-159",
+    "title": "De atención a ventas",
+    "duration_s": 158.798,
+    "voice_kind": "HeyGen Lenny guía, no clon del usuario",
+    "native_duration_s": 158.798,
+    "terminal_silence_padding_s": 0.0,
+    "source": "Serie-IA-Negocios-10-Videos/VIDEO-LARGO-01-15-2026-09-26/VERSION-05-SUBTITULOS-Y-RECURSOS-FOTOGRAFICOS-2026-09-27/montaje-visual-hyperframes/assets/voice-guide/VOZ_GUIA_COMPLETA_NORMALIZADA.wav",
+    "source_sha256": "c825bdda82007a0f60c46777bf95c0dd8e9669c045666d4612af1bbae8432f94",
+    "voice_fixed_gain_db": -4.68,
+    "global_headroom_gain_db": 0.0,
+    "aac_correction_db": 0,
+    "voice_change": "Solo ganancia constante compartida con control. Sin alterar palabras/ritmo/timbre.",
+    "direction": "Cuatro recursos, tres funciones: contraste/mecanismo (Cipher y Neon), conversación/evidencia (Clean Soul), acción (Backbay). Los temas se transforman; no ocho canciones para ocho actos.",
+    "chapters": [
+      [
+        0,
+        "Atención o ventas"
+      ],
+      [
+        24.33,
+        "El cliente"
+      ],
+      [
+        37.236,
+        "La evidencia"
+      ],
+      [
+        59.005,
+        "Tu ventaja"
+      ],
+      [
+        83.449,
+        "El criterio"
+      ],
+      [
+        93.365,
+        "El riesgo"
+      ],
+      [
+        120.909,
+        "La acción"
+      ],
+      [
+        146.047,
+        "La pregunta correcta"
+      ]
+    ],
+    "music_clips": [
+      {
+        "music": "cipher",
+        "start": 0,
+        "end": 24.4,
+        "source_start": 27,
+        "relative_db_points": [
+          [
+            0,
+            -28
+          ],
+          [
+            0.5,
+            -22
+          ],
+          [
+            2,
+            -27
+          ],
+          [
+            4.7,
+            -32
+          ],
+          [
+            6,
+            -26
+          ],
+          [
+            8.5,
+            -31
+          ],
+          [
+            9.6,
+            -27
+          ],
+          [
+            12.8,
+            -32
+          ],
+          [
+            13.5,
+            -23
+          ],
+          [
+            17.3,
+            -29
+          ],
+          [
+            18.7,
+            -24
+          ],
+          [
+            22,
+            -31
+          ],
+          [
+            23.8,
+            -35
+          ],
+          [
+            24.4,
+            -60
+          ]
+        ],
+        "role": "Abrir problema, sin tono épico ni golpes para cada negación.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/cipher.mp3",
+        "source_sha256": "d3d0614535a61d748e2fd8d5117fc4d781022a7624794802a2462d8af3fdd522",
+        "excerpt_duration_s": 24.4,
+        "excerpt_rms_before_manual_dbfs": -21.54230306975594,
+        "normalization_gain_db": -0.13774083656857627
+      },
+      {
+        "music": "clean",
+        "start": 24.16,
+        "end": 58.95,
+        "source_start": 31,
+        "relative_db_points": [
+          [
+            24.16,
+            -40
+          ],
+          [
+            25.2,
+            -23
+          ],
+          [
+            27,
+            -29
+          ],
+          [
+            28.4,
+            -25
+          ],
+          [
+            31,
+            -28
+          ],
+          [
+            33,
+            -30
+          ],
+          [
+            34,
+            -27
+          ],
+          [
+            36.7,
+            -33
+          ],
+          [
+            38,
+            -25
+          ],
+          [
+            41.8,
+            -31
+          ],
+          [
+            43.6,
+            -27
+          ],
+          [
+            47.8,
+            -31
+          ],
+          [
+            49.2,
+            -24
+          ],
+          [
+            52,
+            -29
+          ],
+          [
+            54.4,
+            -26
+          ],
+          [
+            57.6,
+            -34
+          ],
+          [
+            58.95,
+            -60
+          ]
+        ],
+        "role": "Cambio a persona/evidencia; textura ligera sin drone continuo.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/clean-soul.mp3",
+        "source_sha256": "458868c225cf8f6dbaf17300aa2e0839386991be8581d0218554699297d7581c",
+        "excerpt_duration_s": 34.79,
+        "excerpt_rms_before_manual_dbfs": -21.542303230171015,
+        "normalization_gain_db": 8.275532921609862
+      },
+      {
+        "music": "backbay",
+        "start": 58.98,
+        "end": 83.3,
+        "source_start": 38,
+        "relative_db_points": [
+          [
+            58.98,
+            -38
+          ],
+          [
+            60,
+            -24
+          ],
+          [
+            61.6,
+            -27
+          ],
+          [
+            65,
+            -24
+          ],
+          [
+            68.5,
+            -29
+          ],
+          [
+            70.1,
+            -31
+          ],
+          [
+            73.4,
+            -34
+          ],
+          [
+            74.2,
+            -29
+          ],
+          [
+            78,
+            -27
+          ],
+          [
+            82,
+            -34
+          ],
+          [
+            83.3,
+            -60
+          ]
+        ],
+        "role": "Conocimiento propio y activo reutilizable; pequeño avance, sin triunfo.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+        "source_sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+        "excerpt_duration_s": 24.32,
+        "excerpt_rms_before_manual_dbfs": -21.542302918499246,
+        "normalization_gain_db": 3.1049824837250823
+      },
+      {
+        "music": "neon",
+        "start": 93.31,
+        "end": 120.77,
+        "source_start": 70,
+        "relative_db_points": [
+          [
+            93.31,
+            -38
+          ],
+          [
+            94.1,
+            -25
+          ],
+          [
+            96.2,
+            -30
+          ],
+          [
+            97.3,
+            -26
+          ],
+          [
+            100,
+            -27
+          ],
+          [
+            104,
+            -31
+          ],
+          [
+            107,
+            -33
+          ],
+          [
+            108.2,
+            -27
+          ],
+          [
+            112,
+            -31
+          ],
+          [
+            115.4,
+            -35
+          ],
+          [
+            116.2,
+            -32
+          ],
+          [
+            118.7,
+            -37
+          ],
+          [
+            120.77,
+            -60
+          ]
+        ],
+        "role": "Advertencia: pulso de mecanismo, nunca drama intenso.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-prueba-ritmica/neon-no-melody.mp3",
+        "source_sha256": "af7941fc927b68268bc8227342b7d6b6543da8a6ae097cd091244b84b1e7725d",
+        "excerpt_duration_s": 27.46,
+        "excerpt_rms_before_manual_dbfs": -21.542303073034596,
+        "normalization_gain_db": -3.7126651588965536
+      },
+      {
+        "music": "backbay",
+        "start": 120.8,
+        "end": 145.96,
+        "source_start": 70,
+        "relative_db_points": [
+          [
+            120.8,
+            -40
+          ],
+          [
+            121.7,
+            -24
+          ],
+          [
+            125.6,
+            -29
+          ],
+          [
+            127,
+            -25
+          ],
+          [
+            132,
+            -29
+          ],
+          [
+            135.5,
+            -32
+          ],
+          [
+            136.8,
+            -23
+          ],
+          [
+            140.5,
+            -30
+          ],
+          [
+            141.8,
+            -40
+          ],
+          [
+            142.35,
+            -50
+          ],
+          [
+            143.35,
+            -38
+          ],
+          [
+            145.96,
+            -60
+          ]
+        ],
+        "role": "Acción concreta; retirada en una sola y medir antes de automatizar.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/backbay-lounge.mp3",
+        "source_sha256": "9567e71a213b0026341b2c0ecd226950e7653abd235cf520fb9aee4247d74d96",
+        "excerpt_duration_s": 25.16,
+        "excerpt_rms_before_manual_dbfs": -21.54230270026722,
+        "normalization_gain_db": 1.3529459110584559
+      },
+      {
+        "music": "clean",
+        "start": 146.2,
+        "end": 158.798,
+        "source_start": 69,
+        "relative_db_points": [
+          [
+            146.2,
+            -43
+          ],
+          [
+            147,
+            -31
+          ],
+          [
+            149,
+            -34
+          ],
+          [
+            150,
+            -29
+          ],
+          [
+            152.8,
+            -33
+          ],
+          [
+            156,
+            -37
+          ],
+          [
+            157.5,
+            -42
+          ],
+          [
+            158.798,
+            -60
+          ]
+        ],
+        "role": "Pregunta: leve soporte, cola controlada.",
+        "source": "Framework-Edicion-Social/library/music/candidates/2026-09-30-mezclas-contexto/clean-soul.mp3",
+        "source_sha256": "458868c225cf8f6dbaf17300aa2e0839386991be8581d0218554699297d7581c",
+        "excerpt_duration_s": 12.598,
+        "excerpt_rms_before_manual_dbfs": -21.54230274320621,
+        "normalization_gain_db": 7.790642764938714
+      }
+    ],
+    "sfx_events": [
+      {
+        "start": 0.025,
+        "file": "04_soft_pop.wav",
+        "reason": "Hook: atención/ventas.",
+        "target_relative_rms_db": -14,
+        "source": "Framework-Edicion-Social/library/sfx/04_soft_pop.wav",
+        "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+        "duration_s": 0.16,
+        "gain_db": -14.023177123528374,
+        "peak_dbfs": -24.02317920198087,
+        "rms_dbfs": -37.34286774732417,
+        "voice_same_event_rms_dbfs": -63.44366643927734,
+        "voice_context_rms_dbfs": -23.342867732881096,
+        "band_relative_same_event_db": 27.722819788350115,
+        "peak_time_s": 0.028916666666666667
+      },
+      {
+        "start": 13.12,
+        "file": "03_ui_tick.wav",
+        "reason": "Contenido genérico, cambia el argumento.",
+        "target_relative_rms_db": -16,
+        "source": "Framework-Edicion-Social/library/sfx/03_ui_tick.wav",
+        "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+        "duration_s": 0.085,
+        "gain_db": -13.429664658187782,
+        "peak_dbfs": -23.429663695972337,
+        "rms_dbfs": -42.73504926531511,
+        "voice_same_event_rms_dbfs": -55.21633163250946,
+        "voice_context_rms_dbfs": -26.73504910175421,
+        "band_relative_same_event_db": 11.977251593710223,
+        "peak_time_s": 13.122416666666666
+      },
+      {
+        "start": 24.2,
+        "file": "02_soft_whoosh.wav",
+        "reason": "De herramienta a cliente.",
+        "target_relative_rms_db": -16,
+        "source": "Framework-Edicion-Social/library/sfx/02_soft_whoosh.wav",
+        "source_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+        "duration_s": 0.3,
+        "gain_db": -17.275479102869397,
+        "peak_dbfs": -29.275483611088646,
+        "rms_dbfs": -42.73504948313559,
+        "voice_same_event_rms_dbfs": -68.72367236747489,
+        "voice_context_rms_dbfs": -26.73504910175421,
+        "band_relative_same_event_db": 36.114484068401374,
+        "peak_time_s": 24.331166666666665
+      },
+      {
+        "start": 37.06,
+        "file": "03_ui_tick.wav",
+        "reason": "Entrada de evidencia.",
+        "target_relative_rms_db": -16,
+        "source": "Framework-Edicion-Social/library/sfx/03_ui_tick.wav",
+        "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+        "duration_s": 0.085,
+        "gain_db": -13.429664658187782,
+        "peak_dbfs": -23.429663695972337,
+        "rms_dbfs": -42.73504926531511,
+        "voice_same_event_rms_dbfs": -67.2580130255047,
+        "voice_context_rms_dbfs": -26.73504910175421,
+        "band_relative_same_event_db": 63.6791364895183,
+        "peak_time_s": 37.06241666666667
+      },
+      {
+        "start": 58.94,
+        "file": "08_resolve.wav",
+        "reason": "Conocimiento del negocio.",
+        "target_relative_rms_db": -18,
+        "source": "Framework-Edicion-Social/library/sfx/08_resolve.wav",
+        "source_sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7",
+        "duration_s": 0.84,
+        "gain_db": -10.343869448892097,
+        "peak_dbfs": -25.3438749480812,
+        "rms_dbfs": -40.09726941800147,
+        "voice_same_event_rms_dbfs": -22.181385301926436,
+        "voice_context_rms_dbfs": -22.097269026200614,
+        "band_relative_same_event_db": -14.417140916535388,
+        "peak_time_s": 59.073791666666665
+      },
+      {
+        "start": 83.32,
+        "file": "05_low_accent.wav",
+        "reason": "Criterio al frente; música retirada.",
+        "target_relative_rms_db": -17,
+        "source": "Framework-Edicion-Social/library/sfx/05_low_accent.wav",
+        "source_sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10",
+        "duration_s": 0.34,
+        "gain_db": -17.04959352086993,
+        "peak_dbfs": -29.049593458439404,
+        "rms_dbfs": -43.735049224237585,
+        "voice_same_event_rms_dbfs": -68.90298678255408,
+        "voice_context_rms_dbfs": -26.73504910175421,
+        "band_relative_same_event_db": 39.041361267589,
+        "peak_time_s": 83.32427083333333
+      },
+      {
+        "start": 93.27,
+        "file": "07_loop_return.wav",
+        "reason": "Advertencia sobre procesos.",
+        "target_relative_rms_db": -17,
+        "source": "Framework-Edicion-Social/library/sfx/07_loop_return.wav",
+        "source_sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1",
+        "duration_s": 0.48,
+        "gain_db": -14.926445095852088,
+        "peak_dbfs": -28.92644687534627,
+        "rms_dbfs": -40.10111837889,
+        "voice_same_event_rms_dbfs": -36.38743186761355,
+        "voice_context_rms_dbfs": -23.10111856418771,
+        "band_relative_same_event_db": 5.3133513614444325,
+        "peak_time_s": 93.53645833333333
+      },
+      {
+        "start": 120.8,
+        "file": "02_soft_whoosh.wav",
+        "reason": "De riesgo a aplicación.",
+        "target_relative_rms_db": -17,
+        "source": "Framework-Edicion-Social/library/sfx/02_soft_whoosh.wav",
+        "source_sha256": "897f36ffd059729a8c0f42eb8b76de9583f4b59c281f0ffe8b01dfac5a24f457",
+        "duration_s": 0.3,
+        "gain_db": -18.275479102869394,
+        "peak_dbfs": -30.275483551691067,
+        "rms_dbfs": -43.735049287336494,
+        "voice_same_event_rms_dbfs": -59.46987851476035,
+        "voice_context_rms_dbfs": -26.73504910175421,
+        "band_relative_same_event_db": 14.26839299221362,
+        "peak_time_s": 120.93116666666667
+      },
+      {
+        "start": 142.22,
+        "file": "04_soft_pop.wav",
+        "reason": "Una sola: acento en pausa, sin música.",
+        "target_relative_rms_db": -16,
+        "source": "Framework-Edicion-Social/library/sfx/04_soft_pop.wav",
+        "source_sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67",
+        "duration_s": 0.16,
+        "gain_db": -19.415358492401488,
+        "peak_dbfs": -29.415360888492152,
+        "rms_dbfs": -42.73504926491473,
+        "voice_same_event_rms_dbfs": -66.84625881462651,
+        "voice_context_rms_dbfs": -26.73504910175421,
+        "band_relative_same_event_db": 64.1299376676803,
+        "peak_time_s": 142.22391666666667
+      },
+      {
+        "start": 145.98,
+        "file": "03_ui_tick.wav",
+        "reason": "Regreso a la pregunta correcta.",
+        "target_relative_rms_db": -18,
+        "source": "Framework-Edicion-Social/library/sfx/03_ui_tick.wav",
+        "source_sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088",
+        "duration_s": 0.085,
+        "gain_db": -15.42966465818778,
+        "peak_dbfs": -25.429663760591534,
+        "rms_dbfs": -44.735048884260856,
+        "voice_same_event_rms_dbfs": -66.23490907334318,
+        "voice_context_rms_dbfs": -26.73504910175421,
+        "band_relative_same_event_db": 61.772535351711866,
+        "peak_time_s": 145.98241666666667
+      }
+    ],
+    "processing_music_only": {
+      "highpass_hz": 70,
+      "lowpass_hz": 9000,
+      "subtract_band_hz": [
+        400,
+        4000
+      ],
+      "band_subtraction_fraction": 0.6,
+      "secondary_downward_only_db_range": [
+        -15,
+        0
+      ],
+      "voice_band_margin_target_db": 14,
+      "soft_word_gain_used_db_min": -9.89
+    },
+    "mix_loudness_aac": {
+      "input_i": -18.01,
+      "input_tp": -5.97,
+      "input_lra": 2.9,
+      "input_thresh": -28.7
+    },
+    "aac_pcm_correlation": 0.9999927303375976,
+    "stems_sum_max_abs_error": 2.384185791015625e-07,
+    "voice_constant_gain_max_abs_error": 0.0,
+    "files": {
+      "renders/v2/largo-159-mezcla.wav": {
+        "sha256": "14149133226a9186cf5243b345f56cd2748aed6c2d72b7d9210142f29aa27f9d",
+        "bytes": 45733868
+      },
+      "renders/v2/largo-159-mezcla.m4a": {
+        "sha256": "b8ad0b713998ce7d58c81b9b68982849094ef54e6783fb5e1030423ef6048ed1",
+        "bytes": 4945458
+      },
+      "renders/v2/largo-159-voz-sola.wav": {
+        "sha256": "29e7a580bc2d12a31ff284a10d502d6ae1fba3159df5bd1d9124e6adb59f9d1b",
+        "bytes": 45733868
+      },
+      "renders/v2/largo-159-musica.wav": {
+        "sha256": "c1171b2475888f0d4b724abe0d2f9b952a80b6763b701ace93476e5a95326960",
+        "bytes": 45733868
+      },
+      "renders/v2/largo-159-efectos.wav": {
+        "sha256": "59eb6051917a1c6b8fc25c0d28fb939234acade0d3416e891f624f2841ec8c8c",
+        "bytes": 45733868
+      },
+      "renders/v1/largo-159-mezcla.wav": {
+        "sha256": "ce34c5707eb3bc364b11a955246e04057b3a2863ca8fed525bf0acf34901f3a3",
+        "bytes": 45733868
+      },
+      "renders/v2/largo-159-voz-sola.m4a": {
+        "sha256": "67c85e5299fc3def1125e159d043d588665f5bd7be74e56b31eeda021a38ad3e",
+        "bytes": 4827226
+      },
+      "renders/v2/largo-159-musica.m4a": {
+        "sha256": "d266e465ef0f99e7e2ce8788b214b3916c5036348fd2d01efc44ba9835365701",
+        "bytes": 4549933
+      },
+      "renders/v2/largo-159-efectos.m4a": {
+        "sha256": "5a9b70090b07bd26a2ed24e3d56439be267deacc8142752976379dd15f50bc31",
+        "bytes": 126828
+      }
+    },
+    "nonzero_rms": {
+      "voice": 0.08725607512887804,
+      "music": 0.002276324288968943,
+      "sfx": 0.001182465687583431,
+      "mix": 0.08729453016102418
+    },
+    "sfx_hook": "pass",
+    "sfx_identities": 6,
+    "native_playback": "pending",
+    "human_listening": "por confirmar",
+    "elapsed_mix_seconds": 12.43
+  }
+]

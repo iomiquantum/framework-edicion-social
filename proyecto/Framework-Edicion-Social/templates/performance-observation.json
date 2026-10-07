@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "observation_id": "OBS-F774553953D2D4B4",
+  "project_id": "PROJECT-EXAMPLE",
+  "video_id": "VIDEO-01",
+  "publication_id": "PUB-EXAMPLE-01",
+  "platform": "instagram",
+  "surface": "reels_organic",
+  "lineage": {
+    "publication_record_id": "PUBREC-CACFEAC6E46525C5",
+    "publication_registry_id": "PUBLICATION-REGISTRY-MAIN",
+    "publication_registry_sha256": "7777777777777777777777777777777777777777777777777777777777777777",
+    "package_id": "PUBLISH-VIDEO-01-TEMPLATE",
+    "package_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+    "target_profile_id": "PLATFORM-INSTAGRAM-REELS-ORGANIC-001",
+    "delivery_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+    "delivery_check_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+    "publication_evidence_sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+    "verification_status": "verified_ready_delivery"
+  },
+  "published_at": "2026-09-24T12:00:00Z",
+  "captured_at": "2026-09-25T12:00:00Z",
+  "window_hours": 24,
+  "window_tolerance_hours": 2,
+  "captured_elapsed_hours": 24,
+  "content": {
+    "duration_s": 30,
+    "primary_family_id": null,
+    "recipe_id": null,
+    "hook_id": null,
+    "structure_id": null,
+    "visual_system_id": null,
+    "motion_id": null,
+    "sound_id": null,
+    "cta_id": null,
+    "hybrid": false,
+    "contributing_family_ids": []
+  },
+  "creative_attribution": {
+    "path": "VIDEO-01/creative-attribution.json",
+    "sha256": "5555555555555555555555555555555555555555555555555555555555555555",
+    "attribution_id": "ATTR-0000000000000000"
+  },
+  "distribution": {
+    "traffic_source": "unknown",
+    "paid_spend": null,
+    "currency": null,
+    "campaign_objective": null,
+    "audience_segment": null,
+    "followers_at_publish": null,
+    "publish_slot": null,
+    "account_id": "ACCOUNT-EXAMPLE",
+    "language": "es",
+    "topic_id": "TOPIC-EXAMPLE",
+    "campaign_id": null,
+    "publication_period": "2026-09"
+  },
+  "metrics": {
+    "impressions": null,
+    "reach": null,
+    "views": null,
+    "total_watch_time_s": null,
+    "average_watch_time_s": null,
+    "completion_rate": null,
+    "likes": null,
+    "comments": null,
+    "shares": null,
+    "saves": null,
+    "clicks": null,
+    "conversions": null
+  },
+  "evidence": {
+    "path": "VIDEO-01/metrics-24h.json",
+    "sha256": "6666666666666666666666666666666666666666666666666666666666666666",
+    "type": "local_record",
+    "integrity_scope": "local_artifact_integrity_only",
+    "authenticity_notice": "SHA-256 proves integrity of the local evidence artifact, not authenticity or completeness of the remote platform data."
+  },
+  "derived": {
+    "average_watch_ratio": null,
+    "shares_per_reach": null,
+    "saves_per_reach": null,
+    "engagements_per_reach": null,
+    "clicks_per_reach": null
+  },
+  "confounders": [],
+  "source_reference": "manual:replace-with-export-or-screenshot-reference",
+  "governance": {
+    "causal_claim_allowed": false,
+    "automatic_rule_promotion": false,
+    "human_review_required": true
+  }
+}

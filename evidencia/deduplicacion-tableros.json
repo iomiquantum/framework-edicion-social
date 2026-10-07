@@ -1,0 +1,644 @@
+{
+  "removed_copies": [
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-01_EDITORIAL-IMPRESO/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-01_EDITORIAL-IMPRESO/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-01_EDITORIAL-IMPRESO/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-01_EDITORIAL-IMPRESO/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-02_INTERNET-NATIVO/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-02_INTERNET-NATIVO/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-02_INTERNET-NATIVO/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-02_INTERNET-NATIVO/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-03_MINIDOCUMENTAL-HUMANO/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-03_MINIDOCUMENTAL-HUMANO/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-03_MINIDOCUMENTAL-HUMANO/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-03_MINIDOCUMENTAL-HUMANO/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-04_SISTEMA-CLARO/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-04_SISTEMA-CLARO/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-04_SISTEMA-CLARO/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-04_SISTEMA-CLARO/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-05_COMIC-POP/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-05_COMIC-POP/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-05_COMIC-POP/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-05_COMIC-POP/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-06_CONFESION-CRUDA/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-06_CONFESION-CRUDA/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-06_CONFESION-CRUDA/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-06_CONFESION-CRUDA/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-07_CASO-ABIERTO/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-07_CASO-ABIERTO/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-07_CASO-ABIERTO/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-07_CASO-ABIERTO/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-08_DUELO-DE-IDEAS/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-08_DUELO-DE-IDEAS/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-08_DUELO-DE-IDEAS/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-08_DUELO-DE-IDEAS/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-09_MANIFIESTO-DE-AUTOR/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-09_MANIFIESTO-DE-AUTOR/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-09_MANIFIESTO-DE-AUTOR/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-09_MANIFIESTO-DE-AUTOR/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-10_RETO-DE-AUTOR/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-10_RETO-DE-AUTOR/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-10_RETO-DE-AUTOR/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-10_RETO-DE-AUTOR/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-11_REALIDAD-DEFORMADA/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-11_REALIDAD-DEFORMADA/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-11_REALIDAD-DEFORMADA/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-11_REALIDAD-DEFORMADA/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-12_PROMPT-PLAYGROUND/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-12_PROMPT-PLAYGROUND/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-12_PROMPT-PLAYGROUND/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-12_PROMPT-PLAYGROUND/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-13_EXPLORECORE/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-13_EXPLORECORE/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-13_EXPLORECORE/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-13_EXPLORECORE/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-14_TEXTURE-CHECK/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-14_TEXTURE-CHECK/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-14_TEXTURE-CHECK/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-14_TEXTURE-CHECK/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-15_NOTES-APP-CHIC/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-15_NOTES-APP-CHIC/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-15_NOTES-APP-CHIC/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-15_NOTES-APP-CHIC/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-16_OPT-OUT/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-16_OPT-OUT/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-16_OPT-OUT/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-16_OPT-OUT/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-17_DRAMA-CLUB/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-17_DRAMA-CLUB/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-17_DRAMA-CLUB/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-17_DRAMA-CLUB/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-18_ROTULO-POPULAR/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-18_ROTULO-POPULAR/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-18_ROTULO-POPULAR/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-18_ROTULO-POPULAR/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-19_PIXEL-QUEST/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-19_PIXEL-QUEST/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-19_PIXEL-QUEST/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-19_PIXEL-QUEST/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-20_JARDIN-DE-IDEAS/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-20_JARDIN-DE-IDEAS/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-20_JARDIN-DE-IDEAS/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-20_JARDIN-DE-IDEAS/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-21_RUTA-DE-FOCO/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-21_RUTA-DE-FOCO/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-21_RUTA-DE-FOCO/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-21_RUTA-DE-FOCO/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-22_CAMINO-PREDECIBLE/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-22_CAMINO-PREDECIBLE/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-22_CAMINO-PREDECIBLE/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-22_CAMINO-PREDECIBLE/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-23_PAUSA-SENSORIAL/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-23_PAUSA-SENSORIAL/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-23_PAUSA-SENSORIAL/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-23_PAUSA-SENSORIAL/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-24_CONTRASTE-XL/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-24_CONTRASTE-XL/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-24_CONTRASTE-XL/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-24_CONTRASTE-XL/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-25_FORMA-MAS-SENAL/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-25_FORMA-MAS-SENAL/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-25_FORMA-MAS-SENAL/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-25_FORMA-MAS-SENAL/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-26_LECTURA-FACIL/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-26_LECTURA-FACIL/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-26_LECTURA-FACIL/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-26_LECTURA-FACIL/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-27_SUBTITULO-PRIMERO/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-27_SUBTITULO-PRIMERO/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-27_SUBTITULO-PRIMERO/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-27_SUBTITULO-PRIMERO/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-28_AUDIO-GUIA/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-28_AUDIO-GUIA/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-28_AUDIO-GUIA/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-28_AUDIO-GUIA/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-29_RITMO-Y-RECUERDO/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-29_RITMO-Y-RECUERDO/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-29_RITMO-Y-RECUERDO/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-29_RITMO-Y-RECUERDO/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-30_MULTIPLES-PUERTAS/assets/presentador-01.jpg",
+      "bytes": 164892,
+      "sha256": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-30_MULTIPLES-PUERTAS/assets/presentador-02.jpg",
+      "bytes": 164173,
+      "sha256": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-30_MULTIPLES-PUERTAS/assets/presentador-03.jpg",
+      "bytes": 166555,
+      "sha256": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d"
+    },
+    {
+      "path": "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-30_MULTIPLES-PUERTAS/assets/video-11-collage.png",
+      "bytes": 2524324,
+      "sha256": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+    }
+  ],
+  "shared_files": {
+    "presentador-01.jpg": "c2e4cb3049d5c8a1597c68851799b79786cbf40240dc411b3456ff1e0bb07ccb",
+    "presentador-02.jpg": "af1a3928ce3544709acefe492bcf8dfca8622c173fa36c606ee294610fb86603",
+    "presentador-03.jpg": "66c416f0baf2a9a46bd3dcd5a5f2a2d237a3af6684e9df9b0325b5e0fdf5672d",
+    "video-11-collage.png": "8568b3c01804ad29fa3fc3fb3798715cbabeed4d8b91a11612e25c1e0d1d9e35"
+  },
+  "changed_references_only": [
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-05_COMIC-POP/propuesta-05.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-04_SISTEMA-CLARO/propuesta-04.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-01_EDITORIAL-IMPRESO/propuesta-01.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-28_AUDIO-GUIA/propuesta-28.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-07_CASO-ABIERTO/propuesta-07.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-02_INTERNET-NATIVO/propuesta-02.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-16_OPT-OUT/propuesta-16.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-10_RETO-DE-AUTOR/propuesta-10.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-30_MULTIPLES-PUERTAS/propuesta-30.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-19_PIXEL-QUEST/propuesta-19.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-17_DRAMA-CLUB/propuesta-17.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-26_LECTURA-FACIL/propuesta-26.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-18_ROTULO-POPULAR/propuesta-18.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-15_NOTES-APP-CHIC/propuesta-15.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-29_RITMO-Y-RECUERDO/propuesta-29.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-23_PAUSA-SENSORIAL/propuesta-23.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-27_SUBTITULO-PRIMERO/propuesta-27.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-21_RUTA-DE-FOCO/propuesta-21.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-11_REALIDAD-DEFORMADA/propuesta-11.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-13_EXPLORECORE/propuesta-13.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-03_MINIDOCUMENTAL-HUMANO/propuesta-03.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-24_CONTRASTE-XL/propuesta-24.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-25_FORMA-MAS-SENAL/propuesta-25.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-09_MANIFIESTO-DE-AUTOR/propuesta-09.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-20_JARDIN-DE-IDEAS/propuesta-20.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-12_PROMPT-PLAYGROUND/propuesta-12.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-08_DUELO-DE-IDEAS/propuesta-08.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-14_TEXTURE-CHECK/propuesta-14.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/OPCION-06_CONFESION-CRUDA/propuesta-06.svg",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/generar_propuestas_11_20.js",
+    "proyecto/Serie-IA-Negocios-10-Videos/PROPUESTAS-ESTRUCTURA/generar_propuestas_21_30.js"
+  ],
+  "pixels_changed": false
+}

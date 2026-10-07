@@ -1,0 +1,77 @@
+{
+  "created_at_utc": "2026-10-01T04:12:06.141909+00:00",
+  "controls": [
+    {
+      "id": "shared_ingest",
+      "required_evidence": "provisional/strict receipt hash current + take-map; ASR control; one shared ingest",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "start_receipt",
+      "required_evidence": "documents/hash, current profile frozen, initial decisions",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "fidelity_preassembly",
+      "required_evidence": "original board+catalog hashes, real voice/resource map, geometric mockup, conforme_para_montaje before full build",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "captions",
+      "required_evidence": "faithful words/timing, <=2 real lines, mobile legibility/spacing, protected face/hands",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "semantic_text",
+      "required_evidence": "all visible titles/context incl brief cards, no internal beat labels; gate PASS",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "audio_direction",
+      "required_evidence": "voice real/context metrics before selection, hook SFX, >=2 identities 20-30s, contemporaneous peaks/masking",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "render_wrapper",
+      "required_evidence": "text/SFX/preflight and authorization version preserved; no guard bypass",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "three_passes",
+      "required_evidence": "visual/editorial + audio/rhythm + final integration with scope/evidence",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "exact_mp4",
+      "required_evidence": "path/hash, decode, duration/codecs/color, all cues/support/cuts/closing, levels/channels/sync",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "asset_fit",
+      "required_evidence": "provenance/hash, image action/context/geometry, support duration and return",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "experimental_shadow",
+      "required_evidence": "additional F2/F3 audit same exact candidate, time separated and defects linked",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "delivery",
+      "required_evidence": "five concrete rendered files; subjective/human/platform approvals pending if absent",
+      "status": "not_run",
+      "evidence": null
+    }
+  ]
+}

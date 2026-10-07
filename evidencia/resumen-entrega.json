@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-06",
+  "edition": "light-portable",
+  "version": "2.1.0",
+  "same_directory_reduced": true,
+  "before_full_package_bytes": 18091121757,
+  "source_files": 1870,
+  "source_bytes": 220291620,
+  "design_templates": 30,
+  "code_references": 30,
+  "styles": 3,
+  "recipe_modules": 18,
+  "deduplicated_svg_fonts": 59,
+  "old_video_files_remaining": [],
+  "projects_registered": 0,
+  "mac_files_checked": 2405,
+  "mac_files_changed": [],
+  "tests": {
+    "platform": "Mac",
+    "framework": {
+      "passed": 329,
+      "log": "evidencia/tests-framework-ligero.log"
+    },
+    "adapter": {
+      "passed": 9,
+      "log": "evidencia/tests-adaptador-ligero.log"
+    },
+    "new_video_creation": "temporary fixture only; no real video authored",
+    "windows_lock_branch": "simulated; actual Windows execution pending",
+    "student_guides": {
+      "python_passed": 46,
+      "javascript": "pass",
+      "evidence": "evidencia/validacion-guias-alumnos.json"
+    }
+  },
+  "design_boards_original_hash_match": 30,
+  "source_code_reference_hashes_match": true,
+  "windows_executed": false,
+  "advanced_audio_windows_calibrated": false,
+  "physical_disk_bytes_freed": "not claimed; APFS clones share storage",
+  "memory_entry": "INICIO_PARA_CODEX.md",
+  "removed_media_manifest": "evidencia/reduccion-2026-10-06.json",
+  "prior_full_package_metadata": "evidencia/historico-v1/configuracion-antes-ligera.zip",
+  "delivery_bytes": 225942183,
+  "delivery_MB_decimal": 225.94,
+  "reduction_percent_logical": 98.75,
+  "platforms": [
+    "Windows",
+    "macOS"
+  ],
+  "wizard_validation": "validacion-asistente.json",
+  "portable_version": "2.1.0",
+  "skills_bundled": 14,
+  "onboarding": "INICIO Y CONFIGURACION DE FRAMEWORK.md",
+  "windows_verified": false,
+  "delivery_mb_decimal": 225.94,
+  "student_guide": "GUIASUPERDETALLADA.html",
+  "recording_guide": "GUIA_GRABACION_MASTER.html",
+  "progress_directory": "MI-PROGRESO",
+  "guide_validation": "evidencia/validacion-guias-alumnos.json",
+  "repository_published": false,
+  "delivery_size_scope": "Regular distribution files excluding MI-PROGRESO, runtime, resultados, caches, local configs and personal registries. Logical byte sum, not allocated disk space.",
+  "repository": "https://github.com/iomiquantum/framework-edicion-social",
+  "repository_visibility": "public",
+  "github_validation": "evidencia/publicacion-github.json",
+  "github_download": "https://github.com/iomiquantum/framework-edicion-social/archive/refs/heads/main.zip"
+}

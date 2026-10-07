@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "run": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-30/workflow-runs/lote26-30-flujo3-v1",
+  "measurement_method": "utc_wall_clock_time_time_cross_process",
+  "status": "measured",
+  "events": 26,
+  "closed_intervals": 13,
+  "open_interval": null,
+  "intervals": [
+    {
+      "interval_id": "e9f3a71a-7b20-4577-97a5-01e0ca8b957a",
+      "phase": "semantic_lock",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T04:24:55.474770+00:00",
+      "ended_at_utc": "2026-10-01T04:30:14.183644+00:00",
+      "started_epoch_seconds": 1790828695.4747698,
+      "ended_epoch_seconds": 1790829014.1836438,
+      "seconds": 318.7088739871979,
+      "start_note": null,
+      "stop_note": "Source30 locked; samevoicesegment15.9s; T30directionreferencesand QAconsulted;shared lexicalalignment repair separatelydocumented"
+    },
+    {
+      "interval_id": "eb91cb1b-9d1c-4e1d-9b5c-0f95b2892a00",
+      "phase": "resources",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T04:30:14.216627+00:00",
+      "ended_at_utc": "2026-10-01T04:38:40.370832+00:00",
+      "started_epoch_seconds": 1790829014.216627,
+      "ended_epoch_seconds": 1790829520.370832,
+      "seconds": 506.15420508384705,
+      "start_note": null,
+      "stop_note": "Maqueta conforme/media/SFX/prosody fromselectedvoice; no fullASR repeated"
+    },
+    {
+      "interval_id": "e2a3038b-e270-4e77-9b19-2df9c593d893",
+      "phase": "assembly",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T04:38:40.402721+00:00",
+      "ended_at_utc": "2026-10-01T04:42:40.962847+00:00",
+      "started_epoch_seconds": 1790829520.402721,
+      "ended_epoch_seconds": 1790829760.962847,
+      "seconds": 240.56012606620789,
+      "start_note": null,
+      "stop_note": "Composition assembled; corrected supportzorder/SFXslots/flattenedcaptionnodes/uniqueeditids; checks repeated for actualchanges"
+    },
+    {
+      "interval_id": "23788469-e86c-40df-b537-dfa60325b35f",
+      "phase": "qa_pre_render",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T04:42:41.010775+00:00",
+      "ended_at_utc": "2026-10-01T04:54:10.276240+00:00",
+      "started_epoch_seconds": 1790829761.010775,
+      "ended_epoch_seconds": 1790830450.2762399,
+      "seconds": 689.2654647827148,
+      "start_note": null,
+      "stop_note": "QA candidato+protección HDR+documentación entre esperas de capacidad; fase mixta sin reparto estimado"
+    },
+    {
+      "interval_id": "8c959993-e101-4d7f-953b-0b8cce32d192",
+      "phase": "coordination",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T04:54:10.329412+00:00",
+      "ended_at_utc": "2026-10-01T04:54:40.983848+00:00",
+      "started_epoch_seconds": 1790830450.329412,
+      "ended_epoch_seconds": 1790830480.9838479,
+      "seconds": 30.654435873031616,
+      "start_note": "Espera de slotheavy2/2 después de candidato técnico estable",
+      "stop_note": "Slotheavy recibido"
+    },
+    {
+      "interval_id": "9676bac0-7cab-4783-85db-c45f7ebfdf69",
+      "phase": "qa_pre_render",
+      "kind": "command",
+      "started_at_utc": "2026-10-01T04:54:41.018456+00:00",
+      "ended_at_utc": "2026-10-01T04:59:53.972877+00:00",
+      "started_epoch_seconds": 1790830481.018456,
+      "ended_epoch_seconds": 1790830793.972877,
+      "seconds": 312.954421043396,
+      "start_note": "SmokeHDR6.3s prueba motor,captions,gap,corte antes del final",
+      "stop_note": "Smokev1FAIL/v2PASS conreparaciones, QA ydocumentación; intervalo mixto"
+    },
+    {
+      "interval_id": "7bfda0f4-de56-4ab9-b043-169ee246999c",
+      "phase": "render",
+      "kind": "command",
+      "started_at_utc": "2026-10-01T04:59:54.008654+00:00",
+      "ended_at_utc": "2026-10-01T05:03:02.948791+00:00",
+      "started_epoch_seconds": 1790830794.008654,
+      "ended_epoch_seconds": 1790830982.948791,
+      "seconds": 188.94013690948486,
+      "start_note": "MP4 final477frames desde original editado",
+      "stop_note": "Renderfinal exit0; QAexact pendiente"
+    },
+    {
+      "interval_id": "50d8130f-e91c-4f77-9554-6c6bb19ff271",
+      "phase": "qa_post_render",
+      "kind": "command",
+      "started_at_utc": "2026-10-01T05:03:02.982942+00:00",
+      "ended_at_utc": "2026-10-01T05:05:19.669202+00:00",
+      "started_epoch_seconds": 1790830982.9829419,
+      "ended_epoch_seconds": 1790831119.6692019,
+      "seconds": 136.6862599849701,
+      "start_note": "QAMP4exact metadata/decode/levels/paridad/frames",
+      "stop_note": "Posthelper2.467s,paridad0.897s,47frames extracción+revisión ydocumentaciónenfase; sinrepartoestimado"
+    },
+    {
+      "interval_id": "946c929f-4b59-40ef-9232-d015fc27ff9d",
+      "phase": "documentation",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T05:05:19.713918+00:00",
+      "ended_at_utc": "2026-10-01T05:06:46.692543+00:00",
+      "started_epoch_seconds": 1790831119.713918,
+      "ended_epoch_seconds": 1790831206.692543,
+      "seconds": 86.97862505912781,
+      "start_note": "Manifiestosfinales,changelog,handoff",
+      "stop_note": "Entrega local ydocumentacióncompletadas; sombraauditor externa"
+    },
+    {
+      "interval_id": "24d7d01f-95f5-469b-ace1-648410110e7e",
+      "phase": "review_changes",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T05:10:13.800207+00:00",
+      "ended_at_utc": "2026-10-01T05:10:57.045540+00:00",
+      "started_epoch_seconds": 1790831413.8002071,
+      "ended_epoch_seconds": 1790831457.04554,
+      "seconds": 43.24533295631409,
+      "start_note": "Auditor observa negro transitorio no previsto T30; fondo persistente navy, v2 aditiva",
+      "stop_note": "Cambio único fondo continuo, lint0errors0warnings; parserv1errorcorregidosinrepetirlint"
+    },
+    {
+      "interval_id": "d16297c9-74bf-4895-b28a-fee1443a8539",
+      "phase": "render",
+      "kind": "command",
+      "started_at_utc": "2026-10-01T05:10:57.090357+00:00",
+      "ended_at_utc": "2026-10-01T05:13:41.337455+00:00",
+      "started_epoch_seconds": 1790831457.090357,
+      "ended_epoch_seconds": 1790831621.337455,
+      "seconds": 164.24709796905518,
+      "start_note": "Entrega v2 fondo continuo, se conserva v1",
+      "stop_note": "Renderv2 exit0"
+    },
+    {
+      "interval_id": "508afb0c-8c95-4cd9-ae3e-ac659441a5d4",
+      "phase": "qa_post_render",
+      "kind": "command",
+      "started_at_utc": "2026-10-01T05:13:41.391881+00:00",
+      "ended_at_utc": "2026-10-01T05:15:44.084470+00:00",
+      "started_epoch_seconds": 1790831621.391881,
+      "ended_epoch_seconds": 1790831744.08447,
+      "seconds": 122.69258904457092,
+      "start_note": "V2 QAcrítico,paridad ycomparacióncoste",
+      "stop_note": "V2posthelper4.495s/paridad1.222s/24frames extracción+revisión ycomparación; faseincluyedocs"
+    },
+    {
+      "interval_id": "68679d49-d8b0-4849-8dc0-5b035b111b66",
+      "phase": "documentation",
+      "kind": "work",
+      "started_at_utc": "2026-10-01T05:15:44.126996+00:00",
+      "ended_at_utc": "2026-10-01T05:17:39.376213+00:00",
+      "started_epoch_seconds": 1790831744.126996,
+      "ended_epoch_seconds": 1790831859.376213,
+      "seconds": 115.24921703338623,
+      "start_note": "V2 hashes,entrega ycomparación de costo",
+      "stop_note": "V2 cerrado; paquete lote no se cargará al reloj30"
+    }
+  ],
+  "phases": {
+    "intake": {
+      "status": "not_measured",
+      "intervals": 0,
+      "total_seconds": null,
+      "kinds": {
+        "work": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "semantic_lock": {
+      "status": "measured",
+      "intervals": 1,
+      "total_seconds": 318.7088739871979,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 318.7088739871979
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "resources": {
+      "status": "measured",
+      "intervals": 1,
+      "total_seconds": 506.15420508384705,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 506.15420508384705
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "assembly": {
+      "status": "measured",
+      "intervals": 1,
+      "total_seconds": 240.56012606620789,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 240.56012606620789
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "review_changes": {
+      "status": "measured",
+      "intervals": 1,
+      "total_seconds": 43.24533295631409,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 43.24533295631409
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "qa_pre_render": {
+      "status": "measured",
+      "intervals": 2,
+      "total_seconds": 1002.2198858261108,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 689.2654647827148
+        },
+        "command": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 312.954421043396
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "render": {
+      "status": "measured",
+      "intervals": 2,
+      "total_seconds": 353.18723487854004,
+      "kinds": {
+        "work": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "command": {
+          "status": "measured",
+          "intervals": 2,
+          "total_seconds": 353.18723487854004
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "qa_post_render": {
+      "status": "measured",
+      "intervals": 2,
+      "total_seconds": 259.378849029541,
+      "kinds": {
+        "work": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "command": {
+          "status": "measured",
+          "intervals": 2,
+          "total_seconds": 259.378849029541
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "documentation": {
+      "status": "measured",
+      "intervals": 2,
+      "total_seconds": 202.22784209251404,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 2,
+          "total_seconds": 202.22784209251404
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    },
+    "coordination": {
+      "status": "measured",
+      "intervals": 1,
+      "total_seconds": 30.654435873031616,
+      "kinds": {
+        "work": {
+          "status": "measured",
+          "intervals": 1,
+          "total_seconds": 30.654435873031616
+        },
+        "command": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "user_wait": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        },
+        "experiment_audit": {
+          "status": "not_measured",
+          "intervals": 0,
+          "total_seconds": null
+        }
+      }
+    }
+  },
+  "kinds": {
+    "work": {
+      "status": "measured",
+      "intervals": 8,
+      "total_seconds": 2030.8162808418274
+    },
+    "command": {
+      "status": "measured",
+      "intervals": 5,
+      "total_seconds": 925.520504951477
+    },
+    "user_wait": {
+      "status": "not_measured",
+      "intervals": 0,
+      "total_seconds": null
+    },
+    "experiment_audit": {
+      "status": "not_measured",
+      "intervals": 0,
+      "total_seconds": null
+    }
+  },
+  "span_started_at_utc": "2026-10-01T04:24:55.474770+00:00",
+  "span_ended_at_utc": "2026-10-01T05:17:39.376213+00:00",
+  "elapsed_span_seconds": 3163.9014432430267,
+  "observed_union_seconds": 2956.3367857933044,
+  "unmeasured_gaps_seconds": 207.5646574497223,
+  "observed_operational_union_seconds": 2956.3367857933044,
+  "observed_user_wait_seconds": null,
+  "observed_experiment_audit_seconds": null,
+  "limits": "Solo intervalos cerrados del journal; el abierto queda excluido. El span termina en el último stop: no incluye espera posterior ni tiempo previo al primer start. Los huecos no identifican su causa. work y command son etiquetas de tiempo transcurrido, no actividad humana continua; user_wait y experiment_audit se informan por separado. La unión operativa incluye solo work/command medidos, sin asignar huecos ni espera/auditoría al trabajo. No suma ni importa tiempos de subprocessos. UTC/time.time usa reloj de pared, no monotónico entre procesos. No afirma tokens, costo, ahorro, QA, escucha ni aprobación; no comparar ejecuciones con cobertura distinta."
+}

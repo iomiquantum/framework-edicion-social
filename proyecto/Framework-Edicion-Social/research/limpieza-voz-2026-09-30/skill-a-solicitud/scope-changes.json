@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-30",
+  "changes": [
+    {
+      "path": "AGENTS.md",
+      "before_sha256": "2d4ebb94721ffe8c44b4883627ad12ed52f93d3d628db16b327aabb9cfd4d1c0",
+      "backup": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/before/AGENTS.md",
+      "after_sha256": "2170ce64bc1a3fa92e8836e1265738c63388a582488078ade6ed4cc7e89c1be6"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/AGENTS.md",
+      "before_sha256": "6f263106db7150aade37a23498d41d946788bc1bc480415d46fbfe225a6b6fa5",
+      "backup": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/before/Serie-IA-Negocios-10-Videos/AGENTS.md",
+      "after_sha256": "78c1cf37c626dd03e0deff5afeadaa89ff47d6b336f3dcdf156d2ce699de076f"
+    },
+    {
+      "path": "Framework-Edicion-Social/AUDIO_LIMPIEZA_VOZ.md",
+      "before_sha256": "feb08c1d2a73257ff4c1d96daf53cb684b8b388a92438aa6ceaae5746eb166d2",
+      "backup": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/before/Framework-Edicion-Social/AUDIO_LIMPIEZA_VOZ.md",
+      "after_sha256": "986a43f2fdc0ed538b016e23d7db0297cd531487509ff22cf8fdc7e09aab6356"
+    },
+    {
+      "path": "Framework-Edicion-Social/PROMPT_INGESTA_Y_EDICION.md",
+      "before_sha256": "170bb62a87f3599d569634c98a203d00a33c868ceabb811761d9384b38d037c2",
+      "backup": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/before/Framework-Edicion-Social/PROMPT_INGESTA_Y_EDICION.md",
+      "after_sha256": "3b69a86152c406501e4175c92ba06b4dd405ab362c97d096c82b3c6c25501caa"
+    },
+    {
+      "path": "Framework-Edicion-Social/PROMPT_EDICION_INDIVIDUAL.md",
+      "before_sha256": "603eb3fa43999fa391913682f70bb6d60afb0b9dd7d8fbc450eeb0080337c036",
+      "backup": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/before/Framework-Edicion-Social/PROMPT_EDICION_INDIVIDUAL.md",
+      "after_sha256": "c9899b0d0d96cafabfe7e6a32097aabc54d4e523fcbd3e54b7a35df126d9ffca"
+    },
+    {
+      "path": "Framework-Edicion-Social/QA_PROFESIONAL.md",
+      "before_sha256": "33c06822d3a76a2c013ba7d4de8e026dbf4ee9a64d1a1b708c3819f5db81efd9",
+      "backup": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/before/Framework-Edicion-Social/QA_PROFESIONAL.md",
+      "after_sha256": "0e82a0f2494337c5ffece84ef01997ec1c6b1769c2c6be28d48426c1bf4b3c55"
+    },
+    {
+      "path": "Framework-Edicion-Social/MEJORA_CONTINUA.md",
+      "before_sha256": "5c508d399dbe91cf70b22aa56216a1e405b6d55d467c31f024ee2d70a6d06f3d",
+      "backup": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/before/Framework-Edicion-Social/MEJORA_CONTINUA.md",
+      "after_sha256": "82b93d365752bf24ba56ec871b4479d53e43d4036b85b22abf126f715cdd95cd"
+    },
+    {
+      "path": "Serie-IA-Negocios-10-Videos/ESTANDAR_QA_PREAPROBACION.md",
+      "before_sha256": "c15f3e39155aa8ef86208eda7f56fe86a55006aa38f531ecbab89345d6ade55f",
+      "backup": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/before/Serie-IA-Negocios-10-Videos/ESTANDAR_QA_PREAPROBACION.md",
+      "after_sha256": "337021b296ea5a068137eb42ef471d7e1964695cc449a0e48b399e2fc44cf1d1"
+    },
+    {
+      "path": "Framework-Edicion-Social/profiles/creative_preferences.json",
+      "before_sha256": "fecc1502aad8f71749a24c6f31251fa2e5f4546ebb7ccc1b1808f5b89003fca7",
+      "backup": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/limpieza-voz-2026-09-30/skill-a-solicitud/before/Framework-Edicion-Social/profiles/creative_preferences.json",
+      "after_sha256": "93d72e10f3e389f0f498b4e491ac2d8bd8d769d0fcb5ce39ec81c8d7c46dca05"
+    }
+  ],
+  "skill": "/Users/iomijhondavid/.codex/skills/revisar-limpiar-voz",
+  "unrelated_confirmed_preferences_preserved": true,
+  "new_media_processing": false
+}

@@ -1,0 +1,317 @@
+- banner:
+  - generic "Header navigation":
+    - link "/evolution section":
+      - /url: /evolution?blogId=6177067&userId=4763988
+      - generic: Analítica
+    - link "/reporting section":
+      - /url: /reporting?blogId=6177067&userId=4763988
+      - generic: Reporting
+    - link "/inbox section":
+      - /url: /inbox?blogId=6177067&userId=4763988
+      - generic: Inbox
+    - link "/planner section":
+      - /url: /planner?blogId=6177067&userId=4763988
+      - generic: Planificación
+    - link "/smartlink section":
+      - /url: /smartlink?blogId=6177067&userId=4763988
+      - generic: SmartLinks
+    - link "/advertising section":
+      - /url: /advertising?blogId=6177067&userId=4763988
+      - generic: Anuncios
+  - link "Mejora tu plan":
+    - /url: /user-settings/plan?openWithPostUuid=3782030177655343356&blogId=6177067&userId=4763988
+    - generic: 
+    - generic: Mejora tu plan
+  - button:
+    - text: 
+  - button "Abrir notificaciones":
+  - button:
+  - progressbar
+- main:
+  - tablist:
+    - tab "Calendario":
+      - generic: Calendario
+    - tab "Listado" [selected]:
+      - generic: Listado
+    - tab "Biblioteca de publicaciones":
+      - text: Biblioteca de publicaciones
+    - tab "Autolistas":
+      - generic: Autolistas
+    - tab "Publicaciones eliminadas":
+      - generic: Publicaciones eliminadas
+    - tab "Flows Nuevo":
+      - text: Flows
+      - generic: Nuevo
+    - button "1:17 - America/Guayaquil":
+      - generic: 
+      - generic: 1:17 - America/Guayaquil
+      - generic: 
+      - generic: 
+  - paragraph: ¿Necesitas un plan superior?
+  - text: Has publicado
+  - strong: 0 de tus 20
+  - text: publicaciones disponibles en tu plan este mes. Actualiza tu plan para aumentar el límite.
+  - link "Actualiza tu plan":
+    - /url: /user-settings/plan?blogId=6177067&userId=4763988
+    - generic: Actualiza tu plan
+  - textbox "Buscar"
+  - text: 
+  - button "2 oct 2026 - 2 oct 2026":
+    - text: 2 oct 2026 - 2 oct 2026
+  - button:
+  - button:
+    - generic:    
+  - button "Acciones en bloque" [disabled]:
+    - text: Acciones en bloque
+    - generic: 
+  - button "Create post":
+    - generic: +
+    - generic: Crear publicación
+  - table:
+    - rowgroup:
+      - row "Fecha Contenido de la publicación Redes Estado":
+        - columnheader:
+          - generic: 
+          - checkbox
+        - columnheader "Fecha":
+          - generic: Fecha
+        - columnheader "Contenido de la publicación":
+          - generic: Contenido de la publicación
+        - columnheader "Redes":
+          - generic: Redes
+        - columnheader "Estado":
+          - generic: Estado
+        - columnheader
+    - rowgroup:
+      - 'row "2 oct 2026 10:40 Prueba de publicación automática · P11. El cliente no quiere tu producto: quiere resolver un problema. VIDEO-18 del proyecto, formato vertical 9:16. Objetivo de la prueba: 2 de octubre de 2026, 10:40, hora de Ecuador. Verificamos la carga como YouTube Short y su programación. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 10:40":
+          - generic: 2 oct 2026
+          - generic: 10:40
+        - 'cell "Prueba de publicación automática · P11. El cliente no quiere tu producto: quiere resolver un problema. VIDEO-18 del proyecto, formato vertical 9:16. Objetivo de la prueba: 2 de octubre de 2026, 10:40, hora de Ecuador. Verificamos la carga como YouTube Short y su programación."':
+          - generic: 
+          - generic: "Prueba de publicación automática · P11. El cliente no quiere tu producto: quiere resolver un problema. VIDEO-18 del proyecto, formato vertical 9:16. Objetivo de la prueba: 2 de octubre de 2026, 10:40, hora de Ecuador. Verificamos la carga como YouTube Short y su programación."
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "2 oct 2026 10:30 Prueba de publicación automática · P10. El cliente no quiere tu producto: quiere resolver un problema. Video vertical del proyecto. Objetivo: 2 de octubre de 2026 a las 10:30, hora de Ecuador. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 10:30":
+          - generic: 2 oct 2026
+          - generic: 10:30
+        - 'cell "Prueba de publicación automática · P10. El cliente no quiere tu producto: quiere resolver un problema. Video vertical del proyecto. Objetivo: 2 de octubre de 2026 a las 10:30, hora de Ecuador."':
+          - generic: 
+          - generic: "Prueba de publicación automática · P10. El cliente no quiere tu producto: quiere resolver un problema. Video vertical del proyecto. Objetivo: 2 de octubre de 2026 a las 10:30, hora de Ecuador."
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "2 oct 2026 10:20 Prueba de publicación automática · P09. Tres imágenes ordenadas: 1/3, 2/3 y 3/3. Objetivo: 2 de octubre de 2026 a las 10:20, hora de Ecuador. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 10:20":
+          - generic: 2 oct 2026
+          - generic: 10:20
+        - 'cell "Prueba de publicación automática · P09. Tres imágenes ordenadas: 1/3, 2/3 y 3/3. Objetivo: 2 de octubre de 2026 a las 10:20, hora de Ecuador."':
+          - generic: "Prueba de publicación automática · P09. Tres imágenes ordenadas: 1/3, 2/3 y 3/3. Objetivo: 2 de octubre de 2026 a las 10:20, hora de Ecuador."
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "2 oct 2026 10:10 Prueba de publicación automática · P08. Imagen única 4:5. Objetivo: 2 de octubre de 2026 a las 10:10, hora de Ecuador. Verificamos imagen, título y copy. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 10:10":
+          - generic: 2 oct 2026
+          - generic: 10:10
+        - 'cell "Prueba de publicación automática · P08. Imagen única 4:5. Objetivo: 2 de octubre de 2026 a las 10:10, hora de Ecuador. Verificamos imagen, título y copy."':
+          - generic: "Prueba de publicación automática · P08. Imagen única 4:5. Objetivo: 2 de octubre de 2026 a las 10:10, hora de Ecuador. Verificamos imagen, título y copy."
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "2 oct 2026 10:00 Prueba de publicación automática · P07. Video como publicación en Facebook. El cliente no quiere tu producto: quiere resolver un problema. Objetivo: 2 de octubre de 2026, 10:00, hora de Ecuador. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 10:00":
+          - generic: 2 oct 2026
+          - generic: 10:00
+        - 'cell "Prueba de publicación automática · P07. Video como publicación en Facebook. El cliente no quiere tu producto: quiere resolver un problema. Objetivo: 2 de octubre de 2026, 10:00, hora de Ecuador."':
+          - generic: 
+          - generic: "Prueba de publicación automática · P07. Video como publicación en Facebook. El cliente no quiere tu producto: quiere resolver un problema. Objetivo: 2 de octubre de 2026, 10:00, hora de Ecuador."
+        - cell:
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "2 oct 2026 9:50 Prueba de publicación automática · P06. El cliente no quiere tu producto: quiere resolver un problema. Este video del proyecto se reutiliza como Reel, visible también en el feed de Instagram. Objetivo: 2 de octubre de 2026, 09:50, hora de Ecuador. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 9:50":
+          - generic: 2 oct 2026
+          - generic: 9:50
+        - 'cell "Prueba de publicación automática · P06. El cliente no quiere tu producto: quiere resolver un problema. Este video del proyecto se reutiliza como Reel, visible también en el feed de Instagram. Objetivo: 2 de octubre de 2026, 09:50, hora de Ecuador."':
+          - generic: 
+          - generic: "Prueba de publicación automática · P06. El cliente no quiere tu producto: quiere resolver un problema. Este video del proyecto se reutiliza como Reel, visible también en el feed de Instagram. Objetivo: 2 de octubre de 2026, 09:50, hora de Ecuador."
+        - cell:
+          - generic: 
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "2 oct 2026 9:40 Prueba de publicación automática · P05. Historia con el VIDEO-18: «El cliente no quiere tu producto». Master vertical aprobado, 21,87 segundos. Objetivo: 2 de octubre de 2026, 09:40, hora de Ecuador. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 9:40":
+          - generic: 2 oct 2026
+          - generic: 9:40
+        - 'cell "Prueba de publicación automática · P05. Historia con el VIDEO-18: «El cliente no quiere tu producto». Master vertical aprobado, 21,87 segundos. Objetivo: 2 de octubre de 2026, 09:40, hora de Ecuador."':
+          - generic: 
+          - generic: "Prueba de publicación automática · P05. Historia con el VIDEO-18: «El cliente no quiere tu producto». Master vertical aprobado, 21,87 segundos. Objetivo: 2 de octubre de 2026, 09:40, hora de Ecuador."
+        - cell:
+          - generic: 
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "2 oct 2026 9:30 Prueba de publicación automática · P04. Historia con imagen 9:16. Objetivo: 2 de octubre de 2026, 09:30, hora de Ecuador. El texto visible está integrado en la imagen; este copy sirve como registro. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 9:30":
+          - generic: 2 oct 2026
+          - generic: 9:30
+        - 'cell "Prueba de publicación automática · P04. Historia con imagen 9:16. Objetivo: 2 de octubre de 2026, 09:30, hora de Ecuador. El texto visible está integrado en la imagen; este copy sirve como registro."':
+          - generic: "Prueba de publicación automática · P04. Historia con imagen 9:16. Objetivo: 2 de octubre de 2026, 09:30, hora de Ecuador. El texto visible está integrado en la imagen; este copy sirve como registro."
+        - cell:
+          - generic: 
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "2 oct 2026 9:20 Prueba de publicación automática · P03. Tres imágenes en orden 1/3, 2/3 y 3/3: carrusel en Instagram y publicación de varias fotos en Facebook. Objetivo: 2 de octubre de 2026, 09:20, hora de Ecuador. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 9:20":
+          - generic: 2 oct 2026
+          - generic: 9:20
+        - 'cell "Prueba de publicación automática · P03. Tres imágenes en orden 1/3, 2/3 y 3/3: carrusel en Instagram y publicación de varias fotos en Facebook. Objetivo: 2 de octubre de 2026, 09:20, hora de Ecuador."':
+          - generic: "Prueba de publicación automática · P03. Tres imágenes en orden 1/3, 2/3 y 3/3: carrusel en Instagram y publicación de varias fotos en Facebook. Objetivo: 2 de octubre de 2026, 09:20, hora de Ecuador."
+        - cell:
+          - generic: 
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - 'row "2 oct 2026 9:10 Prueba de publicación automática · P02. Imagen vertical 4:5 (1080 × 1350) en el feed. Objetivo: 2 de octubre de 2026, 09:10, hora de Ecuador. Verificamos encuadre y copy. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 9:10":
+          - generic: 2 oct 2026
+          - generic: 9:10
+        - 'cell "Prueba de publicación automática · P02. Imagen vertical 4:5 (1080 × 1350) en el feed. Objetivo: 2 de octubre de 2026, 09:10, hora de Ecuador. Verificamos encuadre y copy."':
+          - generic: "Prueba de publicación automática · P02. Imagen vertical 4:5 (1080 × 1350) en el feed. Objetivo: 2 de octubre de 2026, 09:10, hora de Ecuador. Verificamos encuadre y copy."
+        - cell:
+          - generic: 
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+      - row "2 oct 2026 9:00 PRUEBA MCP — BORRADOR PRIVADO. No publicar. La IA puede acelerar un sistema bien diseñado, pero también puede hacer circular más rápido información incompleta, decisiones confusas y tareas innecesarias. Por eso la pregunta no es solamente “¿qué herramienta uso?”, sino “¿qué proceso quiero mejorar y cómo sabré que mejoró?”. Primero entender. Después ordenar. Finalmente automatizar. Borrador":
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 9:00":
+          - generic: 2 oct 2026
+          - generic: 9:00
+        - cell "PRUEBA MCP — BORRADOR PRIVADO. No publicar. La IA puede acelerar un sistema bien diseñado, pero también puede hacer circular más rápido información incompleta, decisiones confusas y tareas innecesarias. Por eso la pregunta no es solamente “¿qué herramienta uso?”, sino “¿qué proceso quiero mejorar y cómo sabré que mejoró?”. Primero entender. Después ordenar. Finalmente automatizar.":
+          - generic: PRUEBA MCP — BORRADOR PRIVADO. No publicar. La IA puede acelerar un sistema bien diseñado, pero también puede hacer circular más rápido información incompleta, decisiones confusas y tareas innecesarias. Por eso la pregunta no es solamente “¿qué herramienta uso?”, sino “¿qué proceso quiero mejorar y cómo sabré que mejoró?”. Primero entender. Después ordenar. Finalmente automatizar.
+        - cell:
+          - generic: 
+        - cell "Borrador":
+          - generic: Borrador
+        - cell:
+          - button:
+      - 'row "2 oct 2026 9:00 Prueba de publicación automática · P01. Imagen cuadrada 1:1 (1080 × 1080) en el feed. Objetivo: 2 de octubre de 2026, 09:00, hora de Ecuador. Verificamos imagen, copy, fecha y hora. Pendiente"':
+        - cell:
+          - generic: 
+          - checkbox
+        - cell "2 oct 2026 9:00":
+          - generic: 2 oct 2026
+          - generic: 9:00
+        - 'cell "Prueba de publicación automática · P01. Imagen cuadrada 1:1 (1080 × 1080) en el feed. Objetivo: 2 de octubre de 2026, 09:00, hora de Ecuador. Verificamos imagen, copy, fecha y hora."':
+          - generic: "Prueba de publicación automática · P01. Imagen cuadrada 1:1 (1080 × 1080) en el feed. Objetivo: 2 de octubre de 2026, 09:00, hora de Ecuador. Verificamos imagen, copy, fecha y hora."
+        - cell:
+          - generic: 
+          - generic: 
+        - cell "Pendiente":
+          - generic: Pendiente
+        - cell:
+          - button:
+- text: 
+- tooltip
+- dialog "Dialog":
+  - text:  󱈸  󱈸  󱈸  󱈸 󰐕     
+  - generic: 󰅀 󰅀 
+  - text:   
+- tooltip
+- dialog "Dialog": 
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- dialog "Dialog":         
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- tooltip
+- button "Chat abierto"

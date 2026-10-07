@@ -1,0 +1,142 @@
+load_backend: loaded BLAS backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-blas.so
+ggml_metal_device_init: tensor API disabled for pre-M5 and pre-A19 devices
+ggml_metal_library_init: using embedded metal library
+ggml_metal_library_compile_all: compiled 'fa' library in 0.046 sec
+ggml_metal_library_compile_all: compiled 'mul_mv' library in 0.051 sec
+ggml_metal_library_compile_all: compiled 'mul_mm' library in 0.057 sec
+ggml_metal_library_compile_all: compiled 'quantize' library in 0.053 sec
+ggml_metal_library_compile_all: compiled 'softmax' library in 0.059 sec
+ggml_metal_library_compile_all: compiled 'norm' library in 0.004 sec
+ggml_metal_library_compile_all: compiled 'unary' library in 0.004 sec
+ggml_metal_library_compile_all: compiled 'binbcast' library in 0.059 sec
+ggml_metal_library_compile_all: compiled 'reduce' library in 0.059 sec
+ggml_metal_library_compile_all: compiled 'tri' library in 0.004 sec
+ggml_metal_library_compile_all: compiled 'ssm' library in 0.058 sec
+ggml_metal_library_compile_all: compiled 'wkv' library in 0.059 sec
+ggml_metal_library_compile_all: compiled 'gated_delta_net' library in 0.057 sec
+ggml_metal_library_compile_all: compiled 'solve_tri' library in 0.058 sec
+ggml_metal_library_compile_all: compiled 'rope' library in 0.003 sec
+ggml_metal_library_compile_all: compiled 'conv' library in 0.058 sec
+ggml_metal_library_compile_all: compiled 'upscale' library in 0.003 sec
+ggml_metal_library_compile_all: compiled 'argsort' library in 0.057 sec
+ggml_metal_library_compile_all: compiled 'pool' library in 0.057 sec
+ggml_metal_library_compile_all: compiled 'misc' library in 0.059 sec
+ggml_metal_library_compile_all: loaded 20 libraries from embedded data in 0.060 sec (max single = 0.059 sec)
+ggml_metal_rsets_init: creating a residency set collection (keep_alive = 180 s)
+ggml_metal_device_init: GPU name:   MTL0 (Apple M4)
+ggml_metal_device_init: GPU family: MTLGPUFamilyApple9  (1009)
+ggml_metal_device_init: GPU family: MTLGPUFamilyCommon3 (3003)
+ggml_metal_device_init: GPU family: MTLGPUFamilyMetal4  (5002)
+ggml_metal_device_init: simdgroup reduction   = true
+ggml_metal_device_init: simdgroup matrix mul. = true
+ggml_metal_device_init: has unified memory    = true
+ggml_metal_device_init: has bfloat            = true
+ggml_metal_device_init: has tensor            = false
+ggml_metal_device_init: use residency sets    = true
+ggml_metal_device_init: use shared buffers    = true
+ggml_metal_device_init: recommendedMaxWorkingSetSize  = 12713.12 MB
+load_backend: loaded MTL backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-metal.so
+load_backend: loaded CPU backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-cpu-apple_m4.so
+whisper_init_from_file_with_params_no_state: loading model from '/Users/iomijhondavid/.cache/hyperframes/whisper/models/ggml-large-v3.bin'
+whisper_init_with_params_no_state: use gpu    = 1
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 0
+whisper_init_with_params_no_state: dtw        = 0
+whisper_init_with_params_no_state: devices    = 3
+whisper_init_with_params_no_state: backends   = 3
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 32
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  3094.36 MB
+whisper_model_load: model size    = 3094.36 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+ggml_metal_init: allocating
+ggml_metal_init: found device: Apple M4
+ggml_metal_init: picking default device: Apple M4
+ggml_metal_init: use fusion         = true
+ggml_metal_init: use concurrency    = true
+ggml_metal_init: use graph optimize = true
+whisper_backend_init: using BLAS backend
+whisper_init_state: kv self size  =   83.89 MB
+whisper_init_state: kv cross size =  251.66 MB
+whisper_init_state: kv pad  size  =    7.86 MB
+whisper_init_state: compute buffer (conv)   =   37.69 MB
+whisper_init_state: compute buffer (encode) =   67.49 MB
+whisper_init_state: compute buffer (cross)  =  132.15 MB
+whisper_init_state: compute buffer (decode) =  100.04 MB
+read_audio_data: reading audio data from '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/asr-qa/largo-159-control.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 4 / 10 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/asr-qa/largo-159-control.wav' (2540768 samples, 158.8 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = es, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:01.880]   ¿Qué te cuesta más en tu negocio?
+[00:00:02.360 --> 00:00:04.800]   ¿Conseguir atención o convertirla en ventas?
+[00:00:05.800 --> 00:00:08.740]   Una campaña bonita no corrige una oferta que nadie quiere.
+[00:00:09.280 --> 00:00:13.100]   Y publicar más por sí solo tampoco garantiza resolverlo.
+[00:00:13.520 --> 00:00:17.620]   La inteligencia artificial está llenando Internet de contenido genérico.
+[00:00:18.580 --> 00:00:20.720]   Cuando producir contenido se vuelve fácil,
+[00:00:21.120 --> 00:00:24.020]   el volumen deja de ser suficiente para diferenciarte.
+[00:00:24.500 --> 00:00:27.700]   Pero tu cliente no compra la herramienta que utilizas.
+[00:00:27.700 --> 00:00:29.800]   Le importa que respondas rápido.
+[00:00:30.280 --> 00:00:33.220]   Que cumplas lo prometido y que soluciones su problema.
+[00:00:33.880 --> 00:00:36.700]   Esa es la diferencia que cambia donde tienes que empezar.
+[00:00:37.660 --> 00:00:42.980]   ChatGPT puede saber muchísimo de marketing y casi nada de tu cliente.
+[00:00:43.420 --> 00:00:48.160]   No escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte.
+[00:00:49.060 --> 00:00:54.120]   Antes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.
+[00:00:54.120 --> 00:00:58.940]   A veces, tu mejor prompt empieza en una conversación real con un cliente.
+[00:00:59.320 --> 00:00:59.980]   Ahí empiezas.
+[00:01:00.000 --> 00:01:01.400]   Conocer tu verdadera ventaja.
+[00:01:01.920 --> 00:01:09.300]   No en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió.
+[00:01:10.120 --> 00:01:13.780]   Si ese conocimiento vive solamente en tu cabeza, tienes un problema.
+[00:01:14.040 --> 00:01:16.980]   No porque debas regalárselo a una inteligencia artificial,
+[00:01:17.620 --> 00:01:23.180]   sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.
+[00:01:23.760 --> 00:01:28.200]   Convertir esa experiencia en un sistema no significa dejar de pensar.
+[00:01:28.580 --> 00:01:29.920]   La inteligencia artificial,
+[00:01:30.220 --> 00:01:33.180]   debería aumentar tu criterio, no reemplazarlo.
+[00:01:33.740 --> 00:01:36.680]   Y antes de automatizar, revisa tus procesos.
+[00:01:37.040 --> 00:01:42.800]   Si son malos, la información está desordenada y nadie mide resultados.
+[00:01:43.240 --> 00:01:47.380]   La inteligencia artificial puede hacer el desorden mucho más rápido.
+[00:01:48.140 --> 00:01:55.760]   Automatizar algo que todavía no entiendes puede significar repetir a mayor velocidad algo que ya estaba mal.
+[00:01:56.040 --> 00:01:58.720]   Y si la herramienta te da más trabajo del que te quita,
+[00:01:59.240 --> 00:02:00.800]   todavía no tienes un sistema.
+[00:02:01.260 --> 00:02:06.500]   Entonces, quizá no necesitas comprar otro curso ni guardar otras 10 ideas.
+[00:02:06.840 --> 00:02:09.680]   Si ya tienes información útil y todavía no la aplicas,
+[00:02:10.000 --> 00:02:15.860]   quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.
+[00:02:16.460 --> 00:02:21.860]   Elige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.
+[00:02:22.660 --> 00:02:23.400]   Una sola.
+[00:02:23.720 --> 00:02:25.920]   Mídela antes de automatizarla.
+[00:02:26.400 --> 00:02:28.960]   Ahora sí, vuelve a la pregunta correcta.
+[00:02:29.160 --> 00:02:33.420]   Si mañana tuvieras una inteligencia artificial perfecta,
+[00:02:34.060 --> 00:02:38.440]   ¿qué problema de tu cliente o de tu proceso comercial resolverías primero?
+output_txt: saving output to '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/asr-qa/largo-159-control.txt'
+output_json: saving output to '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/asr-qa/largo-159-control.json'
+
+whisper_print_timings:     load time =  1228.53 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    54.96 ms
+whisper_print_timings:   sample time =  1216.39 ms /  3396 runs (     0.36 ms per run)
+whisper_print_timings:   encode time =  6969.67 ms /     6 runs (  1161.61 ms per run)
+whisper_print_timings:   decode time =  1954.34 ms /    71 runs (    27.53 ms per run)
+whisper_print_timings:   batchd time = 22333.39 ms /  3299 runs (     6.77 ms per run)
+whisper_print_timings:   prompt time =  1226.11 ms /  1040 runs (     1.18 ms per run)
+whisper_print_timings:    total time = 35445.87 ms
+ggml_metal_free: deallocating

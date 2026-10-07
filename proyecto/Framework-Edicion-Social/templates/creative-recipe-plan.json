@@ -1,0 +1,795 @@
+{
+  "schema_version": "1.0.0",
+  "plan_id": "RECIPE-PLAN-CBP-VIDEO-00-V1",
+  "generator_version": "creative-recipe-compose-v1",
+  "blueprint": {
+    "id": "CBP-VIDEO-00-V1",
+    "video_id": "VIDEO-00",
+    "path": "Framework-Edicion-Social/templates/creative-blueprint.json",
+    "sha256": "c040d6278e0ddb5d3397a53ae2b98c2c803178e79f28f7c52ccaedbaded66b8c",
+    "duration_target_s": 30
+  },
+  "inputs": {
+    "catalog": {
+      "path": "Framework-Edicion-Social/creative-recipes/catalog.json",
+      "sha256": "79a0dcc5f0fad82c302ff134a6902c30621ca1ed0f8c94dc174b561a9b5981eb"
+    },
+    "series_contract": {
+      "path": null,
+      "sha256": null
+    },
+    "series_memory": {
+      "path": null,
+      "sha256": null
+    },
+    "asset_index": {
+      "path": null,
+      "sha256": null
+    }
+  },
+  "recommendation_policy": {
+    "max_proposals": 3,
+    "minimum_fit_score": 0.58,
+    "minimum_confidence_score": 0.55,
+    "minimum_module_differences_between_options": 2,
+    "single_global_winner": false,
+    "automatic_promotion": false,
+    "human_choice_required": true,
+    "preserve_multiple_families": true,
+    "ranking_meaning": "contextual_review_order_not_quality_or_universal_winner"
+  },
+  "status": "proposed",
+  "abstention_reasons": [],
+  "proposal_count": 3,
+  "proposals": [
+    {
+      "option_id": "OPTION-A",
+      "recipe_id": "RECIPE-CBP-VIDEO-00-V1-2051B4BB1DFB",
+      "label": "Afirmación, prueba y acción · Editorial en espacio negativo",
+      "module_ids": {
+        "hook": "HOOK-CONTRARIAN-OUTCOME",
+        "structure": "STRUCT-CLAIM-PROOF-ACTION",
+        "visual_system": "VIS-NEGATIVE-SPACE-EDITORIAL",
+        "motion": "MOTION-SEMANTIC-PUNCHIN",
+        "sound": "SOUND-SOFT-PUNCTUATION",
+        "cta": "CTA-REFLECTIVE-QUESTION"
+      },
+      "primary_family_id": "FAMILY-CLEAN-AUTHORITY",
+      "hybrid": true,
+      "contributing_family_ids": [
+        "FAMILY-CLEAN-AUTHORITY",
+        "FAMILY-EDITORIAL-LOOP"
+      ],
+      "fit_score": 0.983558,
+      "confidence": {
+        "score": 0.955319,
+        "level": "high",
+        "basis": [
+          "context_categories:5/5",
+          "traceability:0.890",
+          "asset_coverage:unknown"
+        ]
+      },
+      "score_breakdown": [
+        {
+          "module_id": "HOOK-CONTRARIAN-OUTCOME",
+          "kind": "hook",
+          "fit_score": 0.984167,
+          "positive_matches": [
+            "context:high_contrast_editorial",
+            "context:process_explanation",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.842",
+            "hook_pattern:contrarian",
+            "narrative_roles:hook",
+            "narrative_roles:value",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "STRUCT-CLAIM-PROOF-ACTION",
+          "kind": "structure",
+          "fit_score": 0.998016,
+          "positive_matches": [
+            "context:authority",
+            "context:high_contrast_editorial",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.983",
+            "narrative_roles:cta",
+            "narrative_roles:hook",
+            "narrative_roles:value",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "VIS-NEGATIVE-SPACE-EDITORIAL",
+          "kind": "visual_system",
+          "fit_score": 0.992063,
+          "positive_matches": [
+            "context:high_contrast_editorial",
+            "context:talking_head",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.933",
+            "narrative_roles:cta",
+            "narrative_roles:hook",
+            "narrative_roles:value",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "MOTION-SEMANTIC-PUNCHIN",
+          "kind": "motion",
+          "fit_score": 0.996032,
+          "positive_matches": [
+            "context:high_contrast_editorial",
+            "context:talking_head",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.967",
+            "narrative_roles:cta",
+            "narrative_roles:hook",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "SOUND-SOFT-PUNCTUATION",
+          "kind": "sound",
+          "fit_score": 0.992063,
+          "positive_matches": [
+            "context:high_contrast_editorial",
+            "context:talking_head",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.933",
+            "narrative_roles:cta",
+            "narrative_roles:hook",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "CTA-REFLECTIVE-QUESTION",
+          "kind": "cta",
+          "fit_score": 0.915833,
+          "positive_matches": [
+            "context:education",
+            "context:process_explanation",
+            "duration:30s",
+            "energy_fit:0.858",
+            "hook_pattern:contrarian",
+            "narrative_roles:cta",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        }
+      ],
+      "compatibility": {
+        "passed": true,
+        "blocking_conflicts": [],
+        "warnings": [
+          "asset_index_not_provided; resource coverage remains unverified",
+          "series_memory_not_provided; fatigue cannot be evaluated"
+        ]
+      },
+      "fatigue": {
+        "window": 3,
+        "signal": "no_history",
+        "penalty": 0.0,
+        "matched_prior_entries": [],
+        "is_quality_score": false
+      },
+      "asset_fit": {
+        "index_provided": false,
+        "coverage_status": "unknown",
+        "required_types": [
+          "sfx"
+        ],
+        "available_types": [],
+        "missing_types": [],
+        "preferred_types_available": []
+      },
+      "effort": {
+        "points": 13,
+        "level": "low",
+        "minutes_min": 35,
+        "minutes_max": 68,
+        "asset_generation_count": 0
+      },
+      "creative_direction": {
+        "hook": {
+          "module_id": "HOOK-CONTRARIAN-OUTCOME",
+          "label": "Giro contrarian con beneficio",
+          "directives": [
+            "Abrir con la negación o contraste antes de 1.2 segundos.",
+            "Hacer visible la consecuencia útil en el mismo beat o en el siguiente.",
+            "Usar un solo acento visual dominante y dejar respirar la última palabra."
+          ]
+        },
+        "structure": {
+          "module_id": "STRUCT-CLAIM-PROOF-ACTION",
+          "label": "Afirmación, prueba y acción",
+          "directives": [
+            "Entregar la tesis antes de enumerar evidencia.",
+            "Usar solo la evidencia necesaria para sostener la afirmación.",
+            "Cerrar con una acción que el espectador pueda ejecutar o responder."
+          ]
+        },
+        "visual_system": {
+          "module_id": "VIS-NEGATIVE-SPACE-EDITORIAL",
+          "label": "Editorial en espacio negativo",
+          "directives": [
+            "Anclar el contenido principal a un borde y evitar tarjetas flotando al centro.",
+            "Usar dos puntos focales como máximo cuando el rostro permanece visible.",
+            "Alternar imagen, icono y tipografía según el significado, no por cuota."
+          ]
+        },
+        "motion": {
+          "module_id": "MOTION-SEMANTIC-PUNCHIN",
+          "label": "Punch-in semántico",
+          "directives": [
+            "Marcar de dos a cuatro palabras o cambios de idea por minuto como máximo inicial.",
+            "Alternar punch-in, punch-out y quietud según la jerarquía.",
+            "Animar el contenedor interior para conservar el recorte y la zona segura."
+          ]
+        },
+        "sound": {
+          "module_id": "SOUND-SOFT-PUNCTUATION",
+          "label": "Puntuación suave",
+          "directives": [
+            "Usar un acento de hook, uno o dos detalles y una resolución como presupuesto inicial.",
+            "Separar los eventos para que no formen una secuencia constante.",
+            "Descartar cualquier sonido áspero o más llamativo que la palabra que acompaña."
+          ]
+        },
+        "cta": {
+          "module_id": "CTA-REFLECTIVE-QUESTION",
+          "label": "Pregunta aplicable al caso propio",
+          "directives": [
+            "Formular una sola pregunta, concreta y sin dos verbos de acción.",
+            "Reducir movimiento después de su entrada para permitir lectura.",
+            "Cerrar con contacto visual o plano estable cuando esté disponible."
+          ]
+        },
+        "face_safe_notes": [
+          "Cada SFX tiene intención semántica y su nivel se evalúa bajo la voz.",
+          "Cada zoom tiene disparador semántico y escala limitada.",
+          "Cualquier cruce permitido dura como máximo 0.3s y requiere revisión manual.",
+          "Cualquier cruce sobre el rostro debe ser una transición breve y revisada.",
+          "Detectar espacio negativo por beat; no asumir que una zona sirve durante toda la toma.",
+          "El CTA deriva de la misma tesis y no abre un tema nuevo.",
+          "El silencio es una decisión válida entre acentos.",
+          "El énfasis visual usa espacio negativo y no cubre ojos ni boca.",
+          "La pregunta se deriva del valor entregado y deja un beat de respuesta.",
+          "La primera frase expresa valor o riesgo para el espectador, no una lista de funciones.",
+          "La prueba se distingue visualmente de la afirmación.",
+          "La tipografía no invade la boca ni la zona de subtítulos.",
+          "No encadenar acercamientos sin un estado estable entre ellos.",
+          "Proteger eyes, mouth, captions; priorizar negative_space, split_screen, full_screen_transition."
+        ],
+        "rhythm_pattern": "hit-hold-breathe-resolve"
+      },
+      "explanation": "Combina HOOK-CONTRARIAN-OUTCOME con STRUCT-CLAIM-PROOF-ACTION y VIS-NEGATIVE-SPACE-EDITORIAL; ajuste contextual 0.984, confianza 0.955. La posición es un orden de revisión contextual, no una declaración de calidad ni un ganador universal.",
+      "rank": 1,
+      "variety": {
+        "module_difference_from_first": 0,
+        "distinct_axes": [],
+        "not_quality_score": true
+      }
+    },
+    {
+      "option_id": "OPTION-B",
+      "recipe_id": "RECIPE-CBP-VIDEO-00-V1-7CAC2EF25FD5",
+      "label": "Pasos con recompensa visible · Editorial en espacio negativo",
+      "module_ids": {
+        "hook": "HOOK-CONTRARIAN-OUTCOME",
+        "structure": "STRUCT-STEPS-PAYOFF",
+        "visual_system": "VIS-NEGATIVE-SPACE-EDITORIAL",
+        "motion": "MOTION-SEMANTIC-PUNCHIN",
+        "sound": "SOUND-VOICE-FIRST-MINIMAL",
+        "cta": "CTA-REFLECTIVE-QUESTION"
+      },
+      "primary_family_id": "FAMILY-CLEAN-AUTHORITY",
+      "hybrid": true,
+      "contributing_family_ids": [
+        "FAMILY-CLEAN-AUTHORITY",
+        "FAMILY-EDITORIAL-LOOP"
+      ],
+      "fit_score": 0.980463,
+      "confidence": {
+        "score": 0.953215,
+        "level": "high",
+        "basis": [
+          "context_categories:5/5",
+          "traceability:0.890",
+          "asset_coverage:unknown"
+        ]
+      },
+      "score_breakdown": [
+        {
+          "module_id": "HOOK-CONTRARIAN-OUTCOME",
+          "kind": "hook",
+          "fit_score": 0.984167,
+          "positive_matches": [
+            "context:high_contrast_editorial",
+            "context:process_explanation",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.842",
+            "hook_pattern:contrarian",
+            "narrative_roles:hook",
+            "narrative_roles:value",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "STRUCT-STEPS-PAYOFF",
+          "kind": "structure",
+          "fit_score": 0.99504,
+          "positive_matches": [
+            "context:education",
+            "context:full_length_reel",
+            "context:process_explanation",
+            "context:tutorial",
+            "duration:30s",
+            "energy_fit:0.958",
+            "narrative_roles:cta",
+            "narrative_roles:hook",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "VIS-NEGATIVE-SPACE-EDITORIAL",
+          "kind": "visual_system",
+          "fit_score": 0.992063,
+          "positive_matches": [
+            "context:high_contrast_editorial",
+            "context:talking_head",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.933",
+            "narrative_roles:cta",
+            "narrative_roles:hook",
+            "narrative_roles:value",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "MOTION-SEMANTIC-PUNCHIN",
+          "kind": "motion",
+          "fit_score": 0.996032,
+          "positive_matches": [
+            "context:high_contrast_editorial",
+            "context:talking_head",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.967",
+            "narrative_roles:cta",
+            "narrative_roles:hook",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "SOUND-VOICE-FIRST-MINIMAL",
+          "kind": "sound",
+          "fit_score": 0.968254,
+          "positive_matches": [
+            "context:authority",
+            "context:talking_head",
+            "duration:30s",
+            "energy_fit:0.733",
+            "narrative_roles:cta",
+            "narrative_roles:value",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "CTA-REFLECTIVE-QUESTION",
+          "kind": "cta",
+          "fit_score": 0.915833,
+          "positive_matches": [
+            "context:education",
+            "context:process_explanation",
+            "duration:30s",
+            "energy_fit:0.858",
+            "hook_pattern:contrarian",
+            "narrative_roles:cta",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        }
+      ],
+      "compatibility": {
+        "passed": true,
+        "blocking_conflicts": [],
+        "warnings": [
+          "asset_index_not_provided; resource coverage remains unverified",
+          "series_memory_not_provided; fatigue cannot be evaluated"
+        ]
+      },
+      "fatigue": {
+        "window": 3,
+        "signal": "no_history",
+        "penalty": 0.0,
+        "matched_prior_entries": [],
+        "is_quality_score": false
+      },
+      "asset_fit": {
+        "index_provided": false,
+        "coverage_status": "unknown",
+        "required_types": [],
+        "available_types": [],
+        "missing_types": [],
+        "preferred_types_available": []
+      },
+      "effort": {
+        "points": 13,
+        "level": "low",
+        "minutes_min": 34,
+        "minutes_max": 69,
+        "asset_generation_count": 0
+      },
+      "creative_direction": {
+        "hook": {
+          "module_id": "HOOK-CONTRARIAN-OUTCOME",
+          "label": "Giro contrarian con beneficio",
+          "directives": [
+            "Abrir con la negación o contraste antes de 1.2 segundos.",
+            "Hacer visible la consecuencia útil en el mismo beat o en el siguiente.",
+            "Usar un solo acento visual dominante y dejar respirar la última palabra."
+          ]
+        },
+        "structure": {
+          "module_id": "STRUCT-STEPS-PAYOFF",
+          "label": "Pasos con recompensa visible",
+          "directives": [
+            "Limitar la secuencia a los pasos que realmente dice la toma aprobada.",
+            "Dar a cada paso una forma visual distinta pero coherente.",
+            "Reservar un beat de lectura limpia para el payoff."
+          ]
+        },
+        "visual_system": {
+          "module_id": "VIS-NEGATIVE-SPACE-EDITORIAL",
+          "label": "Editorial en espacio negativo",
+          "directives": [
+            "Anclar el contenido principal a un borde y evitar tarjetas flotando al centro.",
+            "Usar dos puntos focales como máximo cuando el rostro permanece visible.",
+            "Alternar imagen, icono y tipografía según el significado, no por cuota."
+          ]
+        },
+        "motion": {
+          "module_id": "MOTION-SEMANTIC-PUNCHIN",
+          "label": "Punch-in semántico",
+          "directives": [
+            "Marcar de dos a cuatro palabras o cambios de idea por minuto como máximo inicial.",
+            "Alternar punch-in, punch-out y quietud según la jerarquía.",
+            "Animar el contenedor interior para conservar el recorte y la zona segura."
+          ]
+        },
+        "sound": {
+          "module_id": "SOUND-VOICE-FIRST-MINIMAL",
+          "label": "Voz primero, intervención mínima",
+          "directives": [
+            "Mantener la voz limpia y usar la música solo como soporte estable.",
+            "Elegir un único momento para romper el silencio si mejora la comprensión.",
+            "No compensar la falta de sonidos con más movimiento visual."
+          ]
+        },
+        "cta": {
+          "module_id": "CTA-REFLECTIVE-QUESTION",
+          "label": "Pregunta aplicable al caso propio",
+          "directives": [
+            "Formular una sola pregunta, concreta y sin dos verbos de acción.",
+            "Reducir movimiento después de su entrada para permitir lectura.",
+            "Cerrar con contacto visual o plano estable cuando esté disponible."
+          ]
+        },
+        "face_safe_notes": [
+          "Cada zoom tiene disparador semántico y escala limitada.",
+          "Cualquier cruce permitido dura como máximo 0.3s y requiere revisión manual.",
+          "Cualquier cruce sobre el rostro debe ser una transición breve y revisada.",
+          "Detectar espacio negativo por beat; no asumir que una zona sirve durante toda la toma.",
+          "El énfasis visual usa espacio negativo y no cubre ojos ni boca.",
+          "El único acento, si existe, debe marcar una decisión narrativa.",
+          "La ausencia de SFX no se interpreta como falta de acabado.",
+          "La pregunta se deriva del valor entregado y deja un beat de respuesta.",
+          "La primera frase expresa valor o riesgo para el espectador, no una lista de funciones.",
+          "La recompensa final resume el cambio producido por la secuencia.",
+          "La tipografía no invade la boca ni la zona de subtítulos.",
+          "Los pasos siguen la lógica del guion y no se inventan para llenar pantalla.",
+          "No encadenar acercamientos sin un estado estable entre ellos.",
+          "Proteger eyes, mouth, captions; priorizar negative_space, split_screen, full_screen_transition."
+        ],
+        "rhythm_pattern": "hit-hold-breathe-resolve"
+      },
+      "explanation": "Combina HOOK-CONTRARIAN-OUTCOME con STRUCT-STEPS-PAYOFF y VIS-NEGATIVE-SPACE-EDITORIAL; ajuste contextual 0.980, confianza 0.953. La posición es un orden de revisión contextual, no una declaración de calidad ni un ganador universal.",
+      "rank": 2,
+      "variety": {
+        "module_difference_from_first": 2,
+        "distinct_axes": [
+          "structure",
+          "sound"
+        ],
+        "not_quality_score": true
+      }
+    },
+    {
+      "option_id": "OPTION-C",
+      "recipe_id": "RECIPE-CBP-VIDEO-00-V1-89CA9B25E22B",
+      "label": "Problema, mecanismo y solución · Editorial en espacio negativo",
+      "module_ids": {
+        "hook": "HOOK-CONTRARIAN-OUTCOME",
+        "structure": "STRUCT-PROBLEM-MECHANISM-SOLUTION",
+        "visual_system": "VIS-NEGATIVE-SPACE-EDITORIAL",
+        "motion": "MOTION-SEMANTIC-PUNCHIN",
+        "sound": "SOUND-UI-SEQUENCE",
+        "cta": "CTA-REFLECTIVE-QUESTION"
+      },
+      "primary_family_id": "FAMILY-CLEAN-AUTHORITY",
+      "hybrid": true,
+      "contributing_family_ids": [
+        "FAMILY-CLEAN-AUTHORITY",
+        "FAMILY-EDITORIAL-LOOP"
+      ],
+      "fit_score": 0.966776,
+      "confidence": {
+        "score": 0.943908,
+        "level": "high",
+        "basis": [
+          "context_categories:5/5",
+          "traceability:0.890",
+          "asset_coverage:unknown"
+        ]
+      },
+      "score_breakdown": [
+        {
+          "module_id": "HOOK-CONTRARIAN-OUTCOME",
+          "kind": "hook",
+          "fit_score": 0.984167,
+          "positive_matches": [
+            "context:high_contrast_editorial",
+            "context:process_explanation",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.842",
+            "hook_pattern:contrarian",
+            "narrative_roles:hook",
+            "narrative_roles:value",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "STRUCT-PROBLEM-MECHANISM-SOLUTION",
+          "kind": "structure",
+          "fit_score": 0.989087,
+          "positive_matches": [
+            "context:education",
+            "context:process_explanation",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.908",
+            "narrative_roles:cta",
+            "narrative_roles:hook",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "VIS-NEGATIVE-SPACE-EDITORIAL",
+          "kind": "visual_system",
+          "fit_score": 0.992063,
+          "positive_matches": [
+            "context:high_contrast_editorial",
+            "context:talking_head",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.933",
+            "narrative_roles:cta",
+            "narrative_roles:hook",
+            "narrative_roles:value",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "MOTION-SEMANTIC-PUNCHIN",
+          "kind": "motion",
+          "fit_score": 0.996032,
+          "positive_matches": [
+            "context:high_contrast_editorial",
+            "context:talking_head",
+            "context:technology",
+            "duration:30s",
+            "energy_fit:0.967",
+            "narrative_roles:cta",
+            "narrative_roles:hook",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        },
+        {
+          "module_id": "SOUND-UI-SEQUENCE",
+          "kind": "sound",
+          "fit_score": 0.845675,
+          "positive_matches": [
+            "context:process_explanation",
+            "context:technology",
+            "context:tutorial",
+            "duration:30s",
+            "energy_fit:0.992",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": [
+            "narrative_roles:no_match"
+          ]
+        },
+        {
+          "module_id": "CTA-REFLECTIVE-QUESTION",
+          "kind": "cta",
+          "fit_score": 0.915833,
+          "positive_matches": [
+            "context:education",
+            "context:process_explanation",
+            "duration:30s",
+            "energy_fit:0.858",
+            "hook_pattern:contrarian",
+            "narrative_roles:cta",
+            "platform_fit:full_length_reel",
+            "source_geometry:talking_head"
+          ],
+          "negative_matches": []
+        }
+      ],
+      "compatibility": {
+        "passed": true,
+        "blocking_conflicts": [],
+        "warnings": [
+          "asset_index_not_provided; resource coverage remains unverified",
+          "series_memory_not_provided; fatigue cannot be evaluated"
+        ]
+      },
+      "fatigue": {
+        "window": 3,
+        "signal": "no_history",
+        "penalty": 0.0,
+        "matched_prior_entries": [],
+        "is_quality_score": false
+      },
+      "asset_fit": {
+        "index_provided": false,
+        "coverage_status": "unknown",
+        "required_types": [
+          "sfx"
+        ],
+        "available_types": [],
+        "missing_types": [],
+        "preferred_types_available": []
+      },
+      "effort": {
+        "points": 16,
+        "level": "medium",
+        "minutes_min": 41,
+        "minutes_max": 80,
+        "asset_generation_count": 0
+      },
+      "creative_direction": {
+        "hook": {
+          "module_id": "HOOK-CONTRARIAN-OUTCOME",
+          "label": "Giro contrarian con beneficio",
+          "directives": [
+            "Abrir con la negación o contraste antes de 1.2 segundos.",
+            "Hacer visible la consecuencia útil en el mismo beat o en el siguiente.",
+            "Usar un solo acento visual dominante y dejar respirar la última palabra."
+          ]
+        },
+        "structure": {
+          "module_id": "STRUCT-PROBLEM-MECHANISM-SOLUTION",
+          "label": "Problema, mecanismo y solución",
+          "directives": [
+            "Nombrar el problema sin prolongar la introducción.",
+            "Visualizar el mecanismo con una secuencia o diagrama de lectura única.",
+            "Resolver con un cambio observable y una consecuencia para el espectador."
+          ]
+        },
+        "visual_system": {
+          "module_id": "VIS-NEGATIVE-SPACE-EDITORIAL",
+          "label": "Editorial en espacio negativo",
+          "directives": [
+            "Anclar el contenido principal a un borde y evitar tarjetas flotando al centro.",
+            "Usar dos puntos focales como máximo cuando el rostro permanece visible.",
+            "Alternar imagen, icono y tipografía según el significado, no por cuota."
+          ]
+        },
+        "motion": {
+          "module_id": "MOTION-SEMANTIC-PUNCHIN",
+          "label": "Punch-in semántico",
+          "directives": [
+            "Marcar de dos a cuatro palabras o cambios de idea por minuto como máximo inicial.",
+            "Alternar punch-in, punch-out y quietud según la jerarquía.",
+            "Animar el contenedor interior para conservar el recorte y la zona segura."
+          ]
+        },
+        "sound": {
+          "module_id": "SOUND-UI-SEQUENCE",
+          "label": "Secuencia UI medida",
+          "directives": [
+            "Vincular cada tick a un nodo, paso o confirmación visible.",
+            "Variar timbre o altura solo cuando cambia la función del elemento.",
+            "Terminar la secuencia con silencio o una resolución distinta."
+          ]
+        },
+        "cta": {
+          "module_id": "CTA-REFLECTIVE-QUESTION",
+          "label": "Pregunta aplicable al caso propio",
+          "directives": [
+            "Formular una sola pregunta, concreta y sin dos verbos de acción.",
+            "Reducir movimiento después de su entrada para permitir lectura.",
+            "Cerrar con contacto visual o plano estable cuando esté disponible."
+          ]
+        },
+        "face_safe_notes": [
+          "Cada zoom tiene disparador semántico y escala limitada.",
+          "Cualquier cruce permitido dura como máximo 0.3s y requiere revisión manual.",
+          "Cualquier cruce sobre el rostro debe ser una transición breve y revisada.",
+          "Detectar espacio negativo por beat; no asumir que una zona sirve durante toda la toma.",
+          "El mecanismo se representa como relación causal, no como una lista de iconos.",
+          "El énfasis visual usa espacio negativo y no cubre ojos ni boca.",
+          "La pregunta se deriva del valor entregado y deja un beat de respuesta.",
+          "La primera frase expresa valor o riesgo para el espectador, no una lista de funciones.",
+          "La solución aparece después de que el problema sea comprensible.",
+          "La tipografía no invade la boca ni la zona de subtítulos.",
+          "Los ticks siguen hitos visuales reales y dejan hueco a la dicción.",
+          "No encadenar acercamientos sin un estado estable entre ellos.",
+          "No se colocan sonidos sobre cada palabra o subtítulo.",
+          "Proteger eyes, mouth, captions; priorizar negative_space, split_screen, full_screen_transition."
+        ],
+        "rhythm_pattern": "hit-hold-breathe-resolve"
+      },
+      "explanation": "Combina HOOK-CONTRARIAN-OUTCOME con STRUCT-PROBLEM-MECHANISM-SOLUTION y VIS-NEGATIVE-SPACE-EDITORIAL; ajuste contextual 0.967, confianza 0.944. La posición es un orden de revisión contextual, no una declaración de calidad ni un ganador universal.",
+      "rank": 3,
+      "variety": {
+        "module_difference_from_first": 2,
+        "distinct_axes": [
+          "structure",
+          "sound"
+        ],
+        "not_quality_score": true
+      }
+    }
+  ],
+  "warnings": [
+    "asset_index_not_provided; resource coverage remains unverified",
+    "series_contract_not_provided; family constraints use catalog defaults",
+    "series_memory_not_provided; fatigue cannot be evaluated"
+  ],
+  "explanation": "Se proponen 3 recetas compatibles y deliberadamente distintas. El orden expresa ajuste al blueprint actual; la selección final requiere revisión humana y no promueve ninguna familia automáticamente."
+}

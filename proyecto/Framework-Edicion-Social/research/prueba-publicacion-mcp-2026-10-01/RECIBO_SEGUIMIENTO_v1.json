@@ -1,0 +1,17 @@
+{
+  "automationId": "comprobar-piloto-metricool-de-todos-los-formatos",
+  "name": "Comprobar piloto Metricool de todos los formatos",
+  "kind": "heartbeat",
+  "status": "ACTIVE",
+  "expectedRunLocal": "2026-10-02T18:15:00-05:00",
+  "timezone": "America/Guayaquil",
+  "occurrences": 1,
+  "verified": [
+    "automation_update creó ACTIVE",
+    "automation_update view renderizó tarjeta",
+    "automation.toml conserva kind heartbeat, COUNT=1 y objetivo 2 octubre 18:15"
+  ],
+  "purpose": "Confirmar resultados reales por destino y horas; no volver a publicar ni reprogramar.",
+  "requiredForLocalReview": "Mac encendido y app Codex abierta; archivos del proyecto accesibles.",
+  "actualRunVerified": false
+}

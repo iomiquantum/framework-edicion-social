@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/platform-master.schema.json",
+  "title": "Approved vertical social master manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "master_id",
+    "project_id",
+    "video_id",
+    "profile_id",
+    "project_path",
+    "technical",
+    "approval",
+    "content_lock",
+    "hashes",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0.0"},
+    "master_id": {"type": "string", "pattern": "^MASTER-[A-Z0-9-]+$"},
+    "project_id": {"type": "string", "minLength": 1},
+    "video_id": {"type": "string", "pattern": "^VIDEO-[0-9]{2,}$"},
+    "profile_id": {"type": "string", "pattern": "^PLATFORM-[A-Z0-9-]+-[0-9]{3}$"},
+    "project_path": {"type": "string", "minLength": 1},
+    "technical": {
+      "type": "object",
+      "required": [
+        "width",
+        "height",
+        "fps",
+        "aspect_ratio",
+        "duration_seconds",
+        "container",
+        "video_codec",
+        "pixel_format",
+        "audio_codec",
+        "audio_sample_rate_hz",
+        "color_space"
+      ],
+      "properties": {
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "fps": {"type": "number", "minimum": 1},
+        "aspect_ratio": {"type": "string", "minLength": 1},
+        "duration_seconds": {"type": "number", "exclusiveMinimum": 0},
+        "container": {"type": "string", "minLength": 1},
+        "video_codec": {"type": "string", "minLength": 1},
+        "pixel_format": {"type": "string", "minLength": 1},
+        "audio_codec": {"type": "string", "minLength": 1},
+        "audio_sample_rate_hz": {"type": "integer", "minimum": 1},
+        "color_space": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "approval": {
+      "type": "object",
+      "required": ["status", "explicit_user_approval", "approved_by", "approved_at", "note"],
+      "properties": {
+        "status": {"enum": ["pending", "approved", "rejected"]},
+        "explicit_user_approval": {"type": "boolean"},
+        "approved_by": {"type": ["string", "null"]},
+        "approved_at": {"type": ["string", "null"], "format": "date-time"},
+        "note": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "content_lock": {
+      "type": "object",
+      "required": ["status", "locked_at", "take", "cuts", "voice", "semantics", "assets"],
+      "properties": {
+        "status": {"enum": ["unlocked", "locked"]},
+        "locked_at": {"type": ["string", "null"], "format": "date-time"},
+        "take": {"type": "boolean"},
+        "cuts": {"type": "boolean"},
+        "voice": {"type": "boolean"},
+        "semantics": {"type": "boolean"},
+        "assets": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "hashes": {
+      "type": "object",
+      "required": ["project_sha256", "cut_plan_sha256", "audio_mix_sha256"],
+      "properties": {
+        "project_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "cut_plan_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "audio_mix_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "created_at": {"type": "string", "format": "date-time"},
+    "updated_at": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": false
+}

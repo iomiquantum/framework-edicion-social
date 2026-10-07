@@ -1,0 +1,654 @@
+{
+  "id": "largo-159",
+  "voice_file_sha256": "f6e5e98d8f65f6cc688377b44ec17d26177622e892c5491c71454ea7479fff08",
+  "transcript_binding": "Serie-IA-Negocios-10-Videos/VIDEO-LARGO-01-15-2026-09-26/VERSION-05-SUBTITULOS-Y-RECURSOS-FOTOGRAFICOS-2026-09-27/montaje-visual-hyperframes/assets/voice-guide/VOZ_GUIA_COMPLETA.words.json",
+  "transcript_sha256": "a7bc48b1b3fa713e9a550cfc7bc830cef98312672dde713ba0c7dc7010322fef",
+  "method": {
+    "rms_window_s": 0.05,
+    "low_energy_threshold_dbfs": -32.65,
+    "pitch": "Praat autocorrelation75–400Hz,20ms; octave errors possible",
+    "interpretation": "Texto/contexto editorial; métricas no prueban emoción, defecto ni percepción."
+  },
+  "global": {
+    "start_s": 0,
+    "end_s": 158.798,
+    "text": "",
+    "words_per_s": 0.0,
+    "active_rms_median_dbfs": -16.86,
+    "active_rms_range_p90_p10_db": 15.43,
+    "f0_median_hz": 115.9,
+    "f0_p90_p10_semitones": 6.92,
+    "low_energy_fraction": 0.278
+  },
+  "low_energy_intervals_s": [
+    [
+      0,
+      0.3
+    ],
+    [
+      1.85,
+      2.4
+    ],
+    [
+      4.8,
+      5.85
+    ],
+    [
+      8.75,
+      9.3
+    ],
+    [
+      10.95,
+      11.4
+    ],
+    [
+      13.1,
+      13.5
+    ],
+    [
+      14.85,
+      15.1
+    ],
+    [
+      17.6,
+      18.6
+    ],
+    [
+      20.8,
+      21.1
+    ],
+    [
+      23.9,
+      24.65
+    ],
+    [
+      25.5,
+      25.75
+    ],
+    [
+      27.7,
+      28.15
+    ],
+    [
+      29.85,
+      30.3
+    ],
+    [
+      31.6,
+      31.85
+    ],
+    [
+      33.25,
+      33.9
+    ],
+    [
+      36.65,
+      37.65
+    ],
+    [
+      38.5,
+      38.85
+    ],
+    [
+      40.75,
+      41.05
+    ],
+    [
+      42.8,
+      43.35
+    ],
+    [
+      44.85,
+      45.2
+    ],
+    [
+      46.15,
+      46.45
+    ],
+    [
+      48.15,
+      49.05
+    ],
+    [
+      52.3,
+      52.55
+    ],
+    [
+      54.15,
+      54.8
+    ],
+    [
+      55.35,
+      55.6
+    ],
+    [
+      56.35,
+      56.5
+    ],
+    [
+      58.9,
+      59.3
+    ],
+    [
+      61.25,
+      61.95
+    ],
+    [
+      63.65,
+      64.05
+    ],
+    [
+      65.2,
+      65.45
+    ],
+    [
+      66.1,
+      66.3
+    ],
+    [
+      67.05,
+      67.35
+    ],
+    [
+      69.2,
+      70.15
+    ],
+    [
+      72.4,
+      72.85
+    ],
+    [
+      73.65,
+      74.05
+    ],
+    [
+      76.9,
+      77.65
+    ],
+    [
+      81.25,
+      81.65
+    ],
+    [
+      83.05,
+      83.8
+    ],
+    [
+      85.95,
+      86.45
+    ],
+    [
+      88.1,
+      88.6
+    ],
+    [
+      89.9,
+      90.15
+    ],
+    [
+      91.75,
+      92.1
+    ],
+    [
+      93.05,
+      93.7
+    ],
+    [
+      95.0,
+      95.35
+    ],
+    [
+      96.6,
+      97.0
+    ],
+    [
+      98.0,
+      98.95
+    ],
+    [
+      100.65,
+      101.2
+    ],
+    [
+      102.65,
+      103.2
+    ],
+    [
+      104.6,
+      104.95
+    ],
+    [
+      106.2,
+      106.4
+    ],
+    [
+      107.25,
+      108.1
+    ],
+    [
+      110.5,
+      110.95
+    ],
+    [
+      112.35,
+      112.85
+    ],
+    [
+      113.85,
+      114.5
+    ],
+    [
+      115.6,
+      116.0
+    ],
+    [
+      118.65,
+      119.2
+    ],
+    [
+      120.7,
+      121.25
+    ],
+    [
+      121.95,
+      122.1
+    ],
+    [
+      124.4,
+      124.6
+    ],
+    [
+      126.4,
+      126.85
+    ],
+    [
+      129.65,
+      130.05
+    ],
+    [
+      132.95,
+      133.35
+    ],
+    [
+      135.75,
+      136.45
+    ],
+    [
+      137.4,
+      137.95
+    ],
+    [
+      139.7,
+      140.0
+    ],
+    [
+      141.75,
+      142.65
+    ],
+    [
+      143.25,
+      143.7
+    ],
+    [
+      144.2,
+      144.5
+    ],
+    [
+      145.8,
+      146.4
+    ],
+    [
+      147.0,
+      147.5
+    ],
+    [
+      148.9,
+      150.05
+    ],
+    [
+      153.4,
+      154.05
+    ],
+    [
+      155.65,
+      155.8
+    ],
+    [
+      158.4,
+      158.798
+    ]
+  ],
+  "phrases": [
+    {
+      "start_s": 0,
+      "end_s": 2.134,
+      "text": "¿Qué te cuesta más en tu negocio:",
+      "words_per_s": 3.28,
+      "active_rms_median_dbfs": -17.39,
+      "active_rms_range_p90_p10_db": 16.61,
+      "f0_median_hz": 116.4,
+      "f0_p90_p10_semitones": 9.85,
+      "low_energy_fraction": 0.302
+    },
+    {
+      "start_s": 2.438,
+      "end_s": 5.29,
+      "text": "conseguir atención o convertirla en ventas?",
+      "words_per_s": 2.1,
+      "active_rms_median_dbfs": -16.7,
+      "active_rms_range_p90_p10_db": 17.39,
+      "f0_median_hz": 111.2,
+      "f0_p90_p10_semitones": 6.24,
+      "low_energy_fraction": 0.246
+    },
+    {
+      "start_s": 5.878,
+      "end_s": 9.034,
+      "text": "Una campaña bonita no corrige una oferta que nadie quiere.",
+      "words_per_s": 3.17,
+      "active_rms_median_dbfs": -16.35,
+      "active_rms_range_p90_p10_db": 17.12,
+      "f0_median_hz": 122.6,
+      "f0_p90_p10_semitones": 6.86,
+      "low_energy_fraction": 0.111
+    },
+    {
+      "start_s": 9.317,
+      "end_s": 13.183,
+      "text": "Y publicar más, por sí solo, tampoco garantiza resolverlo.",
+      "words_per_s": 2.33,
+      "active_rms_median_dbfs": -16.35,
+      "active_rms_range_p90_p10_db": 14.2,
+      "f0_median_hz": 117.7,
+      "f0_p90_p10_semitones": 7.04,
+      "low_energy_fraction": 0.192
+    },
+    {
+      "start_s": 13.26,
+      "end_s": 17.897,
+      "text": "La inteligencia artificial está llenando internet de contenido genérico.",
+      "words_per_s": 1.94,
+      "active_rms_median_dbfs": -19.03,
+      "active_rms_range_p90_p10_db": 14.37,
+      "f0_median_hz": 115.5,
+      "f0_p90_p10_semitones": 5.58,
+      "low_energy_fraction": 0.237
+    },
+    {
+      "start_s": 18.354,
+      "end_s": 24.166,
+      "text": "Cuando producir contenido se vuelve fácil, el volumen deja de ser suficiente para diferenciarte.",
+      "words_per_s": 2.41,
+      "active_rms_median_dbfs": -17.32,
+      "active_rms_range_p90_p10_db": 13.6,
+      "f0_median_hz": 113.8,
+      "f0_p90_p10_semitones": 6.06,
+      "low_energy_fraction": 0.181
+    },
+    {
+      "start_s": 24.493,
+      "end_s": 27.681,
+      "text": "Pero tu cliente no compra la herramienta que utilizas.",
+      "words_per_s": 2.82,
+      "active_rms_median_dbfs": -19.17,
+      "active_rms_range_p90_p10_db": 16.28,
+      "f0_median_hz": 117.0,
+      "f0_p90_p10_semitones": 7.68,
+      "low_energy_fraction": 0.203
+    },
+    {
+      "start_s": 27.951,
+      "end_s": 33.306,
+      "text": "Le importa que respondas rápido, que cumplas lo prometido y que soluciones su problema.",
+      "words_per_s": 2.61,
+      "active_rms_median_dbfs": -17.7,
+      "active_rms_range_p90_p10_db": 14.22,
+      "f0_median_hz": 112.8,
+      "f0_p90_p10_semitones": 6.8,
+      "low_energy_fraction": 0.243
+    },
+    {
+      "start_s": 33.611,
+      "end_s": 36.986,
+      "text": "Esa es la diferencia que cambia dónde tienes que empezar.",
+      "words_per_s": 2.96,
+      "active_rms_median_dbfs": -17.35,
+      "active_rms_range_p90_p10_db": 14.38,
+      "f0_median_hz": 118.2,
+      "f0_p90_p10_semitones": 9.76,
+      "low_energy_fraction": 0.221
+    },
+    {
+      "start_s": 37.486,
+      "end_s": 42.955,
+      "text": "ChatGPT puede saber muchísimo de marketing y casi nada de tu cliente.",
+      "words_per_s": 2.19,
+      "active_rms_median_dbfs": -15.81,
+      "active_rms_range_p90_p10_db": 14.94,
+      "f0_median_hz": 132.3,
+      "f0_p90_p10_semitones": 8.63,
+      "low_energy_fraction": 0.229
+    },
+    {
+      "start_s": 43.156,
+      "end_s": 48.381,
+      "text": "No escuchó sus llamadas, sus objeciones ni por qué decidió no comprarte.",
+      "words_per_s": 2.3,
+      "active_rms_median_dbfs": -16.85,
+      "active_rms_range_p90_p10_db": 17.92,
+      "f0_median_hz": 117.2,
+      "f0_p90_p10_semitones": 5.64,
+      "low_energy_fraction": 0.248
+    },
+    {
+      "start_s": 48.816,
+      "end_s": 54.237,
+      "text": "Antes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.",
+      "words_per_s": 2.58,
+      "active_rms_median_dbfs": -15.45,
+      "active_rms_range_p90_p10_db": 15.41,
+      "f0_median_hz": 118.2,
+      "f0_p90_p10_semitones": 5.63,
+      "low_energy_fraction": 0.193
+    },
+    {
+      "start_s": 54.519,
+      "end_s": 58.903,
+      "text": "A veces, tu mejor prompt empieza en una conversación real con un cliente.",
+      "words_per_s": 2.97,
+      "active_rms_median_dbfs": -17.23,
+      "active_rms_range_p90_p10_db": 14.5,
+      "f0_median_hz": 108.3,
+      "f0_p90_p10_semitones": 6.11,
+      "low_energy_fraction": 0.227
+    },
+    {
+      "start_s": 59.107,
+      "end_s": 61.414,
+      "text": "Ahí empieza tu verdadera ventaja.",
+      "words_per_s": 2.17,
+      "active_rms_median_dbfs": -16.67,
+      "active_rms_range_p90_p10_db": 14.03,
+      "f0_median_hz": 108.3,
+      "f0_p90_p10_semitones": 6.29,
+      "low_energy_fraction": 0.217
+    },
+    {
+      "start_s": 61.763,
+      "end_s": 69.469,
+      "text": "No en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió.",
+      "words_per_s": 2.98,
+      "active_rms_median_dbfs": -18.45,
+      "active_rms_range_p90_p10_db": 14.94,
+      "f0_median_hz": 107.8,
+      "f0_p90_p10_semitones": 7.39,
+      "low_energy_fraction": 0.253
+    },
+    {
+      "start_s": 69.948,
+      "end_s": 73.656,
+      "text": "Si ese conocimiento vive solamente en tu cabeza, tienes un problema.",
+      "words_per_s": 2.97,
+      "active_rms_median_dbfs": -16.35,
+      "active_rms_range_p90_p10_db": 13.71,
+      "f0_median_hz": 123.4,
+      "f0_p90_p10_semitones": 7.26,
+      "low_energy_fraction": 0.176
+    },
+    {
+      "start_s": 73.882,
+      "end_s": 83.264,
+      "text": "No porque debas regalárselo a una inteligencia artificial, sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.",
+      "words_per_s": 2.56,
+      "active_rms_median_dbfs": -16.35,
+      "active_rms_range_p90_p10_db": 15.17,
+      "f0_median_hz": 115.1,
+      "f0_p90_p10_semitones": 6.24,
+      "low_energy_fraction": 0.219
+    },
+    {
+      "start_s": 83.635,
+      "end_s": 88.168,
+      "text": "Convertir esa experiencia en un sistema no significa dejar de pensar.",
+      "words_per_s": 2.43,
+      "active_rms_median_dbfs": -17.11,
+      "active_rms_range_p90_p10_db": 15.52,
+      "f0_median_hz": 122.5,
+      "f0_p90_p10_semitones": 8.74,
+      "low_energy_fraction": 0.189
+    },
+    {
+      "start_s": 88.392,
+      "end_s": 93.202,
+      "text": "La inteligencia artificial debería aumentar tu criterio, no reemplazarlo.",
+      "words_per_s": 1.87,
+      "active_rms_median_dbfs": -16.62,
+      "active_rms_range_p90_p10_db": 16.9,
+      "f0_median_hz": 112.6,
+      "f0_p90_p10_semitones": 7.23,
+      "low_energy_fraction": 0.229
+    },
+    {
+      "start_s": 93.529,
+      "end_s": 96.55,
+      "text": "Y antes de automatizar, revisa tus procesos.",
+      "words_per_s": 2.32,
+      "active_rms_median_dbfs": -18.63,
+      "active_rms_range_p90_p10_db": 15.61,
+      "f0_median_hz": 124.6,
+      "f0_p90_p10_semitones": 7.75,
+      "low_energy_fraction": 0.217
+    },
+    {
+      "start_s": 96.785,
+      "end_s": 107.43,
+      "text": "Si son malos, la información está desordenada y nadie mide resultados, la inteligencia artificial puede hacer el desorden mucho más rápido.",
+      "words_per_s": 1.97,
+      "active_rms_median_dbfs": -16.15,
+      "active_rms_range_p90_p10_db": 15.72,
+      "f0_median_hz": 115.8,
+      "f0_p90_p10_semitones": 5.97,
+      "low_energy_fraction": 0.31
+    },
+    {
+      "start_s": 107.756,
+      "end_s": 115.639,
+      "text": "Automatizar algo que todavía no entiendes puede significar repetir, a mayor velocidad, algo que ya estaba mal.",
+      "words_per_s": 2.16,
+      "active_rms_median_dbfs": -17.72,
+      "active_rms_range_p90_p10_db": 12.73,
+      "f0_median_hz": 112.9,
+      "f0_p90_p10_semitones": 7.19,
+      "low_energy_fraction": 0.291
+    },
+    {
+      "start_s": 115.815,
+      "end_s": 120.779,
+      "text": "Y si la herramienta te da más trabajo del que te quita, todavía no tienes un sistema.",
+      "words_per_s": 3.43,
+      "active_rms_median_dbfs": -14.68,
+      "active_rms_range_p90_p10_db": 16.01,
+      "f0_median_hz": 127.4,
+      "f0_p90_p10_semitones": 7.53,
+      "low_energy_fraction": 0.24
+    },
+    {
+      "start_s": 121.04,
+      "end_s": 126.277,
+      "text": "Entonces quizá no necesitas comprar otro curso ni guardar otras diez ideas.",
+      "words_per_s": 2.29,
+      "active_rms_median_dbfs": -17.85,
+      "active_rms_range_p90_p10_db": 13.92,
+      "f0_median_hz": 115.4,
+      "f0_p90_p10_semitones": 5.8,
+      "low_energy_fraction": 0.181
+    },
+    {
+      "start_s": 126.637,
+      "end_s": 135.91,
+      "text": "Si ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.",
+      "words_per_s": 2.59,
+      "active_rms_median_dbfs": -17.22,
+      "active_rms_range_p90_p10_db": 14.18,
+      "f0_median_hz": 114.4,
+      "f0_p90_p10_semitones": 6.03,
+      "low_energy_fraction": 0.189
+    },
+    {
+      "start_s": 136.259,
+      "end_s": 141.962,
+      "text": "Elige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.",
+      "words_per_s": 2.45,
+      "active_rms_median_dbfs": -14.7,
+      "active_rms_range_p90_p10_db": 15.88,
+      "f0_median_hz": 121.3,
+      "f0_p90_p10_semitones": 5.18,
+      "low_energy_fraction": 0.281
+    },
+    {
+      "start_s": 142.485,
+      "end_s": 143.276,
+      "text": "Una sola.",
+      "words_per_s": 2.53,
+      "active_rms_median_dbfs": -16.45,
+      "active_rms_range_p90_p10_db": 11.0,
+      "f0_median_hz": 111.6,
+      "f0_p90_p10_semitones": 9.96,
+      "low_energy_fraction": 0.25
+    },
+    {
+      "start_s": 143.5,
+      "end_s": 145.895,
+      "text": "Mídela antes de automatizarla.",
+      "words_per_s": 1.67,
+      "active_rms_median_dbfs": -17.96,
+      "active_rms_range_p90_p10_db": 14.67,
+      "f0_median_hz": 105.1,
+      "f0_p90_p10_semitones": 6.38,
+      "low_energy_fraction": 0.292
+    },
+    {
+      "start_s": 146.2,
+      "end_s": 149.226,
+      "text": "Ahora sí, vuelve a la pregunta correcta:",
+      "words_per_s": 2.31,
+      "active_rms_median_dbfs": -14.89,
+      "active_rms_range_p90_p10_db": 12.07,
+      "f0_median_hz": 118.9,
+      "f0_p90_p10_semitones": 6.51,
+      "low_energy_fraction": 0.41
+    },
+    {
+      "start_s": 149.857,
+      "end_s": 158.451,
+      "text": "si mañana tuvieras una inteligencia artificial perfecta, ¿qué problema de tu cliente o de tu proceso comercial resolverías primero?",
+      "words_per_s": 2.21,
+      "active_rms_median_dbfs": -16.65,
+      "active_rms_range_p90_p10_db": 13.52,
+      "f0_median_hz": 115.5,
+      "f0_p90_p10_semitones": 7.26,
+      "low_energy_fraction": 0.203
+    }
+  ],
+  "human_listening": "por confirmar"
+}

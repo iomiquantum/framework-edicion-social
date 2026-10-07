@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.framework-edicion-social/schemas/creative-attribution.schema.json",
+  "title": "Human-selected creative recipe attribution",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "attribution_id",
+    "project_id",
+    "video_id",
+    "selected_at",
+    "selection_basis",
+    "selected_by_reference",
+    "plan",
+    "selection",
+    "governance"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "attribution_id": {"type": "string", "pattern": "^ATTR-[A-F0-9]{16}$"},
+    "project_id": {"type": "string", "minLength": 1},
+    "video_id": {"type": "string", "pattern": "^VIDEO-[0-9]{2,}$"},
+    "selected_at": {"type": "string", "format": "date-time"},
+    "selection_basis": {"const": "explicit_human_selection"},
+    "selected_by_reference": {"type": "string", "minLength": 1},
+    "plan": {
+      "type": "object",
+      "required": ["path", "sha256", "plan_id"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "plan_id": {"type": "string", "pattern": "^RECIPE-PLAN-[A-Z0-9_-]+$"}
+      },
+      "additionalProperties": false
+    },
+    "selection": {
+      "type": "object",
+      "required": [
+        "option_id",
+        "recipe_id",
+        "primary_family_id",
+        "hybrid",
+        "contributing_family_ids",
+        "module_ids"
+      ],
+      "properties": {
+        "option_id": {"enum": ["OPTION-A", "OPTION-B", "OPTION-C"]},
+        "recipe_id": {"type": "string", "pattern": "^RECIPE-[A-Z0-9_-]+-[A-F0-9]{12}$"},
+        "primary_family_id": {"type": ["string", "null"], "pattern": "^FAMILY-[A-Z0-9_-]+$"},
+        "hybrid": {"type": "boolean"},
+        "contributing_family_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^FAMILY-[A-Z0-9_-]+$"},
+          "uniqueItems": true
+        },
+        "module_ids": {
+          "type": "object",
+          "required": ["hook", "structure", "visual_system", "motion", "sound", "cta"],
+          "properties": {
+            "hook": {"type": "string", "pattern": "^HOOK-[A-Z0-9-]+$"},
+            "structure": {"type": "string", "pattern": "^STRUCT-[A-Z0-9-]+$"},
+            "visual_system": {"type": "string", "pattern": "^VIS-[A-Z0-9-]+$"},
+            "motion": {"type": "string", "pattern": "^MOTION-[A-Z0-9-]+$"},
+            "sound": {"type": "string", "pattern": "^SOUND-[A-Z0-9-]+$"},
+            "cta": {"type": "string", "pattern": "^CTA-[A-Z0-9-]+$"}
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "governance": {
+      "type": "object",
+      "required": ["performance_causality_claimed", "automatic_family_credit", "human_selection_required"],
+      "properties": {
+        "performance_causality_claimed": {"const": false},
+        "automatic_family_credit": {"const": false},
+        "human_selection_required": {"const": true}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

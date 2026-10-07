@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head></head><body><template>
+<style>
+  #root{position:absolute;inset:0;overflow:hidden;background:#0E1B2B;color:#0E1B2B;font-family:Inter,Arial,sans-serif;pointer-events:none}
+  .photo-wrap{position:absolute;inset:0;overflow:hidden}.photo{position:absolute;inset:-3%;width:106%;height:106%;object-fit:cover;filter:saturate(.82) contrast(1.06)}.wash{position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,27,43,.34),rgba(14,27,43,.12) 48%,rgba(14,27,43,.62))}
+  .title{position:absolute;left:48px;right:48px;top:42px;padding:20px 28px;background:#0E1B2B;color:#F8F3E8;border:4px solid #2F66FF;border-radius:28px;font:900 66px/.94 "Archivo Black","Arial Black",Inter,sans-serif;text-transform:uppercase;text-align:center;opacity:0}
+  .chat{position:absolute;display:flex;align-items:center;min-height:140px;padding:22px 30px;border-radius:34px;border:4px solid #F8F3E8;font:900 56px/.96 "Archivo Black","Arial Black",Inter,sans-serif;letter-spacing:-1px;opacity:0}.chat::after{content:"";position:absolute;bottom:-22px;width:0;height:0;border-style:solid}
+  .c1{left:54px;right:226px;top:326px;background:#F8F3E8}.c1::after{left:62px;border-width:22px 25px 0 0;border-color:#F8F3E8 transparent transparent transparent}
+  .c2{left:224px;right:54px;top:520px;background:#2F66FF;color:#F8F3E8}.c2::after{right:62px;border-width:22px 0 0 25px;border-color:#F8F3E8 transparent transparent transparent}
+  .c3{left:54px;right:168px;top:714px;background:#FF7A45;color:#0E1B2B}.c3::after{left:78px;border-width:22px 25px 0 0;border-color:#F8F3E8 transparent transparent transparent}
+  .note{position:absolute;left:172px;right:172px;bottom:98px;padding:18px 24px;background:#0E1B2B;color:#F8F3E8;border:4px solid #2F66FF;border-radius:28px;font:900 42px/.98 Inter,Arial,sans-serif;text-align:center;opacity:0}
+</style>
+<div data-hf-id="hf-urtb" id="root" data-composition-id="scene-conversation" data-duration="7.20" data-width="1080" data-height="1920">
+  <div data-hf-id="hf-uqvt" class="photo-wrap"><img data-hf-id="hf-lnf6" id="v14-conversation-photo" class="photo clip" data-start="0" data-duration="7.20" data-track-index="0" data-layout-allow-overflow src="assets/video-14_broll_conversation_as_prompt_v01.png" alt=""><div data-hf-id="hf-7h0d" class="wash"></div></div>
+  <div data-hf-id="hf-7t6k" class="title" id="v14-conversation-title">UNA CONVERSACIÓN REAL</div>
+  <div data-hf-id="hf-v14-chat-1" class="chat c1">“QUÉ LE PREOCUPA”</div>
+  <div data-hf-id="hf-v14-chat-2" class="chat c2">“QUÉ QUIERE”</div>
+  <div data-hf-id="hf-v14-chat-3" class="chat c3">“QUÉ NO ENTIENDE”</div>
+  <div data-hf-id="hf-py8p" class="note" id="v14-conversation-note">CLIENTE → PALABRAS → PROMPT</div>
+</div>
+<script>
+  const tl=gsap.timeline({paused:true});
+  tl.fromTo("#v14-conversation-title",{y:-40,opacity:0},{y:0,opacity:1,duration:.42,ease:"power3.out"},.04);
+  gsap.utils.toArray(".chat").forEach((el,i)=>tl.fromTo(el,{x:i%2?-74:74,scale:.94,opacity:0},{x:0,scale:1,opacity:1,duration:.44,ease:"power3.out"},.34+i*.22));
+  tl.fromTo("#v14-conversation-note",{y:26,opacity:0},{y:0,opacity:1,duration:.38,ease:"power3.out"},1.08)
+    .fromTo("#v14-conversation-photo",{scale:1.01,x:-7,y:-4},{scale:1.07,x:8,y:5,duration:7.20,ease:"none"},0);
+  window.__timelines["scene-conversation"]=tl;
+</script>
+</template></body></html>

@@ -1,0 +1,46 @@
+{
+  "scope_id": "REGRESSION-VIDEO25-READONLY",
+  "coverage_note": "Read-only tooling regression on frozen25. Mainindex included in both visual_style andmix conservatively. Not new QAapproval nor speedofassembly proof.",
+  "groups": {
+    "source": [
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/video25-master-hlg-v1.mp4"
+    ],
+    "transcription": [
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/transcript.json"
+    ],
+    "cut_plan": [
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/cut-plan.json"
+    ],
+    "visual_style": [
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/index.html",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/captions-es.html",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-compra.html",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-contexto.html",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-necesidad.html",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-precio.html",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/compositions/scene-problema.html",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/fonts/Montserrat-800.woff2"
+    ],
+    "visual_assets": [
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/compra-valor-contexto-v2.png"
+    ],
+    "audio_assets": [
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/sfx-precio-mix-v1.wav",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/sfx-ahorro-mix-v1.wav",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/sfx-contexto-mix-v1.wav"
+    ],
+    "mix": [
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/assets/video25-voice-clean-normalized-v1.wav",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/index.html",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/asset-ledger.json"
+    ],
+    "engine": [
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/media-runtime.mjs",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/package.json",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-25/editable-hyperframes-video-25/hyperframes.json",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/flujo-2.json",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/workflow-profiles/QA_COMUN.md",
+      "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/scripts/qa_reuse_context.py"
+    ]
+  }
+}

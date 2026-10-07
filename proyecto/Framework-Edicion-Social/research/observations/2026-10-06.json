@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-06",
+  "consulted_at": "2026-10-06T16:04:33-05:00",
+  "scope": {
+    "format": "video_vertical_corto",
+    "topics": [
+      "tecnologia",
+      "inteligencia_artificial"
+    ],
+    "language": "es",
+    "primary_market": "Ecuador",
+    "proxy_market": "LATAM"
+  },
+  "status": "no_material_change",
+  "platform_changes": [],
+  "observed_patterns": [],
+  "deduplication": {
+    "compared_with": "research/observations/2026-10-03.json",
+    "duplicates_discarded": [
+      "La priorización de contenido original en YouTube Shorts fue registrada el 2026-10-03.",
+      "Las novedades de Made on YouTube, Shorts Series, edición conversacional y Content ID ya constan en observaciones anteriores.",
+      "La actualización de TikTok del 2026-10-05 está dirigida a anunciantes, campañas pagadas y herramientas de negocio; no introduce una regla nueva para la edición orgánica estudiada.",
+      "El estudio de TikTok Shop México del 2026-10-01 no establece una práctica nueva de edición orgánica para este nicho."
+    ],
+    "material_items_kept": 0
+  },
+  "coverage": {
+    "official_sources_checked": [
+      "YouTube Community y YouTube Help",
+      "TikTok Newsroom ES-LATAM y global",
+      "Meta Newsroom y archivo Reels"
+    ],
+    "ecuador_specific_sample": "No disponible con muestra suficiente en esta ejecución.",
+    "latam_proxy": "No se encontró una señal orgánica reciente y reproducible con muestra suficiente para elevarla a patrón observado."
+  },
+  "notes": [
+    "No se verificó un cambio oficial nuevo y aplicable desde la observación del 2026-10-03.",
+    "La novedad de TikTok del 2026-10-05 se archivó como contexto publicitario y no se trasladó a reglas de contenido orgánico.",
+    "No existen observaciones fechadas 2026-10-04 ni 2026-10-05; no se fabricaron consultas retrospectivas. La ejecución actual cubrió desde la última consulta verificable.",
+    "El informe semanal 2026-W41 se generó con retraso el 2026-10-06 y conserva explícita la discontinuidad del radar.",
+    "No se modificaron reglas, perfiles, experimentos ni renders."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "cbc04567-370d-456f-a45d-7abbfd1625b3",
+  "sequence": 3,
+  "action": "start",
+  "interval_id": "cbc04567-370d-456f-a45d-7abbfd1625b3",
+  "phase": "coordination",
+  "kind": "experiment_audit",
+  "at_epoch_seconds": 1790828510.8882911,
+  "at_utc": "2026-10-01T04:21:50.888291+00:00",
+  "note": "Congelar reparto tras recibo provisional y lectura de rangos/textos",
+  "measurement_method": "utc_wall_clock_time_time_cross_process"
+}

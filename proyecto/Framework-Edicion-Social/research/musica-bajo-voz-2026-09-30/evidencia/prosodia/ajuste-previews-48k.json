@@ -1,0 +1,1 @@
+{"initial_attempt":"Guard prevented PCM24 raw clipping before gain; no clipped preview written","correction":"Measure source in floating point; apply constant gain before writing PCM24; common target -22LUFS","existing_source_changes":false}

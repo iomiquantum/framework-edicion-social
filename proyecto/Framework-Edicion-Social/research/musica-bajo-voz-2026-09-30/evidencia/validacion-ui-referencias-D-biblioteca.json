@@ -1,0 +1,54 @@
+{
+  "date_local": "2026-09-30",
+  "method": "CUA / navegador in-app y controles nativos",
+  "references": {
+    "ref-02": {
+      "chapter_selected_s": 44.12,
+      "time_observed_s": 44.207666,
+      "duration_s": 66.366667,
+      "paused": true,
+      "error": null
+    },
+    "ref-01": {
+      "chapter_selected_s": 48.228,
+      "time_observed_s": 48.301383,
+      "duration_s": 69.6,
+      "paused": true,
+      "error": null
+    }
+  },
+  "practice_D": {
+    "comparison_from": "C",
+    "time_observed_s": 7.067682,
+    "duration_s": 19.5,
+    "paused": true,
+    "error": null,
+    "source": "audiciones/practica-v2/03-voz-efectos-pulso-automatizado.mp4"
+  },
+  "library_filters": {
+    "music": 3,
+    "curiosity": 1,
+    "sfx": 8,
+    "history": 4,
+    "screenshot_inspected": true
+  },
+  "human_listening_by_agent": false,
+  "limits": [
+    "Reproducción y UI no prueban gusto, naturalidad o inteligibilidad."
+  ],
+  "library_preview_playback": {
+    "id": "BGM-CAND-SB-RESONANCE-ALT",
+    "duration_s": 20,
+    "time_observed_s": 0.121169,
+    "error": null,
+    "playing_observed": true,
+    "paused_after_check": true,
+    "human_listening_by_agent": false
+  },
+  "preview_seek_correction": {
+    "symptom": "Tres previews iniciales en silencio: fundidos se aplicaban antes del output seek.",
+    "fix": "Seek de entrada antes de filtros; ganancia medida sobre extracto; QA exige energía no nula.",
+    "prior_versions": "evidencia/biblioteca-antes-correccion-seek/",
+    "final_qa": "evidencia/validacion-biblioteca.json"
+  }
+}

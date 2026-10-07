@@ -1,0 +1,24 @@
+test_copy_receipt_keeps_distinct_source_and_adapted_hashes (__main__.PortableKitTests.test_copy_receipt_keeps_distinct_source_and_adapted_hashes) ... ok
+test_invalid_hook_does_not_pass_project_loading (__main__.PortableKitTests.test_invalid_hook_does_not_pass_project_loading) ... ok
+test_manifest_cannot_redirect_to_mac_or_parent (__main__.PortableKitTests.test_manifest_cannot_redirect_to_mac_or_parent) ... ok
+test_missing_sfx_plan_blocks_before_mix (__main__.PortableKitTests.test_missing_sfx_plan_blocks_before_mix) ... ok
+test_new_video_uses_design_without_inheriting_old_media_or_approval (__main__.PortableKitTests.test_new_video_uses_design_without_inheriting_old_media_or_approval) ... ok
+test_real_process_exclusion_and_release (__main__.PortableKitTests.test_real_process_exclusion_and_release) ... ok
+test_unknown_template_cannot_create_project (__main__.PortableKitTests.test_unknown_template_cannot_create_project) ... ok
+test_windows_branch_nonblocking_conflict (__main__.PortableKitTests.test_windows_branch_nonblocking_conflict) ... ok
+test_windows_branch_restores_position_and_unlocks (__main__.PortableKitTests.test_windows_branch_restores_position_and_unlocks) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.095s
+
+OK
+{
+  "project": "/var/folders/6l/43qq3fx50zvg_fpvlxhh3ttm0000gp/T/tmput4px6qp/proyecto/Nuevos-Videos/VIDEO-31",
+  "template": "Comic pop",
+  "stage": "prepared_not_composed"
+}
+{
+  "project": "/var/folders/6l/43qq3fx50zvg_fpvlxhh3ttm0000gp/T/tmpe13zv1g7/proyecto/Nuevos-Videos/VIDEO-31",
+  "template": "Comic pop",
+  "stage": "prepared_not_composed"
+}

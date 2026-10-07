@@ -1,0 +1,311 @@
+{
+  "captured_at": "2026-10-01T03:39:38.487448+00:00",
+  "scope": "26–30 preproduction, not an empty batch; source recording not identified by this inventory",
+  "videos": [
+    {
+      "video_id": "VIDEO-26",
+      "state": "preproduction_files_present_no_editable_or_render_in_inventory",
+      "profile_assignment": null,
+      "duration_s": null,
+      "complexity_before_edit": null,
+      "files": [
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/CHECKLIST_GRABACION.md",
+          "size_bytes": 4082,
+          "sha256": "9191dc23e4de8847e408996c6ff9393e66aafb0483d75e2de14ad5b04209da71"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/PLAN_BROLL.md",
+          "size_bytes": 1261,
+          "sha256": "91d5403bb41391cf7cb2d50f401933f81fcdcdbd7367cc0968361389f5dc83aa"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/PLAN_RECURSOS.md",
+          "size_bytes": 3400,
+          "sha256": "4e434d94ef58e9da9a2e665d641892d228d6e258a976f2dcd788d336afbd212f"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/audio/music/tech_pulse_114bpm_8bars.wav",
+          "size_bytes": 4850570,
+          "sha256": "da843fadc286facd564f4ee1bb50e70e343adab66d4a4742ba87f9b3d0766cf4"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/audio/sfx/03_ui_tick.wav",
+          "size_bytes": 12284,
+          "sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/audio/sfx/entry_velvet_bloom_soft_v01.wav",
+          "size_bytes": 83561,
+          "sha256": "88bf8c25e0c54160c79512fa4188ae25f990224d8ff4f01833be18b33fbf2c34"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/manifest.json",
+          "size_bytes": 18801,
+          "sha256": "402f38aeddf5afbb1ad4edeba39e48c788b4e0f6433b5971927fdde6713baa5a"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/visuals/video-26_broll_machine_reputation_research_v01.png",
+          "size_bytes": 2281984,
+          "sha256": "f87624bfc75d22be935c8c5167ff533717daae5b6aa246a1000b0469e47d5351"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/visuals/video-26_machine_reputation_research_background_v01.svg",
+          "size_bytes": 1391,
+          "sha256": "cfb7c8549e1d5df573f1243c18abd9695d5ae09f480f1e455369aea233f134f8"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/visuals/video-26_machine_reputation_research_overlay_v01.svg",
+          "size_bytes": 687,
+          "sha256": "d8530eb4d2552f989c3a27a62fec313983197b405dde354a4df196448c729d98"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-26/visuals/video-26_typographic_accent_v01.svg",
+          "size_bytes": 1028,
+          "sha256": "2e7aeeb186003401d3ba94e2f13dea32cd5930e87457b0ad4f153549994f8ca8"
+        }
+      ]
+    },
+    {
+      "video_id": "VIDEO-27",
+      "state": "preproduction_files_present_no_editable_or_render_in_inventory",
+      "profile_assignment": null,
+      "duration_s": null,
+      "complexity_before_edit": null,
+      "files": [
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/CHECKLIST_GRABACION.md",
+          "size_bytes": 4007,
+          "sha256": "1a02494447aaf02a6690a298d2f7b000ff6fe619637c184d1962ea619ff4ca65"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/PLAN_BROLL.md",
+          "size_bytes": 1258,
+          "sha256": "becd2e7fb613f8631be76611bc4b58595b0edfb7a7eb3e294a940528fb72bc4a"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/PLAN_RECURSOS.md",
+          "size_bytes": 3142,
+          "sha256": "bfb9a74d882fdf7604195d4e5e65d7bd6a86968cd1127316d5b63ccb2197b5fb"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/audio/sfx/04_soft_pop.wav",
+          "size_bytes": 23084,
+          "sha256": "e9608e96fbda0880eff19b9558d4d54855043462c0e48889ca165f8472442f67"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/audio/sfx/06_sequence.wav",
+          "size_bytes": 72044,
+          "sha256": "d63dc815a4724ad5175289db358f7a7e55c5eb84079c03d8d1be388d1b41c76b"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/manifest.json",
+          "size_bytes": 16223,
+          "sha256": "d5aaa76c84d5c7216a815336f18832ac7b2131ede27403f40207d0e805290383"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/visuals/video-27_broll_campaign_testing_darkroom_v01.png",
+          "size_bytes": 2440428,
+          "sha256": "76cb9b44da88c29ec1770e7a5b216a96a3c6f8002873f1bbb0410b7e13a449de"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/visuals/video-27_campaign_testing_darkroom_background_v01.svg",
+          "size_bytes": 1245,
+          "sha256": "960e83ac03c83925da2ff795a87b209ed41b0001b6ca5873167fe453203c0961"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/visuals/video-27_campaign_testing_darkroom_overlay_v01.svg",
+          "size_bytes": 549,
+          "sha256": "d27c54a2805ba12d5054cea499781bf92ab3ffa3c86cb3d3daceca2471cede1d"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-27/visuals/video-27_typographic_accent_v01.svg",
+          "size_bytes": 1257,
+          "sha256": "e6dfe82775da9ab30962338e63c079f9318e5a4f64e3453128c4a2c7a8e1c658"
+        }
+      ]
+    },
+    {
+      "video_id": "VIDEO-28",
+      "state": "preproduction_files_present_no_editable_or_render_in_inventory",
+      "profile_assignment": null,
+      "duration_s": null,
+      "complexity_before_edit": null,
+      "files": [
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/CHECKLIST_GRABACION.md",
+          "size_bytes": 4029,
+          "sha256": "def7ea1c37bcb92131a088c6b29b5aee0979960f061547de096a867fb25e1d32"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/PLAN_BROLL.md",
+          "size_bytes": 1249,
+          "sha256": "4eda0efb9d02dde06bb8049278623e0872dafcfe4ce045a157408ac34eb58c48"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/PLAN_RECURSOS.md",
+          "size_bytes": 3087,
+          "sha256": "bb12f1db9240206d92d03bd54555a155589826fe462aef1ccfe1b9936f723c6a"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/audio/sfx/05_low_accent.wav",
+          "size_bytes": 49004,
+          "sha256": "61d736682cd624d7dbdd52fa1be82429a794d5c359705571d5f920fe2bec1b10"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/audio/sfx/08_resolve.wav",
+          "size_bytes": 121004,
+          "sha256": "af644d105fc3a2bbf1d9a338b221336e0065361e017a6755a044867b0cafeab7"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/manifest.json",
+          "size_bytes": 16170,
+          "sha256": "151e1a569a341095f9ad99472db9109a44120e7808562659bff21c0e90a13011"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/visuals/video-28_broll_same_tool_different_learning_v01.png",
+          "size_bytes": 2131682,
+          "sha256": "06d82d312175380134a73b020b6d9c48481973c2dc2c8534decefbeb422bec44"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/visuals/video-28_same_tool_different_learning_background_v01.svg",
+          "size_bytes": 1174,
+          "sha256": "c8b5187c53711fd64259c9f7ea27d1e50e2579b371a3875e07ff6cb7265b6be0"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/visuals/video-28_same_tool_different_learning_overlay_v01.svg",
+          "size_bytes": 477,
+          "sha256": "9bb64002098d8657595f0d5ef77b9ca105fb4dafba85a74e5cc50199a86fe4ba"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-28/visuals/video-28_typographic_accent_v01.svg",
+          "size_bytes": 943,
+          "sha256": "357408edcb17781662cadd9aeee84c527767e6eb449b6bc405645eb64a892456"
+        }
+      ]
+    },
+    {
+      "video_id": "VIDEO-29",
+      "state": "preproduction_files_present_no_editable_or_render_in_inventory",
+      "profile_assignment": null,
+      "duration_s": null,
+      "complexity_before_edit": null,
+      "files": [
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/CHECKLIST_GRABACION.md",
+          "size_bytes": 4083,
+          "sha256": "2c5bcf796b1dc7819f33ad98af24344d72faa4def2752f4eb9b40f0e8acec3e1"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/PLAN_BROLL.md",
+          "size_bytes": 1233,
+          "sha256": "74a1a65b93b07c5c9e3d639013186b243b03c968eea0901002ea071971cfb3a5"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/PLAN_RECURSOS.md",
+          "size_bytes": 3029,
+          "sha256": "2ff96c2abe8acf641ffdee2f241594b22477aff05b595bbc1b0da5e50eba81eb"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/audio/sfx/03_ui_tick.wav",
+          "size_bytes": 12284,
+          "sha256": "3b694c087188fbda56629c6afb254762d10ad19638a9fd93fcbd71a4278c4088"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/audio/sfx/entry_warm_breath_lift_soft_v01.wav",
+          "size_bytes": 103724,
+          "sha256": "5c26a4fda6e737bfaf50be64f48445f287cea09005748288953965a006068774"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/manifest.json",
+          "size_bytes": 16176,
+          "sha256": "50e7d57eb5ca59479dc74f4c58537d8619860c2340db8e1e89b19798d068ed98"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/visuals/video-29_broll_teaching_builds_trust_v01.png",
+          "size_bytes": 2049174,
+          "sha256": "58f8ad02ad9804b8b0d3c92d863383f803b7acee744f67f4b3519a5e31038220"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/visuals/video-29_teaching_builds_trust_background_v01.svg",
+          "size_bytes": 1197,
+          "sha256": "8fb6228f98a6d081ec8d6c216decf21c75766db91cadc90444877202481287e3"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/visuals/video-29_teaching_builds_trust_overlay_v01.svg",
+          "size_bytes": 490,
+          "sha256": "adb1ff0c7bfeac24ae0dc041cfc97919519579dd99ab01aa115668741e5514d2"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-29/visuals/video-29_typographic_accent_v01.svg",
+          "size_bytes": 1043,
+          "sha256": "0e32f79eeefc9a23a4b71f1df859cf088a407490c8cae8b3408bc0ca3467a738"
+        }
+      ]
+    },
+    {
+      "video_id": "VIDEO-30",
+      "state": "preproduction_files_present_no_editable_or_render_in_inventory",
+      "profile_assignment": null,
+      "duration_s": null,
+      "complexity_before_edit": null,
+      "files": [
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/CHECKLIST_GRABACION.md",
+          "size_bytes": 4034,
+          "sha256": "bd3a5ad95577e580f40cc39d5900cd3d6eb805149130a37446f4f2993f910fa4"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/PLAN_BROLL.md",
+          "size_bytes": 1256,
+          "sha256": "2e187a155db6b165b43e25b19ff961883062eb2afe374f205f13404c0cdbe648"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/PLAN_RECURSOS.md",
+          "size_bytes": 3419,
+          "sha256": "15c2f1988280ab21692f1a1116d8dd5df65235ff9d2ee08349df14bbb05e95f5"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/audio/music/tech_pulse_114bpm_8bars.wav",
+          "size_bytes": 4850570,
+          "sha256": "da843fadc286facd564f4ee1bb50e70e343adab66d4a4742ba87f9b3d0766cf4"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/audio/sfx/07_loop_return.wav",
+          "size_bytes": 69164,
+          "sha256": "04e64bd0f6126a164c9cfd8145334c9c3b2a6c6d8693ad7fce470fc0a3738aa1"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/audio/sfx/motion_warm_slide_soft_v01.wav",
+          "size_bytes": 63404,
+          "sha256": "b05f51bb03a4b39f070a03a1c841d196b860c8fcdf76ac788fd36f36485b7fb4"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/manifest.json",
+          "size_bytes": 18706,
+          "sha256": "c88e3f746dbaa47c63f7b8fa0925ebaeb5fb8769f051cb2f60e687c22440e472"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/visuals/video-30_broll_generic_vs_accumulated_craft_v01.png",
+          "size_bytes": 1977619,
+          "sha256": "6452a92413512084cb98bcc148d97597d0b8220bc63a508950882d4e29f4338f"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/visuals/video-30_generic_vs_accumulated_craft_background_v01.svg",
+          "size_bytes": 1352,
+          "sha256": "7373aa1ba3c94ad1d0f64969c1cd588e0e69f6ace7723bbf579a999469588a9d"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/visuals/video-30_generic_vs_accumulated_craft_overlay_v01.svg",
+          "size_bytes": 645,
+          "sha256": "08723863d1dc8f99b37d3db68ce628bb1164a36d8965e885a0fd5cfbe79199b8"
+        },
+        {
+          "path": "Serie-IA-Negocios-10-Videos/VIDEO-30/visuals/video-30_typographic_accent_v01.svg",
+          "size_bytes": 932,
+          "sha256": "1aa208b5e97ded3c5ff43073fd42e0df7f72543cc154b38a4d78b5b933b2b186"
+        }
+      ]
+    }
+  ]
+}

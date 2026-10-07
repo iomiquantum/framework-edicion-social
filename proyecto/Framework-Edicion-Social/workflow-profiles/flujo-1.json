@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "version": "1.0.0",
+  "default": true,
+  "safety_floor_required": true,
+  "qa_passes": [
+    "visual_editorial",
+    "audio_rhythm",
+    "final_integration"
+  ],
+  "exact_export_qa_required": true,
+  "render_approval_required": true,
+  "specialized_voice_cleanup": "explicit_request_only",
+  "automatic_promotion": false,
+  "timing_helper": "scripts/medir_fases_edicion.py",
+  "process_timer": "scripts/medir_proceso.py",
+  "reuse_guard": "scripts/qa_reuse_context.py",
+  "evidence_report": "scripts/workflow_run.py",
+  "limits": "Execution profile selection does not approve media, authorize publication, or prove speed/quality. Existing skills and project rules remain applicable.",
+  "profile_id": "flujo-1",
+  "name": "Actual",
+  "status": "current_reference",
+  "creative_scope": "current_custom_editorial",
+  "execution": [
+    "Existing procedure; additive measurement only during trial"
+  ],
+  "baseline": "baseline/2026-09-30/manifest.json"
+}

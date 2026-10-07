@@ -1,0 +1,112 @@
+{
+  "id": "14",
+  "voice_file_sha256": "640e9265a0a2864f58f8079bc50be10ecfa15404e66e70d5c43275a763c08ab2",
+  "transcript_binding": "Serie-IA-Negocios-10-Videos/VIDEO-14/editable-hyperframes-video-14/assets/transcript.json",
+  "transcript_sha256": "9beaa2c6811cd604c8862109cb00bc7a1f3a749d6405c358e3f4d206f7e52077",
+  "method": {
+    "rms_window_s": 0.05,
+    "low_energy_threshold_dbfs": -42.35,
+    "pitch": "Praat autocorrelation75–400Hz,20ms; octave errors possible",
+    "interpretation": "Texto/contexto editorial; métricas no prueban emoción, defecto ni percepción."
+  },
+  "global": {
+    "start_s": 0,
+    "end_s": 23.26,
+    "text": "",
+    "words_per_s": 0.0,
+    "active_rms_median_dbfs": -27.37,
+    "active_rms_range_p90_p10_db": 16.18,
+    "f0_median_hz": 148.6,
+    "f0_p90_p10_semitones": 8.44,
+    "low_energy_fraction": 0.206
+  },
+  "low_energy_intervals_s": [
+    [
+      0,
+      0.2
+    ],
+    [
+      0.95,
+      1.1
+    ],
+    [
+      2.45,
+      3.1
+    ],
+    [
+      6.1,
+      6.7
+    ],
+    [
+      8.55,
+      8.7
+    ],
+    [
+      11.45,
+      11.75
+    ],
+    [
+      13.3,
+      13.95
+    ],
+    [
+      15.0,
+      15.15
+    ],
+    [
+      17.8,
+      18.5
+    ],
+    [
+      22.9,
+      23.26
+    ]
+  ],
+  "phrases": [
+    {
+      "start_s": 0.15,
+      "end_s": 2.76,
+      "text": "Tu mejor pront puede ser una conversación.",
+      "words_per_s": 2.68,
+      "active_rms_median_dbfs": -28.52,
+      "active_rms_range_p90_p10_db": 16.44,
+      "f0_median_hz": 155.5,
+      "f0_p90_p10_semitones": 10.72,
+      "low_energy_fraction": 0.212
+    },
+    {
+      "start_s": 2.76,
+      "end_s": 6.33,
+      "text": "Tu mejor pront de marketing puede no estar dentro de chat gtp.",
+      "words_per_s": 3.36,
+      "active_rms_median_dbfs": -27.94,
+      "active_rms_range_p90_p10_db": 14.82,
+      "f0_median_hz": 172.8,
+      "f0_p90_p10_semitones": 11.84,
+      "low_energy_fraction": 0.208
+    },
+    {
+      "start_s": 6.48,
+      "end_s": 13.6,
+      "text": "Puede estar en una conversación real donde un cliente te dice exactamente qué le preocupa, qué quiere y qué no entiende.",
+      "words_per_s": 2.95,
+      "active_rms_median_dbfs": -26.8,
+      "active_rms_range_p90_p10_db": 16.62,
+      "f0_median_hz": 150.0,
+      "f0_p90_p10_semitones": 7.38,
+      "low_energy_fraction": 0.155
+    },
+    {
+      "start_s": 13.6,
+      "end_s": 23.26,
+      "text": "El buen marketing muchas veces empieza escuchando mejor.¿Cuándo fue la última vez que hablaste con un cliente intentando no venderle?",
+      "words_per_s": 2.07,
+      "active_rms_median_dbfs": -27.4,
+      "active_rms_range_p90_p10_db": 16.04,
+      "f0_median_hz": 140.2,
+      "f0_p90_p10_semitones": 7.5,
+      "low_energy_fraction": 0.218
+    }
+  ],
+  "human_listening": "por confirmar"
+}

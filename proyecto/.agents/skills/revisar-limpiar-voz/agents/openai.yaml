@@ -1,0 +1,7 @@
+interface:
+  display_name: "Revisión y limpieza de voz"
+  short_description: "Limpieza de voz solo por solicitud del usuario"
+  default_prompt: "Usa $revisar-limpiar-voz para revisar el ruido de fondo de este video y comparar una limpieza que conserve mi voz."
+
+policy:
+  allow_implicit_invocation: false

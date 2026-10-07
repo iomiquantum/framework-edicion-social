@@ -1,0 +1,878 @@
+{
+  "schema_version": "1.0.0",
+  "framework_version": "1.6.3",
+  "rules": [
+    {
+      "id": "TRUTH_BEFORE_TREND",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "No inventar datos, marcas, citas, interfaces ni significado para seguir una tendencia.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-22",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-23"
+      }
+    },
+    {
+      "id": "FACE_AND_SPEECH_PROTECTION",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Mantener ojos, boca y voz inteligible; cualquier cruce facial debe ser deliberado y breve.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "talking_head"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-22",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-23"
+      }
+    },
+    {
+      "id": "PARTIAL_PHRASE_CORRECTION",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Cuando aparezca 'MARCADOR. Corregir, corregir. Última frase.', mantener abierta la toma, sustituir únicamente la frase inmediatamente anterior por la repetición completa posterior y verificar por escucha todos los límites antes de editar.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "talking_head"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [
+        "explicit_user_instruction_2026-09-25"
+      ],
+      "approval": {
+        "type": "explicit_user_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "SEMANTIC_EFFECTS_ONLY",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Cada imagen, corte, zoom, animación y sonido debe aclarar o reforzar una unidad del guion.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-22",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-23"
+      }
+    },
+    {
+      "id": "HOOK_UNDERSTANDABLE_FIRST_FRAME",
+      "version": "1.0.0",
+      "kind": "editorial_hypothesis",
+      "status": "candidate",
+      "instruction": "Probar una promesa o pregunta comprensible desde el primer fotograma y resolver su sentido antes del segundo 3.",
+      "scope": {
+        "platforms": [
+          "instagram_reels",
+          "tiktok",
+          "youtube_shorts"
+        ],
+        "topics": [
+          "ai_education",
+          "technology"
+        ],
+        "formats": [
+          "talking_head",
+          "explainer"
+        ],
+        "languages": [
+          "es"
+        ],
+        "regions": [
+          "LATAM"
+        ],
+        "exclude_when": [
+          "La promesa contradice o exagera el guion."
+        ]
+      },
+      "confidence": "provisional",
+      "review_due_at": "2026-10-07",
+      "evidence": [],
+      "experiment_ids": [],
+      "approval": null
+    },
+    {
+      "id": "PLATFORM_SAFE_ZONE_PREFLIGHT",
+      "version": "1.0.0",
+      "kind": "platform_requirement",
+      "status": "adopted",
+      "instruction": "Verificar texto, rostro y CTA en la guía o preview real de cada plataforma antes de exportar.",
+      "scope": {
+        "platforms": [
+          "instagram_reels",
+          "tiktok",
+          "youtube_shorts"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "vertical_video"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2026-10-23",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-23"
+      }
+    },
+    {
+      "id": "SPEECH_LED_CADENCE_EDITING",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Eliminar claqueta y espera; entrar normalmente 2–6 fotogramas antes del primer fonema, con 4 como valor predeterminado a 30 fps, y clasificar cada pausa por función antes de retirarla o comprimirla. Preservar fonemas, respiración natural, énfasis y continuidad gestual.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "talking_head",
+          "spoken_social_video"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "MASTER_INGEST_ONCE",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Inspeccionar y transcribir cada archivo maestro una sola vez, revisar un mapa compartido de tomas y distribuir proxies por VIDEO-NN; las tareas posteriores reutilizan esos artefactos y el render final vuelve al rango exacto del original.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "multi_take_batch",
+          "spoken_social_video"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "PREFLIGHT_BLOCKS_FORBIDDEN_ASSETS",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Ejecutar preflight antes de editar y renderizar; cualquier recurso rechazado, inelegible, deprecado, ausente, alterado o sin trazabilidad bloquea el avance hasta corregirse.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "QA_HARD_FAIL_BLOCKS_DELIVERY",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Cada render candidato requiere un scorecard con evidencia; un hard fail, un hard gate requerido sin ejecutar o una firma editorial pendiente impiden declarar la entrega lista.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "CREATIVE_BLUEPRINT_BEFORE_DECORATION",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Definir mensaje, hook, beats, arco emocional, descansos, protección facial y presupuestos de motion/SFX antes de decorar; cada recurso debe conservar trazabilidad hacia una unidad semántica.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "STYLE_SCORER_MAY_ABSTAIN",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Seleccionar estilo con señales y puntuación explicables; si ningún preset supera el umbral y el margen mínimos, abstenerse y pedir decisión editorial en vez de forzar un estilo incorrecto.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "ONE_WRITER_PER_VIDEO",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Cada VIDEO-NN debe tener un solo propietario de escritura activo y todo trabajo pesado debe respetar la capacidad registrada del equipo; los demás procesos trabajan en artefactos independientes o permanecen en espera.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "multi_video_batches",
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "DEPENDENCY_AWARE_DELTA_RENDER",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Antes de rehacer trabajo, calcular el impacto transitivo del cambio y la clave de caché de fuente, transcripción, cortes, estilo, activos y mezcla; invalidar únicamente las capas dependientes y efectuar después el QA global del archivo final.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "GOLDEN_MASTER_IS_IMMUTABLE",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Registrar cada máster aprobado mediante hash y metadatos estables; nunca sobrescribirlo ni reutilizar su aprobación para un archivo cuyo contenido o metadatos hayan cambiado.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "APPROVED_MASTER_BEFORE_PLATFORM_DERIVATIVES",
+      "version": "1.1.0",
+      "kind": "platform_requirement",
+      "status": "adopted",
+      "instruction": "Usar el máster de Instagram Reels aprobado y con contenido bloqueado como entrega social universal. Crear una versión adicional para TikTok o YouTube Shorts únicamente cuando exista una diferencia material documentada; conservar toma, cortes, voz, significado y activos, y adaptar solo el delta necesario.",
+      "scope": {
+        "platforms": [
+          "instagram_reels",
+          "tiktok",
+          "youtube_shorts"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "vertical_video"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2026-10-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "RENDER_VARIANTS_ONLY_FOR_MATERIAL_DIFFERENCE",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "No renderizar ni duplicar archivos por plataforma cuando resolución, encuadre, contenido, safe zones, CTA y especificaciones de entrega sean compatibles. Reutilizar exactamente el máster de Instagram y adaptar fuera del video título, copy, hashtags, portada y metadata. Una variante nueva exige una diferencia material documentada como duración, encuadre, safe zone incompatible, CTA exclusivo, restricción técnica o experimento creativo aprobado.",
+      "scope": {
+        "platforms": [
+          "instagram_reels",
+          "tiktok",
+          "youtube_shorts"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "vertical_video"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [
+        "explicit_user_instruction_2026-09-25",
+        "video_01_platform_variants_similarity_review_2026-09-25"
+      ],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "RECORDING_PREFLIGHT_BEFORE_INGEST",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Ejecutar un preflight técnico de solo lectura sobre cada grabación antes de transcribir o crear proxies; detener la ingesta ante ausencia de video/audio requerido, resolución, FPS o códecs incompatibles y registrar advertencias de VFR o color.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "recorded_source",
+          "multi_take_batch"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "PERFORMANCE_CONTEXT_BEFORE_RULE_PROMOTION",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Interpretar rendimiento solo junto con plataforma, ventana, distribución, audiencia y cohorte comparable; ninguna métrica ni revisión de desempeño puede promover automáticamente una regla creativa sin revisión humana.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "APPROVAL_RECEIPT_HASH_BOUND",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Registrar toda aprobación contra el SHA-256, tamaño, rol y alcance del archivo exacto; una aprobación de video no aprueba automáticamente su plantilla, activos, derivados ni una revisión posterior.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "HDR_EDITORIAL_SDR_DELIVERY_SEPARATION",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Conservar un mezzanine editorial HDR cuando corresponda y generar un máster social SDR BT.709 distinto y trazable; comprobar color, loudness y linaje en vez de cambiar únicamente etiquetas o reutilizar el mismo archivo.",
+      "scope": {
+        "platforms": [
+          "instagram_reels",
+          "tiktok",
+          "youtube_shorts"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "vertical_video"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "editorial_framework",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "EVIDENCE_SCOPED_LEARNING",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Aprender mediante evidencia versionada y con el alcance mínimo válido; separar hechos técnicos, aprobación creativa, preferencias y rendimiento, y exigir revisión humana antes de promover cualquier recomendación.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "SERIES_SEED_IS_REFERENCE_NOT_LAW",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Usar el primer video aprobado como semilla descriptiva; convertir una dimensión estable en default de serie solo tras dos videos aprobados distintos o una instrucción explícita, y recalibrar con revisión humana desde tres aprobaciones.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "multi_video_series"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "CONTEXTUAL_TEMPLATE_PORTFOLIO",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Mantener múltiples familias de plantillas y explorar de forma controlada estructura, formato, estilo, ritmo y transiciones; seleccionar por adecuación al mensaje y registrar linaje, sin declarar una ganadora universal ni congelar la creatividad.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "HASH_BOUND_DELTA_REVIEW",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Construir cada revisión desde el render, manifiesto, mapa de dependencias, blueprint, cambios y decisión vigentes ligados por SHA-256; expresar feedback como rango, capa, elemento e instrucción, renderizar primero el tramo afectado y conservar la aprobación final exclusivamente en un recibo independiente.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "SEMANTIC_REUSE_WITH_ADVISORY_FATIGUE",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Buscar activos por significado declarado antes de generar, deduplicar únicamente por SHA-256 exacto, excluir recursos rechazados o no reutilizables y tratar cooldowns y repetición como advertencias no bloqueantes; nunca presentar el ranking textual como similitud visual perceptual ni como aprobación creativa.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "CONTEXTUAL_RECIPE_REQUIRES_HUMAN_CHOICE",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Proponer como máximo tres recetas compatibles de hook, estructura, sistema visual, motion, sonido y CTA, con costo, cobertura y fatiga explicados; permitir abstención y registrar cualquier selección humana contra el plan exacto, sin promover automáticamente una familia ni atribuir dos veces el rendimiento de una receta híbrida.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "VERIFIED_SDR_PACKAGE_BEFORE_DERIVATIVES",
+      "version": "1.0.0",
+      "kind": "platform_requirement",
+      "status": "adopted",
+      "instruction": "Construir y sellar el paquete multicanal solo desde un máster social SDR aprobado cuyo linaje HDR, perfil técnico, content lock, catálogo y hashes se vuelvan a verificar; el paquete puede preparar derivados y briefs, pero nunca publicar automáticamente ni declarar listo un destino con gates pendientes.",
+      "scope": {
+        "platforms": [
+          "instagram_reels",
+          "tiktok",
+          "youtube_shorts"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "vertical_video"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2026-10-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "VERIFIED_PUBLICATION_BEFORE_COHORT_LEARNING",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Ingerir métricas solo cuando un registro conecte paquete, perfil, MP4 inspeccionado, control de entrega, evidencia local de publicación/captura y atribución creativa exactos; comparar contextos y ventanas compatibles con N por métrica e intersección, separar eficiencia verificada de producción y conservar explícito que SHA-256 prueba integridad local, no autenticidad remota ni causalidad.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "all"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-25",
+      "evidence": [],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-25"
+      }
+    },
+    {
+      "id": "CONTEXTUAL_REALISTIC_IMAGE_REPLACEMENT",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Inspeccionar imágenes contra la frase real y su función editorial. Si el recurso disponible no corresponde al contexto o se siente genérico, preferir una imagen nueva generada para esa escena; el banco es alternativa si contiene una opción adecuada. Buscar acabado fotográfico natural, microacción específica y coherencia de personas/objetos/luz; verificar anatomía, miradas, pantallas y encuadre. Conservar procedencia y prompt, sin prometer exclusividad o indetectabilidad ni tratar una ilustración como evidencia real. Aplicar IMAGENES_CONTEXTO_REALISMO.md.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "talking_head",
+          "vertical_video"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2027-03-30",
+      "evidence": [
+        "explicit_user_instruction_2026-09-30_VIDEO16_contextual_image_realism"
+      ],
+      "approval": {
+        "type": "explicit_user_instruction",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "id": "CAPTION_CONTEXTUAL_FORMAT_SELECTION",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Elegir formato y ubicación de captions por toma real, contexto y plantilla; registrar caption-decision.json usando SUBTITULOS_CONTEXTO_Y_LECTURA.md y captions/catalog.json. Mantener cobertura fiel de voz, no sustituirla por titulares o palabras sueltas. Los presets no están validados por rendimiento.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "vertical_video",
+          "talking_head"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2026-12-30",
+      "evidence": [
+        "CAP_TIKTOK_ACCESSIBILITY_CHI2024",
+        "CAP_W3C_SEMANTIC_COVERAGE",
+        "CAP_SOCIAL_REVIEW_CHI2026"
+      ],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "id": "CAPTION_MOBILE_READABILITY_AND_STABLE_LAYOUT",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Verificar una o dos líneas reales, contraste, separación entre nodos y lectura sin sonido a tamaño móvil. Mantener posición estable y énfasis selectivo; medir CPS para priorizar revisión, sin convertir presets numéricos en hard fails ni borrar palabras para pasar una métrica.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "vertical_video",
+          "talking_head"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2026-12-30",
+      "evidence": [
+        "CAP_SOUND_OFF_PLOS2024",
+        "CAP_NETFLIX_SPANISH_READING",
+        "CAP_W3C_CONTRAST"
+      ],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-30"
+      }
+    },
+    {
+      "id": "CAPTION_DESTINATION_UI_EVIDENCE",
+      "version": "1.0.0",
+      "kind": "principle",
+      "status": "adopted",
+      "instruction": "Diseñar la caja completa de captions fuera de rostro, gestos, acción e interfaz del destino. Revisar Instagram, Facebook y TikTok por separado antes de declarar listos esos destinos; perfiles internos y guías de anuncios no certifican UI orgánica. Si falta preview real, mantener pending sin falsear evidencia; la revisión editorial local puede continuar.",
+      "scope": {
+        "platforms": [
+          "all"
+        ],
+        "topics": [
+          "all"
+        ],
+        "formats": [
+          "vertical_video",
+          "talking_head"
+        ]
+      },
+      "confidence": "high",
+      "review_due_at": "2026-12-30",
+      "evidence": [
+        "CAP_TIKTOK_SAFE_ZONE_2026",
+        "CAP_META_REELS_ADS_GUIDE"
+      ],
+      "approval": {
+        "type": "explicit_user_framework_instruction",
+        "date": "2026-09-30"
+      }
+    }
+  ]
+}

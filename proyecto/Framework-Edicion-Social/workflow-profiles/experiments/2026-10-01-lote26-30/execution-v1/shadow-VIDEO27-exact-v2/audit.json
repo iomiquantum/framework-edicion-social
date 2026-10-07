@@ -1,0 +1,63 @@
+{
+  "at_utc": "2026-10-01T05:59:09.230411+00:00",
+  "reviewer": "/root/auditoria_flujos_26_30",
+  "status": "sampled_visual_and_technical_pass",
+  "export": {
+    "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/entrega/VIDEO-27-ENTREGA-HLG-v2.mp4",
+    "sha256": "ab462f09e2ead4c1fc6cdb5f66627e43f782d1670c041a215c357341045e0a35"
+  },
+  "exact_frames_inspected": 60,
+  "caption_cues_covered": 13,
+  "contact_sheets_inspected": 7,
+  "scope": "Hojas existentes del MP4 exacto; todos los cues y estados/transiciones críticos, sin nueva extracción o fullcheck.",
+  "observations": [
+    "Cierre amarillo oculto hasta su estado; no color futuro detrás del presentador en las muestras.",
+    "Se conservan captions protagonistas, iconos pertinentes de textos/imágenes/videos/segmentaciones, onda, presenter con gestos libres y cierre. Endpoint pairs sin doble cue ni residuos observados.",
+    "Paridad AAC completa y tres eventos SFX acreditados por recibo."
+  ],
+  "evidence": [
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/entrega/VIDEO-27-ENTREGA-HLG-v2.mp4",
+      "sha256": "ab462f09e2ead4c1fc6cdb5f66627e43f782d1670c041a215c357341045e0a35"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/qa/exact-export-review-v2.json",
+      "sha256": "ae2c061ebdb7e4369a66db72174d906cd8194f3754e6808dcca08d7a040fef9c"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/qa/exact-frames-v2/contact-1.jpg",
+      "sha256": "22528a5367e65c508ffefd5aedcd9224fe16174e073736a891262916ed4336aa"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/qa/exact-frames-v2/contact-2.jpg",
+      "sha256": "f1211e16946e0fd6504bd64c5f211d6e4f570078e488b68d7bb789e648d689f4"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/qa/exact-frames-v2/contact-3.jpg",
+      "sha256": "061d603269fff5e2f848c285f24516c2d372c69cd496866519bd44c162e05255"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/qa/exact-frames-v2/contact-4.jpg",
+      "sha256": "ac0297caa86c4ac6a013c07a7210a5d5aa5efd436997ac67461c83616aa4e1b6"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/qa/exact-frames-v2/contact-5.jpg",
+      "sha256": "d65be7bd8a2525089f7dedabb26ea04ab69c7b6f659639d96dd24487a8d9e499"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/qa/exact-frames-v2/contact-6.jpg",
+      "sha256": "a43906ce84f03e54c09aebef017cbb89852cac846342dd1000dc85081e6d4130"
+    },
+    {
+      "path": "/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Serie-IA-Negocios-10-Videos/VIDEO-27/editable-hyperframes-video-27/qa/exact-frames-v2/contact-7.jpg",
+      "sha256": "504add6ce3a25d26d4ac2164c30255e73a0c7b589eaaf4f9bd93188a7d3785a1"
+    }
+  ],
+  "minor_shadow_escaped_defects": 0,
+  "minor_shadow_defects_remaining": 0,
+  "critical_escaped_defects": 0,
+  "human_listened": false,
+  "continuous_playback": false,
+  "editorial_user_approval": "no inferida",
+  "physical_mobile_and_platform_review": "por confirmar"
+}

@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-01T05:28:08.357056+00:00",
+  "interval_start": "2026-10-01T05:27:32.694054+00:00",
+  "interval_end": "2026-10-01T05:27:32.942210+00:00",
+  "seconds": 0.248156,
+  "scope": "toolinvocation writingdraft/readingtimers only",
+  "draft_generation_before_start": "not_measured",
+  "not_claimed": "complete reasoning/writingcost"
+}

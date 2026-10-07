@@ -1,0 +1,97 @@
+{
+  "status": "LISTA_PARA_ESCUCHA",
+  "first_trials": 5,
+  "new_long_trials": 6,
+  "technical_media_verified": 87,
+  "bandlimited_mono_additional": 6,
+  "speech_recognition_complete": 8,
+  "speech_recognition_acts": 32,
+  "known_asr_context_discrepancy": "Full longA/C duplicated transcript; source voice retained, common acts reproduce baseline without those loops. Full results retained. Not used as proof of perception.",
+  "native_playback": "Six new mixes, five earlier mixes, chapters/comparison/layers checked; no auditory listening by agent.",
+  "sources_and_previous_renders_preserved": true,
+  "voice_common_exact_gain": true,
+  "license_and_source_bindings": true,
+  "catalog_candidates": 6,
+  "original_sfx": 8,
+  "new_sfx_candidates": 8,
+  "links": [
+    {
+      "page": "index.html",
+      "href": "variantes.html"
+    },
+    {
+      "page": "index.html",
+      "href": "CREDITOS.md"
+    },
+    {
+      "page": "index.html",
+      "href": "PROCESO.md"
+    },
+    {
+      "page": "index.html",
+      "href": "manifest.json"
+    },
+    {
+      "page": "variantes.html",
+      "href": "index.html"
+    },
+    {
+      "page": "variantes.html",
+      "href": "CREDITOS_VARIANTES.md"
+    },
+    {
+      "page": "variantes.html",
+      "href": "PROCESO_VARIANTES.md"
+    }
+  ],
+  "remaining": "Escucha perceptual, elección de versiones/timbre/naturalidad en dispositivo real y feedback por momento. No pérdida física de voz ni otro fallo técnico conocido pendiente.",
+  "not_claimed": [
+    "No posibilidad de mejora futura",
+    "Escucha por agente",
+    "Aprobación global",
+    "Eficacia de audiencia",
+    "Prueba en teléfono real"
+  ],
+  "coverage_files": [
+    {
+      "path": "plan-mezcla.json",
+      "sha256": "5c0636019db31fae4d4d5ba2a5a6bcdc88d01e0d5dd4e6f4beda0f494e1a165e"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "d108478ef0682632cbcc45750641882b5c8453b7a104baa01d2edd599558fee5"
+    },
+    {
+      "path": "variantes-largas/plan.json",
+      "sha256": "bfe7577423775265b27fb6e217fdc6c354a31e185c15e19a8600af47b5ff8a58"
+    },
+    {
+      "path": "variantes-largas/manifest.json",
+      "sha256": "fae5117204c3eb597fc9f3693c204e7c61a19d1b977252700d38ed339d14aac1"
+    },
+    {
+      "path": "variantes-largas/validacion-entrega.json",
+      "sha256": "0c64ad6d83409267d7386c9d90a5486c2160492bdb4c239a7ff21f0057a825a1"
+    },
+    {
+      "path": "variantes-largas/asr-qa/results.json",
+      "sha256": "81c0cefeb9e64a9e4f6b12698ef919696d74c49312ce442c4657f4e3db8f0087"
+    },
+    {
+      "path": "variantes-largas/asr-por-actos/results.json",
+      "sha256": "fa76a87bac9cc2443d28ce025a6dce25e6b06171a9d66134166a54936bc45f51"
+    },
+    {
+      "path": "variantes-largas/validacion-ui.json",
+      "sha256": "f5b18867cfc59b332a89661e1d78072f818740ca2fda37423a03979592843b43"
+    },
+    {
+      "path": "PROCESO_VARIANTES.md",
+      "sha256": "d5d49c95982403bfefc42c3f83fbf786a25d85f3e053642b6f1eb5688714b50c"
+    },
+    {
+      "path": "variantes.html",
+      "sha256": "0c996113cfe26ad03511844c85044f08ec4fbcd0f3c17c31317e706f044cfaec"
+    }
+  ]
+}

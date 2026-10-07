@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "id": "STYLE_003_IMMERSIVE_WELLNESS",
+  "version": "1.0.0",
+  "status": "testing",
+  "canvas": {"width": 720, "height": 1280, "fps": 30, "aspect_ratio": "9:16"},
+  "palette": {
+    "navy": "#0C1323",
+    "teal": "#42D6C7",
+    "cyan": "#63CBEA",
+    "lilac": "#A88BFF",
+    "coral": "#FF8178",
+    "sand": "#F3E5CF",
+    "white": "#F7FBFF"
+  },
+  "typography": {
+    "family": "SF Pro Display, Helvetica Neue, Arial, sans-serif",
+    "caption_weight": 940,
+    "caption_size_px": 43,
+    "uppercase": true,
+    "max_caption_lines": 2
+  },
+  "layout": {
+    "caption_bottom_px": 210,
+    "caption_width_px": 618,
+    "protected_face_percent": {"x0": 30, "y0": 20, "x1": 70, "y1": 50},
+    "reserved_right_percent": 18,
+    "prefer_full_screen_conceptual_cutaways": true
+  },
+  "limits": {
+    "max_face_crossing_transition_s": 0.4,
+    "max_aroll_scale": 1.1,
+    "medical_claims_allowed": false,
+    "invented_brands_allowed": false
+  }
+}

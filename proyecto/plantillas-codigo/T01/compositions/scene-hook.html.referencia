@@ -1,0 +1,7 @@
+<!doctype html><html><body><template>
+<style>
+#root{position:absolute;inset:0;color:#f6f4ee;font-family:"Arial Black",Arial,sans-serif;pointer-events:none}.eyebrow{position:absolute;top:210px;left:84px;padding:14px 24px;border-radius:999px;background:#101321;color:#2ed3c7;font:700 26px SFMono-Regular,monospace;letter-spacing:.09em}.title{position:absolute;top:292px;left:64px;width:952px;padding:34px 30px 38px;border-radius:30px;background:rgba(16,19,33,.91);font-size:78px;line-height:.94;letter-spacing:-.05em;text-shadow:0 8px 30px rgba(0,0,0,.28)}.title span{color:#ff6b6b}.rule{position:absolute;top:552px;left:94px;width:250px;height:11px;border-radius:6px;background:linear-gradient(90deg,#756bff,#2ed3c7)}
+</style>
+<div id="root" data-composition-id="scene-hook" data-width="1080" data-height="1920"><div class="eyebrow">PRODUCTIVIDAD + IA</div><div class="title">LA IA <span>NO</span> TE<br>AHORRA TIEMPO</div><div class="rule"></div></div>
+<script>const tl=gsap.timeline({paused:true});tl.fromTo(".eyebrow",{opacity:0,y:-18},{opacity:1,y:0,duration:.32,ease:"power2.out"},.08).fromTo(".title",{opacity:0,y:34},{opacity:1,y:0,duration:.48,ease:"power3.out"},.22).fromTo(".title span",{scale:.75,display:"inline-block"},{scale:1,duration:.52,ease:"back.out(1.8)"},.55).fromTo(".rule",{scaleX:0,transformOrigin:"0 50%"},{scaleX:1,duration:.55,ease:"power2.out"},.48);window.__timelines["scene-hook"]=tl;</script>
+</template></body></html>

@@ -1,0 +1,147 @@
+load_backend: loaded BLAS backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-blas.so
+ggml_metal_device_init: tensor API disabled for pre-M5 and pre-A19 devices
+ggml_metal_library_init: using embedded metal library
+ggml_metal_library_compile_all: compiled 'fa' library in 0.059 sec
+ggml_metal_library_compile_all: compiled 'mul_mv' library in 0.012 sec
+ggml_metal_library_compile_all: compiled 'mul_mm' library in 0.063 sec
+ggml_metal_library_compile_all: compiled 'quantize' library in 0.067 sec
+ggml_metal_library_compile_all: compiled 'softmax' library in 0.067 sec
+ggml_metal_library_compile_all: compiled 'norm' library in 0.004 sec
+ggml_metal_library_compile_all: compiled 'unary' library in 0.005 sec
+ggml_metal_library_compile_all: compiled 'binbcast' library in 0.006 sec
+ggml_metal_library_compile_all: compiled 'reduce' library in 0.063 sec
+ggml_metal_library_compile_all: compiled 'tri' library in 0.064 sec
+ggml_metal_library_compile_all: compiled 'ssm' library in 0.068 sec
+ggml_metal_library_compile_all: compiled 'wkv' library in 0.006 sec
+ggml_metal_library_compile_all: compiled 'gated_delta_net' library in 0.003 sec
+ggml_metal_library_compile_all: compiled 'solve_tri' library in 0.067 sec
+ggml_metal_library_compile_all: compiled 'rope' library in 0.004 sec
+ggml_metal_library_compile_all: compiled 'conv' library in 0.068 sec
+ggml_metal_library_compile_all: compiled 'upscale' library in 0.064 sec
+ggml_metal_library_compile_all: compiled 'argsort' library in 0.066 sec
+ggml_metal_library_compile_all: compiled 'pool' library in 0.005 sec
+ggml_metal_library_compile_all: compiled 'misc' library in 0.006 sec
+ggml_metal_library_compile_all: loaded 20 libraries from embedded data in 0.068 sec (max single = 0.068 sec)
+ggml_metal_rsets_init: creating a residency set collection (keep_alive = 180 s)
+ggml_metal_device_init: GPU name:   MTL0 (Apple M4)
+ggml_metal_device_init: GPU family: MTLGPUFamilyApple9  (1009)
+ggml_metal_device_init: GPU family: MTLGPUFamilyCommon3 (3003)
+ggml_metal_device_init: GPU family: MTLGPUFamilyMetal4  (5002)
+ggml_metal_device_init: simdgroup reduction   = true
+ggml_metal_device_init: simdgroup matrix mul. = true
+ggml_metal_device_init: has unified memory    = true
+ggml_metal_device_init: has bfloat            = true
+ggml_metal_device_init: has tensor            = false
+ggml_metal_device_init: use residency sets    = true
+ggml_metal_device_init: use shared buffers    = true
+ggml_metal_device_init: recommendedMaxWorkingSetSize  = 12713.12 MB
+load_backend: loaded MTL backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-metal.so
+load_backend: loaded CPU backend from /opt/homebrew/Cellar/ggml/0.24.0/libexec/libggml-cpu-apple_m4.so
+whisper_init_from_file_with_params_no_state: loading model from '/Users/iomijhondavid/.cache/hyperframes/whisper/models/ggml-large-v3.bin'
+whisper_init_with_params_no_state: use gpu    = 1
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 0
+whisper_init_with_params_no_state: dtw        = 0
+whisper_init_with_params_no_state: devices    = 3
+whisper_init_with_params_no_state: backends   = 3
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51866
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 1280
+whisper_model_load: n_audio_head  = 20
+whisper_model_load: n_audio_layer = 32
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 1280
+whisper_model_load: n_text_head   = 20
+whisper_model_load: n_text_layer  = 32
+whisper_model_load: n_mels        = 128
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 5 (large v3)
+whisper_model_load: adding 1609 extra tokens
+whisper_model_load: n_langs       = 100
+whisper_model_load:         MTL0 total size =  3094.36 MB
+whisper_model_load: model size    = 3094.36 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+ggml_metal_init: allocating
+ggml_metal_init: found device: Apple M4
+ggml_metal_init: picking default device: Apple M4
+ggml_metal_init: use fusion         = true
+ggml_metal_init: use concurrency    = true
+ggml_metal_init: use graph optimize = true
+whisper_backend_init: using BLAS backend
+whisper_init_state: kv self size  =   83.89 MB
+whisper_init_state: kv cross size =  251.66 MB
+whisper_init_state: kv pad  size  =    7.86 MB
+whisper_init_state: compute buffer (conv)   =   37.69 MB
+whisper_init_state: compute buffer (encode) =   67.49 MB
+whisper_init_state: compute buffer (cross)  =  132.15 MB
+whisper_init_state: compute buffer (decode) =  100.04 MB
+read_audio_data: reading audio data from '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/asr-qa/largo-159-C.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 4 / 10 | WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+main: processing '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/asr-qa/largo-159-C.wav' (2540768 samples, 158.8 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = es, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:01.880]   ¿Qué te cuesta más en tu negocio?
+[00:00:02.360 --> 00:00:04.820]   Conseguir atención o convertirla en ventas.
+[00:00:05.460 --> 00:00:08.740]   Una campaña bonita no corrige una oferta que nadie quiere.
+[00:00:09.280 --> 00:00:13.100]   Y publicar más por sí solo tampoco garantiza resolverlo.
+[00:00:13.520 --> 00:00:17.620]   La inteligencia artificial está llenando Internet de contenido genérico.
+[00:00:18.580 --> 00:00:20.720]   Cuando producir contenido se vuelve fácil,
+[00:00:21.140 --> 00:00:24.020]   el volumen deja de ser suficiente para diferenciarte.
+[00:00:24.500 --> 00:00:27.700]   Pero tu cliente no compra la herramienta que utilizas.
+[00:00:27.700 --> 00:00:29.800]   Le importa que respondas rápido.
+[00:00:30.300 --> 00:00:33.220]   Que cumplas lo prometido y que soluciones su problema.
+[00:00:33.920 --> 00:00:36.700]   Esa es la diferencia que cambia donde tienes que empezar.
+[00:00:37.680 --> 00:00:42.980]   ChatGPT puede saber muchísimo de marketing y casi nada de tu cliente.
+[00:00:43.420 --> 00:00:48.160]   No escuchó sus llamadas, sus objeciones, ni por qué decidió no comprarte.
+[00:00:49.060 --> 00:00:54.120]   Antes de pedirle respuestas, reúne evidencia de tu cliente y úsala para darle contexto.
+[00:00:54.120 --> 00:00:58.960]   A veces, tu mejor prompt empieza en una conversación real con un cliente.
+[00:00:59.320 --> 00:00:59.980]   Ahí empiezas.
+[00:01:00.000 --> 00:01:01.800]   Esa es tu verdadera ventaja.
+[00:01:01.800 --> 00:01:09.460]   No en usar la herramienta de moda, sino en tus clientes, tus datos, tu experiencia y todo lo que tu negocio ya aprendió.
+[00:01:10.000 --> 00:01:13.920]   Si ese conocimiento vive solamente en tu cabeza, tienes un problema.
+[00:01:13.920 --> 00:01:17.340]   No porque debas regalárselo a una inteligencia artificial,
+[00:01:17.340 --> 00:01:23.440]   sino porque todavía no lo convertiste en un activo reutilizable que no dependa siempre de ti.
+[00:01:23.440 --> 00:01:28.320]   Convertir esa experiencia en un sistema no significa dejar de pensar.
+[00:01:28.320 --> 00:01:29.400]   La inteligencia artificial es una herramienta que te puede ayudar a cambiar tu vida.
+[00:01:29.400 --> 00:01:29.800]   La inteligencia artificial es una herramienta que te puede ayudar a cambiar tu vida.
+[00:01:29.800 --> 00:01:29.900]   La inteligencia artificial es una herramienta que te puede ayudar a cambiar tu vida.
+[00:01:29.900 --> 00:01:29.900]   La inteligencia artificial es una herramienta que te puede ayudar a cambiar tu vida.
+[00:01:29.900 --> 00:01:29.900]   La inteligencia artificial es una herramienta que te puede ayudar a cambiar tu vida.
+[00:01:29.900 --> 00:01:33.100]   Debería aumentar tu criterio, no reemplazarlo.
+[00:01:33.100 --> 00:01:36.500]   Y antes de automatizar, revisa tus procesos.
+[00:01:36.500 --> 00:01:42.580]   Si son malos, la información está desordenada y nadie mide resultados.
+[00:01:42.580 --> 00:01:47.300]   La inteligencia artificial puede hacer el desorden mucho más rápido.
+[00:01:47.300 --> 00:01:55.600]   Automatizar algo que todavía no entiendes puede significar repetir a mayor velocidad algo que ya estaba mal.
+[00:01:55.600 --> 00:01:59.800]   Y si la herramienta te da más trabajo del que te quita, todavía no tienes.
+[00:01:59.800 --> 00:02:00.100]   Y si la herramienta te da más trabajo del que te quita, todavía no tienes.
+[00:02:00.100 --> 00:02:01.100]   Y si la herramienta te da más trabajo del que te quita, todavía no tienes.
+[00:02:01.100 --> 00:02:06.800]   Entonces, quizá no necesitas comprar otro curso ni guardar otras 10 ideas.
+[00:02:06.800 --> 00:02:10.000]   Si ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.
+[00:02:10.000 --> 00:02:12.400]   Si ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.
+[00:02:12.400 --> 00:02:16.400]   Si ya tienes información útil y todavía no la aplicas, quizá el siguiente paso no sea acumular más, sino convertir ese conocimiento en acción.
+[00:02:16.400 --> 00:02:18.600]   Elige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.
+[00:02:18.600 --> 00:02:22.600]   Elige un problema, reúne la evidencia que ya tienes y prueba una mejora concreta.
+[00:02:22.600 --> 00:02:26.300]   Una sola. Mídela antes de automatizarla.
+[00:02:26.300 --> 00:02:30.000]   Ahora sí, vuelve a la pregunta correcta.
+[00:02:30.000 --> 00:02:38.700]   Si mañana tuvieras una inteligencia artificial perfecta, ¿qué problema de tu cliente o de tu proceso comercial resolverías primero?
+output_txt: saving output to '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/asr-qa/largo-159-C.txt'
+output_json: saving output to '/Users/iomijhondavid/Documents/Codex/Edicion de Videos/Framework-Edicion-Social/research/prueba-mezcla-voz-2026-09-30/variantes-largas/asr-qa/largo-159-C.json'
+
+whisper_print_timings:     load time =  1597.25 ms
+whisper_print_timings:     fallbacks =   1 p /   0 h
+whisper_print_timings:      mel time =    68.14 ms
+whisper_print_timings:   sample time =  3074.01 ms /  5328 runs (     0.58 ms per run)
+whisper_print_timings:   encode time = 11329.42 ms /     6 runs (  1888.24 ms per run)
+whisper_print_timings:   decode time =  3117.14 ms /   107 runs (    29.13 ms per run)
+whisper_print_timings:   batchd time = 41787.37 ms /  5194 runs (     8.05 ms per run)
+whisper_print_timings:   prompt time =  1749.76 ms /  1265 runs (     1.38 ms per run)
+whisper_print_timings:    total time = 63251.77 ms
+ggml_metal_free: deallocating

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "attribution_id": "ATTR-CC2B24EE018D090C",
+  "project_id": "PROJECT-EXAMPLE",
+  "video_id": "VIDEO-00",
+  "selected_at": "2026-09-24T10:00:00Z",
+  "selection_basis": "explicit_human_selection",
+  "selected_by_reference": "human:replace-with-review-or-approval-reference",
+  "plan": {
+    "path": "Framework-Edicion-Social/templates/creative-recipe-plan.json",
+    "sha256": "b82770831edfd4b7e816860b673cf23b411824ee1d2b3e6df21184c9779b13a2",
+    "plan_id": "RECIPE-PLAN-CBP-VIDEO-00-V1"
+  },
+  "selection": {
+    "option_id": "OPTION-A",
+    "recipe_id": "RECIPE-CBP-VIDEO-00-V1-2051B4BB1DFB",
+    "primary_family_id": "FAMILY-CLEAN-AUTHORITY",
+    "hybrid": true,
+    "contributing_family_ids": [
+      "FAMILY-CLEAN-AUTHORITY",
+      "FAMILY-EDITORIAL-LOOP"
+    ],
+    "module_ids": {
+      "hook": "HOOK-CONTRARIAN-OUTCOME",
+      "structure": "STRUCT-CLAIM-PROOF-ACTION",
+      "visual_system": "VIS-NEGATIVE-SPACE-EDITORIAL",
+      "motion": "MOTION-SEMANTIC-PUNCHIN",
+      "sound": "SOUND-SOFT-PUNCTUATION",
+      "cta": "CTA-REFLECTIVE-QUESTION"
+    }
+  },
+  "governance": {
+    "performance_causality_claimed": false,
+    "automatic_family_credit": false,
+    "human_selection_required": true
+  }
+}
