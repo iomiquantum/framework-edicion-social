@@ -1,0 +1,36 @@
+{
+  "date_local": "2026-10-06",
+  "commit_verified": "787d4a3be5fab943c358891395e827ba73022c90",
+  "url": "https://github.com/iomiquantum/framework-edicion-social/archive/refs/heads/main.zip",
+  "archive_sha256": "f671736e1c3185bfefe18d792f4ccfaf1d4b11fd0f15f973b4d41d835eef9a11",
+  "archive_bytes": 194520183,
+  "archive_MB_decimal": 194.52,
+  "files_compared": 1983,
+  "git_blob_mismatches": [],
+  "excluded_personal_or_video_files_found": [],
+  "mac_launcher_modes_in_zip": {
+    "ABRIR CODEX.command": "0o755",
+    "INICIO MAC.command": "0o755",
+    "INICIO Y CONFIGURACION DE FRAMEWORK.command": "0o755",
+    "editar.command": "0o755"
+  },
+  "python_tests_passed": 46,
+  "javascript_contract_tests": "pass",
+  "downloaded_mac_launcher": "Started via bash in extracted fresh folder; double-click/Gatekeeper not tested",
+  "empty_registries_created": true,
+  "session_reused": true,
+  "backend_routes_http": {
+    "/guia": 200,
+    "/grabacion": 200,
+    "/asistente/progreso.js": 200,
+    "/api/progress/guia": 200
+  },
+  "elapsed_download_and_validation_seconds": 14.9,
+  "temporary_download_and_extraction_removed_after_validation": true,
+  "windows_native_execution": "not tested",
+  "verification_notes": [
+    "Initial Python HTTPS download could not validate its local CA store; downloaded with system curl and normal TLS verification instead.",
+    "The verification harness compares resolved paths because macOS aliases /var and /private/var."
+  ],
+  "status": "pass"
+}

@@ -3,7 +3,7 @@
   "repository": "https://github.com/iomiquantum/framework-edicion-social",
   "visibility": "public",
   "authorization": "User explicitly requested upload to own GitHub and selected public access.",
-  "status": "repository_created_preparing_initial_upload",
+  "status": "published_and_archive_verified",
   "branch": "main",
   "download_url": "https://github.com/iomiquantum/framework-edicion-social/archive/refs/heads/main.zip",
   "payload": "Portable delivery only; no original Mac checkout, old videos, current student progress, sessions or installed runtimes.",
@@ -13,7 +13,13 @@
     "credential_pattern_findings": 0,
     "scope": "Pattern-based scan; not a claim of exhaustive secret detection."
   },
-  "archive_verification": "pending",
+  "archive_verification": "pass",
   "native_windows_installation": "pending",
-  "native_clean_mac_installation": "pending"
+  "native_clean_mac_installation": "pending",
+  "verified_runtime_commit": "787d4a3be5fab943c358891395e827ba73022c90",
+  "verification_receipt": "evidencia/verificacion-zip-github.json",
+  "tests_log": "evidencia/tests-github-zip.log",
+  "public_download_without_authentication": true,
+  "verified_zip_MB_decimal": 194.52,
+  "verification_scope": "Public GitHub ZIP of the initial published commit; subsequent commit only adds documentary validation receipts and updates bitacora/hash metadata. Native Windows and clean-machine installations remain pending."
 }

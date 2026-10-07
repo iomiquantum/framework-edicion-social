@@ -5,6 +5,7 @@
 - Repositorio público `iomiquantum/framework-edicion-social`, elegido expresamente por el usuario. README con descarga ZIP directa y pasos de inicio.
 - Git se inicializa solo en esta entrega; excluye MI-PROGRESO, sesiones, runtimes, resultados y nuevos medios/trabajos. Framework original de Mac intacto.
 - Lanzadores Windows guardados con CRLF; lanzadores Mac con LF y permiso ejecutable. `.gitattributes` conserva los bytes de archivos y recibos al clonar o descargar el ZIP.
+- Publicación y ZIP público verificados: 1.983 archivos idénticos al commit inicial, 46 tests Python y contratos JS PASS en la copia descargada. Arranque Mac mediante bash y rutas de ambas guías PASS; permisos 755 conservados. ZIP aproximado 195 MB; temporales retirados. La validación nativa Windows y la instalación limpia siguen pendientes.
 - Inventario inicial y revisión por patrones sin credenciales detectadas. Fuentes, atribuciones y licencias de recursos conservadas. Resultado de subida/descarga en `evidencia/publicacion-github.json`; validación nativa en equipos limpios todavía pendiente.
 
 ## 2.1.0 — 2026-10-06 — Guías para alumnos y progreso en la carpeta

@@ -29,8 +29,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "573db423a23620fc8fa7b343c9eabdc8b516518b6d036abd371ab9aa7700e3d3",
-      "bytes": 6216
+      "sha256": "5925dab0078aa25909c333da8b19de8a49f2ff5c613ff941151d2b710e40cef3",
+      "bytes": 6566
     },
     {
       "path": "CONFIGURAR-PC-A.cmd",
@@ -279,7 +279,7 @@
     },
     {
       "path": "evidencia/manifiesto-copia.json",
-      "sha256": "3fcecad0fb863c6b61619987080038b126117991a15f2f6c6c58826862242db5",
+      "sha256": "534e072d650da14988d919bff2cb2c193993596d650dc71cd467719151169b1f",
       "bytes": 563773
     },
     {
@@ -309,8 +309,8 @@
     },
     {
       "path": "evidencia/publicacion-github.json",
-      "sha256": "835e47b30bc9d2dd4fd00d14764479c79d94ddcb2d9328eed0cf7bd2731baad4",
-      "bytes": 876
+      "sha256": "3a0fa21af305ffd84cbe8eef2144e8bd38e9532c5ac63fc32e1b7a3abe7a5263",
+      "bytes": 1374
     },
     {
       "path": "evidencia/reduccion-2026-10-06.json",
@@ -329,8 +329,8 @@
     },
     {
       "path": "evidencia/resumen-entrega.json",
-      "sha256": "9de626a5a4e6be9b55c1c662a226f7ce56f6bb1ac137453bd1becd2dfd61d6f2",
-      "bytes": 2500
+      "sha256": "aebdda4dfde4e78d4abecbc524524b4aebe58fccc9aa11a7e13b8f97bcb70e1f",
+      "bytes": 2499
     },
     {
       "path": "evidencia/skills-incluidas.json",
@@ -388,6 +388,11 @@
       "bytes": 429
     },
     {
+      "path": "evidencia/tests-github-zip.log",
+      "sha256": "7b890dc34d94315b71d6d6f195a55bc8ff674d4b6a92b4124f23cbb7ba85b6e4",
+      "bytes": 6442
+    },
+    {
       "path": "evidencia/tests-guia-js.log",
       "sha256": "51c375b6b6ff79780d8ec001c2141946b8a057a2a3978bacebbbc2f2a91783ee",
       "bytes": 163
@@ -441,6 +446,11 @@
       "path": "evidencia/verificacion-transferencia.log",
       "sha256": "1c7ac185ad60132dd499b6f695134b097ae8d979ce409b45d754adc9b8ad2e67",
       "bytes": 47
+    },
+    {
+      "path": "evidencia/verificacion-zip-github.json",
+      "sha256": "3c5e69afe3f7faaafdba51ab1e5681a819d5582bca445d5e4ef9fb164ff6354f",
+      "bytes": 1482
     },
     {
       "path": "evidencia/versiones-consultadas-asistente.json",
